@@ -1,0 +1,548 @@
+{
+  "Aspects of the Crucible: Bloom": {
+    "name": "Aspects of the Crucible: Bloom",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Bloom",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Aspects of the Crucible: Thorns": {
+    "name": "Aspects of the Crucible: Thorns",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Thorns",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Bayle's Flame Lightning": {
+    "name": "Bayle's Flame Lightning",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Bayle%27s+Flame+Lightning",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Bayle's Tyranny": {
+    "name": "Bayle's Tyranny",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Bayle%27s+Tyranny",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Divine Beast Tornado": {
+    "name": "Divine Beast Tornado",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Tornado",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Divine Bird Feathers": {
+    "name": "Divine Bird Feathers",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Feathers",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Dragonbolt of Florissax": {
+    "name": "Dragonbolt of Florissax",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dragonbolt+of+Florissax",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Electrocharge": {
+    "name": "Electrocharge",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Electrocharge",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Fire Serpent": {
+    "name": "Fire Serpent",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Serpent",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Furious Blade of Ansbach": {
+    "name": "Furious Blade of Ansbach",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Furious+Blade+of+Ansbach",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Ghostflame Breath": {
+    "name": "Ghostflame Breath",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ghostflame+Breath",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Giant Golden Arc": {
+    "name": "Giant Golden Arc",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Giant+Golden+Arc",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Golden Arcs": {
+    "name": "Golden Arcs",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Golden+Arcs",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Heal from Afar": {
+    "name": "Heal from Afar",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Heal+from+Afar",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Knight's Lightning Spear": {
+    "name": "Knight's Lightning Spear",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Knight%27s+Lightning+Spear",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Land of Shadow": {
+    "name": "Land of Shadow",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Land+of+Shadow",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Light of Miquella": {
+    "name": "Light of Miquella",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Light+of+Miquella",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Midra's Flame of Frenzy": {
+    "name": "Midra's Flame of Frenzy",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Midra%27s+Flame+of+Frenzy",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Messmer's Orb": {
+    "name": "Messmer's Orb",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer%27s+Orb",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Minor Erdtree": {
+    "name": "Minor Erdtree",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Minor+Erdtree",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Multilayered Ring of Light": {
+    "name": "Multilayered Ring of Light",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Multilayered+Ring+of+Light",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Pest-Thread Spears": {
+    "name": "Pest-Thread Spears",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Pest-Thread+Spears",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Rain of Fire": {
+    "name": "Rain of Fire",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rain+of+Fire",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Roar of Rugalea": {
+    "name": "Roar of Rugalea",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Roar+of+Rugalea",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Rotten Butterflies": {
+    "name": "Rotten Butterflies",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rotten+Butterflies",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Spira": {
+    "name": "Spira",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Spira",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Watchful Spirit": {
+    "name": "Watchful Spirit",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Watchful+Spirit",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Wrath from Afar": {
+    "name": "Wrath from Afar",
+    "category": "Incantations",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Wrath+from+Afar",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Blades of Stone": {
+    "name": "Blades of Stone",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Blades+of+Stone",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Cherishing Fingers": {
+    "name": "Cherishing Fingers",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Cherishing+Fingers",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Fleeting Microcosm": {
+    "name": "Fleeting Microcosm",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fleeting+Microcosm",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Glintblade Trio": {
+    "name": "Glintblade Trio",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Glintblade+Trio",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Glintstone Nail": {
+    "name": "Glintstone Nail",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Glintblade+Nail",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Glintstone Nails": {
+    "name": "Glintstone Nails",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Glintstone+Nails",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Gravitational Missile": {
+    "name": "Gravitational Missile",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravitational+Missile",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Impenetrable Thorns": {
+    "name": "Impenetrable Thorns",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Impenetrable+Thorns",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Mantle of Thorns": {
+    "name": "Mantle of Thorns",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Mantle+of+Thorns",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Mass of Putrescence": {
+    "name": "Mass of Putrescence",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Mass+of+Putrescence",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Miriam's Vanashing": {
+    "name": "Miriam's Vanashing",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Miriam's+Vanishing",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Rellana's Twin Moons": {
+    "name": "Rellana's Twin Moons",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana%27s+Twin+Moons",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Rings of Spectral Light": {
+    "name": "Rings of Spectral Light",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rings+of+Spectral+Light",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Vortex of Putrescence": {
+    "name": "Vortex of Putrescence",
+    "category": "Sorceries",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Vortex+of+Putrescence",
+    "fp_cost": null,
+    "slots": null,
+    "requirements": {
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  }
+}

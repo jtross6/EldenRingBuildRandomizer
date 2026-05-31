@@ -1,0 +1,2977 @@
+{
+  "Black Knight Helm": {
+    "name": "Black Knight Helm",
+    "set": "Black Knight Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Black Knight Armor": {
+    "name": "Black Knight Armor",
+    "set": "Black Knight Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Black Knight Gauntlets": {
+    "name": "Black Knight Gauntlets",
+    "set": "Black Knight Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Black Knight Greaves": {
+    "name": "Black Knight Greaves",
+    "set": "Black Knight Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Caterpillar Mask": {
+    "name": "Caterpillar Mask",
+    "set": "Hornsent Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Caterpillar+Mask",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Braided Cord Robe": {
+    "name": "Braided Cord Robe",
+    "set": "Hornsent Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Braided+Cord+Robe",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Braided Arm Wraps": {
+    "name": "Braided Arm Wraps",
+    "set": "Hornsent Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Braided+Arm+Wraps",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Common Soldier Helm": {
+    "name": "Common Soldier Helm",
+    "set": "Common Soldier Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Common Soldier Cloth Armor": {
+    "name": "Common Soldier Cloth Armor",
+    "set": "Common Soldier Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Cloth+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Common Soldier Gauntlets": {
+    "name": "Common Soldier Gauntlets",
+    "set": "Common Soldier Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Common Soldier Greaves": {
+    "name": "Common Soldier Greaves",
+    "set": "Common Soldier Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Curseblade Mask": {
+    "name": "Curseblade Mask",
+    "set": "Ascetic's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Curseblade+Mask",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Ascetic's Loincloth": {
+    "name": "Ascetic's Loincloth",
+    "set": "Ascetic's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ascetic's+Loincloth",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Ascetic's Wrist Guards": {
+    "name": "Ascetic's Wrist Guards",
+    "set": "Ascetic's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ascetic's+Wrist+Guards",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Ascetic's Ankle Guards": {
+    "name": "Ascetic's Ankle Guards",
+    "set": "Ascetic's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ascetic's+Ankle+Guards",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dancer's Hood": {
+    "name": "Dancer's Hood",
+    "set": "Dancer's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Hood",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dancer's Dress": {
+    "name": "Dancer's Dress",
+    "set": "Dancer's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Dress",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dancer's Bracer": {
+    "name": "Dancer's Bracer",
+    "set": "Dancer's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Bracer",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dancer's Trousers": {
+    "name": "Dancer's Trousers",
+    "set": "Dancer's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Trousers",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dane's Hat": {
+    "name": "Dane's Hat",
+    "set": "Dane's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dane's+Hat",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dryleaf Robe": {
+    "name": "Dryleaf Robe",
+    "set": "Dane's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Robe",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dryleaf Arm Wraps": {
+    "name": "Dryleaf Arm Wraps",
+    "set": "Dane's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Arm+Wraps",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Dryleaf Cuissardes": {
+    "name": "Dryleaf Cuissardes",
+    "set": "Dane's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Cuissardes",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Death Knight Helm": {
+    "name": "Death Knight Helm",
+    "set": "Death Knight Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Death Knight Armor": {
+    "name": "Death Knight Armor",
+    "set": "Death Knight Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Death Knight Gauntlets": {
+    "name": "Death Knight Gauntlets",
+    "set": "Death Knight Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Death Knight Greaves": {
+    "name": "Death Knight Greaves",
+    "set": "Death Knight Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Divine Beast Helm": {
+    "name": "Divine Beast Helm",
+    "set": "Divine Beast Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Divine Beast Warrior Armor": {
+    "name": "Divine Beast Warrior Armor",
+    "set": "Divine Beast Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Warrior+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Divine Bird Helm": {
+    "name": "Divine Bird Helm",
+    "set": "Divine Bird Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Divine Bird Warrior Armor": {
+    "name": "Divine Bird Warrior Armor",
+    "set": "Divine Bird Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Divine Bird Warrior Gauntlets": {
+    "name": "Divine Bird Warrior Gauntlets",
+    "set": "Divine Bird Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Divine Bird Warrior Greaves": {
+    "name": "Divine Bird Warrior Greaves",
+    "set": "Divine Bird Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Fang Helm": {
+    "name": "Fang Helm",
+    "set": "Iron Rivet Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fang+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Iron Rivet Armor": {
+    "name": "Iron Rivet Armor",
+    "set": "Iron Rivet Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Iron Rivet Gauntlets": {
+    "name": "Iron Rivet Gauntlets",
+    "set": "Iron Rivet Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Iron Rivet Greaves": {
+    "name": "Iron Rivet Greaves",
+    "set": "Iron Rivet Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Fire Knight Helm": {
+    "name": "Fire Knight Helm",
+    "set": "Fire Knight Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Fire Knight Armor": {
+    "name": "Fire Knight Armor",
+    "set": "Fire Knight Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Fire Knight Gauntlets": {
+    "name": "Fire Knight Gauntlets",
+    "set": "Fire Knight Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Fire Knight Greaves": {
+    "name": "Fire Knight Greaves",
+    "set": "Fire Knight Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Freyja's Helm": {
+    "name": "Freyja's Helm",
+    "set": "Freyja's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Freyja's Armor": {
+    "name": "Freyja's Armor",
+    "set": "Freyja's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Freyja's Gauntlets": {
+    "name": "Freyja's Gauntlets",
+    "set": "Freyja's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Freyja's Greaves": {
+    "name": "Freyja's Greaves",
+    "set": "Freyja's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gaius's Helm": {
+    "name": "Gaius's Helm",
+    "set": "Gaius's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gaius's Armor": {
+    "name": "Gaius's Armor",
+    "set": "Gaius's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gaius's Gauntlets": {
+    "name": "Gaius's Gauntlets",
+    "set": "Gaius's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gaius's Greaves": {
+    "name": "Gaius's Greaves",
+    "set": "Gaius's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gravebird Helm": {
+    "name": "Gravebird Helm",
+    "set": "Gravebird Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gravebird Armor": {
+    "name": "Gravebird Armor",
+    "set": "Gravebird Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gravebird's Blackquill Armor": {
+    "name": "Gravebird's Blackquill Armor",
+    "set": "Gravebird Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird's+Blackquill+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gravebird Bracelets": {
+    "name": "Gravebird Bracelets",
+    "set": "Gravebird Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Bracelets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gravebird Anklets": {
+    "name": "Gravebird Anklets",
+    "set": "Gravebird Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Anklets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Helm of Night": {
+    "name": "Helm of Night",
+    "set": "Night Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Helm+of+Night",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Armor of Night": {
+    "name": "Armor of Night",
+    "set": "Night Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Armor+of+Night",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gauntlets of Night": {
+    "name": "Gauntlets of Night",
+    "set": "Night Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gauntlets+of+Night",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Greaves of Night": {
+    "name": "Greaves of Night",
+    "set": "Night Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Greaves+of+Night",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Helm of Solitude": {
+    "name": "Helm of Solitude",
+    "set": "Solitude Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Helm+of+Solitude",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Armor of Solitude": {
+    "name": "Armor of Solitude",
+    "set": "Solitude Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Armor+of+Solitude",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gauntlets of Solitude": {
+    "name": "Gauntlets of Solitude",
+    "set": "Solitude Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gauntlets+of+Solitude",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Greaves of Solitude": {
+    "name": "Greaves of Solitude",
+    "set": "Solitude Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Greaves+of+Solitude",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "High Priest Hat": {
+    "name": "High Priest Hat",
+    "set": "High Priest Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Hat",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "High Priest Robe": {
+    "name": "High Priest Robe",
+    "set": "High Priest Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Robe",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "High Priest Gloves": {
+    "name": "High Priest Gloves",
+    "set": "High Priest Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Gloves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "High Priest Undergarments": {
+    "name": "High Priest Undergarments",
+    "set": "High Priest Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Undergarments",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Horned Warrior Helm": {
+    "name": "Horned Warrior Helm",
+    "set": "Horned Warrior Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Horned Warrior Armor": {
+    "name": "Horned Warrior Armor",
+    "set": "Horned Warrior Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Horned Warrior Gauntlets": {
+    "name": "Horned Warrior Gauntlets",
+    "set": "Horned Warrior Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Horned Warrior Greaves": {
+    "name": "Horned Warrior Greaves",
+    "set": "Horned Warrior Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Igon's Helm": {
+    "name": "Igon's Helm",
+    "set": "Igon's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Igon's Armor": {
+    "name": "Igon's Armor",
+    "set": "Igon's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Igon's Gauntlets": {
+    "name": "Igon's Gauntlets",
+    "set": "Igon's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Igon's Loincloth": {
+    "name": "Igon's Loincloth",
+    "set": "Igon's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Loincloth",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Leather Headband": {
+    "name": "Leather Headband",
+    "set": "Highland Warrior Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Leather+Headband",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Gloried Attire": {
+    "name": "Gloried Attire",
+    "set": "Highland Warrior Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gloried+Attire",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Highland Attire": {
+    "name": "Highland Attire",
+    "set": "Highland Warrior Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Highland+Attire",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Leather Arm Wraps": {
+    "name": "Leather Arm Wraps",
+    "set": "Highland Warrior Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Leather+Arm+Wraps",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Leather Leg Wraps": {
+    "name": "Leather Leg Wraps",
+    "set": "Highland Warrior Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Leather+Leg+Wraps",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer Soldier Helm": {
+    "name": "Messmer Soldier Helm",
+    "set": "Messmer Soldier Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer Soldier Armor": {
+    "name": "Messmer Soldier Armor",
+    "set": "Messmer Soldier Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer Soldier Gauntlets": {
+    "name": "Messmer Soldier Gauntlets",
+    "set": "Messmer Soldier Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer Soldier Greaves": {
+    "name": "Messmer Soldier Greaves",
+    "set": "Messmer Soldier Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer's Helm": {
+    "name": "Messmer's Helm",
+    "set": "Messmer's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer's Armor": {
+    "name": "Messmer's Armor",
+    "set": "Messmer's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer's Gauntlets": {
+    "name": "Messmer's Gauntlets",
+    "set": "Messmer's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Messmer's Greaves": {
+    "name": "Messmer's Greaves",
+    "set": "Messmer's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Oathseeker Knight Helm": {
+    "name": "Oathseeker Knight Helm",
+    "set": "Oathseeker Knight Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Oathseeker Knight Armor": {
+    "name": "Oathseeker Knight Armor",
+    "set": "Oathseeker Knight Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Oathseeker Knight Gauntlets": {
+    "name": "Oathseeker Knight Gauntlets",
+    "set": "Oathseeker Knight Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Oathseeker Knight Greaves": {
+    "name": "Oathseeker Knight Greaves",
+    "set": "Oathseeker Knight Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rakshasa Helm": {
+    "name": "Rakshasa Helm",
+    "set": "Rakshasa Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rakshasa Armor": {
+    "name": "Rakshasa Armor",
+    "set": "Rakshasa Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rakshasa Gauntlets": {
+    "name": "Rakshasa Gauntlets",
+    "set": "Rakshasa Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rakshasa Greaves": {
+    "name": "Rakshasa Greaves",
+    "set": "Rakshasa Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rellana's Helm": {
+    "name": "Rellana's Helm",
+    "set": "Rellana's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rellana's Armor": {
+    "name": "Rellana's Armor",
+    "set": "Rellana's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rellana's Gloves": {
+    "name": "Rellana's Gloves",
+    "set": "Rellana's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Gloves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Rellana's Greaves": {
+    "name": "Rellana's Greaves",
+    "set": "Rellana's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Shadow Militiaman Helm": {
+    "name": "Shadow Militiaman Helm",
+    "set": "Shadow Militiaman Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Shadow Militiaman Armor": {
+    "name": "Shadow Militiaman Armor",
+    "set": "Shadow Militiaman Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Shadow Militiaman Gauntlets": {
+    "name": "Shadow Militiaman Gauntlets",
+    "set": "Shadow Militiaman Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Shadow Militiaman Greaves": {
+    "name": "Shadow Militiaman Greaves",
+    "set": "Shadow Militiaman Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Thiollier's Mask": {
+    "name": "Thiollier's Mask",
+    "set": "Thiollier's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Mask",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Thiollier's Garb": {
+    "name": "Thiollier's Garb",
+    "set": "Thiollier's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Garb",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Thiollier's Gloves": {
+    "name": "Thiollier's Gloves",
+    "set": "Thiollier's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Gloves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Thiollier's Trousers": {
+    "name": "Thiollier's Trousers",
+    "set": "Thiollier's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Trousers",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Verdigris Helm": {
+    "name": "Verdigris Helm",
+    "set": "Verdigris Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Verdigris Armor": {
+    "name": "Verdigris Armor",
+    "set": "Verdigris Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Verdigris Gauntlets": {
+    "name": "Verdigris Gauntlets",
+    "set": "Verdigris Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Verdigris Greaves": {
+    "name": "Verdigris Greaves",
+    "set": "Verdigris Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Wise Man's Mask": {
+    "name": "Wise Man's Mask",
+    "set": "Ansbach's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Wise+Man's+Mask",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Ansbach's Attire": {
+    "name": "Ansbach's Attire",
+    "set": "Ansbach's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach's+Attire",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Ansbach's Manchettes": {
+    "name": "Ansbach's Manchettes",
+    "set": "Ansbach's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach's+Manchettes",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Ansbach's Boots": {
+    "name": "Ansbach's Boots",
+    "set": "Ansbach's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach's+Boots",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Young Lion's Helm": {
+    "name": "Young Lion's Helm",
+    "set": "Young Lion's Set",
+    "category": "Head",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Helm",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Young Lion's Armor": {
+    "name": "Young Lion's Armor",
+    "set": "Young Lion's Set",
+    "category": "Body",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Armor",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Young Lion's Gauntlets": {
+    "name": "Young Lion's Gauntlets",
+    "set": "Young Lion's Set",
+    "category": "Arms",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Gauntlets",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  },
+  "Young Lion's Greaves": {
+    "name": "Young Lion's Greaves",
+    "set": "Young Lion's Set",
+    "category": "Legs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Greaves",
+    "weight": null,
+    "absorptions": {
+      "physical": null,
+      "strike": null,
+      "slash": null,
+      "pierce": null,
+      "magic": null,
+      "fire": null,
+      "lightning": null,
+      "holy": null
+    },
+    "resistances": {
+      "immunity": null,
+      "robustness": null,
+      "focus": null,
+      "vitality": null,
+      "poise": null
+    },
+    "description": null
+  }
+}

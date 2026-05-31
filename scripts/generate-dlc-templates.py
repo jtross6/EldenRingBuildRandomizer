@@ -14,7 +14,7 @@ from pathlib import Path
 
 TRACKER_BASE = (
     "https://raw.githubusercontent.com/cranberriez/shadow-otet-tracker"
-    "/main/src/data"
+    "/master/src/data"
 )
 OUT_DIR = Path("data/dlc")
 

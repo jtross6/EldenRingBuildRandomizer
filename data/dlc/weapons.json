@@ -1,0 +1,2960 @@
+{
+  "Death Knight's Twin Axes": {
+    "name": "Death Knight's Twin Axes",
+    "category": "Axes",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight%27s+Twin+Axes",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Forked-Tongue Hatchet": {
+    "name": "Forked-Tongue Hatchet",
+    "category": "Axes",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Forked-Tongue+Hatchet",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Smithscript Axe": {
+    "name": "Smithscript Axe",
+    "category": "Axes",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Axe",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Messmer Soldier's Axe": {
+    "name": "Messmer Soldier's Axe",
+    "category": "Axes",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier%27s+Axe",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Backhand Blade": {
+    "name": "Backhand Blade",
+    "category": "Backhand Blades",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Backhand+Blade",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Smithscript Cirque": {
+    "name": "Smithscript Cirque",
+    "category": "Backhand Blades",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Cirque",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Curseblade's Cirque": {
+    "name": "Curseblade's Cirque",
+    "category": "Backhand Blades",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Curseblade%27s+Cirque",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Rabbath's Cannon": {
+    "name": "Rabbath's Cannon",
+    "category": "Ballistas",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rabbath%27s+Cannon",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Claws of Night": {
+    "name": "Claws of Night",
+    "category": "Beast Claws",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Claws+of+Night",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Red Bear's Claw": {
+    "name": "Red Bear's Claw",
+    "category": "Beast Claws",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Red+Bear%27s+Claw",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Beast Claw (Weapon)": {
+    "name": "Beast Claw (Weapon)",
+    "category": "Beast Claws",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Beast+Claw+(Weapon)",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Ansbach's Longbow": {
+    "name": "Ansbach's Longbow",
+    "category": "Bows",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach%27s+Longbow",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Fire Knight's Greatsword": {
+    "name": "Fire Knight's Greatsword",
+    "category": "Colossal Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight%27s+Greatsword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Ancient Meteoric Ore Greatsword": {
+    "name": "Ancient Meteoric Ore Greatsword",
+    "category": "Colossal Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Ancient+Meteoric+Ore+Greatsword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Greatsword of Radahn (Lord)": {
+    "name": "Greatsword of Radahn (Lord)",
+    "category": "Colossal Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Lord)",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Greatsword of Radahn (Light)": {
+    "name": "Greatsword of Radahn (Light)",
+    "category": "Colossal Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Light)",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Moonrithyll's Knight Sword": {
+    "name": "Moonrithyll's Knight Sword",
+    "category": "Colossal Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Moonrithyll%27s+Knight+Sword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Bloodfiend's Arm": {
+    "name": "Bloodfiend's Arm",
+    "category": "Colossal Weapons",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Bloodfiend%27s+Arm",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Anvil Hammer": {
+    "name": "Anvil Hammer",
+    "category": "Colossal Weapons",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Anvil+Hammer",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Devonia's Hammer": {
+    "name": "Devonia's Hammer",
+    "category": "Colossal Weapons",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Devonia%27s+Hammer",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Shadow Sunflower Blossom": {
+    "name": "Shadow Sunflower Blossom",
+    "category": "Colossal Weapons",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Sunflower+Blossom",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Gazing Finger": {
+    "name": "Gazing Finger",
+    "category": "Colossal Weapons",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Gazing+Finger",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Repeating Crossbow": {
+    "name": "Repeating Crossbow",
+    "category": "Crossbows",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Repeating+Crossbow",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Spread Crossbow": {
+    "name": "Spread Crossbow",
+    "category": "Crossbows",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Spread+Crossbow",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Horned Warrior's Greatsword": {
+    "name": "Horned Warrior's Greatsword",
+    "category": "Curved Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior%27s+Greatsword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Freyja's Greatsword": {
+    "name": "Freyja's Greatsword",
+    "category": "Curved Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja%27s+Greatsword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Spirit Sword": {
+    "name": "Spirit Sword",
+    "category": "Curved Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Spirit+Sword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Falx": {
+    "name": "Falx",
+    "category": "Curved Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Falx",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Dancing Blade of Ranah": {
+    "name": "Dancing Blade of Ranah",
+    "category": "Curved Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancing+Blade+of+Ranah",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Horned Warrior's Sword": {
+    "name": "Horned Warrior's Sword",
+    "category": "Curved Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior%27s+Sword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Main-gauche": {
+    "name": "Main-gauche",
+    "category": "Daggers",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Main-gauche",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Pata": {
+    "name": "Pata",
+    "category": "Fists",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Pata",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Golem Fist": {
+    "name": "Golem Fist",
+    "category": "Fists",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Golem+Fist",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Thiollier's Hidden Needle": {
+    "name": "Thiollier's Hidden Needle",
+    "category": "Fists",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier%27s+Hidden+Needle",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Poisoned Hand": {
+    "name": "Poisoned Hand",
+    "category": "Fists",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Poisoned+Hand",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Madding Hand": {
+    "name": "Madding Hand",
+    "category": "Fists",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Madding+Hand",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Serpent Flail": {
+    "name": "Serpent Flail",
+    "category": "Flails",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Serpent+Flail",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Staff of the Great Beyond": {
+    "name": "Staff of the Great Beyond",
+    "category": "Glinstone Staffs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Staff+of+the+Great+Beyond",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Maternal Staff": {
+    "name": "Maternal Staff",
+    "category": "Glinstone Staffs",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Maternal+Staff",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Putrescence Cleaver": {
+    "name": "Putrescence Cleaver",
+    "category": "Greataxes",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Putrescence+Cleaver",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Death Knight's Longhaft Axe": {
+    "name": "Death Knight's Longhaft Axe",
+    "category": "Greataxes",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight%27s+Longhaft+Axe",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Bonny Butchering Knife": {
+    "name": "Bonny Butchering Knife",
+    "category": "Greataxes",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Bonny+Butchering+Knife",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Igon's Greatbow": {
+    "name": "Igon's Greatbow",
+    "category": "Greatbows",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon%27s+Greatbow",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Black Steel Greathammer": {
+    "name": "Black Steel Greathammer",
+    "category": "Great Hammers",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Steel+Greathammer",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Smithscript Greathammer": {
+    "name": "Smithscript Greathammer",
+    "category": "Great Hammers",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Greathammer",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Great Katana": {
+    "name": "Great Katana",
+    "category": "Great Katanas",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Great+Katana",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Dragon-Hunter's Great Katana": {
+    "name": "Dragon-Hunter's Great Katana",
+    "category": "Great Katanas",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dragon-Hunter%27s+Great+Katana",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Rakshasa's Great Katana": {
+    "name": "Rakshasa's Great Katana",
+    "category": "Great Katanas",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa%27s+Great+Katana",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Bloodfiend's Sacred Spear": {
+    "name": "Bloodfiend's Sacred Spear",
+    "category": "Great Spears",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Bloodfiend%27s+Sacred+Spear",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Messmer Soldier's Spear": {
+    "name": "Messmer Soldier's Spear",
+    "category": "Great Spears",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier%27s+Spear",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Spear of the Impaler": {
+    "name": "Spear of the Impaler",
+    "category": "Great Spears",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Spear+of+the+Impaler",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Barbed Staff-Spear": {
+    "name": "Barbed Staff-Spear",
+    "category": "Great Spears",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Barbed+Staff-Spear",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Lizard Greatsword": {
+    "name": "Lizard Greatsword",
+    "category": "Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Lizard+Greatsword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Greatsword of Damnation": {
+    "name": "Greatsword of Damnation",
+    "category": "Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Damnation",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Greatsword of Solitude": {
+    "name": "Greatsword of Solitude",
+    "category": "Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Solitude",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Spirit Glaive": {
+    "name": "Spirit Glaive",
+    "category": "Halberds",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Spirit+Glaive",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Poleblade of the Bud": {
+    "name": "Poleblade of the Bud",
+    "category": "Halberds",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Poleblade+of+the+Bud",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Flowerstone Gavel": {
+    "name": "Flowerstone Gavel",
+    "category": "Hammers",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Flowerstone+Gavel",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Dryleaf Arts": {
+    "name": "Dryleaf Arts",
+    "category": "Hand-to-Hand Arts",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Arts",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Dane's Footwork": {
+    "name": "Dane's Footwork",
+    "category": "Hand-to-Hand Arts",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dane%27s+Footwork",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Sword Lance": {
+    "name": "Sword Lance",
+    "category": "Heavy Thrusting Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+Lance",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Queelign's Greatsword": {
+    "name": "Queelign's Greatsword",
+    "category": "Heavy Thrusting Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Queelign%27s+Greatsword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Star-Lined Sword": {
+    "name": "Star-Lined Sword",
+    "category": "Katanas",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Star-Lined+Sword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Sword of Night": {
+    "name": "Sword of Night",
+    "category": "Katanas",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+of+Night",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Bone Bow": {
+    "name": "Bone Bow",
+    "category": "Light Bows",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Bone+Bow",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Milady": {
+    "name": "Milady",
+    "category": "Light Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Milady",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Leda's Sword": {
+    "name": "Leda's Sword",
+    "category": "Light Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Leda%27s+Sword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Rellana's Twin Blades": {
+    "name": "Rellana's Twin Blades",
+    "category": "Light Greatswords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana%27s+Twin+Blades",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Firespark Perfume Bottle": {
+    "name": "Firespark Perfume Bottle",
+    "category": "Perfume Bottles",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Firespark+Perfume+Bottle",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Chilling Perfume Bottle": {
+    "name": "Chilling Perfume Bottle",
+    "category": "Perfume Bottles",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Chilling+Perfume+Bottle",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Frenzyflame Perfume Bottle": {
+    "name": "Frenzyflame Perfume Bottle",
+    "category": "Perfume Bottles",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Frenzyflame+Perfume+Bottle",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Lightning Perfume Bottle": {
+    "name": "Lightning Perfume Bottle",
+    "category": "Perfume Bottles",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Lightning+Perfume+Bottle",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Deadly Poison Perfume Bottle": {
+    "name": "Deadly Poison Perfume Bottle",
+    "category": "Perfume Bottles",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Deadly+Poison+Perfume+Bottle",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Obsidian Lamina": {
+    "name": "Obsidian Lamina",
+    "category": "Reapers",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Obsidian+Lamina",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Dryleaf Seal": {
+    "name": "Dryleaf Seal",
+    "category": "Sacred Seals",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Seal",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Fire Knight's Seal": {
+    "name": "Fire Knight's Seal",
+    "category": "Sacred Seals",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight%27s+Seal",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Spiraltree Seal": {
+    "name": "Spiraltree Seal",
+    "category": "Sacred Seals",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Spiraltree+Seal",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Smithscript Spear": {
+    "name": "Smithscript Spear",
+    "category": "Spears",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Spear",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Swift Spear": {
+    "name": "Swift Spear",
+    "category": "Spears",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Swift+Spear",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Bloodfiend's Fork": {
+    "name": "Bloodfiend's Fork",
+    "category": "Spears",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Bloodfiend%27s+Fork",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Fire Knight's Shortsword": {
+    "name": "Fire Knight's Shortsword",
+    "category": "Straight Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight%27s+Shortsword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Velvet Sword of St Trina": {
+    "name": "Velvet Sword of St Trina",
+    "category": "Straight Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Velvet+Sword+of+St+Trina",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Stone-Sheathed Sword": {
+    "name": "Stone-Sheathed Sword",
+    "category": "Straight Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Stone-Sheathed+Sword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Sword of Light": {
+    "name": "Sword of Light",
+    "category": "Straight Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+of+Light",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Sword of Darkness": {
+    "name": "Sword of Darkness",
+    "category": "Straight Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+of+Darkness",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Smithscript Dagger": {
+    "name": "Smithscript Dagger",
+    "category": "Throwing Blades",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Dagger",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Dueling Shield": {
+    "name": "Dueling Shield",
+    "category": "Thrusting Shield",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Dueling+Shield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Carian Thrusting Shield": {
+    "name": "Carian Thrusting Shield",
+    "category": "Thrusting Shield",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Carian+Thrusting+Shield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Carian Sorcery Sword": {
+    "name": "Carian Sorcery Sword",
+    "category": "Thrusting Swords",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Carian+Sorcery+Sword",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Nanaya's Torch": {
+    "name": "Nanaya's Torch",
+    "category": "Torches",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Nanaya%27s+Torch",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Lamenting Visage": {
+    "name": "Lamenting Visage",
+    "category": "Torches",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Lamenting+Visage",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Black Steel Twinblade": {
+    "name": "Black Steel Twinblade",
+    "category": "Twinblades",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Steel+Twinblade",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Euporia": {
+    "name": "Euporia",
+    "category": "Twinblades",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Euporia",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Tooth Whip": {
+    "name": "Tooth Whip",
+    "category": "Whips",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Tooth+Whip",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Smithscript Shield": {
+    "name": "Smithscript Shield",
+    "category": "Small Shields",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Shield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Shield of Night": {
+    "name": "Shield of Night",
+    "category": "Small Shields",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Shield+of+Night",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Golden Lion Shield": {
+    "name": "Golden Lion Shield",
+    "category": "Medium Shield",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Golden+Lion+Shield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Serpent Crest Shield": {
+    "name": "Serpent Crest Shield",
+    "category": "Medium Shield",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Wolf Crest Shield": {
+    "name": "Wolf Crest Shield",
+    "category": "Medium Shield",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Wolf+Crest+Shield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Messmer Soldier Shield": {
+    "name": "Messmer Soldier Shield",
+    "category": "Medium Shield",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Shield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Verdigris Greatshield": {
+    "name": "Verdigris Greatshield",
+    "category": "Greatshields",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Greatshield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  },
+  "Black Steel Greatshield": {
+    "name": "Black Steel Greatshield",
+    "category": "Greatshields",
+    "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Steel+Greatshield",
+    "weight": null,
+    "requirements": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "attack": {
+      "Phy": null,
+      "Mag": null,
+      "Fire": null,
+      "Ligt": null,
+      "Holy": null,
+      "Crit": null
+    },
+    "scaling": {
+      "Str": null,
+      "Dex": null,
+      "Int": null,
+      "Fai": null,
+      "Arc": null
+    },
+    "description": null
+  }
+}
