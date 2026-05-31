@@ -4,2974 +4,2974 @@
     "set": "Black Knight Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Helm",
-    "weight": null,
+    "weight": 5.9,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 5.2,
+      "strike": 4.4,
+      "slash": 5.2,
+      "pierce": 5.8,
+      "magic": 4.4,
+      "fire": 4.6,
+      "lightning": 3.8,
+      "holy": 4
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 16,
+      "robustness": 26,
+      "focus": 10,
+      "vitality": 9,
+      "poise": 9
     },
-    "description": null
+    "description": "Helm worn by the Black Knights, servants of Messmer the Impaler. Black iron ornamented with gold. A rotten odor stubbornly clings to it. Perhaps it arises from the tainted nature of the blood that splattered upon it. Or perhaps it is the wearer's own blackened soul, festering after endless slaughter."
   },
   "Black Knight Armor": {
     "name": "Black Knight Armor",
     "set": "Black Knight Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Armor",
-    "weight": null,
+    "weight": 13.7,
     "absorptions": {
-      "physical": null,
+      "physical": 14.6,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 12.4,
+      "fire": 13,
+      "lightning": 10.9,
+      "holy": 11.4
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 38,
+      "robustness": 61,
+      "focus": 22,
+      "vitality": 21,
+      "poise": 28
     },
-    "description": null
+    "description": "Armor worn by the Black Knights, servants of Messmer the Impaler. Though the engraving above the heart is a Scadutree design, it is etched in gold. A small consolation to those forced to wage a war without grace or honor."
   },
   "Black Knight Gauntlets": {
     "name": "Black Knight Gauntlets",
     "set": "Black Knight Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Gauntlets",
-    "weight": null,
+    "weight": 4.6,
     "absorptions": {
-      "physical": null,
+      "physical": 3.6,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.1,
+      "fire": 3.2,
+      "lightning": 2.7,
+      "holy": 2.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 14,
+      "robustness": 22,
+      "focus": 8,
+      "vitality": 8,
+      "poise": 6
     },
-    "description": null
+    "description": "Gauntlets worn by the Black Knights, servants of Messmer the Impaler. Black iron ornamented with gold. A rotten odor stubbornly clings to it. Perhaps it arises from the tainted nature of the blood that splattered upon it. Or perhaps it is the wearer's own blackened soul, festering after endless slaughter."
   },
   "Black Knight Greaves": {
     "name": "Black Knight Greaves",
     "set": "Black Knight Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Knight+Greaves",
-    "weight": null,
+    "weight": 8.5,
     "absorptions": {
-      "physical": null,
+      "physical": 8.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.1,
+      "fire": 7.4,
+      "lightning": 6.2,
+      "holy": 6.5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 26,
       "robustness": null,
-      "focus": null,
+      "focus": 15,
       "vitality": null,
-      "poise": null
+      "poise": 17
     },
-    "description": null
+    "description": "Greaves worn by the Black Knights, servants of Messmer the Impaler. Black iron ornamented with gold. A rotten odor stubbornly clings to it. Perhaps it arises from the tainted nature of the blood that splattered upon it. Or perhaps it is the wearer's own blackened soul, festering after endless slaughter."
   },
   "Caterpillar Mask": {
     "name": "Caterpillar Mask",
     "set": "Hornsent Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Caterpillar+Mask",
-    "weight": null,
+    "weight": 1.4,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 1.8,
+      "strike": 1.4,
+      "slash": 1.4,
+      "pierce": 0.9,
+      "magic": 4.5,
+      "fire": 3.8,
+      "lightning": 4.2,
+      "holy": 4.6
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 16,
+      "robustness": 9,
+      "focus": 45,
+      "vitality": 25,
+      "poise": 2
     },
-    "description": null
+    "description": "Grotesque mask constructed from countless solidified caterpillars. A ritual implement of the greater potentates of Bonny Village. Used to ward off thoughts of impurity, doubt, temptation, and other wickednesses one is vulnerable to while absorbed in divine ritual."
   },
   "Braided Cord Robe": {
     "name": "Braided Cord Robe",
     "set": "Hornsent Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Braided+Cord+Robe",
-    "weight": null,
+    "weight": 3.4,
     "absorptions": {
-      "physical": null,
+      "physical": 6.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 13.6,
+      "fire": 11.9,
+      "lightning": 12.9,
+      "holy": 14
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 38,
+      "robustness": 20,
+      "focus": 104,
+      "vitality": 59,
+      "poise": 5
     },
-    "description": null
+    "description": "Ragged black cloth overlaid with braided cord. Attire of a vengeance-seeking hornsent. The braided cord ties together the vow of the revenger with the victims' grudges. It must never come undone. Enhances both watchful spirits and the vengeful spirits summoned by horned bairns."
   },
   "Braided Arm Wraps": {
     "name": "Braided Arm Wraps",
     "set": "Hornsent Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Braided+Arm+Wraps",
-    "weight": null,
+    "weight": 0.8,
     "absorptions": {
-      "physical": null,
+      "physical": 1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.1,
+      "fire": 2.5,
+      "lightning": 2.8,
+      "holy": 3.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 5,
+      "focus": 34,
+      "vitality": 19,
+      "poise": 1
     },
-    "description": null
+    "description": "Ragged black cloth tied with braided cord. Attire of a vengeance-seeking hornsent."
   },
   "Common Soldier Helm": {
     "name": "Common Soldier Helm",
     "set": "Common Soldier Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Helm",
-    "weight": null,
+    "weight": 3.8,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.4,
+      "strike": 3.4,
+      "slash": 4.2,
+      "pierce": 4.2,
+      "magic": 2.5,
+      "fire": 3.1,
+      "lightning": 2.1,
+      "holy": 2.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 11,
+      "robustness": 20,
+      "focus": 8,
+      "vitality": 8,
+      "poise": 6
     },
-    "description": null
+    "description": "Helm of the rank-and-file soldiers of Messmer's army. A pitch-dark soot clings to it, much like the inner faces of the men who wore them."
   },
   "Common Soldier Cloth Armor": {
     "name": "Common Soldier Cloth Armor",
     "set": "Common Soldier Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Cloth+Armor",
-    "weight": null,
+    "weight": 8.8,
     "absorptions": {
-      "physical": null,
+      "physical": 12.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.1,
+      "fire": 8.8,
+      "lightning": 6.1,
+      "holy": 8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 25,
+      "robustness": 46,
+      "focus": 18,
+      "vitality": 18,
+      "poise": 19
     },
-    "description": null
+    "description": "Cloth armor of the rank-and-file soldiers of Messmer's army. A pitch-dark soot clings to it, much like the inner faces of the men who wore them."
   },
   "Common Soldier Gauntlets": {
     "name": "Common Soldier Gauntlets",
     "set": "Common Soldier Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Gauntlets",
-    "weight": null,
+    "weight": 2.9,
     "absorptions": {
-      "physical": null,
+      "physical": 3.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 1.7,
+      "fire": 2.1,
+      "lightning": 1.5,
+      "holy": 1.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 8,
+      "robustness": 15,
+      "focus": 6,
+      "vitality": 6,
+      "poise": 4
     },
-    "description": null
+    "description": "Gauntlets of the rank-and-file soldiers of Messmer's army. A pitch-dark soot clings to it, much like the inner faces of the men who wore them."
   },
   "Common Soldier Greaves": {
     "name": "Common Soldier Greaves",
     "set": "Common Soldier Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Common+Soldier+Greaves",
-    "weight": null,
+    "weight": 5.5,
     "absorptions": {
-      "physical": null,
+      "physical": 7.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 4,
+      "fire": 5,
+      "lightning": 3.4,
+      "holy": 4.5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 15,
       "robustness": null,
-      "focus": null,
+      "focus": 11,
       "vitality": null,
-      "poise": null
+      "poise": 11
     },
-    "description": null
+    "description": "Greaves of the rank-and-file soldiers of Messmer's army. A pitch-dark soot clings to it, much like the inner faces of the men who wore them."
   },
   "Curseblade Mask": {
     "name": "Curseblade Mask",
     "set": "Ascetic's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Curseblade+Mask",
-    "weight": null,
+    "weight": 2.2,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 2.5,
+      "strike": 0.9,
+      "slash": 2.3,
+      "pierce": 2.1,
+      "magic": 4.6,
+      "fire": 4.6,
+      "lightning": 4.6,
+      "holy": 4.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 22,
+      "robustness": 11,
+      "focus": 0,
+      "vitality": 33,
+      "poise": 4
     },
-    "description": null
+    "description": "A mask affixed with a crown of tangled horns, worn by those who would invoke divinity. Divine invocation heightens the dexterity of the wearer, but causes the blessing of the Erdtree to become nauseating, reducing the restorative effect of drinking from a flask of sacred tears. Focus is also troubled by wearing this mask."
   },
   "Ascetic's Loincloth": {
     "name": "Ascetic's Loincloth",
     "set": "Ascetic's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ascetic's+Loincloth",
-    "weight": null,
+    "weight": 3.2,
     "absorptions": {
-      "physical": null,
+      "physical": 6.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 12.6,
+      "fire": 12.6,
+      "lightning": 12.4,
+      "holy": 13.3
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 42,
+      "robustness": 23,
+      "focus": 28,
+      "vitality": 63,
+      "poise": 10
     },
-    "description": null
+    "description": "Attire of the tower's ascetics, embodying their commitment to an austere existence of strict self-control. In order to ascend from their mortal flesh into tutelary deities of the land, they heighten their spirituality through severe ascetic training."
   },
   "Ascetic's Wrist Guards": {
     "name": "Ascetic's Wrist Guards",
     "set": "Ascetic's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ascetic's+Wrist+Guards",
-    "weight": null,
+    "weight": 1.1,
     "absorptions": {
-      "physical": null,
+      "physical": 1.5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.1,
+      "fire": 3.1,
+      "lightning": 3.1,
+      "holy": 3.3
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 14,
+      "robustness": 8,
+      "focus": 9,
+      "vitality": 21,
+      "poise": 2
     },
-    "description": null
+    "description": "Wrist guards of the tower's ascetics which embody their commitment to an austere existence of strict self-control. In order to ascend from their mortal flesh into tutelary deities of the land, they heighten their spirituality through severe ascetic training."
   },
   "Ascetic's Ankle Guards": {
     "name": "Ascetic's Ankle Guards",
     "set": "Ascetic's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ascetic's+Ankle+Guards",
-    "weight": null,
+    "weight": 2,
     "absorptions": {
-      "physical": null,
+      "physical": 3.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.2,
+      "fire": 7.2,
+      "lightning": 7.1,
+      "holy": 7.6
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 26,
       "robustness": null,
-      "focus": null,
+      "focus": 17,
       "vitality": null,
-      "poise": null
+      "poise": 6
     },
-    "description": null
+    "description": "Ankle guards of the tower's ascetics which embody their commitment to an austere existence of strict self-control. In order to ascend from their mortal flesh into tutelary deities of the land, they heighten their spirituality through severe ascetic training."
   },
   "Dancer's Hood": {
     "name": "Dancer's Hood",
     "set": "Dancer's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Hood",
-    "weight": null,
+    "weight": 1,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 0.9,
+      "strike": 0.2,
+      "slash": 1.8,
+      "pierce": 0.2,
+      "magic": 4.4,
+      "fire": 4.4,
+      "lightning": 4,
+      "holy": 4.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 15,
+      "robustness": 10,
+      "focus": 24,
+      "vitality": 26,
+      "poise": 1
     },
-    "description": null
+    "description": "Bright-red hood of the Ranah dancers. Enhances the power of dancing attacks. The dance of Ranah is one of burning passion, and the most passionate dancers never allow their fiery dance to end, losing even their names as they dance on. To see the passion fade is to see the dancer's flame extinguished."
   },
   "Dancer's Dress": {
     "name": "Dancer's Dress",
     "set": "Dancer's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Dress",
-    "weight": null,
+    "weight": 3.2,
     "absorptions": {
-      "physical": null,
+      "physical": 4.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 12.6,
+      "fire": 12.6,
+      "lightning": 11.9,
+      "holy": 12.4
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 34,
+      "robustness": 21,
+      "focus": 54,
+      "vitality": 57,
+      "poise": 5
     },
-    "description": null
+    "description": "Bright-red dress of the Ranah dancers. Enhances the power of dancing attacks. The dance of Ranah is one of burning passion, and the most passionate dancers never allow their fiery dance to end, losing even their names as they dance on. To see the passion fade is to see the dancer's flame extinguished."
   },
   "Dancer's Bracer": {
     "name": "Dancer's Bracer",
     "set": "Dancer's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Bracer",
-    "weight": null,
+    "weight": 1.4,
     "absorptions": {
-      "physical": null,
+      "physical": 1.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.2,
+      "fire": 3.2,
+      "lightning": 3.1,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 14,
+      "robustness": 8,
+      "focus": 21,
+      "vitality": 22,
+      "poise": 1
     },
-    "description": null
+    "description": "Metal bracer of the Ranah dancers. Enhances the power of dancing attacks. Designed to protect the sword-wielding hand."
   },
   "Dancer's Trousers": {
     "name": "Dancer's Trousers",
     "set": "Dancer's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancer's+Trousers",
-    "weight": null,
+    "weight": 2,
     "absorptions": {
-      "physical": null,
+      "physical": 2.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.2,
+      "fire": 7.2,
+      "lightning": 6.8,
+      "holy": 7.1
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 24,
       "robustness": null,
-      "focus": null,
+      "focus": 37,
       "vitality": null,
-      "poise": null
+      "poise": 3
     },
-    "description": null
+    "description": "Long, black trousers worn underneath the deep crimson dress of the Ranah dancers. Enhances the power of dancing attacks."
   },
   "Dane's Hat": {
     "name": "Dane's Hat",
     "set": "Dane's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dane's+Hat",
-    "weight": null,
+    "weight": 2.2,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 1.8,
+      "strike": 2.3,
+      "slash": 1.4,
+      "pierce": 1.4,
+      "magic": 5,
+      "fire": 4.2,
+      "lightning": 4.5,
+      "holy": 5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 16,
+      "robustness": 11,
+      "focus": 33,
+      "vitality": 31,
+      "poise": 3
     },
-    "description": null
+    "description": "The sun-faded and lightly soiled hat of Dryleaf Dane. Worn low over the eyes, it obscures the wearer's vision. Meeting the gaze of another can overcome the senses, often leading to the downfall of those who would walk the noble and solitary seekers' path."
   },
   "Dryleaf Robe": {
     "name": "Dryleaf Robe",
     "set": "Dane's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Robe",
-    "weight": null,
+    "weight": 5.1,
     "absorptions": {
-      "physical": null,
+      "physical": 5.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 14.1,
+      "fire": 11.9,
+      "lightning": 12.6,
+      "holy": 14.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 38,
+      "robustness": 25,
+      "focus": 76,
+      "vitality": 71,
+      "poise": 10
     },
-    "description": null
+    "description": "Sun-faded and lightly soiled travel attire worn by clergymen. The gold necklace found under the breast belongs to a group of spiritual seekers known as the Dryleaf Sect. This sect rejects dependence on others in all matters of faith, seeking self-discipline and self-sufficiency above all else."
   },
   "Dryleaf Arm Wraps": {
     "name": "Dryleaf Arm Wraps",
     "set": "Dane's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Arm+Wraps",
-    "weight": null,
+    "weight": 1.7,
     "absorptions": {
-      "physical": null,
+      "physical": 1.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.5,
+      "fire": 2.9,
+      "lightning": 3.1,
+      "holy": 3.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 13,
+      "robustness": 8,
+      "focus": 25,
+      "vitality": 24,
+      "poise": 2
     },
-    "description": null
+    "description": "Sun-faded and lightly soiled arm wraps. Wound tightly around the arms as if it might prevent them from being broken."
   },
   "Dryleaf Cuissardes": {
     "name": "Dryleaf Cuissardes",
     "set": "Dane's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Cuissardes",
-    "weight": null,
+    "weight": 3.1,
     "absorptions": {
-      "physical": null,
+      "physical": 3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 8.1,
+      "fire": 6.8,
+      "lightning": 7.2,
+      "holy": 8.1
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 24,
       "robustness": null,
-      "focus": null,
+      "focus": 47,
       "vitality": null,
-      "poise": null
+      "poise": 6
     },
-    "description": null
+    "description": "Sun-faded and lightly soiled travel attire worn by clergymen. Boots made of sturdy leather."
   },
   "Death Knight Helm": {
     "name": "Death Knight Helm",
     "set": "Death Knight Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Helm",
-    "weight": null,
+    "weight": 4.6,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.4,
+      "strike": 3.8,
+      "slash": 4.4,
+      "pierce": 4.4,
+      "magic": 3.4,
+      "fire": 3.4,
+      "lightning": 4.4,
+      "holy": 2.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 20,
+      "focus": 8,
+      "vitality": 20,
+      "poise": 7
     },
-    "description": null
+    "description": "Golden helm of the Death Knights, whose own death masks served as the visards of their armor. Enhances skills and incantations of the capital's ancient dragon cult. The decayed golden wheel that adorns it represents their unbroken loyalty to Godwyn, he who became Prince of Death."
   },
   "Death Knight Armor": {
     "name": "Death Knight Armor",
     "set": "Death Knight Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Armor",
-    "weight": null,
+    "weight": 11.2,
     "absorptions": {
-      "physical": null,
+      "physical": 12.6,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 9.3,
+      "fire": 9.7,
+      "lightning": 12.4,
+      "holy": 8.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 25,
+      "robustness": 42,
+      "focus": 16,
+      "vitality": 42,
+      "poise": 22
     },
-    "description": null
+    "description": "Golden armor of the Death Knights, adorned with an antiquated depiction of the Erdtree. Enhances skills and incantations of the capital's ancient dragon cult. These knights, once Godwyn's personal guard, quested to find their transfigured master's cadaver surrogatefor the coming age of the Duskborn."
   },
   "Death Knight Gauntlets": {
     "name": "Death Knight Gauntlets",
     "set": "Death Knight Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Gauntlets",
-    "weight": null,
+    "weight": 3.5,
     "absorptions": {
-      "physical": null,
+      "physical": 3.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.3,
+      "fire": 2.3,
+      "lightning": 3.1,
+      "holy": 1.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 9,
+      "robustness": 15,
+      "focus": 6,
+      "vitality": 15,
+      "poise": 5
     },
-    "description": null
+    "description": "Golden gauntlets of the Death Knights, adorned with an antiquated depiction of the Erdtree. Enhances skills and incantations of the capital's ancient dragon cult. These knights, once Godwyn's personal guard, quested to find their transfigured master's cadaver surrogatefor the coming age of the Duskborn."
   },
   "Death Knight Greaves": {
     "name": "Death Knight Greaves",
     "set": "Death Knight Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight+Greaves",
-    "weight": null,
+    "weight": 6.6,
     "absorptions": {
-      "physical": null,
+      "physical": 7.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5.4,
+      "fire": 5.4,
+      "lightning": 7.1,
+      "holy": 4.5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 17,
       "robustness": null,
-      "focus": null,
+      "focus": 11,
       "vitality": null,
-      "poise": null
+      "poise": 13
     },
-    "description": null
+    "description": "Golden greaves of the Death Knights, adorned with an antiquated depiction of the Erdtree. Enhances skills and incantations of the capital's ancient dragon cult. These knights, once Godwyn's personal guard, quested to find their transfigured master's cadaver surrogatefor the coming age of the Duskborn."
   },
   "Divine Beast Helm": {
     "name": "Divine Beast Helm",
     "set": "Divine Beast Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Helm",
-    "weight": null,
+    "weight": 5.1,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.8,
+      "strike": 4.4,
+      "slash": 4.8,
+      "pierce": 4.4,
+      "magic": 3.8,
+      "fire": 4,
+      "lightning": 3.6,
+      "holy": 3.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 14,
+      "robustness": 23,
+      "focus": 0,
+      "vitality": 11,
+      "poise": 8
     },
-    "description": null
+    "description": "A helm of tangled horn attached to a divine beast mask, allowing the wearer to invoke divinity. Worn by divine beast warriors; the chosen of the horned warriors. Divine invocation heightens intensity of the storm alongside strength and dexterity, but reduces the restorative effect of drinking from a flask of sacred tears. Focus is also troubled by wearing this helm."
   },
   "Divine Beast Warrior Armor": {
     "name": "Divine Beast Warrior Armor",
     "set": "Divine Beast Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Warrior+Armor",
-    "weight": null,
+    "weight": 10.4,
     "absorptions": {
-      "physical": null,
+      "physical": 12.9,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 10.2,
+      "fire": 10.2,
+      "lightning": 8.8,
+      "holy": 9.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 31,
+      "robustness": 54,
+      "focus": 18,
+      "vitality": 24,
+      "poise": 22
     },
-    "description": null
+    "description": "Armor of feted horned warriors chosen to become divine beast warriors, adorned with a lion's pelt. Among the divine beast warriors, only those who truly excel at divine invocation become sculpted keepers, and are granted the honor of the lion dance."
   },
   "Divine Bird Helm": {
     "name": "Divine Bird Helm",
     "set": "Divine Bird Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Helm",
-    "weight": null,
+    "weight": 4.6,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.8,
+      "strike": 4.4,
+      "slash": 4.4,
+      "pierce": 4.2,
+      "magic": 3.8,
+      "fire": 3.6,
+      "lightning": 2.8,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 14,
+      "robustness": 22,
+      "focus": 0,
+      "vitality": 9,
+      "poise": 8
     },
-    "description": null
+    "description": "A helm of tangled horn attached to a divine bird mask, allowing the wearer to invoke divinity. Worn by divine bird warriors; the very first of all horned warriors. Divine invocation heightens the power of divine bird feathers alongside strength and dexterity, but reduces the restorative effect of drinking from a flask of sacred tears. Focus is also troubled by wearing this helm."
   },
   "Divine Bird Warrior Armor": {
     "name": "Divine Bird Warrior Armor",
     "set": "Divine Bird Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Armor",
-    "weight": null,
+    "weight": 11.6,
     "absorptions": {
-      "physical": null,
+      "physical": 14,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 11.4,
+      "fire": 11.4,
+      "lightning": 9.5,
+      "holy": 10.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 37,
+      "robustness": 56,
+      "focus": 23,
+      "vitality": 23,
+      "poise": 25
     },
-    "description": null
+    "description": "Armor of divine bird warriors, the very first of all horned warriors, made from a golden metal. The golden-hued divine birds are known to be cruel, never taking to human companionship. Those who invoked their divinity were few and far between."
   },
   "Divine Bird Warrior Gauntlets": {
     "name": "Divine Bird Warrior Gauntlets",
     "set": "Divine Bird Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Gauntlets",
-    "weight": null,
+    "weight": 3.5,
     "absorptions": {
-      "physical": null,
+      "physical": 3.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.7,
+      "fire": 2.5,
+      "lightning": 1.9,
+      "holy": 2.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 18,
+      "focus": 7,
+      "vitality": 8,
+      "poise": 5
     },
-    "description": null
+    "description": "Gauntlets of divine bird warriors, the very first of all horned warriors, made from a golden metal. The golden-hued divine birds are known to be cruel, never taking to human companionship. Those who invoked their divinity were few and far between."
   },
   "Divine Bird Warrior Greaves": {
     "name": "Divine Bird Warrior Greaves",
     "set": "Divine Bird Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Greaves",
-    "weight": null,
+    "weight": 7.3,
     "absorptions": {
-      "physical": null,
+      "physical": 8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 6.5,
+      "fire": 6.5,
+      "lightning": 5.4,
+      "holy": 5.8
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 24,
       "robustness": null,
-      "focus": null,
+      "focus": 14,
       "vitality": null,
-      "poise": null
+      "poise": 15
     },
-    "description": null
+    "description": "Greaves of divine bird warriors, the very first of all horned warriors, made from a golden metal. The great, sharp talons increase the force generated by kicks."
   },
   "Fang Helm": {
     "name": "Fang Helm",
     "set": "Iron Rivet Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fang+Helm",
-    "weight": null,
+    "weight": 2.7,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 2.3,
+      "strike": 2.5,
+      "slash": 2.3,
+      "pierce": 2.3,
+      "magic": 3.6,
+      "fire": 3.4,
+      "lightning": 4,
+      "holy": 3.4
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 23,
+      "robustness": 18,
+      "focus": 16,
+      "vitality": 16,
+      "poise": 4
     },
-    "description": null
+    "description": "Helm of Red Bear, whose name is lost to madness. The cheek guards are shaped after lion fangs. Perhaps his fascination with the untamed strength of the wild stemmed from his past as a Redmane."
   },
   "Iron Rivet Armor": {
     "name": "Iron Rivet Armor",
     "set": "Iron Rivet Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Armor",
-    "weight": null,
+    "weight": 7.1,
     "absorptions": {
-      "physical": null,
+      "physical": 7.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 10.9,
+      "fire": 10.2,
+      "lightning": 11.9,
+      "holy": 10.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 57,
+      "robustness": 46,
+      "focus": 42,
+      "vitality": 42,
+      "poise": 13
     },
-    "description": null
+    "description": "Chest armor of Red Bear, whose name is lost to madness. A vest reinforced with iron rivets. After killing the great red bear in a blood-soaked bout, he became fascinated by the untainted glory of its naked strength. \"I wish to be a bear, no more, and no less.\""
   },
   "Iron Rivet Gauntlets": {
     "name": "Iron Rivet Gauntlets",
     "set": "Iron Rivet Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Gauntlets",
-    "weight": null,
+    "weight": 2.9,
     "absorptions": {
-      "physical": null,
+      "physical": 2.8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.3,
+      "fire": 2.3,
+      "lightning": 1.9,
+      "holy": 2.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 8,
+      "robustness": 19,
+      "focus": 4,
+      "vitality": 4,
+      "poise": 4
     },
-    "description": null
+    "description": "Gauntlets of Red Bear, whose name is lost to madness. Reinforced with iron rivets. After killing the great red bear in a blood-soaked bout, he became fascinated by the untainted glory of its naked strength. \"I wish to be a bear, no more, and no less.\""
   },
   "Iron Rivet Greaves": {
     "name": "Iron Rivet Greaves",
     "set": "Iron Rivet Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Iron+Rivet+Greaves",
-    "weight": null,
+    "weight": 5.7,
     "absorptions": {
-      "physical": null,
+      "physical": 6.8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5.8,
+      "fire": 5.8,
+      "lightning": 5,
+      "holy": 5.4
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 17,
       "robustness": null,
-      "focus": null,
+      "focus": 11,
       "vitality": null,
-      "poise": null
+      "poise": 11
     },
-    "description": null
+    "description": "Greaves of Red Bear, whose name is lost to madness. Reinforced with iron rivets. After killing the great red bear in a blood-soaked bout, he became fascinated by the untainted glory of its naked strength. \"I wish to be a bear, no more, and no less.\""
   },
   "Fire Knight Helm": {
     "name": "Fire Knight Helm",
     "set": "Fire Knight Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Helm",
-    "weight": null,
+    "weight": 4,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.6,
+      "strike": 3.6,
+      "slash": 4.2,
+      "pierce": 3.8,
+      "magic": 3.4,
+      "fire": 4.2,
+      "lightning": 2.5,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 20,
+      "focus": 9,
+      "vitality": 10,
+      "poise": 6
     },
-    "description": null
+    "description": "Pointed helm of the Fire Knights under Messmer the Impaler's personal command. Slightly increases maximum HP, stamina, and maximum equip load. Each and every knight hailed from a renowned family of the Erdtree's upper echelons, but were shunned and chased from their homes after pledging allegiance to Messmer as their master."
   },
   "Fire Knight Armor": {
     "name": "Fire Knight Armor",
     "set": "Fire Knight Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Armor",
-    "weight": null,
+    "weight": 9.3,
     "absorptions": {
-      "physical": null,
+      "physical": 12.9,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 9.5,
+      "fire": 11.9,
+      "lightning": 7.1,
+      "holy": 8.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 28,
+      "robustness": 46,
+      "focus": 21,
+      "vitality": 24,
+      "poise": 19
     },
-    "description": null
+    "description": "Armor of the Fire Knights under Messmer the Impaler's personal command. Distinguished by its red cape and twin golden snakes which adorn the neck, enhancing incantations of Messmer's flame. These were the only ones who truly knew Messmer. His flames, like serpents. The painful fate that accompanied his accursed form."
   },
   "Fire Knight Gauntlets": {
     "name": "Fire Knight Gauntlets",
     "set": "Fire Knight Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Gauntlets",
-    "weight": null,
+    "weight": 3.1,
     "absorptions": {
-      "physical": null,
+      "physical": 3.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.3,
+      "fire": 2.9,
+      "lightning": 1.7,
+      "holy": 2.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 9,
+      "robustness": 15,
+      "focus": 7,
+      "vitality": 8,
+      "poise": 4
     },
-    "description": null
+    "description": "Gauntlets of the Fire Knights under Messmer the Impaler's personal command. Each and every knight hailed from a renowned family of the Erdtree's upper echelons, but were shunned and chased from their homes after pledging allegiance to Messmer as their master."
   },
   "Fire Knight Greaves": {
     "name": "Fire Knight Greaves",
     "set": "Fire Knight Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight+Greaves",
-    "weight": null,
+    "weight": 5.7,
     "absorptions": {
-      "physical": null,
+      "physical": 7.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5.4,
+      "fire": 6.8,
+      "lightning": 4,
+      "holy": 5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 17,
       "robustness": null,
-      "focus": null,
+      "focus": 13,
       "vitality": null,
-      "poise": null
+      "poise": 11
     },
-    "description": null
+    "description": "Greaves of the Fire Knights under Messmer the Impaler's personal command. Each and every knight hailed from a renowned family of the Erdtree's upper echelons, but were shunned and chased from their homes after pledging allegiance to Messmer as their master."
   },
   "Freyja's Helm": {
     "name": "Freyja's Helm",
     "set": "Freyja's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Helm",
-    "weight": null,
+    "weight": 5.8,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 5.5,
+      "strike": 4.2,
+      "slash": 4.8,
+      "pierce": 4.8,
+      "magic": 4,
+      "fire": 4.2,
+      "lightning": 3.8,
+      "holy": 4.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 13,
+      "robustness": 28,
+      "focus": 9,
+      "vitality": 12,
+      "poise": 8
     },
-    "description": null
+    "description": "Golden helm of Redmane Freyja, member of General Radahn's most distinguished knights. A hideous scarlet wound was once hewn into the center of her face. Later, Miquella gently put his lips to it and the unfading scar became the compass that Freyja would thereafter follow."
   },
   "Freyja's Armor": {
     "name": "Freyja's Armor",
     "set": "Freyja's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Armor",
-    "weight": null,
+    "weight": 9.7,
     "absorptions": {
-      "physical": null,
+      "physical": 13.5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 8.8,
+      "fire": 9.5,
+      "lightning": 8,
+      "holy": 9.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 22,
+      "robustness": 54,
+      "focus": 10,
+      "vitality": 22,
+      "poise": 19
     },
-    "description": null
+    "description": "Golden armor of Redmane Freyja, member of General Radahn's most distinguished knights. Affixed with a black woolen mantle. After witnessing Freyja's valor as a gladiator in his youth, Radahn invited her to join the ranks of his most trusted warriors."
   },
   "Freyja's Gauntlets": {
     "name": "Freyja's Gauntlets",
     "set": "Freyja's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Gauntlets",
-    "weight": null,
+    "weight": 3.1,
     "absorptions": {
-      "physical": null,
+      "physical": 3.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.1,
+      "fire": 2.3,
+      "lightning": 1.9,
+      "holy": 2.3
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 8,
+      "robustness": 20,
+      "focus": 4,
+      "vitality": 8,
+      "poise": 4
     },
-    "description": null
+    "description": "Golden gauntlets of Redmane Freyja, member of General Radahn's most distinguished knights. After witnessing Freyja's valor as a gladiator in his youth, Radahn invited her to join the ranks of his most trusted warriors."
   },
   "Freyja's Greaves": {
     "name": "Freyja's Greaves",
     "set": "Freyja's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja's+Greaves",
-    "weight": null,
+    "weight": 5.7,
     "absorptions": {
-      "physical": null,
+      "physical": 7.7,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5,
+      "fire": 5.4,
+      "lightning": 4.5,
+      "holy": 5.4
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 16,
       "robustness": null,
-      "focus": null,
+      "focus": 7,
       "vitality": null,
-      "poise": null
+      "poise": 11
     },
-    "description": null
+    "description": "Greaves of Redmane Freyja, member of General Radahn's most distinguished knights. After witnessing Freyja's valor as a gladiator in his youth, Radahn invited her to join the ranks of his most trusted warriors."
   },
   "Gaius's Helm": {
     "name": "Gaius's Helm",
     "set": "Gaius's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Helm",
-    "weight": null,
+    "weight": 8.6,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 6.1,
+      "strike": 5.6,
+      "slash": 7.2,
+      "pierce": 7,
+      "magic": 5,
+      "fire": 4.9,
+      "lightning": 4.9,
+      "holy": 4.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 29,
+      "robustness": 35,
+      "focus": 23,
+      "vitality": 23,
+      "poise": 12
     },
-    "description": null
+    "description": "The black iron helm of Commander Gaius. Part of an armor set patterned after fallen seeds. Gaius was the most senior disciple of the same Alabaster Lord who taught Radahn and Gaea gravitational technique."
   },
   "Gaius's Armor": {
     "name": "Gaius's Armor",
     "set": "Gaius's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Armor",
-    "weight": null,
+    "weight": 20.1,
     "absorptions": {
-      "physical": null,
+      "physical": 16.8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 14.1,
+      "fire": 13.8,
+      "lightning": 13.8,
+      "holy": 13.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 67,
+      "robustness": 83,
+      "focus": 55,
+      "vitality": 55,
+      "poise": 38
     },
-    "description": null
+    "description": "The black iron chest armor of Commander Gaius. Part of an armor set patterned after fallen seeds. Gaius was the most senior disciple of the same Alabaster Lord who taught Radahn and Gaea gravitational technique."
   },
   "Gaius's Gauntlets": {
     "name": "Gaius's Gauntlets",
     "set": "Gaius's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Gauntlets",
-    "weight": null,
+    "weight": 6.7,
     "absorptions": {
-      "physical": null,
+      "physical": 4.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.5,
+      "fire": 3.4,
+      "lightning": 3.4,
+      "holy": 3.4
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 22,
+      "robustness": 28,
+      "focus": 18,
+      "vitality": 18,
+      "poise": 8
     },
-    "description": null
+    "description": "The black iron gauntlets of Commander Gaius. Part of an armor set patterned after fallen seeds. Gaius was the most senior disciple of the same Alabaster Lord who taught Radahn and Gaea gravitational technique."
   },
   "Gaius's Greaves": {
     "name": "Gaius's Greaves",
     "set": "Gaius's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gaius's+Greaves",
-    "weight": null,
+    "weight": 8.9,
     "absorptions": {
-      "physical": null,
+      "physical": 7.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.2,
+      "fire": 7.1,
+      "lightning": 7.1,
+      "holy": 7.1
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 29,
       "robustness": null,
-      "focus": null,
+      "focus": 20,
       "vitality": null,
-      "poise": null
+      "poise": 17
     },
-    "description": null
+    "description": "Black iron greaves made for Commander Gaius. A cruel joke, for he could not wear them. Riding atop the boar he called his other half, Gaius was in fact a warrior of albinauric extraction."
   },
   "Gravebird Helm": {
     "name": "Gravebird Helm",
     "set": "Gravebird Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Helm",
-    "weight": null,
+    "weight": 3.6,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 3.4,
+      "strike": 3.6,
+      "slash": 3.6,
+      "pierce": 3.1,
+      "magic": 4,
+      "fire": 3.8,
+      "lightning": 4.2,
+      "holy": 4.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 24,
+      "robustness": 14,
+      "focus": 21,
+      "vitality": 20,
+      "poise": 6
     },
-    "description": null
+    "description": "Stone helm with a tinge of green. One of a set of armor pieces cast in the image of the Gravebird. Empowers spells which summon rings of spectral light. Gravebirds are ancient golems, created to guard the spiritgraves built where all manners of Death ultimately drift."
   },
   "Gravebird Armor": {
     "name": "Gravebird Armor",
     "set": "Gravebird Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Armor",
-    "weight": null,
+    "weight": 6,
     "absorptions": {
-      "physical": null,
+      "physical": 6.9,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 9.3,
+      "fire": 8.6,
+      "lightning": 10,
+      "holy": 10
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 50,
+      "robustness": 25,
+      "focus": 38,
+      "vitality": 34,
+      "poise": 13
     },
-    "description": null
+    "description": "Stone armor with a tinge of green. One of a set of armor pieces cast in the image of the Gravebird. Gravebirds are ancient golems, created to guard the spiritgraves built where all manners of Death ultimately drift."
   },
   "Gravebird's Blackquill Armor": {
     "name": "Gravebird's Blackquill Armor",
     "set": "Gravebird Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird's+Blackquill+Armor",
-    "weight": null,
+    "weight": 7.4,
     "absorptions": {
-      "physical": null,
+      "physical": 8.6,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 10.7,
+      "fire": 10,
+      "lightning": 11.2,
+      "holy": 11.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 54,
+      "robustness": 32,
+      "focus": 45,
+      "vitality": 42,
+      "poise": 16
     },
-    "description": null
+    "description": "Stone armor with a tinge of green. One of a set of armor pieces cast in the image of the Gravebird. Featuring a cape of black Deathbird feathers, it enhances jumping attacks. Gravebirds are ancient golems, created to guard the spiritgraves built where all manners of Death ultimately drift."
   },
   "Gravebird Bracelets": {
     "name": "Gravebird Bracelets",
     "set": "Gravebird Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Bracelets",
-    "weight": null,
+    "weight": 1.7,
     "absorptions": {
-      "physical": null,
+      "physical": 1.6,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.1,
+      "fire": 1.9,
+      "lightning": 2.3,
+      "holy": 2.3
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 17,
+      "robustness": 8,
+      "focus": 13,
+      "vitality": 12,
+      "poise": 3
     },
-    "description": null
+    "description": "Stone bracelets with a tinge of green. One of a set of armor pieces cast in the image of the Gravebird. Gravebirds are ancient golems, created to guard the spiritgraves built where all manners of Death ultimately drift."
   },
   "Gravebird Anklets": {
     "name": "Gravebird Anklets",
     "set": "Gravebird Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravebird+Anklets",
-    "weight": null,
+    "weight": 2,
     "absorptions": {
-      "physical": null,
+      "physical": 3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 4,
+      "fire": 3.8,
+      "lightning": 4.5,
+      "holy": 4.5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 26,
       "robustness": null,
-      "focus": null,
+      "focus": 20,
       "vitality": null,
-      "poise": null
+      "poise": 5
     },
-    "description": null
+    "description": "Stone anklets with a tinge of green. One of a set of armor pieces cast in the image of the Gravebird. Gravebirds are ancient golems, created to guard the spiritgraves built where all manners of Death ultimately drift."
   },
   "Helm of Night": {
     "name": "Helm of Night",
     "set": "Night Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Helm+of+Night",
-    "weight": null,
+    "weight": 3,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 2.5,
+      "strike": 2.5,
+      "slash": 2.8,
+      "pierce": 2.8,
+      "magic": 4.4,
+      "fire": 3.4,
+      "lightning": 3.4,
+      "holy": 4.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 23,
+      "robustness": 14,
+      "focus": 20,
+      "vitality": 20,
+      "poise": 4
     },
-    "description": null
+    "description": "Bottomless black helm, cool to the touch.Flowing lines in the seeming shape of a fingerprint adorn the surface. Imprisons the wearer in utterly lightless dark.Bestowed upon those born deep underground, ordaining them as Swordhands of Night."
   },
   "Armor of Night": {
     "name": "Armor of Night",
     "set": "Night Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Armor+of+Night",
-    "weight": null,
+    "weight": 7.1,
     "absorptions": {
-      "physical": null,
+      "physical": 7.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 12.4,
+      "fire": 9.5,
+      "lightning": 9.5,
+      "holy": 12.6
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 55,
+      "robustness": 32,
+      "focus": 46,
+      "vitality": 46,
+      "poise": 12
     },
-    "description": null
+    "description": "Bottomless black chest armor, cool to the touch.Flowing lines in the seeming shape of a fingerprint adorn the surface. Imprisons the wearer in utterly lightless dark.Bestowed upon those born deep underground, ordaining them as Swordhands of Night."
   },
   "Gauntlets of Night": {
     "name": "Gauntlets of Night",
     "set": "Night Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gauntlets+of+Night",
-    "weight": null,
+    "weight": 2.4,
     "absorptions": {
-      "physical": null,
+      "physical": 1.7,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.1,
+      "fire": 2.3,
+      "lightning": 2.3,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 18,
+      "robustness": 11,
+      "focus": 15,
+      "vitality": 15,
+      "poise": 3
     },
-    "description": null
+    "description": "Bottomless black gauntlets, cool to the touch.Flowing lines in the seeming shape of a fingerprint adorn the surface. Imprisons the wearer in utterly lightless dark.Bestowed upon those born deep underground, ordaining them as Swordhands of Night."
   },
   "Greaves of Night": {
     "name": "Greaves of Night",
     "set": "Night Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Greaves+of+Night",
-    "weight": null,
+    "weight": 4.4,
     "absorptions": {
-      "physical": null,
+      "physical": 4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.1,
+      "fire": 5.4,
+      "lightning": 5.4,
+      "holy": 7.2
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 34,
       "robustness": null,
-      "focus": null,
+      "focus": 29,
       "vitality": null,
-      "poise": null
+      "poise": 7
     },
-    "description": null
+    "description": "Bottomless greaves, cool to the touch.Flowing lines in the seeming shape of a fingerprint adorn the surface. Imprisons the wearer in utterly lightless dark.Bestowed upon those born deep underground, ordaining them as Swordhands of Night."
   },
   "Helm of Solitude": {
     "name": "Helm of Solitude",
     "set": "Solitude Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Helm+of+Solitude",
-    "weight": null,
+    "weight": 10.3,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 6.8,
+      "strike": 6.4,
+      "slash": 6.7,
+      "pierce": 6.3,
+      "magic": 4.7,
+      "fire": 5.2,
+      "lightning": 4.8,
+      "holy": 4.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 26,
+      "robustness": 27,
+      "focus": 42,
+      "vitality": 22,
+      "poise": 14
     },
-    "description": null
+    "description": "Steel helm of the Knights of the Solitary Gaol. Part of a heavy armor set that covers the whole body in overlapping plates of steel. The nameless mausoleums of the realm of shadow are said to hold the spirits of warriors who lost their names, or their hearts."
   },
   "Armor of Solitude": {
     "name": "Armor of Solitude",
     "set": "Solitude Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Armor+of+Solitude",
-    "weight": null,
+    "weight": 24,
     "absorptions": {
-      "physical": null,
+      "physical": 18.7,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 13.3,
+      "fire": 14.5,
+      "lightning": 13.5,
+      "holy": 13.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 60,
+      "robustness": 63,
+      "focus": 99,
+      "vitality": 50,
+      "poise": 45
     },
-    "description": null
+    "description": "Steel chest armor of the Knights of the Solitary Gaol. Part of a heavy armor set that covers the whole body in overlapping plates of steel, and bedecked with a black cloak. The nameless mausoleums of the realm of shadow are said to hold the spirits of warriors who lost their names, or their hearts."
   },
   "Gauntlets of Solitude": {
     "name": "Gauntlets of Solitude",
     "set": "Solitude Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gauntlets+of+Solitude",
-    "weight": null,
+    "weight": 8,
     "absorptions": {
-      "physical": null,
+      "physical": 4.7,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.3,
+      "fire": 3.6,
+      "lightning": 3.3,
+      "holy": 3.4
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 20,
+      "robustness": 21,
+      "focus": 33,
+      "vitality": 17,
+      "poise": 10
     },
-    "description": null
+    "description": "Steel gauntlets of the Knights of the Solitary Gaol. Part of a heavy armor set that covers the whole body in overlapping plates of steel. The nameless mausoleums of the realm of shadow are said to hold the spirits of warriors who lost their names, or their hearts."
   },
   "Greaves of Solitude": {
     "name": "Greaves of Solitude",
     "set": "Solitude Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Greaves+of+Solitude",
-    "weight": null,
+    "weight": 14.8,
     "absorptions": {
-      "physical": null,
+      "physical": 10.8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.6,
+      "fire": 8.3,
+      "lightning": 7.7,
+      "holy": 7.9
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 37,
       "robustness": null,
-      "focus": null,
+      "focus": 61,
       "vitality": null,
-      "poise": null
+      "poise": 27
     },
-    "description": null
+    "description": "Steel greaves of the Knights of the Solitary Gaol. Part of a heavy armor set that covers the whole body in overlapping plates of steel. The nameless mausoleums of the realm of shadow are said to hold the spirits of warriors who lost their names, or their hearts."
   },
   "High Priest Hat": {
     "name": "High Priest Hat",
     "set": "High Priest Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Hat",
-    "weight": null,
+    "weight": 1.7,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 1.8,
+      "strike": 2.1,
+      "slash": 1.4,
+      "pierce": 0.9,
+      "magic": 4.6,
+      "fire": 4.5,
+      "lightning": 4.4,
+      "holy": 4.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 18,
+      "robustness": 10,
+      "focus": 27,
+      "vitality": 33,
+      "poise": 3
     },
-    "description": null
+    "description": "The hat of Count Ymir, High Priest. The circular design at the top represents the Greater Will and its lightless abyss, imparting increased intelligence and arcane to the wearer. Though Count Ymir instructed Rellana in the sorcerous arts, he abandoned his allegiance to the moon. \"It was merely the closest of the celestial bodies. Nothing more.\""
   },
   "High Priest Robe": {
     "name": "High Priest Robe",
     "set": "High Priest Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Robe",
-    "weight": null,
+    "weight": 4.2,
     "absorptions": {
-      "physical": null,
+      "physical": 5.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 12.8,
+      "fire": 12.6,
+      "lightning": 12.4,
+      "holy": 12.6
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 38,
+      "robustness": 21,
+      "focus": 57,
+      "vitality": 69,
+      "poise": 10
     },
-    "description": null
+    "description": "Robe of Count Ymir, High Priest. Conceals the abundance of squirming beneath. Gold embroidery decorates the purple cloth, with a jewelled ruff that sparkles like a flower wet with dew."
   },
   "High Priest Gloves": {
     "name": "High Priest Gloves",
     "set": "High Priest Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Gloves",
-    "weight": null,
+    "weight": 1.4,
     "absorptions": {
-      "physical": null,
+      "physical": 1.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.2,
+      "fire": 3.1,
+      "lightning": 3.1,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 14,
+      "robustness": 8,
+      "focus": 21,
+      "vitality": 25,
+      "poise": 2
     },
-    "description": null
+    "description": "Gloves of Count Ymir, High Priest. Soft and well-tailored."
   },
   "High Priest Undergarments": {
     "name": "High Priest Undergarments",
     "set": "High Priest Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/High+Priest+Undergarments",
-    "weight": null,
+    "weight": 2.5,
     "absorptions": {
-      "physical": null,
+      "physical": 3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.3,
+      "fire": 7.2,
+      "lightning": 7.1,
+      "holy": 7.2
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 26,
       "robustness": null,
-      "focus": null,
+      "focus": 39,
       "vitality": null,
-      "poise": null
+      "poise": 6
     },
-    "description": null
+    "description": "Undergarments of Count Ymir, High Priest. Soft and well-tailored."
   },
   "Horned Warrior Helm": {
     "name": "Horned Warrior Helm",
     "set": "Horned Warrior Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Helm",
-    "weight": null,
+    "weight": 4.6,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.8,
+      "strike": 4.4,
+      "slash": 4.6,
+      "pierce": 4,
+      "magic": 3.6,
+      "fire": 3.6,
+      "lightning": 3.1,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 13,
+      "robustness": 25,
+      "focus": 0,
+      "vitality": 9,
+      "poise": 7
     },
-    "description": null
+    "description": "Helm featuring a crown of sturdy tangled horns, allowing the wearer to invoke divinity. Attire of the horned warriors, keepers of the tower. Divine invocation bolsters the strength of the wearer, but causes the blessing of the Erdtree to become nauseating, reducing the restorative effect of drinking from a flask of sacred tears. Focus is also troubled by wearing this helm."
   },
   "Horned Warrior Armor": {
     "name": "Horned Warrior Armor",
     "set": "Horned Warrior Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Armor",
-    "weight": null,
+    "weight": 10.4,
     "absorptions": {
-      "physical": null,
+      "physical": 13.5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 10.2,
+      "fire": 10.2,
+      "lightning": 8.8,
+      "holy": 8.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 31,
+      "robustness": 59,
+      "focus": 18,
+      "vitality": 23,
+      "poise": 22
     },
-    "description": null
+    "description": "Armor of the horned warriors, keepers of the tower. The ochre fabric is draped over a chest-piece made to resemble the unclothed form of a hero from older times."
   },
   "Horned Warrior Gauntlets": {
     "name": "Horned Warrior Gauntlets",
     "set": "Horned Warrior Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Gauntlets",
-    "weight": null,
+    "weight": 3.5,
     "absorptions": {
-      "physical": null,
+      "physical": 3.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.5,
+      "fire": 2.5,
+      "lightning": 2.1,
+      "holy": 2.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 11,
+      "robustness": 20,
+      "focus": 6,
+      "vitality": 8,
+      "poise": 5
     },
-    "description": null
+    "description": "Gauntlets of the horned warriors, keepers of the tower, made from a thick metal."
   },
   "Horned Warrior Greaves": {
     "name": "Horned Warrior Greaves",
     "set": "Horned Warrior Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior+Greaves",
-    "weight": null,
+    "weight": 6.6,
     "absorptions": {
-      "physical": null,
+      "physical": 7.7,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5.8,
+      "fire": 5.8,
+      "lightning": 5,
+      "holy": 5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 20,
       "robustness": null,
-      "focus": null,
+      "focus": 11,
       "vitality": null,
-      "poise": null
+      "poise": 13
     },
-    "description": null
+    "description": "Greaves of the horned warriors, keepers of the tower. Shaped to resemble the unclothed form of a hero from older times."
   },
   "Igon's Helm": {
     "name": "Igon's Helm",
     "set": "Igon's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Helm",
-    "weight": null,
+    "weight": 3.3,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 3.1,
+      "strike": 3.4,
+      "slash": 3.1,
+      "pierce": 3.1,
+      "magic": 3.6,
+      "fire": 3.8,
+      "lightning": 4,
+      "holy": 3.6
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 26,
+      "robustness": 16,
+      "focus": 22,
+      "vitality": 22,
+      "poise": 5
     },
-    "description": null
+    "description": "Helm of the broken drake warrior Igon, from a set of armor comprised of a miscellany of parts. This tattered protective-wear is shaped like a bugle. The poor scavenger of battlefields found honor through Dragon Communion."
   },
   "Igon's Armor": {
     "name": "Igon's Armor",
     "set": "Igon's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Armor",
-    "weight": null,
+    "weight": 8,
     "absorptions": {
-      "physical": null,
+      "physical": 9.5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 10.9,
+      "fire": 11.4,
+      "lightning": 11.9,
+      "holy": 10.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 57,
+      "robustness": 38,
+      "focus": 50,
+      "vitality": 50,
+      "poise": 17
     },
-    "description": null
+    "description": "Armor of the broken drake warrior Igon, from a set comprised of a miscellany of parts. Filthy belongings are attached to this tattered piece of protective-wear. The poor scavenger of battlefields found honor through Dragon Communion."
   },
   "Igon's Gauntlets": {
     "name": "Igon's Gauntlets",
     "set": "Igon's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Gauntlets",
-    "weight": null,
+    "weight": 2.8,
     "absorptions": {
-      "physical": null,
+      "physical": 2.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.7,
+      "fire": 2.8,
+      "lightning": 2.9,
+      "holy": 2.7
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 21,
+      "robustness": 14,
+      "focus": 18,
+      "vitality": 18,
+      "poise": 4
     },
-    "description": null
+    "description": "Gauntlets of the broken drake warrior Igon. No more than a mish-mash of tatters and remnants stripped from a corpse found in the aftermath of a battle."
   },
   "Igon's Loincloth": {
     "name": "Igon's Loincloth",
     "set": "Igon's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon's+Loincloth",
-    "weight": null,
+    "weight": 3.9,
     "absorptions": {
-      "physical": null,
+      "physical": 4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5,
+      "fire": 5.4,
+      "lightning": 5.8,
+      "holy": 5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 34,
       "robustness": null,
-      "focus": null,
+      "focus": 26,
       "vitality": null,
-      "poise": null
+      "poise": 8
     },
-    "description": null
+    "description": "Loincloth of the broken drake warrior Igon. Stripped from a corpse found in the aftermath of a battle, this scrap of cloth smells utterly foul."
   },
   "Leather Headband": {
     "name": "Leather Headband",
     "set": "Highland Warrior Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Leather+Headband",
-    "weight": null,
+    "weight": 1,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 1.4,
+      "strike": 2.1,
+      "slash": 1.8,
+      "pierce": 1.4,
+      "magic": 1.8,
+      "fire": 2.3,
+      "lightning": 2.8,
+      "holy": 2.3
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 16,
+      "robustness": 10,
+      "focus": 12,
+      "vitality": 11,
+      "poise": 2
     },
-    "description": null
+    "description": "Headband worn by highland warriors, made of woven leather. The white favor represents their home settlement. Highland warriors are known to be hunters of bears; to them, there is no act more glorious than the subjugation of a savage beast."
   },
   "Gloried Attire": {
     "name": "Gloried Attire",
     "set": "Highland Warrior Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gloried+Attire",
-    "weight": null,
+    "weight": 7.1,
     "absorptions": {
-      "physical": null,
+      "physical": 8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 8.8,
+      "fire": 10.2,
+      "lightning": 11.4,
+      "holy": 10.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 57,
+      "robustness": 32,
+      "focus": 46,
+      "vitality": 42,
+      "poise": 13
     },
-    "description": null
+    "description": "Traditional garb of highland warriors, made from woven fabric and finished with fur. This garment is made from fabrics with both blue and red patterns. Red-patterned fabrics were allowed only to those who hunted bearsthe greatest and most glorious of the highlanders."
   },
   "Highland Attire": {
     "name": "Highland Attire",
     "set": "Highland Warrior Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Highland+Attire",
-    "weight": null,
+    "weight": 6.3,
     "absorptions": {
-      "physical": null,
+      "physical": 7.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 8,
+      "fire": 9.5,
+      "lightning": 10.9,
+      "holy": 9.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 55,
+      "robustness": 28,
+      "focus": 42,
+      "vitality": 38,
+      "poise": 13
     },
-    "description": null
+    "description": "Traditional garb of highland warriors, made from woven fabric and finished with a blue patterned cloth. Highland warriors are known to be hunters of bears; to them, there is no act more glorious than the subjugation of a savage beast."
   },
   "Leather Arm Wraps": {
     "name": "Leather Arm Wraps",
     "set": "Highland Warrior Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Leather+Arm+Wraps",
-    "weight": null,
+    "weight": 2.4,
     "absorptions": {
-      "physical": null,
+      "physical": 1.9,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.1,
+      "fire": 2.5,
+      "lightning": 2.8,
+      "holy": 2.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 19,
+      "robustness": 11,
+      "focus": 15,
+      "vitality": 14,
+      "poise": 3
     },
-    "description": null
+    "description": "Arm wraps worn by highland warriors, made of sturdy leather and fastened with winding straps. Highland warriors are known to be hunters of bears; to them, there is no act more glorious than the subjugation of a savage beast."
   },
   "Leather Leg Wraps": {
     "name": "Leather Leg Wraps",
     "set": "Highland Warrior Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Leather+Leg+Wraps",
-    "weight": null,
+    "weight": 4.4,
     "absorptions": {
-      "physical": null,
+      "physical": 4.5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5,
+      "fire": 5.8,
+      "lightning": 6.5,
+      "holy": 5.8
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 35,
       "robustness": null,
-      "focus": null,
+      "focus": 29,
       "vitality": null,
-      "poise": null
+      "poise": 8
     },
-    "description": null
+    "description": "Leg wraps worn by highland warriors, made of sturdy leather and fastened with winding straps. The addition of animal pelt keeps the wearer warm. Highland warriors are known to be hunters of bears; to them, there is no act more glorious than the subjugation of a savage beast."
   },
   "Messmer Soldier Helm": {
     "name": "Messmer Soldier Helm",
     "set": "Messmer Soldier Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Helm",
-    "weight": null,
+    "weight": 4,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.4,
+      "strike": 3.6,
+      "slash": 4.4,
+      "pierce": 4.2,
+      "magic": 3.1,
+      "fire": 3.6,
+      "lightning": 2.5,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 9,
+      "poise": 7
     },
-    "description": null
+    "description": "Helm worn by soldiers who serve Messmer the Impaler. The iron helm features a visor. Though the engraving upon the forehead is a Scadutree design, it is etched in gold. A small consolation to those forced to wage a war without grace or honor."
   },
   "Messmer Soldier Armor": {
     "name": "Messmer Soldier Armor",
     "set": "Messmer Soldier Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Armor",
-    "weight": null,
+    "weight": 9.2,
     "absorptions": {
-      "physical": null,
+      "physical": 12.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 8.2,
+      "fire": 9.7,
+      "lightning": 6.9,
+      "holy": 8.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 22,
+      "robustness": 42,
+      "focus": 16,
+      "vitality": 16,
+      "poise": 18
     },
-    "description": null
+    "description": "Armor worn by soldiers who serve Messmer the Impaler. A ragged cloak is draped over rusted mail. Though the chestpiece features a Scadutree motif, gold has been used for its engraving. A small consolation to those forced to wage a war without grace or honor."
   },
   "Messmer Soldier Gauntlets": {
     "name": "Messmer Soldier Gauntlets",
     "set": "Messmer Soldier Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Gauntlets",
-    "weight": null,
+    "weight": 2.9,
     "absorptions": {
-      "physical": null,
+      "physical": 2.9,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 1.9,
+      "fire": 2.3,
+      "lightning": 1.6,
+      "holy": 1.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 8,
+      "robustness": 15,
+      "focus": 6,
+      "vitality": 6,
+      "poise": 4
     },
-    "description": null
+    "description": "Gauntlets worn by soldiers who serve Messmer the Impaler, rusted and crusted in filth from fighting in unending war."
   },
   "Messmer Soldier Greaves": {
     "name": "Messmer Soldier Greaves",
     "set": "Messmer Soldier Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Greaves",
-    "weight": null,
+    "weight": 5.5,
     "absorptions": {
-      "physical": null,
+      "physical": 6.8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 4.5,
+      "fire": 5.4,
+      "lightning": 3.8,
+      "holy": 4.5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 15,
       "robustness": null,
-      "focus": null,
+      "focus": 11,
       "vitality": null,
-      "poise": null
+      "poise": 11
     },
-    "description": null
+    "description": "Greaves worn by soldiers who serve Messmer the Impaler, rusted and crusted in filth from fighting in unending war."
   },
   "Messmer's Helm": {
     "name": "Messmer's Helm",
     "set": "Messmer's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Helm",
-    "weight": null,
+    "weight": 3.6,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 3.4,
+      "strike": 3.4,
+      "slash": 3.1,
+      "pierce": 3.8,
+      "magic": 3.6,
+      "fire": 4.4,
+      "lightning": 4.2,
+      "holy": 3.6
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 26,
+      "robustness": 18,
+      "focus": 24,
+      "vitality": 26,
+      "poise": 5
     },
-    "description": null
+    "description": "Black helm of Messmer the Impaler, crowned with two intertwined winged serpents.Slightly enhances incantations of Messmer's flame as well as Fire Knight skills.The winged snakes were Messmer's constant companions.They were there when the base serpent was sealed away behind his eye. They were there through his eternity of suffering. They will accompany him yet, in his hideous new form born when he destroyed the grace granted by his mother. They have accepted his fate as much as he."
   },
   "Messmer's Armor": {
     "name": "Messmer's Armor",
     "set": "Messmer's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Armor",
-    "weight": null,
+    "weight": 7.8,
     "absorptions": {
-      "physical": null,
+      "physical": 9.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 10,
+      "fire": 12.2,
+      "lightning": 11.7,
+      "holy": 10
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 54,
+      "robustness": 38,
+      "focus": 52,
+      "vitality": 54,
+      "poise": 16
     },
-    "description": null
+    "description": "Black armor of Messmer the Impaler. Draped with a red cloak bearing his crest embroidered. On his mother's wishes, Messmer made himself a symbol of fear, undertaking the cleansing crusade she desired. \"Direct thy maledictions, thine ire, and thy grief towards me alone.\""
   },
   "Messmer's Gauntlets": {
     "name": "Messmer's Gauntlets",
     "set": "Messmer's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Gauntlets",
-    "weight": null,
+    "weight": 2.8,
     "absorptions": {
-      "physical": null,
+      "physical": 2.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.5,
+      "fire": 3.1,
+      "lightning": 2.9,
+      "holy": 2.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 20,
+      "robustness": 14,
+      "focus": 19,
+      "vitality": 20,
+      "poise": 3
     },
-    "description": null
+    "description": "Black gauntlets of Messmer the Impaler. On his mother's wishes, Messmer made himself a symbol of fear, undertaking the cleansing crusade she desired. \"Direct thy maledictions, thine ire, and thy grief towards me alone.\""
   },
   "Messmer's Greaves": {
     "name": "Messmer's Greaves",
     "set": "Messmer's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer's+Greaves",
-    "weight": null,
+    "weight": 5.1,
     "absorptions": {
-      "physical": null,
+      "physical": 5.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5.8,
+      "fire": 7.1,
+      "lightning": 6.8,
+      "holy": 5.8
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 37,
       "robustness": null,
-      "focus": null,
+      "focus": 35,
       "vitality": null,
-      "poise": null
+      "poise": 10
     },
-    "description": null
+    "description": "Black greaves of Messmer the Impaler. On his mother's wishes, Messmer made himself a symbol of fear, undertaking the cleansing crusade she desired. \"Direct thy maledictions, thine ire, and thy grief towards me alone.\""
   },
   "Oathseeker Knight Helm": {
     "name": "Oathseeker Knight Helm",
     "set": "Oathseeker Knight Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Helm",
-    "weight": null,
+    "weight": 4.4,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.4,
+      "strike": 3.8,
+      "slash": 4.2,
+      "pierce": 4,
+      "magic": 3.6,
+      "fire": 3.4,
+      "lightning": 2.3,
+      "holy": 3.4
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 21,
+      "focus": 10,
+      "vitality": 9,
+      "poise": 7
     },
-    "description": null
+    "description": "An Oathseeker Knight helm. Black with gold ornamentation. These knights set off on quests of discovery, hoping to find by themselves an oath of their own choosing to serve in perfect, lifelong devotion."
   },
   "Oathseeker Knight Armor": {
     "name": "Oathseeker Knight Armor",
     "set": "Oathseeker Knight Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Armor",
-    "weight": null,
+    "weight": 9.2,
     "absorptions": {
-      "physical": null,
+      "physical": 12.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 9.5,
+      "fire": 9.5,
+      "lightning": 6.7,
+      "holy": 9.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 25,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 21,
+      "poise": 19
     },
-    "description": null
+    "description": "Oathseeker Knight chest armor. Black with gold ornamentation. These knights set off on quests of discovery, hoping to find by themselves an oath of their own choosing to serve in perfect, lifelong devotion."
   },
   "Oathseeker Knight Gauntlets": {
     "name": "Oathseeker Knight Gauntlets",
     "set": "Oathseeker Knight Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Gauntlets",
-    "weight": null,
+    "weight": 3.5,
     "absorptions": {
-      "physical": null,
+      "physical": 3.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.7,
+      "fire": 2.5,
+      "lightning": 1.7,
+      "holy": 2.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 11,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8,
+      "poise": 4
     },
-    "description": null
+    "description": "Oathseeker Knight gauntlets. Black with gold ornamentation. These knights set off on quests of discovery, hoping to find by themselves an oath of their own choosing to serve in perfect, lifelong devotion."
   },
   "Oathseeker Knight Greaves": {
     "name": "Oathseeker Knight Greaves",
     "set": "Oathseeker Knight Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Oathseeker+Knight+Greaves",
-    "weight": null,
+    "weight": 6.6,
     "absorptions": {
-      "physical": null,
+      "physical": 7.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 6.2,
+      "fire": 5.8,
+      "lightning": 4,
+      "holy": 5.8
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 20,
       "robustness": null,
-      "focus": null,
+      "focus": 15,
       "vitality": null,
-      "poise": null
+      "poise": 12
     },
-    "description": null
+    "description": "Oathseeker Knight greaves. Black with gold ornamentation. These knights set off on quests of discovery, hoping to find by themselves an oath of their own choosing to serve in perfect, lifelong devotion."
   },
   "Rakshasa Helm": {
     "name": "Rakshasa Helm",
     "set": "Rakshasa Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Helm",
-    "weight": null,
+    "weight": 5.5,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 2.7,
+      "strike": 2.3,
+      "slash": 3.1,
+      "pierce": 2.9,
+      "magic": 2.1,
+      "fire": 2.5,
+      "lightning": 1.9,
+      "holy": 2.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 15,
+      "robustness": 26,
+      "focus": 12,
+      "vitality": 12,
+      "poise": 9
     },
-    "description": null
+    "description": "Helm of Rakshasa, soaked in the spurting blood of her victims. Tatters of ragged cloth jut out haphazardly, as if her lust for carnage threatens to break free.Increases damage dealt to foes, but greatly increases damage taken by the wearer.Cut down and devour. Only those who repeat the cycle without rest can truly subvert the self and become Rakshasa."
   },
   "Rakshasa Armor": {
     "name": "Rakshasa Armor",
     "set": "Rakshasa Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Armor",
-    "weight": null,
+    "weight": 12.8,
     "absorptions": {
-      "physical": null,
+      "physical": 11.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 9.6,
+      "fire": 10.6,
+      "lightning": 9.1,
+      "holy": 9.6
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 35,
+      "robustness": 60,
+      "focus": 28,
+      "vitality": 28,
+      "poise": 27
     },
-    "description": null
+    "description": "Armor of Rakshasa, soaked in the spurting blood of her victims. Tatters of ragged cloth jut out haphazardly, as if her lust for carnage threatens to break free.Increases damage dealt to foes, but greatly increases damage taken by the wearer.Cut down and devour. Only those who repeat the cycle without rest can truly subvert the self and become Rakshasa."
   },
   "Rakshasa Gauntlets": {
     "name": "Rakshasa Gauntlets",
     "set": "Rakshasa Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Gauntlets",
-    "weight": null,
+    "weight": 4.3,
     "absorptions": {
-      "physical": null,
+      "physical": 1.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 0.9,
+      "fire": 1.2,
+      "lightning": 0.8,
+      "holy": 0.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 20,
+      "focus": 9,
+      "vitality": 9,
+      "poise": 6
     },
-    "description": null
+    "description": "Gauntlets of Rakshasa, soaked in the spurting blood of her victims. Tatters of ragged cloth jut out haphazardly, as if her lust for carnage threatens to break free.Increases damage dealt to foes, but greatly increases damage taken by the wearer.Cut down and devour. Only those who repeat the cycle without rest can truly subvert the self and become Rakshasa."
   },
   "Rakshasa Greaves": {
     "name": "Rakshasa Greaves",
     "set": "Rakshasa Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa+Greaves",
-    "weight": null,
+    "weight": 7.9,
     "absorptions": {
-      "physical": null,
+      "physical": 5.5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 4.6,
+      "fire": 5.2,
+      "lightning": 4.3,
+      "holy": 4.6
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 22,
       "robustness": null,
-      "focus": null,
+      "focus": 17,
       "vitality": null,
-      "poise": null
+      "poise": 16
     },
-    "description": null
+    "description": "Greaves of Rakshasa, soaked the spurting blood of her victims. Tatters of ragged cloth jut out haphazardly, as if her lust for carnage threatens to break free.Increases damage dealt to foes, but greatly increases damage taken by the wearer.Cut down and devour. Only those who repeat the cycle without rest can truly subvert the self and become Rakshasa."
   },
   "Rellana's Helm": {
     "name": "Rellana's Helm",
     "set": "Rellana's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Helm",
-    "weight": null,
+    "weight": 5.1,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.8,
+      "strike": 4.2,
+      "slash": 5,
+      "pierce": 4.6,
+      "magic": 4.5,
+      "fire": 4.2,
+      "lightning": 3.4,
+      "holy": 3.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 15,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 10,
+      "poise": 8
     },
-    "description": null
+    "description": "Ornate helm of Rellana, the Twin Moon Knight, fashioned from silver steel. Rennala, head of the royal family of Caria, was said to have given her younger sister, who renounced her lineage to chase after Messmer, a gift of lustrous black hair."
   },
   "Rellana's Armor": {
     "name": "Rellana's Armor",
     "set": "Rellana's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Armor",
-    "weight": null,
+    "weight": 11.8,
     "absorptions": {
-      "physical": null,
+      "physical": 13.5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 12.6,
+      "fire": 11.9,
+      "lightning": 9.5,
+      "holy": 10.9
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 35,
+      "robustness": 57,
+      "focus": 24,
+      "vitality": 24,
+      "poise": 24
     },
-    "description": null
+    "description": "Ornate armor of Rellana, the Twin Moon Knight, fashioned from silver steel. Adorned with the lapis-lazuli blue that is symbolic of Caria, its radiance is yet to fully fade."
   },
   "Rellana's Gloves": {
     "name": "Rellana's Gloves",
     "set": "Rellana's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Gloves",
-    "weight": null,
+    "weight": 3.9,
     "absorptions": {
-      "physical": null,
+      "physical": 3.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.1,
+      "fire": 2.9,
+      "lightning": 2.3,
+      "holy": 2.7
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 12,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8,
+      "poise": 5
     },
-    "description": null
+    "description": "Gloves of Rellana, the Twin Moon Knight, fashioned from quality leather."
   },
   "Rellana's Greaves": {
     "name": "Rellana's Greaves",
     "set": "Rellana's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana's+Greaves",
-    "weight": null,
+    "weight": 7.3,
     "absorptions": {
-      "physical": null,
+      "physical": 7.7,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.2,
+      "fire": 6.8,
+      "lightning": 5.4,
+      "holy": 6.2
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 22,
       "robustness": null,
-      "focus": null,
+      "focus": 15,
       "vitality": null,
-      "poise": null
+      "poise": 14
     },
-    "description": null
+    "description": "Ornate greaves of Rellana, the Twin Moon Knight, fashioned from silver steel."
   },
   "Shadow Militiaman Helm": {
     "name": "Shadow Militiaman Helm",
     "set": "Shadow Militiaman Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Helm",
-    "weight": null,
+    "weight": 3,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 2.5,
+      "strike": 3.1,
+      "slash": 2.8,
+      "pierce": 2.8,
+      "magic": 3.6,
+      "fire": 3.8,
+      "lightning": 3.8,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 33,
+      "robustness": 14,
+      "focus": 18,
+      "vitality": 18,
+      "poise": 4
     },
-    "description": null
+    "description": "Helm as dark as shadow, worn by vulgar militiamen. Freshly-singed battlegrounds effusing with the stench of the dead. Forbidden lands that will be excised from the memory of history. What better place than the realms of shadow then, for such an army?"
   },
   "Shadow Militiaman Armor": {
     "name": "Shadow Militiaman Armor",
     "set": "Shadow Militiaman Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Armor",
-    "weight": null,
+    "weight": 7.1,
     "absorptions": {
-      "physical": null,
+      "physical": 7.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 10.2,
+      "fire": 10.9,
+      "lightning": 10.9,
+      "holy": 8.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 69,
+      "robustness": 29,
+      "focus": 38,
+      "vitality": 38,
+      "poise": 13
     },
-    "description": null
+    "description": "Armor as dark as shadow, worn by vulgar militiamen. Freshly-singed battlegrounds effusing with the stench of the dead. Forbidden lands that will be excised from the memory of history. What better place than the realms of shadow then, for such an army?"
   },
   "Shadow Militiaman Gauntlets": {
     "name": "Shadow Militiaman Gauntlets",
     "set": "Shadow Militiaman Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Gauntlets",
-    "weight": null,
+    "weight": 2.4,
     "absorptions": {
-      "physical": null,
+      "physical": 1.7,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 2.5,
+      "fire": 2.7,
+      "lightning": 2.7,
+      "holy": 2.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 25,
+      "robustness": 11,
+      "focus": 14,
+      "vitality": 14,
+      "poise": 3
     },
-    "description": null
+    "description": "Gauntlets as dark as shadow, worn by vulgar militiamen. Freshly-singed battlegrounds effusing with the stench of the dead. Forbidden lands that will be excised from the memory of history. What better place than the realms of shadow then, for such an army?"
   },
   "Shadow Militiaman Greaves": {
     "name": "Shadow Militiaman Greaves",
     "set": "Shadow Militiaman Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Militiaman+Greaves",
-    "weight": null,
+    "weight": 4.4,
     "absorptions": {
-      "physical": null,
+      "physical": 4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 5.8,
+      "fire": 6.2,
+      "lightning": 6.2,
+      "holy": 5
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 47,
       "robustness": null,
-      "focus": null,
+      "focus": 26,
       "vitality": null,
-      "poise": null
+      "poise": 8
     },
-    "description": null
+    "description": "Greaves as dark as shadow, worn by vulgar militiamen. Freshly-singed battlegrounds effusing with the stench of the dead. Forbidden lands that will be excised from the memory of history. What better place than the realms of shadow then, for such an army?"
   },
   "Thiollier's Mask": {
     "name": "Thiollier's Mask",
     "set": "Thiollier's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Mask",
-    "weight": null,
+    "weight": 3.8,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.4,
+      "strike": 3.4,
+      "slash": 4,
+      "pierce": 3.8,
+      "magic": 2.3,
+      "fire": 3.1,
+      "lightning": 2.3,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 15,
+      "robustness": 16,
+      "focus": 11,
+      "vitality": 0,
+      "poise": 6
     },
-    "description": null
+    "description": "A mask upon which is carved a tranquil sleeping face. The silver hair is arranged in the same style as St. Trina's, increasing arcane. Just once, Thiollier was granted the sweet repose of velvety sleep. The remainder of his days would be spent attempting to recapture it."
   },
   "Thiollier's Garb": {
     "name": "Thiollier's Garb",
     "set": "Thiollier's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Garb",
-    "weight": null,
+    "weight": 7.1,
     "absorptions": {
-      "physical": null,
+      "physical": 8.8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 8,
+      "fire": 9.5,
+      "lightning": 10.9,
+      "holy": 10.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 71,
+      "robustness": 28,
+      "focus": 63,
+      "vitality": 38,
+      "poise": 13
     },
-    "description": null
+    "description": "The dark attire of those who wield poison in secret. The silver hair is arranged in the same style as St. Trina's, increasing arcane. Additionally, countless needles are sewn onto the exterior, apparently for talismanic effect."
   },
   "Thiollier's Gloves": {
     "name": "Thiollier's Gloves",
     "set": "Thiollier's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Gloves",
-    "weight": null,
+    "weight": 2.4,
     "absorptions": {
-      "physical": null,
+      "physical": 2.1,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 1.9,
+      "fire": 2.3,
+      "lightning": 2.7,
+      "holy": 2.5
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 24,
+      "robustness": 9,
+      "focus": 21,
+      "vitality": 13,
+      "poise": 3
     },
-    "description": null
+    "description": "The dark gloves of those who wield poison in secret, ever scorned and loathed."
   },
   "Thiollier's Trousers": {
     "name": "Thiollier's Trousers",
     "set": "Thiollier's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier's+Trousers",
-    "weight": null,
+    "weight": 4.4,
     "absorptions": {
-      "physical": null,
+      "physical": 5,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 4.5,
+      "fire": 5.4,
+      "lightning": 6.2,
+      "holy": 5.8
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 44,
       "robustness": null,
-      "focus": null,
+      "focus": 39,
       "vitality": null,
-      "poise": null
+      "poise": 8
     },
-    "description": null
+    "description": "The dark trousers of those who wield poison in secret, ever scorned and loathed."
   },
   "Verdigris Helm": {
     "name": "Verdigris Helm",
     "set": "Verdigris Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Helm",
-    "weight": null,
+    "weight": 11.1,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 7.5,
+      "strike": 6.4,
+      "slash": 7.2,
+      "pierce": 6.8,
+      "magic": 4.8,
+      "fire": 4.7,
+      "lightning": 5.2,
+      "holy": 4.7
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 39,
+      "robustness": 46,
+      "focus": 15,
+      "vitality": 22,
+      "poise": 15
     },
-    "description": null
+    "description": "Helm made from an unusual metal known as verdigris. Verdigris is said to be the gift of an outer god. Possessed of an enormously hefty yet supple strength thanks to its rusted nature."
   },
   "Verdigris Armor": {
     "name": "Verdigris Armor",
     "set": "Verdigris Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Armor",
-    "weight": null,
+    "weight": 25.9,
     "absorptions": {
-      "physical": null,
+      "physical": 20.4,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 13.5,
+      "fire": 13.5,
+      "lightning": 14.5,
+      "holy": 13.3
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 82,
+      "robustness": 97,
+      "focus": 32,
+      "vitality": 45,
+      "poise": 47
     },
-    "description": null
+    "description": "Chest armor made from an unusual metal known as verdigris. Verdigris is said to be the gift of an outer god. Possessed of an enormously hefty yet supple strength thanks to its rusted nature."
   },
   "Verdigris Gauntlets": {
     "name": "Verdigris Gauntlets",
     "set": "Verdigris Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Gauntlets",
-    "weight": null,
+    "weight": 8.6,
     "absorptions": {
-      "physical": null,
+      "physical": 5.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.3,
+      "fire": 3.3,
+      "lightning": 3.6,
+      "holy": 3.3
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 30,
+      "robustness": 36,
+      "focus": 12,
+      "vitality": 17,
+      "poise": 10
     },
-    "description": null
+    "description": "Gauntlets made from an unusual metal known as verdigris. Verdigris is said to be the gift of an outer god. Possessed of an enormously hefty yet supple strength thanks to its rusted nature."
   },
   "Verdigris Greaves": {
     "name": "Verdigris Greaves",
     "set": "Verdigris Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Greaves",
-    "weight": null,
+    "weight": 16,
     "absorptions": {
-      "physical": null,
+      "physical": 11.9,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.7,
+      "fire": 7.6,
+      "lightning": 8.3,
+      "holy": 7.6
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 56,
       "robustness": null,
-      "focus": null,
+      "focus": 22,
       "vitality": null,
-      "poise": null
+      "poise": 28
     },
-    "description": null
+    "description": "Greaves made from an unusual metal known as verdigris. Verdigris is said to be the gift of an outer god. Possessed of an enormously hefty yet supple strength thanks to its rusted nature."
   },
   "Wise Man's Mask": {
     "name": "Wise Man's Mask",
     "set": "Ansbach's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Wise+Man's+Mask",
-    "weight": null,
+    "weight": 4,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 4.2,
+      "strike": 3.6,
+      "slash": 4.4,
+      "pierce": 4,
+      "magic": 3.1,
+      "fire": 4,
+      "lightning": 2.3,
+      "holy": 3.1
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 11,
+      "robustness": 24,
+      "focus": 9,
+      "vitality": 10,
+      "poise": 7
     },
-    "description": null
+    "description": "The iron mask of Sir Ansbach, giving the appearance of a quiet, wise, old bearded man. But an old fear lurks beneath, together with the cold, unflinching discipline that once honed his blade, now employed to enhance Blood Oath and dynastic skills."
   },
   "Ansbach's Attire": {
     "name": "Ansbach's Attire",
     "set": "Ansbach's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach's+Attire",
-    "weight": null,
+    "weight": 5.1,
     "absorptions": {
-      "physical": null,
+      "physical": 5.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 13,
+      "fire": 13,
+      "lightning": 12.6,
+      "holy": 13
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 38,
+      "robustness": 25,
+      "focus": 76,
+      "vitality": 90,
+      "poise": 12
     },
-    "description": null
+    "description": "Attire of Sir Ansbach. The embroidered crest of the Pureblood Knights has now all but faded away. Slightly enhances Blood Oath and dynastic skills. Ansbach understood that keeping his oath to his old master was not an act of logic, nor would it bear any justice, but it was for these very reasons he was unable to let go."
   },
   "Ansbach's Manchettes": {
     "name": "Ansbach's Manchettes",
     "set": "Ansbach's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach's+Manchettes",
-    "weight": null,
+    "weight": 1.7,
     "absorptions": {
-      "physical": null,
+      "physical": 1.3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.2,
+      "fire": 3.2,
+      "lightning": 3.1,
+      "holy": 3.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 13,
+      "robustness": 8,
+      "focus": 25,
+      "vitality": 30,
+      "poise": 3
     },
-    "description": null
+    "description": "Manchettes of Sir Ansbach. Black leather adorned with gold embroidery. Slightly enhances Blood Oath and dynastic skills."
   },
   "Ansbach's Boots": {
     "name": "Ansbach's Boots",
     "set": "Ansbach's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach's+Boots",
-    "weight": null,
+    "weight": 3.1,
     "absorptions": {
-      "physical": null,
+      "physical": 3,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.4,
+      "fire": 7.4,
+      "lightning": 7.2,
+      "holy": 7.4
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 24,
       "robustness": null,
-      "focus": null,
+      "focus": 47,
       "vitality": null,
-      "poise": null
+      "poise": 7
     },
-    "description": null
+    "description": "Boots of Sir Ansbach. Black leather adorned with gold embroidery. Slightly enhances Blood Oath and dynastic skills."
   },
   "Young Lion's Helm": {
     "name": "Young Lion's Helm",
     "set": "Young Lion's Set",
     "category": "Head",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Helm",
-    "weight": null,
+    "weight": 6.4,
     "absorptions": {
-      "physical": null,
-      "strike": null,
-      "slash": null,
-      "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "physical": 6.1,
+      "strike": 5.2,
+      "slash": 6.1,
+      "pierce": 6.1,
+      "magic": 4.4,
+      "fire": 4.6,
+      "lightning": 4,
+      "holy": 4.6
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 22,
+      "robustness": 31,
+      "focus": 11,
+      "vitality": 15,
+      "poise": 10
     },
-    "description": null
+    "description": "The golden helm worn by Radahn in his younger years. Proudly displaying his heroic red hair, it is fitting attire for a lion. When Malenia, Blade of Miquella, let the rotflower blossom in Aeonia, Radahn heard a murmur in his ear \"Miquella awaits thee, O promised consort.\""
   },
   "Young Lion's Armor": {
     "name": "Young Lion's Armor",
     "set": "Young Lion's Set",
     "category": "Body",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Armor",
-    "weight": null,
+    "weight": 15,
     "absorptions": {
-      "physical": null,
+      "physical": 16.8,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 12.4,
+      "fire": 12.8,
+      "lightning": 11.4,
+      "holy": 12.8
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 45,
+      "robustness": 64,
+      "focus": 22,
+      "vitality": 32,
+      "poise": 31
     },
-    "description": null
+    "description": "The golden armor worn by Radahn in his younger years. Proudly adorned with heroic red accents, it is fitting attire for a lion. When Malenia, Blade of Miquella, let the rotflower blossom in Aeonia, Radahn heard a murmur in his ear \"Miquella awaits thee, O promised consort.\""
   },
   "Young Lion's Gauntlets": {
     "name": "Young Lion's Gauntlets",
     "set": "Young Lion's Set",
     "category": "Arms",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Gauntlets",
-    "weight": null,
+    "weight": 5,
     "absorptions": {
-      "physical": null,
+      "physical": 4.2,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 3.1,
+      "fire": 3.2,
+      "lightning": 2.8,
+      "holy": 3.2
     },
     "resistances": {
-      "immunity": null,
-      "robustness": null,
-      "focus": null,
-      "vitality": null,
-      "poise": null
+      "immunity": 17,
+      "robustness": 24,
+      "focus": 8,
+      "vitality": 12,
+      "poise": 7
     },
-    "description": null
+    "description": "The golden gauntlets worn by Radahn in his younger years. When Malenia, Blade of Miquella, let the rotflower blossom in Aeonia, Radahn heard a murmur in his ear \"Miquella awaits thee, O promised consort.\""
   },
   "Young Lion's Greaves": {
     "name": "Young Lion's Greaves",
     "set": "Young Lion's Set",
     "category": "Legs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Young+Lion's+Greaves",
-    "weight": null,
+    "weight": 9.3,
     "absorptions": {
-      "physical": null,
+      "physical": 9.6,
       "strike": null,
       "slash": null,
       "pierce": null,
-      "magic": null,
-      "fire": null,
-      "lightning": null,
-      "holy": null
+      "magic": 7.1,
+      "fire": 7.3,
+      "lightning": 6.5,
+      "holy": 7.3
     },
     "resistances": {
-      "immunity": null,
+      "immunity": 31,
       "robustness": null,
-      "focus": null,
+      "focus": 16,
       "vitality": null,
-      "poise": null
+      "poise": 19
     },
-    "description": null
+    "description": "The golden greaves worn by Radahn in his younger years. Worn by a fierce lion. When Malenia, Blade of Miquella, let the rotflower blossom in Aeonia, Radahn heard a murmur in his ear \"Miquella awaits thee, O promised consort.\""
   }
 }

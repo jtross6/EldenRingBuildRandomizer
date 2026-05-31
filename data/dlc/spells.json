@@ -3,546 +3,546 @@
     "name": "Aspects of the Crucible: Bloom",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Bloom",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 23,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 27,
+      "Arc": 0
     },
-    "description": null
+    "description": "Aspect of the Crucible discovered in the ancient ruins. Creates a miranda flower on one's chest before calling down a rain of light. Charging increases potency. In an age long past, before this land was enshrouded in shadow, the vitality of the Crucible flourished."
   },
   "Aspects of the Crucible: Thorns": {
     "name": "Aspects of the Crucible: Thorns",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Aspects+of+the+Crucible:+Thorns",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 14,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 27,
+      "Arc": 0
     },
-    "description": null
+    "description": "Aspect of the Crucible that manifested in golden hippopotami. Creates a bristling mass of thorn-like fur on the caster's back before scouring the area by rolling around on the ground. Charging increases potency. In an age long past, before this land was enshrouded in shadow, the vitality of the Crucible flourished. Remains of this can be seen in the ancient ruins."
   },
   "Bayle's Flame Lightning": {
     "name": "Bayle's Flame Lightning",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Bayle%27s+Flame+Lightning",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 43,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 0,
+      "Arc": 53
     },
-    "description": null
+    "description": "One of the greatest Dragon Communion incantations. Harnesses the fearsome power of Bayle the Dread. Channels the form of the dread dragon in right arm to smash foes with an exposed talon bone coursing with flame lightning. Even after being consumed, the throbbing heart of Bayle continues to resist its subjugation, never weakening. One day, the fire within will consume the very body and soul of its Communion devourer. One day."
   },
   "Bayle's Tyranny": {
     "name": "Bayle's Tyranny",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Bayle%27s+Tyranny",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 46,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 0,
+      "Arc": 49
     },
-    "description": null
+    "description": "One of the greatest Dragon Communion incantations. Harnesses the fearsome power of Bayle the Dread. Channels the form of the dread dragon to emit a mighty roar accompanied by a heatwave burst, causing violent eruptions of fire in the area. Even after being consumed, the throbbing heart of Bayle continues to resist its subjugation, never weakening. One day, the fire within will consume the very body and soul of its Communion devourer. One day."
   },
   "Divine Beast Tornado": {
     "name": "Divine Beast Tornado",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Beast+Tornado",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 24,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 28,
+      "Arc": 0
     },
-    "description": null
+    "description": "The tempest of the Dancing Lion, wielded as an incantation. A whirlwind-like twist of the body summons a storm, launching a tornado forward. Charging enhances potency. The majority of divine beasts were gored and hung upon Messmer's spears, then burned in his flame. Those who witnessed the deed likened it to a funeral pyre for the tower itself."
   },
   "Divine Bird Feathers": {
     "name": "Divine Bird Feathers",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Divine+Bird+Feathers",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 3,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 24,
+      "Arc": 0
     },
-    "description": null
+    "description": "A technique of the divine bird warriors, the very first of all horned warriors, wielded as an incantation. Spread the arms wide like wings to release a flurry of feathers. This incantation can be cast while in motion. Hold to continue releasing feathers. The divine bird warriors, and indeed this technique, are said to bear resemblance to the golden Crucible."
   },
   "Dragonbolt of Florissax": {
     "name": "Dragonbolt of Florissax",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dragonbolt+of+Florissax",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 35,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 52,
+      "Arc": 0
     },
-    "description": null
+    "description": "Special incantation of the ancient dragon Florissax. Calls down red lightning to bolster the caster and nearby allies. While enrobed with red lightning, all forms of damage negation (including physical) are increased. This also increases damage negation while guarding as an additional effect. There was a time when the priestess never knew love, and thus never used this incantation herself."
   },
   "Electrocharge": {
     "name": "Electrocharge",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Electrocharge",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 26,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 30,
+      "Arc": 0
     },
-    "description": null
+    "description": "One of the incantations of the capital's ancient dragon cult. Calls down lightning to charge the caster's body. While charged, electric shocks will strike the area several times. Charging increases potency. The origin of incantations that bolster the body with lightning, and now a lost art in the Lands Between."
   },
   "Fire Serpent": {
     "name": "Fire Serpent",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Serpent",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 11,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 16,
+      "Arc": 0
     },
-    "description": null
+    "description": "Incantation of the Fire Knights under Messmer the Impaler's personal command. Launch a serpentine flame that bends and curls in pursuit of its foe. Charging enhances potency. When the flame they received from Messmer would not find purchase within them, the Fire Knights relied on fire incantations to honor their bond."
   },
   "Furious Blade of Ansbach": {
     "name": "Furious Blade of Ansbach",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Furious+Blade+of+Ansbach",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 18,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 19,
+      "Arc": 27
     },
-    "description": null
+    "description": "Incantation of Ansbach, Pureblood Knight. Produces a bloodflame blade from the side of the hand, then lunges at enemies to cleave through them. Charge to increase the number of slashes. Markedly different from the finessed swordplay of the dynast, this is an aggressive last resort of an incantation that gave rise to Ansbach's fearsome reputation."
   },
   "Ghostflame Breath": {
     "name": "Ghostflame Breath",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ghostflame+Breath",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 36,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 23,
+      "Arc": 15
     },
-    "description": null
+    "description": "One of the incantations of Dragon Communion. Transforms caster into a dragon to spew ghostflame breath. Charging extends duration. The land of spiritgraves is home to all manner of dead, and even the corpses of fallen dragons found their way there. Several of them were endowed with such vivacity that even in death, they could not fully die."
   },
   "Giant Golden Arc": {
     "name": "Giant Golden Arc",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Giant+Golden+Arc",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 24,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 34,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery of the inquisitors of the tower, wielded as an incantation of the spiral. A swing of the arm releases a giant golden arc. Charging enhances potency. The arc resembles the barb, a known symbol of coercive questioning."
   },
   "Golden Arcs": {
     "name": "Golden Arcs",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Golden+Arcs",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 12,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 22,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery of the inquisitors of the tower, wielded as an incantation of the spiral. A swing of the arm releases a procession of golden arcs. Charging enhances potency. The arcs resemble barbs, a known symbol of coercive questioning."
   },
   "Heal from Afar": {
     "name": "Heal from Afar",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Heal+from+Afar",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 45,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 18,
+      "Arc": 0
     },
-    "description": null
+    "description": "An Erdtree incantation discovered in the realm of shadow. Fires a projectile toward distant allies that greatly restores HP on contact. Even when far beyond, far out of sight, the Erdtree will surely give us its blessing."
   },
   "Knight's Lightning Spear": {
     "name": "Knight's Lightning Spear",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Knight%27s+Lightning+Spear",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 29,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 36,
+      "Arc": 0
     },
-    "description": null
+    "description": "One of the incantations of the capital's ancient dragon cult. Summons a lightning spear while also manifesting ancient dragon crests. On throwing the spear, the crests will launch additional spears. Charge to increase the number of crests. An incantation that was taught only to the most accomplished knights, and now a lost art in the Lands Between."
   },
   "Land of Shadow": {
     "name": "Land of Shadow",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Land+of+Shadow",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 40,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 58,
+      "Arc": 0
     },
-    "description": null
+    "description": "Incantation originating from Scadutree avatars. Creates a hail of golden projectiles which are fired toward foes after a brief delay. This incantation channels the force of the Scadutree's power, and its gold is accompanied by shadow."
   },
   "Light of Miquella": {
     "name": "Light of Miquella",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Light+of+Miquella",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 48,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 72,
+      "Arc": 0
     },
-    "description": null
+    "description": "The strength of Miquella upon his deific return, wielded as an incantation. Annihilates foes with a pillar of light. Miquella sought to accept all that was and would be, but found one that refused to be embraced. No wonder, as one god, and one king consort, is all the world needs."
   },
   "Midra's Flame of Frenzy": {
     "name": "Midra's Flame of Frenzy",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Midra%27s+Flame+of+Frenzy",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 22,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 41,
+      "Arc": 0
     },
-    "description": null
+    "description": "Incantation in praise of Midra, Lord of Frenzied Flame. Summons an apparition of the Lord's head to spew frenzied flame. This incantation can be used while in motion. The apparition will remain for as long as the input is held. The Lord of Frenzied Flame shall take their torment, despair. Their affliction. Every sin, every curse. All melted away. Yet Midra, like others before him, was too weak to become a Lord."
   },
   "Messmer's Orb": {
     "name": "Messmer's Orb",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer%27s+Orb",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 31,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 60,
+      "Arc": 0
     },
-    "description": null
+    "description": "An incantation of Messmer the Impaler. Summons Messmer's flame to form a giant floating orb. The orb soars toward a foe, crashes into the earth, and explodes after a brief delay. Charging enhances potency. Messmer despised his own fire. Time and time again he hoped to rid himself of it, but ever did it burn."
   },
   "Minor Erdtree": {
     "name": "Minor Erdtree",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Minor+Erdtree",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 30,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 70,
+      "Arc": 0
     },
-    "description": null
+    "description": "Secret incantation of Queen Marika. Only the kindness of gold, without Order. Creates a small, illusory Erdtree that continuously restores the HP of nearby allies. Marika bathed the village of her home in gold, knowing full well that there was no one to heal."
   },
   "Multilayered Ring of Light": {
     "name": "Multilayered Ring of Light",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Multilayered+Ring+of+Light",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 23,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 36,
+      "Arc": 0
     },
-    "description": null
+    "description": "Incantation of those who served Miquella. Produces a multilayered ring of golden light and fires it forwards, inflicting continuous damage on those struck by it. Charging increases potency. This light-ring incantation was cultivated by a tradition separate from Golden Order fundamentalism."
   },
   "Pest-Thread Spears": {
     "name": "Pest-Thread Spears",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Pest-Thread+Spears",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 28,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 26,
+      "Arc": 0
     },
-    "description": null
+    "description": "Skill of the pests known as the Kindred of Rot, now wielded as an incantation. Secrete numerous sticky threads, then twist them into two spears launched frontwards. Charge to enhance potency. The pests are abandoned servants, and it is for this reason that they found a mother in the Saint of the Bud."
   },
   "Rain of Fire": {
     "name": "Rain of Fire",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rain+of+Fire",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 27,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 52,
+      "Arc": 0
     },
-    "description": null
+    "description": "Incantation of Salza, sage of the Fire Knights. Summons a cloud of flame overhead that rains fire for a short time. Charging increases potency. Salza's disdain for barbarism never waned, even as he burned more villages and scorched more land than any other."
   },
   "Roar of Rugalea": {
     "name": "Roar of Rugalea",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Roar+of+Rugalea",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 17,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 14,
+      "Arc": 0
     },
-    "description": null
+    "description": "An incantation of what is jokingly called \"the bear communion.\" Channels the power of Rugalea, the great red bear. Transform oneself into a great red bear and emit a mighty roar. Charging increases potency. An incantation that is more akin to the divine invocation of the hornsent than it is to the Dragon Communion. Only through desperate battle with the feral wild can one discover a god unique to oneself."
   },
   "Rotten Butterflies": {
     "name": "Rotten Butterflies",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rotten+Butterflies",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 48,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 33,
+      "Arc": 0
     },
-    "description": null
+    "description": "Incantation used by Romina, Saint of the Bud. Summons a myriad of butterflies while performing a gentle twirl. The butterflies break apart on contact, scattering rot and setting off a chain reaction. The scarlet butterflies are as the Goddess of Rot's wings. Bereft of a master, they were soothed by Romina, who reached out to them."
   },
   "Spira": {
     "name": "Spira",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Spira",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 10,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 48,
+      "Arc": 0
     },
-    "description": null
+    "description": "Superior sorcery of the tower priests, wielded as an incantation of the spiral. Wrap one's arms together and hold them up to the heavens to summon a spiral of light that erupts at the enemy's feet. Column of light persists for as long as the button is pressed. The spiral is a normalized Crucible current that, one day, will form a column that stretches to the gods."
   },
   "Watchful Spirit": {
     "name": "Watchful Spirit",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Watchful+Spirit",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 12,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 26,
+      "Arc": 0
     },
-    "description": null
+    "description": "An entreaty received from the Empyrean grandam. Summon a guardian spirit above the caster's head. The spirit never strays far from the caster, conjuring several apparitions before dissipating. \"Take vengeance upon Messmer and his lot. They who betrayed us, aye, they who burned us... Let them face in thy wrath their just deserts.\""
   },
   "Wrath from Afar": {
     "name": "Wrath from Afar",
     "category": "Incantations",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Wrath+from+Afar",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 18,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 34,
+      "Arc": 0
     },
-    "description": null
+    "description": "An Erdtree incantation discovered in the realm of shadow. Fires a golden shockwave that knocks back nearby foes. Charging increases the size of the shockwave. When the Elden Ring was shattered, the people of the realm of shadow felt it tooand feared it as a sign of the Erdtree's wrath."
   },
   "Blades of Stone": {
     "name": "Blades of Stone",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Blades+of+Stone",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 18,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 48,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "Gravity-manipulating sorcery of Commander Gaius. Pulls blade-like clumps of rock from the earth. Charging increases potency. Gaius and Radahn were good rivals in their youth, and this sorcery is a product of their friendly competition."
   },
   "Cherishing Fingers": {
     "name": "Cherishing Fingers",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Cherishing+Fingers",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 20,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 36,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "A finger sorcery of Count Ymir, aspiring mother of fingers. Surrounds the caster with a mesh of hefty fingers that wards all manner of projectiles, whether magical or physical in nature, away from the caster. Charging enhances potency. The dear fingers look after their mother, or perhaps that is merely what the mother wishes to believe."
   },
   "Fleeting Microcosm": {
     "name": "Fleeting Microcosm",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fleeting+Microcosm",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 26,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 42,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "A finger sorcery of Count Ymir, High Priest. One of the secret hallowed rites. Conjures an image of a microcosm at a foe's feet that pulses with a single wave before disappearing in a burst. Charging enhances potency. The broken and discarded are fully willing to cling to fleeting simulacra, earning them some modicum of sympathy."
   },
   "Glintblade Trio": {
     "name": "Glintblade Trio",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Glintblade+Trio",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 19,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 28,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "An old sorcery of the Carian royal family. Creates a sigil overhead, from which three enemy-seeking glintblades appear after a brief delay. This sorcery can be used while in motion. Charging increases the delay. The prototypical form of sword-phalanx sorceries saw a different subsequent refinement in the realm of shadow."
   },
   "Glintstone Nail": {
     "name": "Glintstone Nail",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Glintblade+Nail",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 10,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 18,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "Glintstone sorcery of Count Ymir, High Priest. One of the finger sorceries said to have been discovered in a hallowed ruin. Flings a magic nail that crumbles during flight. Charging increases potency. Count Ymir boasts that this is mere child's play, an echo of a greater truth."
   },
   "Glintstone Nails": {
     "name": "Glintstone Nails",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Glintstone+Nails",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 23,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 32,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "Glintstone sorcery of Count Ymir, High Priest. One of the finger sorceries said to have been discovered in a hallowed ruin. Flings multiple magic nails that crumble during flight. Charging increases potency. Count Ymir boasts that this is mere child's play, an echo of a greater truth."
   },
   "Gravitational Missile": {
     "name": "Gravitational Missile",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gravitational+Missile",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 18,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 36,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "One of the glintstone sorceries that manipulates gravitational forces. Fires a gravitational projectile that pulls in enemies before finally exploding. Charging increases potency. Said to have originated in the lightless dark far beyondthe home of the fallingstar beasts."
   },
   "Impenetrable Thorns": {
     "name": "Impenetrable Thorns",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Impenetrable+Thorns",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 15,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 24,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery of those who abandoned the practice of incantations after devout faith rewarded them with only despair. Summons the Scadutree's impenetrable thorns from the ground. This sorcery can be used repeatedly. The image of the twisted Scadutree is an edict: Denounce their ways. Do them harm. For they have abandoned us."
   },
   "Mantle of Thorns": {
     "name": "Mantle of Thorns",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Mantle+of+Thorns",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 9,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 0,
+      "Fai": 20,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery of those who abandoned the practice of incantations after devout faith rewarded them with only despair. Covers the caster in impenetrable thorns grown from the Scadutree. Once covered, dodge rolls will damage enemies. The image of the misshapen Scadutree is an edict: Spurn all that exists. Wound all that exists. For we have been abandoned."
   },
   "Mass of Putrescence": {
     "name": "Mass of Putrescence",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Mass+of+Putrescence",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 41,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 28,
+      "Fai": 22,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery originating from the putrid liquor of the stone coffins. Flings a great mass of putrescence that explodes shortly after impact, raining ghostflame upon the area. In an age long past, Death was burned by ghostflame. Even the remains of tainted flesh were given equal treatment in death. lob it to the side of them"
   },
   "Miriam's Vanashing": {
     "name": "Miriam's Vanashing",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Miriam's+Vanishing",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 9,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 26,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery of a preceptor who served the Carian royal family. Used to conceal oneself in a glintstone haze, reappearing after a few seconds have passed. Directional inputs determine where one will reappear. The curator of the study hall was such a master of this sorcery that it now bears her name."
   },
   "Rellana's Twin Moons": {
     "name": "Rellana's Twin Moons",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana%27s+Twin+Moons",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 47,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 72,
+      "Fai": 0,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery of Rellana, the Twin Moon Knight. Associated with a Carian princess. Incarnate overlapping twin moons which strike the ground one after the other, violently shaking the earth with moonlight. In her childhood, she and her elder sister Rennala met these moons. Overlapping, as though nestled against one another."
   },
   "Rings of Spectral Light": {
     "name": "Rings of Spectral Light",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rings+of+Spectral+Light",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 14,
+    "slots": 1,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 24,
+      "Fai": 18,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery practiced by the keepers of the spiritgraves, where all death ultimately drifts. Creates rings of spectral light that fire in unison. Charging enhances potency. The rings of light have the same qualities as ghostflame, and deal magic damage while also causing frost buildup."
   },
   "Vortex of Putrescence": {
     "name": "Vortex of Putrescence",
     "category": "Sorceries",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Vortex+of+Putrescence",
-    "fp_cost": null,
-    "slots": null,
+    "fp_cost": 29,
+    "slots": 2,
     "requirements": {
-      "Int": null,
-      "Fai": null,
-      "Arc": null
+      "Int": 32,
+      "Fai": 26,
+      "Arc": 0
     },
-    "description": null
+    "description": "Sorcery used by the Putrescent Knight. Launches a whirl of putrescent jets that explode shortly after impact and bathe the area in ghostflame. In an age long past, Death was burned by ghostflame. Even the remains of tainted flesh were given equal treatment in death."
   }
 }

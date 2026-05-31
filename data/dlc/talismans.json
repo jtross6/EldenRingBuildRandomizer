@@ -2,274 +2,274 @@
   "Aged One's Exultation": {
     "name": "Aged One's Exultation",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Aged+One%27s+Exultation",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Madness in the vicinity increases attack power",
+    "description": "A talisman depicting the exultation of the aging untouchable, whose head resembles a sprig of ripe grapes. Raises attack power when madness is triggered in the vicinity. \"Gift your madness to our Lord. Bless our brethren with grapes. Take care that they fully ripen.\""
   },
   "Ailment Talisman": {
     "name": "Ailment Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ailment+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises resistance to the last ailment suffered",
+    "description": "A talisman depicting a soul taken by sickness. When certain ailments are triggered, this talisman grants resistance to the same ailment. When the weak were infected with the dreaded fly sickness, they perished well before the metamorphosis could take hold. Oddly, those who cared for the infected and made certain they were given a proper burial were never afflicted themselves."
   },
   "Arrow's Soaring String Talisman": {
     "name": "Arrow's Soaring String Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Arrow's+Soaring+String+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Increases the effective range of bows and raises attack power of arrows and bolts",
+    "description": "A talisman composed of fletched and iron arrows. Increases the effective range of bows and raises attack power of arrows and bolts."
   },
   "Beloved Stardust": {
     "name": "Beloved Stardust",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Beloved+Stardust",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 1.3,
+    "effects": "Effect Shortens casting speed for sorcery and incantations by the utmost, but increases damage taken",
+    "description": "A talisman depicting a wizened hand gently gripping a glintstone. Shortens casting speed for sorcery and incantations by the utmost, but increases damage taken. Count Ymir was known for his recitations. \"One need only envision the romance of the stars above with adoration for stardust in one's heart to become a great sorcerer. Do so, and you will know love.\""
   },
   "Blade of Mercy": {
     "name": "Blade of Mercy",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Blade+of+Mercy",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises attack power by 20% for 20 seconds after each critical hit",
+    "description": "A thin, blood-stained dagger. No longer fit for use. Raises attack power after each critical hit. Hornsent employed this to honorably end the suffering of a compatriot. After claiming numerous lives, the dagger is now broken, but has acquired a spectral aura."
   },
   "Blessed Blue Dew Talisman": {
     "name": "Blessed Blue Dew Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Blessed+Blue+Dew+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Slowly restores FP",
+    "description": "Talisman depicting the blessed boon that is a droplet of the blue, luminescent sap of the Erdtree. Gradually restores FP. It was once thought that the blessed sap of the Erdtree would drip from its boughs forever—but that age of plenty swiftly came to a close, and with time, the Erdtree became more an object of faith."
   },
   "Boltdrake Talisman +3": {
     "name": "Boltdrake Talisman +3",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.6,
+    "effects": "Effect Reduces Lightning Damage taken by 22%",
+    "description": "Talisman depicting a yellow ancient dragon.Boosts lightning damage negation. The ancient dragons, who ruled before the prehistoric era of the Erdtree, would protect their lord as a wall of living rock.And so it is that the shape of the dragon has become symbolic of all manner of protections."
   },
   "Cerulean Amber Medallion +3": {
     "name": "Cerulean Amber Medallion +3",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises maximum FP by 12",
+    "description": "A medallion with cerulean amber inlaid.Boosts maximum FP. The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord. A primordial life energy resides inside."
   },
   "Cerulean Seed Talisman +1": {
     "name": "Cerulean Seed Talisman +1",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.8,
+    "effects": "Effect Boosts FP restoration from Flask of Cerulean Tears by 30%",
+    "description": "A cerulean-colored talisman patterned after an Erdtree seed.Boosts FP restoration from the Flask of Cerulean Tears. The Erdtree was once perfect and eternal, and thus was it believed that Erdtree seeds could not exist."
   },
   "Clarifying Horn Charm +2": {
     "name": "Clarifying Horn Charm +2",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.6,
+    "effects": "Effect Raises Focus by 180",
+    "description": "An accoutrement worn by the ancestral followers.Raises focus.(Focus governs resistance to sleep and madness.) Said to be a budding horn. The ancestral followers believed that the horns of a long-lived beast continue to bud like antlers, over and over again, until the beast one day becomes an ancestral spirit."
   },
   "Crimson Amber Medallion +3": {
     "name": "Crimson Amber Medallion +3",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises maximum HP by 10%",
+    "description": "A medallion with crimson amber inlaid. Boosts maximum HP. The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord. A primordial life energy resides inside."
   },
   "Crimson Seed Talisman +1": {
     "name": "Crimson Seed Talisman +1",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Crimson+Seed+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.8,
+    "effects": "Effect Boosts HP restoration from the Flask of Crimson Tears by 30%",
+    "description": "A crimson-colored talisman patterned after an Erdtree seed.Boosts HP restoration from the Flask of Crimson Tears. The Erdtree was once perfect and eternal, and thus was it believed that Erdtree seeds could not exist."
   },
   "Crusade Insignia": {
     "name": "Crusade Insignia",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Crusade+Insignia",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises attack power by 15% for 20 seconds after defeating an enemy",
+    "description": "A talisman depicting a raised spear on a backdrop of flames, in remembrance of the lives lost in the sacred crusade led by Messmer. Raises attack power after defeating an enemy. The warriors who fought in the crusade set aside both honor and mercy to wantonly impale and scorch those deemed impure. Those who felt invigorated by each cry of death were the same men who were certain of the sanctity of the campaign."
   },
   "Dried Bouquet": {
     "name": "Dried Bouquet",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dried+Bouquet",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises attack power by 20% for 30 seconds when summoned spirit dies",
+    "description": "A quaint bouquet of dried flowers, offered to a small grave. Raises attack power when a spirit you have summoned dies. The sorrow that flows from the untimely demise of a loved one is a tenderness shared by all, regardless of birthplace."
   },
   "Enraged Divine Beast": {
     "name": "Enraged Divine Beast",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Enraged+Divine+Beast",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises potency of storms by 10%",
+    "description": "A charm depicting the crazed, cavorting dance of the divine beast conducted at the tower festival. Raises potency of storms. Divine beasts are messengers of the heavens, and their rage mirrors the tumult of the skies, of which storms are the pinnacle."
   },
   "Fine Crucible Feather Talisman": {
     "name": "Fine Crucible Feather Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fine+Crucible+Feather+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Improves backsteps but increases damage taken",
+    "description": "A talisman fashioned from thin feathers that embody the aspects of various creatures. Said to have grown on the human body long ago. Improves backsteps but increases damage taken at all times. Hornsent view the Crucible as sacred for the refinement wrought through its evolutionary gifts. Most prominently, their tangled horns."
   },
   "Flamedrake Talisman +3": {
     "name": "Flamedrake Talisman +3",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.6,
+    "effects": "Effect Reduces Fire Damage taken by 22%",
+    "description": "Talisman depicting a red ancient dragon.Boosts fire damage negation. The ancient dragons, who ruled in the prehistoric era before the Erdtree, would protect their lord as a wall of living rock.And so it is that the shape of the dragon has become symbolic of all manner of protections."
   },
   "Golden Braid": {
     "name": "Golden Braid",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Golden+Braid",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Boosts holy damage negation by 22%",
+    "description": "A braid of golden hair, cut loose. Queen Marika's offering to the Grandmother. Boosts holy damage negation by the utmost. What was her prayer? Her wish, her confession? There is no one left to answer, and Marika never returned home again."
   },
   "Immunizing Horn Charm": {
     "name": "Immunizing Horn Charm",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.6,
+    "effects": "Effect Raises Immunity by 180",
+    "description": "An accoutrement worn by the ancestral followers.Raises immunity.(Immunity governs resistance to poison and rot.) Said to be a budding horn. The ancestral followers believed that the horns of a long-lived beast continue to bud like antlers , over and over again, until the beast one day becomes an ancestral spirit."
   },
   "Lacerating Crossed-Tree": {
     "name": "Lacerating Crossed-Tree",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Lacerating+Crossed-Tree",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Enhances dash attacks",
+    "description": "Handicraft depicting a golden crossed-tree. One of the items conferred to the Needle Knights. Enhances dash attacks. Long ago, the Needle Knights were in service of Miquella, but now they are no more. Save for one."
   },
   "Mottled Necklace": {
     "name": "Mottled Necklace",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Mottled+Necklace",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.9,
+    "effects": "Effect Raises Immunity, Robustness, and Focus by 100",
+    "description": "A vividly-colored accoutrement precious to the ancestral followers. Raises immunity, robustness, and focus. Said to be a budding horn. The ancestral followers believed that the horns of a long-lived beast continue to bud like antlers, over and over again, until the beast one day becomes an ancestral spirit."
   },
   "Outer God Heirloom": {
     "name": "Outer God Heirloom",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Outer+God+Heirloom",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises arcane",
+    "description": "A talisman engraved with the lore of an outer god. Raises arcane. The clan, who lost everything in the great fires, peered upon the corpse of their ancestor, normally an act of sanctity, and saw in its shadow a twisted deity. The clan had suffered such torment that the horrible thing was taken as an object of worship."
   },
   "Pearl Shield Talisman": {
     "name": "Pearl Shield Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Pearl+Shield+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.9,
+    "effects": "Reduces Elemental Damage taken by 20% while guarding",
+    "description": "Talisman depicting a knight bearing a pearlescent greatshield. Boosts all non-physical damage negation while guarding. The nature and the potential of impurity surpassed the understanding of the knights, and so they were forced to prepare for all threats known or unknown."
   },
   "Pearldrake Talisman +3": {
     "name": "Pearldrake Talisman +3",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.9,
+    "effects": "Effect Reduces Elemental Damage taken by 11%",
+    "description": "Talisman depicting a pearlescent ancient dragon.Boosts non-physical damage negation. The ancient dragons who ruled in the prehistoric era before the Erdtree, would protect their lord as a wall of living rock.And so it is that the shape of the dragon has become symbolic of all manner of protections."
   },
   "Rellana's Cameo": {
     "name": "Rellana's Cameo",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana%27s+Cameo",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.8,
+    "effects": "Effect Enhances attacks executed after maintaining the same stance for a while",
+    "description": "Talisman featuring a gallant portrait of Rellana, the Twin Moon Knight. Enhances attacks executed after maintaining the same stance for a certain length of time. Engraved as a reminder of the unparalleled devotion of those who left their homelands to serve Rellana. \"By your leave, we will accompany you wherever your lunar vessel takes you.\""
   },
   "Retaliatory Crossed-Tree": {
     "name": "Retaliatory Crossed-Tree",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Retaliatory+Crossed-Tree",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Enhances attacks executed after rolling or backstepping by 17%",
+    "description": "Handicraft depicting a golden crossed-tree. One of the items conferred to the Needle Knights. Enhances attacks executed after rolling or backstepping. Long ago, the Needle Knights were in service of Miquella, but now they are no more. Save for one."
   },
   "Sharpshot Talisman": {
     "name": "Sharpshot Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Sharpshot+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Boosts attack power of precision-aimed shots by 12%",
+    "description": "A talisman depicting an archer wielding a longbow. Boosts attack power of precision-aimed shots. The Albinauric archers were in a class of their own, and their deadly long-range specialists struck fear into the hearts of men."
   },
   "Shattered Stone Talisman": {
     "name": "Shattered Stone Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Shattered+Stone+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises potency of kicking and stomping skills",
+    "description": "Shattered linchpin stone. Raises potency of kicking and stomping skills. Linchpin stones are spiritual anchors said to hold the ground in place and quell the fury of earthquakes—when this one shattered, the surrounding town fell into the broken earth. One account claimed that the moon itself had come tumbling down."
   },
   "Smithing Talisman": {
     "name": "Smithing Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithing+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Enhances weapon-throwing attacks by 10%",
+    "description": "A talisman depicting an ancient smithing hammer. Inscribed with a smithscript. Enhances weapon-throwing attacks. In ancient times, smithing was a divine act, and blacksmiths interpreted the script they perceived in the wrinkles of molten steel to imbue weapons with souls."
   },
   "Spelldrake Talisman +3": {
     "name": "Spelldrake Talisman +3",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.6,
+    "effects": "Effect Reduces Magic Damage taken by 22%",
+    "description": "Talisman depicting a blue ancient dragon.Boosts magic damage negation. The ancient dragons, who ruled in the prehistoric era before the Erdtree, would protect their lord as a wall of living rock.And so it is that the shape of the dragon has become symbolic of all manner of protections."
   },
   "St. Trina's Smile": {
     "name": "St. Trina's Smile",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/St.+Trina%27s+Smile",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.9,
+    "effects": "Effect Sleep in the vicinity increases attack power",
+    "description": "A talisman depicting a smiling St. Trina, a vision conjured deep within a certain man's heart. Raises attack power when sleep is triggered in the vicinity. \"Only I am allowed to know. Of your velvety sleep. Its sweetly gentle embrace. So please, smile—for me, and only me.\""
   },
   "Stalwart Horn Charm +2": {
     "name": "Stalwart Horn Charm +2",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.6,
+    "effects": "Effect Raises Robustness by 180",
+    "description": "An accoutrement worn by the ancestral followers. Raises robustness. (Robustness governs resistance to blood loss and frost.) Said to be a budding horn. The ancestral followers believe that the horns of a long-lived beast continue to bud like antlers, over and over again, until the beast one day becomes an ancestral spirit."
   },
   "Talisman of All Crucibles": {
     "name": "Talisman of All Crucibles",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Talisman+of+All+Crucibles",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Grants effects of all crucible talismans",
+    "description": "A giant mass of intermingling Crucible attributes. Reduces damage taken from critical hits and head shots and improves the effectiveness of rolling and backstepping, but also increases damage taken at all times. Rumored to have sprouted upon giants and is known as the \"mother of Crucibles\" in ancient tower lore."
   },
   "Talisman of Lord's Bestowal": {
     "name": "Talisman of Lord's Bestowal",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Talisman+of+Lord%27s+Bestowal",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 3,
+    "effects": "Effect Increases poise after using a flask of tears",
+    "description": "A talisman depicting Godfrey, first Elden lord, receiving the precious sap. Increases poise after using a flask of tears. The Lord accepted the sap stoically, without any sign of wavering. No wonder Lord of the Erdtree casts a long shadow over the lands."
   },
   "Talisman of the Dread": {
     "name": "Talisman of the Dread",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Talisman+of+the+Dread",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises potency of magma",
+    "description": "Talisman depicting the dread dragon of the jagged peak, whose roars cause the peak's molten fury to boil and churn. Raises potency of magma. Bayle was the foul dragon's name—a terrible harbinger of destruction whose challenge to the ancient Dragonlord ended in grievous mutual injury."
   },
   "Two-Handed Sword Talisman": {
     "name": "Two-Handed Sword Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Two-Handed+Sword+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 1.2,
+    "effects": "Effect Enhances attacks with two-handed weapons",
+    "description": "A talisman depicting a warrior two-handing a sword. Enhances attacks with two-handed weapons. The horned warriors were fitting figureheads for the military might of the tower they kept watch over, their deft attacks slashing through any and all foes."
   },
   "Two-Headed Turtle Talisman": {
     "name": "Two-Headed Turtle Talisman",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Two-Headed+Turtle+Talisman",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 1,
+    "effects": "Effect Greatly raises stamina recovery speed",
+    "description": "A talisman in the shape of a two-headed green turtle. Greatly raises stamina recovery speed. Turtles are known as a nutritious ingredient, symbolic of inexhaustible power. Two-headed turtles are a favorite subject in the land of the tower, due to the spiral shape of their intertwined necks."
   },
   "Verdigris Discus": {
     "name": "Verdigris Discus",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Discus",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 4.5,
+    "effects": "Effect Raises defense with higher equipment load",
+    "description": "A discus made of verdigris, the corroded metal known for its heft. Raises defense with higher equipment load. Great weight makes for great strength. The strength to protect others."
   },
   "Viridian Amber Medallion +3": {
     "name": "Viridian Amber Medallion +3",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Viridian+Amber+Medallion",
-    "weight": null,
-    "effects": null,
-    "description": null
+    "weight": 0.3,
+    "effects": "Effect Raises maximum Stamina by 17%",
+    "description": "A medallion with viridian amber inlaid. Boosts maximum stamina. The Erdtree's old sap becomes amber, treasured as the most precious of jewels in the age of Godfrey, the first Elden Lord. A primordial life energy resides inside."
   }
 }

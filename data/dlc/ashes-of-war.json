@@ -2,176 +2,176 @@
   "Ash of War Dryleaf Whirlwind": {
     "name": "Ash of War Dryleaf Whirlwind",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Dryleaf+Whirlwind",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Dryleaf Whirlwind",
+    "affinity": "Standard",
+    "description": "This Ash of War grants no affinity to an armament, but imparts the following skill:"
   },
   "Ash of War Aspect of the Crucible: Wings": {
     "name": "Ash of War Aspect of the Crucible: Wings",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War%3A+Aspects+of+the+Crucible%3A+Wings",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Aspects of the Crucible: Wings",
+    "affinity": "Sacred",
+    "description": "This Ash of War grants an armament the Sacred affinity and the following skill:"
   },
   "Ash of War Spinning Gravity Thrust": {
     "name": "Ash of War Spinning Gravity Thrust",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Spinning+Gravity+Thrust",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Spinning Gravity Thrust",
+    "affinity": "Heavy",
+    "description": "This Ash of War grants an armament the Heavy affinity and the following skill:"
   },
   "Ash of War Palm Blast": {
     "name": "Ash of War Palm Blast",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Palm+Blast",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Palm Blast",
+    "affinity": "Standard",
+    "description": "This Ash of War grants no affinity to an armament, but imparts the following skill:"
   },
   "Ash of War Piercing Throw": {
     "name": "Ash of War Piercing Throw",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Piercing+Throw",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Piercing Throw",
+    "affinity": "Keen",
+    "description": "This Ash of War grants an armament the Keen affinity and the following skill:"
   },
   "Ash of War Scattershot Throw": {
     "name": "Ash of War Scattershot Throw",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Scattershot+Throw",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Scattershot Throw",
+    "affinity": "Keen",
+    "description": "This Ash of War grants an armament the Keen affinity and the following skill:"
   },
   "Ash of War Wall of Sparks": {
     "name": "Ash of War Wall of Sparks",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Wall+of+Sparks",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Wall of Sparks",
+    "affinity": "Standard",
+    "description": "This Ash of War grants no affinity to an armament, but imparts the following skill:"
   },
   "Ash of War Rolling Sparks": {
     "name": "Ash of War Rolling Sparks",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Rolling+Sparks",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Rolling Sparks",
+    "affinity": "Standard",
+    "description": "This Ash of War grants no affinity to an armament, but imparts the following skill:"
   },
   "Ash of War Raging Beasts": {
     "name": "Ash of War Raging Beasts",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War%3A+Raging+Beast",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Raging Beast",
+    "affinity": "Keen",
+    "description": "This Ash of War grants an armament the Keen affinity and the following skill:"
   },
   "Ash of War Savage Claws": {
     "name": "Ash of War Savage Claws",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Claws",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Savage Claws",
+    "affinity": "Keen",
+    "description": "This Ash of War grants an armament the Keen affinity and the following skill:"
   },
   "Ash of War Blind Spot": {
     "name": "Ash of War Blind Spot",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Blind+Spot",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Blind Spot",
+    "affinity": "Keen",
+    "description": "This Ash of War grants an armament the Keen affinity and the following skill:"
   },
   "Ash of War Swift Slash": {
     "name": "Ash of War Swift Slash",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Swift+Slash",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Swift Slash",
+    "affinity": "Keen",
+    "description": "This Ash of War grants an armament the Keen affinity and the following skill:"
   },
   "Ash of War Overhead Stance": {
     "name": "Ash of War Overhead Stance",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Overhead+Stance",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Overhead Stance",
+    "affinity": "Keen",
+    "description": "This Ash of War grants an armament the Keen affinity and the following skill:"
   },
   "Ash of War Wing Stance": {
     "name": "Ash of War Wing Stance",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Wing+Stance",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Wing Stance",
+    "affinity": "Quality",
+    "description": "This Ash of War grants an armament the Quality affinity and the following skill:"
   },
   "Ash of War Blinkbolt": {
     "name": "Ash of War Blinkbolt",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Blinkbolt",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Blinkbolt",
+    "affinity": "Lightning",
+    "description": "This Ash of War grants an armament the Lightning affinity and the following skill:"
   },
   "Ash of War Flame Skewer": {
     "name": "Ash of War Flame Skewer",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Skewer",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Flame Skewer",
+    "affinity": "Flame Art",
+    "description": "This Ash of War grants an armament the Flame Art affinity and the following skill:"
   },
   "Ash of War Savage Lion's Claw": {
     "name": "Ash of War Savage Lion's Claw",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Savage+Lion%27s+Claw",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Savage Lion's Claw",
+    "affinity": "Heavy",
+    "description": "This Ash of War grants an armament the Heavy affinity and the following skill:"
   },
   "Ash of War Divine Beast Frost Stomp": {
     "name": "Ash of War Divine Beast Frost Stomp",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Divine+Beast+Frost+Stomp",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Divine Beast Frost Stomp",
+    "affinity": "Cold",
+    "description": "This Ash of War grants an armament the Cold affinity and the following skill: \"Divine Beast Frost Stomp: A skill which imitates the wrath of the divine beast's dance. Lift a leg up high and stamp it down with great force. Sends a powerful wave of frost straight out along the ground. Can be charged to increase power and range.\" Usable on all melee armaments."
   },
   "Ash of War Flame Spear": {
     "name": "Ash of War Flame Spear",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Flame+Spear",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Flame Spear",
+    "affinity": "Flame Art",
+    "description": "This Ash of War grants an armament the Flame Art affinity and the following skill:"
   },
   "Ash of War Carian Sovereignty": {
     "name": "Ash of War Carian Sovereignty",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Carian+Sovereignty",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Carian Sovereignty",
+    "affinity": "Magic",
+    "description": "This Ash of War grants an armament the Magic affinity and the following skill:"
   },
   "Ash of War Shriek of Sorrow": {
     "name": "Ash of War Shriek of Sorrow",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Shriek+of+Sorrow",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Shriek of Sorrow",
+    "affinity": "Occult",
+    "description": "This Ash of War grants an armament the Occult affinity and the following skill:"
   },
   "Ash of War Ghostflame Call": {
     "name": "Ash of War Ghostflame Call",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Ghostflame+Call",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Ghostflame Call",
+    "affinity": "Cold",
+    "description": "This Ash of War grants an armament the Cold affinity and the following skill:"
   },
   "Ash of War The Poison Flower Blooms Twice": {
     "name": "Ash of War The Poison Flower Blooms Twice",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+The+Poison+Flower+Blooms+Twice",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "The Poison Flower Blooms Twice",
+    "affinity": "Poison",
+    "description": "This Ash of War grants an armament the Poison affinity and the following skill:"
   },
   "Ash of War Igon's Drake Hunt": {
     "name": "Ash of War Igon's Drake Hunt",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Igon%27s+Drake+Hunt",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Igon's Drake Hunt",
+    "affinity": "Standard",
+    "description": "This Ash of War grants no affinity to an armament, but imparts the following skill:"
   },
   "Ash of War Shield Strike": {
     "name": "Ash of War Shield Strike",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ash+of+War+Shield+Strike",
-    "skill": null,
-    "affinity": null,
-    "description": null
+    "skill": "Shield Strike",
+    "affinity": "Standard",
+    "description": "This Ash of War grants no affinity to an armament, but imparts the following skill:"
   }
 }

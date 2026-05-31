@@ -3,45 +3,45 @@
     "name": "Death Knight's Twin Axes",
     "category": "Axes",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight%27s+Twin+Axes",
-    "weight": null,
+    "weight": 5.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 12,
       "Int": null,
-      "Fai": null,
+      "Fai": 16,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 101,
       "Mag": null,
       "Fire": null,
-      "Ligt": null,
+      "Ligt": 65,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Golden war axes of the Death Knight. A pair of weapons made to be wielded in both hands. Crackles with lightning, the power of the capital's ancient dragon cult. The knight, once the personal guard of Godwyn, was also the protector of the Prince of Death's cadaver surrogate."
   },
   "Forked-Tongue Hatchet": {
     "name": "Forked-Tongue Hatchet",
     "category": "Axes",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Forked-Tongue+Hatchet",
-    "weight": null,
+    "weight": 4,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 10,
+      "Dex": 13,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 125,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -49,28 +49,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A peculiar weapon wielded by imps. Hatchet smithed in the shape of a fork-tongued dragon. The gently undulating forked blade is known as an \"imp's tongue\" and causes blood loss."
   },
   "Smithscript Axe": {
     "name": "Smithscript Axe",
     "category": "Axes",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Axe",
-    "weight": null,
+    "weight": 5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 13,
+      "Dex": 10,
+      "Int": 11,
+      "Fai": 11,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 131,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -78,28 +78,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Axe engraved with a smithscript. A throwing weapon created through the smithing arts. Execute a strong attack or jumping strong attack to throw the axe."
   },
   "Messmer Soldier's Axe": {
     "name": "Messmer Soldier's Axe",
     "category": "Axes",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier%27s+Axe",
-    "weight": null,
+    "weight": 5.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 10,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 133,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -107,28 +107,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon used by the soldiers who serve Messmer the Impaler. A steel axe, worn from use. A favorite of those who lost themselves utterly in their lord's war. Capable of performing powerful charge attacks."
   },
   "Backhand Blade": {
     "name": "Backhand Blade",
     "category": "Backhand Blades",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Backhand+Blade",
-    "weight": null,
+    "weight": 2,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 10,
+      "Dex": 13,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 105,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -136,28 +136,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Curved blade wielded with a backhand grip. A type of weapon wielded by hornsent for generations. The style of combat associated with this weapon is marked by spinning slashes and gouging thrust attacks."
   },
   "Smithscript Cirque": {
     "name": "Smithscript Cirque",
     "category": "Backhand Blades",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Cirque",
-    "weight": null,
+    "weight": 2,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 9,
+      "Dex": 14,
+      "Int": 11,
+      "Fai": 11,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 100,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -165,28 +165,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Circular backhand blade engraved with a smithscript. A throwing weapon created through the smithing arts. Execute a strong attack to throw the backhand blade, causing it to fly in a curved trajectory."
   },
   "Curseblade's Cirque": {
     "name": "Curseblade's Cirque",
     "category": "Backhand Blades",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Curseblade%27s+Cirque",
-    "weight": null,
+    "weight": 4.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 9,
+      "Dex": 22,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 108,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -194,29 +194,29 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "C",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of the masked Curseblades. Circular backhand blade with wave-like cutting edges, sharpened into points that incite blood loss. Long ago, this was employed by the ascetics who strove to become tutelary deities as a ritualistic object in their self-flagellating dances."
   },
   "Rabbath's Cannon": {
     "name": "Rabbath's Cannon",
     "category": "Ballistas",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rabbath%27s+Cannon",
-    "weight": null,
+    "weight": 15,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 28,
+      "Dex": 16,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 135,
+      "Mag": 135,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
@@ -229,23 +229,23 @@
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A type of jar cannon used to fire greatbolts. A masterwork of Spellmachinist Rabbath. The power of the glintstones that encircle the barrel imbues bolts with magic damage and guides shots toward their targets."
   },
   "Claws of Night": {
     "name": "Claws of Night",
     "category": "Beast Claws",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Claws+of+Night",
-    "weight": null,
+    "weight": 3,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 8,
+      "Dex": 20,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 79,
+      "Mag": 51,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
@@ -253,27 +253,27 @@
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "C",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Claws of a bottomless black from which no light can escape. Wielded by Anna, Swordhand of Night. Engraved with a smithscript enabling strong attack to launch all three claws at a target. The blades are only semicorporeal, and cannot be fully guarded against."
   },
   "Red Bear's Claw": {
     "name": "Red Bear's Claw",
     "category": "Beast Claws",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Red+Bear%27s+Claw",
-    "weight": null,
+    "weight": 4,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 20,
+      "Dex": 10,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 104,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -281,28 +281,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "C",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Claw of a great red bear wielded without modification by Red Bear, whose name is lost to madness. After killing the great red bear in a blood-soaked bout, he became fascinated by the untainted glory of its naked strength. \"I wish to be a bear, no more, and no less"
   },
   "Beast Claw (Weapon)": {
     "name": "Beast Claw (Weapon)",
     "category": "Beast Claws",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Beast+Claw+(Weapon)",
-    "weight": null,
+    "weight": 3,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 13,
+      "Dex": 11,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 98,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -310,28 +310,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon in the form of a carnivorous beast's vicious claws. Used to perform bestial slashing attacks uncanny to humankind. An imitation of the esoteric technique of the horned warriors. Those who carry this weapon wield it as though they have been possessed by a savage beast."
   },
   "Ansbach's Longbow": {
     "name": "Ansbach's Longbow",
     "category": "Bows",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ansbach%27s+Longbow",
-    "weight": null,
+    "weight": 4.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 9,
+      "Dex": 43,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 74,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -339,173 +339,173 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of Sir Ansbach. A longbow consisting of two bow bodies and two strings. Unusually for a longbow, it can be wielded similarly to a light bowprovided that the wielder has the extraordinary dexterity demanded."
   },
   "Fire Knight's Greatsword": {
     "name": "Fire Knight's Greatsword",
     "category": "Colossal Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight%27s+Greatsword",
-    "weight": null,
+    "weight": 16,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 22,
+      "Dex": 18,
       "Int": null,
-      "Fai": null,
+      "Fai": 12,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 147,
       "Mag": null,
-      "Fire": null,
+      "Fire": 44,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Greatsword of the Fire Knights. A long, slender blade that undulates like fire. Blessed with a flame incantation. Further flame imbuement will amplify the effect and greatly increase the armament's power."
   },
   "Ancient Meteoric Ore Greatsword": {
     "name": "Ancient Meteoric Ore Greatsword",
     "category": "Colossal Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Ancient+Meteoric+Ore+Greatsword",
-    "weight": null,
+    "weight": 22,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 35,
+      "Dex": 10,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 19
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 154,
+      "Mag": 46,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "One of the treasures of the ruined forges. Greatsword of ancient meteoric ore, ending in a sharp point. Fashioned from an excavated shard of an arrowhead that once was a part of the old gods' arsenal. A capable piercing weapon that excels at thrusting attacks."
   },
   "Greatsword of Radahn (Lord)": {
     "name": "Greatsword of Radahn (Lord)",
     "category": "Colossal Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Lord)",
-    "weight": null,
+    "weight": 19,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 32,
+      "Dex": 24,
+      "Int": 15,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 127,
+      "Mag": 82,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "E",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Greatswords of black steel wielded by Radahn in his youth. A pair of weapons decorated with a lion mane motif. These were in his possession immediately before his triumph over the starsthe swords of a lord who does not rely on physical strength and gravity alone."
   },
   "Greatsword of Radahn (Light)": {
     "name": "Greatsword of Radahn (Light)",
     "category": "Colossal Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Light)",
-    "weight": null,
+    "weight": 20,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 32,
+      "Dex": 24,
+      "Int": 15,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 127,
+      "Mag": 82,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "E",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Greatswords of black steel wielded by Radahn in his youth. A pair of weapons decorated with a lion mane motif. These were in his possession immediately before his triumph over the starsthe swords of a lord who does not rely on physical strength and gravity alone."
   },
   "Moonrithyll's Knight Sword": {
     "name": "Moonrithyll's Knight Sword",
     "category": "Colossal Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Moonrithyll%27s+Knight+Sword",
-    "weight": null,
+    "weight": 18,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 20,
+      "Dex": 14,
+      "Int": 18,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 124,
+      "Mag": 80,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Greatsword embedded with a blue glintstone. The favored weapon of the steadfast Carian knight, Moonrithyll. Moonrithyll was the Twin Moon Knight's chamberlain. She was also a friend to the trolls, who served the royal family, and proudly wielded their weapons as she fought arm in arm with her gargantuan comrades."
   },
   "Bloodfiend's Arm": {
     "name": "Bloodfiend's Arm",
     "category": "Colossal Weapons",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Bloodfiend%27s+Arm",
-    "weight": null,
+    "weight": 20,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 28,
+      "Dex": 11,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 16
     },
     "attack": {
-      "Phy": null,
+      "Phy": 147,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -513,144 +513,144 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Weapon used by the bloodfiends. An arm pulled from the corpse of one of their kin, and wielded as a makeshift weapon. Having been sanctified by a blood ritual, this armament is capable of spraying blood stored within when executing a strong attack."
   },
   "Anvil Hammer": {
     "name": "Anvil Hammer",
     "category": "Colossal Weapons",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Anvil+Hammer",
-    "weight": null,
+    "weight": 22,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 39,
+      "Dex": 10,
+      "Int": 11,
+      "Fai": 20,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 131,
       "Mag": null,
-      "Fire": null,
+      "Fire": 85,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "C",
+      "Dex": "E",
+      "Int": "E",
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "One of the treasures of the ruined forges. A tremendous hammer that incorporates as its head the red-hot anvil of the forge. It is said that the anvil's shape is inspired by that of an altar, and that long ago, it was indeed used as such in rite and ritual."
   },
   "Devonia's Hammer": {
     "name": "Devonia's Hammer",
     "category": "Colossal Weapons",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Devonia%27s+Hammer",
-    "weight": null,
+    "weight": 20,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 30,
+      "Dex": 13,
       "Int": null,
-      "Fai": null,
+      "Fai": 19,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 147,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 44,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "C",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Great hammer wielded by Devonia, longest-serving of the Crucible Knights. Weapon forged of primordial gold, marked by its reddish hue and inhabited by ancient holiness. A torrent of life is engraved upon the striking face."
   },
   "Shadow Sunflower Blossom": {
     "name": "Shadow Sunflower Blossom",
     "category": "Colossal Weapons",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Shadow+Sunflower+Blossom",
-    "weight": null,
+    "weight": 16,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 24,
+      "Dex": 8,
       "Int": null,
-      "Fai": null,
+      "Fai": 25,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 114,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 114,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "The head of a monstrous shadow sunflower manifestation of the Scadutree. Then again, it might be just a flower, wielded as a weapon. Much like the Scadutree itself in appearance, a second stalk winds tightly around the first, almost as if in a tender embrace."
   },
   "Gazing Finger": {
     "name": "Gazing Finger",
     "category": "Colossal Weapons",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Gazing+Finger",
-    "weight": null,
+    "weight": 15,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 20,
+      "Dex": 8,
+      "Int": 20,
+      "Fai": 14,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 133,
+      "Mag": 86,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "C",
       "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Int": "D",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "The head of Metyr, the finger-mother, wielded as a weapon without modification. From within the center of the fingerprint that wrinkles the creature's foremost protrusion, a tiny wart-like eye gazes vacantly into the beyond."
   },
   "Repeating Crossbow": {
     "name": "Repeating Crossbow",
     "category": "Crossbows",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Repeating+Crossbow",
-    "weight": null,
+    "weight": 6,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 13,
+      "Dex": 15,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 74,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -664,22 +664,22 @@
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A mechanized crossbow that has been fitted with a fan-shaped contraption. This metallic piece adds a reloading system used in the execution of a unique battle art."
   },
   "Spread Crossbow": {
     "name": "Spread Crossbow",
     "category": "Crossbows",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Spread+Crossbow",
-    "weight": null,
+    "weight": 5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 11,
+      "Dex": 17,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 61,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -693,22 +693,22 @@
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A modified crossbow made by combining two crossbows into one. Capable of loading multiple bolts and firing them simultaneously, enabling a spread of fire."
   },
   "Horned Warrior's Greatsword": {
     "name": "Horned Warrior's Greatsword",
     "category": "Curved Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior%27s+Greatsword",
-    "weight": null,
+    "weight": 13,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 19,
+      "Dex": 16,
       "Int": null,
-      "Fai": null,
+      "Fai": 13,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 130,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -716,28 +716,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Curved greatsword of the horned warriors, keepers of the tower. A heavy weapon made to bring the deft strength of the warriors to bear. The ornamental tangled horns allow the blade to serve as a medium for horn-calling."
   },
   "Freyja's Greatsword": {
     "name": "Freyja's Greatsword",
     "category": "Curved Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Freyja%27s+Greatsword",
-    "weight": null,
+    "weight": 14,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 25,
+      "Dex": 14,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 146,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -745,57 +745,57 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "C",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of Freyja, a Redmane. Greatsword decorated with a mane, much like the weapons used by her liege. The spirit of Freyja's training lingers in this sword, enhancing the power of Redmane battle skills."
   },
   "Spirit Sword": {
     "name": "Spirit Sword",
     "category": "Curved Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Spirit+Sword",
-    "weight": null,
+    "weight": 2.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 8,
+      "Dex": 16,
+      "Int": 16,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 92,
+      "Mag": 59,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "E",
+      "Dex": "D",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Sharp blade sculpted into a twisted shape. A sword that has seen many years of use in the gravesite. Said to serve as a medium for communion with spirits."
   },
   "Falx": {
     "name": "Falx",
     "category": "Curved Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Falx",
-    "weight": null,
+    "weight": 4,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 12,
+      "Dex": 15,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 107,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -803,28 +803,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Curved swords with long, sickle-like blades. A pair of weapons made to be wielded in both hands. Forged by a hornsent in the name of revenge. \"In vengeance for the flames, my blade I wield...\""
   },
   "Dancing Blade of Ranah": {
     "name": "Dancing Blade of Ranah",
     "category": "Curved Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dancing+Blade+of+Ranah",
-    "weight": null,
+    "weight": 3.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 9,
+      "Dex": 20,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 88,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -833,27 +833,27 @@
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "B",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Decorative swords ablaze with impassioned red. A pair of weapons made to be wielded in both hands. Used by the dancers of Ranah. Strikes enemies with a dancing assault when executing a strong attack."
   },
   "Horned Warrior's Sword": {
     "name": "Horned Warrior's Sword",
     "category": "Curved Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Horned+Warrior%27s+Sword",
-    "weight": null,
+    "weight": 5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 11,
+      "Dex": 14,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 108,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -861,28 +861,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Curved sword of the horned warriors, keepers of the tower. The ornamental tangled horns allow the blade to serve as a medium for horn-calling."
   },
   "Main-gauche": {
     "name": "Main-gauche",
     "category": "Daggers",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Main-gauche",
-    "weight": null,
+    "weight": 2.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 7,
+      "Dex": 15,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 79,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -890,28 +890,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "C",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Dagger with a large hand guard. Intended to be used in the left hand, thereby complementing a piercing sword or identical blade held in the right to enable a distinctive style of fighting."
   },
   "Pata": {
     "name": "Pata",
     "category": "Fists",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Pata",
-    "weight": null,
+    "weight": 4,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 11,
+      "Dex": 15,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 104,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -919,28 +919,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A weapon comprised of a linear, double-sided blade attached to a substantial guard. Wielded by the Oathseeker Knights. This versatile armament can be swung about like a fist or used in the manner of a straight sword."
   },
   "Golem Fist": {
     "name": "Golem Fist",
     "category": "Fists",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Golem+Fist",
-    "weight": null,
+    "weight": 5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 24,
+      "Dex": 8,
+      "Int": 11,
+      "Fai": 11,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 110,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -948,57 +948,57 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "C",
+      "Dex": "E",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "A giant fist of fractured rock. Taken from the body of a golem of the ruined forges. Carved with a smithscript enabling strong attacks to launch the entire fist straight ahead."
   },
   "Thiollier's Hidden Needle": {
     "name": "Thiollier's Hidden Needle",
     "category": "Fists",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Thiollier%27s+Hidden+Needle",
-    "weight": null,
+    "weight": 0.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 10,
+      "Dex": 22,
+      "Int": 15,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 70,
+      "Mag": 45,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "E",
+      "Dex": "C",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Concealed weapon used by Thiollier, of a design generally favored by poison-wielders for dark and subtle purposes. Like St. Trina, who blossomed in the deep-purple garden, a rich poison is secreted from within which sends its victims into an eternal sleep."
   },
   "Poisoned Hand": {
     "name": "Poisoned Hand",
     "category": "Fists",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Poisoned+Hand",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 8,
+      "Dex": 8,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 28
     },
     "attack": {
-      "Phy": null,
+      "Phy": 76,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1006,86 +1006,86 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "E",
       "Dex": null,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "C"
     },
-    "description": null
+    "description": "A glove stitched together from the flayed skin of the victims of a butcherous bloodbath. Afflicts target with deadly poison. Raises attack power when poisoning occurs in the vicinity. Forged of an unyielding, black impulse toward revenge fostered in those who have had everything burned or stolen from them, these are the weapons of the utterly downtrodden."
   },
   "Madding Hand": {
     "name": "Madding Hand",
     "category": "Fists",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Madding+Hand",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 8,
+      "Dex": 8,
+      "Int": 13,
+      "Fai": 20,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 53,
       "Mag": null,
-      "Fire": null,
+      "Fire": 63,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "D",
+      "Dex": "E",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "A glove stitched together from the flayed skin of the victims of a butcherous bloodbath. Afflicts target with madness. Raises attack power when madness is triggered in the vicinity. Forged of an unyielding, black impulse toward revenge fostered in those who were hunted down as heretics by their own brethren, these are the weapons of the utterly downtrodden."
   },
   "Serpent Flail": {
     "name": "Serpent Flail",
     "category": "Flails",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Serpent+Flail",
-    "weight": null,
+    "weight": 6,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 10,
+      "Dex": 24,
       "Int": null,
-      "Fai": null,
+      "Fai": 21,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 77,
       "Mag": null,
-      "Fire": null,
+      "Fire": 92,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "A flail with coiled snakes for bludgeoning heads. Fire roars within the snakes' bodies, inflicting horrible burns. Some of Messmer's army used these flails to burn hornsentto brand them with agony and fear."
   },
   "Staff of the Great Beyond": {
     "name": "Staff of the Great Beyond",
     "category": "Glinstone Staffs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Staff+of+the+Great+Beyond",
-    "weight": null,
+    "weight": 2.5,
     "requirements": {
-      "Str": null,
+      "Str": 7,
       "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Int": 25,
+      "Fai": 25,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 27,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1093,28 +1093,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "E",
       "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Int": "D",
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Staff fashioned from the tail-fingers of Metyr, the Mother of Fingers, and the microcosm raised aloft over the crux they form. Catalyst for casting both sorceries and incantations. The Mother received signs from the Greater Will from the beyond of the microcosm. Despite being broken and abandoned, she kept waiting for another message to come."
   },
   "Maternal Staff": {
     "name": "Maternal Staff",
     "category": "Glinstone Staffs",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Maternal+Staff",
-    "weight": null,
+    "weight": 2.5,
     "requirements": {
-      "Str": null,
+      "Str": 7,
       "Dex": null,
-      "Int": null,
+      "Int": 21,
       "Fai": null,
-      "Arc": null
+      "Arc": 21
     },
     "attack": {
-      "Phy": null,
+      "Phy": 26,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1122,86 +1122,86 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "E",
       "Dex": null,
-      "Int": null,
+      "Int": "D",
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Staff of Count Ymir, who made himself a Mother of Fingers. Carried for want of tail-fingers of his own. Enhances finger sorceries. The crystal ball, though representative of a microcosm, would not receive any sign."
   },
   "Putrescence Cleaver": {
     "name": "Putrescence Cleaver",
     "category": "Greataxes",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Putrescence+Cleaver",
-    "weight": null,
+    "weight": 13.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 28,
+      "Dex": 10,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 15
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 141,
+      "Mag": 42,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Weapon wielded by the Putrescent Knight. A great cleaver of hardened putrescence affixed to an arch fashioned from human bones. Gains power from the wielder's arcane attribute."
   },
   "Death Knight's Longhaft Axe": {
     "name": "Death Knight's Longhaft Axe",
     "category": "Greataxes",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Death+Knight%27s+Longhaft+Axe",
-    "weight": null,
+    "weight": 11.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 23,
+      "Dex": 10,
       "Int": null,
-      "Fai": null,
+      "Fai": 18,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 113,
       "Mag": null,
       "Fire": null,
-      "Ligt": null,
+      "Ligt": 73,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "A long-hafted golden axe wielded by the Death Knight. Bears a representation of a decayed golden ring. Crackles with lightning, the power of the capital's ancient dragon cult. The knight, once the personal guard of Godwyn, was also the protector of the Prince of Death's cadaver surrogate."
   },
   "Bonny Butchering Knife": {
     "name": "Bonny Butchering Knife",
     "category": "Greataxes",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Bonny+Butchering+Knife",
-    "weight": null,
+    "weight": 8.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 16,
+      "Dex": 20,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 134,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1209,22 +1209,22 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "C",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of the greater potentates of Bonny Village. An outsize butcher's cleaver used to dismember human bodies in the making of the great jars stored in the gaols. Restores a very small amount of HP when it squarely strikes an enemy."
   },
   "Igon's Greatbow": {
     "name": "Igon's Greatbow",
     "category": "Greatbows",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Igon%27s+Greatbow",
-    "weight": null,
+    "weight": 12.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 23,
+      "Dex": 16,
       "Int": null,
       "Fai": null,
       "Arc": null
@@ -1244,51 +1244,51 @@
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of Igon, the broken drake warrior. A greatbow fashioned from two dragon bones bound with coarse rope. Covered in gashes left by claws. Imbued with Igon's obsession, enhancing the power of Igon's Harpoon."
   },
   "Black Steel Greathammer": {
     "name": "Black Steel Greathammer",
     "category": "Great Hammers",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Steel+Greathammer",
-    "weight": null,
+    "weight": 12,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 25,
+      "Dex": 11,
       "Int": null,
-      "Fai": null,
+      "Fai": 17,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 140,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 42,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "C",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of the Black Knights, servants of Messmer the Impaler. Greathammer of black steel with decorative embellishments in gold. Blessed with an Erdtree incantation. Further holy imbuement will amplify the effect and greatly increase the armament's power. Guard Counters cause a burst of power."
   },
   "Smithscript Greathammer": {
     "name": "Smithscript Greathammer",
     "category": "Great Hammers",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Greathammer",
-    "weight": null,
+    "weight": 9,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 20,
+      "Dex": 10,
+      "Int": 11,
+      "Fai": 11,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 141,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1296,28 +1296,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "D",
+      "Dex": "E",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Greathammer engraved with a smithscript. A throwing weapon created through the smithing arts. Execute a strong attack or dashing strong attack to spin and fling the greathammer."
   },
   "Great Katana": {
     "name": "Great Katana",
     "category": "Great Katanas",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Great+Katana",
-    "weight": null,
+    "weight": 9,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 18,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 145,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1325,28 +1325,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Large katana with a long, heavy blade. A weapon unique to warriors of the Land of Reeds. Designed for aggression, this armament requires the wielder to throw their entire body into swinging it. The slashing attacks of its honed edge incite blood loss."
   },
   "Dragon-Hunter's Great Katana": {
     "name": "Dragon-Hunter's Great Katana",
     "category": "Great Katanas",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dragon-Hunter%27s+Great+Katana",
-    "weight": null,
+    "weight": 10.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 15,
+      "Dex": 20,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 152,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1354,28 +1354,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Great katana with spines of gravel stone along its blade, wielded by the Ancient Dragon-Man of the Dragon's Pit. Has an anti-dragon effect. Formerly a Dragon Communion warrior, the Ancient Dragon-Man was once arbiter of those worthy to devour the Dreaded One."
   },
   "Rakshasa's Great Katana": {
     "name": "Rakshasa's Great Katana",
     "category": "Great Katanas",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rakshasa%27s+Great+Katana",
-    "weight": null,
+    "weight": 9.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 12,
+      "Dex": 27,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 155,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1383,28 +1383,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "C",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A great katana with the tempering pattern of its blade forever stained red with blood. Weapon of Rakshasa, who cuts down and devours. A berserker's weapon used to endure enemy attacks and reply with one's full fury. When attacking, the wielder is less likely to stagger from counterattacks, but will also take increased damage."
   },
   "Bloodfiend's Sacred Spear": {
     "name": "Bloodfiend's Sacred Spear",
     "category": "Great Spears",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Bloodfiend%27s+Sacred+Spear",
-    "weight": null,
+    "weight": 8,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 22,
+      "Dex": 12,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 13
     },
     "attack": {
-      "Phy": null,
+      "Phy": 115,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1412,28 +1412,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "C"
     },
-    "description": null
+    "description": "Greatspear of the bloodfiend hexers. One of the most significant implements used in their blood rituals. Sacred spears of blood are the instruments of communion with an outer god. The mother of truth desires a wound."
   },
   "Messmer Soldier's Spear": {
     "name": "Messmer Soldier's Spear",
     "category": "Great Spears",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier%27s+Spear",
-    "weight": null,
+    "weight": 8.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 19,
+      "Dex": 16,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 122,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1441,86 +1441,86 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon used by the soldiers who serve Messmer the Impaler. A greatspear with a steel blade worn from use. Being made for overwhelming onslaughts, attacks with this weapon can be charged to unleash consecutive strikes."
   },
   "Spear of the Impaler": {
     "name": "Spear of the Impaler",
     "category": "Great Spears",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Spear+of+the+Impaler",
-    "weight": null,
+    "weight": 9.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 35,
       "Int": null,
-      "Fai": null,
+      "Fai": 18,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 85,
       "Mag": null,
-      "Fire": null,
+      "Fire": 102,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "C",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of Messmer the Impaler. A greatspear with a warped blade in the shape of undulating flame. Remade by the forging arts of the realm of shadow, this weapon can be thrown by executing a strong attack, dashing strong attack, or mounted strong attack. Charge the attack to produce flame on impact."
   },
   "Barbed Staff-Spear": {
     "name": "Barbed Staff-Spear",
     "category": "Great Spears",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Barbed+Staff-Spear",
-    "weight": null,
+    "weight": 7.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 18,
       "Int": null,
-      "Fai": null,
+      "Fai": 22,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 86,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 86,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "C",
       "Arc": null
     },
-    "description": null
+    "description": "Greatstaff of Jori, elder inquisitor. The tip bristles with golden barbs symbolic of the inquisition's torture, allowing one to wield the staff as a greatspear. Attacks deal holy damage, and potency increases with faith."
   },
   "Lizard Greatsword": {
     "name": "Lizard Greatsword",
     "category": "Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Lizard+Greatsword",
-    "weight": null,
+    "weight": 9.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 12,
+      "Dex": 14,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 140,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1528,57 +1528,57 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A peculiar weapon carried by imps. Greatsword smithed in the shape of a fork-tongued lizard. Strong attacks allow the wielder to fire the forked tongue from the blade."
   },
   "Greatsword of Damnation": {
     "name": "Greatsword of Damnation",
     "category": "Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Damnation",
-    "weight": null,
+    "weight": 8,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 20,
+      "Dex": 15,
       "Int": null,
-      "Fai": null,
+      "Fai": 20,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 123,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 79,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Golden greatsword that once pierced the body of Midra, master of the manse. Used by the hornsent in the execution of a damnation like no other. The barbs that pierce the victim from within wind gently around the blade."
   },
   "Greatsword of Solitude": {
     "name": "Greatsword of Solitude",
     "category": "Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Greatsword+of+Solitude",
-    "weight": null,
+    "weight": 15.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 27,
+      "Dex": 13,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 120,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1586,57 +1586,57 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "B",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Steel greatsword wielded by the Knights of the Solitary Gaol. Through a secret rite, they relinquished their hearts for heightened battle prowess. Next, they engraved their blades with two crests: one depicting the light of birth, and the other, solitude."
   },
   "Spirit Glaive": {
     "name": "Spirit Glaive",
     "category": "Halberds",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Spirit+Glaive",
-    "weight": null,
+    "weight": 6.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 14,
+      "Dex": 17,
+      "Int": 16,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 121,
+      "Mag": 36,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Sharp blade sculpted into a twisted shape. A glaive that has seen many years of use in the gravesite. Said to serve as a medium for communion with spirits."
   },
   "Poleblade of the Bud": {
     "name": "Poleblade of the Bud",
     "category": "Halberds",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Poleblade+of+the+Bud",
-    "weight": null,
+    "weight": 10,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 22,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 20
     },
     "attack": {
-      "Phy": null,
+      "Phy": 131,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1644,28 +1644,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Weapon of Romina, Saint of the Bud. A scarlet glaive with a dangling bud-like blade. Attacks cause buildup of rot. Once, in the crumbling, burning church, Romina held the bud in speechless silence. That bud would become her blade."
   },
   "Flowerstone Gavel": {
     "name": "Flowerstone Gavel",
     "category": "Hammers",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Flowerstone+Gavel",
-    "weight": null,
+    "weight": 6,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 8,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 15
     },
     "attack": {
-      "Phy": null,
+      "Phy": 121,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1673,28 +1673,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Weapon of the Dragon Communion priestess. A dragonstone hammer resembling an ancient flower. The four petals and the flower's core are all sharp, ending in points, and are capable of dealing heavy damage to dragons."
   },
   "Dryleaf Arts": {
     "name": "Dryleaf Arts",
     "category": "Hand-to-Hand Arts",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Arts",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 8,
+      "Dex": 8,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 80,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1702,28 +1702,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A technique for hand-to-hand combat without the aid of a weapon. This martial art combines fist strikes and kicks. The teachings of a group of spiritual seekers known as the Dryleaf Sect, revealed only to those of worthy valor and character. The practice of this martial art marks the dawn of an ascetic's journey."
   },
   "Dane's Footwork": {
     "name": "Dane's Footwork",
     "category": "Hand-to-Hand Arts",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dane%27s+Footwork",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 8,
+      "Dex": 8,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 80,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1731,28 +1731,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A technique for hand-to-hand combat without the aid of a weapon. This martial art focuses on kicking techniques. This kick-based martial art is unique to Dane, a Dryleaf and sworn ally of Leda. He acquired these skills by training with the aid of a waterfall; letting the water beat his body, and throwing himself into its basin."
   },
   "Sword Lance": {
     "name": "Sword Lance",
     "category": "Heavy Thrusting Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+Lance",
-    "weight": null,
+    "weight": 9,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 21,
+      "Dex": 11,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 132,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1760,87 +1760,87 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "C",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weapon once wielded by Commander Gaius. A combination of greatsword and lance. Weighty and capable of being brought to bear with great force, this armament shows its true potential when used astride a mount. Gaius himself was never without his boar."
   },
   "Queelign's Greatsword": {
     "name": "Queelign's Greatsword",
     "category": "Heavy Thrusting Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Queelign%27s+Greatsword",
-    "weight": null,
+    "weight": 7.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 18,
       "Int": null,
-      "Fai": null,
+      "Fai": 12,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 122,
       "Mag": null,
-      "Fire": null,
+      "Fire": 36,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Greatsword of the Fire Knight Queelign. A weighty piercing sword with a blade that undulates like fire. Queelign devoted his all to the crusade, and remade his greatsword in the shape of the lance wielded by his liegeaspiring to become a second Impaler."
   },
   "Star-Lined Sword": {
     "name": "Star-Lined Sword",
     "category": "Katanas",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Star-Lined+Sword",
-    "weight": null,
+    "weight": 5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 10,
+      "Dex": 23,
+      "Int": 21,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 82,
+      "Mag": 82,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "E",
+      "Dex": "C",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Sword encrusted with a line of stars fashioned from small pieces of crude glintstone. Weapon of the demi-human swordsmen. When bestowed with this weapon by their queen, the swordsmen swear to find the truth that lies at the end of the procession of stars."
   },
   "Sword of Night": {
     "name": "Sword of Night",
     "category": "Katanas",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+of+Night",
-    "weight": null,
+    "weight": 6.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 11,
+      "Dex": 20,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 110,
+      "Mag": 33,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
@@ -1848,27 +1848,27 @@
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "C",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Sword of an all-consuming, bottomless black that devours even the light that shines upon it. Wielded by Jolan, Swordhand of Night. The blade of the sword is only semicorporeal, and thus cannot be guarded against completely."
   },
   "Bone Bow": {
     "name": "Bone Bow",
     "category": "Light Bows",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Bone+Bow",
-    "weight": null,
+    "weight": 3,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 8,
+      "Dex": 11,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 66,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1876,28 +1876,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A crude shortbow fashioned from sickly bone. A medium for spirit-calling, and a product of the ancient hexing arts of the tower."
   },
   "Milady": {
     "name": "Milady",
     "category": "Light Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Milady",
-    "weight": null,
+    "weight": 6.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 12,
+      "Dex": 17,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 116,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -1905,80 +1905,80 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A light greatsword; that is, a sword whose blade matches the length of a greatsword, while being constrained to a minimal weight. Nicknamed after ladies of noble status for its refined appearance. With cultivated form, one can wield this weapon as swiftly as one might a straight sword."
   },
   "Leda's Sword": {
     "name": "Leda's Sword",
     "category": "Light Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Leda%27s+Sword",
-    "weight": null,
+    "weight": 7.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 11,
+      "Dex": 22,
       "Int": null,
-      "Fai": null,
+      "Fai": 19,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 101,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 65,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "C",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Light greatsword with gold inlaid. Weapon of Leda, the Needle Knight. Deals holy damage. Though polished to a mirror sheen, this blade still reeks with the stench of crusted blood that lingers from the cull of her knightly comrades."
   },
   "Rellana's Twin Blades": {
     "name": "Rellana's Twin Blades",
     "category": "Light Greatswords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Rellana%27s+Twin+Blades",
-    "weight": null,
+    "weight": 8,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 13,
+      "Dex": 16,
+      "Int": 16,
+      "Fai": 16,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
-      "Fire": null,
+      "Phy": 103,
+      "Mag": 66,
+      "Fire": 66,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "D",
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Carian light greatsword embedded with blue glintstone. Weapon of Rellana, the Twin Moon Knight. Two swords as a single armament. When two-handing, a straight sword engraved with golden flame will be carried in the left hand. Here, and here alone, were moon and fire ever together."
   },
   "Firespark Perfume Bottle": {
     "name": "Firespark Perfume Bottle",
     "category": "Perfume Bottles",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Firespark+Perfume+Bottle",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 3,
+      "Dex": 14,
       "Int": null,
       "Fai": null,
       "Arc": null
@@ -1986,35 +1986,35 @@
     "attack": {
       "Phy": null,
       "Mag": null,
-      "Fire": null,
+      "Fire": 110,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "C",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Perfume bottle remade into a weapon by perfumers of the realm of shadow. Attacks release perfumed powder, producing sparks of fire. The crusade was a violent purge, and the perfumers were not called there to heal."
   },
   "Chilling Perfume Bottle": {
     "name": "Chilling Perfume Bottle",
     "category": "Perfume Bottles",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Chilling+Perfume+Bottle",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 3,
+      "Dex": 13,
+      "Int": 13,
       "Fai": null,
       "Arc": null
     },
     "attack": {
       "Phy": null,
-      "Mag": null,
+      "Mag": 105,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
@@ -2022,85 +2022,85 @@
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Dex": "D",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Perfume bottle remade into a weapon by perfumers of the realm of shadow. Attacks release perfumed powder, producing an icy chill. From time to time, perfumers set out on journeys to pursue new aromatics and flower gardens."
   },
   "Frenzyflame Perfume Bottle": {
     "name": "Frenzyflame Perfume Bottle",
     "category": "Perfume Bottles",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Frenzyflame+Perfume+Bottle",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 3,
+      "Dex": 10,
+      "Int": 12,
+      "Fai": 12,
       "Arc": null
     },
     "attack": {
       "Phy": null,
       "Mag": null,
-      "Fire": null,
+      "Fire": 105,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "E",
+      "Dex": "D",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Perfume bottle remade into a weapon by perfumers of the realm of shadow. Attacks release perfumed powder, producing frenzied flame. From time to time, perfumers set out on journeys to pursue new aromatics and flower gardens."
   },
   "Lightning Perfume Bottle": {
     "name": "Lightning Perfume Bottle",
     "category": "Perfume Bottles",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Lightning+Perfume+Bottle",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 3,
+      "Dex": 16,
       "Int": null,
-      "Fai": null,
+      "Fai": 14,
       "Arc": null
     },
     "attack": {
       "Phy": null,
       "Mag": null,
       "Fire": null,
-      "Ligt": null,
+      "Ligt": 110,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Perfume bottle remade into a weapon by perfumers of the realm of shadow. Attacks release perfumed powder, producing lightning. From time to time, perfumers set out on journeys to pursue new aromatics and flower gardens."
   },
   "Deadly Poison Perfume Bottle": {
     "name": "Deadly Poison Perfume Bottle",
     "category": "Perfume Bottles",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Deadly+Poison+Perfume+Bottle",
-    "weight": null,
+    "weight": 1,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 3,
+      "Dex": 13,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 18
     },
     "attack": {
-      "Phy": null,
+      "Phy": 92,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2109,27 +2109,27 @@
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "D",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Perfume bottle customized by Thiollier. Attacks release perfumed powder, producing deadly poison. There are some techniques of the perfuming arts that employ poison. Upon learning of this, Thiollier threw himself into mastering those techniques, and he made them his own."
   },
   "Obsidian Lamina": {
     "name": "Obsidian Lamina",
     "category": "Reapers",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Obsidian+Lamina",
-    "weight": null,
+    "weight": 6.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 12,
+      "Dex": 25,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 17
     },
     "attack": {
-      "Phy": null,
+      "Phy": 120,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2137,28 +2137,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "C",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Signature weapon of the Pureblood Knight Ansbach. A viciously keen and slender scythe made for combat. The obsidian edge relies not upon trickery to fulfil its violent purposethrough skill alone the wielder can rip and rend through foes, sowing blossoms of red upon the battlefield."
   },
   "Dryleaf Seal": {
     "name": "Dryleaf Seal",
     "category": "Sacred Seals",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dryleaf+Seal",
-    "weight": null,
+    "weight": 1.5,
     "requirements": {
-      "Str": null,
+      "Str": 8,
       "Dex": null,
       "Int": null,
-      "Fai": null,
+      "Fai": 27,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 25,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2166,28 +2166,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "E",
       "Dex": null,
       "Int": null,
-      "Fai": null,
+      "Fai": "C",
       "Arc": null
     },
-    "description": null
+    "description": "Sacred seal of the spiritual seekers known as the Dryleaf Sect. Enhances incantations of Miquella. Those who saw the decline of the Erdtree in the fallen leaves long ago braced themselves for the weakening of Order, and embraced a strict faith. And then, they made to serve a new god."
   },
   "Fire Knight's Seal": {
     "name": "Fire Knight's Seal",
     "category": "Sacred Seals",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight%27s+Seal",
-    "weight": null,
+    "weight": 1.5,
     "requirements": {
-      "Str": null,
+      "Str": 8,
       "Dex": null,
       "Int": null,
-      "Fai": null,
+      "Fai": 23,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 25,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2195,28 +2195,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "E",
       "Dex": null,
       "Int": null,
-      "Fai": null,
+      "Fai": "C",
       "Arc": null
     },
-    "description": null
+    "description": "Sacred seal of the Fire Knights, who answer directly to Messmer the Impaler. Enhances fire incantations of Messmer. The emblem of Messmer's army depicts a golden ring and the fire of his sacred seal."
   },
   "Spiraltree Seal": {
     "name": "Spiraltree Seal",
     "category": "Sacred Seals",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Spiraltree+Seal",
-    "weight": null,
+    "weight": 1.5,
     "requirements": {
-      "Str": null,
+      "Str": 8,
       "Dex": null,
       "Int": null,
-      "Fai": null,
+      "Fai": 17,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 25,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2224,28 +2224,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "E",
       "Dex": null,
       "Int": null,
-      "Fai": null,
+      "Fai": "C",
       "Arc": null
     },
-    "description": null
+    "description": "Sacred seal of soiled amber engraved with a spiral tree design. Enhances spiral incantations. The majesty of the white tower, stretching to reach the gods, even inspired a secret faith in the invaders, the people of the Erdtree."
   },
   "Smithscript Spear": {
     "name": "Smithscript Spear",
     "category": "Spears",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Spear",
-    "weight": null,
+    "weight": 4,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 9,
+      "Dex": 12,
+      "Int": 11,
+      "Fai": 11,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 107,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2253,28 +2253,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Spear engraved with a smithscript. A throwing weapon created through the smithing arts. Execute a strong attack, a dashing strong attack, or a mounted strong attack to throw the spear."
   },
   "Swift Spear": {
     "name": "Swift Spear",
     "category": "Spears",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Swift+Spear",
-    "weight": null,
+    "weight": 3,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 10,
+      "Dex": 26,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 99,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2283,27 +2283,27 @@
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "C",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A metal-bodied spear of extremely lightweight make, being the result of a sophisticated molding technique. Capable of swift consecutive attacks."
   },
   "Bloodfiend's Fork": {
     "name": "Bloodfiend's Fork",
     "category": "Spears",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Bloodfiend%27s+Fork",
-    "weight": null,
+    "weight": 4.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 8,
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": 13
     },
     "attack": {
-      "Phy": null,
+      "Phy": 103,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2311,86 +2311,86 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
       "Fai": null,
-      "Arc": null
+      "Arc": "D"
     },
-    "description": null
+    "description": "Weapon used by the bloodfiends. Three tines of carved bone spear the victim to provoke blood loss. A ritual implement for blood offerings to the Formless Mother. At times, the bloodfiends will spill even their own blood using these forks."
   },
   "Fire Knight's Shortsword": {
     "name": "Fire Knight's Shortsword",
     "category": "Straight Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Fire+Knight%27s+Shortsword",
-    "weight": null,
+    "weight": 2,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 8,
+      "Dex": 13,
       "Int": null,
-      "Fai": null,
+      "Fai": 12,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 75,
       "Mag": null,
-      "Fire": null,
+      "Fire": 22,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Shortsword used by the Fire Knights. A slender blade that undulates like fire. Blessed with a flame incantation. Further flame imbuement will amplify the effect and greatly increase the armament's power."
   },
   "Velvet Sword of St Trina": {
     "name": "Velvet Sword of St Trina",
     "category": "Straight Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Velvet+Sword+of+St+Trina",
-    "weight": null,
+    "weight": 2.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 10,
+      "Dex": 12,
+      "Int": 14,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 95,
+      "Mag": 61,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "E",
+      "Dex": "D",
+      "Int": "E",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Silver sword of St. Trina, now stained the color of velvet. Inflicts eternal sleep. When St. Trina was abandoned, the faint, light-purple mists coalesced into an intoxicating deep-purple cloud."
   },
   "Stone-Sheathed Sword": {
     "name": "Stone-Sheathed Sword",
     "category": "Straight Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Stone-Sheathed+Sword",
-    "weight": null,
+    "weight": 5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 16,
+      "Dex": 8,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 89,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2398,86 +2398,86 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "C",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A sword that none can pull from its scabbard of cracked stone. Relic of a lost civilization from a time long past, said to have served a ritual purpose at altars of light and darkness."
   },
   "Sword of Light": {
     "name": "Sword of Light",
     "category": "Straight Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+of+Light",
-    "weight": null,
+    "weight": 4,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 11,
       "Int": null,
-      "Fai": null,
+      "Fai": 24,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 93,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 93,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Sword of light, pulled from its stone scabbard at an altar. From the quick of the root, unswerving rays of light intersect and reflect to give the silver blade form."
   },
   "Sword of Darkness": {
     "name": "Sword of Darkness",
     "category": "Straight Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Sword+of+Darkness",
-    "weight": null,
+    "weight": 4,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 14,
+      "Dex": 11,
       "Int": null,
-      "Fai": null,
+      "Fai": 24,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 93,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 93,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "E",
       "Int": null,
-      "Fai": null,
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Sword of darkness, pulled from its stone scabbard at an altar. From the quick of the root, wandering coils of darkness coalesce and release, their eddies and vortices giving form to the dark blade."
   },
   "Smithscript Dagger": {
     "name": "Smithscript Dagger",
     "category": "Throwing Blades",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Dagger",
-    "weight": null,
+    "weight": 1.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 5,
+      "Dex": 11,
+      "Int": 11,
+      "Fai": 11,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 62,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2485,28 +2485,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "E",
+      "Dex": "C",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Dagger engraved with a smithscript. Reduced mass enhances the effects of the smithing arts, allowing this weapon to function as a throwing dagger for all attacks. Once thrown, the dagger instantly reappears in the wielder's hand."
   },
   "Dueling Shield": {
     "name": "Dueling Shield",
     "category": "Thrusting Shield",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Dueling+Shield",
-    "weight": null,
+    "weight": 9,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 15,
+      "Dex": 14,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 125,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2514,115 +2514,115 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A \"thrusting shield,\" or combined weapon and shield. Enables the wielder to attack and guard simultaneously. An armament once used in ritual combat performed to honor the Erdtreea custom that had somehow remained within the realm of shadow."
   },
   "Carian Thrusting Shield": {
     "name": "Carian Thrusting Shield",
     "category": "Thrusting Shield",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Carian+Thrusting+Shield",
-    "weight": null,
+    "weight": 10.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 17,
+      "Dex": 13,
+      "Int": 15,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 122,
+      "Mag": 36,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "D",
+      "Dex": "D",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Silver thrusting shield embedded with glintstones. Enables the wielder to attack and guard simultaneously. Once wielded by Rellana, the Twin Moon Knight, during her sole entry into ritual combata demonstration of fidelity to the Erdtree."
   },
   "Carian Sorcery Sword": {
     "name": "Carian Sorcery Sword",
     "category": "Thrusting Swords",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Carian+Sorcery+Sword",
-    "weight": null,
+    "weight": 2.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": 10,
+      "Dex": 19,
+      "Int": 16,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 69,
+      "Mag": 69,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
+      "Str": "E",
+      "Dex": "D",
+      "Int": "D",
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "One of the Carian royal family's glintstone swords. A smaller piercing sword with a slender blade. Formerly used by the Carian knights of old before the full refinement of their sorcerous combat techniques, this armament functions as a catalyst for glintstone sorcery when executing strong attacks."
   },
   "Nanaya's Torch": {
     "name": "Nanaya's Torch",
     "category": "Torches",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Nanaya%27s+Torch",
-    "weight": null,
+    "weight": 3.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 10,
+      "Dex": 10,
+      "Int": 14,
+      "Fai": 16,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 55,
       "Mag": null,
-      "Fire": null,
+      "Fire": 99,
       "Ligt": null,
       "Holy": null,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "E",
+      "Dex": "E",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "A torch made by attaching a dying flame of frenzy to a small spinal column. In a distant land, in an age long past, was born a man who failed to become the Lord of Frenzied Flame. All that remains of him is cradled gently by Nanaya."
   },
   "Lamenting Visage": {
     "name": "Lamenting Visage",
     "category": "Torches",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Lamenting+Visage",
-    "weight": null,
+    "weight": 2,
     "requirements": {
-      "Str": null,
+      "Str": 9,
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 71,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2630,86 +2630,86 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "B",
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A stone lantern carved to resemble a lamenting human head, the eyes vacantly beaming out light. Can be raised up when equipped in the left hand, illuminating more of the surrounding area. The unusual expression somehow imparts a sense of contentment. The languid ease of one who needs not sight."
   },
   "Black Steel Twinblade": {
     "name": "Black Steel Twinblade",
     "category": "Twinblades",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Steel+Twinblade",
-    "weight": null,
+    "weight": 8,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 18,
+      "Dex": 15,
       "Int": null,
-      "Fai": null,
+      "Fai": 13,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 112,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 33,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Weapon of the Black Knights, servants of Messmer the Impaler. Twinblade of black steel with decorative embellishments in gold. Blessed with an Erdtree incantation. Further holy imbuement will amplify the effect and greatly increase the armament's power."
   },
   "Euporia": {
     "name": "Euporia",
     "category": "Twinblades",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Euporia",
-    "weight": null,
+    "weight": 8.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 16,
+      "Dex": 16,
       "Int": null,
-      "Fai": null,
+      "Fai": 24,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 84,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
-      "Holy": null,
+      "Holy": 100,
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "D",
+      "Dex": "D",
       "Int": null,
-      "Fai": null,
+      "Fai": "D",
       "Arc": null
     },
-    "description": null
+    "description": "Twinblade symbolizing abundance. The secret treasure of the tower. Though the blades, fashioned from golden shoots, are largely wilted and darkened, their luster can be restored by dealing damage to foes. However, damage dealt to Those Who Live in Death will have no such effect."
   },
   "Tooth Whip": {
     "name": "Tooth Whip",
     "category": "Whips",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Tooth+Whip",
-    "weight": null,
+    "weight": 3,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 10,
+      "Dex": 24,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 109,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2717,28 +2717,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
+      "Str": "E",
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Whip bestrewn with rotting, misshapen teeth. Filthy and seething with disease, the teeth are embedded in the whip and dose the victim with deadly poison upon each strike. As the wounds ripen they grow inflamed and ooze pus. The flesh of shamans was said to meld harmoniously with others."
   },
   "Smithscript Shield": {
     "name": "Smithscript Shield",
     "category": "Small Shields",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Smithscript+Shield",
-    "weight": null,
+    "weight": 2.5,
     "requirements": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": 10,
+      "Dex": 15,
+      "Int": 11,
+      "Fai": 11,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 72,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2746,29 +2746,29 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
-      "Dex": null,
-      "Int": null,
-      "Fai": null,
+      "Str": "D",
+      "Dex": "E",
+      "Int": "E",
+      "Fai": "E",
       "Arc": null
     },
-    "description": null
+    "description": "Roundshield engraved with a smithscript. A throwing weapon created through the smithing arts. Can be thrown by performing the armament's Skill."
   },
   "Shield of Night": {
     "name": "Shield of Night",
     "category": "Small Shields",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Shield+of+Night",
-    "weight": null,
+    "weight": 2,
     "requirements": {
-      "Str": null,
-      "Dex": null,
+      "Str": 8,
+      "Dex": 15,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
-      "Mag": null,
+      "Phy": 65,
+      "Mag": 42,
       "Fire": null,
       "Ligt": null,
       "Holy": null,
@@ -2776,27 +2776,27 @@
     },
     "scaling": {
       "Str": null,
-      "Dex": null,
+      "Dex": "D",
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A shield awarded to Swordhands of Night, cast in a bottomless black from which no light can escape. The outer surface is only semicorporeal, providing reliable defense against attacks that are not physical in nature."
   },
   "Golden Lion Shield": {
     "name": "Golden Lion Shield",
     "category": "Medium Shield",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Golden+Lion+Shield",
-    "weight": null,
+    "weight": 5.5,
     "requirements": {
-      "Str": null,
+      "Str": 11,
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 81,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2804,28 +2804,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "C",
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Shield made to resemble a fierce golden lion with a luxuriant mane. Awarded to especially valorous members of Radahn's personal guard on the occasion of its formation."
   },
   "Serpent Crest Shield": {
     "name": "Serpent Crest Shield",
     "category": "Medium Shield",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield",
-    "weight": null,
+    "weight": 6,
     "requirements": {
-      "Str": null,
+      "Str": 12,
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 82,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2833,28 +2833,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "D",
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A finely-made \"redshield\" featuring an engraving of a winged serpent. Excels at guarding against fire. Said to have been made to commemorate the beginnings of the crusade started by Messmer, son of Marika."
   },
   "Wolf Crest Shield": {
     "name": "Wolf Crest Shield",
     "category": "Medium Shield",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Wolf+Crest+Shield",
-    "weight": null,
+    "weight": 6,
     "requirements": {
-      "Str": null,
+      "Str": 12,
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 82,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2862,28 +2862,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "D",
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "A finely-made \"blueshield\" featuring an engraving of a wolf under the moon. Excels at fending off sorceries. The wolf is the beast of the Carian royal covenant; a symbol of the moon's pride that none can forget, no matter what remote lands they may arrive in."
   },
   "Messmer Soldier Shield": {
     "name": "Messmer Soldier Shield",
     "category": "Medium Shield",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Shield",
-    "weight": null,
+    "weight": 5,
     "requirements": {
-      "Str": null,
+      "Str": 10,
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 80,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2891,28 +2891,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "D",
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Worn roundshield carried by soldiers loyal to Messmer, the Impaler. The largest of all metal shields in their class."
   },
   "Verdigris Greatshield": {
     "name": "Verdigris Greatshield",
     "category": "Greatshields",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Verdigris+Greatshield",
-    "weight": null,
+    "weight": 28,
     "requirements": {
-      "Str": null,
+      "Str": 49,
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 194,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2920,28 +2920,28 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "D",
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Greatshield made of the unusual metal known as verdigris. Boasts greater guard capacity than damage negation. To the extent that the shield will continue to protect its target even if its bearer should die."
   },
   "Black Steel Greatshield": {
     "name": "Black Steel Greatshield",
     "category": "Greatshields",
     "fextralife_url": "https://eldenring.wiki.fextralife.com/Black+Steel+Greatshield",
-    "weight": null,
+    "weight": 19.5,
     "requirements": {
-      "Str": null,
+      "Str": 35,
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
     "attack": {
-      "Phy": null,
+      "Phy": 119,
       "Mag": null,
       "Fire": null,
       "Ligt": null,
@@ -2949,12 +2949,12 @@
       "Crit": null
     },
     "scaling": {
-      "Str": null,
+      "Str": "D",
       "Dex": null,
       "Int": null,
       "Fai": null,
       "Arc": null
     },
-    "description": null
+    "description": "Weighty shields carried by the Black Knights, servants of Messmer the Impaler. Made of black steel with decorative embellishments in gold. Symbolic of their iron conviction in their crusade, the Black Knights will never yield. Nor will they ever doubt their purpose."
   }
 }
