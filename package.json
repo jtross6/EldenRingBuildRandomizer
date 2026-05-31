@@ -1,5 +1,6 @@
 {
   "name": "elden-ring-build-randomizer",
+  "packageManager": "pnpm@11.5.0",
   "private": true,
   "version": "0.0.1",
   "type": "module",
