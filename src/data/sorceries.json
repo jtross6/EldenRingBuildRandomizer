@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Adula's Moonblade",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Ambush Shard",
+    "fpCost": 13,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Ancient Death Rancor",
+    "fpCost": 21,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Blades of Stone",
+    "fpCost": 18,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Briars of Punishment",
+    "fpCost": 9,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Briars of Sin",
+    "fpCost": 6,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Cannon of Haima",
+    "fpCost": 38,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Carian Greatsword",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Carian Phalanx",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Carian Piercer",
+    "fpCost": 17,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Carian Retaliation",
+    "fpCost": 8,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Carian Slicer",
+    "fpCost": 4,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Cherishing Fingers",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Collapsing Stars",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Comet",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Comet Azur",
+    "fpCost": 40,
+    "slotsUsed": 3
+  },
+  {
+    "name": "Crystal Barrage",
+    "fpCost": 14,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Crystal Burst",
+    "fpCost": 14,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Crystal Release",
+    "fpCost": 34,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Crystal Torrent",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Eternal Darkness",
+    "fpCost": 25,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Explosive Ghostflame",
+    "fpCost": 29,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Fia's Mist",
+    "fpCost": 25,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Fleeting Microcosm",
+    "fpCost": 26,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Founding Rain of Stars",
+    "fpCost": 27,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Freezing Mist",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Frozen Armament",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Gavel of Haima",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Gelmir's Fury",
+    "fpCost": 16,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintblade Phalanx",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintblade Trio",
+    "fpCost": 19,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintstone Arc",
+    "fpCost": 9,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintstone Cometshard",
+    "fpCost": 17,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintstone Icecrag",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintstone Nail",
+    "fpCost": 10,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintstone Nails",
+    "fpCost": 23,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintstone Pebble",
+    "fpCost": 7,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Glintstone Stars",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Gravitational Missile",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Gravity Well",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Great Glintstone Shard",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Great Oracular Bubble",
+    "fpCost": 16,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Greatblade Phalanx",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Impenetrable Thorns",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Loretta's Greatbow",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Loretta's Mastery",
+    "fpCost": 39,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Lucidity",
+    "fpCost": 10,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Magic Downpour",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Magic Glintblade",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Magma Shot",
+    "fpCost": 16,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Mantle of Thorns",
+    "fpCost": 9,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Mass of Putrescence",
+    "fpCost": 41,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Meteorite",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Meteorite of Astel",
+    "fpCost": 60,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Miriam's Vanashing",
+    "fpCost": 9,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Night Comet",
+    "fpCost": 21,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Night Maiden's Mist",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Night Shard",
+    "fpCost": 7,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Oracle Bubbles",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rancorcall",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Ranni's Dark Moon",
+    "fpCost": 57,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Rellana's Twin Moons",
+    "fpCost": 47,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Rennala's Full Moon",
+    "fpCost": 47,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Rings of Spectral Light",
+    "fpCost": 14,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rock Blaster",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rock Sling",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Roiling Magma",
+    "fpCost": 28,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rykard's Rancor",
+    "fpCost": 23,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Scholar's Armament",
+    "fpCost": 25,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Scholar's Shield",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Shard Spiral",
+    "fpCost": 14,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Shatter Earth",
+    "fpCost": 10,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Shattering Crystal",
+    "fpCost": 21,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Star Shower",
+    "fpCost": 23,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Starlight",
+    "fpCost": 9,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Stars of Ruin",
+    "fpCost": 32,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Swift Glintstone Shard",
+    "fpCost": 5,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Terra Magica",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Thops's Barrier",
+    "fpCost": 7,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Tibia's Summons",
+    "fpCost": 17,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Unseen Blade",
+    "fpCost": 13,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Unseen Form",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Vortex of Putrescence",
+    "fpCost": 29,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Zamor Ice Storm",
+    "fpCost": 17,
+    "slotsUsed": 1
+  }
+]

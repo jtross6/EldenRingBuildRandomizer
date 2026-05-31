@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Alberich's Trousers",
+    "weight": 2.5
+  },
+  {
+    "name": "All-Knowing Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Ansbach's Boots",
+    "weight": 3.1
+  },
+  {
+    "name": "Aristocrat Boots",
+    "weight": 2.9
+  },
+  {
+    "name": "Astrologer Trousers",
+    "weight": 3.9
+  },
+  {
+    "name": "Bandit Boots",
+    "weight": 4.4
+  },
+  {
+    "name": "Banished Knight Greaves",
+    "weight": 10.8
+  },
+  {
+    "name": "Battlemage Legwraps",
+    "weight": 2.5
+  },
+  {
+    "name": "Beast Champion Greaves",
+    "weight": 10.8
+  },
+  {
+    "name": "Black Knife Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Black Knight Greaves",
+    "weight": 8.5
+  },
+  {
+    "name": "Blackflame Monk Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Blaidd's Greaves",
+    "weight": 8.5
+  },
+  {
+    "name": "Bloodhound Knight Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Blue Silver Mail Skirt",
+    "weight": 5.5
+  },
+  {
+    "name": "Brave's Legwraps",
+    "weight": 3.1
+  },
+  {
+    "name": "Briar Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Bull-Goat Greaves",
+    "weight": 16.4
+  },
+  {
+    "name": "Carian Knight Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Chain Leggings",
+    "weight": 5.5
+  },
+  {
+    "name": "Champion Gaiters",
+    "weight": 3.9
+  },
+  {
+    "name": "Cleanrot Greaves",
+    "weight": 9.3
+  },
+  {
+    "name": "Cloth Trousers",
+    "weight": 2
+  },
+  {
+    "name": "Common Soldier Greaves",
+    "weight": 5.5
+  },
+  {
+    "name": "Commoner's Shoes",
+    "weight": 2
+  },
+  {
+    "name": "Confessor Boots",
+    "weight": 4.8
+  },
+  {
+    "name": "Consort's Trousers",
+    "weight": 2.5
+  },
+  {
+    "name": "Crucible Greaves",
+    "weight": 9.6
+  },
+  {
+    "name": "Cuckoo Knight Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Dancer's Trousers",
+    "weight": 2
+  },
+  {
+    "name": "Death Knight Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Deathbed Smalls",
+    "weight": 2
+  },
+  {
+    "name": "Depraved Perfumer Trousers",
+    "weight": 4.3
+  },
+  {
+    "name": "Divine Bird Warrior Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Drake Knight Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Duelist Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Eccentric's Breeches",
+    "weight": 5.1
+  },
+  {
+    "name": "Elden Lord Greaves",
+    "weight": 5.5
+  },
+  {
+    "name": "Errant Sorcerer Boots",
+    "weight": 3.1
+  },
+  {
+    "name": "Exile Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Finger Maiden Shoes",
+    "weight": 2.5
+  },
+  {
+    "name": "Fingerprint Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Fire Knight Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Fire Monk Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Fire Prelate Greaves",
+    "weight": 15.3
+  },
+  {
+    "name": "Foot Soldier Greaves",
+    "weight": 5.1
+  },
+  {
+    "name": "Freyja's Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Fur Leggings",
+    "weight": 3.1
+  },
+  {
+    "name": "Gaius's Greaves",
+    "weight": 8.9
+  },
+  {
+    "name": "Gelmir Knight Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Godrick Knight Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Godrick Soldier Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Godskin Apostle Trousers",
+    "weight": 2.5
+  },
+  {
+    "name": "Godskin Noble Trousers",
+    "weight": 2.5
+  },
+  {
+    "name": "Gold Waistwrap",
+    "weight": 4.4
+  },
+  {
+    "name": "Greaves of Night",
+    "weight": 4.4
+  },
+  {
+    "name": "Greaves of Solitude",
+    "weight": 14.8
+  },
+  {
+    "name": "Guardian Greaves",
+    "weight": 5.5
+  },
+  {
+    "name": "Haligtree Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Haligtree Knight Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Horned Warrior Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Hoslow's Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Iron Rivet Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Kaiden Trousers",
+    "weight": 5.1
+  },
+  {
+    "name": "Knight Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Land of Reeds Greaves",
+    "weight": 5.1
+  },
+  {
+    "name": "Leather Boots",
+    "weight": 4.4
+  },
+  {
+    "name": "Leather Trousers",
+    "weight": 5.5
+  },
+  {
+    "name": "Leyndell Knight Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Leyndell Soldier Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Lionel's Greaves",
+    "weight": 13.1
+  },
+  {
+    "name": "Malenia's Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Malformed Dragon Greaves",
+    "weight": 9.9
+  },
+  {
+    "name": "Maliketh's Greaves",
+    "weight": 7.9
+  },
+  {
+    "name": "Mausoleum Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Mausoleum Knight Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Messmer Soldier Greaves",
+    "weight": 5.5
+  },
+  {
+    "name": "Messmer's Greaves",
+    "weight": 5.1
+  },
+  {
+    "name": "Millicent's Boots",
+    "weight": 2
+  },
+  {
+    "name": "Mushroom Legs",
+    "weight": 3.1
+  },
+  {
+    "name": "Night's Cavalry Greaves",
+    "weight": 7.9
+  },
+  {
+    "name": "Noble's Trousers",
+    "weight": 3.9
+  },
+  {
+    "name": "Nomadic Merchant's Trousers",
+    "weight": 4.4
+  },
+  {
+    "name": "Nox Greaves",
+    "weight": 5.1
+  },
+  {
+    "name": "Oathseeker Knight Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Old Aristocrat Shoes",
+    "weight": 2
+  },
+  {
+    "name": "Old Sorcerer's Legwraps",
+    "weight": 2.5
+  },
+  {
+    "name": "Omen Greaves",
+    "weight": 14.3
+  },
+  {
+    "name": "Omenkiller Boots",
+    "weight": 4.4
+  },
+  {
+    "name": "Page Trousers",
+    "weight": 2.5
+  },
+  {
+    "name": "Perfumer Sarong",
+    "weight": 2.5
+  },
+  {
+    "name": "Preceptor's Trousers",
+    "weight": 3.9
+  },
+  {
+    "name": "Prisoner Trousers",
+    "weight": 2
+  },
+  {
+    "name": "Prophet Trousers",
+    "weight": 3.1
+  },
+  {
+    "name": "Queen's Leggings",
+    "weight": 2
+  },
+  {
+    "name": "Radahn Soldier Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Radahn's Greaves",
+    "weight": 10.8
+  },
+  {
+    "name": "Ragged Loincloth",
+    "weight": 3.1
+  },
+  {
+    "name": "Raging Wolf Greaves",
+    "weight": 6.3
+  },
+  {
+    "name": "Rakshasa Greaves",
+    "weight": 7.9
+  },
+  {
+    "name": "Raya Lucarian Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Redmane Knight Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Rellana's Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Ronin's Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Rotten Duelist Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Royal Knight Greaves",
+    "weight": 9.6
+  },
+  {
+    "name": "Royal Remains Greaves",
+    "weight": 6.6
+  },
+  {
+    "name": "Sage Trousers",
+    "weight": 2.5
+  },
+  {
+    "name": "Sanguine Noble Waistcloth",
+    "weight": 2.5
+  },
+  {
+    "name": "Scaled Greaves",
+    "weight": 9.9
+  },
+  {
+    "name": "Shadow Militiaman Greaves",
+    "weight": 4.4
+  },
+  {
+    "name": "Shaman Leggings",
+    "weight": 3.1
+  },
+  {
+    "name": "Snow Witch Skirt",
+    "weight": 3.1
+  },
+  {
+    "name": "Sorcerer Leggings",
+    "weight": 2
+  },
+  {
+    "name": "Spellblade's Trousers",
+    "weight": 2.6
+  },
+  {
+    "name": "Thiollier's Trousers",
+    "weight": 4.4
+  },
+  {
+    "name": "Traveler's Boots",
+    "weight": 3.1
+  },
+  {
+    "name": "Traveler's Slops",
+    "weight": 2.5
+  },
+  {
+    "name": "Traveling Maiden Boots",
+    "weight": 2.9
+  },
+  {
+    "name": "Tree Sentinel Greaves",
+    "weight": 11.7
+  },
+  {
+    "name": "Twinned Greaves",
+    "weight": 7.3
+  },
+  {
+    "name": "Vagabond Knight Greaves",
+    "weight": 5.7
+  },
+  {
+    "name": "Verdigris Greaves",
+    "weight": 16
+  },
+  {
+    "name": "Veteran's Greaves",
+    "weight": 11.7
+  },
+  {
+    "name": "Vulgar Militia Greaves",
+    "weight": 5.1
+  },
+  {
+    "name": "War Surgeon Trousers",
+    "weight": 4.2
+  },
+  {
+    "name": "Warrior Greaves",
+    "weight": 4.8
+  },
+  {
+    "name": "White Reed Greaves",
+    "weight": 5.1
+  },
+  {
+    "name": "Young Lion's Greaves",
+    "weight": 9.3
+  },
+  {
+    "name": "Zamor Legwraps",
+    "weight": 5.1
+  }
+]

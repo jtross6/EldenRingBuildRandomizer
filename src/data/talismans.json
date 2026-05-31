@@ -1,0 +1,622 @@
+[
+  {
+    "name": "Aged One's Exultation",
+    "weight": 0.3
+  },
+  {
+    "name": "Ailment Talisman",
+    "weight": 0.3
+  },
+  {
+    "name": "Ancestral Spirit's Horn",
+    "weight": 1.2
+  },
+  {
+    "name": "Arrow's Reach Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Arrow's Soaring String Talisman",
+    "weight": 0.3
+  },
+  {
+    "name": "Arrow's Sting Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Arsenal Charm",
+    "weight": 1.5
+  },
+  {
+    "name": "Arsenal Charm +1",
+    "weight": 1.5
+  },
+  {
+    "name": "Assassin's Cerulean Dagger",
+    "weight": 0.8
+  },
+  {
+    "name": "Assassin's Crimson Dagger",
+    "weight": 0.8
+  },
+  {
+    "name": "Axe Talisman",
+    "weight": 0.8
+  },
+  {
+    "name": "Beloved Stardust",
+    "weight": 1.3
+  },
+  {
+    "name": "Blade of Mercy",
+    "weight": 0.3
+  },
+  {
+    "name": "Blessed Blue Dew Talisman",
+    "weight": 0.3
+  },
+  {
+    "name": "Blessed Dew Talisman",
+    "weight": 0.6
+  },
+  {
+    "name": "Blue Dancer Charm",
+    "weight": 0.9
+  },
+  {
+    "name": "Blue-Feathered Branchsword",
+    "weight": 1.1
+  },
+  {
+    "name": "Boltdrake Talisman",
+    "weight": 0.6
+  },
+  {
+    "name": "Boltdrake Talisman +1",
+    "weight": 0.6
+  },
+  {
+    "name": "Boltdrake Talisman +2",
+    "weight": 0.6
+  },
+  {
+    "name": "Boltdrake Talisman +3",
+    "weight": 0.6
+  },
+  {
+    "name": "Bull-Goat's Talisman",
+    "weight": 0.5
+  },
+  {
+    "name": "Carian Filigreed Crest",
+    "weight": 0.8
+  },
+  {
+    "name": "Cerulean Amber Medallion",
+    "weight": 0.3
+  },
+  {
+    "name": "Cerulean Amber Medallion +1",
+    "weight": 0.3
+  },
+  {
+    "name": "Cerulean Amber Medallion +2",
+    "weight": 0.3
+  },
+  {
+    "name": "Cerulean Amber Medallion +3",
+    "weight": 0.3
+  },
+  {
+    "name": "Cerulean Seed Talisman",
+    "weight": 0.8
+  },
+  {
+    "name": "Cerulean Seed Talisman +1",
+    "weight": 0.8
+  },
+  {
+    "name": "Clarifying Horn Charm",
+    "weight": 0.6
+  },
+  {
+    "name": "Clarifying Horn Charm +1",
+    "weight": 0.6
+  },
+  {
+    "name": "Clarifying Horn Charm +2",
+    "weight": 0.6
+  },
+  {
+    "name": "Claw Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Companion Jar",
+    "weight": 0.6
+  },
+  {
+    "name": "Concealing Veil",
+    "weight": 0.9
+  },
+  {
+    "name": "Crepus's Vial",
+    "weight": 0.7
+  },
+  {
+    "name": "Crimson Amber Medallion",
+    "weight": 0.3
+  },
+  {
+    "name": "Crimson Amber Medallion +1",
+    "weight": 0.3
+  },
+  {
+    "name": "Crimson Amber Medallion +2",
+    "weight": 0.3
+  },
+  {
+    "name": "Crimson Amber Medallion +3",
+    "weight": 0.3
+  },
+  {
+    "name": "Crimson Seed Talisman",
+    "weight": 0.8
+  },
+  {
+    "name": "Crimson Seed Talisman +1",
+    "weight": 0.8
+  },
+  {
+    "name": "Crucible Feather Talisman",
+    "weight": 0.8
+  },
+  {
+    "name": "Crucible Knot Talisman",
+    "weight": 0.5
+  },
+  {
+    "name": "Crucible Scale Talisman",
+    "weight": 1.1
+  },
+  {
+    "name": "Crusade Insignia",
+    "weight": 0.3
+  },
+  {
+    "name": "Curved Sword Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Daedicar's Woe",
+    "weight": 0.8
+  },
+  {
+    "name": "Dagger Talisman",
+    "weight": 1.1
+  },
+  {
+    "name": "Dragoncrest Greatshield Talisman",
+    "weight": 0.8
+  },
+  {
+    "name": "Dragoncrest Shield Talisman",
+    "weight": 0.8
+  },
+  {
+    "name": "Dragoncrest Shield Talisman +1",
+    "weight": 0.8
+  },
+  {
+    "name": "Dragoncrest Shield Talisman +2",
+    "weight": 0.8
+  },
+  {
+    "name": "Dried Bouquet",
+    "weight": 0.3
+  },
+  {
+    "name": "Enraged Divine Beast",
+    "weight": 0.3
+  },
+  {
+    "name": "Entwining Umbilical Cord",
+    "weight": 0.5
+  },
+  {
+    "name": "Erdtree's Favor",
+    "weight": 1.5
+  },
+  {
+    "name": "Erdtree's Favor +1",
+    "weight": 1.5
+  },
+  {
+    "name": "Erdtree's Favor +2",
+    "weight": 1.5
+  },
+  {
+    "name": "Faithful's Canvas Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Fine Crucible Feather Talisman",
+    "weight": 0.3
+  },
+  {
+    "name": "Fire Scorpion Charm",
+    "weight": 0.8
+  },
+  {
+    "name": "Flamedrake Talisman",
+    "weight": 0.6
+  },
+  {
+    "name": "Flamedrake Talisman +1",
+    "weight": 0.6
+  },
+  {
+    "name": "Flamedrake Talisman +2",
+    "weight": 0.6
+  },
+  {
+    "name": "Flamedrake Talisman +3",
+    "weight": 0.6
+  },
+  {
+    "name": "Flock's Canvas Talisman",
+    "weight": 1
+  },
+  {
+    "name": "Furled Finger's Trick-Mirror",
+    "weight": 0.7
+  },
+  {
+    "name": "Godfrey Icon",
+    "weight": 0.8
+  },
+  {
+    "name": "Godskin Swaddling Cloth",
+    "weight": 0.9
+  },
+  {
+    "name": "Gold Scarab",
+    "weight": 1.2
+  },
+  {
+    "name": "Golden Braid",
+    "weight": 0.3
+  },
+  {
+    "name": "Graven-Mass Talisman",
+    "weight": 1
+  },
+  {
+    "name": "Graven-School Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Great-Jar's Arsenal",
+    "weight": 1.5
+  },
+  {
+    "name": "Greatshield Talisman",
+    "weight": 0.9
+  },
+  {
+    "name": "Green Turtle Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Haligdrake Talisman",
+    "weight": 0.6
+  },
+  {
+    "name": "Haligdrake Talisman +1",
+    "weight": 0.6
+  },
+  {
+    "name": "Haligdrake Talisman +2",
+    "weight": 0.6
+  },
+  {
+    "name": "Hammer Talisman",
+    "weight": 0.9
+  },
+  {
+    "name": "Host's Trick-Mirror",
+    "weight": 0.7
+  },
+  {
+    "name": "Immunizing Horn Charm",
+    "weight": 0.6
+  },
+  {
+    "name": "Immunizing Horn Charm",
+    "weight": 0.6
+  },
+  {
+    "name": "Immunizing Horn Charm +1",
+    "weight": 0.6
+  },
+  {
+    "name": "Kindred of Rot's Exultation",
+    "weight": 0.9
+  },
+  {
+    "name": "Lacerating Crossed-Tree",
+    "weight": 0.3
+  },
+  {
+    "name": "Lance Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Lightning Scorpion Charm",
+    "weight": 0.8
+  },
+  {
+    "name": "Longtail Cat Talisman",
+    "weight": 0.6
+  },
+  {
+    "name": "Lord of Blood's Exultation",
+    "weight": 0.9
+  },
+  {
+    "name": "Magic Scorpion Charm",
+    "weight": 0.8
+  },
+  {
+    "name": "Marika's Scarseal",
+    "weight": 0.8
+  },
+  {
+    "name": "Marika's Soreseal",
+    "weight": 0.8
+  },
+  {
+    "name": "Millicent's Prosthesis",
+    "weight": 1.6
+  },
+  {
+    "name": "Moon of Nokstella",
+    "weight": 0.8
+  },
+  {
+    "name": "Mottled Necklace",
+    "weight": 0.9
+  },
+  {
+    "name": "Mottled Necklace",
+    "weight": 0.9
+  },
+  {
+    "name": "Mottled Necklace +1",
+    "weight": 0.9
+  },
+  {
+    "name": "Old Lord's Talisman",
+    "weight": 0.5
+  },
+  {
+    "name": "Outer God Heirloom",
+    "weight": 0.3
+  },
+  {
+    "name": "Pearl Shield Talisman",
+    "weight": 0.9
+  },
+  {
+    "name": "Pearldrake Talisman",
+    "weight": 0.9
+  },
+  {
+    "name": "Pearldrake Talisman +1",
+    "weight": 0.9
+  },
+  {
+    "name": "Pearldrake Talisman +2",
+    "weight": 0.9
+  },
+  {
+    "name": "Pearldrake Talisman +3",
+    "weight": 0.9
+  },
+  {
+    "name": "Perfumer's Talisman",
+    "weight": 0.6
+  },
+  {
+    "name": "Primal Glintstone Blade",
+    "weight": 0.6
+  },
+  {
+    "name": "Prince of Death's Cyst",
+    "weight": 0.6
+  },
+  {
+    "name": "Prince of Death's Pustule",
+    "weight": 0.6
+  },
+  {
+    "name": "Prosthesis-Wearer Heirloom",
+    "weight": 0.8
+  },
+  {
+    "name": "Radagon Icon",
+    "weight": 0.7
+  },
+  {
+    "name": "Radagon's Scarseal",
+    "weight": 0.8
+  },
+  {
+    "name": "Radagon's Soreseal",
+    "weight": 0.8
+  },
+  {
+    "name": "Red-Feathered Branchsword",
+    "weight": 1.4
+  },
+  {
+    "name": "Rellana's Cameo",
+    "weight": 0.8
+  },
+  {
+    "name": "Retaliatory Crossed-Tree",
+    "weight": 0.3
+  },
+  {
+    "name": "Ritual Shield Talisman",
+    "weight": 0.9
+  },
+  {
+    "name": "Ritual Sword Talisman",
+    "weight": 0.9
+  },
+  {
+    "name": "Roar Medallion",
+    "weight": 0.7
+  },
+  {
+    "name": "Rotten Winged Sword Insignia",
+    "weight": 1.4
+  },
+  {
+    "name": "Sacred Scorpion Charm",
+    "weight": 0.8
+  },
+  {
+    "name": "Sacrificial Twig",
+    "weight": 1
+  },
+  {
+    "name": "Shabriri's Woe",
+    "weight": 0.6
+  },
+  {
+    "name": "Shard of Alexander",
+    "weight": 0.9
+  },
+  {
+    "name": "Sharpshot Talisman",
+    "weight": 0.3
+  },
+  {
+    "name": "Shattered Stone Talisman",
+    "weight": 0.3
+  },
+  {
+    "name": "Silver Scarab",
+    "weight": 1.2
+  },
+  {
+    "name": "Smithing Talisman",
+    "weight": 0.3
+  },
+  {
+    "name": "Spear Talisman",
+    "weight": 0.5
+  },
+  {
+    "name": "Spelldrake Talisman",
+    "weight": 0.6
+  },
+  {
+    "name": "Spelldrake Talisman +1",
+    "weight": 0.6
+  },
+  {
+    "name": "Spelldrake Talisman +2",
+    "weight": 0.6
+  },
+  {
+    "name": "Spelldrake Talisman +3",
+    "weight": 0.6
+  },
+  {
+    "name": "St. Trina's Smile",
+    "weight": 0.9
+  },
+  {
+    "name": "Stalwart Horn Charm",
+    "weight": 0.6
+  },
+  {
+    "name": "Stalwart Horn Charm +1",
+    "weight": 0.6
+  },
+  {
+    "name": "Stalwart Horn Charm +2",
+    "weight": 0.6
+  },
+  {
+    "name": "Stargazer Heirloom",
+    "weight": 0.6
+  },
+  {
+    "name": "Starscourge Heirloom",
+    "weight": 0.8
+  },
+  {
+    "name": "Taker's Cameo",
+    "weight": 1
+  },
+  {
+    "name": "Talisman of All Crucibles",
+    "weight": 0.3
+  },
+  {
+    "name": "Talisman of Lord's Bestowal",
+    "weight": 3
+  },
+  {
+    "name": "Talisman of the Dread",
+    "weight": 0.3
+  },
+  {
+    "name": "Twinblade Talisman",
+    "weight": 0.7
+  },
+  {
+    "name": "Two Fingers Heirloom",
+    "weight": 0.6
+  },
+  {
+    "name": "Two-Handed Sword Talisman",
+    "weight": 1.2
+  },
+  {
+    "name": "Two-Headed Turtle Talisman",
+    "weight": 1
+  },
+  {
+    "name": "Verdigris Discus",
+    "weight": 4.5
+  },
+  {
+    "name": "Viridian Amber Medallion",
+    "weight": 0.3
+  },
+  {
+    "name": "Viridian Amber Medallion +1",
+    "weight": 0.3
+  },
+  {
+    "name": "Viridian Amber Medallion +2",
+    "weight": 0.3
+  },
+  {
+    "name": "Viridian Amber Medallion +3",
+    "weight": 0.3
+  },
+  {
+    "name": "Warrior Jar Shard",
+    "weight": 0.9
+  },
+  {
+    "name": "Winged Sword Insignia",
+    "weight": 1.4
+  }
+]

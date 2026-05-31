@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "Alberich's Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Alberich's Robe (Altered)",
+    "weight": 3.2
+  },
+  {
+    "name": "All-Knowing Armor",
+    "weight": 10.7
+  },
+  {
+    "name": "All-Knowing Armor (Altered)",
+    "weight": 9.3
+  },
+  {
+    "name": "Ansbach's Attire",
+    "weight": 5.1
+  },
+  {
+    "name": "Aristocrat Coat",
+    "weight": 7.1
+  },
+  {
+    "name": "Aristocrat Garb",
+    "weight": 4.9
+  },
+  {
+    "name": "Aristocrat Garb (Altered)",
+    "weight": 4.1
+  },
+  {
+    "name": "Armor of Night",
+    "weight": 7.1
+  },
+  {
+    "name": "Armor of Solitude",
+    "weight": 24
+  },
+  {
+    "name": "Ascetic's Ankle Guards",
+    "weight": 2
+  },
+  {
+    "name": "Ascetic's Loincloth",
+    "weight": 3.2
+  },
+  {
+    "name": "Ascetic's Wrist Guards",
+    "weight": 1.1
+  },
+  {
+    "name": "Astrologer Robe",
+    "weight": 6.3
+  },
+  {
+    "name": "Astrologer Robe (Altered)",
+    "weight": 5.3
+  },
+  {
+    "name": "Azur's Glintstone Robe",
+    "weight": 7.1
+  },
+  {
+    "name": "Bandit Garb",
+    "weight": 7.7
+  },
+  {
+    "name": "Banished Knight Armor",
+    "weight": 17.5
+  },
+  {
+    "name": "Banished Knight Armor (Altered)",
+    "weight": 16.5
+  },
+  {
+    "name": "Battlemage Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Beast Champion Armor",
+    "weight": 17.5
+  },
+  {
+    "name": "Beast Champion Armor (Altered)",
+    "weight": 16.4
+  },
+  {
+    "name": "Black Knife Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Black Knife Armor (Altered)",
+    "weight": 9
+  },
+  {
+    "name": "Black Knight Armor",
+    "weight": 13.7
+  },
+  {
+    "name": "Blackflame Monk Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Blaidd's Armor",
+    "weight": 13.7
+  },
+  {
+    "name": "Blaidd's Armor (Altered)",
+    "weight": 12.5
+  },
+  {
+    "name": "Bloodhound Knight Armor",
+    "weight": 10.6
+  },
+  {
+    "name": "Bloodhound Knight Armor (Altered)",
+    "weight": 9.6
+  },
+  {
+    "name": "Bloodsoaked Tabard",
+    "weight": 8.3
+  },
+  {
+    "name": "Blue Cloth Vest",
+    "weight": 7.7
+  },
+  {
+    "name": "Blue Festive Garb",
+    "weight": 4.1
+  },
+  {
+    "name": "Blue Silver Mail Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Blue Silver Mail Armor (Altered)",
+    "weight": 8.5
+  },
+  {
+    "name": "Braided Cord Robe",
+    "weight": 3.4
+  },
+  {
+    "name": "Brave's Battlewear",
+    "weight": 4.1
+  },
+  {
+    "name": "Brave's Battlewear (Altered)",
+    "weight": 3.2
+  },
+  {
+    "name": "Briar Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Briar Armor (Altered)",
+    "weight": 10.7
+  },
+  {
+    "name": "Bull-Goat Armor",
+    "weight": 26.5
+  },
+  {
+    "name": "Carian Knight Armor",
+    "weight": 10.4
+  },
+  {
+    "name": "Carian Knight Armor (Altered)",
+    "weight": 9.7
+  },
+  {
+    "name": "Chain Armor",
+    "weight": 8.8
+  },
+  {
+    "name": "Chain-Draped Tabard",
+    "weight": 8.3
+  },
+  {
+    "name": "Champion Pauldron",
+    "weight": 5.1
+  },
+  {
+    "name": "Cleanrot Armor",
+    "weight": 15
+  },
+  {
+    "name": "Cleanrot Armor (Altered)",
+    "weight": 13.7
+  },
+  {
+    "name": "Cloth Garb",
+    "weight": 3.2
+  },
+  {
+    "name": "Common Soldier Cloth Armor",
+    "weight": 8.8
+  },
+  {
+    "name": "Commoner's Garb",
+    "weight": 5.1
+  },
+  {
+    "name": "Commoner's Garb (Altered)",
+    "weight": 4.1
+  },
+  {
+    "name": "Commoner's Simple Garb",
+    "weight": 5.1
+  },
+  {
+    "name": "Commoner's Simple Garb (Altered)",
+    "weight": 4.1
+  },
+  {
+    "name": "Confessor Armor",
+    "weight": 8.3
+  },
+  {
+    "name": "Confessor Armor (Altered)",
+    "weight": 7.3
+  },
+  {
+    "name": "Consort's Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Corhyn's Robe",
+    "weight": 6.3
+  },
+  {
+    "name": "Crucible Axe Armor",
+    "weight": 15.5
+  },
+  {
+    "name": "Crucible Axe Armor (Altered)",
+    "weight": 14.9
+  },
+  {
+    "name": "Crucible Tree Armor",
+    "weight": 15.5
+  },
+  {
+    "name": "Crucible Tree Armor (Altered)",
+    "weight": 14.9
+  },
+  {
+    "name": "Cuckoo Knight Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Cuckoo Knight Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "Cuckoo Surcoat",
+    "weight": 10.6
+  },
+  {
+    "name": "Dancer's Bracer",
+    "weight": 1.4
+  },
+  {
+    "name": "Dancer's Dress",
+    "weight": 3.2
+  },
+  {
+    "name": "Dane's Hat",
+    "weight": 2.2
+  },
+  {
+    "name": "Death Knight Armor",
+    "weight": 11.2
+  },
+  {
+    "name": "Deathbed Dress",
+    "weight": 3.2
+  },
+  {
+    "name": "Depraved Perfumer Robe",
+    "weight": 5
+  },
+  {
+    "name": "Depraved Perfumer Robe (Altered)",
+    "weight": 4
+  },
+  {
+    "name": "Dirty Chainmail",
+    "weight": 8.8
+  },
+  {
+    "name": "Divine Beast Warrior Armor",
+    "weight": 10.4
+  },
+  {
+    "name": "Divine Bird Warrior Armor",
+    "weight": 11.6
+  },
+  {
+    "name": "Drake Knight Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Drake Knight Armor (Altered)",
+    "weight": 8.3
+  },
+  {
+    "name": "Dryleaf Cuissardes",
+    "weight": 3.1
+  },
+  {
+    "name": "Dryleaf Robe",
+    "weight": 5.1
+  },
+  {
+    "name": "Eccentric's Armor",
+    "weight": 10.6
+  },
+  {
+    "name": "Elden Lord Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Elden Lord Armor (Altered)",
+    "weight": 8.4
+  },
+  {
+    "name": "Erdtree Surcoat",
+    "weight": 10.6
+  },
+  {
+    "name": "Errant Sorcerer Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Errant Sorcerer Robe (Altered)",
+    "weight": 3.2
+  },
+  {
+    "name": "Exile Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Eye Surcoat",
+    "weight": 9.2
+  },
+  {
+    "name": "Fell Omen Cloak",
+    "weight": 5.1
+  },
+  {
+    "name": "Festive Garb",
+    "weight": 4.1
+  },
+  {
+    "name": "Festive Garb (Altered)",
+    "weight": 3.2
+  },
+  {
+    "name": "Fia's Robe",
+    "weight": 5.1
+  },
+  {
+    "name": "Fia's Robe (Altered)",
+    "weight": 3.2
+  },
+  {
+    "name": "Finger Maiden Robe",
+    "weight": 4.6
+  },
+  {
+    "name": "Finger Maiden Robe (Altered)",
+    "weight": 3.7
+  },
+  {
+    "name": "Fingerprint Armor",
+    "weight": 10.6
+  },
+  {
+    "name": "Fingerprint Armor (Altered)",
+    "weight": 10
+  },
+  {
+    "name": "Fire Knight Armor",
+    "weight": 9.3
+  },
+  {
+    "name": "Fire Monk Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Fire Prelate Armor",
+    "weight": 24.7
+  },
+  {
+    "name": "Fire Prelate Armor (Altered)",
+    "weight": 23.6
+  },
+  {
+    "name": "Foot Soldier Tabard",
+    "weight": 8.3
+  },
+  {
+    "name": "Freyja's Armor",
+    "weight": 9.7
+  },
+  {
+    "name": "Fur Raiment",
+    "weight": 5.1
+  },
+  {
+    "name": "Gaius's Armor",
+    "weight": 20.1
+  },
+  {
+    "name": "Gelmir Knight Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Gelmir Knight Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "Gloried Attire",
+    "weight": 7.1
+  },
+  {
+    "name": "Godrick Knight Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Godrick Knight Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "Godskin Apostle Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Godskin Noble Robe",
+    "weight": 6.3
+  },
+  {
+    "name": "Goldmask's Rags",
+    "weight": 2.4
+  },
+  {
+    "name": "Gravebird Anklets",
+    "weight": 2
+  },
+  {
+    "name": "Gravebird Armor",
+    "weight": 6
+  },
+  {
+    "name": "Gravebird Bracelets",
+    "weight": 1.7
+  },
+  {
+    "name": "Gravebird's Blackquill Armor",
+    "weight": 7.4
+  },
+  {
+    "name": "Gravekeeper Cloak",
+    "weight": 6.3
+  },
+  {
+    "name": "Gravekeeper Cloak (Altered)",
+    "weight": 5.1
+  },
+  {
+    "name": "Guardian Garb",
+    "weight": 7.7
+  },
+  {
+    "name": "Guardian Garb (Full Bloom)",
+    "weight": 8.8
+  },
+  {
+    "name": "Haligtree Crest Surcoat",
+    "weight": 10.6
+  },
+  {
+    "name": "Haligtree Knight Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Haligtree Knight Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "High Page Clothes",
+    "weight": 5.3
+  },
+  {
+    "name": "High Page Clothes (Altered)",
+    "weight": 4.3
+  },
+  {
+    "name": "High Priest Hat",
+    "weight": 1.7
+  },
+  {
+    "name": "High Priest Robe",
+    "weight": 4.2
+  },
+  {
+    "name": "High Priest Undergarments",
+    "weight": 2.5
+  },
+  {
+    "name": "Highland Attire",
+    "weight": 6.3
+  },
+  {
+    "name": "Highwayman Cloth Armor",
+    "weight": 7.7
+  },
+  {
+    "name": "Horned Warrior Armor",
+    "weight": 10.4
+  },
+  {
+    "name": "Hoslow's Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Hoslow's Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "Igon's Armor",
+    "weight": 8
+  },
+  {
+    "name": "Igon's Loincloth",
+    "weight": 3.9
+  },
+  {
+    "name": "Iron Rivet Armor",
+    "weight": 7.1
+  },
+  {
+    "name": "Ivory-Draped Tabard",
+    "weight": 8.3
+  },
+  {
+    "name": "Juvenile Scholar Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Kaiden Armor",
+    "weight": 8.8
+  },
+  {
+    "name": "Knight Armor",
+    "weight": 10.6
+  },
+  {
+    "name": "Land of Reeds Armor",
+    "weight": 8.3
+  },
+  {
+    "name": "Land of Reeds Armor (Altered)",
+    "weight": 7.8
+  },
+  {
+    "name": "Lazuli Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Leather Armor",
+    "weight": 7.1
+  },
+  {
+    "name": "Leather Headband",
+    "weight": 1
+  },
+  {
+    "name": "Leather-Draped Tabard",
+    "weight": 8.3
+  },
+  {
+    "name": "Leyndell Knight Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Leyndell Knight Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "Lionel's Armor",
+    "weight": 21.2
+  },
+  {
+    "name": "Lionel's Armor (Altered)",
+    "weight": 20.2
+  },
+  {
+    "name": "Lord of Blood's Robe",
+    "weight": 8.1
+  },
+  {
+    "name": "Lord of Blood's Robe (Altered)",
+    "weight": 7.3
+  },
+  {
+    "name": "Lusat's Robe",
+    "weight": 7.1
+  },
+  {
+    "name": "Malenia's Armor",
+    "weight": 7.7
+  },
+  {
+    "name": "Malenia's Armor (Altered)",
+    "weight": 6.8
+  },
+  {
+    "name": "Malformed Dragon Armor",
+    "weight": 16
+  },
+  {
+    "name": "Maliketh's Armor",
+    "weight": 12.8
+  },
+  {
+    "name": "Maliketh's Armor (Altered)",
+    "weight": 11.8
+  },
+  {
+    "name": "Marais Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Marionette Soldier Armor",
+    "weight": 8.8
+  },
+  {
+    "name": "Mausoleum Knight Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Mausoleum Knight Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "Mausoleum Surcoat",
+    "weight": 10.6
+  },
+  {
+    "name": "Messmer Soldier Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Messmer's Armor",
+    "weight": 7.8
+  },
+  {
+    "name": "Millicent's Robe",
+    "weight": 3.2
+  },
+  {
+    "name": "Millicent's Tunic",
+    "weight": 8.3
+  },
+  {
+    "name": "Mushroom Body",
+    "weight": 5.1
+  },
+  {
+    "name": "Night Maiden Armor",
+    "weight": 8.3
+  },
+  {
+    "name": "Night's Cavalry Armor",
+    "weight": 12.8
+  },
+  {
+    "name": "Night's Cavalry Armor (Altered)",
+    "weight": 11.8
+  },
+  {
+    "name": "Noble's Traveling Garb",
+    "weight": 6.3
+  },
+  {
+    "name": "Nomadic Merchant's Finery",
+    "weight": 7.2
+  },
+  {
+    "name": "Nomadic Merchant's Finery (Altered)",
+    "weight": 6.1
+  },
+  {
+    "name": "Nox Monk Armor",
+    "weight": 8.1
+  },
+  {
+    "name": "Nox Monk Armor (Altered)",
+    "weight": 7.4
+  },
+  {
+    "name": "Nox Swordstress Armor",
+    "weight": 8.3
+  },
+  {
+    "name": "Nox Swordstress Armor (Altered)",
+    "weight": 7.5
+  },
+  {
+    "name": "Oathseeker Knight Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Official's Attire",
+    "weight": 4.1
+  },
+  {
+    "name": "Old Aristocrat Gown",
+    "weight": 5.1
+  },
+  {
+    "name": "Omen Armor",
+    "weight": 23.1
+  },
+  {
+    "name": "Omenkiller Robe",
+    "weight": 7.1
+  },
+  {
+    "name": "Page Garb",
+    "weight": 5.1
+  },
+  {
+    "name": "Page Garb (Altered)",
+    "weight": 4.5
+  },
+  {
+    "name": "Perfumer Robe",
+    "weight": 5.1
+  },
+  {
+    "name": "Perfumer Robe (Altered)",
+    "weight": 4.1
+  },
+  {
+    "name": "Perfumer's Traveling Garb",
+    "weight": 5.1
+  },
+  {
+    "name": "Perfumer's Traveling Garb (Altered)",
+    "weight": 4.1
+  },
+  {
+    "name": "Preceptor's Long Gown",
+    "weight": 6.3
+  },
+  {
+    "name": "Preceptor's Long Gown (Altered)",
+    "weight": 3.2
+  },
+  {
+    "name": "Prisoner Clothing",
+    "weight": 3.2
+  },
+  {
+    "name": "Prophet Robe",
+    "weight": 6.3
+  },
+  {
+    "name": "Prophet Robe (Altered)",
+    "weight": 5.1
+  },
+  {
+    "name": "Queen's Robe",
+    "weight": 5.1
+  },
+  {
+    "name": "Radahn's Lion Armor",
+    "weight": 17.5
+  },
+  {
+    "name": "Radahn's Lion Armor (Altered)",
+    "weight": 16.4
+  },
+  {
+    "name": "Ragged Armor",
+    "weight": 9.2
+  },
+  {
+    "name": "Ragged Armor (Altered)",
+    "weight": 8.5
+  },
+  {
+    "name": "Raging Wolf Armor",
+    "weight": 10.1
+  },
+  {
+    "name": "Raging Wolf Armor (Altered)",
+    "weight": 9
+  },
+  {
+    "name": "Rakshasa Armor",
+    "weight": 12.8
+  },
+  {
+    "name": "Raptor's Black Feathers",
+    "weight": 7.7
+  },
+  {
+    "name": "Raya Lucarian Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Redmane Knight Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Redmane Knight Armor (Altered)",
+    "weight": 10.8
+  },
+  {
+    "name": "Redmane Surcoat",
+    "weight": 10.6
+  },
+  {
+    "name": "Rellana's Armor",
+    "weight": 11.8
+  },
+  {
+    "name": "Ronin's Armor",
+    "weight": 8.5
+  },
+  {
+    "name": "Ronin's Armor (Altered)",
+    "weight": 7.6
+  },
+  {
+    "name": "Rotten Gravekeeper Cloak",
+    "weight": 6.3
+  },
+  {
+    "name": "Rotten Gravekeeper Cloak (Altered)",
+    "weight": 5.1
+  },
+  {
+    "name": "Royal Knight Armor",
+    "weight": 15.5
+  },
+  {
+    "name": "Royal Knight Armor (Altered)",
+    "weight": 15
+  },
+  {
+    "name": "Royal Remains Armor",
+    "weight": 10.6
+  },
+  {
+    "name": "Ruler's Robe",
+    "weight": 5.1
+  },
+  {
+    "name": "Sage Robe",
+    "weight": 5.1
+  },
+  {
+    "name": "Sanguine Noble Robe",
+    "weight": 5.1
+  },
+  {
+    "name": "Scale Armor",
+    "weight": 8.8
+  },
+  {
+    "name": "Scaled Armor",
+    "weight": 16
+  },
+  {
+    "name": "Scaled Armor (Altered)",
+    "weight": 15
+  },
+  {
+    "name": "Scarlet Tabard",
+    "weight": 8.3
+  },
+  {
+    "name": "Shadow Militiaman Armor",
+    "weight": 7.1
+  },
+  {
+    "name": "Shaman Furs",
+    "weight": 5.1
+  },
+  {
+    "name": "Snow Witch Robe",
+    "weight": 5.5
+  },
+  {
+    "name": "Snow Witch Robe (Altered)",
+    "weight": 4.6
+  },
+  {
+    "name": "Spellblade's Traveling Attire",
+    "weight": 3.3
+  },
+  {
+    "name": "Spellblade's Traveling Attire (Altered)",
+    "weight": 2.5
+  },
+  {
+    "name": "Thiollier's Garb",
+    "weight": 7.1
+  },
+  {
+    "name": "Traveler's Clothes",
+    "weight": 4.1
+  },
+  {
+    "name": "Traveling Maiden Robe",
+    "weight": 4.9
+  },
+  {
+    "name": "Traveling Maiden Robe (Altered)",
+    "weight": 4.3
+  },
+  {
+    "name": "Tree Sentinel Armor",
+    "weight": 18.9
+  },
+  {
+    "name": "Tree Sentinel Armor (Altered)",
+    "weight": 18.1
+  },
+  {
+    "name": "Tree Surcoat",
+    "weight": 9.2
+  },
+  {
+    "name": "Tree-and-Beast Surcoat",
+    "weight": 10.6
+  },
+  {
+    "name": "Twinned Armor",
+    "weight": 13.7
+  },
+  {
+    "name": "Twinned Armor (Altered)",
+    "weight": 12.8
+  },
+  {
+    "name": "Upper-Class Robe",
+    "weight": 4.1
+  },
+  {
+    "name": "Vagabond Knight Armor",
+    "weight": 10.6
+  },
+  {
+    "name": "Vagabond Knight Armor (Altered)",
+    "weight": 9.6
+  },
+  {
+    "name": "Verdigris Armor",
+    "weight": 25.9
+  },
+  {
+    "name": "Veteran's Armor",
+    "weight": 18.9
+  },
+  {
+    "name": "Veteran's Armor (Altered)",
+    "weight": 17.2
+  },
+  {
+    "name": "Vulgar Militia Armor",
+    "weight": 7.7
+  },
+  {
+    "name": "War Surgeon Gown",
+    "weight": 6.9
+  },
+  {
+    "name": "War Surgeon Gown (Altered)",
+    "weight": 6.1
+  },
+  {
+    "name": "White Reed Armor",
+    "weight": 8.3
+  },
+  {
+    "name": "Young Lion's Armor",
+    "weight": 15
+  },
+  {
+    "name": "Zamor Armor",
+    "weight": 8.8
+  }
+]

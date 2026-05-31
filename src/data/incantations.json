@@ -1,0 +1,647 @@
+[
+  {
+    "name": "Agheel's Flame",
+    "fpCost": 36,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Ancient Dragons' Lightning Spear",
+    "fpCost": 25,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Ancient Dragons' Lightning Strike",
+    "fpCost": 36,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Aspects of the Crucible: Bloom",
+    "fpCost": 23,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Aspects of the Crucible: Breath",
+    "fpCost": 28,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Aspects of the Crucible: Horns",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Aspects of the Crucible: Tail",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Aspects of the Crucible: Thorns",
+    "fpCost": 14,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Assassin's Approach",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Barrier of Gold",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Bayle's Flame Lightning",
+    "fpCost": 43,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Bayle's Tyranny",
+    "fpCost": 46,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Beast Claw",
+    "fpCost": 10,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Bestial Constitution",
+    "fpCost": 10,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Bestial Sling",
+    "fpCost": 7,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Bestial Vitality",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Black Blade",
+    "fpCost": 26,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Black Flame",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Black Flame Blade",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Black Flame Ritual",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Black Flame's Protection",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Blessing of the Erdtree",
+    "fpCost": 60,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Blessing's Boon",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Bloodboon",
+    "fpCost": 13,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Bloodflame Blade",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Bloodflame Talons",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Borealis's Mist",
+    "fpCost": 48,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Burn, O Flame!",
+    "fpCost": 26,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Catch Flame",
+    "fpCost": 10,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Cure Poison",
+    "fpCost": 7,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Darkness",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Death Lightning",
+    "fpCost": 28,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Discus of Light",
+    "fpCost": 3,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Divine Beast Tornado",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Divine Bird Feathers",
+    "fpCost": 3,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Divine Fortification",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Dragonbolt Blessing",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Dragonbolt of Florissax",
+    "fpCost": 35,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Dragonclaw",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Dragonfire",
+    "fpCost": 28,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Dragonice",
+    "fpCost": 36,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Dragonmaw",
+    "fpCost": 34,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Ekzykes's Decay",
+    "fpCost": 48,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Elden Stars",
+    "fpCost": 41,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Electrify Armament",
+    "fpCost": 27,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Electrocharge",
+    "fpCost": 26,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Erdtree Heal",
+    "fpCost": 65,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Fire Serpent",
+    "fpCost": 11,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Fire's Deadly Sin",
+    "fpCost": 26,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Flame Fortification",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Flame of the Fell God",
+    "fpCost": 34,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Flame Sling",
+    "fpCost": 11,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Flame, Cleanse Me",
+    "fpCost": 14,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Flame, Fall Upon Them",
+    "fpCost": 16,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Flame, Grant Me Strength",
+    "fpCost": 28,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Flame, Protect Me",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Fortissax's Lightning Spear",
+    "fpCost": 35,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Frenzied Burst",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Frozen Lightning Spear",
+    "fpCost": 29,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Furious Blade of Ansbach",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Ghostflame Breath",
+    "fpCost": 36,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Giant Golden Arc",
+    "fpCost": 24,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Giantsflame Take Thee",
+    "fpCost": 30,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Glintstone Breath",
+    "fpCost": 28,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Golden Arcs",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Golden Lightning Fortification",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Golden Vow",
+    "fpCost": 47,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Great Heal",
+    "fpCost": 45,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Greyoll's Roar",
+    "fpCost": 50,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Gurranq's Beast Claw",
+    "fpCost": 21,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Heal",
+    "fpCost": 32,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Heal from Afar",
+    "fpCost": 45,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Honed Bolt",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Howl of Shabriri",
+    "fpCost": 21,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Immutable Shield",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Inescapable Frenzy",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Knight's Lightning Spear",
+    "fpCost": 29,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Land of Shadow",
+    "fpCost": 40,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Lansseax's Glaive",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Law of Causality",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Law of Regression",
+    "fpCost": 55,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Light of Miquella",
+    "fpCost": 48,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Lightning Fortification",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Lightning Spear",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Lightning Strike",
+    "fpCost": 19,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Litany of Proper Death",
+    "fpCost": 17,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Lord's Aid",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Lord's Divine Fortification",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Lord's Heal",
+    "fpCost": 55,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Magic Fortification",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Magma Breath",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Messmer's Orb",
+    "fpCost": 31,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Midra's Flame of Frenzy",
+    "fpCost": 22,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Minor Erdtree",
+    "fpCost": 30,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Multilayered Ring of Light",
+    "fpCost": 23,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Noble Presence",
+    "fpCost": 20,
+    "slotsUsed": 1
+  },
+  {
+    "name": "O, Flame!",
+    "fpCost": 16,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Order Healing",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Order's Blade",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Pest Threads",
+    "fpCost": 19,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Pest-Thread Spears",
+    "fpCost": 28,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Placidusax's Ruin",
+    "fpCost": 62,
+    "slotsUsed": 3
+  },
+  {
+    "name": "Poison Armament",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Poison Mist",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Protection of the Erdtree",
+    "fpCost": 30,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Radagon's Rings of Light",
+    "fpCost": 21,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rain of Fire",
+    "fpCost": 27,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rejection",
+    "fpCost": 9,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Roar of Rugalea",
+    "fpCost": 17,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rotten Breath",
+    "fpCost": 36,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Rotten Butterflies",
+    "fpCost": 48,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Scarlet Aeonia",
+    "fpCost": 48,
+    "slotsUsed": 3
+  },
+  {
+    "name": "Scouring Black Flame",
+    "fpCost": 21,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Shadow Bait",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Smarag's Glintstone Breath",
+    "fpCost": 36,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Spira",
+    "fpCost": 10,
+    "slotsUsed": 2
+  },
+  {
+    "name": "Stone of Gurranq",
+    "fpCost": 15,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Surge, O Flame!",
+    "fpCost": 1,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Swarm of Flies",
+    "fpCost": 14,
+    "slotsUsed": 1
+  },
+  {
+    "name": "The Flame of Frenzy",
+    "fpCost": 16,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Theodorix's Magma",
+    "fpCost": 45,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Triple Rings of Light",
+    "fpCost": 23,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Unendurable Frenzy",
+    "fpCost": 22,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Urgent Heal",
+    "fpCost": 16,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Vyke's Dragonbolt",
+    "fpCost": 35,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Watchful Spirit",
+    "fpCost": 12,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Whirl, O Flame!",
+    "fpCost": 19,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Wrath from Afar",
+    "fpCost": 18,
+    "slotsUsed": 1
+  },
+  {
+    "name": "Wrath of Gold",
+    "fpCost": 40,
+    "slotsUsed": 1
+  }
+]

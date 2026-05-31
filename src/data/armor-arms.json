@@ -1,0 +1,486 @@
+[
+  {
+    "name": "Alberich's Bracers",
+    "weight": 1.4
+  },
+  {
+    "name": "All-Knowing Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Ansbach's Manchettes",
+    "weight": 1.7
+  },
+  {
+    "name": "Astrologer Gloves",
+    "weight": 1.4
+  },
+  {
+    "name": "Azur's Manchettes",
+    "weight": 1.1
+  },
+  {
+    "name": "Bandit Manchettes",
+    "weight": 1.7
+  },
+  {
+    "name": "Banished Knight Gauntlets",
+    "weight": 5.8
+  },
+  {
+    "name": "Battlemage Manchettes",
+    "weight": 1.1
+  },
+  {
+    "name": "Beast Champion Gauntlets",
+    "weight": 5.8
+  },
+  {
+    "name": "Black Knife Gauntlets",
+    "weight": 3.1
+  },
+  {
+    "name": "Black Knight Gauntlets",
+    "weight": 4.6
+  },
+  {
+    "name": "Blackflame Monk Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Blaidd's Gauntlets",
+    "weight": 4.6
+  },
+  {
+    "name": "Bloodhound Knight Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Bloodsoaked Manchettes",
+    "weight": 1.4
+  },
+  {
+    "name": "Blue Silver Bracelets",
+    "weight": 2.1
+  },
+  {
+    "name": "Braided Arm Wraps",
+    "weight": 0.8
+  },
+  {
+    "name": "Brave's Bracer",
+    "weight": 0.8
+  },
+  {
+    "name": "Briar Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Bull-Goat Gauntlets",
+    "weight": 8.8
+  },
+  {
+    "name": "Carian Knight Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Champion Bracers",
+    "weight": 2.1
+  },
+  {
+    "name": "Cleanrot Gauntlets",
+    "weight": 5
+  },
+  {
+    "name": "Common Soldier Gauntlets",
+    "weight": 2.9
+  },
+  {
+    "name": "Confessor Gloves",
+    "weight": 2.8
+  },
+  {
+    "name": "Crucible Gauntlets",
+    "weight": 5.2
+  },
+  {
+    "name": "Cuckoo Knight Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Death Knight Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Depraved Perfumer Gloves",
+    "weight": 2
+  },
+  {
+    "name": "Divine Bird Warrior Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Drake Knight Gauntlets",
+    "weight": 3.1
+  },
+  {
+    "name": "Dryleaf Arm Wraps",
+    "weight": 1.7
+  },
+  {
+    "name": "Eccentric's Manchettes",
+    "weight": 2.9
+  },
+  {
+    "name": "Elden Lord Bracers",
+    "weight": 3.1
+  },
+  {
+    "name": "Errant Sorcerer Manchettes",
+    "weight": 1.1
+  },
+  {
+    "name": "Exile Gauntlets",
+    "weight": 2.9
+  },
+  {
+    "name": "Fingerprint Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Fire Knight Gauntlets",
+    "weight": 3.1
+  },
+  {
+    "name": "Fire Monk Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Fire Prelate Gauntlets",
+    "weight": 8.2
+  },
+  {
+    "name": "Foot Soldier Gauntlets",
+    "weight": 2.6
+  },
+  {
+    "name": "Freyja's Gauntlets",
+    "weight": 3.1
+  },
+  {
+    "name": "Gaius's Gauntlets",
+    "weight": 6.7
+  },
+  {
+    "name": "Gauntlets",
+    "weight": 2.9
+  },
+  {
+    "name": "Gauntlets of Night",
+    "weight": 2.4
+  },
+  {
+    "name": "Gauntlets of Solitude",
+    "weight": 8
+  },
+  {
+    "name": "Gelmir Knight Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Godrick Knight Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Godrick Soldier Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Godskin Apostle Bracelets",
+    "weight": 2.1
+  },
+  {
+    "name": "Godskin Noble Bracelets",
+    "weight": 1.7
+  },
+  {
+    "name": "Gold Bracelets",
+    "weight": 0.8
+  },
+  {
+    "name": "Golden Prosthetic",
+    "weight": 2.8
+  },
+  {
+    "name": "Guardian Bracers",
+    "weight": 2.9
+  },
+  {
+    "name": "Haligtree Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Haligtree Knight Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "High Priest Gloves",
+    "weight": 1.4
+  },
+  {
+    "name": "Highwayman Gauntlets",
+    "weight": 2.6
+  },
+  {
+    "name": "Horned Warrior Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Hoslow's Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Igon's Gauntlets",
+    "weight": 2.8
+  },
+  {
+    "name": "Iron Gauntlets",
+    "weight": 2.9
+  },
+  {
+    "name": "Iron Rivet Gauntlets",
+    "weight": 2.9
+  },
+  {
+    "name": "Kaiden Gauntlets",
+    "weight": 2.9
+  },
+  {
+    "name": "Knight Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Land of Reeds Gauntlets",
+    "weight": 2.8
+  },
+  {
+    "name": "Leather Arm Wraps",
+    "weight": 2.4
+  },
+  {
+    "name": "Leather Gloves",
+    "weight": 2.4
+  },
+  {
+    "name": "Leather Leg Wraps",
+    "weight": 4.4
+  },
+  {
+    "name": "Leyndell Knight Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Leyndell Soldier Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Lionel's Gauntlets",
+    "weight": 7.1
+  },
+  {
+    "name": "Lusat's Manchettes",
+    "weight": 1.1
+  },
+  {
+    "name": "Malenia's Gauntlet",
+    "weight": 3.1
+  },
+  {
+    "name": "Malformed Dragon Gauntlets",
+    "weight": 5.3
+  },
+  {
+    "name": "Maliketh's Gauntlets",
+    "weight": 4.3
+  },
+  {
+    "name": "Mausoleum Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Mausoleum Knight Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Messmer Soldier Gauntlets",
+    "weight": 2.9
+  },
+  {
+    "name": "Messmer's Gauntlets",
+    "weight": 2.8
+  },
+  {
+    "name": "Millicent's Gloves",
+    "weight": 1.1
+  },
+  {
+    "name": "Mushroom Arms",
+    "weight": 1.7
+  },
+  {
+    "name": "Night's Cavalry Gauntlets",
+    "weight": 4.3
+  },
+  {
+    "name": "Noble's Gloves",
+    "weight": 2.1
+  },
+  {
+    "name": "Nox Bracelets",
+    "weight": 2.6
+  },
+  {
+    "name": "Oathseeker Knight Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Omen Gauntlets",
+    "weight": 7.7
+  },
+  {
+    "name": "Omenkiller Long Gloves",
+    "weight": 2.4
+  },
+  {
+    "name": "Perfumer Gloves",
+    "weight": 1.4
+  },
+  {
+    "name": "Preceptor's Gloves",
+    "weight": 2.1
+  },
+  {
+    "name": "Queen's Bracelets",
+    "weight": 1.7
+  },
+  {
+    "name": "Radahn Soldier Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Radahn's Gauntlets",
+    "weight": 5.8
+  },
+  {
+    "name": "Ragged Gloves",
+    "weight": 2.9
+  },
+  {
+    "name": "Raging Wolf Gauntlets",
+    "weight": 3.4
+  },
+  {
+    "name": "Rakshasa Gauntlets",
+    "weight": 4.3
+  },
+  {
+    "name": "Raya Lucarian Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Redmane Knight Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Rellana's Gloves",
+    "weight": 3.9
+  },
+  {
+    "name": "Ronin's Gauntlets",
+    "weight": 3.1
+  },
+  {
+    "name": "Royal Knight Gauntlets",
+    "weight": 5.2
+  },
+  {
+    "name": "Royal Remains Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Scaled Gauntlets",
+    "weight": 5.3
+  },
+  {
+    "name": "Shadow Militiaman Gauntlets",
+    "weight": 2.4
+  },
+  {
+    "name": "Sorcerer Manchettes",
+    "weight": 1.1
+  },
+  {
+    "name": "Spellblade's Gloves",
+    "weight": 1.2
+  },
+  {
+    "name": "Thiollier's Gloves",
+    "weight": 2.4
+  },
+  {
+    "name": "Traveler's Gloves",
+    "weight": 1.4
+  },
+  {
+    "name": "Traveler's Manchettes",
+    "weight": 1.7
+  },
+  {
+    "name": "Traveling Maiden Gloves",
+    "weight": 1.6
+  },
+  {
+    "name": "Tree Sentinel Gauntlets",
+    "weight": 6.3
+  },
+  {
+    "name": "Twinned Gauntlets",
+    "weight": 3.9
+  },
+  {
+    "name": "Vagabond Knight Gauntlets",
+    "weight": 3.5
+  },
+  {
+    "name": "Verdigris Gauntlets",
+    "weight": 8.6
+  },
+  {
+    "name": "Veteran's Gauntlets",
+    "weight": 6.3
+  },
+  {
+    "name": "Vulgar Militia Gauntlets",
+    "weight": 2.1
+  },
+  {
+    "name": "War Surgeon Gloves",
+    "weight": 2.3
+  },
+  {
+    "name": "Warrior Gauntlets",
+    "weight": 2.6
+  },
+  {
+    "name": "White Reed Gauntlets",
+    "weight": 2.8
+  },
+  {
+    "name": "Young Lion's Gauntlets",
+    "weight": 5
+  },
+  {
+    "name": "Zamor Bracelets",
+    "weight": 2.8
+  }
+]

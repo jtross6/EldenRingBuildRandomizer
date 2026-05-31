@@ -1,0 +1,786 @@
+[
+  {
+    "name": "Alberich's Pointed Hat",
+    "weight": 1.7
+  },
+  {
+    "name": "Alberich's Pointed Hat (Altered)",
+    "weight": 1
+  },
+  {
+    "name": "Albinauric Mask",
+    "weight": 3.8
+  },
+  {
+    "name": "All-Knowing Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Aristocrat Hat",
+    "weight": 3
+  },
+  {
+    "name": "Aristocrat Headband",
+    "weight": 1.2
+  },
+  {
+    "name": "Ash-of-War Scarab",
+    "weight": 5.1
+  },
+  {
+    "name": "Astrologer Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Azur's Glintstone Crown",
+    "weight": 3.6
+  },
+  {
+    "name": "Bandit Mask",
+    "weight": 3
+  },
+  {
+    "name": "Banished Knight Helm",
+    "weight": 7.5
+  },
+  {
+    "name": "Banished Knight Helm (Altered)",
+    "weight": 7.1
+  },
+  {
+    "name": "Beast Champion Helm",
+    "weight": 7.5
+  },
+  {
+    "name": "Black Dumpling",
+    "weight": 2.7
+  },
+  {
+    "name": "Black Hood",
+    "weight": 3
+  },
+  {
+    "name": "Black Knife Hood",
+    "weight": 3.8
+  },
+  {
+    "name": "Black Knight Helm",
+    "weight": 5.9
+  },
+  {
+    "name": "Black Wolf Mask",
+    "weight": 5.9
+  },
+  {
+    "name": "Blackflame Monk Hood",
+    "weight": 4
+  },
+  {
+    "name": "Blackguard's Iron Mask",
+    "weight": 6.2
+  },
+  {
+    "name": "Bloodhound Knight Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Bloodsoaked Mask",
+    "weight": 2.2
+  },
+  {
+    "name": "Blue Cloth Cowl",
+    "weight": 2.7
+  },
+  {
+    "name": "Blue Festive Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Blue Silver Mail Hood",
+    "weight": 3.8
+  },
+  {
+    "name": "Brave's Cord Circlet",
+    "weight": 1
+  },
+  {
+    "name": "Brave's Leather Helm",
+    "weight": 3.8
+  },
+  {
+    "name": "Briar Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Bull-Goat Helm",
+    "weight": 11.3
+  },
+  {
+    "name": "Carian Knight Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Caterpillar Mask",
+    "weight": 1.4
+  },
+  {
+    "name": "Cerulean Tear Scarab",
+    "weight": 5.1
+  },
+  {
+    "name": "Chain Coif",
+    "weight": 3.8
+  },
+  {
+    "name": "Champion Headband",
+    "weight": 2.7
+  },
+  {
+    "name": "Cleanrot Helm",
+    "weight": 6.4
+  },
+  {
+    "name": "Cleanrot Helm (Altered)",
+    "weight": 5.5
+  },
+  {
+    "name": "Common Soldier Helm",
+    "weight": 3.8
+  },
+  {
+    "name": "Commoner's Headband",
+    "weight": 1.4
+  },
+  {
+    "name": "Commoner's Headband (Altered)",
+    "weight": 0.7
+  },
+  {
+    "name": "Confessor Hood",
+    "weight": 3.3
+  },
+  {
+    "name": "Confessor Hood (Altered)",
+    "weight": 2.7
+  },
+  {
+    "name": "Consort's Mask",
+    "weight": 3.6
+  },
+  {
+    "name": "Crimson Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Crimson Tear Scarab",
+    "weight": 5.1
+  },
+  {
+    "name": "Crucible Axe Helm",
+    "weight": 6.6
+  },
+  {
+    "name": "Crucible Tree Helm",
+    "weight": 6.6
+  },
+  {
+    "name": "Cuckoo Knight Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Curseblade Mask",
+    "weight": 2.2
+  },
+  {
+    "name": "Dancer's Hood",
+    "weight": 1
+  },
+  {
+    "name": "Death Knight Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Depraved Perfumer Headscarf",
+    "weight": 2.1
+  },
+  {
+    "name": "Diallos's Mask",
+    "weight": 4.6
+  },
+  {
+    "name": "Divine Beast Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Divine Bird Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Drake Knight Helm",
+    "weight": 4
+  },
+  {
+    "name": "Drake Knight Helm (Altered)",
+    "weight": 3.6
+  },
+  {
+    "name": "Duelist Helm",
+    "weight": 6.2
+  },
+  {
+    "name": "Eccentric's Hood",
+    "weight": 4
+  },
+  {
+    "name": "Eccentric's Hood (Altered)",
+    "weight": 4
+  },
+  {
+    "name": "Elden Lord Crown",
+    "weight": 3.6
+  },
+  {
+    "name": "Envoy Crown",
+    "weight": 3.8
+  },
+  {
+    "name": "Exile Hood",
+    "weight": 4
+  },
+  {
+    "name": "Fang Helm",
+    "weight": 2.7
+  },
+  {
+    "name": "Festive Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Festive Hood (Altered)",
+    "weight": 1
+  },
+  {
+    "name": "Fia's Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Finger Maiden Fillet",
+    "weight": 2.2
+  },
+  {
+    "name": "Fingerprint Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Fire Knight Helm",
+    "weight": 4
+  },
+  {
+    "name": "Fire Monk Hood",
+    "weight": 4
+  },
+  {
+    "name": "Fire Prelate Helm",
+    "weight": 10.6
+  },
+  {
+    "name": "Foot Soldier Cap",
+    "weight": 3.6
+  },
+  {
+    "name": "Foot Soldier Helm",
+    "weight": 3.6
+  },
+  {
+    "name": "Foot Soldier Helmet",
+    "weight": 3.6
+  },
+  {
+    "name": "Freyja's Helm",
+    "weight": 5.8
+  },
+  {
+    "name": "Gaius's Helm",
+    "weight": 8.6
+  },
+  {
+    "name": "Gelmir Knight Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Gilded Foot Soldier Cap",
+    "weight": 3.6
+  },
+  {
+    "name": "Glintstone Scarab",
+    "weight": 5.1
+  },
+  {
+    "name": "Godrick Knight Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Godrick Soldier Helm",
+    "weight": 4
+  },
+  {
+    "name": "Godskin Apostle Hood",
+    "weight": 2.2
+  },
+  {
+    "name": "Godskin Noble Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Grass Hair Ornament",
+    "weight": 1.4
+  },
+  {
+    "name": "Gravebird Helm",
+    "weight": 3.6
+  },
+  {
+    "name": "Great Horned Headband",
+    "weight": 3.3
+  },
+  {
+    "name": "Greathelm",
+    "weight": 5.9
+  },
+  {
+    "name": "Greathood",
+    "weight": 5.1
+  },
+  {
+    "name": "Guardian Mask",
+    "weight": 3.8
+  },
+  {
+    "name": "Guilty Hood",
+    "weight": 1.4
+  },
+  {
+    "name": "Haima Glintstone Crown",
+    "weight": 2.7
+  },
+  {
+    "name": "Haligtree Helm",
+    "weight": 4
+  },
+  {
+    "name": "Haligtree Knight Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Helm of Night",
+    "weight": 3
+  },
+  {
+    "name": "Helm of Solitude",
+    "weight": 10.3
+  },
+  {
+    "name": "Hierodas Glintstone Crown",
+    "weight": 3
+  },
+  {
+    "name": "High Page Hood",
+    "weight": 1.4
+  },
+  {
+    "name": "Highwayman Hood",
+    "weight": 3.3
+  },
+  {
+    "name": "Horned Warrior Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Hoslow's Helm",
+    "weight": 5.5
+  },
+  {
+    "name": "Igon's Helm",
+    "weight": 3.3
+  },
+  {
+    "name": "Iji's Mirrorhelm",
+    "weight": 7.5
+  },
+  {
+    "name": "Imp Head (Cat)",
+    "weight": 8.1
+  },
+  {
+    "name": "Imp Head (Corpse)",
+    "weight": 8.1
+  },
+  {
+    "name": "Imp Head (Elder)",
+    "weight": 8.1
+  },
+  {
+    "name": "Imp Head (Fanged)",
+    "weight": 8.1
+  },
+  {
+    "name": "Imp Head (Long-Tongued)",
+    "weight": 8.1
+  },
+  {
+    "name": "Imp Head (Wolf)",
+    "weight": 8.1
+  },
+  {
+    "name": "Incantation Scarab",
+    "weight": 5.1
+  },
+  {
+    "name": "Iron Helmet",
+    "weight": 3.8
+  },
+  {
+    "name": "Iron Kasa",
+    "weight": 3.8
+  },
+  {
+    "name": "Jar",
+    "weight": 6.8
+  },
+  {
+    "name": "Juvenile Scholar Cap",
+    "weight": 1.4
+  },
+  {
+    "name": "Kaiden Helm",
+    "weight": 4
+  },
+  {
+    "name": "Karolos Glintstone Crown",
+    "weight": 5.1
+  },
+  {
+    "name": "Knight Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Land of Reeds Helm",
+    "weight": 3.6
+  },
+  {
+    "name": "Lazuli Glintstone Crown",
+    "weight": 5.1
+  },
+  {
+    "name": "Leyndell Knight Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Leyndell Soldier Helm",
+    "weight": 4
+  },
+  {
+    "name": "Lionel's Helm",
+    "weight": 9.1
+  },
+  {
+    "name": "Lusat's Glintstone Crown",
+    "weight": 3.6
+  },
+  {
+    "name": "Malenia's Winged Helm",
+    "weight": 4
+  },
+  {
+    "name": "Malformed Dragon Helm",
+    "weight": 6.8
+  },
+  {
+    "name": "Maliketh's Helm",
+    "weight": 5.5
+  },
+  {
+    "name": "Marais Mask",
+    "weight": 2.2
+  },
+  {
+    "name": "Marionette Soldier Birdhelm",
+    "weight": 3.8
+  },
+  {
+    "name": "Marionette Soldier Helm",
+    "weight": 3.8
+  },
+  {
+    "name": "Mask of Confidence",
+    "weight": 3.3
+  },
+  {
+    "name": "Messmer Soldier Helm",
+    "weight": 4
+  },
+  {
+    "name": "Messmer's Helm",
+    "weight": 3.6
+  },
+  {
+    "name": "Mushroom Crown",
+    "weight": 9.1
+  },
+  {
+    "name": "Mushroom Head",
+    "weight": 2.2
+  },
+  {
+    "name": "Navy Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Night Maiden Twin Crown",
+    "weight": 3.3
+  },
+  {
+    "name": "Night's Cavalry Helm",
+    "weight": 5.5
+  },
+  {
+    "name": "Night's Cavalry Helm (Altered)",
+    "weight": 5.1
+  },
+  {
+    "name": "Nomadic Merchant's Chapeau",
+    "weight": 3
+  },
+  {
+    "name": "Nox Mirrorhelm",
+    "weight": 7.5
+  },
+  {
+    "name": "Nox Monk Hood",
+    "weight": 3
+  },
+  {
+    "name": "Nox Monk Hood (Altered)",
+    "weight": 2.7
+  },
+  {
+    "name": "Nox Swordstress Crown",
+    "weight": 3.3
+  },
+  {
+    "name": "Nox Swordstress Crown (Altered)",
+    "weight": 2.7
+  },
+  {
+    "name": "Oathseeker Knight Helm",
+    "weight": 4.4
+  },
+  {
+    "name": "Octopus Head",
+    "weight": 3.6
+  },
+  {
+    "name": "Okina Mask",
+    "weight": 3.6
+  },
+  {
+    "name": "Old Aristocrat Cowl",
+    "weight": 2.2
+  },
+  {
+    "name": "Olivinus Glintstone Crown",
+    "weight": 5.1
+  },
+  {
+    "name": "Omen Helm",
+    "weight": 9.9
+  },
+  {
+    "name": "Omensmirk Mask",
+    "weight": 3
+  },
+  {
+    "name": "Page Hood",
+    "weight": 1.4
+  },
+  {
+    "name": "Perfumer Hood",
+    "weight": 1.7
+  },
+  {
+    "name": "Preceptor's Big Hat",
+    "weight": 3.6
+  },
+  {
+    "name": "Prisoner Iron Mask",
+    "weight": 8.6
+  },
+  {
+    "name": "Prophet Blindfold",
+    "weight": 1
+  },
+  {
+    "name": "Pumpkin Helm",
+    "weight": 12.3
+  },
+  {
+    "name": "Queen's Crescent Crown",
+    "weight": 2.2
+  },
+  {
+    "name": "Radahn Soldier Helm",
+    "weight": 4
+  },
+  {
+    "name": "Radahn's Redmane Helm",
+    "weight": 7.5
+  },
+  {
+    "name": "Radiant Gold Mask",
+    "weight": 2.2
+  },
+  {
+    "name": "Ragged Hat",
+    "weight": 3.3
+  },
+  {
+    "name": "Ragged Hat (Altered)",
+    "weight": 3
+  },
+  {
+    "name": "Raging Wolf Helm",
+    "weight": 4.4
+  },
+  {
+    "name": "Rakshasa Helm",
+    "weight": 5.5
+  },
+  {
+    "name": "Raya Lucarian Helm",
+    "weight": 4
+  },
+  {
+    "name": "Redmane Knight Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Rellana's Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Rotten Duelist Helm",
+    "weight": 6.4
+  },
+  {
+    "name": "Royal Knight Helm",
+    "weight": 6.6
+  },
+  {
+    "name": "Royal Remains Helm",
+    "weight": 4.6
+  },
+  {
+    "name": "Ruler's Mask",
+    "weight": 2.2
+  },
+  {
+    "name": "Sacred Crown Helm",
+    "weight": 3.6
+  },
+  {
+    "name": "Sage Hood",
+    "weight": 2.2
+  },
+  {
+    "name": "Sanguine Noble Hood",
+    "weight": 1.4
+  },
+  {
+    "name": "Scaled Helm",
+    "weight": 6.8
+  },
+  {
+    "name": "Shadow Militiaman Helm",
+    "weight": 3
+  },
+  {
+    "name": "Shining Horned Headband",
+    "weight": 3.3
+  },
+  {
+    "name": "Silver Tear Mask",
+    "weight": 4.6
+  },
+  {
+    "name": "Skeletal Mask",
+    "weight": 3
+  },
+  {
+    "name": "Snow Witch Hat",
+    "weight": 2.2
+  },
+  {
+    "name": "Spellblade's Pointed Hat",
+    "weight": 1.5
+  },
+  {
+    "name": "Thiollier's Mask",
+    "weight": 3.8
+  },
+  {
+    "name": "Traveler's Hat",
+    "weight": 1.7
+  },
+  {
+    "name": "Traveling Maiden Hood",
+    "weight": 1.6
+  },
+  {
+    "name": "Tree Sentinel Helm",
+    "weight": 8.1
+  },
+  {
+    "name": "Twinned Helm",
+    "weight": 5.1
+  },
+  {
+    "name": "Twinsage Glintstone Crown",
+    "weight": 5.1
+  },
+  {
+    "name": "Vagabond Knight Helm",
+    "weight": 4
+  },
+  {
+    "name": "Verdigris Helm",
+    "weight": 11.1
+  },
+  {
+    "name": "Veteran's Helm",
+    "weight": 8.1
+  },
+  {
+    "name": "Vulgar Militia Helm",
+    "weight": 3.6
+  },
+  {
+    "name": "White Mask",
+    "weight": 3.2
+  },
+  {
+    "name": "Wise Man's Mask",
+    "weight": 4
+  },
+  {
+    "name": "Witch's Glintstone Crown",
+    "weight": 5.1
+  },
+  {
+    "name": "Young Lion's Helm",
+    "weight": 6.4
+  },
+  {
+    "name": "Zamor Mask",
+    "weight": 3.8
+  }
+]
