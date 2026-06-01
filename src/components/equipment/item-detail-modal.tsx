@@ -1,4 +1,4 @@
-import { useEffect, useRef, Suspense } from "react";
+import { useEffect, useRef, Suspense, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { ItemCategory } from "../icons/item-icons";
 import { getCategoryClass, CategoryIcon } from "../icons/item-icons";
@@ -257,7 +257,7 @@ function DetailContent({ itemName, category }: { itemName: string; category: Ite
   const summary = "summary" in detail ? (detail.summary as string | undefined) : undefined;
 
   return (
-    <div>
+    <div className="animate-fade-in">
       {rarity && (
         <div className="px-5 pt-3">
           <span className="text-[10px] uppercase tracking-[2px] text-gold-dim">{rarity}</span>
@@ -339,6 +339,32 @@ function ModalHeaderImage({ itemName, category }: { itemName: string; category: 
   );
 }
 
+function AnimatedHeight({ children }: { children: ReactNode }) {
+  const outerRef = useRef<HTMLDivElement>(null);
+  const innerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const outer = outerRef.current;
+    const inner = innerRef.current;
+    if (!outer || !inner) return;
+
+    const observer = new ResizeObserver(() => {
+      outer.style.height = `${inner.offsetHeight}px`;
+    });
+
+    outer.style.height = `${inner.offsetHeight}px`;
+    observer.observe(inner);
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div ref={outerRef} className="overflow-hidden transition-[height] duration-300 ease-out">
+      <div ref={innerRef}>{children}</div>
+    </div>
+  );
+}
+
 const CATEGORY_LABELS: Record<ItemCategory, string> = {
   weapon: "Weapon",
   armor: "Armor",
@@ -406,9 +432,11 @@ export function ItemDetailModal({ itemName, category, onClose }: ItemDetailModal
           </div>
         </div>
 
-        <Suspense fallback={<DetailSkeleton />}>
-          <DetailContent itemName={itemName} category={category} />
-        </Suspense>
+        <AnimatedHeight>
+          <Suspense fallback={<DetailSkeleton />}>
+            <DetailContent itemName={itemName} category={category} />
+          </Suspense>
+        </AnimatedHeight>
       </div>
     </div>,
     document.body,
