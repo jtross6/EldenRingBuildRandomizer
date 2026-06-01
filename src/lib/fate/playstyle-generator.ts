@@ -11,7 +11,6 @@ import type {
 } from "../../types/fate";
 import { createRng } from "../seeded-rng";
 import {
-  ALL_IDENTITIES,
   ALL_STANCES,
   ALL_STATUS_EFFECTS,
   IDENTITY_STATS,
@@ -42,10 +41,7 @@ function resolveMagicLevel(
   return pick(["none", "support", "primary"], rng);
 }
 
-export function generatePlaystyle(
-  constraints: PlaystyleConstraint,
-  seed: number,
-): PlaystyleCard {
+export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number): PlaystyleCard {
   const rng = createRng(seed);
 
   // 1. Resolve combat identity
@@ -61,9 +57,7 @@ export function generatePlaystyle(
 
   // 3. Resolve weapon family
   const validFamiliesFromStance = getValidFamilies(stance);
-  const familyPool = constraints.family
-    ? [constraints.family]
-    : validFamiliesFromStance;
+  const familyPool = constraints.family ? [constraints.family] : validFamiliesFromStance;
   const family: WeaponFamily = pick(familyPool, rng);
 
   // 4. Resolve magic level and school
