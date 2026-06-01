@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@base-ui/react':
         specifier: ^1.5.0
-        version: 1.5.0(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        version: 1.5.0(@types/react@19.2.15)(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)
       '@tanstack/react-router':
         specifier: ^1.170.10
-        version: 1.170.10(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+        version: 1.170.10(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)
       react:
-        specifier: ^19.2.6
-        version: 19.2.6
+        specifier: 19.3.0-canary-fef12a01-20260413
+        version: 19.3.0-canary-fef12a01-20260413
       react-dom:
-        specifier: ^19.2.6
-        version: 19.2.6(react@19.2.6)
+        specifier: 19.3.0-canary-fef12a01-20260413
+        version: 19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413)
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.3.0
@@ -937,13 +937,13 @@ packages:
     resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  react-dom@19.2.6:
-    resolution: {integrity: sha512-0prMI+hvBbPjsWnxDLxlCGyM8PN6UuWjEUCYmZhO67xIV9Xasa/r/vDnq+Xyq4Lo27g8QSbO5YzARu0D1Sps3g==}
+  react-dom@19.3.0-canary-fef12a01-20260413:
+    resolution: {integrity: sha512-p54k3/9xj+yM0pBA0JBmrMSngfkFrmI2HrNJ0OKSwNxofh4XORGHpVLHQBelAUX7q/LQeoikA1z2BVknzhIGtw==}
     peerDependencies:
-      react: ^19.2.6
+      react: 19.3.0-canary-fef12a01-20260413
 
-  react@19.2.6:
-    resolution: {integrity: sha512-sfWGGfavi0xr8Pg0sVsyHMAOziVYKgPLNrS7ig+ivMNb3wbCBw3KxtflsGBAwD3gYQlE/AEZsTLgToRrSCjb0Q==}
+  react@19.3.0-canary-fef12a01-20260413:
+    resolution: {integrity: sha512-M9RtWF/KiutUtmfGWBcOkCsZ+w2Ty9HJuIajFkBI+qDOeT8gO7B8lQyuXpDjOTtqwRvFuO11kd/3B5zsyYsOCQ==}
     engines: {node: '>=0.10.0'}
 
   reselect@5.2.0:
@@ -954,8 +954,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  scheduler@0.27.0:
-    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+  scheduler@0.28.0-canary-fef12a01-20260413:
+    resolution: {integrity: sha512-7JTRTnWnDobqAgmiIGfRvAw+qH15j0MG4oxTd9tROdab5FeiFK5lxtSbKYkEEOzt0jgdm3KxqzdKRo/Qf1izcA==}
 
   seroval-plugins@1.5.4:
     resolution: {integrity: sha512-S0xQPhUTefAhNvNWFg0c1J8qJArHt5KdtJ/cFAofo06KD1MVSeFWyl4iiu+ApDIuw0WhjpOfCdgConOfAnLgkw==}
@@ -1051,26 +1051,26 @@ snapshots:
 
   '@babel/runtime@7.29.7': {}
 
-  '@base-ui/react@1.5.0(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@base-ui/react@1.5.0(@types/react@19.2.15)(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)':
     dependencies:
       '@babel/runtime': 7.29.7
-      '@base-ui/utils': 0.2.9(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
-      '@floating-ui/react-dom': 2.1.8(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@base-ui/utils': 0.2.9(@types/react@19.2.15)(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)
+      '@floating-ui/react-dom': 2.1.8(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)
       '@floating-ui/utils': 0.2.11
-      react: 19.2.6
-      react-dom: 19.2.6(react@19.2.6)
-      use-sync-external-store: 1.6.0(react@19.2.6)
+      react: 19.3.0-canary-fef12a01-20260413
+      react-dom: 19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413)
+      use-sync-external-store: 1.6.0(react@19.3.0-canary-fef12a01-20260413)
     optionalDependencies:
       '@types/react': 19.2.15
 
-  '@base-ui/utils@0.2.9(@types/react@19.2.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@base-ui/utils@0.2.9(@types/react@19.2.15)(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)':
     dependencies:
       '@babel/runtime': 7.29.7
       '@floating-ui/utils': 0.2.11
-      react: 19.2.6
-      react-dom: 19.2.6(react@19.2.6)
+      react: 19.3.0-canary-fef12a01-20260413
+      react-dom: 19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413)
       reselect: 5.2.0
-      use-sync-external-store: 1.6.0(react@19.2.6)
+      use-sync-external-store: 1.6.0(react@19.3.0-canary-fef12a01-20260413)
     optionalDependencies:
       '@types/react': 19.2.15
 
@@ -1177,11 +1177,11 @@ snapshots:
       '@floating-ui/core': 1.7.5
       '@floating-ui/utils': 0.2.11
 
-  '@floating-ui/react-dom@2.1.8(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@floating-ui/react-dom@2.1.8(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)':
     dependencies:
       '@floating-ui/dom': 1.7.6
-      react: 19.2.6
-      react-dom: 19.2.6(react@19.2.6)
+      react: 19.3.0-canary-fef12a01-20260413
+      react-dom: 19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413)
 
   '@floating-ui/utils@0.2.11': {}
 
@@ -1448,21 +1448,21 @@ snapshots:
 
   '@tanstack/history@1.162.0': {}
 
-  '@tanstack/react-router@1.170.10(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@tanstack/react-router@1.170.10(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)':
     dependencies:
       '@tanstack/history': 1.162.0
-      '@tanstack/react-store': 0.9.3(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@tanstack/react-store': 0.9.3(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)
       '@tanstack/router-core': 1.171.8
       isbot: 5.1.40
-      react: 19.2.6
-      react-dom: 19.2.6(react@19.2.6)
+      react: 19.3.0-canary-fef12a01-20260413
+      react-dom: 19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413)
 
-  '@tanstack/react-store@0.9.3(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+  '@tanstack/react-store@0.9.3(react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413))(react@19.3.0-canary-fef12a01-20260413)':
     dependencies:
       '@tanstack/store': 0.9.3
-      react: 19.2.6
-      react-dom: 19.2.6(react@19.2.6)
-      use-sync-external-store: 1.6.0(react@19.2.6)
+      react: 19.3.0-canary-fef12a01-20260413
+      react-dom: 19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413)
+      use-sync-external-store: 1.6.0(react@19.3.0-canary-fef12a01-20260413)
 
   '@tanstack/router-core@1.171.8':
     dependencies:
@@ -1655,12 +1655,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  react-dom@19.2.6(react@19.2.6):
+  react-dom@19.3.0-canary-fef12a01-20260413(react@19.3.0-canary-fef12a01-20260413):
     dependencies:
-      react: 19.2.6
-      scheduler: 0.27.0
+      react: 19.3.0-canary-fef12a01-20260413
+      scheduler: 0.28.0-canary-fef12a01-20260413
 
-  react@19.2.6: {}
+  react@19.3.0-canary-fef12a01-20260413: {}
 
   reselect@5.2.0: {}
 
@@ -1685,7 +1685,7 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.0.2
       '@rolldown/binding-win32-x64-msvc': 1.0.2
 
-  scheduler@0.27.0: {}
+  scheduler@0.28.0-canary-fef12a01-20260413: {}
 
   seroval-plugins@1.5.4(seroval@1.5.4):
     dependencies:
@@ -1717,9 +1717,9 @@ snapshots:
 
   typescript@6.0.3: {}
 
-  use-sync-external-store@1.6.0(react@19.2.6):
+  use-sync-external-store@1.6.0(react@19.3.0-canary-fef12a01-20260413):
     dependencies:
-      react: 19.2.6
+      react: 19.3.0-canary-fef12a01-20260413
 
   vite@8.0.14(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.3):
     dependencies:
