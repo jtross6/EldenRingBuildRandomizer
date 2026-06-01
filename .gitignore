@@ -5,3 +5,4 @@ scripts/enrich-community-builds.ts
 scripts/fetch-base-data.sh
 scripts/generate-dlc-templates.py
 scripts/populate-dlc-from-kaggle.py
+.superpowers/*
