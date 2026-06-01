@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, startTransition } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import { randomRoute } from "../router";
 import { decodeBuild, encodeBuild } from "../lib/build-codec";
@@ -29,7 +29,6 @@ import type { ItemCategory } from "../components/icons/item-icons";
 interface SelectedItem {
   name: string;
   category: ItemCategory;
-  slotId: string;
 }
 
 export function BuildViewerPage() {
@@ -77,12 +76,8 @@ export function BuildViewerPage() {
     }
   }
 
-  function selectItem(name: string, category: ItemCategory, slotId: string) {
-    startTransition(() => setSelectedItem({ name, category, slotId }));
-  }
-
-  function closeModal() {
-    setSelectedItem(null);
+  function selectItem(name: string, category: ItemCategory) {
+    setSelectedItem({ name, category });
   }
 
   const weaponSlotsR = build.weaponsRight.map((idx, i) => ({
@@ -130,8 +125,7 @@ export function BuildViewerPage() {
                 slotId={w.slotId}
                 category="weapon"
                 variant="standard"
-                onClick={() => selectItem(w.name, "weapon", w.slotId)}
-                isActive={selectedItem?.slotId === w.slotId}
+                onClick={() => selectItem(w.name, "weapon")}
               />
             ))}
             {weaponSlotsL.map((w) => (
@@ -142,8 +136,7 @@ export function BuildViewerPage() {
                 slotId={w.slotId}
                 category="weapon"
                 variant="standard"
-                onClick={() => selectItem(w.name, "weapon", w.slotId)}
-                isActive={selectedItem?.slotId === w.slotId}
+                onClick={() => selectItem(w.name, "weapon")}
               />
             ))}
           </div>
@@ -160,8 +153,7 @@ export function BuildViewerPage() {
                   slotId={a.slotId}
                   category="armor"
                   variant="standard"
-                  onClick={() => selectItem(a.name, "armor", a.slotId)}
-                  isActive={selectedItem?.slotId === a.slotId}
+                  onClick={() => selectItem(a.name, "armor")}
                 />
               ))}
             </div>
@@ -175,8 +167,7 @@ export function BuildViewerPage() {
                 slotId="shield"
                 category="shield"
                 variant="standard"
-                onClick={() => selectItem(shieldName, "shield", "shield")}
-                isActive={selectedItem?.slotId === "shield"}
+                onClick={() => selectItem(shieldName, "shield")}
               />
               <ItemSlot
                 itemName={catalystName}
@@ -184,8 +175,7 @@ export function BuildViewerPage() {
                 slotId="catalyst"
                 category="seal"
                 variant="standard"
-                onClick={() => selectItem(catalystName, "seal", "catalyst")}
-                isActive={selectedItem?.slotId === "catalyst"}
+                onClick={() => selectItem(catalystName, "seal")}
               />
             </div>
           </EquipmentSection>
@@ -200,8 +190,7 @@ export function BuildViewerPage() {
                 slotId={`talisman-${i}`}
                 category="talisman"
                 variant="talisman"
-                onClick={() => selectItem(name, "talisman", `talisman-${i}`)}
-                isActive={selectedItem?.slotId === `talisman-${i}`}
+                onClick={() => selectItem(name, "talisman")}
               />
             ))}
           </div>
@@ -216,8 +205,7 @@ export function BuildViewerPage() {
                 slotId={`ash-${i}`}
                 category="ash"
                 variant="compact"
-                onClick={() => selectItem(name, "ash", `ash-${i}`)}
-                isActive={selectedItem?.slotId === `ash-${i}`}
+                onClick={() => selectItem(name, "ash")}
               />
             ))}
           </div>
@@ -232,8 +220,7 @@ export function BuildViewerPage() {
                 slotId={`sorc-${i}`}
                 category="spell"
                 variant="compact"
-                onClick={() => selectItem(name, "spell", `sorc-${i}`)}
-                isActive={selectedItem?.slotId === `sorc-${i}`}
+                onClick={() => selectItem(name, "spell")}
               />
             ))}
             {incantNames.map((name, i) => (
@@ -243,8 +230,7 @@ export function BuildViewerPage() {
                 slotId={`incant-${i}`}
                 category="spell"
                 variant="compact"
-                onClick={() => selectItem(name, "spell", `incant-${i}`)}
-                isActive={selectedItem?.slotId === `incant-${i}`}
+                onClick={() => selectItem(name, "spell")}
               />
             ))}
           </div>
@@ -258,8 +244,7 @@ export function BuildViewerPage() {
         <ItemDetailModal
           itemName={selectedItem.name}
           category={selectedItem.category}
-          slotId={selectedItem.slotId}
-          onClose={closeModal}
+          onClose={() => setSelectedItem(null)}
         />
       )}
     </>

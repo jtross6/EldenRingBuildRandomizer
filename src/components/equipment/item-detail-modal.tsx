@@ -1,6 +1,4 @@
-import React, { useEffect, useRef, Suspense } from "react";
-
-const ViewTransition = (React as any).ViewTransition;
+import { useEffect, useRef, Suspense } from "react";
 import { createPortal } from "react-dom";
 import type { ItemCategory } from "../icons/item-icons";
 import { getCategoryClass, CategoryIcon } from "../icons/item-icons";
@@ -17,7 +15,6 @@ import type {
 interface ItemDetailModalProps {
   itemName: string;
   category: ItemCategory;
-  slotId: string;
   onClose: () => void;
 }
 
@@ -260,49 +257,47 @@ function DetailContent({ itemName, category }: { itemName: string; category: Ite
   const summary = "summary" in detail ? (detail.summary as string | undefined) : undefined;
 
   return (
-    <ViewTransition enter="modal-content-in" exit="modal-content-out" default="none">
-      <div>
-        {rarity && (
-          <div className="px-5 pt-3">
-            <span className="text-[10px] uppercase tracking-[2px] text-gold-dim">{rarity}</span>
-          </div>
-        )}
+    <div>
+      {rarity && (
+        <div className="px-5 pt-3">
+          <span className="text-[10px] uppercase tracking-[2px] text-gold-dim">{rarity}</span>
+        </div>
+      )}
 
-        {summary && <div className="px-5 pt-2 text-[12px] text-text-secondary">{summary}</div>}
+      {summary && <div className="px-5 pt-2 text-[12px] text-text-secondary">{summary}</div>}
 
-        {description && description.length > 0 && (
-          <div className="border-b border-gold/10 px-5 py-4">
-            <p className="text-[12px] leading-relaxed text-text-secondary italic">
-              {description.filter((l) => l.length > 0).join(" ")}
-            </p>
-          </div>
-        )}
+      {description && description.length > 0 && (
+        <div className="border-b border-gold/10 px-5 py-4">
+          <p className="text-[12px] leading-relaxed text-text-secondary italic">
+            {description.filter((l) => l.length > 0).join(" ")}
+          </p>
+        </div>
+      )}
 
-        {isArmamentCategory(category) && <ArmamentStats detail={detail as ArmamentDetail} />}
-        {category === "armor" && <ArmorStats detail={detail as ArmorDetail} />}
-        {category === "talisman" && <TalismanStats detail={detail as TalismanDetail} />}
-        {category === "spell" && <SpellStats detail={detail as SpellDetail} />}
-        {category === "ash" && <AshStats detail={detail as AshDetail} />}
+      {isArmamentCategory(category) && <ArmamentStats detail={detail as ArmamentDetail} />}
+      {category === "armor" && <ArmorStats detail={detail as ArmorDetail} />}
+      {category === "talisman" && <TalismanStats detail={detail as TalismanDetail} />}
+      {category === "spell" && <SpellStats detail={detail as SpellDetail} />}
+      {category === "ash" && <AshStats detail={detail as AshDetail} />}
 
-        {requirements && Object.keys(requirements).length > 0 && (
-          <div className="flex flex-wrap gap-2 border-t border-gold/10 px-5 py-3">
-            {Object.entries(requirements).map(([stat, val]) => (
-              <span
-                key={stat}
-                className="rounded-md border border-gold/15 bg-gold/5 px-2.5 py-1 text-[11px] font-semibold text-gold-dim"
-              >
-                {STAT_ABBR[stat] ?? stat} {val}
-              </span>
-            ))}
-            {weight != null && (
-              <span className="rounded-md border border-gold/15 bg-gold/5 px-2.5 py-1 text-[11px] font-semibold text-gold-dim">
-                Wt. {weight}
-              </span>
-            )}
-          </div>
-        )}
-      </div>
-    </ViewTransition>
+      {requirements && Object.keys(requirements).length > 0 && (
+        <div className="flex flex-wrap gap-2 border-t border-gold/10 px-5 py-3">
+          {Object.entries(requirements).map(([stat, val]) => (
+            <span
+              key={stat}
+              className="rounded-md border border-gold/15 bg-gold/5 px-2.5 py-1 text-[11px] font-semibold text-gold-dim"
+            >
+              {STAT_ABBR[stat] ?? stat} {val}
+            </span>
+          ))}
+          {weight != null && (
+            <span className="rounded-md border border-gold/15 bg-gold/5 px-2.5 py-1 text-[11px] font-semibold text-gold-dim">
+              Wt. {weight}
+            </span>
+          )}
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -354,7 +349,7 @@ const CATEGORY_LABELS: Record<ItemCategory, string> = {
   spell: "Spell",
 };
 
-export function ItemDetailModal({ itemName, category, slotId, onClose }: ItemDetailModalProps) {
+export function ItemDetailModal({ itemName, category, onClose }: ItemDetailModalProps) {
   const panelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -389,37 +384,31 @@ export function ItemDetailModal({ itemName, category, slotId, onClose }: ItemDet
         role="dialog"
         aria-modal="true"
         aria-label={`${itemName} details`}
-        className="relative max-h-[85vh] w-[min(420px,calc(100vw-32px))] overflow-y-auto rounded-xl border border-gold/15 bg-bg-dark shadow-[0_8px_32px_rgba(0,0,0,0.6)] outline-none"
+        className="animate-modal-in relative max-h-[85vh] w-[min(420px,calc(100vw-32px))] overflow-y-auto rounded-xl border border-gold/15 bg-bg-dark shadow-[0_8px_32px_rgba(0,0,0,0.6)] outline-none"
       >
-        <ViewTransition enter="modal-fade-in" exit="modal-fade-out" default="none">
-          <div className="flex flex-col">
-            <button
-              type="button"
-              onClick={onClose}
-              className="absolute right-3 top-3 z-10 flex size-7 cursor-pointer items-center justify-center rounded-full border border-gold/15 bg-bg-card text-[14px] text-text-dim transition-colors hover:bg-bg-card-hover hover:text-text-primary"
-            >
-              &times;
-            </button>
+        <button
+          type="button"
+          onClick={onClose}
+          className="absolute right-3 top-3 z-10 flex size-7 cursor-pointer items-center justify-center rounded-full border border-gold/15 bg-bg-card text-[14px] text-text-dim transition-colors hover:bg-bg-card-hover hover:text-text-primary"
+        >
+          &times;
+        </button>
 
-            <div className="flex items-center gap-4 border-b border-gold/10 p-5">
-              <ViewTransition name={`item-${slotId}`}>
-                <ModalHeaderImage itemName={itemName} category={category} />
-              </ViewTransition>
-              <div className="min-w-0 flex-1">
-                <div className="font-display text-[16px] font-bold leading-tight text-text-primary">
-                  {itemName}
-                </div>
-                <div className="mt-1 text-[10px] uppercase tracking-[2px] text-text-dim">
-                  {CATEGORY_LABELS[category]}
-                </div>
-              </div>
+        <div className="flex items-center gap-4 border-b border-gold/10 p-5">
+          <ModalHeaderImage itemName={itemName} category={category} />
+          <div className="min-w-0 flex-1">
+            <div className="font-display text-[16px] font-bold leading-tight text-text-primary">
+              {itemName}
             </div>
-
-            <Suspense fallback={<DetailSkeleton />}>
-              <DetailContent itemName={itemName} category={category} />
-            </Suspense>
+            <div className="mt-1 text-[10px] uppercase tracking-[2px] text-text-dim">
+              {CATEGORY_LABELS[category]}
+            </div>
           </div>
-        </ViewTransition>
+        </div>
+
+        <Suspense fallback={<DetailSkeleton />}>
+          <DetailContent itemName={itemName} category={category} />
+        </Suspense>
       </div>
     </div>,
     document.body,
