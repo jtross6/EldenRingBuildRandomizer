@@ -165,8 +165,14 @@ function fillWeaponsByProfile(
         weaponsRight.push(primarySeedIdx);
         excludeWeapons.add(primarySeedIdx);
       }
-      const neededRight = primarySeedIdx >= 0 ? rng.next() < 0.4 ? 1 : 0 : 1;
-      const additionalRight = pickFromPool(scoredWeapons, creativity, rng, neededRight, excludeWeapons);
+      const neededRight = primarySeedIdx >= 0 ? (rng.next() < 0.4 ? 1 : 0) : 1;
+      const additionalRight = pickFromPool(
+        scoredWeapons,
+        creativity,
+        rng,
+        neededRight,
+        excludeWeapons,
+      );
       for (const w of additionalRight) {
         weaponsRight.push(w.index);
         excludeWeapons.add(w.index);
@@ -248,9 +254,7 @@ function fillWeaponsByProfile(
         }
       }
       // Melee backup in left
-      const meleeCandidates = scoredWeapons.filter(
-        (c) => !RANGED_CATEGORIES.has(c.item.category),
-      );
+      const meleeCandidates = scoredWeapons.filter((c) => !RANGED_CATEGORIES.has(c.item.category));
       const meleePick = pickFromPool(meleeCandidates, creativity, rng, 1, excludeWeapons);
       if (meleePick.length > 0) {
         weaponsLeft.push(meleePick[0].index);

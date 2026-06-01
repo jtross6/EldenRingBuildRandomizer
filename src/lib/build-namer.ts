@@ -67,13 +67,41 @@ const ARCHETYPE_NAMES: Record<string, string[]> = {
 };
 
 const STOP_WORDS = new Set([
-  "of", "the", "and", "a", "an", "in", "on", "at", "to", "for", "is", "it",
+  "of",
+  "the",
+  "and",
+  "a",
+  "an",
+  "in",
+  "on",
+  "at",
+  "to",
+  "for",
+  "is",
+  "it",
 ]);
 
 const GENERIC_WEAPON_WORDS = new Set([
-  "sword", "blade", "greatsword", "katana", "dagger", "axe", "hammer",
-  "spear", "bow", "staff", "seal", "shield", "halberd", "flail",
-  "crossbow", "whip", "fist", "claw", "twinblade", "scythe",
+  "sword",
+  "blade",
+  "greatsword",
+  "katana",
+  "dagger",
+  "axe",
+  "hammer",
+  "spear",
+  "bow",
+  "staff",
+  "seal",
+  "shield",
+  "halberd",
+  "flail",
+  "crossbow",
+  "whip",
+  "fist",
+  "claw",
+  "twinblade",
+  "scythe",
 ]);
 
 function extractItemFlavor(itemName: string): string | null {

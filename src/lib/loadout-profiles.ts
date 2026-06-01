@@ -19,10 +19,7 @@ const POWERSTANCE_CATEGORIES = new Set([
 
 const RANGED_CATEGORIES = new Set(["Bow", "Light Bow", "Crossbow", "Greatbow", "Ballista"]);
 
-export function selectLoadoutProfile(
-  seedItems: SeedItem[],
-  profile: StatProfile,
-): LoadoutProfile {
+export function selectLoadoutProfile(seedItems: SeedItem[], profile: StatProfile): LoadoutProfile {
   const seedWeapons = seedItems.filter((s) => s.type === "weapon");
   const seedCategories = seedWeapons.map((s) => weapons[s.index].category);
 
@@ -51,9 +48,7 @@ export function selectLoadoutProfile(
   }
 
   // 4. Pure caster (high INT/FTH, no weapon/shield seeds)
-  const hasWeaponOrShieldSeed = seedItems.some(
-    (s) => s.type === "weapon" || s.type === "shield",
-  );
+  const hasWeaponOrShieldSeed = seedItems.some((s) => s.type === "weapon" || s.type === "shield");
   const intOrFth = Math.max(profile.intelligence ?? 0, profile.faith ?? 0);
   if (intOrFth > 0.6 && !hasWeaponOrShieldSeed) {
     return "Pure Caster";
@@ -62,9 +57,7 @@ export function selectLoadoutProfile(
   // 5. Powerstance-friendly categories (single weapon seed, no shield/catalyst)
   if (seedWeapons.length === 1) {
     const cat = seedCategories[0];
-    const hasShieldOrCatalyst = seedItems.some(
-      (s) => s.type === "shield" || s.type === "catalyst",
-    );
+    const hasShieldOrCatalyst = seedItems.some((s) => s.type === "shield" || s.type === "catalyst");
     if (POWERSTANCE_CATEGORIES.has(cat) && !hasShieldOrCatalyst) {
       return "Powerstance";
     }
