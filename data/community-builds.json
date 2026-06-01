@@ -1,0 +1,3489 @@
+[
+  {
+    "id": "duelswordduelist",
+    "name": "Duel Sword Duelist",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "faith",
+      "mind"
+    ],
+    "weapons": [
+      "Horned Warrior's Sword",
+      "Erdtree Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Divine Bird Helm",
+      "Leda's Armor",
+      "Leyndell Knight Gauntlets",
+      "Malformed Dragon Greaves"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Sacred Scorpion Charm",
+      "Ritual Sword Talisman",
+      "Crusade Insignia",
+      "Two-Headed Turtle Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Curved Sword Talisman",
+      "Blade of Mercy"
+    ],
+    "skills": [
+      "Horn Calling"
+    ],
+    "spells": [
+      "Golden Vow (Spell)",
+      "Flame Grant me Strength"
+    ]
+  },
+  {
+    "id": "shadowsunflowerblossom",
+    "name": "Shadow Sunflower Blossom",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Shadown Sunflower Blossom",
+      "Clawmark Seal",
+      "Erdtree Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Pumpkin Helm",
+      "Raptor's Black Feathers",
+      "Radahn's Gauntlets",
+      "Radahn's Greaves"
+    ],
+    "talismans": [
+      "Two-Handed Sword Talisman",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Blade of Mercy",
+      "Claw Talisman",
+      "Axe Talisman",
+      "Lacerating Crossed-Tree",
+      "Sacred Scorpion Charm"
+    ],
+    "skills": [
+      "Shadow Sunflower Headbutt"
+    ],
+    "spells": [
+      "Elden Stars",
+      "Flame Grant Me Strength",
+      "Golden Vow"
+    ]
+  },
+  {
+    "id": "blackhammer",
+    "name": "Black Hammer",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "faith"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength",
+      "mind"
+    ],
+    "weapons": [
+      "Black Steel Greathammer",
+      "Clawmark Seal",
+      "Golden Order Seal"
+    ],
+    "shield": "Black Steel Greatshield",
+    "armor": [
+      "Helm of Night",
+      "Black Knight Armor",
+      "Gauntlets of Night",
+      "Black Knight Greaves"
+    ],
+    "talismans": [
+      "Two-Headed Turtle Talisman",
+      "Curved Sword Talisman",
+      "Blade of Mercy",
+      "Ritual Sword Talisman",
+      "Crusade Insignia"
+    ],
+    "skills": [
+      "Sacred Blade"
+    ],
+    "spells": [
+      "Golden Vow"
+    ]
+  },
+  {
+    "id": "nightclaw",
+    "name": "Nightclaw",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind",
+      "intelligence"
+    ],
+    "weapons": [
+      "Claws of Night"
+    ],
+    "shield": "Messmer Soldier Shield",
+    "armor": [
+      "Leda's Armor",
+      "Black Knight Helm",
+      "Black Knight Gauntlets",
+      "Black Knight Greaves"
+    ],
+    "talismans": [
+      "Smithing Talisman",
+      "Axe Talisman",
+      "Rotten Winged Sword Insignia",
+      "Millicent's Prosthesis",
+      "Two-Headed Turtle Talisman",
+      "Crusade Insignia",
+      "Lord of Blood's Exultation",
+      "Lacerating Crossed-Tree",
+      "Retaliatory Crossed-Tree"
+    ],
+    "skills": [
+      "Scattershot Throw"
+    ],
+    "spells": []
+  },
+  {
+    "id": "allknowingsage",
+    "name": "All-Knowing Sage",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor",
+      "faith"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Staff of the Great Beyond",
+      "Sword of Night and Flame"
+    ],
+    "shield": null,
+    "armor": [
+      "Greathelm",
+      "All-Knowing Armor",
+      "All-Knowing Gauntlets",
+      "All-Knowing Greaves"
+    ],
+    "talismans": [
+      "Godfrey Icon",
+      "Graven-Mass Talisman",
+      "Flock's Canvas Talisman",
+      "Blessed Blue Dew Talisman",
+      "Crusade Insignia",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Ritual Sword Talisman",
+      "Old Lord's Talisman"
+    ],
+    "skills": [],
+    "spells": [
+      "Multilayered Ring of Light",
+      "Elden Stars",
+      "Knight's Lightning Spear",
+      "Ancient Dragons' Lightning Strike",
+      "Flame of the Fell God",
+      "Giantsflame Take Thee",
+      "Frenzied Burst",
+      "Rykard's Rancor",
+      "Ancient Death Rancor",
+      "Knight Comet",
+      "Loretta's Greatbow",
+      "Mass of Putrescence",
+      "Pest-Thread Spears",
+      "Stone of Gurranq",
+      "Rock Sling",
+      "Blessing of the Erdtree",
+      "Golden Vow"
+    ]
+  },
+  {
+    "id": "doubledragon",
+    "name": "Double Dragon",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "arcane"
+    ],
+    "secondaryStats": [
+      "strength",
+      "dexterity",
+      "endurance"
+    ],
+    "weapons": [
+      "Dane's Footwork",
+      "Poisoned Hand"
+    ],
+    "shield": null,
+    "armor": [
+      "Rock Heart"
+    ],
+    "talismans": [
+      "Shattered Stone Talisman",
+      "Shard of Alexander",
+      "Kindred of Rot's Exultation",
+      "Blue Dancer Charm",
+      "Crusade Insignia",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "The Poison Flower Blooms Twice",
+      "Scarlet Rot"
+    ],
+    "spells": []
+  },
+  {
+    "id": "piercingpaladin",
+    "name": "Piercing Paladin",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance",
+      "faith"
+    ],
+    "weapons": [
+      "Leda's Sword",
+      "Golden Order Seal"
+    ],
+    "shield": "Carian Thrusting Shield",
+    "armor": [
+      "Oathseeker Knight Helm",
+      "Leda's Armor",
+      "Black Knight Gauntlets",
+      "Black Knight Greaves"
+    ],
+    "talismans": [
+      "Two-Headed Turtle Talisman",
+      "Millicent's Prosthesis",
+      "Blade of Mercy",
+      "Crusade Insignia",
+      "Curved Sword Talisman",
+      "Ritual Sword Talisman",
+      "Lacerating Crossed-Tree",
+      "Spear Talisman"
+    ],
+    "skills": [
+      "Needle Piercer"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "messmerflame",
+    "name": "Messmer Flame",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Fire Knight's Greatsword",
+      "Fire Knight's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Messmer's Helm",
+      "Fire Knight Armor",
+      "Fire Knight Gauntlets",
+      "Fire Knight Greaves"
+    ],
+    "talismans": [
+      "Bull-Goat's Talisman",
+      "Fire Scorpion Charm",
+      "Shard of Alexander",
+      "Godfrey Icon",
+      "Flock's Canvas Talisman",
+      "Crusade Insignia"
+    ],
+    "skills": [],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Fire Serpent",
+      "Messmer's Orb"
+    ]
+  },
+  {
+    "id": "dragonpriestess",
+    "name": "Dragon Priestess",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Erdtree Seal",
+      "Coded Sword",
+      "Gravel Stone Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Priestess Heart"
+    ],
+    "talismans": [
+      "Flock's Canvas Talisman",
+      "Godfrey Icon",
+      "Lightning Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Bull-Goat's Talisman",
+      "Crusade Insignia",
+      "Ritual Sword Talisman"
+    ],
+    "skills": [],
+    "spells": [
+      "Knight's Lightning Spear",
+      "Ancient Dragons' Lightning Strike",
+      "Lightning Spear",
+      "Lightning Strike",
+      "Honed Bolt"
+    ]
+  },
+  {
+    "id": "gravitysorcerer",
+    "name": "Gravity Sorcerer",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "faith"
+    ],
+    "weapons": [
+      "Carian Regal Scepter",
+      "Meteorite Staff",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Preceptor's Big Hat",
+      "Ruler's Robe",
+      "Preceptor's Gloves",
+      "Preceptor's Trousers"
+    ],
+    "talismans": [
+      "Graven-Mass Talisman",
+      "Godfrey Icon",
+      "Blessed Blue Dew Talisman",
+      "Crusade Insignia",
+      "Ritual Sword Talisman",
+      "Magic Scorpion Charm",
+      "Dragoncrest Greatshield Talisman"
+    ],
+    "skills": [],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant Me Strength",
+      "Collapsing Stars",
+      "Meteorite of Astel",
+      "Gravitational Missile",
+      "Blades of Stone",
+      "Rock Sling"
+    ]
+  },
+  {
+    "id": "shadowblade",
+    "name": "Shadowblade Shadow",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Smithscript Dagger",
+      "Sacrificial Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Shadow Militiaman Set"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Smithing Talisman",
+      "Lord of Blood's Exultation",
+      "Crusade Insignia",
+      "Blue Dancer Charm",
+      "Spear Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Claw Talisman"
+    ],
+    "skills": [
+      "Scattershot Throw",
+      "Piercing Throw"
+    ],
+    "spells": []
+  },
+  {
+    "id": "divinewarrior",
+    "name": "Divine Warrior",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Euporia"
+    ],
+    "shield": null,
+    "armor": [
+      "Divine Bird Set"
+    ],
+    "talismans": [
+      "Two-Handed Sword Talisman",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Crusade Insignia",
+      "Rotten Winged Sword Insignia",
+      "Lacerating Crossed-Tree"
+    ],
+    "skills": [
+      "Euporia Vortex"
+    ],
+    "spells": [
+      "Flame Grant me Strength",
+      "Golden Vow"
+    ]
+  },
+  {
+    "id": "deathknighttwinaxe",
+    "name": "Twin Axe Death Knight",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "faith",
+      "dexterity",
+      "endurance"
+    ],
+    "weapons": [
+      "Death Knight's Twin Axes"
+    ],
+    "shield": null,
+    "armor": [
+      "Death Knight Helm",
+      "Death Knight Armor",
+      "Death Knight Gauntlets",
+      "Malformed Dragon Greaves"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Crusade Insignia",
+      "Blessed Blue Dew Talisman"
+    ],
+    "skills": [
+      "Blinkbolt: Twinaxe"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant me Strength"
+    ]
+  },
+  {
+    "id": "fireknightimpaler",
+    "name": "Fire Knight Impaler",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Spear of the Impaler",
+      "Erdtree Seal",
+      "Fire Knight's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Winged Serpent Helm",
+      "Fire Knight Armor",
+      "Fire Knight Gauntlets",
+      "Fire Knight Greaves"
+    ],
+    "talismans": [
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Fire Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Axe Talisman",
+      "Smithing Talisman",
+      "Rotten Winged Sword Insignia",
+      "Millicent's Prosthesis",
+      "Two-Handed Sword Talisman"
+    ],
+    "skills": [
+      "Messmer's Assault"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant me Strength"
+    ]
+  },
+  {
+    "id": "maternalmage",
+    "name": "Maternal Mage",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Carian Regal Scepter",
+      "Maternal Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "High Priest Hat",
+      "Finger Robe",
+      "Bull-Goat Gauntlets",
+      "Bull-Goat Greaves"
+    ],
+    "talismans": [
+      "Crusade Insignia",
+      "Blessed Blue Dew Talisman",
+      "Graven-Mass Talisman",
+      "Godfrey Icon",
+      "Ritual Sword Talisman",
+      "Magic Scorpion Charm"
+    ],
+    "skills": [],
+    "spells": [
+      "Glintstone Nail",
+      "Glintstone Nails",
+      "Fleeting Microcosm",
+      "Cherishing Fingers"
+    ]
+  },
+  {
+    "id": "bloodybeastclaw",
+    "name": "Bloody Beastclaw",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Beast Claw",
+      "Sacrificial Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Horned Warrior Helm",
+      "Horned Warrior Armor",
+      "Lionel's Gauntlets",
+      "Horned Warrior Greaves"
+    ],
+    "talismans": [
+      "Two-Headed Turtle Talisman",
+      "Lord of Blood's Exultation",
+      "Crusade Insignia",
+      "Shard of Alexander",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Savage Claws"
+    ],
+    "spells": []
+  },
+  {
+    "id": "frostmonk",
+    "name": "Frost-Fu Monk",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity",
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Dryleaf Arts"
+    ],
+    "shield": null,
+    "armor": [
+      "Dane's Hat",
+      "Messmer Soldier Armor",
+      "Horned Warrior Gauntlets",
+      "Horned Warrior Greaves"
+    ],
+    "talismans": [
+      "Blue Dancer Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Godfrey Icon",
+      "Claw Talisman"
+    ],
+    "skills": [
+      "Divine Beast Frost Stomp"
+    ],
+    "spells": []
+  },
+  {
+    "id": "knightblade",
+    "name": "Knight Blade",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Backhand Blade"
+    ],
+    "shield": "Great Turtle Shell",
+    "armor": [
+      "Black Knight Set"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Two-Headed Turtle Talisman"
+    ],
+    "skills": [
+      "Blind Spot"
+    ],
+    "spells": []
+  },
+  {
+    "id": "savageslasher",
+    "name": "Savage Slasher",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Great Katana"
+    ],
+    "shield": null,
+    "armor": [
+      "Oathseeker Knight Set"
+    ],
+    "talismans": [
+      "Rotten Winged Sword Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Rellana's Cameo"
+    ],
+    "skills": [
+      "Savage Lion's Claw",
+      "Overhead Stance"
+    ],
+    "spells": []
+  },
+  {
+    "id": "spellsword",
+    "name": "SPELLSWORD BUILD (ALL GAME)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Claymore",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Carian Knight Helm",
+      "Blue Silver Mail Armor",
+      "Black Knife Gauntlets",
+      "Black Knife Greaves"
+    ],
+    "talismans": [
+      "Axe Talisman",
+      "Shard of Alexander",
+      "Assasin's Cerulean Dagger",
+      "Spear Talisman"
+    ],
+    "skills": [
+      "Glintblade Phalanx"
+    ],
+    "spells": [
+      "Scholar's Armament"
+    ]
+  },
+  {
+    "id": "mage",
+    "name": "Mage Build (Beginner)",
+    "class": "Astrologer",
+    "primaryStats": [
+      "intelligence",
+      "mind"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Any Staff",
+      "any melee weapon"
+    ],
+    "shield": "Any 100% Physical Block",
+    "armor": [
+      "Any Light Armor"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Glintblade Phalanx"
+    ],
+    "spells": [
+      "Glintstone Pebble",
+      "Glintstone Arc",
+      "Loretta's Greatbow",
+      "Great Glintstone Shard",
+      "Carian Slicer",
+      "Carian Piercer"
+    ]
+  },
+  {
+    "id": "spellblade",
+    "name": "Spellblade Build",
+    "class": "Prisoner",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Demi-Human Queen's Staff",
+      "Estoc",
+      "Rapier"
+    ],
+    "shield": "Any 100% Physical (optional)",
+    "armor": [
+      "but get pieces that increase Intelligence when possible"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Impaling Thrust"
+    ],
+    "spells": [
+      "Scholar's Armament",
+      "Glintstone Pebble",
+      "Carian Slicer"
+    ]
+  },
+  {
+    "id": "enchantedknight",
+    "name": "Enchanted Knight Build (Level 50)",
+    "class": "Astrologer or Prisoner",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Blue-Gold Kite Shield",
+    "armor": [
+      "Carian Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Barricade Shield"
+    ],
+    "spells": [
+      "Carian Slicer",
+      "Carian Piercer",
+      "Carian Greatsword",
+      "Glintstone Pebble"
+    ]
+  },
+  {
+    "id": "swordsage",
+    "name": "Sword Sage Build (Level 50)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Sword of Night and Flame",
+      "Meteorite Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that still lets you med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Night-and-Flame Stance"
+    ],
+    "spells": [
+      "Rancorcall",
+      "Ancient Death Rancor"
+    ]
+  },
+  {
+    "id": "battlemage",
+    "name": "Battlemage Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "mind",
+      "vigor",
+      "strength"
+    ],
+    "weapons": [
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Any that can med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Carian Slicer",
+      "Carian Greatsword",
+      "Carian Piercer",
+      "Glintstone Pebble",
+      "Loretta's Greatbow"
+    ]
+  },
+  {
+    "id": "crystalmage",
+    "name": "Crystal Mage Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Crystal Staff",
+      "Finger Seal",
+      "Clawmark Seal"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Any that still allows you to med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Crystal Torrent",
+      "Shattering Crystal",
+      "Glintstone Pebble",
+      "Great Glintstone Shard",
+      "Comet",
+      "Terra Magica",
+      "Bestial Vitality"
+    ]
+  },
+  {
+    "id": "moonveilshinobi",
+    "name": "Moonveil Shinobi Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Moonveil",
+      "Uchigatana"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that can still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Transient Moonlight",
+      "Glinstone Phalanx"
+    ],
+    "spells": [
+      "Loretta's Greatbow",
+      "Great Glintstone Shard",
+      "Terra Magica"
+    ]
+  },
+  {
+    "id": "darkknight",
+    "name": "Dark Knight Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Helphen's Steeple",
+      "Dark Moon Greatsword",
+      "Staff of Loss"
+    ],
+    "shield": null,
+    "armor": [
+      "Night's Cavalry Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Moonlight Greatsword",
+      "Ruinous Ghostflame"
+    ],
+    "spells": [
+      "Night Comet",
+      "Night Shard",
+      "Terra Magica",
+      "Loretta's Greatbow"
+    ]
+  },
+  {
+    "id": "freezingbattlemage",
+    "name": "Freezing Battlemage Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "mind",
+      "vigor"
+    ],
+    "weapons": [
+      "Lusat's Glintstone Staff",
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Snow Witch Hat"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Carian Slicer",
+      "Adula's Moonblade",
+      "Carian Piercer",
+      "Glintstone Icecrag",
+      "Zamor Ice Storm",
+      "Freezing Mist"
+    ]
+  },
+  {
+    "id": "deathknight",
+    "name": "Death Knight Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Sword of Night and Flame",
+      "Carian Regal Scepter",
+      "Frenzied Flame Seal"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Night's Cavalry Helm",
+      "Night's Cavalry Armor",
+      "Lionel's Greaves",
+      "Lionel's Gauntlets"
+    ],
+    "talismans": [],
+    "skills": [
+      "Night-and-Flame-Stance"
+    ],
+    "spells": [
+      "Rancor",
+      "Ancient Death Rancor",
+      "Golden Vow",
+      "Terra Magica"
+    ]
+  },
+  {
+    "id": "moonlightcrusader",
+    "name": "Moonlight Crusader Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Dark Moon Greatsword",
+      "Carian Regal Scepter"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Moonlight Greatsword"
+    ],
+    "spells": [
+      "Ranni's Dark Moon",
+      "Greatblade Phalanx",
+      "Terra Magica",
+      "Comet"
+    ]
+  },
+  {
+    "id": "nebulaknight",
+    "name": "Nebula Knight Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Wing of Astel"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Scaled Armor Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Nebula"
+    ],
+    "spells": [
+      "Scholar's Shield",
+      "Terra Magica"
+    ]
+  },
+  {
+    "id": "soulsamurai",
+    "name": "Elden Soul Samurai Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Nagakiba",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Black Knife Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Double Slash"
+    ],
+    "spells": [
+      "Greatblade Phalanx",
+      "Founding Rain of Stars",
+      "Unseen Form",
+      "Loretta's Greatbow",
+      "Carian Retaliation",
+      "Scholar's Armament",
+      "Terra Magica",
+      "Freezing Mist"
+    ]
+  },
+  {
+    "id": "warriorwizard",
+    "name": "Warrior Wizard Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Carian Regal Scepter",
+      "Lusat's Glintstone Staff",
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Beast Champion Set",
+      "Greathelm"
+    ],
+    "talismans": [],
+    "skills": [],
+    "spells": [
+      "Terra Magica",
+      "Gavel of Haima",
+      "Loretta's Greatbow",
+      "Carian Slicer",
+      "Carian Piercer",
+      "Carian Greatsword",
+      "Adula's Moonblade"
+    ]
+  },
+  {
+    "id": "ghostblade",
+    "name": "Ghostblade Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "dexterity",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Death's Poker",
+      "Staff of Loss"
+    ],
+    "shield": "Scorpion Kite Shield",
+    "armor": [
+      "Sanguine Noble Hood",
+      "Maliketh's Armor",
+      "Maliketh's Gauntlets",
+      "Maliketh's Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ghostflame Ignition"
+    ],
+    "spells": [
+      "Terra Magica"
+    ]
+  },
+  {
+    "id": "redlightning",
+    "name": "Red Lightning Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Erdtree Seal",
+      "Gravel Stone Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll."
+    ],
+    "talismans": [],
+    "skills": [],
+    "spells": [
+      "Golden Vow",
+      "Lightning Strike",
+      "Lightning Spear",
+      "Lansseax's Glaive",
+      "Frozen Lightning Spear",
+      "Ancient Dragons' Lightning Strike"
+    ]
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin Build (Beginner)",
+    "class": "Confessor",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Any one-handed and a Sacred Seal"
+    ],
+    "shield": "Brass Shield",
+    "armor": [
+      "The heaviest you can wear and still mid-roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Barricade Shield",
+      "Ash of War: Golden Vow"
+    ],
+    "spells": [
+      "Urgent Heal",
+      "Heal"
+    ]
+  },
+  {
+    "id": "dragonpriest",
+    "name": "Dragon Priest Build (Beginner)",
+    "class": "Prophet",
+    "primaryStats": [
+      "mind",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "faith",
+      "arcane"
+    ],
+    "weapons": [],
+    "shield": null,
+    "armor": [],
+    "talismans": [],
+    "skills": [],
+    "spells": [
+      "Catch Flame",
+      "Dragonfire"
+    ]
+  },
+  {
+    "id": "lightninglancer",
+    "name": "Lightning Lancer Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Treespear",
+      "Clawmark Seal",
+      "Gravel Stone Seal"
+    ],
+    "shield": "Golden Greatshield",
+    "armor": [
+      "Leyndell Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Sacred Order, Golden Vow",
+      "Barricade Shield"
+    ],
+    "spells": [
+      "Lightning Spear",
+      "Electrify Armament",
+      "Blessing's Boon"
+    ]
+  },
+  {
+    "id": "blackflamespellblade",
+    "name": "Black Flame Spellblade Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "mind",
+      "vigor"
+    ],
+    "weapons": [
+      "Cross-Naginata",
+      "Flamberge",
+      "Scythe",
+      "Grave Scythe",
+      "Nagakiba",
+      "Uchigatana",
+      "Godslayer's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that allows for med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Repeating Thrust",
+      "Spinning Slash",
+      "Sword Dance",
+      "Double Slash"
+    ],
+    "spells": [
+      "Bloodflame Blade",
+      "Black Flame Blade",
+      "Black Flame",
+      "Scouring Black Flame",
+      "Golden Vow"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Deathblade Build (Level 100)",
+    "class": "",
+    "primaryStats": [],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Sword of Night and Flame",
+      "Prince of Death's Staff",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that allows you to med roll. Spellblade Set boosts Night and Flame's Magic attack by 2% per piece"
+    ],
+    "talismans": [],
+    "skills": [
+      "Night-and-Flame Stance"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Black Flame",
+      "Loretta's Greatbow",
+      "Terra Magica",
+      "Magic Glintblade",
+      "Ancient Death Rancor"
+    ]
+  },
+  {
+    "id": "blasphemousbeastmaster",
+    "name": "Blasphemous Beastmaster Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Clawmark Seal",
+      "Blasphemous Blade",
+      "Cinquedea"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that still allows you to med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Taker's Flames"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Stone of Gurranq",
+      "Beast Claw",
+      "Bestial Sling"
+    ]
+  },
+  {
+    "id": "crusader",
+    "name": "Crusader Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Gargoyle's Greatsword",
+      "Erdtree Seal"
+    ],
+    "shield": "Brass Shield",
+    "armor": [
+      "Haligtree Knight Helm"
+    ],
+    "talismans": [],
+    "skills": [
+      "Barricade Shield",
+      "Sword Dance"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Elden Stars",
+      "Lightning Spear",
+      "Black Blade",
+      "Black Flame's Protection"
+    ]
+  },
+  {
+    "id": "blackflamebushido",
+    "name": "Blackflame Bushido Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Cross-Naginata",
+      "Nagakiba",
+      "Godslayer's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "White Reed Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Phantom Slash",
+      "Sword Dance",
+      "Double Slash"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Black Flame",
+      "Bloodflame Blade",
+      "Black Flame Blade",
+      "Scouring Black Flame",
+      "Black Flame Ritual",
+      "Black Flame's Protection"
+    ]
+  },
+  {
+    "id": "flamedancer",
+    "name": "Flame Dancer Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Giant's Red Braid",
+      "Clawmark Seal"
+    ],
+    "shield": "Greatshield",
+    "armor": [
+      "Any Armor that has high Poise."
+    ],
+    "talismans": [],
+    "skills": [
+      "Flame Dance"
+    ],
+    "spells": [
+      "Flame, Grant Me Strength",
+      "Golden Vow",
+      "Black Flame",
+      "Black Flame Ritual",
+      "Flame, Fall Upon Them"
+    ]
+  },
+  {
+    "id": "goldenswordsage",
+    "name": "Elden Golden Sword Sage Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Coded Sword",
+      "Sword of Night and Flame",
+      "Golden Order Seal"
+    ],
+    "shield": "Blue-Gold Kite Shield",
+    "armor": [
+      "Radiant Gold Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Unblockable Blade",
+      "Barricade Shield"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Discus of Light",
+      "Triple Rings of Light",
+      "Radagon's Rings of Light",
+      "Elden Stars",
+      "Litany of Proper Death"
+    ]
+  },
+  {
+    "id": "swordsaint",
+    "name": "Elden Sword Saint Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "faith"
+    ],
+    "secondaryStats": [
+      "strength",
+      "vigor"
+    ],
+    "weapons": [
+      "Sacred Relic Sword",
+      "Sword of Milos",
+      "Sacred Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor with high Poise",
+      "the higher the better."
+    ],
+    "talismans": [],
+    "skills": [
+      "Wave of Gold"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "drakeknight",
+    "name": "Drake Knight Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor"
+    ],
+    "weapons": [
+      "Magma Wyrm's Scalesword",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Magma Guillotine"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "crucibleknight",
+    "name": "Crucible Knight Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Ordovis' Greatsword",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Crucible Axe Set"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Godfrey Icon",
+      "Flock's Canvas Talisman",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Ordovis' Vortex"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Aspects of the Crucible: Tail",
+      "Aspects of the Crucible: Horns",
+      "Aspects of the Crucible: Breath"
+    ]
+  },
+  {
+    "id": "gladiator",
+    "name": "Gladiator Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Highland Axe"
+    ],
+    "shield": "Redmane Shield",
+    "armor": [
+      "Rotten Duelist Helm",
+      "Rotten Gravekeeper Cloak",
+      "Bull-Goats Gaunlets",
+      "Rotten Duelist Greaves"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Dagger Talisman",
+      "Bull-Goat's Talisman",
+      "Assassin's Cerulean Dagger",
+      "Millicent's Prosthesis"
+    ],
+    "skills": [
+      "Stamp (Upward Cut)"
+    ],
+    "spells": []
+  },
+  {
+    "id": "berserker",
+    "name": "Berserker Build (Beginner)",
+    "class": "Vagabond",
+    "primaryStats": [
+      "endurance",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "weapons": [
+      "Claymore",
+      "Lordsworn's Greatsword"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Quickstep"
+    ],
+    "spells": []
+  },
+  {
+    "id": "barbarian",
+    "name": "Barbarian Build (Beginner)",
+    "class": "Hero",
+    "primaryStats": [
+      "strength",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "dexterity"
+    ],
+    "weapons": [
+      "Zweihander"
+    ],
+    "shield": null,
+    "armor": [
+      "Heavies you can and still med roll (high Poise ideal)"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: War Cry"
+    ],
+    "spells": []
+  },
+  {
+    "id": "archer",
+    "name": "Archer Build (Beginner)",
+    "class": "Bandit",
+    "primaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Shortbow",
+      "Longbow"
+    ],
+    "shield": null,
+    "armor": [
+      "Light or medium weight"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Barrage",
+      "Ash of War: Mighty Shot"
+    ],
+    "spells": []
+  },
+  {
+    "id": "blazingbushido",
+    "name": "Blazing Bushido Build (Level 100)",
+    "class": "Samurai",
+    "primaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Nagakiba",
+      "Greatbow",
+      "Finger Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that still allows med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Unsheathe",
+      "Rain of Arrows"
+    ],
+    "spells": [
+      "Bloodflame Blade",
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "scorchingslayer",
+    "name": "Scorching Slayer Build (Level 100).",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Gargoyle's Twinblade",
+      "Sacred Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that can still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Flame of the Redmanes"
+    ],
+    "spells": [
+      "Bloodflame Blade",
+      "Flame, Grant Me Strength",
+      "Electrify Armament"
+    ]
+  },
+  {
+    "id": "coldbloodedraptor",
+    "name": "Cold-Blooded Raptor Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Bloodhound Claws",
+      "Sacrificial Axe",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Raptor's Black Feathers",
+      "Haima Glintstone Crown"
+    ],
+    "talismans": [],
+    "skills": [
+      "Royal Knight's Resolve",
+      "Golden Vow"
+    ],
+    "spells": [
+      "Great Glintstone Shard",
+      "Loretta's Greatbow",
+      "Terra Magica",
+      "Adula's Moonblade",
+      "Greatblade Phalanx"
+    ]
+  },
+  {
+    "id": "venomousbloodblade",
+    "name": "Venomous Bloodblade Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Scavenger's Curved Sword",
+      "Bandit's Curved Sword"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "Mushroom Crown"
+    ],
+    "talismans": [],
+    "skills": [
+      "Poisonous Mist",
+      "Seppuku"
+    ],
+    "spells": []
+  },
+  {
+    "id": "blasphemousherald",
+    "name": "Blasphemous Herald Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Blasphemous Blade",
+      "Gargoyle's Blackblade",
+      "Gargoyle's Greatsword",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Raptor's Black Feathers"
+    ],
+    "talismans": [],
+    "skills": [
+      "Taker's Flame",
+      "Corpse Wax Cutter",
+      "Flaming Strike",
+      "Sacred Order"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Flame, Grant Me Strength",
+      "Lightning Spear",
+      "Black Flame",
+      "Stone of Gurranq"
+    ]
+  },
+  {
+    "id": "colossalcrusher",
+    "name": "Colossal Crusher Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Giant-Crusher",
+      "Highland Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Bull-Goat Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Troll's Roar"
+    ],
+    "spells": []
+  },
+  {
+    "id": "blackblade",
+    "name": "Elden Black Blade Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Maliketh's Black Blade",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Maliketh's Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Destined Death"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Black Blade"
+    ]
+  },
+  {
+    "id": "godslayer",
+    "name": "Elden Godslayer Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "faith"
+    ],
+    "weapons": [
+      "Godslayer's Greatsword",
+      "Sacred Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor with high Poise",
+      "the higher the better."
+    ],
+    "talismans": [],
+    "skills": [
+      "The Queen's Black Flame"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "eldenlord",
+    "name": "Elden Lord Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Axe of Godfrey",
+      "Highland Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Regal Roar"
+    ],
+    "spells": []
+  },
+  {
+    "id": "perfectpaladin",
+    "name": "Perfect Paladin Build (All Levels)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Miquellan Knight's Sword",
+      "Clawmark Seal"
+    ],
+    "shield": "Haligtree Crest Greatshield",
+    "armor": [
+      "Haligtree Knight Set",
+      "Greathelm"
+    ],
+    "talismans": [],
+    "skills": [
+      "Sacred Blade"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Blessing of the Erdtree"
+    ]
+  },
+  {
+    "id": "haimahoplite",
+    "name": "Haima Hoplite Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Clayman's Harpoon",
+      "Academy Glintstone Staff"
+    ],
+    "shield": "Cuckoo Greatshield",
+    "armor": [
+      "Cuckoo Knight Helm",
+      "Blaidd's Armor",
+      "Cuckoo Knight Gauntlets",
+      "Cuckoo Knight Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Repeating Thrust",
+      "Impaling Thrust"
+    ],
+    "spells": [
+      "Terra Magica",
+      "Scholar's Armament"
+    ]
+  },
+  {
+    "id": "scarletspear",
+    "name": "Scarlet Spear Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Rotten Crystal Spear"
+    ],
+    "shield": "Coil Shield",
+    "armor": [
+      "Redmane Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Charge Forth",
+      "Viper Bite"
+    ],
+    "spells": []
+  },
+  {
+    "id": "supremesamurai",
+    "name": "Supreme Samurai Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Nagakiba"
+    ],
+    "shield": null,
+    "armor": [
+      "Nox Swordstress Armor",
+      "White Reed Gauntlets",
+      "Ronin's Greaves",
+      "Iron Kasa"
+    ],
+    "talismans": [],
+    "skills": [
+      "Unsheathe"
+    ],
+    "spells": []
+  },
+  {
+    "id": "samurai",
+    "name": "Samurai Build (Beginner)",
+    "class": "Samurai",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Uchigatana",
+      "Longbow"
+    ],
+    "shield": null,
+    "armor": [
+      "Land of Reeds Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Unsheathe",
+      "Ash of War: Mighty Shot"
+    ],
+    "spells": []
+  },
+  {
+    "id": "bloodblade",
+    "name": "Bloodblade Build (Beginner)",
+    "class": "Warrior",
+    "primaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "arcane"
+    ],
+    "weapons": [
+      "Scimitar"
+    ],
+    "shield": "Any that can Parry",
+    "armor": [
+      "Heaviest you can wear and still Med Roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Bloody Slash"
+    ],
+    "spells": []
+  },
+  {
+    "id": "thunderingswordspear",
+    "name": "Thundering Swordspear Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor"
+    ],
+    "weapons": [
+      "Guardian's Swordspear",
+      "Finger Seal"
+    ],
+    "shield": "Banished Knight's Shield",
+    "armor": [
+      "Great Helm",
+      "Tree Coat",
+      "Chain Gloves",
+      "Chain Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Thunderbolt"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Electrify Armament",
+      "Blessing's Boon"
+    ]
+  },
+  {
+    "id": "lightningdragoon",
+    "name": "Lightning Dragoon Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "endurance"
+    ],
+    "weapons": [
+      "Bolt of Gransax",
+      "Cleanrot Spear",
+      "Treespear"
+    ],
+    "shield": "Golden Greatshield",
+    "armor": [
+      "Consort's Mask",
+      "Leyndell Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ancient Lightning Spear",
+      "Sacred Phalanx"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "goldenchampion",
+    "name": "Golden Champion Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Ornamental Straight Sword",
+      "Sacred Seal"
+    ],
+    "shield": "Banished Knight's Shield",
+    "armor": [
+      "Banished Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Golden Tempering",
+      "Golden Parry"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing's Boon",
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "serpentsamurai",
+    "name": "Serpent Samurai Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Serpentbone Blade",
+      "Uchigatana",
+      "Wakizashi"
+    ],
+    "shield": null,
+    "armor": [
+      "Mushroom Crown"
+    ],
+    "talismans": [],
+    "skills": [
+      "Double Slash",
+      "Poison Moth Flight",
+      "Parry"
+    ],
+    "spells": []
+  },
+  {
+    "id": "howlingstarfist",
+    "name": "Howling Starfist Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Star Fist",
+      "Highland Axe",
+      "Frenzied Flame Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "and any other Armor that gives you lots of Poise"
+    ],
+    "talismans": [],
+    "skills": [
+      "Beast's Roar"
+    ],
+    "spells": [
+      "Bloodflame Blade"
+    ]
+  },
+  {
+    "id": "inquisitor",
+    "name": "Inquisitor Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "vigor"
+    ],
+    "weapons": [
+      "Ghiza's Wheel"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Heaviest you can wear and still medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": []
+  },
+  {
+    "id": "cariancavalier",
+    "name": "Elden Carian Cavalier Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Loretta's War Sickle"
+    ],
+    "shield": null,
+    "armor": [
+      "Royal Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Loretta's Slash"
+    ],
+    "spells": [
+      "Freezing Mist"
+    ]
+  },
+  {
+    "id": "slumberingswordstress",
+    "name": "Slumbering Swordstress Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Sword of St. Trina"
+    ],
+    "shield": null,
+    "armor": [
+      "Any light armor that allows you to light roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Mists of Slumber"
+    ],
+    "spells": []
+  },
+  {
+    "id": "stormblade",
+    "name": "Stormblade Build (All Levels)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Flamberge"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll."
+    ],
+    "talismans": [],
+    "skills": [
+      "Storm Blade"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Electrify Armament",
+      "Bloodflame Blade"
+    ]
+  },
+  {
+    "id": "vampiricknight",
+    "name": "Vampiric Knight Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Butchering Knife"
+    ],
+    "shield": "Icon Shield",
+    "armor": [
+      "Any armor with high Poise and protection",
+      "the higher the better"
+    ],
+    "talismans": [],
+    "skills": [],
+    "spells": []
+  },
+  {
+    "id": "bloodyballerina",
+    "name": "Bloody Ballerina Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Bloody Helice"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Dynast's Finesse"
+    ],
+    "spells": []
+  },
+  {
+    "id": "blooddragon",
+    "name": "Blood Dragon Build (Level 50)",
+    "class": "Warrior or Bandit",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "faith",
+      "endurance"
+    ],
+    "weapons": [
+      "Curved Swords",
+      "Ashes of War",
+      "Dragon Communion Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Bloody Slash"
+    ],
+    "spells": [
+      "Dragonclaw",
+      "Rotten Breath"
+    ]
+  },
+  {
+    "id": "dragonknight",
+    "name": "Dragon Knight Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "faith",
+      "mind"
+    ],
+    "weapons": [
+      "Bloody Slash",
+      "Dragon Communion Seal"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Silver Tear Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Bloody Slash",
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing's Boon",
+      "Lightning Spear",
+      "Flame, Grant Me Strength",
+      "Black Flame",
+      "Stone of Gurranq",
+      "Agheel's Flame",
+      "Smarag's Glintstone Breath",
+      "Rotten Breath"
+    ]
+  },
+  {
+    "id": "sanguinesamurai",
+    "name": "Sanguine Samurai Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Rivers of Blood",
+      "Sacrificial Axe",
+      "Dragon Communion Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "Okina Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Corpse Piler"
+    ],
+    "spells": [
+      "Flame, Grant Me Strength"
+    ]
+  },
+  {
+    "id": "dragonwarrior",
+    "name": "Dragon Warrior Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "faith",
+      "endurance"
+    ],
+    "weapons": [
+      "Bandit's Curved Sword"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "Poise"
+    ],
+    "talismans": [],
+    "skills": [
+      "Seppuku"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing's Boon",
+      "Ekzyke's Decay",
+      "Dragonclaw",
+      "Dragonmaw"
+    ]
+  },
+  {
+    "id": "madking",
+    "name": "Mad King Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "arcane"
+    ],
+    "secondaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "weapons": [
+      "Morgott's Cursed Sword",
+      "Dragon Communion Seal",
+      "Frenzied Flame Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Cursed-Blood Slice"
+    ],
+    "spells": [
+      "Swarm of Flies",
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Unendurable Frenzy",
+      "Frenzied Burst"
+    ]
+  },
+  {
+    "id": "sanguinespellblade",
+    "name": "Sanguine Spellblade Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "intelligence",
+      "faith"
+    ],
+    "weapons": [
+      "Albinauric Staff",
+      "Dragon Communion Seal",
+      "Staff of the Guilty",
+      "Rogier's Rapier"
+    ],
+    "shield": null,
+    "armor": [
+      "Alberich's Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Seppuku"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Terra Magica",
+      "Unseen Form",
+      "Briars of Punishment",
+      "Briars of Sin"
+    ]
+  },
+  {
+    "id": "cariancleaver",
+    "name": "Carian Cleaver Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Iron Cleaver",
+      "Carian Regal Scepter"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Carian Knight Helm",
+      "Carian Knight Armor",
+      "Banished Knight Gauntlets",
+      "Banished Knight Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Royal Knight's Resolve"
+    ],
+    "spells": [
+      "Greatblade Phalanx"
+    ]
+  },
+  {
+    "id": "goldbreaker",
+    "name": "Gold Breaker Build (NG+)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "faith",
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Marika's Hammer"
+    ],
+    "shield": "Golden Greatshield",
+    "armor": [
+      "Leyndell Knight Set"
+    ],
+    "talismans": [
+      "Assassin's Cerulean Dagger",
+      "Carian Filigreed Crest",
+      "Shard of Alexander",
+      "Warrior Jar Shard",
+      "Curved Sword Talisman",
+      "Dragoncrest Greatshield Talisman"
+    ],
+    "skills": [
+      "Gold Breaker",
+      "Golden Vow"
+    ],
+    "spells": [
+      "Flame Grant me Strength"
+    ]
+  },
+  {
+    "id": "towerknight",
+    "name": "Tower Knight (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "mind",
+      "intelligence",
+      "dexterity"
+    ],
+    "weapons": [
+      "Morning Star"
+    ],
+    "shield": "Manor Towershield",
+    "armor": [
+      "Knight Set"
+    ],
+    "talismans": [
+      "Green Turtle Talisman",
+      "Axe Talisman",
+      "Curved Sword Talisman",
+      "Greatshield Talisman"
+    ],
+    "skills": [
+      "Cragblade"
+    ],
+    "spells": [
+      "Flame Grant Me Strength"
+    ]
+  },
+  {
+    "id": "redrogue",
+    "name": "Red Rogue (All Game Build)",
+    "class": "Bandit",
+    "primaryStats": [
+      "arcane",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Reduvia"
+    ],
+    "shield": null,
+    "armor": [
+      "Skeletal Mask",
+      "Nox Swordstress Armor",
+      "Scaled Gauntlets",
+      "Nox Greaves"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Bull-Goat's Talisman",
+      "Lord of Blood's Exultation",
+      "Shard of Alexander",
+      "Warrior Jar Shard",
+      "Dagger Talisman",
+      "Green Turtle Talisman"
+    ],
+    "skills": [
+      "Reduvia Blood Blade"
+    ],
+    "spells": []
+  },
+  {
+    "id": "blazingblackblade",
+    "name": "Blazing Blackblade (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Hookclaws"
+    ],
+    "shield": null,
+    "armor": [
+      "Knight Set",
+      "Maliketh's Set"
+    ],
+    "talismans": [
+      "Fire Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Rotten Winged Sword Insignia",
+      "Shard of Alexander",
+      "Warrior Jar Shard"
+    ],
+    "skills": [
+      "Flaming Strike"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant Me Strength"
+    ]
+  },
+  {
+    "id": "blueballer",
+    "name": "Blue Baller (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Iron Ball",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Greathelm",
+      "Tree Surcoat",
+      "Scaled Gauntlets",
+      "Scaled Greaves"
+    ],
+    "talismans": [
+      "Rotten Winged Sword Insignia",
+      "Millicent’s Prosthesis",
+      "Axe Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Dagger Talisman",
+      "Assassin’s Crimson Dagger",
+      "Green Turtle Talisman",
+      "Ritual Sword Talisman"
+    ],
+    "skills": [
+      "Endure"
+    ],
+    "spells": [
+      "Scholar's Armament"
+    ]
+  },
+  {
+    "id": "spellthief",
+    "name": "Spellthief (New Game + Build)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Glintstone Kris"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Spellblade's Pointed Hat",
+      "Black Knife Armor",
+      "Spellblade's Gloves",
+      "Spellblade's Trousers"
+    ],
+    "talismans": [
+      "Magic Scorpion Charm",
+      "Ritual Sword Talisman",
+      "Godfrey Icon",
+      "Shard of Alexander",
+      "Warrior Jar Shard"
+    ],
+    "skills": [
+      "Glintstone Dart",
+      "Carian Retaliation"
+    ],
+    "spells": []
+  },
+  {
+    "id": "flameguardian",
+    "name": "Flame Guardian (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Curved Great Club",
+      "Erdtree Seal",
+      "Finger Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Bloodsoaked Mask",
+      "Bloodsoaked Manchettes",
+      "Blackflame Monk Armor",
+      "Blackflame Monk Greaves"
+    ],
+    "talismans": [
+      "Fire Scorpion Charm",
+      "Bull-Goat's Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Shard of Alexander",
+      "Warrior Jar Shard"
+    ],
+    "skills": [
+      "Flaming Strike"
+    ],
+    "spells": [
+      "Flame of the Fell God",
+      "Giantsflame Take Thee",
+      "Black Flame",
+      "Frenzied Burst",
+      "Golden Vow (Spell)",
+      "Flame, Grant me Strength"
+    ]
+  },
+  {
+    "id": "vanquisher",
+    "name": "Vanquisher Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Dragon Halberd"
+    ],
+    "shield": "--",
+    "armor": [
+      "Gelmir Knight Helm",
+      "Gelmir Knight Armor",
+      "Cuckoo Knight Gauntlets",
+      "Gelmir Knight Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Spinning Slash"
+    ],
+    "spells": [
+      "Flame Grant Me Strength"
+    ]
+  },
+  {
+    "id": "warriorofwaves",
+    "name": "Warrior of Waves (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "mind",
+      "intelligence",
+      "dexterity"
+    ],
+    "weapons": [
+      "Ruins Greatsword"
+    ],
+    "shield": null,
+    "armor": [
+      "Greathelm",
+      "Beast Champion Armor",
+      "Beast Champion Gauntlets",
+      "Beast Champion Greaves"
+    ],
+    "talismans": [
+      "Taker's Cameo",
+      "Carian Filigreed Crest",
+      "Great-Jar's Arsenal",
+      "Shard of Alexander",
+      "Ritual Sword Talisman",
+      "Ancestral Spirit's Horn"
+    ],
+    "skills": [
+      "Wave of Destruction"
+    ],
+    "spells": [
+      "Flame Grant me Strength"
+    ]
+  },
+  {
+    "id": "dragonslayer",
+    "name": "Dragonslayer Shadow",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Dragon-Hunter's Great Katana",
+      "Sacrificial Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Rakshasa Set"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Godfrey Icon",
+      "Two-Handed Sword Talisman",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Crusade Insignia"
+    ],
+    "skills": [
+      "Dragonwound Slash"
+    ],
+    "spells": []
+  },
+  {
+    "id": "magmablade",
+    "name": "Magma Blade",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind",
+      "dexterity"
+    ],
+    "weapons": [
+      "Magma Blade",
+      "Erdtree Seal"
+    ],
+    "shield": "One-Eyed Shield",
+    "armor": [
+      "Fire Knight Helm",
+      "Fire Knight Armor",
+      "Scaled Gauntlets",
+      "Scaled Greaves"
+    ],
+    "talismans": [
+      "Talisman of the Dread",
+      "Shard of Alexander",
+      "Fire Scorpion Charm",
+      "Rotten Winged Sword Insignia",
+      "Two-Headed Turtle Talisman"
+    ],
+    "skills": [
+      "Magma Shower",
+      "Flame Spit"
+    ],
+    "spells": []
+  },
+  {
+    "id": "blackguard",
+    "name": "Black Guard (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Clinging Bone",
+      "Marais Executioner's Sword",
+      "Regalia of Eochaid"
+    ],
+    "shield": "Scorpion Kite Shield",
+    "armor": [
+      "Greathelm",
+      "Royal Remains Armor",
+      "Lionel's Gauntlets",
+      "Royal Remains Greaves"
+    ],
+    "talismans": [
+      "Ritual Sword Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Winged Sword Insignia",
+      "Shard of Alexander",
+      "Warrior Jar Shard",
+      "Axe Talisman",
+      "Magic Scorpion Charm",
+      "Dagger Talisman",
+      "Godfrey Icon"
+    ],
+    "skills": [
+      "Lifesteal Fist",
+      "Eochaid's Dancing Blade"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant Me Strength"
+    ]
+  },
+  {
+    "id": "darkpaladin",
+    "name": "Dark Paladin",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "endurance",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Milady"
+    ],
+    "shield": "Wolf Crest Shield",
+    "armor": [
+      "Solitude Set"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Great-Jar's Arsenal",
+      "Axe Talisman",
+      "Spear Talisman"
+    ],
+    "skills": [
+      "Golden Vow",
+      "Cragblade"
+    ],
+    "spells": []
+  },
+  {
+    "id": "criantwinblade",
+    "name": "Carian Twinblade",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Rellana's Twinblade",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Rellana's Set"
+    ],
+    "talismans": [
+      "Rellana's Cameo",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Shard of Alexander",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Moon-and-Fire Stance"
+    ],
+    "spells": []
+  },
+  {
+    "id": "pyromancerperfumer",
+    "name": "Pyromancer Perfumer",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind",
+      "faith"
+    ],
+    "weapons": [
+      "Firespark Perfume Bottle",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Perfumer Hood",
+      "Perfumer Robe",
+      "Perfumer Gloves"
+    ],
+    "talismans": [
+      "Fire Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Perfumer's Talisman",
+      "Axe Talisman",
+      "Shard of Alexander"
+    ],
+    "skills": [
+      "Quickstep",
+      "Bloodhound's Step",
+      "Rolling Sparks"
+    ],
+    "spells": [
+      "Flame Grant me Strength",
+      "Golden Vow"
+    ]
+  },
+  {
+    "id": "starlinedsamurai",
+    "name": "Star-Lined Samurai",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Star-Lined Sword"
+    ],
+    "shield": "Wolf Crest Shield",
+    "armor": [
+      "Iron Kasa",
+      "Tree Surcoat",
+      "White Reed Gauntlets",
+      "White Reed Greaves"
+    ],
+    "talismans": [
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Crusade Insignia",
+      "Blade of Mercy",
+      "Curved Sword Talisman",
+      "Greatshield Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Onze's Line of Stars",
+      "Carian Retaliation (Skill)",
+      "Barricade Shield"
+    ],
+    "spells": [
+      "Scholar's Shield"
+    ]
+  },
+  {
+    "id": "stormarrow",
+    "name": "Storm Arrow",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Ansbach's Longbow",
+      "Albinauric Bow"
+    ],
+    "shield": null,
+    "armor": [
+      "Lamenter's Mask"
+    ],
+    "talismans": [
+      "Blue Dancer Charm",
+      "Arrow's Sting Talisman",
+      "Arrow's Soaring Sting Talisman",
+      "Shard of Alexander",
+      "Crusade Insignia",
+      "Ritual Sword Talisman"
+    ],
+    "skills": [
+      "Fan Shot",
+      "Mighty Shot"
+    ],
+    "spells": []
+  },
+  {
+    "id": "dragongod",
+    "name": "Dragon God",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "faith",
+      "endurance"
+    ],
+    "weapons": [
+      "Dragon Communion Seal",
+      "Bloodfiend's Fork"
+    ],
+    "shield": null,
+    "armor": [],
+    "talismans": [
+      "Blue Dancer Charm",
+      "Crusade Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Blessed Blue Dew Talisman",
+      "Roar Medallion",
+      "Flock's Canvas Talisman"
+    ],
+    "skills": [
+      "Sword Dance",
+      "Braggart's Roar"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant me Strength",
+      "Ekzyke's Decay",
+      "Rotten Breath",
+      "Dragonmaw",
+      "Bayle's Flame Lightning",
+      "Ghostflame Breath",
+      "Bayle's Tyranny"
+    ]
+  }
+]
