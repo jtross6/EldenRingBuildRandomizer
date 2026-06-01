@@ -18,13 +18,32 @@ interface SearchableItem {
 }
 
 const ALL_ITEMS: SearchableItem[] = [
-  ...weapons.map((w, i) => ({ name: w.name, type: "weapon" as const, index: i, category: w.category })),
-  ...shields.map((s, i) => ({ name: s.name, type: "shield" as const, index: i, category: s.category })),
-  ...catalysts.map((c, i) => ({ name: c.name, type: "catalyst" as const, index: i, category: c.category })),
+  ...weapons.map((w, i) => ({
+    name: w.name,
+    type: "weapon" as const,
+    index: i,
+    category: w.category,
+  })),
+  ...shields.map((s, i) => ({
+    name: s.name,
+    type: "shield" as const,
+    index: i,
+    category: s.category,
+  })),
+  ...catalysts.map((c, i) => ({
+    name: c.name,
+    type: "catalyst" as const,
+    index: i,
+    category: c.category,
+  })),
   ...talismans.map((t, i) => ({ name: t.name, type: "talisman" as const, index: i })),
   ...ashesOfWar.map((a, i) => ({ name: a.name, type: "ashOfWar" as const, index: i })),
   ...sorceries.map((s, i) => ({ name: s.name, type: "spell" as const, index: i })),
-  ...incantations.map((inc, i) => ({ name: inc.name, type: "spell" as const, index: i + sorceries.length })),
+  ...incantations.map((inc, i) => ({
+    name: inc.name,
+    type: "spell" as const,
+    index: i + sorceries.length,
+  })),
 ];
 
 const TYPE_LABELS: Record<ItemType, string> = {
@@ -64,8 +83,7 @@ export function ItemSearch({ selectedItems, onAdd, onRemove }: ItemSearchProps) 
     query.length >= 2
       ? ALL_ITEMS.filter(
           (item) =>
-            !selectedNames.has(item.name) &&
-            item.name.toLowerCase().includes(query.toLowerCase()),
+            !selectedNames.has(item.name) && item.name.toLowerCase().includes(query.toLowerCase()),
         ).slice(0, 20)
       : [];
 
@@ -152,7 +170,9 @@ export function ItemSearch({ selectedItems, onAdd, onRemove }: ItemSearchProps) 
               key={`${item.name}-${i}`}
               className="inline-flex items-center gap-1.5 rounded-md border border-border-dark bg-bg-surface px-2.5 py-1.5 text-[11px] font-semibold text-text-primary"
             >
-              <span className={`${TYPE_CATEGORY_CLASS[item.type]} inline-block size-2 rounded-full`} />
+              <span
+                className={`${TYPE_CATEGORY_CLASS[item.type]} inline-block size-2 rounded-full`}
+              />
               {item.name}
               <button
                 type="button"

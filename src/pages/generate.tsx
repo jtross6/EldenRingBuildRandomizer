@@ -2,7 +2,15 @@ import { useState, useCallback } from "react";
 import type { SeedItem } from "../types/generator";
 import { generateBuild } from "../lib/build-generator";
 import { encodeBuild } from "../lib/build-codec";
-import { weapons, shields, catalysts, talismans, ashesOfWar, sorceries, incantations } from "../data";
+import {
+  weapons,
+  shields,
+  catalysts,
+  talismans,
+  ashesOfWar,
+  sorceries,
+  incantations,
+} from "../data";
 import { BuildIdentity } from "../components/equipment/build-identity";
 import { EquipmentSection } from "../components/equipment/equipment-section";
 import { ItemSlot } from "../components/equipment/item-slot";
@@ -82,14 +90,16 @@ export function GeneratePage() {
         </div>
 
         <div className="mb-6 space-y-5 rounded-lg border border-border-dark bg-bg-card/50 p-4">
-          <ItemSearch
-            selectedItems={seedItems}
-            onAdd={handleAddItem}
-            onRemove={handleRemoveItem}
-          />
+          <ItemSearch selectedItems={seedItems} onAdd={handleAddItem} onRemove={handleRemoveItem} />
           <CreativitySlider value={creativity} onChange={setCreativity} />
           <div className="flex items-center justify-between">
-            <SeedDisplay seed={seed} onSeedChange={(s) => { setSeed(s); handleGenerateWithCurrentSeed(); }} />
+            <SeedDisplay
+              seed={seed}
+              onSeedChange={(s) => {
+                setSeed(s);
+                handleGenerateWithCurrentSeed();
+              }}
+            />
           </div>
         </div>
 

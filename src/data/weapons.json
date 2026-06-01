@@ -13,10 +13,7 @@
       "dexterity": 12,
       "intelligence": 18
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1040
   },
   {
@@ -31,9 +28,7 @@
       "strength": 7,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 402
   },
@@ -51,10 +46,7 @@
       "dexterity": 10,
       "arcane": 19
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Ansbach's Longbow",
@@ -68,9 +60,7 @@
       "strength": 9,
       "dexterity": 43
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Antspur Rapier",
@@ -84,9 +74,7 @@
       "strength": 10,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "scarlet_rot": 55
     },
@@ -109,10 +97,7 @@
       "intelligence": 11,
       "faith": 20
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Arbalest",
@@ -122,9 +107,7 @@
       "strength": 18,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -139,9 +122,7 @@
       "strength": 42,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1031
   },
   {
@@ -156,9 +137,7 @@
       "strength": 34,
       "dexterity": 22
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1030
   },
   {
@@ -173,9 +152,7 @@
       "strength": 10,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Bandit's Curved Sword",
@@ -189,9 +166,7 @@
       "strength": 11,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -207,9 +182,7 @@
       "strength": 17,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   },
@@ -225,9 +198,7 @@
       "strength": 14,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 105
   },
@@ -245,10 +216,7 @@
       "dexterity": 18,
       "faith": 22
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Bastard Sword",
@@ -262,9 +230,7 @@
       "strength": 16,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   },
@@ -282,10 +248,7 @@
       "dexterity": 22,
       "intelligence": 22
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1047
   },
   {
@@ -300,9 +263,7 @@
       "strength": 12,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 110
   },
@@ -318,9 +279,7 @@
       "strength": 26,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 654
   },
@@ -336,9 +295,7 @@
       "strength": 13,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Beast-Repellent Torch",
@@ -352,10 +309,7 @@
       "strength": 12,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "allowAshOfWar": true,
     "defaultSkillId": 117
   },
@@ -373,10 +327,7 @@
       "dexterity": 10,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1044
   },
   {
@@ -390,9 +341,7 @@
       "strength": 25,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -408,9 +357,7 @@
       "strength": 13,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -426,9 +373,7 @@
       "strength": 9,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 401
   },
   {
@@ -445,10 +390,7 @@
       "dexterity": 12,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1036
   },
   {
@@ -465,10 +407,7 @@
       "dexterity": 11,
       "faith": 17
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Black Steel Twinblade",
@@ -484,10 +423,7 @@
       "dexterity": 15,
       "faith": 13
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Blade of Calling",
@@ -503,10 +439,7 @@
       "dexterity": 13,
       "faith": 15
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1037
   },
   {
@@ -523,10 +456,7 @@
       "dexterity": 15,
       "faith": 21
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1014
   },
   {
@@ -543,9 +473,7 @@
       "dexterity": 11,
       "arcane": 16
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Bloodfiend's Fork",
@@ -561,9 +489,7 @@
       "dexterity": 8,
       "arcane": 13
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Bloodfiend's Sacred Spear",
@@ -579,9 +505,7 @@
       "dexterity": 12,
       "arcane": 13
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Bloodhound Claws",
@@ -595,9 +519,7 @@
       "strength": 10,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 60
     },
@@ -616,9 +538,7 @@
       "strength": 18,
       "dexterity": 17
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -636,9 +556,7 @@
       "strength": 9,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 38
     },
@@ -659,9 +577,7 @@
       "dexterity": 19,
       "arcane": 17
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -679,10 +595,7 @@
       "strength": 20,
       "dexterity": 40
     },
-    "damageTypes": [
-      "physical",
-      "lightning"
-    ],
+    "damageTypes": ["physical", "lightning"],
     "defaultSkillId": 1049
   },
   {
@@ -697,9 +610,7 @@
       "strength": 8,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Bonny Butchering Knife",
@@ -713,9 +624,7 @@
       "strength": 16,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Brick Hammer",
@@ -727,9 +636,7 @@
     "requirements": {
       "strength": 31
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -745,9 +652,7 @@
       "strength": 10,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 115
   },
@@ -763,9 +668,7 @@
       "strength": 16,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -781,9 +684,7 @@
       "strength": 8,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 700
   },
@@ -799,9 +700,7 @@
       "strength": 8,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 115
   },
@@ -819,10 +718,7 @@
       "dexterity": 10,
       "intelligence": 18
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 218
   },
   {
@@ -839,10 +735,7 @@
       "dexterity": 19,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Celebrant's Cleaver",
@@ -856,9 +749,7 @@
       "strength": 12,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 110
   },
@@ -874,9 +765,7 @@
       "strength": 8,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -892,9 +781,7 @@
       "strength": 6,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 800
   },
@@ -910,9 +797,7 @@
       "strength": 18,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -928,9 +813,7 @@
       "strength": 18,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -950,9 +833,7 @@
       "dexterity": 13,
       "intelligence": 13
     },
-    "damageTypes": [
-      "magic"
-    ]
+    "damageTypes": ["magic"]
   },
   {
     "name": "Cinquedea",
@@ -966,9 +847,7 @@
       "strength": 10,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 800
   },
   {
@@ -981,9 +860,7 @@
     "requirements": {
       "faith": 30
     },
-    "damageTypes": [
-      "holy"
-    ],
+    "damageTypes": ["holy"],
     "defaultSkillId": 1191
   },
   {
@@ -997,10 +874,7 @@
       "strength": 8,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Clayman's Harpoon",
@@ -1016,10 +890,7 @@
       "dexterity": 10,
       "intelligence": 12
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -1035,9 +906,7 @@
       "strength": 16,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 100
   },
@@ -1053,9 +922,7 @@
       "strength": 11,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -1073,10 +940,7 @@
       "dexterity": 16,
       "faith": 14
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1187
   },
   {
@@ -1093,10 +957,7 @@
       "dexterity": 22,
       "arcane": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 205
   },
   {
@@ -1109,9 +970,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -1125,9 +984,7 @@
     "requirements": {
       "faith": 20
     },
-    "damageTypes": [
-      "holy"
-    ],
+    "damageTypes": ["holy"],
     "defaultSkillId": 1054
   },
   {
@@ -1142,9 +999,7 @@
       "strength": 24,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1010
   },
   {
@@ -1159,9 +1014,7 @@
       "strength": 15,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 402
   },
@@ -1179,10 +1032,7 @@
       "dexterity": 8,
       "faith": 22
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1000
   },
   {
@@ -1193,9 +1043,7 @@
       "strength": 14,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -1210,9 +1058,7 @@
       "strength": 25,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 651
   },
@@ -1228,9 +1074,7 @@
       "strength": 16,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -1251,10 +1095,7 @@
       "dexterity": 12,
       "intelligence": 9
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 800
   },
   {
@@ -1271,10 +1112,7 @@
       "dexterity": 16,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 101
   },
   {
@@ -1291,10 +1129,7 @@
       "dexterity": 10,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 103
   },
   {
@@ -1309,9 +1144,7 @@
       "strength": 9,
       "dexterity": 22
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Curved Club",
@@ -1325,9 +1158,7 @@
       "strength": 11,
       "dexterity": 7
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -1343,9 +1174,7 @@
       "strength": 24,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -1361,9 +1190,7 @@
       "strength": 5,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 800
   },
@@ -1378,9 +1205,7 @@
       "strength": 9,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Dane's Footwork",
@@ -1394,9 +1219,7 @@
       "strength": 8,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Dark Moon Greatsword",
@@ -1412,10 +1235,7 @@
       "dexterity": 11,
       "intelligence": 38
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "frostbite": 55
     },
@@ -1434,9 +1254,7 @@
       "dexterity": 13,
       "arcane": 18
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Death Knight's Longhaft Axe",
@@ -1452,10 +1270,7 @@
       "dexterity": 10,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "lightning"
-    ]
+    "damageTypes": ["physical", "lightning"]
   },
   {
     "name": "Death Knight's Twin Axes",
@@ -1471,10 +1286,7 @@
       "dexterity": 12,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "lightning"
-    ]
+    "damageTypes": ["physical", "lightning"]
   },
   {
     "name": "Death Ritual Spear",
@@ -1490,10 +1302,7 @@
       "dexterity": 20,
       "intelligence": 18
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1024
   },
   {
@@ -1510,10 +1319,7 @@
       "dexterity": 17,
       "intelligence": 11
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "frostbite": 65
     },
@@ -1533,10 +1339,7 @@
       "dexterity": 13,
       "faith": 19
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Devourer's Scepter",
@@ -1552,10 +1355,7 @@
       "dexterity": 20,
       "faith": 25
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1183
   },
   {
@@ -1570,9 +1370,7 @@
       "strength": 19,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -1588,10 +1386,7 @@
       "strength": 30,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical",
-      "lightning"
-    ],
+    "damageTypes": ["physical", "lightning"],
     "defaultSkillId": 700
   },
   {
@@ -1606,9 +1401,7 @@
       "strength": 22,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1166
   },
   {
@@ -1623,10 +1416,7 @@
       "strength": 18,
       "dexterity": 37
     },
-    "damageTypes": [
-      "physical",
-      "lightning"
-    ],
+    "damageTypes": ["physical", "lightning"],
     "defaultSkillId": 1026
   },
   {
@@ -1641,9 +1431,7 @@
       "strength": 15,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Dragonscale Blade",
@@ -1657,9 +1445,7 @@
       "strength": 12,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1043
   },
   {
@@ -1674,9 +1460,7 @@
       "strength": 8,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Duelist Greataxe",
@@ -1690,9 +1474,7 @@
       "strength": 30,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 700
   },
@@ -1710,10 +1492,7 @@
       "dexterity": 25,
       "faith": 30
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1174
   },
   {
@@ -1730,10 +1509,7 @@
       "dexterity": 21,
       "arcane": 19
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "statusEffects": {
       "bleed": 55
     },
@@ -1753,10 +1529,7 @@
       "dexterity": 12,
       "faith": 24
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1005
   },
   {
@@ -1773,10 +1546,7 @@
       "dexterity": 12,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1003
   },
   {
@@ -1793,10 +1563,7 @@
       "dexterity": 11,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1004
   },
   {
@@ -1813,9 +1580,7 @@
       "dexterity": 12,
       "faith": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 800
   },
@@ -1833,10 +1598,7 @@
       "dexterity": 12,
       "faith": 14
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 402
   },
   {
@@ -1853,10 +1615,7 @@
       "dexterity": 14,
       "faith": 14
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 400
   },
   {
@@ -1871,9 +1630,7 @@
       "strength": 11,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -1891,10 +1648,7 @@
       "dexterity": 16,
       "faith": 24
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Executioner's Greataxe",
@@ -1908,9 +1662,7 @@
       "strength": 34,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 651
   },
@@ -1926,9 +1678,7 @@
       "strength": 9,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -1946,10 +1696,7 @@
       "dexterity": 12,
       "intelligence": 20
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1194
   },
   {
@@ -1964,9 +1711,7 @@
       "strength": 12,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Family Heads",
@@ -1982,10 +1727,7 @@
       "dexterity": 18,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1184
   },
   {
@@ -2002,10 +1744,7 @@
       "dexterity": 18,
       "faith": 12
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Fire Knight's Shortsword",
@@ -2021,10 +1760,7 @@
       "dexterity": 13,
       "faith": 12
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Firespark Perfume Bottle",
@@ -2037,9 +1773,7 @@
       "strength": 3,
       "dexterity": 14
     },
-    "damageTypes": [
-      "fire"
-    ]
+    "damageTypes": ["fire"]
   },
   {
     "name": "Flail",
@@ -2053,9 +1787,7 @@
       "strength": 10,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -2074,9 +1806,7 @@
       "strength": 15,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -2097,9 +1827,7 @@
       "dexterity": 8,
       "arcane": 15
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Flowing Curved Sword",
@@ -2113,9 +1841,7 @@
       "strength": 9,
       "dexterity": 17
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -2131,9 +1857,7 @@
       "strength": 14,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -2152,9 +1876,7 @@
       "strength": 9,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -2173,9 +1895,7 @@
       "strength": 10,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Frenzyflame Perfume Bottle",
@@ -2193,9 +1913,7 @@
       "intelligence": 12,
       "faith": 12
     },
-    "damageTypes": [
-      "fire"
-    ]
+    "damageTypes": ["fire"]
   },
   {
     "name": "Freyja's Greatsword",
@@ -2209,9 +1927,7 @@
       "strength": 25,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Frozen Needle",
@@ -2225,9 +1941,7 @@
       "strength": 11,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "frostbite": 60
     },
@@ -2242,10 +1956,7 @@
       "dexterity": 10,
       "intelligence": 14
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 503
   },
   {
@@ -2262,10 +1973,7 @@
       "dexterity": 8,
       "faith": 22
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 651
   },
   {
@@ -2282,10 +1990,7 @@
       "dexterity": 15,
       "faith": 22
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 103
   },
   {
@@ -2302,10 +2007,7 @@
       "dexterity": 10,
       "faith": 22
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 103
   },
   {
@@ -2322,10 +2024,7 @@
       "dexterity": 10,
       "faith": 22
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1167
   },
   {
@@ -2340,9 +2039,7 @@
       "strength": 24,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 651
   },
@@ -2358,9 +2055,7 @@
       "strength": 18,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 220
   },
@@ -2376,9 +2071,7 @@
       "strength": 26,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -2394,9 +2087,7 @@
       "strength": 18,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -2415,10 +2106,7 @@
       "intelligence": 20,
       "faith": 14
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Ghiza's Wheel",
@@ -2432,9 +2120,7 @@
       "strength": 28,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 70
     },
@@ -2454,10 +2140,7 @@
       "dexterity": 10,
       "intelligence": 14
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "frostbite": 65
     },
@@ -2474,9 +2157,7 @@
     "requirements": {
       "strength": 60
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 700
   },
@@ -2494,10 +2175,7 @@
       "dexterity": 12,
       "faith": 21
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1045
   },
   {
@@ -2512,9 +2190,7 @@
       "strength": 18,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -2532,10 +2208,7 @@
       "dexterity": 12,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1017
   },
   {
@@ -2550,9 +2223,7 @@
       "strength": 17,
       "dexterity": 22
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 221
   },
@@ -2568,9 +2239,7 @@
       "strength": 14,
       "dexterity": 17
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -2588,10 +2257,7 @@
       "dexterity": 22,
       "faith": 20
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1170
   },
   {
@@ -2608,10 +2274,7 @@
       "dexterity": 10,
       "faith": 14
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1053
   },
   {
@@ -2628,10 +2291,7 @@
       "dexterity": 14,
       "faith": 12
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 603
   },
   {
@@ -2648,10 +2308,7 @@
       "dexterity": 21,
       "faith": 28
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1022
   },
   {
@@ -2670,9 +2327,7 @@
       "intelligence": 11,
       "faith": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Golem Greatbow",
@@ -2686,9 +2341,7 @@
       "strength": 24,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 400
   },
   {
@@ -2703,9 +2356,7 @@
       "strength": 36,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 105
   },
@@ -2721,9 +2372,7 @@
       "strength": 40,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1042
   },
   {
@@ -2740,10 +2389,7 @@
       "dexterity": 14,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1011
   },
   {
@@ -2758,9 +2404,7 @@
       "strength": 17,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -2778,10 +2422,7 @@
     "requirements": {
       "strength": 35
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 213
   },
   {
@@ -2796,9 +2437,7 @@
       "strength": 15,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -2814,9 +2453,7 @@
       "strength": 14,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Great Knife",
@@ -2830,9 +2467,7 @@
       "strength": 6,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 38
     },
@@ -2849,9 +2484,7 @@
     "requirements": {
       "strength": 28
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 700
   },
@@ -2867,9 +2500,7 @@
       "strength": 23,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -2888,9 +2519,7 @@
       "strength": 22,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -2909,9 +2538,7 @@
       "strength": 30,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -2927,9 +2554,7 @@
       "strength": 20,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 400
   },
@@ -2945,9 +2570,7 @@
       "strength": 22,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -2963,9 +2586,7 @@
       "strength": 31,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   },
@@ -2983,10 +2604,7 @@
       "dexterity": 15,
       "faith": 20
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Greatsword of Radahn (Light)",
@@ -3002,10 +2620,7 @@
       "dexterity": 24,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Greatsword of Radahn (Lord)",
@@ -3021,10 +2636,7 @@
       "dexterity": 24,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Greatsword of Solitude",
@@ -3038,9 +2650,7 @@
       "strength": 27,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Grossmesser",
@@ -3054,9 +2664,7 @@
       "strength": 14,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -3072,9 +2680,7 @@
       "strength": 17,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -3090,9 +2696,7 @@
       "strength": 14,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 105
   },
@@ -3110,10 +2714,7 @@
       "dexterity": 16,
       "faith": 15
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "statusEffects": {
       "bleed": 55
     },
@@ -3131,9 +2732,7 @@
       "strength": 14,
       "dexterity": 7
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -3149,9 +2748,7 @@
       "strength": 9,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 800
   },
@@ -3163,9 +2760,7 @@
       "strength": 30,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -3180,9 +2775,7 @@
       "strength": 16,
       "dexterity": 48
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -3200,9 +2793,7 @@
       "strength": 9,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 401
   },
   {
@@ -3213,9 +2804,7 @@
       "strength": 14,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -3232,10 +2821,7 @@
       "dexterity": 10,
       "intelligence": 22
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1021
   },
   {
@@ -3250,9 +2836,7 @@
       "strength": 12,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 651
   },
@@ -3268,9 +2852,7 @@
       "strength": 8,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 60
     },
@@ -3291,10 +2873,7 @@
       "dexterity": 14,
       "intelligence": 12
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "allowAshOfWar": true,
     "defaultSkillId": 402
   },
@@ -3312,9 +2891,7 @@
       "dexterity": 16,
       "faith": 13
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Horned Warrior's Sword",
@@ -3329,9 +2906,7 @@
       "strength": 11,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Hoslow's Petal Whip",
@@ -3345,9 +2920,7 @@
       "strength": 10,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -3366,9 +2939,7 @@
       "strength": 11,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "frostbite": 65
     },
@@ -3397,10 +2968,7 @@
       "dexterity": 15,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "statusEffects": {
       "bleed": 50
     },
@@ -3420,10 +2988,7 @@
       "dexterity": 18,
       "faith": 20
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 201
   },
   {
@@ -3438,9 +3003,7 @@
       "strength": 11,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 700
   },
@@ -3456,9 +3019,7 @@
       "strength": 15,
       "dexterity": 7
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 110
   },
@@ -3474,9 +3035,7 @@
       "strength": 18,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   },
@@ -3492,9 +3051,7 @@
       "strength": 13,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 105
   },
@@ -3512,10 +3069,7 @@
       "dexterity": 11,
       "intelligence": 13
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 800
   },
   {
@@ -3526,9 +3080,7 @@
       "strength": 34,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -3543,9 +3095,7 @@
       "strength": 14,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 110
   },
@@ -3561,9 +3111,7 @@
       "strength": 8,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -3579,9 +3127,7 @@
       "strength": 16,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   },
@@ -3595,9 +3141,7 @@
     "requirements": {
       "strength": 9
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Lance",
@@ -3611,9 +3155,7 @@
       "strength": 20,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 105
   },
@@ -3627,9 +3169,7 @@
     "requirements": {
       "strength": 22
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -3647,10 +3187,7 @@
       "dexterity": 9,
       "intelligence": 13
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 203
   },
   {
@@ -3667,10 +3204,7 @@
       "dexterity": 22,
       "faith": 19
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Light Crossbow",
@@ -3680,9 +3214,7 @@
       "strength": 12,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -3698,9 +3230,7 @@
       "dexterity": 16,
       "faith": 14
     },
-    "damageTypes": [
-      "lightning"
-    ]
+    "damageTypes": ["lightning"]
   },
   {
     "name": "Lion Greatbow",
@@ -3714,9 +3244,7 @@
       "strength": 22,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1169
   },
   {
@@ -3731,9 +3259,7 @@
       "strength": 12,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Longbow",
@@ -3747,9 +3273,7 @@
       "strength": 9,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 402
   },
@@ -3765,9 +3289,7 @@
       "strength": 24,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 651
   },
@@ -3783,9 +3305,7 @@
       "strength": 10,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 115
   },
@@ -3801,9 +3321,7 @@
       "strength": 16,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   },
@@ -3819,9 +3337,7 @@
       "strength": 10,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 115
   },
@@ -3839,10 +3355,7 @@
       "dexterity": 15,
       "intelligence": 20
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1165
   },
   {
@@ -3857,9 +3370,7 @@
       "strength": 15,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 105
   },
@@ -3875,9 +3386,7 @@
       "strength": 12,
       "dexterity": 7
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -3897,10 +3406,7 @@
       "intelligence": 13,
       "faith": 20
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Magma Blade",
@@ -3916,10 +3422,7 @@
       "dexterity": 15,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1172
   },
   {
@@ -3936,10 +3439,7 @@
       "dexterity": 16,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1006
   },
   {
@@ -3956,10 +3456,7 @@
       "dexterity": 15,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 1176
   },
   {
@@ -3974,9 +3471,7 @@
       "strength": 7,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Maliketh's Black Blade",
@@ -3992,10 +3487,7 @@
       "dexterity": 12,
       "faith": 20
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1038
   },
   {
@@ -4010,9 +3502,7 @@
       "strength": 10,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -4030,10 +3520,7 @@
       "dexterity": 14,
       "arcane": 23
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1012
   },
   {
@@ -4050,10 +3537,7 @@
       "dexterity": 12,
       "faith": 19
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1029
   },
   {
@@ -4068,9 +3552,7 @@
       "strength": 14,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Messmer Soldier's Spear",
@@ -4084,9 +3566,7 @@
       "strength": 19,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Meteoric Ore Blade",
@@ -4102,10 +3582,7 @@
       "dexterity": 14,
       "intelligence": 18
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "bleed": 50
     },
@@ -4123,9 +3600,7 @@
       "strength": 12,
       "dexterity": 17
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Miquellan Knight's Sword",
@@ -4141,10 +3616,7 @@
       "dexterity": 11,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 201
   },
   {
@@ -4159,9 +3631,7 @@
       "strength": 16,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 401
   },
@@ -4177,9 +3647,7 @@
       "strength": 7,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 800
   },
@@ -4197,10 +3665,7 @@
       "dexterity": 14,
       "arcane": 27
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "statusEffects": {
       "bleed": 55
     },
@@ -4218,9 +3683,7 @@
       "strength": 18,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -4236,9 +3699,7 @@
       "strength": 13,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -4256,10 +3717,7 @@
       "dexterity": 14,
       "intelligence": 18
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Moonveil",
@@ -4275,10 +3733,7 @@
       "dexterity": 18,
       "intelligence": 23
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "bleed": 50
     },
@@ -4298,9 +3753,7 @@
       "dexterity": 35,
       "arcane": 17
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 60
     },
@@ -4318,9 +3771,7 @@
       "strength": 12,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -4339,9 +3790,7 @@
       "strength": 18,
       "dexterity": 22
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 45
     },
@@ -4364,10 +3813,7 @@
       "intelligence": 14,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Nightrider Flail",
@@ -4381,9 +3827,7 @@
       "strength": 10,
       "dexterity": 24
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -4402,9 +3846,7 @@
       "strength": 26,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -4420,9 +3862,7 @@
       "strength": 9,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -4438,9 +3878,7 @@
       "strength": 8,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 115
   },
@@ -4456,9 +3894,7 @@
       "strength": 17,
       "dexterity": 7
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1035
   },
   {
@@ -4473,9 +3909,7 @@
       "strength": 8,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1018
   },
   {
@@ -4492,9 +3926,7 @@
       "dexterity": 25,
       "arcane": 17
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Omen Cleaver",
@@ -4508,9 +3940,7 @@
       "strength": 19,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -4528,10 +3958,7 @@
       "dexterity": 16,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1041
   },
   {
@@ -4548,10 +3975,7 @@
       "dexterity": 13,
       "faith": 15
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1198
   },
   {
@@ -4566,9 +3990,7 @@
       "strength": 10,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1052
   },
   {
@@ -4583,9 +4005,7 @@
       "strength": 5,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -4601,9 +4021,7 @@
       "strength": 15,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -4619,9 +4037,7 @@
       "strength": 11,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Pest's Glaive",
@@ -4635,9 +4051,7 @@
       "strength": 13,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -4653,9 +4067,7 @@
       "strength": 22,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 700
   },
@@ -4671,9 +4083,7 @@
       "strength": 20,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 105
   },
@@ -4690,9 +4100,7 @@
       "dexterity": 8,
       "arcane": 28
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Poleblade of the Bud",
@@ -4708,9 +4116,7 @@
       "dexterity": 22,
       "arcane": 20
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Prelate's Inferno Crozier",
@@ -4724,9 +4130,7 @@
       "strength": 45,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 113
   },
@@ -4742,9 +4146,7 @@
       "strength": 11,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 402
   },
   {
@@ -4755,9 +4157,7 @@
       "strength": 16,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -4774,10 +4174,7 @@
       "dexterity": 10,
       "arcane": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Queelign's Greatsword",
@@ -4793,10 +4190,7 @@
       "dexterity": 18,
       "faith": 12
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Rabbath's Cannon",
@@ -4806,10 +4200,7 @@
       "strength": 28,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Rakshasa's Great Katana",
@@ -4823,9 +4214,7 @@
       "strength": 12,
       "dexterity": 27
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Rapier",
@@ -4839,9 +4228,7 @@
       "strength": 7,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -4857,9 +4244,7 @@
       "strength": 6,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 60
     },
@@ -4878,9 +4263,7 @@
       "strength": 20,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Red Branch Shortbow",
@@ -4894,9 +4277,7 @@
       "strength": 8,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 401
   },
@@ -4914,9 +4295,7 @@
       "dexterity": 13,
       "arcane": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -4936,10 +4315,7 @@
       "dexterity": 18,
       "arcane": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1055
   },
   {
@@ -4958,11 +4334,7 @@
       "intelligence": 16,
       "faith": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic",
-      "fire"
-    ]
+    "damageTypes": ["physical", "magic", "fire"]
   },
   {
     "name": "Repeating Crossbow",
@@ -4972,9 +4344,7 @@
       "strength": 13,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Ringed Finger",
@@ -4988,9 +4358,7 @@
       "strength": 15,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1046
   },
   {
@@ -5005,9 +4373,7 @@
       "dexterity": 11,
       "arcane": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 110
   },
   {
@@ -5022,9 +4388,7 @@
       "dexterity": 12,
       "arcane": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 103
   },
   {
@@ -5041,10 +4405,7 @@
       "dexterity": 18,
       "arcane": 20
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "statusEffects": {
       "bleed": 50
     },
@@ -5062,9 +4423,7 @@
       "strength": 8,
       "dexterity": 17
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 109
   },
@@ -5082,10 +4441,7 @@
       "dexterity": 10,
       "intelligence": 18
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1185
   },
   {
@@ -5100,9 +4456,7 @@
       "strength": 26,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "scarlet_rot": 65
     },
@@ -5123,10 +4477,7 @@
       "dexterity": 16,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "scarlet_rot": 55
     },
@@ -5146,10 +4497,7 @@
       "dexterity": 10,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "scarlet_rot": 50
     },
@@ -5167,9 +4515,7 @@
       "strength": 30,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "scarlet_rot": 65
     },
@@ -5188,9 +4534,7 @@
       "strength": 34,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "scarlet_rot": 75
     },
@@ -5210,10 +4554,7 @@
       "dexterity": 18,
       "intelligence": 22
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1025
   },
   {
@@ -5228,10 +4569,7 @@
       "strength": 50,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1033
   },
   {
@@ -5246,9 +4584,7 @@
       "strength": 26,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 650
   },
@@ -5266,10 +4602,7 @@
       "dexterity": 24,
       "faith": 22
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1020
   },
   {
@@ -5284,9 +4617,7 @@
       "strength": 16,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 110
   },
@@ -5302,9 +4633,7 @@
       "strength": 9,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 45
     },
@@ -5325,10 +4654,7 @@
       "dexterity": 18,
       "intelligence": 21
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1182
   },
   {
@@ -5343,9 +4669,7 @@
       "strength": 7,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -5361,9 +4685,7 @@
       "strength": 6,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "scarlet_rot": 50
     },
@@ -5381,9 +4703,7 @@
       "strength": 14,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -5404,10 +4724,7 @@
       "dexterity": 8,
       "faith": 15
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 117
   },
   {
@@ -5424,9 +4741,7 @@
       "dexterity": 15,
       "arcane": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 402
   },
   {
@@ -5443,10 +4758,7 @@
       "dexterity": 24,
       "faith": 21
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Serpent-God's Curved Sword",
@@ -5460,9 +4772,7 @@
       "strength": 13,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -5474,9 +4784,7 @@
       "strength": 0.95,
       "dexterity": 0.05
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1188
   },
   {
@@ -5491,9 +4799,7 @@
       "strength": 11,
       "dexterity": 22
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "poison": 66
     },
@@ -5513,10 +4819,7 @@
       "dexterity": 8,
       "faith": 25
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Shamshir",
@@ -5530,9 +4833,7 @@
       "strength": 7,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -5548,9 +4849,7 @@
       "strength": 10,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -5566,9 +4865,7 @@
       "strength": 8,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -5584,9 +4881,7 @@
       "strength": 8,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 401
   },
@@ -5602,9 +4897,7 @@
       "strength": 9,
       "dexterity": 19
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -5622,10 +4915,7 @@
       "dexterity": 13,
       "faith": 20
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1009
   },
   {
@@ -5644,9 +4934,7 @@
       "intelligence": 11,
       "faith": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Smithscript Cirque",
@@ -5664,9 +4952,7 @@
       "intelligence": 11,
       "faith": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Smithscript Dagger",
@@ -5684,9 +4970,7 @@
       "intelligence": 11,
       "faith": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Smithscript Greathammer",
@@ -5704,9 +4988,7 @@
       "intelligence": 11,
       "faith": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Smithscript Spear",
@@ -5724,9 +5006,7 @@
       "intelligence": 11,
       "faith": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Soldier's Crossbow",
@@ -5736,9 +5016,7 @@
       "strength": 10,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 503
   },
   {
@@ -5753,9 +5031,7 @@
       "strength": 12,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 101
   },
@@ -5773,10 +5049,7 @@
       "dexterity": 35,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ]
+    "damageTypes": ["physical", "fire"]
   },
   {
     "name": "Spiked Caestus",
@@ -5790,9 +5063,7 @@
       "strength": 8,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 45
     },
@@ -5811,9 +5082,7 @@
       "strength": 12,
       "dexterity": 7
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -5832,9 +5101,7 @@
       "strength": 14,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -5855,10 +5122,7 @@
       "dexterity": 17,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Spirit Sword",
@@ -5874,10 +5138,7 @@
       "dexterity": 16,
       "intelligence": 16
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Spread Crossbow",
@@ -5887,9 +5148,7 @@
       "strength": 11,
       "dexterity": 17
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "St. Trina's Torch",
@@ -5905,10 +5164,7 @@
       "dexterity": 10,
       "faith": 14
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "statusEffects": {
       "sleep": 72
     },
@@ -5928,10 +5184,7 @@
       "dexterity": 8,
       "faith": 24
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1193
   },
   {
@@ -5946,9 +5199,7 @@
       "strength": 12,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 45
     },
@@ -5969,10 +5220,7 @@
       "dexterity": 23,
       "intelligence": 21
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Starscourge Greatsword",
@@ -5988,10 +5236,7 @@
       "dexterity": 12,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1032
   },
   {
@@ -6006,10 +5251,7 @@
       "strength": 10,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 223
   },
   {
@@ -6024,9 +5266,7 @@
       "strength": 16,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -6042,9 +5282,7 @@
       "strength": 16,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Stormhawk Axe",
@@ -6058,9 +5296,7 @@
       "strength": 19,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1186
   },
   {
@@ -6074,9 +5310,7 @@
       "strength": 10,
       "dexterity": 26
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Sword Lance",
@@ -6090,9 +5324,7 @@
       "strength": 21,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Sword of Darkness",
@@ -6108,10 +5340,7 @@
       "dexterity": 11,
       "faith": 24
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Sword of Light",
@@ -6127,10 +5356,7 @@
       "dexterity": 11,
       "faith": 24
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ]
+    "damageTypes": ["physical", "holy"]
   },
   {
     "name": "Sword of Milos",
@@ -6144,9 +5370,7 @@
       "strength": 15,
       "dexterity": 19
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -6163,10 +5387,7 @@
       "strength": 11,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Sword of Night and Flame",
@@ -6184,11 +5405,7 @@
       "intelligence": 24,
       "faith": 24
     },
-    "damageTypes": [
-      "physical",
-      "magic",
-      "fire"
-    ],
+    "damageTypes": ["physical", "magic", "fire"],
     "defaultSkillId": 1019
   },
   {
@@ -6205,10 +5422,7 @@
       "dexterity": 12,
       "intelligence": 14
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "statusEffects": {
       "sleep": 66
     },
@@ -6228,10 +5442,7 @@
       "dexterity": 22,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Thorned Whip",
@@ -6245,9 +5456,7 @@
       "strength": 8,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -6266,9 +5475,7 @@
       "strength": 10,
       "dexterity": 24
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Torch",
@@ -6282,10 +5489,7 @@
       "strength": 5,
       "dexterity": 5
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "allowAshOfWar": true,
     "defaultSkillId": 117
   },
@@ -6301,10 +5505,7 @@
       "strength": 14,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 105
   },
   {
@@ -6321,10 +5522,7 @@
       "dexterity": 22,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 604
   },
   {
@@ -6341,10 +5539,7 @@
       "dexterity": 14,
       "intelligence": 18
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 653
   },
   {
@@ -6359,9 +5554,7 @@
       "strength": 29,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 653
   },
@@ -6379,10 +5572,7 @@
       "dexterity": 8,
       "faith": 10
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 653
   },
   {
@@ -6397,9 +5587,7 @@
       "strength": 10,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -6415,9 +5603,7 @@
       "strength": 16,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -6433,9 +5619,7 @@
       "strength": 11,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 45
     },
@@ -6454,9 +5638,7 @@
       "strength": 10,
       "dexterity": 19
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -6474,9 +5656,7 @@
       "dexterity": 16,
       "arcane": 24
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 65
     },
@@ -6496,10 +5676,7 @@
       "dexterity": 12,
       "intelligence": 14
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Venomous Fang",
@@ -6513,9 +5690,7 @@
       "strength": 9,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "poison": 72
     },
@@ -6534,10 +5709,7 @@
       "strength": 15,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical",
-      "lightning"
-    ],
+    "damageTypes": ["physical", "lightning"],
     "defaultSkillId": 1190
   },
   {
@@ -6552,9 +5724,7 @@
       "strength": 15,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 55
     },
@@ -6573,9 +5743,7 @@
       "strength": 14,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -6593,10 +5761,7 @@
       "dexterity": 20,
       "faith": 18
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "statusEffects": {
       "madness": 65
     },
@@ -6614,9 +5779,7 @@
       "strength": 9,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 38
     },
@@ -6635,9 +5798,7 @@
       "strength": 10,
       "dexterity": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 103
   },
@@ -6652,9 +5813,7 @@
       "strength": 24,
       "dexterity": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 651
   },
@@ -6670,9 +5829,7 @@
       "strength": 11,
       "dexterity": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -6688,9 +5845,7 @@
       "strength": 30,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   },
@@ -6706,9 +5861,7 @@
       "strength": 34,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1192
   },
   {
@@ -6723,9 +5876,7 @@
       "strength": 7,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 115
   },
@@ -6741,9 +5892,7 @@
       "strength": 8,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 503
   },
@@ -6761,10 +5910,7 @@
       "dexterity": 17,
       "intelligence": 20
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 1173
   },
   {
@@ -6779,9 +5925,7 @@
       "strength": 30,
       "dexterity": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1013
   },
   {
@@ -6798,10 +5942,7 @@
       "dexterity": 16,
       "faith": 24
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "statusEffects": {
       "bleed": 55
     },
@@ -6819,9 +5960,7 @@
       "strength": 16,
       "dexterity": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "frostbite": 65
     },
@@ -6839,9 +5978,7 @@
       "strength": 19,
       "dexterity": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 106
   }

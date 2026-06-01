@@ -60,9 +60,7 @@ export function generateBuildName(seedItems: SeedItem[], profile: StatProfile): 
   const primaryItem = seedItems[0];
   if (!primaryItem) return archetype;
 
-  const itemName = primaryItem.name
-    .replace(/^Ash of War:\s*/i, "")
-    .replace(/^Ash of War\s*/i, "");
+  const itemName = primaryItem.name.replace(/^Ash of War:\s*/i, "").replace(/^Ash of War\s*/i, "");
 
   return `${itemName} ${archetype}`;
 }

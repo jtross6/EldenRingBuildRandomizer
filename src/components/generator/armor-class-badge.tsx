@@ -16,7 +16,11 @@ export function ArmorClassBadge({ armorClass }: ArmorClassBadgeProps) {
   return (
     <div className="flex items-center gap-3 rounded-lg border border-border-dark bg-bg-card px-4 py-3 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover">
       <div className="cat-armor flex size-11 shrink-0 items-center justify-center rounded-sm">
-        <svg className="size-6 opacity-60 text-text-secondary" viewBox="0 0 24 24" fill="currentColor">
+        <svg
+          className="size-6 opacity-60 text-text-secondary"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
           <path d="M12 2L3 7v6c0 5.25 3.83 10.18 9 11.38 5.17-1.2 9-6.13 9-11.38V7l-9-5z" />
         </svg>
       </div>

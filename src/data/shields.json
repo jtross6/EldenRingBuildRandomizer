@@ -9,9 +9,7 @@
     "requirements": {
       "strength": 11
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -25,9 +23,7 @@
     "requirements": {
       "strength": 28
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "poison": 90
     },
@@ -43,9 +39,7 @@
     "requirements": {
       "strength": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -59,9 +53,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -75,9 +67,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -91,9 +81,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -107,9 +95,7 @@
     "requirements": {
       "strength": 35
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Blue Crest Heater Shield",
@@ -121,9 +107,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -137,9 +121,7 @@
     "requirements": {
       "strength": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -153,9 +135,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -169,9 +149,7 @@
     "requirements": {
       "strength": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -185,9 +163,7 @@
     "requirements": {
       "strength": 21
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 70
     },
@@ -206,9 +182,7 @@
       "strength": 8,
       "dexterity": 13
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 303
   },
@@ -222,9 +196,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -241,10 +213,7 @@
       "dexterity": 10,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -262,10 +231,7 @@
       "dexterity": 13,
       "intelligence": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Coil Shield",
@@ -278,9 +244,7 @@
       "strength": 10,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "poison": 72
     },
@@ -296,9 +260,7 @@
     "requirements": {
       "strength": 30
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 300
   },
@@ -312,9 +274,7 @@
     "requirements": {
       "strength": 26
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 300
   },
   {
@@ -327,9 +287,7 @@
     "requirements": {
       "strength": 32
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -343,9 +301,7 @@
     "requirements": {
       "strength": 32
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -359,9 +315,7 @@
     "requirements": {
       "strength": 30
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 300
   },
@@ -377,10 +331,7 @@
       "strength": 28,
       "dexterity": 12
     },
-    "damageTypes": [
-      "physical",
-      "lightning"
-    ],
+    "damageTypes": ["physical", "lightning"],
     "defaultSkillId": 300
   },
   {
@@ -395,9 +346,7 @@
       "strength": 15,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Eclipse Crest Greatshield",
@@ -409,9 +358,7 @@
     "requirements": {
       "strength": 32
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -425,9 +372,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -443,10 +388,7 @@
       "strength": 30,
       "faith": 12
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 1196
   },
   {
@@ -459,9 +401,7 @@
     "requirements": {
       "strength": 48
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "madness": 70
     },
@@ -478,9 +418,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -494,9 +432,7 @@
     "requirements": {
       "strength": 36
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -510,9 +446,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -526,9 +460,7 @@
     "requirements": {
       "strength": 24
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -542,9 +474,7 @@
     "requirements": {
       "strength": 34
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -558,9 +488,7 @@
     "requirements": {
       "strength": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Great Turtle Shell",
@@ -572,9 +500,7 @@
     "requirements": {
       "strength": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 301
   },
@@ -588,9 +514,7 @@
     "requirements": {
       "strength": 36
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -604,9 +528,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -620,9 +542,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -636,9 +556,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -652,9 +570,7 @@
     "requirements": {
       "strength": 9
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -668,9 +584,7 @@
     "requirements": {
       "strength": 22
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -683,9 +597,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -699,9 +611,7 @@
     "requirements": {
       "strength": 30
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 300
   },
@@ -715,9 +625,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -732,9 +640,7 @@
       "strength": 20,
       "dexterity": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1197
   },
   {
@@ -747,9 +653,7 @@
     "requirements": {
       "strength": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -763,9 +667,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -779,9 +681,7 @@
     "requirements": {
       "strength": 16
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 300
   },
@@ -795,9 +695,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -811,9 +709,7 @@
     "requirements": {
       "strength": 30
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 300
   },
@@ -827,9 +723,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -846,9 +740,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -865,9 +757,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "One-Eyed Shield",
@@ -879,9 +769,7 @@
     "requirements": {
       "strength": 36
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1001
   },
   {
@@ -894,9 +782,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -910,9 +796,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -926,9 +810,7 @@
     "requirements": {
       "strength": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -942,9 +824,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -958,9 +838,7 @@
     "requirements": {
       "strength": 30
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -974,9 +852,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -990,9 +866,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -1006,9 +880,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -1022,9 +894,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -1038,9 +908,7 @@
     "requirements": {
       "strength": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -1054,9 +922,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -1070,9 +936,7 @@
     "requirements": {
       "strength": 12
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Shield of Night",
@@ -1085,10 +949,7 @@
       "strength": 8,
       "dexterity": 15
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ]
+    "damageTypes": ["physical", "magic"]
   },
   {
     "name": "Shield of the Guilty",
@@ -1100,9 +961,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 50
     },
@@ -1122,10 +981,7 @@
       "dexterity": 10,
       "intelligence": 10
     },
-    "damageTypes": [
-      "physical",
-      "magic"
-    ],
+    "damageTypes": ["physical", "magic"],
     "defaultSkillId": 10
   },
   {
@@ -1144,9 +1000,7 @@
       "intelligence": 11,
       "faith": 11
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Smoldering Shield",
@@ -1161,10 +1015,7 @@
       "dexterity": 9,
       "faith": 12
     },
-    "damageTypes": [
-      "physical",
-      "fire"
-    ],
+    "damageTypes": ["physical", "fire"],
     "defaultSkillId": 300
   },
   {
@@ -1177,9 +1028,7 @@
     "requirements": {
       "strength": 20
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 70
     },
@@ -1197,9 +1046,7 @@
       "strength": 8,
       "dexterity": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "bleed": 45
     },
@@ -1216,9 +1063,7 @@
     "requirements": {
       "strength": 8
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 302
   },
@@ -1232,9 +1077,7 @@
     "requirements": {
       "strength": 12
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -1248,9 +1091,7 @@
     "requirements": {
       "strength": 49
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Visage Shield",
@@ -1262,9 +1103,7 @@
     "requirements": {
       "strength": 44
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 1002
   },
   {
@@ -1277,9 +1116,7 @@
     "requirements": {
       "strength": 12
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Wooden Greatshield",
@@ -1291,9 +1128,7 @@
     "requirements": {
       "strength": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   }
