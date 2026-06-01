@@ -1,6 +1,7 @@
 import { createRouter, createRoute, createRootRoute } from "@tanstack/react-router";
 import { RootLayout } from "./components/layout/root-layout";
 import { BuildViewerPage } from "./pages/build-viewer";
+import { GeneratePage } from "./pages/generate";
 
 const rootRoute = createRootRoute({
   component: RootLayout,
@@ -15,7 +16,13 @@ export const indexRoute = createRoute({
   component: BuildViewerPage,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute]);
+export const generateRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/generate",
+  component: GeneratePage,
+});
+
+const routeTree = rootRoute.addChildren([indexRoute, generateRoute]);
 
 export const router = createRouter({
   routeTree,
