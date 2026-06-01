@@ -3,6 +3,7 @@ import { RootLayout } from "./components/layout/root-layout";
 import { LandingPage } from "./pages/landing";
 import { BuildViewerPage } from "./pages/build-viewer";
 import { GeneratePage } from "./pages/generate";
+import { PicksPage } from "./pages/picks";
 
 const rootRoute = createRootRoute({
   component: RootLayout,
@@ -29,7 +30,25 @@ export const generateRoute = createRoute({
   component: GeneratePage,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute, randomRoute, generateRoute]);
+export const picksRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/generate/picks",
+  component: PicksPage,
+});
+
+export const generateBuildRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/generate/build",
+  component: () => null,
+});
+
+const routeTree = rootRoute.addChildren([
+  indexRoute,
+  randomRoute,
+  generateRoute,
+  picksRoute,
+  generateBuildRoute,
+]);
 
 export const router = createRouter({
   routeTree,
