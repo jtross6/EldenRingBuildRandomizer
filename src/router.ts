@@ -5,6 +5,7 @@ import { BuildViewerPage } from "./pages/build-viewer";
 import { GeneratePage } from "./pages/generate";
 import { PicksPage } from "./pages/picks";
 import { GenerateBuildPage } from "./pages/generate-build";
+import { FatePage } from "./pages/fate";
 
 const rootRoute = createRootRoute({
   component: RootLayout,
@@ -43,12 +44,22 @@ export const generateBuildRoute = createRoute({
   component: GenerateBuildPage,
 });
 
+export const fateRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/fate",
+  validateSearch: (search: Record<string, unknown>): { fate?: string } => ({
+    fate: typeof search.fate === "string" ? search.fate : undefined,
+  }),
+  component: FatePage,
+});
+
 const routeTree = rootRoute.addChildren([
   indexRoute,
   randomRoute,
   generateRoute,
   picksRoute,
   generateBuildRoute,
+  fateRoute,
 ]);
 
 export const router = createRouter({
