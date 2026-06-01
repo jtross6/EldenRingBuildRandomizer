@@ -382,7 +382,7 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const armorClass = determineArmorClass(profile, totalWeaponWeight / weaponsRight.length);
 
   const build: Build = {
-    buildName: generateBuildName(seedItems, profile),
+    buildName: generateBuildName(seedItems, profile, damageTypes, rng),
     weaponsRight,
     weaponsLeft,
     helm: -1,
