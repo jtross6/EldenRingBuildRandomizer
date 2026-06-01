@@ -1,0 +1,3486 @@
+{
+  "Glintstone Pebble": {
+    "description": [
+      "The most basic glintstone sorcery of the Academy of Raya Lucaria.",
+      "",
+      "The glintstone serves as a conduit, launching magical projectiles at foes.",
+      "This sorcery can be cast repeatedly and while in motion.",
+      "",
+      "This is a universal first step on the journey to true knowledge of sorcery."
+    ],
+    "summary": "Fires magic projectiles from glintstone",
+    "fpCost": 7,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 10
+    }
+  },
+  "Great Glintstone Shard": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "The glintstone serves as a conduit, launching large magical projectiles at foes.",
+      "This sorcery can be cast repeatedly and while in motion.",
+      "",
+      "Those unworthy of the stone crown typically end their brief journey into sorcery here."
+    ],
+    "summary": "Fires larger magic projectiles from glintstone",
+    "fpCost": 12,
+    "spCost": 26,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 16
+    }
+  },
+  "Swift Glintstone Shard": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "The glintstone serves as a conduit, launching swift magical projectiles at foes.",
+      "This sorcery can be used without delay after performing another action.",
+      "",
+      "Those unworthy of the stone crown typically end their brief journey into sorcery here."
+    ],
+    "summary": "Swiftly fires magic projectiles from glintstone",
+    "fpCost": 5,
+    "spCost": 9,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 12
+    }
+  },
+  "Glintstone Cometshard": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires a magical comet with a trailing tail.",
+      "This sorcery can be cast repeatedly and while in motion. Charging enhances potency.",
+      "",
+      "A sorcery of the Karolos Conspectus, the most venerable of the academy."
+    ],
+    "summary": "Fires a magic comet with a trailing tail",
+    "fpCost": 17,
+    "spCost": 28,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 36
+    }
+  },
+  "Comet": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires a great magical comet.",
+      "This sorcery can be cast repeatedly and while in motion. Charging enhances potency.",
+      "",
+      "The greatest of the Karolos Conspectus's sorceries, that only a very few sorcerers have ever mastered."
+    ],
+    "summary": "Fires a great magic comet",
+    "fpCost": 24,
+    "spCost": 31,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 52
+    }
+  },
+  "Shard Spiral": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires twin projectiles that form a spiral as they travel. This sorcery can be cast repeatedly and while in motion.",
+      "Charging enhances potency.",
+      "",
+      "A sorcery of the Karolos Conspectus, the most venerable of the academy. This was the product of a failed attempt to create a new comet."
+    ],
+    "summary": "Fires twin spiraling projectiles",
+    "fpCost": 14,
+    "spCost": 28,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 27
+    }
+  },
+  "Glintstone Stars": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires three magic shooting stars that pursue the target.",
+      "This sorcery can be cast while in motion. Charging enhances potency.",
+      "",
+      "A sorcery of the Olivinus Conspectus, which attracts sorcerers from Sellia, Town of Sorcery."
+    ],
+    "summary": "Fires three shooting stars that pursue foes",
+    "fpCost": 12,
+    "spCost": 21,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 12
+    }
+  },
+  "Star Shower": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires six magic shooting stars that pursue the target.",
+      "This sorcery can be cast while in motion. Charging enhances potency.",
+      "",
+      "The most difficult to master of the Olivinus Conspectus sorceries."
+    ],
+    "summary": "Fires six shooting stars that pursue foes",
+    "fpCost": 23,
+    "spCost": 26,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 24
+    }
+  },
+  "Crystal Barrage": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires a volley of glintstone crystal shards.",
+      "Charging increases potency.",
+      "",
+      "A sorcery of the Crystal Cadre, a group of sorcerers who pursue the wisdom of stone—the secrets locked in the faint cogitation of the Crystalians."
+    ],
+    "summary": "Fires a volley of glintstone crystal shards",
+    "fpCost": 14,
+    "spCost": 26,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 23
+    }
+  },
+  "Glintstone Arc": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires a horizontal arc of magic that spreads outward.",
+      "This sorcery can be cast repeatedly and while in motion.",
+      "",
+      "Granted to sorcerers who depart from the academy to embark on journeys, in order to fend off large groups of would-be adversaries. Fools often roam in packs."
+    ],
+    "summary": "Fires a horizontally-widening magic arc",
+    "fpCost": 9,
+    "spCost": 18,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 13
+    }
+  },
+  "Cannon of Haima": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Lobs an explosive magic projectile that flies in an arc.",
+      "Charging enhances potency.",
+      "",
+      "Drawn from the conspectus of Haima, the adjudicator of the academy, this sorcery employs might as a means to quell conflict."
+    ],
+    "summary": "Lobs an explosive magic projectile in an arc",
+    "fpCost": 38,
+    "spCost": 42,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 25
+    }
+  },
+  "Crystal Burst": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Fires a burst of glintstone crystal shards.",
+      "This sorcery can be cast repeatedly and while in motion. Charging increases potency.",
+      "",
+      "A sorcery of the Crystal Cadre, a group of sorcerers who pursued the wisdom of stone—the secrets locked in the faint cogitation of the Crystalians."
+    ],
+    "summary": "Fires a burst of glintstone crystal shards",
+    "fpCost": 14,
+    "spCost": 9,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 18
+    }
+  },
+  "Shatter Earth": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Imbues the ferrule of the caster's staff with magic, then thrusts it into the ground to create a magical shockwave.",
+      "Allows one follow-up attack.",
+      "",
+      "A Stonedigger sorcery used by the glintstone miners of the crystal tunnel. At the academy, use of this sorcery was a stigma that marked out failed scholars."
+    ],
+    "summary": "Thrust staff into ground to emit a shockwave",
+    "fpCost": 10,
+    "spCost": 22,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 15
+    }
+  },
+  "Rock Blaster": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Imbues the ferrule of the caster's staff with magic, then thrusts it into the ground to create a massive magical shockwave.",
+      "",
+      "Hold to continue moving without striking the ground, and then push the end of the staff into enemies.",
+      "",
+      "An enhanced version of the glintstone miners' Stonedigger sorcery."
+    ],
+    "summary": "Thrust staff into ground to emit a massive shockwave",
+    "fpCost": 22,
+    "spCost": 35,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 21
+    }
+  },
+  "Gavel of Haima": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Creates a magical greathammer and slams it down.",
+      "Allows one follow-up attack.",
+      "",
+      "Drawn from the scholarly conspectus of Haima, the adjudicator of the academy, this sorcery employs might as a means to quell conflict."
+    ],
+    "summary": "Attacks using a magic greathammer",
+    "fpCost": 22,
+    "spCost": 38,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 25
+    }
+  },
+  "Terra Magica": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Draws an academy sigil upon the ground, raising the magic strength of those within.",
+      "",
+      "Once, the sigil would be cast from the highest belfry of the academy, covering the entire institution's grounds. This spell allows such vivid experience of spell-casting success, it turns many a fledgling into a true sorcerer in a flash of newfound understanding."
+    ],
+    "summary": "Raises the magic strength of those within the sigil",
+    "fpCost": 20,
+    "spCost": 12,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 20
+    }
+  },
+  "Starlight": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Creates a small, floating star light that illuminates surroundings.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "Granted to sorcerers who depart from the academy to embark on journeys. Even during the blackest nights, sojourns underground, or imprisonment in gaol, the stars are never far from a sorcerer's side."
+    ],
+    "summary": "Creates star light to illuminate surroundings",
+    "fpCost": 9,
+    "spCost": 5,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 15
+    }
+  },
+  "Comet Azur": {
+    "description": [
+      "Legendary sorcery devised by Azur, primeval sorcerer.",
+      "",
+      "Fires a tremendous comet in a torrent akin to the distant starry expanse, the place said to be the origin of glintstone.",
+      "Hold to continue releasing the sorcery's power.",
+      "",
+      "When Azur glimpsed into the primeval current, he saw darkness. He was left both bewitched and fearful of the abyss."
+    ],
+    "summary": "Fires a tremendous comet within a starry torrent",
+    "fpCost": 40,
+    "spCost": 34,
+    "slotsUsed": 3,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 60
+    }
+  },
+  "Founding Rain of Stars": {
+    "description": [
+      "The eldest primeval sorcery, said to have been discovered by an ancient astrologer. A sorcery of legendary status.",
+      "",
+      "Summons a dark cloud of stars overhead. Shortly after, the cloud will release a violent deluge of star rain. This sorcery can be cast while in motion. Charging increases potency.",
+      "",
+      "Thought to be the founding glintstone sorcery. The glimpse of the primeval current that the astrologer saw became real, and the stars' amber rained down on this land."
+    ],
+    "summary": "Releases a downpour of star rain for a while",
+    "fpCost": 27,
+    "spCost": 31,
+    "slotsUsed": 2,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 52
+    }
+  },
+  "Stars of Ruin": {
+    "description": [
+      "Legendary sorcery devised by Lusat, primeval sorcerer.",
+      "",
+      "Fires twelve dark shooting stars that pursue the target.",
+      "This sorcery can be cast while in motion. Charging increases potency.",
+      "",
+      "When Lusat glimpsed into the primeval current, he beheld the final moments of a great star cluster, and upon seeing it, he too was broken."
+    ],
+    "summary": "Fires twelve dark shooting stars that pursue foes",
+    "fpCost": 32,
+    "spCost": 29,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 43
+    }
+  },
+  "Glintblade Phalanx": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Creates a defensive arch of magic glintblades overhead, which automatically attack nearby foes.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "Bestowed upon the enchanted Carian knights, who combined this art with their swordsmanship to maintain pressure upon their foes, striking in waves of steel and sorcery."
+    ],
+    "summary": "Forms a defensive arch of magic glintblades",
+    "fpCost": 18,
+    "spCost": 12,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 22
+    }
+  },
+  "Carian Phalanx": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Creates a defensive arch of numerous magic glintblades overhead, which automatically attack nearby foes.",
+      "This sorcery can be used cast while in motion.",
+      "",
+      "An enhanced version of the glintblade sorcery used by enchanted knights."
+    ],
+    "summary": "Forms a defensive arch of numerous magic glintblades",
+    "fpCost": 24,
+    "spCost": 16,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 34
+    }
+  },
+  "Greatblade Phalanx": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Creates a defensive arch of larger magic glintblades overhead, which automatically attack nearby foes.",
+      "",
+      "Used by the enchanted troll knights.",
+      "They were the comrades of the young Rennala, bound by oath."
+    ],
+    "summary": "Forms a defensive arch of larger magic glintblades",
+    "fpCost": 30,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 29
+    }
+  },
+  "Rennala's Full Moon": {
+    "description": [
+      "Sorcery symbolic of the Carian queen.",
+      "",
+      "Uses the caster as a vessel to incarnate a full moon, then sends it floating toward foes. The full moon dispels all sorcery that touches it, and temporarily reduces magic damage negation for those it strikes.",
+      "",
+      "Queen Rennala encountered this enchanting moon when she was young, and later, it would bewitch the academy."
+    ],
+    "summary": "Incarnate a full moon and launch it at foes",
+    "fpCost": 47,
+    "spCost": 32,
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 70
+    }
+  },
+  "Ranni's Dark Moon": {
+    "description": [
+      "Legendary sorcery symbolic of the Carian queen.",
+      "",
+      "Uses the caster as a vessel to incarnate a cold, dark moon, then sends it floating toward foes. The dark moon dispels all sorcery that touches it, and temporarily reduces magic damage negation for those it strikes.",
+      "",
+      "This moon was encountered by a young Ranni, led by the hand of her mother, Rennala. What she beheld was cold, dark, and veiled in occult mystery."
+    ],
+    "summary": "Incarnate a cold, dark moon and launch it at foes",
+    "fpCost": 57,
+    "spCost": 32,
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 68
+    }
+  },
+  "Magic Downpour": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Summons a mass of magic that fires projectiles over a wide area.",
+      "This sorcery can be cast while in motion. Charging extends duration.",
+      "",
+      "Said to have been taught by the Crystalians to mark the swearing of the old concord."
+    ],
+    "summary": "Summon a magic mass that sprays projectiles over area",
+    "fpCost": 18,
+    "spCost": 17,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 15
+    }
+  },
+  "Loretta's Greatbow": {
+    "description": [
+      "Sorcery used by Royal Knight Loretta.",
+      "",
+      "Creates a magic greatbow and fires a great arrow.",
+      "Charging enhances potency. Hold to keep the great arrow nocked.",
+      "",
+      "It is said that the bow was Loretta's favored weapon."
+    ],
+    "summary": "Fires great arrow from a magic greatbow",
+    "fpCost": 24,
+    "spCost": 30,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 26
+    }
+  },
+  "Loretta's Mastery": {
+    "description": [
+      "Sorcery used by Loretta, Knight of the Haligtree.",
+      "",
+      "Creates a magic greatbow and fires four great arrows simultaneously.",
+      "Charging enhances potency. Hold to keep the great arrows nocked.",
+      "",
+      "Developed by Loretta after her long, bloody journey to seek out a place where the Albinaurics could live in peace."
+    ],
+    "summary": "Fires four great arrows from magic greatbow at once",
+    "fpCost": 39,
+    "spCost": 33,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 46
+    }
+  },
+  "Magic Glintblade": {
+    "description": [
+      "An old sorcery of the Carian royal family.",
+      "",
+      "Creates a sigil overhead, from which an enemy-seeking glintblade appears after a brief delay.",
+      "This sorcery can be used while in motion. Charging increases the delay.",
+      "",
+      "Said to be the prototype of the sword-phalanx sorceries wielded by royal enchanted knights."
+    ],
+    "summary": "Creates sigil that forms a projectile glintblade after delay",
+    "fpCost": 12,
+    "spCost": 22,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 14
+    }
+  },
+  "Glintstone Icecrag": {
+    "description": [
+      "Sorcery said to have been used by the old snow witch.",
+      "",
+      "The glintstone serves as a conduit, launching a mass of cold magic.",
+      "This sorcery can be cast repeatedly and while in motion.",
+      "",
+      "The snowy crone taught the young Ranni to fear the dark moon as she imparted her cold sorcery."
+    ],
+    "summary": "Fires mass of cold magic from glintstone",
+    "fpCost": 12,
+    "spCost": 26,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 15
+    }
+  },
+  "Zamor Ice Storm": {
+    "description": [
+      "Ice sorcery of the Town of Zamor.",
+      "",
+      "Strike the ground with the staff to create a freezing tornado.",
+      "Charging enhances potency.",
+      "",
+      "Cloaked in icy tempests, the knights of Zamor have challenged the Fire Giants since ancient times."
+    ],
+    "summary": "Thrust staff into ground to create freezing tornado",
+    "fpCost": 17,
+    "spCost": 27,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
+  },
+  "Freezing Mist": {
+    "description": [
+      "Sorcery said to have been used by the old snow witch.",
+      "",
+      "Releases a cold mist before the caster.",
+      "This sorcery can be cast while in motion. Charging enhances range of the mist.",
+      "",
+      "The snowy crone taught the young Ranni to fear the dark moon as she imparted her cold sorcery."
+    ],
+    "summary": "Releases cold mist before caster",
+    "fpCost": 20,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 21
+    }
+  },
+  "Carian Greatsword": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Conjures a magic greatsword and then delivers a sweeping blow.",
+      "This sorcery can be cast repeatedly.",
+      "",
+      "Armed with this spell, sorcerers gain the strength of knights, their loyalty sworn to the moon."
+    ],
+    "summary": "Performs sweeping slash using magical greatsword",
+    "fpCost": 12,
+    "spCost": 22,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 24
+    }
+  },
+  "Adula's Moonblade": {
+    "description": [
+      "Sorcery of Adula, the Glintstone Dragon.",
+      "",
+      "Conjures a cold magic greatsword, then delivers a sweeping blow that launches a blade-like projectile of frost.",
+      "This sorcery can be cast repeatedly.",
+      "",
+      "Adula, a devourer of sorcerers, was bested by Ranni and subsequently swore a knightly oath to her Dark Moon."
+    ],
+    "summary": "Sweeping slash followed by cold blade projectile",
+    "fpCost": 22,
+    "spCost": 22,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 32
+    }
+  },
+  "Carian Slicer": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Conjures a magic sword and delivers a swift sweeping slash. ",
+      "This sorcery can be used without delay after performing another action.",
+      "",
+      "Even among the Carian sword sorceries, this is a notably effective technique."
+    ],
+    "summary": "Performs swift sweeping slash using magical sword",
+    "fpCost": 4,
+    "spCost": 12,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 14
+    }
+  },
+  "Carian Piercer": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Conjures a magic greatsword to impale foes.",
+      "Charging lengthens the initial step in.",
+      "",
+      "This sorcery forms a counterpart to Carian Greatsword.",
+      "Highly lethal when used against single foes riding alone."
+    ],
+    "summary": "Impales foes with magical greatsword",
+    "fpCost": 17,
+    "spCost": 25,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 27
+    }
+  },
+  "Scholar's Armament": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Enchants armament held in the right hand with magic-affinity attacks.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "Taught to the Knights of the Cuckoo by the academy as payment for their contract."
+    ],
+    "summary": "Enchants right-hand armament with magic damage",
+    "fpCost": 25,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "intelligence": 12
+    }
+  },
+  "Scholar's Shield": {
+    "description": [
+      "One of the glintstone sorceries of the Academy of Raya Lucaria.",
+      "",
+      "Enchants shield held in the left hand with additional damage negation.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "Taught to the Knights of the Cuckoo by the academy as payment for their contract."
+    ],
+    "summary": "Enhances left-hand shield damage negation",
+    "fpCost": 30,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 12
+    }
+  },
+  "Lucidity": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Alleviates buildup of sleep and madness.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "The Carian knights never waver."
+    ],
+    "summary": "Alleviates buildup of sleep and madness",
+    "fpCost": 10,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 17
+    }
+  },
+  "Frozen Armament": {
+    "description": [
+      "Sorcery said to have been used by the old snow witch.",
+      "",
+      "Enchants armament held in the right hand with frost.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "The snowy crone taught the young Ranni to fear the dark moon as she imparted her cold sorcery."
+    ],
+    "summary": "Enchants right-hand armament with frost",
+    "fpCost": 20,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "intelligence": 15
+    }
+  },
+  "Shattering Crystal": {
+    "description": [
+      "Sorcery of the mysterious Crystalians.",
+      "",
+      "Creates a mass of crystal, then shatters it in a forward burst.",
+      "Charging enhances potency.",
+      "",
+      "The Crystalians are inorganic beings, yet they live. They cleave close to the ideals of the primeval current, and as such, they are revered guests of the sorcerers."
+    ],
+    "summary": "Creates crystal mass that shatters in forward burst",
+    "fpCost": 21,
+    "spCost": 30,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 38
+    }
+  },
+  "Crystal Release": {
+    "description": [
+      "Sorcery of the mysterious Crystalians.",
+      "",
+      "Creates a mass of crystal, then shatters it to scour a wide area with a violent rain of crystal shards.",
+      "",
+      "This sorcery is used by high-ranking adepts among the Crystalians. Some also call this sorcery \"the Crystal Sun.\""
+    ],
+    "summary": "Scours area with violent rain of crystal shards",
+    "fpCost": 34,
+    "spCost": 26,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 41
+    }
+  },
+  "Crystal Torrent": {
+    "description": [
+      "Sorcery of the mysterious Crystalians.",
+      "",
+      "Creates a mass of crystal, then fires off shards in rapid succession.",
+      "Hold to continue firing shards.",
+      "",
+      "The wrath of the Crystalians encapsulated in sorcery. Each shard is of substantial size, making even a stray blow capable of inflicting a severe wound."
+    ],
+    "summary": "Creates crystal mass that fires stream of crystal shards",
+    "fpCost": 20,
+    "spCost": 30,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 47
+    }
+  },
+  "Ambush Shard": {
+    "description": [
+      "One of the night sorceries of Sellia, Town of Sorcery.",
+      "",
+      "Launches a projectile from a distance removed from the caster, so as to strike the enemy from behind.",
+      "This sorcery can be cast repeatedly.",
+      "",
+      "The Sellian sorcerers were assassins, and it is said that they often hunted their fellows."
+    ],
+    "summary": "Strikes from behind with projectile fired from distance",
+    "fpCost": 13,
+    "spCost": 15,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 23
+    }
+  },
+  "Night Shard": {
+    "description": [
+      "One of the night sorceries of Sellia, Town of Sorcery.",
+      "",
+      "Swiftly fires a semi-invisible projectile.",
+      "This sorcery can be used without delay after performing another action.",
+      "",
+      "The Sellian sorcerers were assassins, and it is said that they often hunted their fellows."
+    ],
+    "summary": "Swiftly fires semi-invisible magic projectile",
+    "fpCost": 7,
+    "spCost": 9,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 18
+    }
+  },
+  "Night Comet": {
+    "description": [
+      "One of the night sorceries of Sellia, Town of Sorcery.",
+      "",
+      "Fires a semi-invisible magic comet.",
+      "This sorcery can be cast repeatedly and while in motion. Charging enhances potency.",
+      "",
+      "The Sellian sorcerers were assassins, and it is said that they often hunted their fellows."
+    ],
+    "summary": "Fires semi-invisible magic comet",
+    "fpCost": 21,
+    "spCost": 30,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 38
+    }
+  },
+  "Thops's Barrier": {
+    "description": [
+      "The lifelong pursuit of Thops the Bluntstone.",
+      "",
+      "Creates a magic forcefield that deflects sorceries and incantations.",
+      "Hold to continuously create barriers.",
+      "",
+      "Future generations will learn. They will know the foolishness of the sneering sorcerers who ridiculed this theory, little realizing that it was in fact a discovery worthy of a new conspectus of the academy."
+    ],
+    "summary": "Erect a magic forcefield to deflect spells",
+    "fpCost": 7,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 18
+    }
+  },
+  "Carian Retaliation": {
+    "description": [
+      "One of the sorceries of the Carian royal family.",
+      "",
+      "Swing your staff to dispel incoming sorceries and incantations, using their power to retaliate with glintblades.",
+      "",
+      "This was the Carian royal family's secret means to prepare against the disloyalty of the academy. The moon and stars would one day go their separate ways."
+    ],
+    "summary": "Dispels enemy spells and retaliates with glintblades",
+    "fpCost": 8,
+    "spCost": 15,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 17
+    }
+  },
+  "Eternal Darkness": {
+    "description": [
+      "Forbidden sorcery of Sellia, Town of Sorcery.",
+      "",
+      "Creates a space of darkness that draws in sorceries and incantations.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "Originally a lost sorcery of the Eternal City; the despair that brought about its ruin made manifest."
+    ],
+    "summary": "Creates dark space that draws in spells",
+    "fpCost": 25,
+    "spCost": 15,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 35
+    }
+  },
+  "Unseen Blade": {
+    "description": [
+      "One of the night sorceries of Sellia, Town of Sorcery.",
+      "",
+      "Enchants armament held in right hand, making it completely invisible.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "Used by Sellian assassins to present themselves as unarmed sorcerers."
+    ],
+    "summary": "Makes right-hand armament completely invisible",
+    "fpCost": 13,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "intelligence": 12
+    }
+  },
+  "Unseen Form": {
+    "description": [
+      "One of the night sorceries of Sellia, Town of Sorcery.",
+      "",
+      "Makes the caster semi-invisible.",
+      "While on horseback, effect extends to cover the mount.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "The Sellian assassins considered every option that aided their dirty work."
+    ],
+    "summary": "Makes the caster semi-invisible",
+    "fpCost": 20,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 16
+    }
+  },
+  "Meteorite": {
+    "description": [
+      "One of the glintstone sorceries that manipulates gravitational forces.",
+      "",
+      "Summons a void that emits a rain of small meteorites.",
+      "Hold to continue the effect.",
+      "",
+      "This sorcery originates from the Onyx Lords, who had skin of stone, and were called lords in reverential fear of their destructive power."
+    ],
+    "summary": "Calls small meteorites down from the sky",
+    "fpCost": 30,
+    "spCost": 35,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 30
+    }
+  },
+  "Meteorite of Astel": {
+    "description": [
+      "One of the glintstone sorceries that manipulates gravitational forces.",
+      "",
+      "Summons a void that emits a hail of meteorites.",
+      "Hold to continue the effect.",
+      "",
+      "A manifestation of the power with which Astel leveled the Eternal City."
+    ],
+    "summary": "Calls a hail of small meteorites from the void",
+    "fpCost": 60,
+    "spCost": 40,
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 55
+    }
+  },
+  "Rock Sling": {
+    "description": [
+      "One of the glintstone sorceries that manipulates gravitational forces.",
+      "",
+      "Pulls a clump of rocks from the earth and sends them flying.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "A gravitational technique studied by the young Radahn. His master was an Alabaster Lord with skin of stone."
+    ],
+    "summary": "Summons rocks from the earth and sends it flying",
+    "fpCost": 18,
+    "spCost": 29,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 18
+    }
+  },
+  "Gravity Well": {
+    "description": [
+      "One of the glintstone sorceries that manipulates gravitational forces.",
+      "",
+      "Fires a projectile of condensed gravitational force. Those struck by it will be pulled toward the caster.",
+      "Charging enhances potency.",
+      "",
+      "A gravitational technique studied by the young Radahn. His master was an Alabaster Lord with skin of stone."
+    ],
+    "summary": "Pulls foes toward caster with gravity projectile",
+    "fpCost": 12,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 17
+    }
+  },
+  "Collapsing Stars": {
+    "description": [
+      "One of the glintstone sorceries that manipulates gravitational forces.",
+      "",
+      "Fires numerous gravitational projectiles. Any foes struck will be pulled toward the caster.",
+      "Charging enhances potency.",
+      "",
+      "A gravitational technique mastered by the young Radahn.",
+      "\"I thank you for your tutelage, for now I can challenge the stars.\""
+    ],
+    "summary": "Pulls foes toward caster with gravity projectile volley",
+    "fpCost": 18,
+    "spCost": 27,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
+  },
+  "Magma Shot": {
+    "description": [
+      "One of the sorceries developed from the magma of Mt. Gelmir.",
+      "",
+      "Fires a lump of magma that explodes on contact.",
+      "Charging enhances potency.",
+      "",
+      "After discovering the ancient hexes of Gelmir, Rykard, son of Queen Rennala, brought them back into practical use as new forms of sorcery."
+    ],
+    "summary": "Fires lump of magma that explodes on contact",
+    "fpCost": 16,
+    "spCost": 21,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 19,
+      "faith": 10
+    }
+  },
+  "Gelmir's Fury": {
+    "description": [
+      "One of the sorceries developed from the magma of Mt. Gelmir.",
+      "",
+      "Conjures a surge of magma from the earth, covering the area.",
+      "Charging extends the surge of magma.",
+      "",
+      "This sorcery is held to represent the fury of the volcano, but the arrogance of attempting to harness it is solely that of men and serpents."
+    ],
+    "summary": "Covers area with surge of magma from the earth",
+    "fpCost": 16,
+    "spCost": 38,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28,
+      "faith": 15
+    }
+  },
+  "Roiling Magma": {
+    "description": [
+      "One of the sorceries developed from the magma of Mt. Gelmir.",
+      "",
+      "Fires a lump of condensed magma that explodes a short delay after hitting the target.",
+      "Charging enhances potency and further delays the explosion.",
+      "",
+      "After discovering the ancient hexes of Gelmir, Rykard, son of Queen Rennala, brought them back into practical use as new forms of sorcery."
+    ],
+    "summary": "Fires lump of magma that explodes after delay",
+    "fpCost": 28,
+    "spCost": 27,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 21,
+      "faith": 12
+    }
+  },
+  "Rykard's Rancor": {
+    "description": [
+      "The terrible power of Rykard, Lord of Blasphemy.",
+      "",
+      "Summons searing spirits that leave a trail of delayed explosions in their wake.",
+      "",
+      "These spirits manifest from the rancor of heroes who met a violent end. The lord granted them an audience, whereupon they were welcomed by the maw of the great serpent—and within the serpent's bowels, they became the lord's kin."
+    ],
+    "summary": "Releases searing spirits that repeatedly explode after delay",
+    "fpCost": 23,
+    "spCost": 36,
+    "slotsUsed": 2,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 40,
+      "faith": 18
+    }
+  },
+  "Briars of Sin": {
+    "description": [
+      "An aberrant sorcery discovered by exiled criminals.",
+      "Theirs are the sorceries most reviled by the academy.",
+      "",
+      "Wounds the caster with thorns of sin, creating a spiral of bloodthorns.",
+      "This sorcery can be cast repeatedly, up to three times.",
+      "",
+      "The guilty, their eyes gouged by thorns, lived in eternal darkness. There, they discovered the blood star."
+    ],
+    "summary": "Summons thorns from a whorl of own blood",
+    "fpCost": 6,
+    "spCost": 26,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Briars of Punishment": {
+    "description": [
+      "An aberrant sorcery discovered by exiled criminals.",
+      "Theirs are the sorceries most reviled by the academy.",
+      "",
+      "Wounds the caster with thorns of punishment, sending a trail of bloodthorns running over the ground to impale enemies from below.",
+      "This sorcery can be cast repeatedly.",
+      "",
+      "The guilty, their eyes gouged by thorns, lived in eternal darkness. There, they discovered the blood star."
+    ],
+    "summary": "Wounds caster to unleash trail of bloodthorns",
+    "fpCost": 9,
+    "spCost": 22,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 21
+    }
+  },
+  "Rancorcall": {
+    "description": [
+      "Sorcery of the servants of Death.",
+      "",
+      "Summons vengeful spirits that chase down foes.",
+      "Charging enhances potency.",
+      "",
+      "Once thought lost, this ancient death hex was rediscovered by the necromancer Garris."
+    ],
+    "summary": "Summons vengeful spirits that chase down foes",
+    "fpCost": 12,
+    "spCost": 21,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 16,
+      "faith": 14
+    }
+  },
+  "Ancient Death Rancor": {
+    "description": [
+      "Sorcery of the servants of Death.",
+      "",
+      "Summons a horde of vengeful spirits that chase down foes. Charging enhances potency.",
+      "",
+      "They are cinders of the ancient death hex, raked from the fires of ghostflame by Deathbirds."
+    ],
+    "summary": "Summons horde of vengeful spirits that chase down foes",
+    "fpCost": 21,
+    "spCost": 27,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 34,
+      "faith": 24
+    }
+  },
+  "Explosive Ghostflame": {
+    "description": [
+      "Sorcery of the servants of Death.",
+      "",
+      "Strike the ground with the staff, triggering an explosion of ghostflame that burns the surrounding area.",
+      "",
+      "In the time when there was no Erdtree, death was burned in ghostflame. Deathbirds were the keepers of that fire."
+    ],
+    "summary": "Causes ghostflame explosion that burns wide area",
+    "fpCost": 29,
+    "spCost": 45,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 42,
+      "faith": 30
+    }
+  },
+  "Fia's Mist": {
+    "description": [
+      "Sorcery of Fia, the Deathbed Companion.",
+      "",
+      "Creates a deathly mist before the caster, which inflicts Death blight upon those who enter.",
+      "This sorcery can be cast while in motion. Charging enhances range of the mist.",
+      "",
+      "This sorcery was developed to oppose the Roundtable Hold, and is effective only against the Tarnished."
+    ],
+    "summary": "Releases a mist of death before caster",
+    "fpCost": 25,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 23,
+      "faith": 18
+    }
+  },
+  "Tibia's Summons": {
+    "description": [
+      "Sorcery of the servants of Death.",
+      "",
+      "Summons a group of Those Lost in Death.",
+      "Three skeletons will appear some distance from the caster and attack foes before disappearing.",
+      "",
+      "The dead have long been left to wander; what they need is leadership. "
+    ],
+    "summary": "Summons Those Who Live in Death",
+    "fpCost": 17,
+    "spCost": 27,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28,
+      "faith": 20
+    }
+  },
+  "Death Lightning": {
+    "description": [
+      "Incantation that channels the power of the ancient dragon Fortissax, now corrupted by Death.",
+      "",
+      "Strikes surroundings with a storm of Death lightning.",
+      "Inflicts Death blight upon foes.",
+      "Charging extends duration of the storm.",
+      "",
+      "It said that this golden lightning was wielded by Godwyn, who befriended Fortissax."
+    ],
+    "summary": "Strikes surroundings with storm of death lightning",
+    "fpCost": 28,
+    "spCost": 32,
+    "slotsUsed": 2,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 47
+    }
+  },
+  "Oracle Bubbles": {
+    "description": [
+      "Sorcery of the claymen who served as priests in the ancient dynasty.",
+      "",
+      "Produces several small magical bubbles that drift towards foes before they naturally pop.",
+      "Charging increases the delay before the bubbles pop.",
+      "",
+      "The claymen search for lost oracles within their bubbles."
+    ],
+    "summary": "Launches several small magic bubbles",
+    "fpCost": 12,
+    "spCost": 18,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 19,
+      "arcane": 15
+    }
+  },
+  "Great Oracular Bubble": {
+    "description": [
+      "Sorcery of the claymen who served as priests in the ancient dynasty.",
+      "",
+      "Produces a gigantic magical bubble that drifts towards foes before it naturally ruptures.",
+      "Charging increases the delay before the bubble pops.",
+      "",
+      "The claymen search for lost oracles within their bubbles."
+    ],
+    "summary": "Launches a large magic bubble",
+    "fpCost": 16,
+    "spCost": 27,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 25,
+      "arcane": 18
+    }
+  },
+  "Catch Flame": {
+    "description": [
+      "Incantation originating from a sinister prophecy.",
+      "",
+      "Momentarily sparks flame from the caster's hand.",
+      "This incantation can be cast without delay after performing another action.",
+      "",
+      "The flame of ruin is anathema to the Erdtree. But prophets sometimes glimpse it within the faith all the same. Sadly when this occurs their sole reward is banishment."
+    ],
+    "summary": "Momentarily sparks flame from hand",
+    "fpCost": 10,
+    "spCost": 17,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 8
+    }
+  },
+  "O, Flame!": {
+    "description": [
+      "Incantation of the Fire Monks.",
+      "",
+      "Momentarily sparks roaring flame from the caster's hand.",
+      "Charging enhances potency.",
+      "",
+      "The Giants' Flame still smolders upon the distant northern mountaintop, and the Fire Monks are its guardians."
+    ],
+    "summary": "Momentarily sparks roaring flame from hand",
+    "fpCost": 16,
+    "spCost": 24,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 16
+    }
+  },
+  "Flame Sling": {
+    "description": [
+      "Incantation originating from a sinister prophecy.",
+      "",
+      "Throws a ball of raging fire.",
+      "Charging enhances potency and causes the ball of fire to explode.",
+      "",
+      "The flame of ruin is anathema to the Erdtree. But prophets sometimes glimpse it within the faith all the same. Sadly when this occurs their sole reward is banishment."
+    ],
+    "summary": "Throws ball of raging fire",
+    "fpCost": 11,
+    "spCost": 22,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Flame, Fall Upon Them": {
+    "description": [
+      "One of the incantations that draws directly from the power of the Fire Giants.",
+      "",
+      "Hurls several balls of fire at once.",
+      "Charging enhances potency and causes the balls of fire to explode.",
+      "",
+      "There is no record of this incantation in common prayerbooks. Only a select few prelates know of its existence."
+    ],
+    "summary": "Hurls several balls of fire at once",
+    "fpCost": 16,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 28
+    }
+  },
+  "Whirl, O Flame!": {
+    "description": [
+      "Superior incantation of the Fire Monks.",
+      "",
+      "Creates a spiraling stream of fire that burns the area before the caster.",
+      "Charging enhances potency and reach.",
+      "",
+      "Fire beguiles those who gaze into it. And so the guardians of the Flame are also its worshippers."
+    ],
+    "summary": "Sweeps area before caster with stream of fire",
+    "fpCost": 19,
+    "spCost": 26,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 13
+    }
+  },
+  "Flame, Cleanse Me": {
+    "description": [
+      "One of the incantations of the Fire Monks.",
+      "",
+      "Creates a fire within that burns away toxins.",
+      "Alleviates poison and scarlet rot buildup and cures these ailments.",
+      "",
+      "This incantation leaves the caster with subtle burns—a reminder that they must fear the flame."
+    ],
+    "summary": "Alleviates buildup & cures poison and scarlet rot",
+    "fpCost": 14,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 12
+    }
+  },
+  "Flame, Grant Me Strength": {
+    "description": [
+      "Superior incantation of the Fire Monks.",
+      "",
+      "Creates an invigorating fire within that enhances physical and fire-affinity attack power.",
+      "",
+      "This incantation does not burn the caster, and so it is considered forbidden by the guardians of the Flame."
+    ],
+    "summary": "Raises physical and fire-affinity attack power",
+    "fpCost": 28,
+    "spCost": 16,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 15
+    }
+  },
+  "Flame, Protect Me": {
+    "description": [
+      "The most ancient of the Fire Monks' incantations.",
+      "",
+      "Creates a fire within that greatly increases fire damage negation.",
+      "",
+      "It is said that this incantation was used during the War against the Giants long ago, during which it protected the champions of the Erdtree."
+    ],
+    "summary": "Greatly increases fire damage negation",
+    "fpCost": 30,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Giantsflame Take Thee": {
+    "description": [
+      "One of the incantations that draws directly from the power of the Fire Giants.",
+      "",
+      "Hurls a massive ball of raging fire.",
+      "Charging enhances potency and causes the ball of fire to explode.",
+      "",
+      "There is no record of this incantation in common prayerbooks. Only a select few prelates know of its existence."
+    ],
+    "summary": "Hurls massive ball of raging fire",
+    "fpCost": 30,
+    "spCost": 34,
+    "slotsUsed": 2,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 30
+    }
+  },
+  "Flame of the Fell God": {
+    "description": [
+      "This legendary incantation is one of several that draws directly from the power of the Fire Giants.",
+      "",
+      "Releases a ball of raging fire said to be inhabited by a fell god. The fireball floats toward enemies and explodes, setting the area ablaze.",
+      "",
+      "Arghanthy, the chief guardian of the Flame, had kept this incantation a well-kept secret until it was stolen by Adan. The fell god still lurks within the Fire Giants."
+    ],
+    "summary": "Summons raging fireball that explodes and sets the area ablaze",
+    "fpCost": 34,
+    "spCost": 42,
+    "slotsUsed": 2,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 41
+    }
+  },
+  "Burn, O Flame!": {
+    "description": [
+      "One of the incantations that draws directly from the power of the Fire Giants.",
+      "",
+      "Raises a series of flame pillars around the caster.",
+      "Charging further increases the number of flame pillars.",
+      "",
+      "The Fire Giants borrowed from the power of a fell god, and still they were defeated. Yet their failure released them from their solitary curse: to serve as keepers of the Flame for eternity."
+    ],
+    "summary": "Raises a series of flame pillars around caster",
+    "fpCost": 26,
+    "spCost": 36,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
+  },
+  "Black Flame": {
+    "description": [
+      "A black flame incantation of the Godskin Apostles.",
+      "",
+      "Throws a ball of raging black fire.",
+      "Charging enhances potency and causes the fireball to explode.",
+      "",
+      "Black flame is weighty. After dealing damage it continues to sap foes' HP for a very short time."
+    ],
+    "summary": "Throws a ball of raging black fire",
+    "fpCost": 18,
+    "spCost": 25,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 20
+    }
+  },
+  "Surge, O Flame!": {
+    "description": [
+      "Superior incantation of the Fire Monks.",
+      "",
+      "Creates a stream of fire to burn the area before the caster.",
+      "This incantation can be cast while in motion. Hold to maintain the effect.",
+      "",
+      "The Giants' Flame is the flame of ruin, capable of burning the Erdtree. And so, following the War against the Giants, its ruinous blaze was sealed, and guardians were appointed to watch over it."
+    ],
+    "summary": "Incinerates area before caster with stream of fire",
+    "fpCost": 1,
+    "spCost": 2,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 9
+    }
+  },
+  "Scouring Black Flame": {
+    "description": [
+      "A black flame incantation of the Godskin Apostles.",
+      "",
+      "Sweeps a wide area before the caster with black flame.",
+      "Charging enhances range.",
+      "",
+      "The black flame could once slay gods. But when Maliketh sealed Destined Death, the true power of the black flame was lost."
+    ],
+    "summary": "Sweeps area before caster with black flame",
+    "fpCost": 21,
+    "spCost": 29,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 28
+    }
+  },
+  "Black Flame Ritual": {
+    "description": [
+      "Superior black flame incantation of the Godskin Apostles.",
+      "",
+      "Summons a circle of black flame pillars around the caster.",
+      "Charging increases the size of the circle.",
+      "",
+      "The Gloam-Eyed Queen led the apostles. It is said that she was an Empyrean chosen by the Fingers."
+    ],
+    "summary": "Summons circle of black flame pillars around caster",
+    "fpCost": 30,
+    "spCost": 39,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 42
+    }
+  },
+  "Black Flame Blade": {
+    "description": [
+      "A black flame incantation of the Godskin Apostles.",
+      "",
+      "Engulfs armament held in the right hand with black flame.",
+      "This incantation can be cast without delay after performing another action.",
+      "",
+      "Black flame is weighty. After dealing damage it continues to sap foes' HP for a very short time."
+    ],
+    "summary": "Enchants right-hand armament with black flame",
+    "fpCost": 15,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "faith": 17
+    }
+  },
+  "Black Flame's Protection": {
+    "description": [
+      "A black flame incantation of the Godskin Apostles.",
+      "",
+      "Summons black fire within, increasing physical damage negation. However, sacred flasks and other such forms of HP restoration are impaired.",
+      "",
+      "The Apostles were all embraced by the Gloam-Eyed Queen, and the black flame was their armor within."
+    ],
+    "summary": "Increases physical damage negation",
+    "fpCost": 30,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 30
+    }
+  },
+  "Noble Presence": {
+    "description": [
+      "Ancient power of the Godskin Nobles.",
+      "",
+      "Thrust out belly with gusto to produce a shockwave that knocks back nearby foes.",
+      "Charging enhances potency, knocking enemies into the air.",
+      "",
+      "Once a sign of the gods' wrath, this incantation became a trophy of the Nobles' god hunt."
+    ],
+    "summary": "Thrust out belly with gusto to unleash repelling shockwave",
+    "fpCost": 20,
+    "spCost": 28,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 26
+    }
+  },
+  "Bloodflame Talons": {
+    "description": [
+      "A Blood Oath incantation, granted by the Lord of Blood.",
+      "",
+      "Creates bloodflame lacerations before the caster, which explode in an instant.",
+      "This incantation can be cast repeatedly.",
+      "",
+      "After dealing damage, bloodflame continues to build up onset of blood loss for a very short time."
+    ],
+    "summary": "Creates bloodflame lacerations that then explode",
+    "fpCost": 12,
+    "spCost": 21,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 13,
+      "arcane": 15
+    }
+  },
+  "Bloodboon": {
+    "description": [
+      "Sacred incantation of Mohg, Lord of Blood.",
+      "",
+      "Thrust arm into the body of the Formless Mother, then scatter the bloodflame to set the area ablaze.",
+      "This incantation can be cast while in motion.",
+      "",
+      "The mother of truth craves wounds. When Mohg stood before her, deep underground, his accursed blood erupted with fire, and he was besotted with the defilement that he was born into."
+    ],
+    "summary": "Scatters bloodflame before caster to set area aflame",
+    "fpCost": 13,
+    "spCost": 34,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 14,
+      "arcane": 17
+    }
+  },
+  "Bloodflame Blade": {
+    "description": [
+      "A Blood Oath incantation, granted by the Lord of Blood.",
+      "",
+      "Engulfs armament held in the right hand with bloodflame.",
+      "This incantation can be cast while in motion.",
+      "",
+      "After dealing damage, bloodflame continues to build up onset of blood loss for a very short time."
+    ],
+    "summary": "Enchants right-hand armament with bloodflame",
+    "fpCost": 20,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "faith": 12,
+      "arcane": 10
+    }
+  },
+  "Barrier of Gold": {
+    "description": [
+      "One of the incantations of Erdtree Worship.",
+      "",
+      "Greatly increases magic damage negation for the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "This incantation was used by the champions of the Erdtree in the First and Second Liurnian Wars, during which the red-haired Radagon joined the heroes' ranks."
+    ],
+    "summary": "Greatly increases magic damage negation for self and allies",
+    "fpCost": 30,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Protection of the Erdtree": {
+    "description": [
+      "A superior incantation of Erdtree Worship.",
+      "",
+      "Increase damage negation for all affinities except physical, for both the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "In the beginning, everything was in opposition to the Erdtree. But through countless victories in war, it became the embodiment of Order."
+    ],
+    "summary": "Increases affinity damage negation for self and allies",
+    "fpCost": 30,
+    "spCost": 50,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 35
+    }
+  },
+  "Rejection": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Produces a shockwave that knocks back nearby foes.",
+      "Charging increases the size of the shockwave.",
+      "",
+      "Hark, Tarnished! If you truly walk in faith, you must be prepared to reject all else."
+    ],
+    "summary": "Produces a shockwave that pushes away foes",
+    "fpCost": 9,
+    "spCost": 24,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 12
+    }
+  },
+  "Wrath of Gold": {
+    "description": [
+      "Superior Erdtree Worship incantation.",
+      "",
+      "Produces a golden shockwave that knocks back nearby foes.",
+      "Charging increases the size of the shockwave.",
+      "",
+      "This incantation was discovered when the Elden Ring was shattered, and it was feared as a sign of the Erdtree's wrath."
+    ],
+    "summary": "Produces golden shockwave that knocks back foes",
+    "fpCost": 40,
+    "spCost": 44,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 32
+    }
+  },
+  "Urgent Heal": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Heals a small amount of HP.",
+      "This incantation can be cast while in motion.",
+      "",
+      "The Two Fingers has high hopes for the Tarnished; that even if they should be wounded, even should they fall, they will continue to fight for their duty."
+    ],
+    "summary": "Heals a small amount of HP",
+    "fpCost": 16,
+    "spCost": 30,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 8
+    }
+  },
+  "Heal": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Heals HP for the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "The Two Fingers has high hopes for the Tarnished; that even if they should be wounded, even should they fall, they will continue to fight for their duty."
+    ],
+    "summary": "Heals HP for self and nearby allies",
+    "fpCost": 32,
+    "spCost": 35,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 12
+    }
+  },
+  "Great Heal": {
+    "description": [
+      "Superior incantation of the Two Fingers' faithful.",
+      "",
+      "Greatly heals HP for the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "The Two Fingers has high hopes for the Tarnished; that even if they should be wounded, even should they fall, they will continue to fight for their duty."
+    ],
+    "summary": "Greatly heals HP for self and nearby allies",
+    "fpCost": 45,
+    "spCost": 40,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 15
+    }
+  },
+  "Lord's Heal": {
+    "description": [
+      "Incantation bestowed by the Two Fingers upon the Tarnished deemed worthy of becoming a lord.",
+      "",
+      "Heals a massive amount of HP for the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "Tarnished—O, Tarnished! Seek the Erdtree and stand before Marika, its Queen. Become the Elden Lord!"
+    ],
+    "summary": "Massively heals HP for self and nearby allies",
+    "fpCost": 55,
+    "spCost": 45,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 20
+    }
+  },
+  "Erdtree Heal": {
+    "description": [
+      "One of the ancient Erdtree incantations.",
+      "",
+      "Heals a vast amount of HP for the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "The Erdtree once flourished with abundance—yet it was only for a fleeting moment. Such is the course of all life."
+    ],
+    "summary": "Vastly heals HP for self and nearby allies",
+    "fpCost": 65,
+    "spCost": 50,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 42
+    }
+  },
+  "Blessing's Boon": {
+    "description": [
+      "One of the ancient Erdtree incantations.",
+      "",
+      "Grants a blessing to the caster and nearby allies, gradually restoring HP.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "Blessings once fell like tears from the Erdtree, and this incantation is but a lingering remnant of their power."
+    ],
+    "summary": "Grants blessing to self and nearby allies",
+    "fpCost": 30,
+    "spCost": 30,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Blessing of the Erdtree": {
+    "description": [
+      "One of the ancient Erdtree incantations.",
+      "",
+      "Grants a greater blessing to the caster and nearby allies, gradually restoring a large amount of HP.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "The Erdtree once flourished with abundance—yet it was only for a fleeting moment. Such is the course of all life."
+    ],
+    "summary": "Grants greater blessing to self and nearby allies",
+    "fpCost": 60,
+    "spCost": 50,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 38
+    }
+  },
+  "Cure Poison": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Alleviates poison buildup and cures poison.",
+      "This incantation can be cast while in motion.",
+      "",
+      "The Two Fingers has high hopes for the Tarnished; that even if they should be wounded, even should they fall, they will continue to fight for their duty."
+    ],
+    "summary": "Alleviates poison buildup and cures poison",
+    "fpCost": 7,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Lord's Aid": {
+    "description": [
+      "Incantation bestowed by the Two Fingers upon the Tarnished deemed worthy of becoming a lord.",
+      "",
+      "Alleviates buildup of poison, blood loss, and sleep for the caster and nearby allies. Additionally, cures poison.",
+      "",
+      "Hold to continue praying and delay activation."
+    ],
+    "summary": "Alleviates poison, blood loss, sleep buildup for self and allies",
+    "fpCost": 12,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 12
+    }
+  },
+  "Flame Fortification": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Increases fire damage negation.",
+      "This incantation can be cast while in motion.",
+      "",
+      "Follow the path that has been set for you, and you will make enemies of all others: the monks, the sorcerers, the ancient dragon knights, and the scions of gold. Heed me—the Lands Between offers no welcome to the Tarnished."
+    ],
+    "summary": "Increases fire damage negation",
+    "fpCost": 20,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Magic Fortification": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Increases magic damage negation.",
+      "This incantation can be cast while in motion.",
+      "",
+      "Follow the path that has been set for you, and you will make enemies of all others: the monks, the sorcerers, the ancient dragon knights, and the scions of gold. Heed me—the Lands Between offers no welcome to the Tarnished."
+    ],
+    "summary": "Increases magic damage negation",
+    "fpCost": 20,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Lightning Fortification": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Increases lightning damage negation.",
+      "This incantation can be cast while in motion.",
+      "",
+      "Follow the path that has been set for you, and you will make enemies of all others: the monks, the sorcerers, the ancient dragon knights, and the scions of gold. Heed me—the Lands Between offers no welcome to the Tarnished."
+    ],
+    "summary": "Increases lightning damage negation",
+    "fpCost": 20,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Divine Fortification": {
+    "description": [
+      "Incantation of the Two Fingers' faithful.",
+      "",
+      "Increases holy damage negation.",
+      "This incantation can be cast while in motion.",
+      "",
+      "Follow the path that has been set for you, and you will make enemies of all others: the monks, the sorcerers, the ancient dragon knights, and the scions of gold. Heed me—the Lands Between offers no welcome to the Tarnished."
+    ],
+    "summary": "Increases holy damage negation",
+    "fpCost": 20,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Lord's Divine Fortification": {
+    "description": [
+      "Incantation taught to Gideon the All-Knowing by the Two Fingers.",
+      "",
+      "Greatly increases holy damage negation for the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "Gideon gained true knowledge after his long exchange with the Two Fingers—discovering all had been broken long ago; that the trembling fingers, bent with age, and the Erdtree itself, were no exception."
+    ],
+    "summary": "Greatly increases holy damage negation for self and allies",
+    "fpCost": 30,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 27
+    }
+  },
+  "Night Maiden's Mist": {
+    "description": [
+      "One of the night sorceries of Sellia, Town of Sorcery.",
+      "",
+      "Releases a life-sapping silver mist before the caster, dealing damage to all caught within, including the caster.",
+      "This sorcery can be cast while in motion.",
+      "",
+      "Below Sellia, the Eternal City of Nokron sleeps. This sorcery originates from the maidens of that place."
+    ],
+    "summary": "Releases life-sapping silver mist before caster",
+    "fpCost": 20,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 14
+    }
+  },
+  "Assassin's Approach": {
+    "description": [
+      "Incantation of the Two Fingers' servants, who once served as the assassins of the Roundtable Hold.",
+      "",
+      "Completely silences the footsteps of the caster. Additionally, reduces fall damage and the sound produced by falling.",
+      "This incantation can be cast while in motion or crouching.",
+      "",
+      "The assassins were charged with eliminating Tarnished who had strayed from guidance."
+    ],
+    "summary": "Silences footsteps, reduces fall damage/sound",
+    "fpCost": 15,
+    "spCost": 13,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Shadow Bait": {
+    "description": [
+      "Incantation of the Two Fingers' servants, who once served as the assassins of the Roundtable Hold.",
+      "",
+      "Creates a pale gold shadow before the caster, luring foes of human build and attracting their aggression.",
+      "This incantation can be cast while in motion or crouching, and will still affect foes that are already in a combat state.",
+      "",
+      "It is said that those beguiled by the shadow see within it a hated foe."
+    ],
+    "summary": "Creates shadow that lures the aggression of foes of human build",
+    "fpCost": 15,
+    "spCost": 14,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 13
+    }
+  },
+  "Darkness": {
+    "description": [
+      "Incantation of the Two Fingers' servants, who once served as the assassins of the Roundtable Hold.",
+      "",
+      "Creates a veil of darkness that conceals the caster.",
+      "This incantation can be cast while in motion or crouching.",
+      "",
+      "The assassins were themselves once Tarnished who had strayed from guidance, and they pursued their duty in the darkness that is without grace."
+    ],
+    "summary": "Creates area of darkness that conceals caster",
+    "fpCost": 24,
+    "spCost": 24,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 18
+    }
+  },
+  "Golden Vow": {
+    "description": [
+      "An incantation of Erdtree Worship.",
+      "",
+      "Increases attack power and defense for the caster and nearby allies.",
+      "Hold to continue praying and delay activation.",
+      "",
+      "This incantation has been taught to knights of the royal capital for generations, and knights sent on distant expeditions lean on it as a source of courage."
+    ],
+    "summary": "Increases attack and defense for self and allies",
+    "fpCost": 47,
+    "spCost": 50,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 25
+    }
+  },
+  "Discus of Light": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "",
+      "Produces a ring of light and fires it forwards. The ring of light returns to a position close to the caster before disappearing.",
+      "This incantation can be cast repeatedly.",
+      "",
+      "A gift from the young Miquella to his father, Radagon."
+    ],
+    "summary": "Fires ring of light before the caster",
+    "fpCost": 3,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 13,
+      "faith": 13
+    }
+  },
+  "Triple Rings of Light": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "",
+      "Produces three rings of light and fires them forwards. The rings of light return to a position close to the caster before disappearing.",
+      "This incantation can be cast repeatedly.",
+      "",
+      "A gift from the young Miquella to his father, Radagon."
+    ],
+    "summary": "Fires three rings of light before the caster",
+    "fpCost": 23,
+    "spCost": 28,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 23,
+      "faith": 23
+    }
+  },
+  "Radagon's Rings of Light": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "A gift of gratitude to the young Miquella from his father, Radagon.",
+      "",
+      "Produces a golden ring of light and fires it across a wide area.",
+      "Charging enhances range.",
+      "",
+      "And yet, the young Miquella abandoned fundamentalism, for it could do nothing to treat Malenia's accursed rot. This was the beginning of unalloyed gold."
+    ],
+    "summary": "Creates golden ring of light to attack wide area",
+    "fpCost": 21,
+    "spCost": 37,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 31,
+      "faith": 31
+    }
+  },
+  "Elden Stars": {
+    "description": [
+      "This legendary incantation is the most ancient of those that derive from the Erdtree.",
+      "",
+      "Creates a stream of golden shooting stars that assail the area.",
+      "",
+      "It is said that long ago, the Greater Will sent a golden star bearing a beast into the Lands Between, which would later become the Elden Ring."
+    ],
+    "summary": "Creates a stream of golden shooting stars that assail the area",
+    "fpCost": 41,
+    "spCost": 48,
+    "slotsUsed": 2,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 50
+    }
+  },
+  "Law of Regression": {
+    "description": [
+      "Incantation of the Golden Order fundamentalists.",
+      "One of the key fundamentals.",
+      "",
+      "Heals all negative statuses, dispels special effects, and reveals mimicry in all its forms.",
+      "",
+      "The fundamentalists describe the Golden Order through the powers of regression and causality. Regression is the pull of meaning; that all things yearn eternally to converge."
+    ],
+    "summary": "Heals all ailments and dispels all special effects",
+    "fpCost": 55,
+    "spCost": 50,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 37
+    }
+  },
+  "Immutable Shield": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "",
+      "Enchants shield held in the left hand with the light of regression, increasing all forms of non-physical damage negation and ailment resistance.",
+      "",
+      "Two concepts form the basis for Golden Order fundamentalism. One is the law of regression, to which this incantation relates."
+    ],
+    "summary": "Increases left-hand shield's affinity and ailment resistance",
+    "fpCost": 15,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 19,
+      "faith": 19
+    }
+  },
+  "Litany of Proper Death": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "Used by hunters of Those Who Live in Death.",
+      "",
+      "Creates an image of Order, dealing holy damage to nearby foes. This incantation is especially damaging to Those Who Live in Death. Any felled by this incantation cannot be revived.",
+      "",
+      "The role of the hunters is to stamp out defiled reason—all for the perfection of the Golden Order."
+    ],
+    "summary": "Creates image of Order to deal holy damage",
+    "fpCost": 17,
+    "spCost": 28,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 17,
+      "faith": 17
+    }
+  },
+  "Law of Causality": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "One of the key fundamentals.",
+      "",
+      "Manifests a small ring of causality within that allows the caster to automatically retaliate upon receiving a certain number of blows.",
+      "",
+      "The fundamentalists describe the Golden Order through the powers of regression and causality. Causality is the pull between meanings; that which links all things in a chain of relation."
+    ],
+    "summary": "Retaliates upon receiving a number of blows",
+    "fpCost": 22,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 29
+    }
+  },
+  "Order's Blade": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "Used by hunters of Those Who Live in Death.",
+      "",
+      "Enchants armament held in the right hand with holy-affinity attacks. This incantation is especially damaging to Those Who Live in Death. Any felled by this incantation cannot be revived.",
+      "",
+      "The role of the hunters is to stamp out defiled reason—all for the perfection of the Golden Order."
+    ],
+    "summary": "Enchants right-hand armament with holy damage",
+    "fpCost": 22,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "intelligence": 13,
+      "faith": 13
+    }
+  },
+  "Order Healing": {
+    "description": [
+      "One of the incantations of the Golden Order fundamentalists.",
+      "Used by hunters of Those Who Live in Death.",
+      "",
+      "Alleviates death blight buildup.",
+      "",
+      "The noble Goldmask lamented what had become of the hunters. How easy it is for learning and learnedness to be reduced to the ravings of fanatics; all the good and the great wanted, in their foolishness, was an absolute evil to contend with.",
+      "",
+      "Does such a notion exist in the fundamentals of Order?"
+    ],
+    "summary": "Alleviates death blight buildup",
+    "fpCost": 15,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "intelligence": 11,
+      "faith": 11
+    }
+  },
+  "Bestial Sling": {
+    "description": [
+      "Incantation taught by Gurranq, the Beast Clergyman.",
+      "",
+      "Swiftly flings a number of sharp rock shards.",
+      "This incantation can be cast without delay after performing another action.",
+      "",
+      "It is said that in the time before the Erdtree, stones were the first weapons of the beasts who had gained intelligence."
+    ],
+    "summary": "Swiftly flings numerous sharp rock shards",
+    "fpCost": 7,
+    "spCost": 19,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Stone of Gurranq": {
+    "description": [
+      "Superior incantation taught by Gurranq, the Beast Clergyman.",
+      "",
+      "Hurls a boulder before the caster.",
+      "This incantation can be cast repeatedly.",
+      "",
+      "Long ago, Gurranq was a beast of such terrifying ferocity that his former name meant \"Death of the Demigods.\""
+    ],
+    "summary": "Hurls a boulder before the caster",
+    "fpCost": 15,
+    "spCost": 37,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 13
+    }
+  },
+  "Beast Claw": {
+    "description": [
+      "Incantation taught by Gurranq, the Beast Clergyman.",
+      "",
+      "Creates beast claws that rend the land with shockwaves.",
+      "Charging enhances potency.",
+      "",
+      "This incantation represents the fury of Gurranq, his bestial nature returned, as much as it does his restless agitation."
+    ],
+    "summary": "Creates beast claws that tear through the land",
+    "fpCost": 10,
+    "spCost": 27,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 8
+    }
+  },
+  "Gurranq's Beast Claw": {
+    "description": [
+      "Superior incantation taught by Gurranq, the Beast Clergyman.",
+      "",
+      "Creates beast claws that rend surroundings with shockwaves.",
+      "",
+      "Long ago, Gurranq was a beast of such terrifying ferocity that his former name meant \"Death of the Demigods.\""
+    ],
+    "summary": "Creates beast claws to rend surroundings with shockwaves",
+    "fpCost": 21,
+    "spCost": 42,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15
+    }
+  },
+  "Bestial Vitality": {
+    "description": [
+      "Incantation taught by Gurranq, the Beast Clergyman.",
+      "",
+      "Fills the body with bestial vigor, restoring HP over a period of time.",
+      "",
+      "Having gained intelligence, the beasts must have felt how their wildness slipped away as civilization took hold."
+    ],
+    "summary": "Heals HP over a period of time",
+    "fpCost": 18,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 12
+    }
+  },
+  "Bestial Constitution": {
+    "description": [
+      "Incantation taught by Gurranq, the Beast Clergyman.",
+      "",
+      "Fills the body with bestial vigor, alleviating buildup of frost and blood loss.",
+      "",
+      "Having gained intelligence, the beasts must have felt how their wildness slipped away as civilization took hold."
+    ],
+    "summary": "Alleviates blood loss and frost buildup",
+    "fpCost": 10,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 9
+    }
+  },
+  "Lightning Spear": {
+    "description": [
+      "One of the incantations of the capital's ancient dragon cult.",
+      "",
+      "Summons a lightning spear and hurls it before the caster.",
+      "Charging causes a lightning bolt to strike the point of impact.",
+      "",
+      "Long ago, Godwyn the Golden defeated the ancient dragon Fortissax, and befriended his fallen foe—an event that gave rise to the ancient dragon cult in the capital."
+    ],
+    "summary": "Hurls lightning spear before caster",
+    "fpCost": 18,
+    "spCost": 28,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 17
+    }
+  },
+  "Ancient Dragons' Lightning Strike": {
+    "description": [
+      "A secret incantation of the capital's ancient dragon cult.",
+      "",
+      "Summons a red bolt of lightning that scatters and spreads around the surrounding area.",
+      "Charging enhances the range of the lightning bolt.",
+      "",
+      "Spoken of in legend, red lightning is the weapon wielded by the ancient dragons."
+    ],
+    "summary": "Summons red lightning that spreads from impact",
+    "fpCost": 36,
+    "spCost": 31,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 26
+    }
+  },
+  "Lightning Strike": {
+    "description": [
+      "One of the incantations of the capital's ancient dragon cult.",
+      "",
+      "Summons a bolt of lightning that scatters and spreads around the surrounding area.",
+      "This incantation can be cast repeatedly.",
+      "",
+      "Ancestors of the modern dragons, the ancient dragons had scales of Gravel Stone and wielded lightning as their weapon. It is said that once they attacked Leyndell, the Royal Capital."
+    ],
+    "summary": "Summons lightning bolt that spreads from impact",
+    "fpCost": 19,
+    "spCost": 32,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 28
+    }
+  },
+  "Frozen Lightning Spear": {
+    "description": [
+      "Incantation that channels the power of the Dragonkin Soldiers.",
+      "",
+      "Creates a spear of ice lightning and stabs it into the ground from above. On impact, the spear will burst into trails of lightning advancing forwards.",
+      "",
+      "The Dragonkin were born in the Eternal City, where they knew no true sky, nor true lightning. Instead, ice lightning was their weapon."
+    ],
+    "summary": "Stabs with ice lightning spear from above",
+    "fpCost": 29,
+    "spCost": 39,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 34
+    }
+  },
+  "Honed Bolt": {
+    "description": [
+      "One of the incantations of the capital's ancient dragon cult.",
+      "",
+      "Summons a bolt of lightning to strike foes from above.",
+      "This incantation can be cast repeatedly.",
+      "",
+      "Long ago, Godwyn the Golden defeated the ancient dragon Fortissax, and befriended his fallen foe—an event that gave rise to the ancient dragon cult in the capital."
+    ],
+    "summary": "Strikes foe with lightning bolt from above",
+    "fpCost": 12,
+    "spCost": 29,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Ancient Dragons' Lightning Spear": {
+    "description": [
+      "A secret incantation of the capital's ancient dragon cult.",
+      "",
+      "Creates a spear of red lightning and stabs it into the ground from above. On impact, the spear will burst into trails of lightning covering the area.",
+      "",
+      "Spoken of in legend, red lightning is the weapon wielded by the ancient dragons."
+    ],
+    "summary": "Stabs with red lightning spear from above",
+    "fpCost": 25,
+    "spCost": 29,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 32
+    }
+  },
+  "Fortissax's Lightning Spear": {
+    "description": [
+      "Incantation that channels the power of the ancient dragon Fortissax.",
+      "",
+      "Creates two spears of red lightning and stabs them into the ground from above, one after another. On impact, each spear will burst into trails of lightning covering the area.",
+      "",
+      "During the War of the Ancient Dragons, these twin red lightning stakes were the hallmark of one ancient dragon who was called the mightiest boulderstone."
+    ],
+    "summary": "Stabs from above with two red lightning spears in tandem",
+    "fpCost": 35,
+    "spCost": 42,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 46
+    }
+  },
+  "Lansseax's Glaive": {
+    "description": [
+      "Incantation that channels the power of the ancient dragon Lansseax.",
+      "",
+      "Creates a red-lightning glaive and sweeps the area from above. This attack unleashes trails of lightning.",
+      "",
+      "Lansseax was the sister of Fortissax. It is said that she took the form of a human to commune with the knights as a priestess of the ancient dragon cult."
+    ],
+    "summary": "Sweeps from above with red lightning glaive",
+    "fpCost": 22,
+    "spCost": 45,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 40
+    }
+  },
+  "Electrify Armament": {
+    "description": [
+      "One of the incantations of the capital's ancient dragon cult.",
+      "",
+      "Enchants armament held in the right hand with lightning-affinity attacks.",
+      "",
+      "Long ago, Godwyn the Golden defeated the ancient dragon Fortissax, and befriended his fallen foe—an event that gave rise to the ancient dragon cult in the capital."
+    ],
+    "summary": "Enchants right-hand armament with lightning damage",
+    "fpCost": 27,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "faith": 15
+    }
+  },
+  "Vyke's Dragonbolt": {
+    "description": [
+      "Incantation of Vyke, knight of the Roundtable Hold.",
+      "",
+      "Summons red lightning to bolster both the caster's body and their armament held in the right hand. Enchants armament with lightning-affinity attacks and increases maximum equipment load. However, lightning damage negation will be reduced.",
+      "",
+      "Of all the knights, Vyke the Dragonspear was the one Lansseax loved the most."
+    ],
+    "summary": "Bolsters right-hand armament & body with red lightning",
+    "fpCost": 35,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "faith": 23
+    }
+  },
+  "Dragonbolt Blessing": {
+    "description": [
+      "Superior incantation of the capital's ancient dragon cult.",
+      "",
+      "Summons lightning to bolster the caster's body. Attacks become easier to deflect and resistance to all ailments is increased. However, lightning damage negation will be reduced.",
+      "",
+      "Only those loved by dragons can survive the ordeal of cladding their bodies in lightning."
+    ],
+    "summary": "Bolsters caster's body with lightning",
+    "fpCost": 20,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 21
+    }
+  },
+  "Dragonfire": {
+    "description": [
+      "One of the incantations of Dragon Communion.",
+      "",
+      "Transforms caster into a dragon to spew flaming breath.",
+      "Charging extends duration.",
+      "",
+      "Incantation of those who have hunted dragons and feasted upon their hearts. Theirs is a pure and overwhelming power."
+    ],
+    "summary": "Channels dragon to spew flame breath",
+    "fpCost": 28,
+    "spCost": 40,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
+  },
+  "Agheel's Flame": {
+    "description": [
+      "Superior incantation of Dragon Communion.",
+      "Channels the power of the flying dragon Agheel.",
+      "",
+      "Transforms caster into a dragon to spew flaming breath from above.",
+      "Charging extends duration. This incantation can be used while jumping.",
+      "",
+      "The dead gazed at the skies over the lakes of Limgrave, praying that the dragons' flames would burn them to ash."
+    ],
+    "summary": "Spews flame breath of Agheel from above",
+    "fpCost": 36,
+    "spCost": 60,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
+  },
+  "Magma Breath": {
+    "description": [
+      "One of the incantations of Dragon Communion.",
+      "",
+      "Transforms caster into a wyrm to spew magma breath.",
+      "Allows one follow-up attack.",
+      "",
+      "Those who have performed the Dragon Communion will find their humanity slowly slipping away. Once they fully succumb to their fate, they are left no more than wyrms that crawl the earth."
+    ],
+    "summary": "Channels wyrm to spew magma breath",
+    "fpCost": 30,
+    "spCost": 40,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 14,
+      "arcane": 10
+    }
+  },
+  "Theodorix's Magma": {
+    "description": [
+      "Superior incantation of Dragon Communion.",
+      "Channels the power of the great wyrm Theodorix.",
+      "",
+      "Transforms caster into a great wyrm to spew a large volume of magma breath.",
+      "Allows one follow-up attack.",
+      "",
+      "The name of the ancient troll warrior Theodorix lives on—as a hero of the War against the Giants."
+    ],
+    "summary": "Spews magma breath of Theodorix from above",
+    "fpCost": 45,
+    "spCost": 60,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 21,
+      "arcane": 14
+    }
+  },
+  "Dragonice": {
+    "description": [
+      "One of the incantations of Dragon Communion.",
+      "",
+      "Transforms caster into a dragon to spew icy breath.",
+      "Charging extends duration.",
+      "",
+      "Those extraordinary individuals who perpetuate Dragon Communion are called the dragon-hearted."
+    ],
+    "summary": "Channels dragon to spew icy breath",
+    "fpCost": 36,
+    "spCost": 48,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
+  },
+  "Borealis's Mist": {
+    "description": [
+      "Superior incantation of Dragon Communion.",
+      "Channels the power of Borealis, the Freezing Fog.",
+      "",
+      "Transforms caster into a dragon to spew icy breath from above.",
+      "Charging extends duration. This incantation can be cast while jumping.",
+      "",
+      "The ice dragons were once lords of the mountaintops long ago, until they were defeated by the Fire Giants and chased from the peak."
+    ],
+    "summary": "Spews icy breath of Borealis from above",
+    "fpCost": 48,
+    "spCost": 60,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
+  },
+  "Rotten Breath": {
+    "description": [
+      "One of the incantations of Dragon Communion.",
+      "",
+      "Transforms caster into a dragon to spew scarlet rot breath.",
+      "Charging extends duration.",
+      "",
+      "Those extraordinary individuals who perpetuate Dragon Communion are called the dragon-hearted."
+    ],
+    "summary": "Channels dragon to spew scarlet rot breath",
+    "fpCost": 36,
+    "spCost": 48,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
+  },
+  "Ekzykes's Decay": {
+    "description": [
+      "Superior incantation of Dragon Communion.",
+      "Channels the power of Ekzykes, the Decaying.",
+      "",
+      "Transforms caster into a dragon to spew scarlet rot breath from above.",
+      "Charging extends duration. This incantation can be cast while jumping.",
+      "",
+      "Ekzykes, Dragon Communion Revenger, did not forget his hatred even as he succumbed to the scarlet rot."
+    ],
+    "summary": "Spews scarlet rot breath of Ekzykes from above",
+    "fpCost": 48,
+    "spCost": 60,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
+  },
+  "Glintstone Breath": {
+    "description": [
+      "One of the incantations of Dragon Communion.",
+      "",
+      "Transforms caster into a dragon to spew magic breath.",
+      "Charging extends duration.",
+      "",
+      "Those extraordinary individuals who perpetuate Dragon Communion are called the dragon-hearted."
+    ],
+    "summary": "Channels dragon to spew magic breath",
+    "fpCost": 28,
+    "spCost": 40,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
+  },
+  "Smarag's Glintstone Breath": {
+    "description": [
+      "Superior incantation of Dragon Communion.",
+      "Channels the power of Smarag, the Glintstone Dragon.",
+      "",
+      "Transforms caster into a dragon to spew magic breath from above.",
+      "Charging extends duration. This incantation can be cast while jumping.",
+      "",
+      "Smarag was a devourer of sorcerers, and over time, his body became corrupted by their glintstones."
+    ],
+    "summary": "Spews magic breath of Glintstone Dragon Smarag from above",
+    "fpCost": 36,
+    "spCost": 60,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
+  },
+  "Placidusax's Ruin": {
+    "description": [
+      "Power gleaned from the remembrance of Dragonlord Placidusax.",
+      "",
+      "Transforms caster into the Dragonlord to spew golden breath from above.",
+      "This incantation can be cast while jumping.",
+      "",
+      "These are the dying wails of the Dragonlord who once dwelled eternally beyond time."
+    ],
+    "summary": "Spews golden breath of Dragonlord Placidusax",
+    "fpCost": 62,
+    "spCost": 75,
+    "slotsUsed": 3,
+    "requirements": {
+      "faith": 36
+    }
+  },
+  "Dragonclaw": {
+    "description": [
+      "One of the incantations of Dragon Communion.",
+      "",
+      "Transforms caster into a dragon to tear through foes with dragon claws.",
+      "Allows one follow-up attack.",
+      "",
+      "Incantation of those who have hunted dragons and feasted upon their hearts. Theirs is a pure and overwhelming power."
+    ],
+    "summary": "Channels dragon to rend foes with dragon claws",
+    "fpCost": 24,
+    "spCost": 35,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 17,
+      "arcane": 13
+    }
+  },
+  "Dragonmaw": {
+    "description": [
+      "One of the incantations of Dragon Communion.",
+      "",
+      "Transforms caster into a dragon to bite enemies before them.",
+      "",
+      "Incantation of those who have hunted dragons and feasted upon their hearts. Theirs is a pure and overwhelming power."
+    ],
+    "summary": "Channels dragon to bite foes before caster",
+    "fpCost": 34,
+    "spCost": 50,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24,
+      "arcane": 16
+    }
+  },
+  "Greyoll's Roar": {
+    "description": [
+      "Superior incantation of Dragon Communion.",
+      "Channels the power of Greyoll, the Elder Dragon.",
+      "An incantation of legendary status.",
+      "",
+      "Transforms caster into a dragon to emit a terrible roar, reducing the attack power and defense of nearby enemies.",
+      "",
+      "Greyoll was the mother of all dragons, dwarfing all who stood before her like a looming mountain."
+    ],
+    "summary": "Emits the roar of Elder Dragon Greyoll",
+    "fpCost": 50,
+    "spCost": 72,
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 28,
+      "arcane": 17
+    }
+  },
+  "Pest Threads": {
+    "description": [
+      "Incantation of the servants of rot.",
+      "",
+      "Secretes countless sticky threads, launching them forwards.",
+      "",
+      "A technique of the pale pests who crawl through the lands afflicted by scarlet rot; the abandoned children of the goddess.",
+      "\"Do you have an interest in rot incantations?\""
+    ],
+    "summary": "Launches countless sticky threads before caster",
+    "fpCost": 19,
+    "spCost": 29,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 11
+    }
+  },
+  "Swarm of Flies": {
+    "description": [
+      "A Blood Oath incantation, shared from the Lord of Blood's power.",
+      "",
+      "Releases a swarm of bloodflies before the caster to assault foes. The vile swarm deals damage and builds up onset of blood loss.",
+      "This incantation can be cast while in motion.",
+      "",
+      "The new palace of the Lord of Blood lies in a swamp of festering blood, and these flies are said to spawn from excrement in that land."
+    ],
+    "summary": "Releases a swarm of bloodflies before caster",
+    "fpCost": 14,
+    "spCost": 24,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 11,
+      "arcane": 16
+    }
+  },
+  "Poison Mist": {
+    "description": [
+      "Incantation of the servants of rot.",
+      "",
+      "Releases a poisonous mist before the caster.",
+      "This incantation can be cast while in motion.",
+      "",
+      "Those who dwell within poison know rot all too well. The death that begets life, that comes to all equally. That is to say: it is the cycle of rebirth put into practice."
+    ],
+    "summary": "Releases poison mist before caster",
+    "fpCost": 18,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 12
+    }
+  },
+  "Poison Armament": {
+    "description": [
+      "Incantation of the servants of rot.",
+      "",
+      "Enchants armament held in the right hand with poison.",
+      "This incantation can be cast while in motion.",
+      "",
+      "Those who dwell within poison know rot all too well. The death that begets life, that comes to all equally. That is to say: it is the cycle of rebirth put into practice."
+    ],
+    "summary": "Enchants right-hand armament with poison",
+    "fpCost": 15,
+    "spCost": 10,
+    "slotsUsed": 1,
+    "isWeaponBuff": true,
+    "requirements": {
+      "faith": 10
+    }
+  },
+  "Scarlet Aeonia": {
+    "description": [
+      "Technique of Malenia, the Goddess of Rot.",
+      "",
+      "Creates a gigantic flower that blooms into an explosion of scarlet rot.",
+      "",
+      "Each time the scarlet flower blooms, Malenia's rot advances. It has bloomed twice already. With the third bloom, she will become a true goddess."
+    ],
+    "summary": "Creates giant flower that explodes with scarlet rot",
+    "fpCost": 48,
+    "spCost": 50,
+    "slotsUsed": 3,
+    "requirements": {
+      "faith": 35
+    }
+  },
+  "Inescapable Frenzy": {
+    "description": [
+      "Incantation originating from the maddening Three Fingers.",
+      "",
+      "Causes the yellow flame of frenzy to blaze from the caster's eyes. The caster then latches onto foes, spreading the madness.",
+      "This incantation also causes buildup of madness in the caster, and is only effective against Tarnished.",
+      "",
+      "To gaze into one another's eyes is truly the most intimate form of human contact."
+    ],
+    "summary": "Latches onto foes to spread madness",
+    "fpCost": 22,
+    "spCost": 31,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 21
+    }
+  },
+  "The Flame of Frenzy": {
+    "description": [
+      "Incantation originating from the maddening Three Fingers.",
+      "",
+      "Causes the yellow flame of frenzy to burst forth from the caster's eyes.",
+      "Charging increases the range of the burst.",
+      "",
+      "The flame of frenzy deals damage and causes buildup of madness. This incantation also causes buildup of madness in the caster, and is only effective against Tarnished."
+    ],
+    "summary": "Emits burst of yellow flame of frenzy from eyes",
+    "fpCost": 16,
+    "spCost": 30,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 16
+    }
+  },
+  "Unendurable Frenzy": {
+    "description": [
+      "Incantation originating from the maddening Three Fingers.",
+      "",
+      "Causes the yellow flame of frenzy to violently burst forth from the caster's eyes.",
+      "Hold to continue channeling the flame. This incantation can be used while in motion.",
+      "",
+      "It is the maddening pain and unstoppable tears of those afflicted with the flame of frenzy brought into being."
+    ],
+    "summary": "Emits violent burst of yellow flame of frenzy from eyes",
+    "fpCost": 22,
+    "spCost": 40,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 31
+    }
+  },
+  "Frenzied Burst": {
+    "description": [
+      "Incantation originating from the maddening Three Fingers.",
+      "",
+      "Releases concentrated blasts of the yellow flame of frenzy from the caster's eyes.",
+      "Charging enhances potency, enabling the blasts to penetrate the enemy's guard.",
+      "",
+      "In times past, every single person who attempted to control the flame of frenzy succumbed to madness after a desperate internal struggle. This incantation is testament to a meager victory."
+    ],
+    "summary": "Emits concentrated blast of yellow flame of frenzy from eyes",
+    "fpCost": 24,
+    "spCost": 33,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 22
+    }
+  },
+  "Howl of Shabriri": {
+    "description": [
+      "Incantation originating from the maddening Three Fingers.",
+      "",
+      "Releases a maddening shriek that causes madness buildup in foes nearby.",
+      "This incantation also causes madness buildup in the caster and makes enemies more likely to target them.",
+      "",
+      "It is said that the sickness of the flame of frenzy began with Shabriri, the most reviled man in all history."
+    ],
+    "summary": "Shrieks, building up madness in nearby foes",
+    "fpCost": 21,
+    "spCost": 38,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 33
+    }
+  },
+  "Aspects of the Crucible: Tail": {
+    "description": [
+      "One of the ancient Erdtree incantations.",
+      "",
+      "Creates a supple tail that sweeps through foes before the caster.",
+      "Charging enhances potency.",
+      "",
+      "This is a manifestation of the Erdtree's primal vital energies—an aspect of the primordial crucible, where all life was once blended together."
+    ],
+    "summary": "Creates supple tail to sweep area before caster",
+    "fpCost": 20,
+    "spCost": 32,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
+  },
+  "Aspects of the Crucible: Horns": {
+    "description": [
+      "One of the ancient Erdtree incantations.",
+      "",
+      "Creates a mighty horn on the caster's shoulder to gore foes from a low stance.",
+      "Charging allows the caster to barrel into foes before delivering the final attack.",
+      "",
+      "This is a manifestation of the Erdtree's primal vital energies—an aspect of the primordial crucible, where all life was once blended together."
+    ],
+    "summary": "Creates shoulder horn to gore foes from low stance",
+    "fpCost": 18,
+    "spCost": 38,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
+  },
+  "Aspects of the Crucible: Breath": {
+    "description": [
+      "One of the ancient Erdtree incantations.",
+      "",
+      "Creates a throat pouch on the caster's neck, allowing them to spew fiery breath while walking.",
+      "Charging increases duration of the breath.",
+      "",
+      "This is a manifestation of the Erdtree's primal vital energies—an aspect of the primordial crucible, where all life was once blended together."
+    ],
+    "summary": "Creates throat pouch to spew fire while walking",
+    "fpCost": 28,
+    "spCost": 40,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
+  },
+  "Black Blade": {
+    "description": [
+      "Power gleaned from the remembrance of Maliketh.",
+      "",
+      "Caster creates an illusory black blade, then leaps forward to deliver a spinning slash that emits a wave of light.",
+      "This can be followed up with one additional attack.",
+      "",
+      "This blade was once imbued with Destined Death. In addition to dealing damage, it reduces foes' maximum HP and continues to sap their current HP for a very short time."
+    ],
+    "summary": "Black blade spinning slash that emits wave of light",
+    "fpCost": 26,
+    "spCost": 44,
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 46
+    }
+  },
+  "Fire's Deadly Sin": {
+    "description": [
+      "Incantation originating from a deeply ominous prophecy.",
+      "",
+      "Sets both the caster and the surrounding area ablaze with raging flames. The caster's body will remain engulfed in flame for a while, burning them and any who draw near. Charging enhances potency.",
+      "",
+      "The prophet despaired, looking up at the Erdtree, for soon the kindling would burst into flame, bringing ruin.",
+      "",
+      "\"The burning of the Erdtree is the first cardinal sin. That is not the domain of mere men.\""
+    ],
+    "summary": "Sets area and self ablaze with raging flames",
+    "fpCost": 26,
+    "spCost": 28,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 19
+    }
+  },
+  "Golden Lightning Fortification": {
+    "description": [
+      "An incantation of Erdtree Worship.",
+      "",
+      "Greatly increases lightning damage negation for the caster and nearby allies.",
+      "Hold to continue praying, delaying the effect.",
+      "",
+      "This incantation was used by the knights of the Erdtree during the assault by the great ancient dragon Gransax, and the bitter War of the Ancient Dragons that followed."
+    ],
+    "summary": "Greatly increases lightning resistance for self and allies",
+    "fpCost": 30,
+    "spCost": 20,
+    "slotsUsed": 1,
+    "isHorsebackCastable": true,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Aspects of the Crucible: Bloom": {
+    "description": [
+      "Aspect of the Crucible discovered in the ancient ruins. Creates a miranda flower on one's chest before calling down a rain of light. Charging increases potency. In an age long past, before this land was enshrouded in shadow, the vitality of the Crucible flourished."
+    ],
+    "fpCost": 23,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
+  },
+  "Aspects of the Crucible: Thorns": {
+    "description": [
+      "Aspect of the Crucible that manifested in golden hippopotami. Creates a bristling mass of thorn-like fur on the caster's back before scouring the area by rolling around on the ground. Charging increases potency. In an age long past, before this land was enshrouded in shadow, the vitality of the Crucible flourished. Remains of this can be seen in the ancient ruins."
+    ],
+    "fpCost": 14,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
+  },
+  "Bayle's Flame Lightning": {
+    "description": [
+      "One of the greatest Dragon Communion incantations. Harnesses the fearsome power of Bayle the Dread. Channels the form of the dread dragon in right arm to smash foes with an exposed talon bone coursing with flame lightning. Even after being consumed, the throbbing heart of Bayle continues to resist its subjugation, never weakening. One day, the fire within will consume the very body and soul of its Communion devourer. One day."
+    ],
+    "fpCost": 43,
+    "slotsUsed": 2,
+    "requirements": {
+      "arcane": 53
+    }
+  },
+  "Bayle's Tyranny": {
+    "description": [
+      "One of the greatest Dragon Communion incantations. Harnesses the fearsome power of Bayle the Dread. Channels the form of the dread dragon to emit a mighty roar accompanied by a heatwave burst, causing violent eruptions of fire in the area. Even after being consumed, the throbbing heart of Bayle continues to resist its subjugation, never weakening. One day, the fire within will consume the very body and soul of its Communion devourer. One day."
+    ],
+    "fpCost": 46,
+    "slotsUsed": 2,
+    "requirements": {
+      "arcane": 49
+    }
+  },
+  "Divine Beast Tornado": {
+    "description": [
+      "The tempest of the Dancing Lion, wielded as an incantation. A whirlwind-like twist of the body summons a storm, launching a tornado forward. Charging enhances potency. The majority of divine beasts were gored and hung upon Messmer's spears, then burned in his flame. Those who witnessed the deed likened it to a funeral pyre for the tower itself."
+    ],
+    "fpCost": 24,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 28
+    }
+  },
+  "Divine Bird Feathers": {
+    "description": [
+      "A technique of the divine bird warriors, the very first of all horned warriors, wielded as an incantation. Spread the arms wide like wings to release a flurry of feathers. This incantation can be cast while in motion. Hold to continue releasing feathers. The divine bird warriors, and indeed this technique, are said to bear resemblance to the golden Crucible."
+    ],
+    "fpCost": 3,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Dragonbolt of Florissax": {
+    "description": [
+      "Special incantation of the ancient dragon Florissax. Calls down red lightning to bolster the caster and nearby allies. While enrobed with red lightning, all forms of damage negation (including physical) are increased. This also increases damage negation while guarding as an additional effect. There was a time when the priestess never knew love, and thus never used this incantation herself."
+    ],
+    "fpCost": 35,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 52
+    }
+  },
+  "Electrocharge": {
+    "description": [
+      "One of the incantations of the capital's ancient dragon cult. Calls down lightning to charge the caster's body. While charged, electric shocks will strike the area several times. Charging increases potency. The origin of incantations that bolster the body with lightning, and now a lost art in the Lands Between."
+    ],
+    "fpCost": 26,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 30
+    }
+  },
+  "Fire Serpent": {
+    "description": [
+      "Incantation of the Fire Knights under Messmer the Impaler's personal command. Launch a serpentine flame that bends and curls in pursuit of its foe. Charging enhances potency. When the flame they received from Messmer would not find purchase within them, the Fire Knights relied on fire incantations to honor their bond."
+    ],
+    "fpCost": 11,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 16
+    }
+  },
+  "Furious Blade of Ansbach": {
+    "description": [
+      "Incantation of Ansbach, Pureblood Knight. Produces a bloodflame blade from the side of the hand, then lunges at enemies to cleave through them. Charge to increase the number of slashes. Markedly different from the finessed swordplay of the dynast, this is an aggressive last resort of an incantation that gave rise to Ansbach's fearsome reputation."
+    ],
+    "fpCost": 18,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 19,
+      "arcane": 27
+    }
+  },
+  "Ghostflame Breath": {
+    "description": [
+      "One of the incantations of Dragon Communion. Transforms caster into a dragon to spew ghostflame breath. Charging extends duration. The land of spiritgraves is home to all manner of dead, and even the corpses of fallen dragons found their way there. Several of them were endowed with such vivacity that even in death, they could not fully die."
+    ],
+    "fpCost": 36,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
+  },
+  "Giant Golden Arc": {
+    "description": [
+      "Sorcery of the inquisitors of the tower, wielded as an incantation of the spiral. A swing of the arm releases a giant golden arc. Charging enhances potency. The arc resembles the barb, a known symbol of coercive questioning."
+    ],
+    "fpCost": 24,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 34
+    }
+  },
+  "Golden Arcs": {
+    "description": [
+      "Sorcery of the inquisitors of the tower, wielded as an incantation of the spiral. A swing of the arm releases a procession of golden arcs. Charging enhances potency. The arcs resemble barbs, a known symbol of coercive questioning."
+    ],
+    "fpCost": 12,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 22
+    }
+  },
+  "Heal from Afar": {
+    "description": [
+      "An Erdtree incantation discovered in the realm of shadow. Fires a projectile toward distant allies that greatly restores HP on contact. Even when far beyond, far out of sight, the Erdtree will surely give us its blessing."
+    ],
+    "fpCost": 45,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 18
+    }
+  },
+  "Knight's Lightning Spear": {
+    "description": [
+      "One of the incantations of the capital's ancient dragon cult. Summons a lightning spear while also manifesting ancient dragon crests. On throwing the spear, the crests will launch additional spears. Charge to increase the number of crests. An incantation that was taught only to the most accomplished knights, and now a lost art in the Lands Between."
+    ],
+    "fpCost": 29,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 36
+    }
+  },
+  "Land of Shadow": {
+    "description": [
+      "Incantation originating from Scadutree avatars. Creates a hail of golden projectiles which are fired toward foes after a brief delay. This incantation channels the force of the Scadutree's power, and its gold is accompanied by shadow."
+    ],
+    "fpCost": 40,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 58
+    }
+  },
+  "Light of Miquella": {
+    "description": [
+      "The strength of Miquella upon his deific return, wielded as an incantation. Annihilates foes with a pillar of light. Miquella sought to accept all that was and would be, but found one that refused to be embraced. No wonder, as one god, and one king consort, is all the world needs."
+    ],
+    "fpCost": 48,
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 72
+    }
+  },
+  "Midra's Flame of Frenzy": {
+    "description": [
+      "Incantation in praise of Midra, Lord of Frenzied Flame. Summons an apparition of the Lord's head to spew frenzied flame. This incantation can be used while in motion. The apparition will remain for as long as the input is held. The Lord of Frenzied Flame shall take their torment, despair. Their affliction. Every sin, every curse. All melted away. Yet Midra, like others before him, was too weak to become a Lord."
+    ],
+    "fpCost": 22,
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 41
+    }
+  },
+  "Messmer's Orb": {
+    "description": [
+      "An incantation of Messmer the Impaler. Summons Messmer's flame to form a giant floating orb. The orb soars toward a foe, crashes into the earth, and explodes after a brief delay. Charging enhances potency. Messmer despised his own fire. Time and time again he hoped to rid himself of it, but ever did it burn."
+    ],
+    "fpCost": 31,
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 60
+    }
+  },
+  "Minor Erdtree": {
+    "description": [
+      "Secret incantation of Queen Marika. Only the kindness of gold, without Order. Creates a small, illusory Erdtree that continuously restores the HP of nearby allies. Marika bathed the village of her home in gold, knowing full well that there was no one to heal."
+    ],
+    "fpCost": 30,
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 70
+    }
+  },
+  "Multilayered Ring of Light": {
+    "description": [
+      "Incantation of those who served Miquella. Produces a multilayered ring of golden light and fires it forwards, inflicting continuous damage on those struck by it. Charging increases potency. This light-ring incantation was cultivated by a tradition separate from Golden Order fundamentalism."
+    ],
+    "fpCost": 23,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 36
+    }
+  },
+  "Pest-Thread Spears": {
+    "description": [
+      "Skill of the pests known as the Kindred of Rot, now wielded as an incantation. Secrete numerous sticky threads, then twist them into two spears launched frontwards. Charge to enhance potency. The pests are abandoned servants, and it is for this reason that they found a mother in the Saint of the Bud."
+    ],
+    "fpCost": 28,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 26
+    }
+  },
+  "Rain of Fire": {
+    "description": [
+      "Incantation of Salza, sage of the Fire Knights. Summons a cloud of flame overhead that rains fire for a short time. Charging increases potency. Salza's disdain for barbarism never waned, even as he burned more villages and scorched more land than any other."
+    ],
+    "fpCost": 27,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 52
+    }
+  },
+  "Roar of Rugalea": {
+    "description": [
+      "An incantation of what is jokingly called \"the bear communion.\" Channels the power of Rugalea, the great red bear. Transform oneself into a great red bear and emit a mighty roar. Charging increases potency. An incantation that is more akin to the divine invocation of the hornsent than it is to the Dragon Communion. Only through desperate battle with the feral wild can one discover a god unique to oneself."
+    ],
+    "fpCost": 17,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 14
+    }
+  },
+  "Rotten Butterflies": {
+    "description": [
+      "Incantation used by Romina, Saint of the Bud. Summons a myriad of butterflies while performing a gentle twirl. The butterflies break apart on contact, scattering rot and setting off a chain reaction. The scarlet butterflies are as the Goddess of Rot's wings. Bereft of a master, they were soothed by Romina, who reached out to them."
+    ],
+    "fpCost": 48,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 33
+    }
+  },
+  "Spira": {
+    "description": [
+      "Superior sorcery of the tower priests, wielded as an incantation of the spiral. Wrap one's arms together and hold them up to the heavens to summon a spiral of light that erupts at the enemy's feet. Column of light persists for as long as the button is pressed. The spiral is a normalized Crucible current that, one day, will form a column that stretches to the gods."
+    ],
+    "fpCost": 10,
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 48
+    }
+  },
+  "Watchful Spirit": {
+    "description": [
+      "An entreaty received from the Empyrean grandam. Summon a guardian spirit above the caster's head. The spirit never strays far from the caster, conjuring several apparitions before dissipating. \"Take vengeance upon Messmer and his lot. They who betrayed us, aye, they who burned us... Let them face in thy wrath their just deserts.\""
+    ],
+    "fpCost": 12,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 26
+    }
+  },
+  "Wrath from Afar": {
+    "description": [
+      "An Erdtree incantation discovered in the realm of shadow. Fires a golden shockwave that knocks back nearby foes. Charging increases the size of the shockwave. When the Elden Ring was shattered, the people of the realm of shadow felt it tooand feared it as a sign of the Erdtree's wrath."
+    ],
+    "fpCost": 18,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 34
+    }
+  },
+  "Blades of Stone": {
+    "description": [
+      "Gravity-manipulating sorcery of Commander Gaius. Pulls blade-like clumps of rock from the earth. Charging increases potency. Gaius and Radahn were good rivals in their youth, and this sorcery is a product of their friendly competition."
+    ],
+    "fpCost": 18,
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 48
+    }
+  },
+  "Cherishing Fingers": {
+    "description": [
+      "A finger sorcery of Count Ymir, aspiring mother of fingers. Surrounds the caster with a mesh of hefty fingers that wards all manner of projectiles, whether magical or physical in nature, away from the caster. Charging enhances potency. The dear fingers look after their mother, or perhaps that is merely what the mother wishes to believe."
+    ],
+    "fpCost": 20,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
+  },
+  "Fleeting Microcosm": {
+    "description": [
+      "A finger sorcery of Count Ymir, High Priest. One of the secret hallowed rites. Conjures an image of a microcosm at a foe's feet that pulses with a single wave before disappearing in a burst. Charging enhances potency. The broken and discarded are fully willing to cling to fleeting simulacra, earning them some modicum of sympathy."
+    ],
+    "fpCost": 26,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 42
+    }
+  },
+  "Glintblade Trio": {
+    "description": [
+      "An old sorcery of the Carian royal family. Creates a sigil overhead, from which three enemy-seeking glintblades appear after a brief delay. This sorcery can be used while in motion. Charging increases the delay. The prototypical form of sword-phalanx sorceries saw a different subsequent refinement in the realm of shadow."
+    ],
+    "fpCost": 19,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28
+    }
+  },
+  "Glintstone Nail": {
+    "description": [
+      "Glintstone sorcery of Count Ymir, High Priest. One of the finger sorceries said to have been discovered in a hallowed ruin. Flings a magic nail that crumbles during flight. Charging increases potency. Count Ymir boasts that this is mere child's play, an echo of a greater truth."
+    ],
+    "fpCost": 10,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 18
+    }
+  },
+  "Glintstone Nails": {
+    "description": [
+      "Glintstone sorcery of Count Ymir, High Priest. One of the finger sorceries said to have been discovered in a hallowed ruin. Flings multiple magic nails that crumble during flight. Charging increases potency. Count Ymir boasts that this is mere child's play, an echo of a greater truth."
+    ],
+    "fpCost": 23,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 32
+    }
+  },
+  "Gravitational Missile": {
+    "description": [
+      "One of the glintstone sorceries that manipulates gravitational forces. Fires a gravitational projectile that pulls in enemies before finally exploding. Charging increases potency. Said to have originated in the lightless dark far beyondthe home of the fallingstar beasts."
+    ],
+    "fpCost": 18,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
+  },
+  "Impenetrable Thorns": {
+    "description": [
+      "Sorcery of those who abandoned the practice of incantations after devout faith rewarded them with only despair. Summons the Scadutree's impenetrable thorns from the ground. This sorcery can be used repeatedly. The image of the twisted Scadutree is an edict: Denounce their ways. Do them harm. For they have abandoned us."
+    ],
+    "fpCost": 15,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
+  },
+  "Mantle of Thorns": {
+    "description": [
+      "Sorcery of those who abandoned the practice of incantations after devout faith rewarded them with only despair. Covers the caster in impenetrable thorns grown from the Scadutree. Once covered, dodge rolls will damage enemies. The image of the misshapen Scadutree is an edict: Spurn all that exists. Wound all that exists. For we have been abandoned."
+    ],
+    "fpCost": 9,
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 20
+    }
+  },
+  "Mass of Putrescence": {
+    "description": [
+      "Sorcery originating from the putrid liquor of the stone coffins. Flings a great mass of putrescence that explodes shortly after impact, raining ghostflame upon the area. In an age long past, Death was burned by ghostflame. Even the remains of tainted flesh were given equal treatment in death. lob it to the side of them"
+    ],
+    "fpCost": 41,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28,
+      "faith": 22
+    }
+  },
+  "Miriam's Vanashing": {
+    "description": [
+      "Sorcery of a preceptor who served the Carian royal family. Used to conceal oneself in a glintstone haze, reappearing after a few seconds have passed. Directional inputs determine where one will reappear. The curator of the study hall was such a master of this sorcery that it now bears her name."
+    ],
+    "fpCost": 9,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 26
+    }
+  },
+  "Rellana's Twin Moons": {
+    "description": [
+      "Sorcery of Rellana, the Twin Moon Knight. Associated with a Carian princess. Incarnate overlapping twin moons which strike the ground one after the other, violently shaking the earth with moonlight. In her childhood, she and her elder sister Rennala met these moons. Overlapping, as though nestled against one another."
+    ],
+    "fpCost": 47,
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 72
+    }
+  },
+  "Rings of Spectral Light": {
+    "description": [
+      "Sorcery practiced by the keepers of the spiritgraves, where all death ultimately drifts. Creates rings of spectral light that fire in unison. Charging enhances potency. The rings of light have the same qualities as ghostflame, and deal magic damage while also causing frost buildup."
+    ],
+    "fpCost": 14,
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 24,
+      "faith": 18
+    }
+  },
+  "Vortex of Putrescence": {
+    "description": [
+      "Sorcery used by the Putrescent Knight. Launches a whirl of putrescent jets that explode shortly after impact and bathe the area in ghostflame. In an age long past, Death was burned by ghostflame. Even the remains of tainted flesh were given equal treatment in death."
+    ],
+    "fpCost": 29,
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 32,
+      "faith": 26
+    }
+  }
+}

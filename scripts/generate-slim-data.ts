@@ -402,4 +402,292 @@ for (const item of Object.values(dlcAshes)) {
 ashes.sort((a, b) => a.name.localeCompare(b.name));
 writeOut("ashes-of-war.json", ashes);
 
+// ============================================================
+// Detail data generation (for item detail modal)
+// ============================================================
+
+function writeDetailOut(filename: string, data: Record<string, unknown>) {
+  const count = Object.keys(data).length;
+  writeFileSync(join(OUT, filename), JSON.stringify(data, null, 2) + "\n");
+  console.log(`  ${filename}: ${count} items`);
+}
+
+function normalizeDescription(desc: unknown): string[] {
+  if (Array.isArray(desc)) return desc as string[];
+  if (typeof desc === "string") return [desc];
+  return [];
+}
+
+function nonEmpty<T>(obj: T | undefined | null): T | undefined {
+  if (obj == null) return undefined;
+  if (typeof obj === "object" && Object.keys(obj as object).length === 0) return undefined;
+  return obj;
+}
+
+console.log("\nGenerating detail data...");
+
+// --- Armament details (weapons, shields, catalysts) ---
+console.log("Processing armament details...");
+
+interface ArmamentDetailEntry {
+  description: string[];
+  rarity?: string;
+  attackAttributes?: string[];
+  damage?: Record<string, number>;
+  scaling?: Record<string, number>;
+  guard?: Record<string, number>;
+  statusEffects?: Record<string, number>;
+  requirements?: Record<string, number>;
+  weight: number;
+  upgradeMaterial?: string;
+  isBuffable?: boolean;
+  defaultSkillId?: number;
+}
+
+const weaponDetails: Record<string, ArmamentDetailEntry> = {};
+const shieldDetails: Record<string, ArmamentDetailEntry> = {};
+const catalystDetails: Record<string, ArmamentDetailEntry> = {};
+
+for (const item of Object.values(baseArmaments)) {
+  const cat = item.category as string;
+  const affinity = (item.affinity as Record<string, Record<string, unknown>>)?.Standard;
+
+  const damageObj = affinity?.damage as Record<string, number> | undefined;
+  const damage = damageObj
+    ? Object.fromEntries(Object.entries(damageObj).filter(([k, v]) => v > 0 && k !== "stamina"))
+    : undefined;
+
+  const guardObj = affinity?.guard as Record<string, number> | undefined;
+  const statusObj = affinity?.status_effects as Record<string, number> | undefined;
+  const statusEffects = statusObj
+    ? Object.fromEntries(Object.entries(statusObj).filter(([, v]) => v > 0))
+    : undefined;
+
+  const entry: ArmamentDetailEntry = {
+    description: normalizeDescription(item.description),
+    rarity: (item.rarity as string) || undefined,
+    attackAttributes: (item.attack_attributes as string[])?.length
+      ? (item.attack_attributes as string[])
+      : undefined,
+    damage: nonEmpty(damage),
+    scaling: nonEmpty(affinity?.scaling as Record<string, number>),
+    guard: nonEmpty(guardObj),
+    statusEffects: nonEmpty(statusEffects),
+    requirements: nonEmpty(item.requirements as Record<string, number>),
+    weight: item.weight as number,
+    upgradeMaterial: (item.upgrade_material as string) || undefined,
+    isBuffable: (item.is_buffable as boolean) || undefined,
+    defaultSkillId: (item.default_skill_id as number) || undefined,
+  };
+
+  const name = item.name as string;
+  if (SHIELD_CATEGORIES.has(cat)) shieldDetails[name] = entry;
+  else if (CATALYST_CATEGORIES.has(cat)) catalystDetails[name] = entry;
+  else weaponDetails[name] = entry;
+}
+
+const DLC_DAMAGE_VAL_MAP: Record<string, string> = {
+  Phy: "physical",
+  Mag: "magic",
+  Fire: "fire",
+  Ligt: "lightning",
+  Holy: "holy",
+};
+
+for (const item of Object.values(dlcWeapons)) {
+  const rawCat = item.category as string;
+  const cat = normalizeCategory(rawCat);
+
+  const rawAttack = item.attack as Record<string, number | null> | undefined;
+  const damage = rawAttack
+    ? Object.fromEntries(
+        Object.entries(rawAttack)
+          .map(([k, v]) => [DLC_DAMAGE_VAL_MAP[k], v])
+          .filter(([k, v]) => k && v && (v as number) > 0),
+      )
+    : undefined;
+
+  const entry: ArmamentDetailEntry = {
+    description: normalizeDescription(item.description),
+    damage: nonEmpty(damage) as Record<string, number> | undefined,
+    scaling: normalizeDlcScaling(item.scaling as Record<string, string | null> | undefined),
+    requirements: normalizeDlcRequirements(
+      item.requirements as Record<string, number | null> | undefined,
+    ),
+    weight: (item.weight as number) ?? 0,
+  };
+
+  const name = item.name as string;
+  if (SHIELD_CATEGORIES.has(cat)) shieldDetails[name] = entry;
+  else if (CATALYST_CATEGORIES.has(cat)) catalystDetails[name] = entry;
+  else weaponDetails[name] = entry;
+}
+
+writeDetailOut("weapon-details.json", weaponDetails);
+writeDetailOut("shield-details.json", shieldDetails);
+writeDetailOut("catalyst-details.json", catalystDetails);
+
+// --- Armor details ---
+console.log("Processing armor details...");
+
+interface ArmorDetailEntry {
+  description: string[];
+  rarity?: string;
+  absorptions?: Record<string, number>;
+  resistances?: Record<string, number>;
+  weight: number;
+}
+
+const armorDetails: Record<string, ArmorDetailEntry> = {};
+
+for (const item of Object.values(baseArmor)) {
+  armorDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    rarity: (item.rarity as string) || undefined,
+    absorptions: nonEmpty(item.absorptions as Record<string, number>),
+    resistances: nonEmpty(item.resistances as Record<string, number>),
+    weight: item.weight as number,
+  };
+}
+
+for (const item of Object.values(dlcArmor)) {
+  armorDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    absorptions: nonEmpty(item.absorptions as Record<string, number>),
+    resistances: nonEmpty(item.resistances as Record<string, number>),
+    weight: (item.weight as number) ?? 0,
+  };
+}
+
+writeDetailOut("armor-details.json", armorDetails);
+
+// --- Talisman details ---
+console.log("Processing talisman details...");
+
+interface TalismanDetailEntry {
+  description: string[];
+  summary?: string;
+  rarity?: string;
+  effects?: { attribute: string; value: number; model: string; type: string }[];
+  conflicts?: string[];
+  weight: number;
+}
+
+const talismanDetails: Record<string, TalismanDetailEntry> = {};
+
+for (const item of Object.values(baseTalismans)) {
+  const rawEffects = item.effects as
+    | { attribute: string; value: number; model: string; type: string }[]
+    | undefined;
+
+  talismanDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    summary: (item.summary as string) || undefined,
+    rarity: (item.rarity as string) || undefined,
+    effects: rawEffects && rawEffects.length > 0 ? rawEffects : undefined,
+    conflicts: (item.conflicts as string[])?.length
+      ? (item.conflicts as string[])
+      : undefined,
+    weight: item.weight as number,
+  };
+}
+
+for (const item of Object.values(dlcTalismans)) {
+  talismanDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    summary: (item.effects as string) || undefined,
+    weight: (item.weight as number) ?? 0,
+  };
+}
+
+writeDetailOut("talisman-details.json", talismanDetails);
+
+// --- Spell details ---
+console.log("Processing spell details...");
+
+interface SpellDetailEntry {
+  description: string[];
+  summary?: string;
+  fpCost: number;
+  spCost?: number;
+  slotsUsed: number;
+  isHorsebackCastable?: boolean;
+  isWeaponBuff?: boolean;
+  requirements?: Record<string, number>;
+}
+
+const spellDetails: Record<string, SpellDetailEntry> = {};
+
+for (const item of Object.values(baseSpells)) {
+  const rawReqs = item.requirements as Record<string, number> | undefined;
+  const requirements = rawReqs
+    ? Object.fromEntries(Object.entries(rawReqs).filter(([, v]) => v > 0))
+    : undefined;
+
+  spellDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    summary: (item.summary as string) || undefined,
+    fpCost: (item.fp_cost as number) ?? 0,
+    spCost: (item.sp_cost as number) || undefined,
+    slotsUsed: (item.slots_used as number) ?? 1,
+    isHorsebackCastable: (item.is_horseback_castable as boolean) || undefined,
+    isWeaponBuff: (item.is_weapon_buff as boolean) || undefined,
+    requirements: nonEmpty(requirements),
+  };
+}
+
+for (const item of Object.values(dlcSpells)) {
+  const rawReqs = item.requirements as Record<string, number | null> | undefined;
+  const requirements = rawReqs
+    ? Object.fromEntries(
+        Object.entries(rawReqs)
+          .map(([k, v]) => [DLC_STAT_KEY_MAP[k] ?? k.toLowerCase(), v])
+          .filter(([, v]) => v != null && (v as number) > 0),
+      )
+    : undefined;
+
+  spellDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    fpCost: (item.fp_cost as number) ?? 0,
+    slotsUsed: (item.slots as number) ?? 1,
+    requirements: nonEmpty(requirements) as Record<string, number> | undefined,
+  };
+}
+
+writeDetailOut("spell-details.json", spellDetails);
+
+// --- Ash of War details ---
+console.log("Processing ash of war details...");
+
+interface AshDetailEntry {
+  description?: string[];
+  armamentCategories?: string[];
+  defaultAffinity?: string;
+  possibleAffinities?: string[];
+}
+
+const ashDetails: Record<string, AshDetailEntry> = {};
+
+for (const item of Object.values(baseAshes)) {
+  const cats = item.armament_categories as string[] | undefined;
+  ashDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    armamentCategories: cats && cats.length > 0 ? cats : undefined,
+    defaultAffinity: (item.default_affinity as string) || undefined,
+    possibleAffinities:
+      (item.possible_affinities as string[])?.length > 0
+        ? (item.possible_affinities as string[])
+        : undefined,
+  };
+}
+
+for (const item of Object.values(dlcAshes)) {
+  ashDetails[item.name as string] = {
+    description: normalizeDescription(item.description),
+    defaultAffinity: (item.affinity as string) || undefined,
+  };
+}
+
+writeDetailOut("ash-details.json", ashDetails);
+
 console.log("\nDone!");

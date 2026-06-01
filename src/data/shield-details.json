@@ -1,0 +1,2351 @@
+{
+  "Buckler": {
+    "description": [
+      "A small metal roundshield. The bump in the center is designed to parry.",
+      "",
+      "A well-timed parry deflects an enemy's attack, breaking their stance and leaving them open to a critical hit. Though risk is inherent, this shield favors aggression."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 68
+    },
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.3
+    },
+    "guard": {
+      "physical": 61,
+      "magic": 30,
+      "fire": 30,
+      "lightning": 16,
+      "holy": 30,
+      "guard_boost": 37
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 13
+    },
+    "weight": 1.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 303
+  },
+  "Perfumer's Shield": {
+    "description": [
+      "Golden shield used by the perfumers of Leyndell during military service.",
+      "",
+      "Made to be thin and light of weight, even those lacking strength can employ this immunity-boosting shield."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 67
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 66,
+      "magic": 35,
+      "fire": 35,
+      "lightning": 16,
+      "holy": 35,
+      "guard_boost": 37
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 1.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Man-Serpent's Shield": {
+    "description": [
+      "Small copper dome-shaped roundshield carried by the man-serpents of Mt. Gelmir.",
+      "",
+      "Said to have been tempered in lava, it boasts great resistance to fire."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 70
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 75,
+      "magic": 35,
+      "fire": 48,
+      "lightning": 18,
+      "holy": 33,
+      "guard_boost": 39
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 2,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Rickety Shield": {
+    "description": [
+      "A creaky old wooden shield, circular in shape. Roughly reinforced with vines.",
+      "",
+      "There are countless other shields available of better make. This piece of scrap isn't worth the effort of equipping."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 70
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 61,
+      "magic": 29,
+      "fire": 24,
+      "lightning": 34,
+      "holy": 34,
+      "guard_boost": 37
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 1,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Pillory Shield": {
+    "description": [
+      "Pillory made to punish serious felons, used as a shield. Though made of good, sturdy wood, it is only a makeshift tool and performs as such.",
+      "",
+      "Perhaps due to its use as a device with which the guilty were made to endure prolonged suffering, it raises vitality."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 71
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 68,
+      "magic": 46,
+      "fire": 23,
+      "lightning": 38,
+      "holy": 46,
+      "guard_boost": 40
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Beastman's Jar-Shield": {
+    "description": [
+      "Shield fashioned from a tall broken jar carried by the beastmen of Farum Azula. There is a particular knack to wielding it.",
+      "",
+      "The beastmen have always fired earthenware jars for the express purpose of making shields. Such are their ways, strange though they are."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 71
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 95,
+      "magic": 30,
+      "fire": 55,
+      "lightning": 60,
+      "holy": 55,
+      "guard_boost": 50
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Red Thorn Roundshield": {
+    "description": [
+      "A small, wooden roundshield. It is light and easy to handle, but cannot offer the damage negation of a metal shield.",
+      "",
+      "Its emblem is an ancient thorn design. Though it isn't much, it boosts fire damage negation."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 70
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 68,
+      "magic": 32,
+      "fire": 42,
+      "lightning": 37,
+      "holy": 37,
+      "guard_boost": 38
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 1.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Scripture Wooden Shield": {
+    "description": [
+      "A small, wooden roundshield. It is light and easy to handle, but cannot offer the damage negation of a metal shield.",
+      "",
+      "An ancient cipher engraving lines the circumference. Though it isn't much, it boosts holy damage negation."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 70
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 70,
+      "magic": 40,
+      "fire": 22,
+      "lightning": 37,
+      "holy": 45,
+      "guard_boost": 38
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 1.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Riveted Wooden Shield": {
+    "description": [
+      "Small wooden roundshield that has been reinforced with metal. It is light and easy to handle, but cannot offer the damage negation of a true metal shield.",
+      "",
+      "The design riveted to the center represents both sword and tree."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 72
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 74,
+      "magic": 43,
+      "fire": 31,
+      "lightning": 24,
+      "holy": 45,
+      "guard_boost": 39
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 2,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Blue-White Wooden Shield": {
+    "description": [
+      "Small wooden roundshield that has been reinforced with metal. It is light and easy to handle, but cannot offer the damage negation of a true metal shield.",
+      "",
+      "The design is said to represent the stars of the night sky, portending fate."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 72
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 73,
+      "magic": 45,
+      "fire": 35,
+      "lightning": 22,
+      "holy": 42,
+      "guard_boost": 39
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 2,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Rift Shield": {
+    "description": [
+      "Small metal roundshield depicting a sinister rift.",
+      "",
+      "An antiquated charm that glares back at an enemy, it boosts focus."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 70
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 76,
+      "magic": 33,
+      "fire": 37,
+      "lightning": 18,
+      "holy": 37,
+      "guard_boost": 38
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 2,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Iron Roundshield": {
+    "description": [
+      "An ordinary small roundshield made of metal. Heavier than a wooden shield, but boasts higher damage negation.",
+      "",
+      "Finely balanced, this shield is easy to use."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 74
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 80,
+      "magic": 42,
+      "fire": 42,
+      "lightning": 18,
+      "holy": 42,
+      "guard_boost": 41
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Gilded Iron Shield": {
+    "description": [
+      "Small metal roundshield. Heavier than a wooden shield, but boasts higher damage negation.",
+      "",
+      "Though the gold leaf is peeling and the effect is slight, it still boosts holy damage negation."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 74
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 78,
+      "magic": 40,
+      "fire": 38,
+      "lightning": 17,
+      "holy": 51,
+      "guard_boost": 41
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Ice Crest Shield": {
+    "description": [
+      "Small metal roundshield. Heavier than a wooden shield, but boasts higher damage negation.",
+      "",
+      "The ice crest originates from a Carian princess. Though the effect is slight, it boosts magic damage negation and resistance to frost."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 74
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 77,
+      "magic": 57,
+      "fire": 41,
+      "lightning": 18,
+      "holy": 35,
+      "guard_boost": 41
+    },
+    "requirements": {
+      "strength": 9
+    },
+    "weight": 3,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Smoldering Shield": {
+    "description": [
+      "Small shield made upon Mt. Gelmir forged from uncooling lava.",
+      "",
+      "Resists frost with its heat, and can even be used to deal fire damage if wielded as a weapon."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 58,
+      "fire": 37
+    },
+    "scaling": {
+      "strength": 0.24,
+      "faith": 0.4
+    },
+    "guard": {
+      "physical": 79,
+      "magic": 38,
+      "fire": 56,
+      "lightning": 14,
+      "holy": 38,
+      "guard_boost": 41
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 9,
+      "faith": 12
+    },
+    "weight": 3,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Spiralhorn Shield": {
+    "description": [
+      "Small shield of antlers arranged in an eddy-like pattern. If used to attack a foe, the shield's antlers inflict blood loss. Once given to a Tarnished warrior who cultivated close ties to the ancestral followers. Though the effect is only slight, it boosts immunity, robustness, and focus."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 75
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 61,
+      "magic": 35,
+      "fire": 39,
+      "lightning": 39,
+      "holy": 32,
+      "guard_boost": 35
+    },
+    "statusEffects": {
+      "bleed": 45
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 10
+    },
+    "weight": 2,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Coil Shield": {
+    "description": [
+      "Armament designed for gladiatorial combat. Rises above its peers as a particularly showy specimen.",
+      "",
+      "The sculpted bronze snake is a poisonous breed, boosting the wielder's resistance to poison."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 77
+    },
+    "scaling": {
+      "strength": 0.24
+    },
+    "guard": {
+      "physical": 65,
+      "magic": 38,
+      "fire": 29,
+      "lightning": 35,
+      "holy": 36,
+      "guard_boost": 29
+    },
+    "statusEffects": {
+      "poison": 72
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "weight": 1.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 1007
+  },
+  "Kite Shield": {
+    "description": [
+      "A standard medium-sized metal shield.",
+      "",
+      "Metal shields reliably negate physical damage when guarding, a trait which made them highly trusted on the battlefield."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 78
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 47,
+      "fire": 47,
+      "lightning": 33,
+      "holy": 47,
+      "guard_boost": 51
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "weight": 4.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Marred Leather Shield": {
+    "description": [
+      "Leather shield of Stormveil soldiers. Much like the castle, it is marred by mottling and thorns.",
+      "",
+      "Some say it is the curse of grafting which causes such affliction, while others talk of its root being something altogether more sinister hidden deep within the castle."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 75
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 81,
+      "magic": 49,
+      "fire": 36,
+      "lightning": 45,
+      "holy": 45,
+      "guard_boost": 46
+    },
+    "statusEffects": {
+      "bleed": 50
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Marred Wooden Shield": {
+    "description": [
+      "Wooden shield of Stormveil soldiers. Much like the castle, it is marred by mottling and thorns.",
+      "",
+      "Some say it is the curse of grafting which causes such affliction, while others talk of its root being something altogether more sinister hidden deep within the castle."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 76
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 86,
+      "magic": 52,
+      "fire": 27,
+      "lightning": 50,
+      "holy": 49,
+      "guard_boost": 48
+    },
+    "statusEffects": {
+      "bleed": 50
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 4,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Banished Knight's Shield": {
+    "description": [
+      "A tall medium-sized metal shield. Given to knights who, whether by misfortune or misdeed, were forced to abandon their homes.",
+      "",
+      "Most of these knights were sent to the fringes, where they were forced to start anew with only despair for company."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 81
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 49,
+      "fire": 57,
+      "lightning": 31,
+      "holy": 48,
+      "guard_boost": 55
+    },
+    "requirements": {
+      "strength": 14
+    },
+    "weight": 6,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Albinauric Shield": {
+    "description": [
+      "Tall oval shield made of metal carried by young Albinaurics. The ornamentation represents the primordial drop of dew from which they are said to have been created.",
+      "Boasts exceptional magic damage negation. The Albinaurics' most formidable foes were sorcerers, after all."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 78
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 66,
+      "fire": 42,
+      "lightning": 23,
+      "holy": 47,
+      "guard_boost": 51
+    },
+    "requirements": {
+      "strength": 11
+    },
+    "weight": 4.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Sun Realm Shield": {
+    "description": [
+      "Shield of honor depicting a city crowned by the sun. It has seen better days.",
+      "",
+      "Much like the wear upon the shield, the Seat of the Sun is long faded away."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 74
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 86,
+      "magic": 44,
+      "fire": 27,
+      "lightning": 40,
+      "holy": 56,
+      "guard_boost": 48
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Silver Mirrorshield": {
+    "description": [
+      "Shield of radiant silver, festooned with amber and carried by Loretta, Knight of the Haligtree.",
+      "",
+      "The shape is said to imitate that of a sacred drop of dew, which inspired the absurd rumor that Loretta herself was an Albinauric."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 59,
+      "magic": 38
+    },
+    "scaling": {
+      "strength": 0.4,
+      "intelligence": 0.3
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 89,
+      "fire": 31,
+      "lightning": 19,
+      "holy": 27,
+      "guard_boost": 45
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 10,
+      "intelligence": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Round Shield": {
+    "description": [
+      "A wooden roundshield that has been reinforced with metal.",
+      "",
+      "Comparatively light for its size, this shield is easy to handle but lacks a true metal shield's ability to negate damage."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 76
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 88,
+      "magic": 50,
+      "fire": 37,
+      "lightning": 43,
+      "holy": 50,
+      "guard_boost": 47
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 4,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Scorpion Kite Shield": {
+    "description": [
+      "A standard medium-sized metal shield. Highly reputed for its solid build and reliability.",
+      "",
+      "Emblazoned with a yellow scorpion, a warning of surprise attacks and sudden strikes."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 78
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 45,
+      "fire": 46,
+      "lightning": 33,
+      "holy": 50,
+      "guard_boost": 52
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "weight": 4.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Twinbird Kite Shield": {
+    "description": [
+      "Shield featuring a vividly painted twinbird.",
+      "The twinbird is said to be the envoy of an outer god, and mother of the Deathbirds.",
+      "",
+      "At dwindling levels of HP, this shield slightly boosts both attack and defense."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 78
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 49,
+      "fire": 50,
+      "lightning": 28,
+      "holy": 35,
+      "guard_boost": 50
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "weight": 4.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Blue-Gold Kite Shield": {
+    "description": [
+      "A standard medium-sized metal shield. Highly reputed for its solid build and reliability.",
+      "",
+      "The design represents the Erdtree foregrounded against a blue sky."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 80
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 47,
+      "fire": 53,
+      "lightning": 35,
+      "holy": 45,
+      "guard_boost": 53
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "weight": 5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Brass Shield": {
+    "description": [
+      "On the larger side for a medium-sized shield, the face has been covered in brass.",
+      "",
+      "Commonly employed in the Shattering."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 84
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 55,
+      "fire": 59,
+      "lightning": 39,
+      "holy": 54,
+      "guard_boost": 56
+    },
+    "requirements": {
+      "strength": 16
+    },
+    "weight": 7,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Great Turtle Shell": {
+    "description": [
+      "Shield fashioned from a great turtle shell. The natural curve helps it contend with foes' attacks.",
+      "",
+      "The turtle is a symbol of tirelessness, and this shield boosts stamina recovery speed."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 81
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 87,
+      "magic": 44,
+      "fire": 39,
+      "lightning": 43,
+      "holy": 46,
+      "guard_boost": 49
+    },
+    "requirements": {
+      "strength": 14
+    },
+    "weight": 5.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 301
+  },
+  "Shield of the Guilty": {
+    "description": [
+      "Shield made to venerate a maiden whose eyes were crushed by Briars of Sin before being reborn in these lands.",
+      "",
+      "Venerating the repose of the soul, this shield boosts focus. The briars can be used to attack foes."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 75
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 68,
+      "magic": 36,
+      "fire": 36,
+      "lightning": 31,
+      "holy": 37,
+      "guard_boost": 33
+    },
+    "statusEffects": {
+      "bleed": 50
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 2,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Carian Knight's Shield": {
+    "description": [
+      "A teardrop-shaped, medium-sized shield embedded with blue glintstones.",
+      "Carried by knights who served the Carian royal family.",
+      "",
+      "Excels when facing magic or holy attacks. Just who were these knights preparing to fight?"
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 63,
+      "magic": 40
+    },
+    "scaling": {
+      "strength": 0.4,
+      "intelligence": 0.3
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 71,
+      "fire": 28,
+      "lightning": 19,
+      "holy": 54,
+      "guard_boost": 49
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10,
+      "intelligence": 15
+    },
+    "weight": 4.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Large Leather Shield": {
+    "description": [
+      "A roundshield covered in leather. On the larger side for a medium-sized shield.",
+      "",
+      "Though its damage negation may be lacking compared to a metal shield, it can handle a wider range of attack affinities."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 75
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 85,
+      "magic": 49,
+      "fire": 36,
+      "lightning": 45,
+      "holy": 45,
+      "guard_boost": 46
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Horse Crest Wooden Shield": {
+    "description": [
+      "A tall, medium-sized wooden shield. Light for its size, and easy to handle.",
+      "",
+      "The circular horsehead design evokes a swift gallop."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 76
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 87,
+      "magic": 50,
+      "fire": 32,
+      "lightning": 43,
+      "holy": 42,
+      "guard_boost": 47
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Candletree Wooden Shield": {
+    "description": [
+      "A tall, medium-sized wooden shield. Light for its size, and easy to handle.",
+      "",
+      "Thought to represent a surreptitious prophecy of cardinal sin, the lit candle-tree design was forbidden."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 76
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 88,
+      "magic": 42,
+      "fire": 32,
+      "lightning": 50,
+      "holy": 43,
+      "guard_boost": 47
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Flame Crest Wooden Shield": {
+    "description": [
+      "A tall, medium-sized wooden shield. Light for its size, and easy to handle. Carried by soldiers of the village that is afflicted by frenzy.",
+      "",
+      "The yellow flame is the symbol of the affliction, serving as a warning to those who might approach the village."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 76
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 89,
+      "magic": 43,
+      "fire": 32,
+      "lightning": 42,
+      "holy": 50,
+      "guard_boost": 47
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Hawk Crest Wooden Shield": {
+    "description": [
+      "A tall, medium-sized wooden shield. Light for its size, and easy to handle.",
+      "",
+      "Adorned with a long-forgotten crest of Stormveil, ancient in design."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 76
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 90,
+      "magic": 44,
+      "fire": 32,
+      "lightning": 44,
+      "holy": 44,
+      "guard_boost": 45
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Beast Crest Heater Shield": {
+    "description": [
+      "A medium-sized metal shield. Easier to handle than a kite shield.",
+      "",
+      "Features a beast as its crest, serving to remind warriors not to succumb to the arousal of battle. Fight with passion, but become not its prisoner."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 77
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 50,
+      "fire": 43,
+      "lightning": 32,
+      "holy": 42,
+      "guard_boost": 51
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Red Crest Heater Shield": {
+    "description": [
+      "A medium-sized metal shield. Easier to handle than a kite shield.",
+      "",
+      "The crest symbolizes red wings."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 77
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 42,
+      "fire": 50,
+      "lightning": 32,
+      "holy": 43,
+      "guard_boost": 50
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Blue Crest Heater Shield": {
+    "description": [
+      "A medium-sized metal shield. Easier to handle than a kite shield.",
+      "",
+      "The crest represents a forest and river."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 77
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 43,
+      "fire": 42,
+      "lightning": 32,
+      "holy": 50,
+      "guard_boost": 50
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Eclipse Crest Heater Shield": {
+    "description": [
+      "A medium-sized metal shield. Easier to handle than a kite shield.",
+      "",
+      "The sun in eclipse is said to be the symbol of the Wandering Mausoleum where the soulless demigods slumber."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 77
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 44,
+      "fire": 44,
+      "lightning": 37,
+      "holy": 44,
+      "guard_boost": 51
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Inverted Hawk Heater Shield": {
+    "description": [
+      "A medium-sized metal shield. Easier to handle than a kite shield.",
+      "",
+      "The inverted hawk is the emblem of the company of slaves ordered to explore the Eternal City."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 77
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 49,
+      "fire": 49,
+      "lightning": 34,
+      "holy": 49,
+      "guard_boost": 50
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Heater Shield": {
+    "description": [
+      "A medium-sized metal shield, comparatively easy to handle.",
+      "",
+      "Metal shields reliably negate physical damage when guarding, a trait which made them highly trusted on the battlefield."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 77
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 43,
+      "fire": 43,
+      "lightning": 27,
+      "holy": 43,
+      "guard_boost": 49
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 302
+  },
+  "Black Leather Shield": {
+    "description": [
+      "Roundshield covered in black leather. On the larger side for a medium-sized shield.",
+      "",
+      "From the north, this shield depicts the polar star in rivets of gold. The inside is lined with fur, protecting the carrier from frost."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 75
+    },
+    "scaling": {
+      "strength": 0.4
+    },
+    "guard": {
+      "physical": 88,
+      "magic": 45,
+      "fire": 31,
+      "lightning": 46,
+      "holy": 47,
+      "guard_boost": 44
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 3,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Dragon Towershield": {
+    "description": [
+      "Tower shield engraved with a dragon, symbol of protection. Heavy even among greatshields, it possesses exceptional guarding ability.",
+      "",
+      "The ancient dragons, who ruled in the prehistoric era before the Erdtree, would protect their lord as a wall of living rock."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 115
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 61,
+      "fire": 67,
+      "lightning": 55,
+      "holy": 64,
+      "guard_boost": 69
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "weight": 17.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Distinguished Greatshield": {
+    "description": [
+      "Greatshield featuring sumptuous ornamentation used by the scions of great families.",
+      "",
+      "Due to their excessive size, these shields were at times seen as the hallmark of little lordlings who were too timid to earn a few nicks and scratches."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 112
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 65,
+      "fire": 63,
+      "lightning": 54,
+      "holy": 60,
+      "guard_boost": 68
+    },
+    "requirements": {
+      "strength": 32
+    },
+    "weight": 17,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Crucible Hornshield": {
+    "description": [
+      "Greatshield of red-tinged gold carried by Crucible Knights. Features a great horn.",
+      "",
+      "An ancient holiness dwells within. The crucible horn skewers foes when performing shield bashes."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 123
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 51,
+      "fire": 50,
+      "lightning": 46,
+      "holy": 64,
+      "guard_boost": 60
+    },
+    "requirements": {
+      "strength": 26
+    },
+    "weight": 11.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Dragonclaw Shield": {
+    "description": [
+      "Greatshield said to have been whittled from the claw of a great, ancient dragon, wielded by grotesque Tree Sentinels who yet serve the Erdtree.",
+      "",
+      "Imbued with lightning."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 99,
+      "lightning": 64
+    },
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.2
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 52,
+      "fire": 52,
+      "lightning": 76,
+      "holy": 47,
+      "guard_boost": 61
+    },
+    "requirements": {
+      "strength": 28,
+      "dexterity": 12
+    },
+    "weight": 13.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Briar Greatshield": {
+    "description": [
+      "Greatshield from a foreign land, used by Elemer of the Briar. Attacks with this armament utilize the iron thorns that have been wound around its frame.",
+      "",
+      "Originates from Eochaid, a land of proudly solitary ascetics."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 98
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 93,
+      "magic": 50,
+      "fire": 43,
+      "lightning": 50,
+      "holy": 50,
+      "guard_boost": 58
+    },
+    "statusEffects": {
+      "bleed": 70
+    },
+    "requirements": {
+      "strength": 21
+    },
+    "weight": 9.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Erdtree Greatshield": {
+    "description": [
+      "Weighty greatshield forged of gold carried by the order of Tree Sentinels, heavily equipped knights. Blessed by an old incantation of protection.",
+      "",
+      "The living rampart of the Erdtree, the Tree Sentinels are the standard to which all defenders of the Erdtree aspire."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 100,
+      "holy": 65
+    },
+    "scaling": {
+      "strength": 0.5,
+      "faith": 0.3
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 66,
+      "fire": 49,
+      "lightning": 45,
+      "holy": 76,
+      "guard_boost": 60
+    },
+    "requirements": {
+      "strength": 30,
+      "faith": 12
+    },
+    "weight": 13.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 1196
+  },
+  "Golden Beast Crest Shield": {
+    "description": [
+      "Shield of dull gold with a beast engraved as its crest. Lighter than most greatshields, and subsequently easier to wield.",
+      "",
+      "The beast depicted is Serosh, aged counselor who guides the golden lineage."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 104
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 55,
+      "fire": 55,
+      "lightning": 48,
+      "holy": 55,
+      "guard_boost": 60
+    },
+    "requirements": {
+      "strength": 24
+    },
+    "weight": 12.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Jellyfish Shield": {
+    "description": [
+      "The head of a spirit jellyfish, commonly found floating above sacred ground throughout the Lands Between, wielded without modification as a shield.",
+      "",
+      "The see-through head is extremely light, but its flesh is supple, providing absolutely no protection from piercing attacks."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 103
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 52,
+      "fire": 52,
+      "lightning": 40,
+      "holy": 48,
+      "guard_boost": 52
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14
+    },
+    "weight": 8,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 1197
+  },
+  "Fingerprint Stone Shield": {
+    "description": [
+      "A great stone shield with an intricately carved fingerprint design. One of the heaviest of all greatshields. Part of the tomb of an ancient god, the Readerless Fingers relayed their message through these imprints, said to be the very seeds from which frenzy first sprouted."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 139
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 77,
+      "fire": 81,
+      "lightning": 79,
+      "holy": 75,
+      "guard_boost": 77
+    },
+    "statusEffects": {
+      "madness": 70
+    },
+    "requirements": {
+      "strength": 48
+    },
+    "weight": 29,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Icon Shield": {
+    "description": [
+      "Greatshield painted with a divine scene; the recipience of a blessed tear from the Erdtree. An item that looks back fondly on the age of plenty.",
+      "",
+      "The divine scene acts in and of itself as a sacred invocation; gradually restoring the carrier's HP."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 111
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 95,
+      "magic": 49,
+      "fire": 45,
+      "lightning": 51,
+      "holy": 48,
+      "guard_boost": 59
+    },
+    "requirements": {
+      "strength": 22
+    },
+    "weight": 11.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "One-Eyed Shield": {
+    "description": [
+      "Tricksome shield made from white stone depicting a malformed one-eyed god. The barrel of a firearm pokes through the open mouth.",
+      "",
+      "Once worshipped by the giants, this evil deity is believed to have been slain by Queen Marika."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 146
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 57,
+      "fire": 69,
+      "lightning": 59,
+      "holy": 63,
+      "guard_boost": 67
+    },
+    "requirements": {
+      "strength": 36
+    },
+    "weight": 20.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 1001
+  },
+  "Visage Shield": {
+    "description": [
+      "Tricksome bronze shield depicting the face of a Fire Giant. Several tongues leap from its open mouth.",
+      "",
+      "The dreadful visage and burning flames are designed to remind one of the horror of facing a Fire Giant. In other words, this shield has an instructional function."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 155
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 62,
+      "fire": 81,
+      "lightning": 65,
+      "holy": 62,
+      "guard_boost": 75
+    },
+    "requirements": {
+      "strength": 44
+    },
+    "weight": 24,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 1002
+  },
+  "Spiked Palisade Shield": {
+    "description": [
+      "A large wooden shield covered with spikes. Though relatively light, it lacks in damage negation.",
+      "",
+      "Designed to perform shield bashes, these attacks riddle the enemy with holes, earning it the nickname of \"pard shield.\""
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 116
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 95,
+      "magic": 51,
+      "fire": 45,
+      "lightning": 54,
+      "holy": 50,
+      "guard_boost": 59
+    },
+    "statusEffects": {
+      "bleed": 70
+    },
+    "requirements": {
+      "strength": 20
+    },
+    "weight": 11.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Manor Towershield": {
+    "description": [
+      "An iron greatshield large enough to cover the entire body. Depicts the Roundtable Hold, gathering place of champions.",
+      "",
+      "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 111
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 66,
+      "fire": 66,
+      "lightning": 51,
+      "holy": 56,
+      "guard_boost": 67
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "weight": 16,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Crossed-Tree Towershield": {
+    "description": [
+      "An iron greatshield large enough to cover the entire body. Emblazoned with an old, interleaving tree.",
+      "",
+      "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 111
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 56,
+      "fire": 66,
+      "lightning": 53,
+      "holy": 66,
+      "guard_boost": 67
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "weight": 16,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Inverted Hawk Towershield": {
+    "description": [
+      "An iron greatshield large enough to cover the entire body. Features an inverted hawk crest.",
+      "",
+      "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 111
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 66,
+      "fire": 56,
+      "lightning": 54,
+      "holy": 66,
+      "guard_boost": 65
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "weight": 16,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Ant's Skull Plate": {
+    "description": [
+      "Huge head of one of the giant ants which inhabit the two underground rivers, used without modification as a shield. Excels at repelling enemy attacks.",
+      "",
+      "Giant ants are venomous creatures, granting a boost to immunity when wielding this shield."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 114
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 57,
+      "fire": 42,
+      "lightning": 57,
+      "holy": 57,
+      "guard_boost": 63
+    },
+    "statusEffects": {
+      "poison": 90
+    },
+    "requirements": {
+      "strength": 28
+    },
+    "weight": 13.5,
+    "upgradeMaterial": "Somber Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Redmane Greatshield": {
+    "description": [
+      "Greatshield shaped like a fang, featuring the crest of red-maned lion. Carried by the Redmane Knights who fought alongside Radahn."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 108
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 54,
+      "fire": 70,
+      "lightning": 53,
+      "holy": 52,
+      "guard_boost": 65
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "weight": 14,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Eclipse Crest Greatshield": {
+    "description": [
+      "Metal greatshield painted with a sun in eclipse. Carried by the headless mausoleum knights.",
+      "",
+      "The eclipsed sun, drained of color, is the protective star of soulless demigods. It aids the mausoleum knights by keeping Destined Death at bay."
+    ],
+    "rarity": "Rare",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 110
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 72,
+      "fire": 57,
+      "lightning": 51,
+      "holy": 59,
+      "guard_boost": 67
+    },
+    "requirements": {
+      "strength": 32
+    },
+    "weight": 15,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Cuckoo Greatshield": {
+    "description": [
+      "Metal greatshield painted with a peering cuckoo. Carried by the enchanted knights sworn to the academy.",
+      "",
+      "Boasting high magic damage negation, this shield is used to hunt down mages.",
+      "\"Our enemy is none other than Caria itself.\""
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 110
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 70,
+      "fire": 56,
+      "lightning": 52,
+      "holy": 60,
+      "guard_boost": 64
+    },
+    "requirements": {
+      "strength": 32
+    },
+    "weight": 15,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Golden Greatshield": {
+    "description": [
+      "Oval greatshield made of gold, carried by knights who protect the Royal Capital of Leyndell.",
+      "",
+      "Knights of Leyndell are reputed for their sturdiness, exemplified by this shield's exceptional guard capacity."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 113
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 57,
+      "fire": 60,
+      "lightning": 57,
+      "holy": 68,
+      "guard_boost": 70
+    },
+    "requirements": {
+      "strength": 34
+    },
+    "weight": 17,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Gilded Greatshield": {
+    "description": [
+      "Metal greatshield coated with gold. Carried by knights loyal to Godrick.",
+      "",
+      "The red tinge in the gold coat mirrors the primordial matter that became the Erdtree. The color of homeward yearning."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 115
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 60,
+      "fire": 66,
+      "lightning": 54,
+      "holy": 65,
+      "guard_boost": 69
+    },
+    "requirements": {
+      "strength": 36
+    },
+    "weight": 17.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Haligtree Crest Greatshield": {
+    "description": [
+      "Metal greatshield depicting the Haligtree with unalloyed gold. Carried by knights who have vowed to serve Miquella's Haligtree. Possesses high holy damage negation. Yet now, with the Haligtree misshapen, this wondrous rendition is a fleeting fantasy."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 116
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 100,
+      "magic": 61,
+      "fire": 67,
+      "lightning": 55,
+      "holy": 79,
+      "guard_boost": 71
+    },
+    "requirements": {
+      "strength": 36
+    },
+    "weight": 18.5,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Wooden Greatshield": {
+    "description": [
+      "Wooden greatshield reinforced with a metal ornamentation.",
+      "",
+      "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 95
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 91,
+      "magic": 49,
+      "fire": 41,
+      "lightning": 51,
+      "holy": 47,
+      "guard_boost": 56
+    },
+    "requirements": {
+      "strength": 14
+    },
+    "weight": 8,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 10
+  },
+  "Lordsworn's Shield": {
+    "description": [
+      "Wooden tower shield. Lightweight for a greatshield and easy to handle.",
+      "Commonly used in the Shattering.",
+      "",
+      "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
+    ],
+    "rarity": "Common",
+    "attackAttributes": [
+      "Strike"
+    ],
+    "damage": {
+      "physical": 99
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "guard": {
+      "physical": 94,
+      "magic": 51,
+      "fire": 44,
+      "lightning": 52,
+      "holy": 52,
+      "guard_boost": 60
+    },
+    "requirements": {
+      "strength": 16
+    },
+    "weight": 10,
+    "upgradeMaterial": "Smithing Stone",
+    "defaultSkillId": 300
+  },
+  "Dueling Shield": {
+    "description": [
+      "A \"thrusting shield,\" or combined weapon and shield. Enables the wielder to attack and guard simultaneously. An armament once used in ritual combat performed to honor the Erdtreea custom that had somehow remained within the realm of shadow."
+    ],
+    "damage": {
+      "physical": 125
+    },
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 14
+    },
+    "weight": 9
+  },
+  "Carian Thrusting Shield": {
+    "description": [
+      "Silver thrusting shield embedded with glintstones. Enables the wielder to attack and guard simultaneously. Once wielded by Rellana, the Twin Moon Knight, during her sole entry into ritual combata demonstration of fidelity to the Erdtree."
+    ],
+    "damage": {
+      "physical": 122,
+      "magic": 36
+    },
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 17,
+      "dexterity": 13,
+      "intelligence": 15
+    },
+    "weight": 10.5
+  },
+  "Smithscript Shield": {
+    "description": [
+      "Roundshield engraved with a smithscript. A throwing weapon created through the smithing arts. Can be thrown by performing the armament's Skill."
+    ],
+    "damage": {
+      "physical": 72
+    },
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 15,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "weight": 2.5
+  },
+  "Shield of Night": {
+    "description": [
+      "A shield awarded to Swordhands of Night, cast in a bottomless black from which no light can escape. The outer surface is only semicorporeal, providing reliable defense against attacks that are not physical in nature."
+    ],
+    "damage": {
+      "physical": 65,
+      "magic": 42
+    },
+    "scaling": {
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 15
+    },
+    "weight": 2
+  },
+  "Golden Lion Shield": {
+    "description": [
+      "Shield made to resemble a fierce golden lion with a luxuriant mane. Awarded to especially valorous members of Radahn's personal guard on the occasion of its formation."
+    ],
+    "damage": {
+      "physical": 81
+    },
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 11
+    },
+    "weight": 5.5
+  },
+  "Serpent Crest Shield": {
+    "description": [
+      "A finely-made \"redshield\" featuring an engraving of a winged serpent. Excels at guarding against fire. Said to have been made to commemorate the beginnings of the crusade started by Messmer, son of Marika."
+    ],
+    "damage": {
+      "physical": 82
+    },
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "weight": 6
+  },
+  "Wolf Crest Shield": {
+    "description": [
+      "A finely-made \"blueshield\" featuring an engraving of a wolf under the moon. Excels at fending off sorceries. The wolf is the beast of the Carian royal covenant; a symbol of the moon's pride that none can forget, no matter what remote lands they may arrive in."
+    ],
+    "damage": {
+      "physical": 82
+    },
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "weight": 6
+  },
+  "Messmer Soldier Shield": {
+    "description": [
+      "Worn roundshield carried by soldiers loyal to Messmer, the Impaler. The largest of all metal shields in their class."
+    ],
+    "damage": {
+      "physical": 80
+    },
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "weight": 5
+  },
+  "Verdigris Greatshield": {
+    "description": [
+      "Greatshield made of the unusual metal known as verdigris. Boasts greater guard capacity than damage negation. To the extent that the shield will continue to protect its target even if its bearer should die."
+    ],
+    "damage": {
+      "physical": 194
+    },
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 49
+    },
+    "weight": 28
+  },
+  "Black Steel Greatshield": {
+    "description": [
+      "Weighty shields carried by the Black Knights, servants of Messmer the Impaler. Made of black steel with decorative embellishments in gold. Symbolic of their iron conviction in their crusade, the Black Knights will never yield. Nor will they ever doubt their purpose."
+    ],
+    "damage": {
+      "physical": 119
+    },
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 35
+    },
+    "weight": 19.5
+  }
+}
