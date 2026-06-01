@@ -1,7 +1,7 @@
 import type { LoadoutProfile, SeedItem, StatProfile } from "../types/generator";
 import { weapons } from "../data";
 
-const TWO_HANDER_CATEGORIES = new Set([
+const COLOSSAL_CATEGORIES = new Set([
   "Colossal Sword",
   "Colossal Weapon",
   "Great Hammer",
@@ -23,14 +23,16 @@ export function selectLoadoutProfile(seedItems: SeedItem[], profile: StatProfile
   const seedWeapons = seedItems.filter((s) => s.type === "weapon");
   const seedCategories = seedWeapons.map((s) => weapons[s.index].category);
 
-  // 1. Two weapons of same category → Powerstance
+  // 1. Two weapons of same category → Powerstance (or Colossal Powerstance)
   if (seedWeapons.length >= 2) {
     const catCounts = new Map<string, number>();
     for (const cat of seedCategories) {
       catCounts.set(cat, (catCounts.get(cat) ?? 0) + 1);
     }
-    for (const count of catCounts.values()) {
-      if (count >= 2) return "Powerstance";
+    for (const [cat, count] of catCounts.entries()) {
+      if (count >= 2) {
+        return COLOSSAL_CATEGORIES.has(cat) ? "Colossal Powerstance" : "Powerstance";
+      }
     }
   }
 
@@ -42,7 +44,7 @@ export function selectLoadoutProfile(seedItems: SeedItem[], profile: StatProfile
   // 3. Colossal/heavy weapon → Two-hander
   if (seedWeapons.length > 0) {
     const primaryWeapon = weapons[seedWeapons[0].index];
-    if (TWO_HANDER_CATEGORIES.has(primaryWeapon.category) || primaryWeapon.weight > 12) {
+    if (COLOSSAL_CATEGORIES.has(primaryWeapon.category) || primaryWeapon.weight > 12) {
       return "Two-hander";
     }
   }
@@ -63,7 +65,13 @@ export function selectLoadoutProfile(seedItems: SeedItem[], profile: StatProfile
     }
   }
 
-  // 6. Spellblade (has caster stats)
+  // 6. Shield Caster (has shield + caster stats)
+  const hasShieldSeed = seedItems.some((s) => s.type === "shield");
+  if (hasShieldSeed && intOrFth > 0.15) {
+    return "Shield Caster";
+  }
+
+  // 7. Spellblade (has caster stats)
   if (intOrFth > 0.15) {
     return "Spellblade";
   }

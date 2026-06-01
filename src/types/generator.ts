@@ -16,7 +16,9 @@ export type LoadoutProfile =
   | "Pure Caster"
   | "Spellblade"
   | "Sword & Board"
+  | "Shield Caster"
   | "Two-hander"
+  | "Colossal Powerstance"
   | "Powerstance"
   | "Ranged"
   | "Dual Wield";

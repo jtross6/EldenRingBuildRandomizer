@@ -196,6 +196,39 @@ function fillWeaponsByProfile(
       break;
     }
 
+    case "Shield Caster": {
+      // 1 weapon right, shield in left, catalyst also picked
+      if (primarySeedIdx >= 0) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      } else {
+        const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      // Shield
+      const hasSeedShieldSC = seedItems.some((s) => s.type === "shield");
+      if (hasSeedShieldSC) {
+        shieldIdx = seedItems.find((s) => s.type === "shield")!.index;
+      } else {
+        const scoredShields = scoreShields(shields, profile, seedItems);
+        const pick = pickFromPool(scoredShields, creativity, rng, 1, seedShieldIndices);
+        if (pick.length > 0) shieldIdx = pick[0].index;
+      }
+      // Catalyst (for casting)
+      const hasSeedCatalystSC = seedItems.some((s) => s.type === "catalyst");
+      if (hasSeedCatalystSC) {
+        catalystIdx = seedItems.find((s) => s.type === "catalyst")!.index;
+      } else {
+        const scoredCats = scoreCatalysts(catalysts, profile, seedItems);
+        const pick = pickFromPool(scoredCats, creativity, rng, 1, seedCatalystIndices);
+        if (pick.length > 0) catalystIdx = pick[0].index;
+      }
+      break;
+    }
+
     case "Two-hander": {
       // 1 weapon right, empty left
       if (primarySeedIdx >= 0) {
@@ -206,6 +239,37 @@ function fillWeaponsByProfile(
         if (pick.length > 0) {
           weaponsRight.push(pick[0].index);
           excludeWeapons.add(pick[0].index);
+        }
+      }
+      break;
+    }
+
+    case "Colossal Powerstance": {
+      // 1 colossal weapon right, 1 colossal of same category left
+      if (primarySeedIdx >= 0) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      } else {
+        const colossalCandidates = scoredWeapons.filter((c) =>
+          ["Colossal Sword", "Colossal Weapon", "Great Hammer", "Greataxe"].includes(
+            c.item.category,
+          ),
+        );
+        const pick = pickFromPool(colossalCandidates, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      if (weaponsRight.length > 0) {
+        const category = weapons[weaponsRight[0]]?.category;
+        if (category) {
+          const sameCatCandidates = scoredWeapons.filter((c) => c.item.category === category);
+          const pick = pickFromPool(sameCatCandidates, creativity, rng, 1, excludeWeapons);
+          if (pick.length > 0) {
+            weaponsLeft.push(pick[0].index);
+            excludeWeapons.add(pick[0].index);
+          }
         }
       }
       break;
