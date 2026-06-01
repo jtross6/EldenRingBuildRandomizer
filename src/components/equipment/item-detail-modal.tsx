@@ -393,50 +393,44 @@ export function ItemDetailModal({ itemName, category, onClose }: ItemDetailModal
     };
   }, [onClose]);
 
-  function handleBackdropClick(e: React.MouseEvent) {
-    if (e.target === e.currentTarget) {
-      onClose();
-    }
-  }
-
   return createPortal(
-    <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm"
-      onClick={handleBackdropClick}
-    >
-      <div
-        ref={panelRef}
-        tabIndex={-1}
-        role="dialog"
-        aria-modal="true"
-        aria-label={`${itemName} details`}
-        className="animate-modal-in relative max-h-[85vh] w-[min(420px,calc(100vw-32px))] overflow-y-auto rounded-xl border border-gold/15 bg-bg-dark shadow-[0_8px_32px_rgba(0,0,0,0.6)] outline-none"
-      >
-        <button
-          type="button"
-          onClick={onClose}
-          className="absolute right-3 top-3 z-10 flex size-7 cursor-pointer items-center justify-center rounded-full border border-gold/15 bg-bg-card text-[14px] text-text-dim transition-colors hover:bg-bg-card-hover hover:text-text-primary"
+    <div className="fixed inset-0 z-[100]">
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose} />
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+        <div
+          ref={panelRef}
+          tabIndex={-1}
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${itemName} details`}
+          className="animate-modal-in pointer-events-auto relative max-h-[85vh] w-[min(420px,calc(100vw-32px))] overflow-y-auto rounded-xl border border-gold/15 bg-bg-dark shadow-[0_8px_32px_rgba(0,0,0,0.6)] outline-none"
         >
-          &times;
-        </button>
+          <button
+            type="button"
+            onClick={onClose}
+            className="absolute right-3 top-3 z-10 flex size-7 cursor-pointer items-center justify-center rounded-full border border-gold/15 bg-bg-card text-[14px] text-text-dim transition-colors hover:bg-bg-card-hover hover:text-text-primary"
+          >
+            &times;
+          </button>
 
-        <div className="flex items-center gap-4 border-b border-gold/10 p-5">
-          <ModalHeaderImage itemName={itemName} category={category} />
-          <div className="min-w-0 flex-1">
-            <div className="font-display text-[16px] font-bold leading-tight text-text-primary">
-              {itemName}
-            </div>
-            <div className="mt-1 text-[10px] uppercase tracking-[2px] text-text-dim">
-              {CATEGORY_LABELS[category]}
+          <div className="flex items-center gap-4 border-b border-gold/10 p-5">
+            <ModalHeaderImage itemName={itemName} category={category} />
+            <div className="min-w-0 flex-1">
+              <div className="font-display text-[16px] font-bold leading-tight text-text-primary">
+                {itemName}
+              </div>
+              <div className="mt-1 text-[10px] uppercase tracking-[2px] text-text-dim">
+                {CATEGORY_LABELS[category]}
+              </div>
             </div>
           </div>
-        </div>
 
-        <AnimatedHeight>
-          <Suspense fallback={<DetailSkeleton />}>
-            <DetailContent itemName={itemName} category={category} />
-          </Suspense>
-        </AnimatedHeight>
+          <AnimatedHeight>
+            <Suspense fallback={<DetailSkeleton />}>
+              <DetailContent itemName={itemName} category={category} />
+            </Suspense>
+          </AnimatedHeight>
+        </div>
       </div>
     </div>,
     document.body,
