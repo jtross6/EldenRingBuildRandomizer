@@ -1,12 +1,15 @@
-import { useState, Suspense } from "react";
+import { useState, Suspense, ViewTransition } from "react";
 import { CategoryIcon, getCategoryClass, type ItemCategory } from "../icons/item-icons";
 import { useImageMap } from "../../hooks/use-image-map";
 
 interface ItemSlotProps {
   itemName: string;
   slotLabel?: string;
+  slotId: string;
   category: ItemCategory;
   variant: "standard" | "compact" | "talisman";
+  onClick?: () => void;
+  isActive?: boolean;
 }
 
 function ItemImage({
@@ -60,13 +63,72 @@ function FallbackIcon({ category, size }: { category: ItemCategory; size: number
   );
 }
 
-export function ItemSlot({ itemName, slotLabel, category, variant }: ItemSlotProps) {
+function SlotImage({
+  itemName,
+  category,
+  size,
+  slotId,
+  isActive,
+}: {
+  itemName: string;
+  category: ItemCategory;
+  size: number;
+  slotId: string;
+  isActive: boolean;
+}) {
+  const image = (
+    <Suspense fallback={<FallbackIcon category={category} size={size} />}>
+      <ItemImage itemName={itemName} category={category} size={size} />
+    </Suspense>
+  );
+
+  if (isActive) return image;
+
+  return <ViewTransition name={`item-${slotId}`}>{image}</ViewTransition>;
+}
+
+export function ItemSlot({
+  itemName,
+  slotLabel,
+  slotId,
+  category,
+  variant,
+  onClick,
+  isActive,
+}: ItemSlotProps) {
+  const interactive = !!onClick;
+  const interactiveClasses = interactive ? "cursor-pointer active:scale-[0.98]" : "";
+
+  function handleKeyDown(e: React.KeyboardEvent) {
+    if (onClick && (e.key === "Enter" || e.key === " ")) {
+      e.preventDefault();
+      onClick();
+    }
+  }
+
+  const a11yProps = interactive
+    ? ({
+        role: "button" as const,
+        tabIndex: 0,
+        onClick,
+        onKeyDown: handleKeyDown,
+      } as const)
+    : {};
+
   if (variant === "talisman") {
     return (
-      <div className="flex flex-col items-center gap-1.5 rounded-lg border border-border-dark bg-bg-card p-3 pb-2.5 text-center transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover">
-        <Suspense fallback={<FallbackIcon category={category} size={40} />}>
-          <ItemImage itemName={itemName} category={category} size={40} />
-        </Suspense>
+      <div
+        className={`flex flex-col items-center gap-1.5 rounded-lg border border-border-dark bg-bg-card p-3 pb-2.5 text-center transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses}`}
+        style={{ visibility: isActive ? "hidden" : undefined }}
+        {...a11yProps}
+      >
+        <SlotImage
+          itemName={itemName}
+          category={category}
+          size={40}
+          slotId={slotId}
+          isActive={!!isActive}
+        />
         <span className="break-words font-display text-[10px] font-semibold leading-tight text-text-primary">
           {itemName}
         </span>
@@ -76,10 +138,18 @@ export function ItemSlot({ itemName, slotLabel, category, variant }: ItemSlotPro
 
   if (variant === "compact") {
     return (
-      <div className="flex items-center gap-2 rounded-lg border border-border-dark bg-bg-card px-2.5 py-2 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover">
-        <Suspense fallback={<FallbackIcon category={category} size={32} />}>
-          <ItemImage itemName={itemName} category={category} size={32} />
-        </Suspense>
+      <div
+        className={`flex items-center gap-2 rounded-lg border border-border-dark bg-bg-card px-2.5 py-2 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses}`}
+        style={{ visibility: isActive ? "hidden" : undefined }}
+        {...a11yProps}
+      >
+        <SlotImage
+          itemName={itemName}
+          category={category}
+          size={32}
+          slotId={slotId}
+          isActive={!!isActive}
+        />
         <span className="min-w-0 flex-1 truncate font-display text-[11px] font-semibold text-text-primary">
           {itemName}
         </span>
@@ -88,11 +158,19 @@ export function ItemSlot({ itemName, slotLabel, category, variant }: ItemSlotPro
   }
 
   return (
-    <div className="group relative flex items-center gap-3 overflow-hidden rounded-lg border border-border-dark bg-bg-card px-3 py-2.5 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover">
+    <div
+      className={`group relative flex items-center gap-3 overflow-hidden rounded-lg border border-border-dark bg-bg-card px-3 py-2.5 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses}`}
+      style={{ visibility: isActive ? "hidden" : undefined }}
+      {...a11yProps}
+    >
       <div className="absolute bottom-0 left-0 top-0 w-[3px] bg-gold-dim opacity-0 transition-opacity group-hover:opacity-100" />
-      <Suspense fallback={<FallbackIcon category={category} size={44} />}>
-        <ItemImage itemName={itemName} category={category} size={44} />
-      </Suspense>
+      <SlotImage
+        itemName={itemName}
+        category={category}
+        size={44}
+        slotId={slotId}
+        isActive={!!isActive}
+      />
       <div className="min-w-0 flex-1">
         {slotLabel && (
           <div className="text-[10px] uppercase tracking-wider text-text-dim">{slotLabel}</div>
