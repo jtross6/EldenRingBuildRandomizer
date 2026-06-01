@@ -1,0 +1,7200 @@
+{
+  "count": 104,
+  "builds": [
+    {
+      "buildId": "duelswordduelist",
+      "buildName": "Duel Sword Duelist",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Horned Warrior's Sword",
+          "items": [
+            "Horned Warrior's Sword"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Erdtree Seal",
+          "items": [
+            "Erdtree Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Divine Bird Helm, Leda's Armor, Leyndell Knight Gauntlets, Malformed Dragon Greaves",
+          "items": [
+            "Divine Bird Helm",
+            "Leda's Armor",
+            "Leyndell Knight Gauntlets",
+            "Malformed Dragon Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Shard of Alexander, Sacred Scorpion Charm, Ritual Sword Talisman",
+          "items": [
+            "Shard of Alexander",
+            "Sacred Scorpion Charm",
+            "Ritual Sword Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Crusade Insignia, Two-Headed Turtle Talisman, Millicent's Prosthesis, Rotten Winged Sword Insignia, Curved Sword Talisman, Blade of Mercy",
+          "items": [
+            "Crusade Insignia",
+            "Two-Headed Turtle Talisman",
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia",
+            "Curved Sword Talisman",
+            "Blade of Mercy"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Faith, Mind",
+          "items": [
+            "Endurance",
+            "Faith",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Horn Calling",
+          "items": [
+            "Horn Calling"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow (Spell), Flame Grant me Strength",
+          "items": [
+            "Golden Vow (Spell)",
+            "Flame Grant me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Deflecting Hardtear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Deflecting Hardtear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, or Godrick's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "shadowsunflowerblossom",
+      "buildName": "Shadow Sunflower Blossom",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Shadown Sunflower Blossom",
+          "items": [
+            "Shadown Sunflower Blossom"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Clawmark Seal, or Erdtree Seal",
+          "items": [
+            "Clawmark Seal",
+            "Erdtree Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Pumpkin Helm, Raptor's Black Feathers, Radahn's Gauntlets, Radahn's Greaves",
+          "items": [
+            "Pumpkin Helm",
+            "Raptor's Black Feathers",
+            "Radahn's Gauntlets",
+            "Radahn's Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Two-Handed Sword Talisman, Shard of Alexander, Two-Headed Turtle Talisman, Blade of Mercy",
+          "items": [
+            "Two-Handed Sword Talisman",
+            "Shard of Alexander",
+            "Two-Headed Turtle Talisman",
+            "Blade of Mercy"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Claw Talisman, Axe Talisman, Lacerating Crossed-Tree, Sacred Scorpion Charm",
+          "items": [
+            "Claw Talisman",
+            "Axe Talisman",
+            "Lacerating Crossed-Tree",
+            "Sacred Scorpion Charm"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Vigor, Strength, Faith",
+          "items": [
+            "Vigor",
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Shadow Sunflower Headbutt",
+          "items": [
+            "Shadow Sunflower Headbutt"
+          ]
+        },
+        "Spells": {
+          "value": "Elden Stars, Flame Grant Me Strength, Golden Vow",
+          "items": [
+            "Elden Stars",
+            "Flame Grant Me Strength",
+            "Golden Vow"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Holy-Shrouding Cracked Tear, Stonebarb Cracked Tear",
+          "items": [
+            "Holy-Shrouding Cracked Tear",
+            "Stonebarb Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, or Malenia's Great Rune, or Morgott's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Malenia's Great Rune",
+            "Morgott's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "blackhammer",
+      "buildName": "Black Hammer",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Black Steel Greathammer",
+          "items": [
+            "Black Steel Greathammer"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Clawmark Seal, or Golden Order Seal",
+          "items": [
+            "Clawmark Seal",
+            "Golden Order Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Black Steel Greatshield",
+          "items": [
+            "Black Steel Greatshield"
+          ]
+        },
+        "Armor": {
+          "value": "Helm of Night, Black Knight Armor, Gauntlets of Night, Black Knight Greaves",
+          "items": [
+            "Helm of Night",
+            "Black Knight Armor",
+            "Gauntlets of Night",
+            "Black Knight Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Two-Headed Turtle Talisman, Curved Sword Talisman, Blade of Mercy",
+          "items": [
+            "Two-Headed Turtle Talisman",
+            "Curved Sword Talisman",
+            "Blade of Mercy"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Ritual Sword Talisman, Crusade Insignia",
+          "items": [
+            "Ritual Sword Talisman",
+            "Crusade Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Vigor, Faith",
+          "items": [
+            "Vigor",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Strength, Mind",
+          "items": [
+            "Endurance",
+            "Strength",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Sacred Blade",
+          "items": [
+            "Sacred Blade"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow",
+          "items": [
+            "Golden Vow"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Holy-Shrouding Cracked Tear, Stonebarb Cracked Tear",
+          "items": [
+            "Holy-Shrouding Cracked Tear",
+            "Stonebarb Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, or Godrick's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "nightclaw",
+      "buildName": "Nightclaw",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Claws of Night",
+          "items": [
+            "Claws of Night"
+          ]
+        },
+        "Shield": {
+          "value": "Messmer Soldier Shield",
+          "items": [
+            "Messmer Soldier Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Leda's Armor, Black Knight Helm, Black Knight Gauntlets, Black Knight Greaves",
+          "items": [
+            "Leda's Armor",
+            "Black Knight Helm",
+            "Black Knight Gauntlets",
+            "Black Knight Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Smithing Talisman, Axe Talisman, Rotten Winged Sword Insignia, Millicent's Prosthesis",
+          "items": [
+            "Smithing Talisman",
+            "Axe Talisman",
+            "Rotten Winged Sword Insignia",
+            "Millicent's Prosthesis"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Two-Headed Turtle Talisman, Crusade Insignia, Lord of Blood's Exultation, Lacerating Crossed-Tree, Retaliatory Crossed-Tree",
+          "items": [
+            "Two-Headed Turtle Talisman",
+            "Crusade Insignia",
+            "Lord of Blood's Exultation",
+            "Lacerating Crossed-Tree",
+            "Retaliatory Crossed-Tree"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind, Intelligence",
+          "items": [
+            "Endurance",
+            "Mind",
+            "Intelligence"
+          ]
+        },
+        "Skills": {
+          "value": "Scattershot Throw",
+          "items": [
+            "Scattershot Throw"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Thorny Cracked Tear, Winged Crystal Tear, Greenburst Crystal Tear",
+          "items": [
+            "Thorny Cracked Tear",
+            "Winged Crystal Tear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, or Morgott's Great Rune, or Malenia's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Morgott's Great Rune",
+            "Malenia's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "allknowingsage",
+      "buildName": "All-Knowing Sage",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Staff of the Great Beyond, and Sword of Night and Flame",
+          "items": [
+            "Staff of the Great Beyond",
+            "Sword of Night and Flame"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Greathelm, All-Knowing Armor, All-Knowing Gauntlets, All-Knowing Greaves",
+          "items": [
+            "Greathelm",
+            "All-Knowing Armor",
+            "All-Knowing Gauntlets",
+            "All-Knowing Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Godfrey Icon, Graven-Mass Talisman, Flock's Canvas Talisman, Scorpion Charms",
+          "items": [
+            "Godfrey Icon",
+            "Graven-Mass Talisman",
+            "Flock's Canvas Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Blessed Blue Dew Talisman, Crusade Insignia, Two-Headed Turtle Talisman, Dragoncrest Greatshield Talisman, Ritual Sword Talisman, Old Lord's Talisman",
+          "items": [
+            "Blessed Blue Dew Talisman",
+            "Crusade Insignia",
+            "Two-Headed Turtle Talisman",
+            "Dragoncrest Greatshield Talisman",
+            "Ritual Sword Talisman",
+            "Old Lord's Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence, Vigor, Faith",
+          "items": [
+            "Intelligence",
+            "Vigor",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "N/A"
+        },
+        "Spells": {
+          "value": "Multilayered Ring of Light, Elden Stars, Knight's Lightning Spear, Ancient Dragons' Lightning Strike, Flame of the Fell God, Giantsflame Take Thee, Frenzied Burst, Rykard's Rancor, Ancient Death Rancor, Knight Comet, Loretta's Greatbow, Mass of Putrescence, Pest-Thread Spears, Stone of Gurranq, Rock Sling",
+          "items": [
+            "Multilayered Ring of Light",
+            "Elden Stars",
+            "Knight's Lightning Spear",
+            "Ancient Dragons' Lightning Strike",
+            "Flame of the Fell God",
+            "Giantsflame Take Thee",
+            "Frenzied Burst",
+            "Rykard's Rancor",
+            "Ancient Death Rancor",
+            "Knight Comet",
+            "Loretta's Greatbow",
+            "Mass of Putrescence",
+            "Pest-Thread Spears",
+            "Stone of Gurranq",
+            "Rock Sling"
+          ]
+        },
+        "Support Spells": {
+          "value": "Blessing of the Erdtree, Golden Vow",
+          "items": [
+            "Blessing of the Erdtree",
+            "Golden Vow"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Bloodsucking Cracked Tear, Oil-Soaked Tear",
+          "items": [
+            "Bloodsucking Cracked Tear",
+            "Oil-Soaked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune",
+          "items": [
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "doubledragon",
+      "buildName": "Double Dragon",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Dane's Footwork",
+          "items": [
+            "Dane's Footwork"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Poisoned Hand",
+          "items": [
+            "Poisoned Hand"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "N/A - Uses Rock Heart",
+          "items": [
+            "Rock Heart"
+          ]
+        },
+        "Talismans": {
+          "value": "Shattered Stone Talisman, Shard of Alexander, Kindred of Rot's Exultation",
+          "items": [
+            "Shattered Stone Talisman",
+            "Shard of Alexander",
+            "Kindred of Rot's Exultation"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Blue Dancer Charm, Crusade Insignia, Rotten Winged Sword Insignia",
+          "items": [
+            "Blue Dancer Charm",
+            "Crusade Insignia",
+            "Rotten Winged Sword Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Vigor, Arcane",
+          "items": [
+            "Vigor",
+            "Arcane"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Strength, Dexterity, Endurance",
+          "items": [
+            "Strength",
+            "Dexterity",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "The Poison Flower Blooms Twice, Scarlet Rot",
+          "items": [
+            "The Poison Flower Blooms Twice",
+            "Scarlet Rot"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Thorny Cracked Tear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune or Godrick's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "piercingpaladin",
+      "buildName": "Piercing Paladin",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Leda's Sword",
+          "items": [
+            "Leda's Sword"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Golden Order Seal",
+          "items": [
+            "Golden Order Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Carian Thrusting Shield",
+          "items": [
+            "Carian Thrusting Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Oathseeker Knight Helm, Leda's Armor, Black Knight Gauntlets, Black Knight Greaves",
+          "items": [
+            "Oathseeker Knight Helm",
+            "Leda's Armor",
+            "Black Knight Gauntlets",
+            "Black Knight Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Two-Headed Turtle Talisman, Millicent's Prosthesis",
+          "items": [
+            "Two-Headed Turtle Talisman",
+            "Millicent's Prosthesis"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Blade of Mercy, Crusade Insignia, Curved Sword Talisman, Ritual Sword Talisman, Lacerating Crossed-Tree, Spear Talisman",
+          "items": [
+            "Blade of Mercy",
+            "Crusade Insignia",
+            "Curved Sword Talisman",
+            "Ritual Sword Talisman",
+            "Lacerating Crossed-Tree",
+            "Spear Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance, Faith",
+          "items": [
+            "Mind",
+            "Endurance",
+            "Faith"
+          ]
+        },
+        "Skills": {
+          "value": "Needle Piercer",
+          "items": [
+            "Needle Piercer"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Deflecting Hardtear, Winged Crystal Tear",
+          "items": [
+            "Deflecting Hardtear",
+            "Winged Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "messmerflame",
+      "buildName": "Messmer Flame",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Fire Knight's Greatsword",
+          "items": [
+            "Fire Knight's Greatsword"
+          ]
+        },
+        "Off-Hand Weapon:": {
+          "value": "Fire Knight's Seal",
+          "items": [
+            "Fire Knight's Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Messmer's Helm, Fire Knight Armor, Fire Knight Gauntlets, Fire Knight Greaves",
+          "items": [
+            "Messmer's Helm",
+            "Fire Knight Armor",
+            "Fire Knight Gauntlets",
+            "Fire Knight Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Bull-Goat's Talisman",
+          "items": [
+            "Bull-Goat's Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Fire Scorpion Charm, Shard of Alexander, Godfrey Icon, Flock's Canvas Talisman, Crusade Insignia",
+          "items": [
+            "Fire Scorpion Charm",
+            "Shard of Alexander",
+            "Godfrey Icon",
+            "Flock's Canvas Talisman",
+            "Crusade Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith, Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance, Strength",
+          "items": [
+            "Mind",
+            "Endurance",
+            "Strength"
+          ]
+        },
+        "Skills": {
+          "value": "N/A"
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength, Fire Serpent, Messmer's Orb",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Fire Serpent",
+            "Messmer's Orb"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Flame-Shrouding Cracked Tear, Oil-Soaked Tear",
+          "items": [
+            "Flame-Shrouding Cracked Tear",
+            "Oil-Soaked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, Godrick's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "dragonpriestess",
+      "buildName": "Dragon Priestess",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Erdtree Seal, Coded Sword",
+          "items": [
+            "Erdtree Seal",
+            "Coded Sword"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Gravel Stone Seal",
+          "items": [
+            "Gravel Stone Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "N/A - Uses Priestess Heart",
+          "items": [
+            "Priestess Heart"
+          ]
+        },
+        "Alternate Armor": {
+          "value": "Death Knight Set",
+          "items": [
+            "Death Knight Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Flock's Canvas Talisman, Godfrey Icon, Lightning Scorpion Charm, Dragoncrest Greatshield Talisman",
+          "items": [
+            "Flock's Canvas Talisman",
+            "Godfrey Icon",
+            "Lightning Scorpion Charm",
+            "Dragoncrest Greatshield Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Bull-Goat's Talisman, Crusade Insignia, Ritual Sword Talisman",
+          "items": [
+            "Bull-Goat's Talisman",
+            "Crusade Insignia",
+            "Ritual Sword Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith, Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Spells": {
+          "value": "Knight's Lightning Spear, Ancient Dragons' Lightning Strike",
+          "items": [
+            "Knight's Lightning Spear",
+            "Ancient Dragons' Lightning Strike"
+          ]
+        },
+        "Other Spells": {
+          "value": "Lightning Spear, Lightning Strike, Honed Bolt",
+          "items": [
+            "Lightning Spear",
+            "Lightning Strike",
+            "Honed Bolt"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Lightning-Shrouding Cracked Tear, Greenburst Crystal Tear",
+          "items": [
+            "Lightning-Shrouding Cracked Tear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Opaline Hardtear, Stonebarb Cracked Tear",
+          "items": [
+            "Opaline Hardtear",
+            "Stonebarb Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, or Morgott's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Morgott's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "gravitysorcerer",
+      "buildName": "Gravity Sorcerer",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Carian Regal Scepter",
+          "items": [
+            "Carian Regal Scepter"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Meteorite Staff, Golden Order Seal",
+          "items": [
+            "Meteorite Staff",
+            "Golden Order Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Preceptor's Big Hat, Ruler's Robe, Preceptor's Gloves, Preceptor's Trousers",
+          "items": [
+            "Preceptor's Big Hat",
+            "Ruler's Robe",
+            "Preceptor's Gloves",
+            "Preceptor's Trousers"
+          ]
+        },
+        "Talismans": {
+          "value": "Graven-Mass Talisman, Godfrey Icon",
+          "items": [
+            "Graven-Mass Talisman",
+            "Godfrey Icon"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Blessed Blue Dew Talisman, Crusade Insignia, Ritual Sword Talisman, Magic Scorpion Charm, Dragoncrest Greatshield Talisman",
+          "items": [
+            "Blessed Blue Dew Talisman",
+            "Crusade Insignia",
+            "Ritual Sword Talisman",
+            "Magic Scorpion Charm",
+            "Dragoncrest Greatshield Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence, Vigor",
+          "items": [
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Faith",
+          "items": [
+            "Mind",
+            "Faith"
+          ]
+        },
+        "Skills": {
+          "value": "N/A"
+        },
+        "Main Spells": {
+          "value": "Collapsing Stars, Meteorite of Astel, Gravitational Missile, Blades of Stone, Rock Sling",
+          "items": [
+            "Collapsing Stars",
+            "Meteorite of Astel",
+            "Gravitational Missile",
+            "Blades of Stone",
+            "Rock Sling"
+          ]
+        },
+        "Support Spells": {
+          "value": "Golden Vow, Flame Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame Grant Me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Magic-Shrouding Cracked Tear, Cerulean Hidden Tear",
+          "items": [
+            "Magic-Shrouding Cracked Tear",
+            "Cerulean Hidden Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "shadowblade",
+      "buildName": "Shadowblade Shadow",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Smithscript Dagger",
+          "items": [
+            "Smithscript Dagger"
+          ]
+        },
+        "Off-Hand Weapon (Optional)": {
+          "value": "Sacrificial Axe",
+          "items": [
+            "Sacrificial Axe"
+          ]
+        },
+        "Armor": {
+          "value": "Shadow Militiaman Set",
+          "items": [
+            "Shadow Militiaman Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Shard of Alexander, Smithing Talisman, Lord of Blood's Exultation, Crusade Insignia",
+          "items": [
+            "Shard of Alexander",
+            "Smithing Talisman",
+            "Lord of Blood's Exultation",
+            "Crusade Insignia"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Blue Dancer Charm, Spear Talisman, Millicent's Prosthesis or Rotten Winged Sword Insignia, Claw Talisman",
+          "items": [
+            "Blue Dancer Charm",
+            "Spear Talisman",
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia",
+            "Claw Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane, Dexterity, Vigor",
+          "items": [
+            "Arcane",
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Scattershot Throw, Piercing Throw",
+          "items": [
+            "Scattershot Throw",
+            "Piercing Throw"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Opaline Hardtear, Greenburst Crystal Tear",
+          "items": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Thorny Cracked Tear",
+          "items": [
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "divinewarrior",
+      "buildName": "Divine Warrior",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Euporia",
+          "items": [
+            "Euporia"
+          ]
+        },
+        "Armor": {
+          "value": "Divine Bird Set",
+          "items": [
+            "Divine Bird Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Two-Handed Sword Talisman, Shard of Alexander, Two-Headed Turtle Talisman, Dragoncrest Greatshield Talisman",
+          "items": [
+            "Two-Handed Sword Talisman",
+            "Shard of Alexander",
+            "Two-Headed Turtle Talisman",
+            "Dragoncrest Greatshield Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Crusade Insignia, Rotten Winged Sword Insignia, Lacerating Crossed-Tree",
+          "items": [
+            "Crusade Insignia",
+            "Rotten Winged Sword Insignia",
+            "Lacerating Crossed-Tree"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith, Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Euporia Vortex",
+          "items": [
+            "Euporia Vortex"
+          ]
+        },
+        "Spells": {
+          "value": "Flame Grant me Strength, Golden Vow",
+          "items": [
+            "Flame Grant me Strength",
+            "Golden Vow"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Opaline Hardtear, Greenburst Crystal Tear",
+          "items": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Holy-Shrouding Cracked Tear",
+          "items": [
+            "Holy-Shrouding Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Malenia's Great Rune",
+          "items": [
+            "Malenia's Great Rune"
+          ]
+        },
+        "Alternate Great Runes": {
+          "value": "Morgott's Great Rune, Radahn's Great Rune",
+          "items": [
+            "Morgott's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "deathknighttwinaxe",
+      "buildName": "Twin Axe Death Knight",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Death Knight's Twin Axes",
+          "items": [
+            "Death Knight's Twin Axes"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Death Knight Helm, Death Knight Armor, Death Knight Gauntlets, Malformed Dragon Greaves",
+          "items": [
+            "Death Knight Helm",
+            "Death Knight Armor",
+            "Death Knight Gauntlets",
+            "Malformed Dragon Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Millicent's Prosthesis, Rotten Winged Sword Insignia, Shard of Alexander, Two-Headed Turtle Talisman",
+          "items": [
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia",
+            "Shard of Alexander",
+            "Two-Headed Turtle Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Crusade Insignia, Blessed Blue Dew Talisman",
+          "items": [
+            "Crusade Insignia",
+            "Blessed Blue Dew Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Vigor, Mind",
+          "items": [
+            "Strength",
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Faith, Dexterity, Endurance",
+          "items": [
+            "Faith",
+            "Dexterity",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Blinkbolt: Twinaxe",
+          "items": [
+            "Blinkbolt: Twinaxe"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame Grant me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame Grant me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Thorny Cracked Tear, Greenburst Crystal Tear",
+          "items": [
+            "Thorny Cracked Tear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Lightning-Shrouding Cracked Tear",
+          "items": [
+            "Lightning-Shrouding Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "fireknightimpaler",
+      "buildName": "Fire Knight Impaler",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Spear of the Impaler",
+          "items": [
+            "Spear of the Impaler"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Erdtree Seal or Fire Knight's Seal",
+          "items": [
+            "Erdtree Seal",
+            "Fire Knight's Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Winged Serpent Helm, Fire Knight Armor, Fire Knight Gauntlets, Fire Knight Greaves",
+          "items": [
+            "Winged Serpent Helm",
+            "Fire Knight Armor",
+            "Fire Knight Gauntlets",
+            "Fire Knight Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Bull-Goat's Talisman, Shard of Alexander, Fire Scorpion Charm, Dragoncrest Greatshield Talisman",
+          "items": [
+            "Bull-Goat's Talisman",
+            "Shard of Alexander",
+            "Fire Scorpion Charm",
+            "Dragoncrest Greatshield Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Axe Talisman, Smithing Talisman, Rotten Winged Sword Insignia or Millicent's Prosthesis, Two-Handed Sword Talisman",
+          "items": [
+            "Axe Talisman",
+            "Smithing Talisman",
+            "Rotten Winged Sword Insignia",
+            "Millicent's Prosthesis",
+            "Two-Handed Sword Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith, Vigor, Dexterity",
+          "items": [
+            "Faith",
+            "Vigor",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Messmer's Assault",
+          "items": [
+            "Messmer's Assault"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame Grant me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame Grant me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Flame-Shrouding Cracked Tear, Opaline Hardtear",
+          "items": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "maternalmage",
+      "buildName": "Maternal Mage",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Carian Regal Scepter",
+          "items": [
+            "Carian Regal Scepter"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Maternal Staff",
+          "items": [
+            "Maternal Staff"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "High Priest Hat, Finger Robe, Bull-Goat Gauntlets, Bull-Goat Greaves",
+          "items": [
+            "High Priest Hat",
+            "Finger Robe",
+            "Bull-Goat Gauntlets",
+            "Bull-Goat Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Crusade Insignia, Blessed Blue Dew Talisman, Graven-Mass Talisman, Godfrey Icon",
+          "items": [
+            "Crusade Insignia",
+            "Blessed Blue Dew Talisman",
+            "Graven-Mass Talisman",
+            "Godfrey Icon"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Ritual Sword Talisman, Magic Scorpion Charm",
+          "items": [
+            "Ritual Sword Talisman",
+            "Magic Scorpion Charm"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence, Vigor",
+          "items": [
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "N/A"
+        },
+        "Spells": {
+          "value": "Glintstone Nail, Glintstone Nails, Fleeting Microcosm, Cherishing Fingers",
+          "items": [
+            "Glintstone Nail",
+            "Glintstone Nails",
+            "Fleeting Microcosm",
+            "Cherishing Fingers"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Magic-Shrouding Cracked Tear, Opaline Hardtear",
+          "items": [
+            "Magic-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "bloodybeastclaw",
+      "buildName": "Bloody Beastclaw",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Beast Claw",
+          "items": [
+            "Beast Claw"
+          ]
+        },
+        "Optional Off-Hand Weapon": {
+          "value": "Sacrificial Axe",
+          "items": [
+            "Sacrificial Axe"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Horned Warrior Helm, Horned Warrior Armor, Lionel's Gauntlets, Horned Warrior Greaves",
+          "items": [
+            "Horned Warrior Helm",
+            "Horned Warrior Armor",
+            "Lionel's Gauntlets",
+            "Horned Warrior Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Two-Headed Turtle Talisman, Lord of Blood's Exultation, Crusade Insignia, Shard of Alexander",
+          "items": [
+            "Two-Headed Turtle Talisman",
+            "Lord of Blood's Exultation",
+            "Crusade Insignia",
+            "Shard of Alexander"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Rotten Winged Sword Insignia,",
+          "items": [
+            "Rotten Winged Sword Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane, Vigor",
+          "items": [
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Savage Claws",
+          "items": [
+            "Savage Claws"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Thorny Cracked Tear, Greenburst Crystal Tear",
+          "items": [
+            "Thorny Cracked Tear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Opaline Hardtear",
+          "items": [
+            "Opaline Hardtear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Malenia's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Malenia's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "frostmonk",
+      "buildName": "Frost-Fu Monk",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Dryleaf Arts",
+          "items": [
+            "Dryleaf Arts"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Dane's Hat, Messmer Soldier Armor, Horned Warrior Gauntlets, Horned Warrior Greaves",
+          "items": [
+            "Dane's Hat",
+            "Messmer Soldier Armor",
+            "Horned Warrior Gauntlets",
+            "Horned Warrior Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Blue Dancer Charm, Dragoncrest Greatshield Talisman, Bull-Goat's Talisman, Shard of Alexander",
+          "items": [
+            "Blue Dancer Charm",
+            "Dragoncrest Greatshield Talisman",
+            "Bull-Goat's Talisman",
+            "Shard of Alexander"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Millicent's Prosthesis, Rotten Winged Sword Insignia, Godfrey Icon, Claw Talisman",
+          "items": [
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia",
+            "Godfrey Icon",
+            "Claw Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Dexterity, Intelligence Vigor",
+          "items": [
+            "Strength",
+            "Dexterity",
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance",
+          "items": [
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Divine Beast Frost Stomp",
+          "items": [
+            "Divine Beast Frost Stomp"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Thorny Cracked Tear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "knightblade",
+      "buildName": "Knight Blade",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Backhand Blade",
+          "items": [
+            "Backhand Blade"
+          ]
+        },
+        "Shield": {
+          "value": "Great Turtle Shell",
+          "items": [
+            "Great Turtle Shell"
+          ]
+        },
+        "Armor": {
+          "value": "Black Knight Set",
+          "items": [
+            "Black Knight Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Millicent's Prosthesis, Rotten Winged Sword Insignia, Dragoncrest Greatshield Talisman, Two-Headed Turtle Talisman",
+          "items": [
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia",
+            "Dragoncrest Greatshield Talisman",
+            "Two-Headed Turtle Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance",
+          "items": [
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Blind Spot",
+          "items": [
+            "Blind Spot"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Thorny Cracked Tear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "savageslasher",
+      "buildName": "Savage Slasher",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Great Katana",
+          "items": [
+            "Great Katana"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Oathseeker Knight Set",
+          "items": [
+            "Oathseeker Knight Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Rotten Winged Sword Insignia, Dragoncrest Greatshield Talisman, Bull-Goat's Talisman, Shard of Alexander",
+          "items": [
+            "Rotten Winged Sword Insignia",
+            "Dragoncrest Greatshield Talisman",
+            "Bull-Goat's Talisman",
+            "Shard of Alexander"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Rellana's Cameo",
+          "items": [
+            "Rellana's Cameo"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane, Vigor",
+          "items": [
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Savage Lion's Claw, Overhead Stance",
+          "items": [
+            "Savage Lion's Claw",
+            "Overhead Stance"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Thorny Cracked Tear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "spellsword",
+      "buildName": "SPELLSWORD BUILD (ALL GAME)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Claymore x1, Academy Glintstone Staff",
+          "items": [
+            "Claymore",
+            "Academy Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Carian Knight Helm, Blue Silver Mail Armor, Black Knife Gauntlets, Black Knife Greaves, or any armor with high protection and 51+ Poise",
+          "items": [
+            "Carian Knight Helm",
+            "Blue Silver Mail Armor",
+            "Black Knife Gauntlets",
+            "Black Knife Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Axe Talisman, Shard of Alexander, Assasin's Cerulean Dagger, Spear Talisman, & more suggested talismans in the video.",
+          "items": [
+            "Axe Talisman",
+            "Shard of Alexander",
+            "Assasin's Cerulean Dagger",
+            "Spear Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Vigor, Strength & Intelligence",
+          "items": [
+            "Vigor",
+            "Strength",
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance & Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Glintblade Phalanx",
+          "items": [
+            "Glintblade Phalanx"
+          ]
+        },
+        "Spells": {
+          "value": "Scholar's Armament",
+          "items": [
+            "Scholar's Armament"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "mage",
+      "buildName": "Mage Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Astrologer",
+          "items": [
+            "Astrologer"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Mostly FP, with 1 or 2 HP"
+        },
+        "Weapon": {
+          "value": "Any Staff, any melee weapon"
+        },
+        "Shield": {
+          "value": "Any 100% Physical Block"
+        },
+        "Armor": {
+          "value": "Any Light Armor"
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Mind",
+          "items": [
+            "Intelligence",
+            "Mind"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Glintblade Phalanx",
+          "items": [
+            "Ash of War: Glintblade Phalanx"
+          ]
+        },
+        "Spells": {
+          "value": "Glintstone Pebble, Glintstone Arc, Loretta's Greatbow, Great Glintstone Shard, Carian Slicer, Carian Piercer",
+          "items": [
+            "Glintstone Pebble",
+            "Glintstone Arc",
+            "Loretta's Greatbow",
+            "Great Glintstone Shard",
+            "Carian Slicer",
+            "Carian Piercer"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "spellblade",
+      "buildName": "Spellblade Build",
+      "fields": {
+        "Class:": {
+          "value": "Prisoner",
+          "items": [
+            "Prisoner"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Split evenly between HP and FP"
+        },
+        "Weapon": {
+          "value": "Demi-Human Queen's Staff and Estoc or Rapier (Can be any Dex one-handed weapon)",
+          "items": [
+            "Demi-Human Queen's Staff",
+            "Estoc",
+            "Rapier"
+          ]
+        },
+        "Shield": {
+          "value": "Any 100% Physical (optional)"
+        },
+        "Armor": {
+          "value": "Any, but get pieces that increase Intelligence when possible"
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Vigor",
+          "items": [
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Dexterity & Mind",
+          "items": [
+            "Dexterity",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Impaling Thrust",
+          "items": [
+            "Ash of War: Impaling Thrust"
+          ]
+        },
+        "Spells": {
+          "value": "Scholar's Armament, Glintstone Pebble and Carian Slicer",
+          "items": [
+            "Scholar's Armament",
+            "Glintstone Pebble",
+            "Carian Slicer"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "enchantedknight",
+      "buildName": "Enchanted Knight Build (Level 50)",
+      "fields": {
+        "Class": {
+          "value": "Astrologer or Prisoner",
+          "items": [
+            "Astrologer",
+            "Prisoner"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Most FP, Some HP"
+        },
+        "Weapon": {
+          "value": "Carian Glintstone Staff",
+          "items": [
+            "Carian Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "Blue-Gold Kite Shield",
+          "items": [
+            "Blue-Gold Kite Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Carian Knight Set",
+          "items": [
+            "Carian Knight Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Vigor",
+          "items": [
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind & Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Barricade Shield",
+          "items": [
+            "Ash of War: Barricade Shield"
+          ]
+        },
+        "Spells": {
+          "value": "Carian Slicer, Carian Piercer, Carian Greatsword and Glintstone Pebble",
+          "items": [
+            "Carian Slicer",
+            "Carian Piercer",
+            "Carian Greatsword",
+            "Glintstone Pebble"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "swordsage",
+      "buildName": "Sword Sage Build (Level 50)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split between FP & HP"
+        },
+        "Weapon": {
+          "value": "Sword of Night and Flame & Meteorite Staff",
+          "items": [
+            "Sword of Night and Flame",
+            "Meteorite Staff"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any that still lets you med roll"
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Faith",
+          "items": [
+            "Intelligence",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Night-and-Flame Stance",
+          "items": [
+            "Night-and-Flame Stance"
+          ]
+        },
+        "Spells": {
+          "value": "Rancorcall & Ancient Death Rancor",
+          "items": [
+            "Rancorcall",
+            "Ancient Death Rancor"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "battlemage",
+      "buildName": "Battlemage Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly FP, some HP"
+        },
+        "Weapon": {
+          "value": "Carian Glintstone Staff",
+          "items": [
+            "Carian Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "Jellyfish Shield",
+          "items": [
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Any that can med roll"
+        },
+        "Primary Stats": {
+          "value": "Intelligence",
+          "items": [
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Vigor & Strength",
+          "items": [
+            "Mind",
+            "Vigor",
+            "Strength"
+          ]
+        },
+        "Skills": {
+          "value": "Contagious Fury",
+          "items": [
+            "Contagious Fury"
+          ]
+        },
+        "Spells": {
+          "value": "Carian Slicer, Carian Greatsword, Carian Piercer, Glintstone Pebble, Loretta's Greatbow",
+          "items": [
+            "Carian Slicer",
+            "Carian Greatsword",
+            "Carian Piercer",
+            "Glintstone Pebble",
+            "Loretta's Greatbow"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "crystalmage",
+      "buildName": "Crystal Mage Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly FP, some HP"
+        },
+        "Weapon": {
+          "value": "Crystal Staff, Finger Seal or Clawmark Seal",
+          "items": [
+            "Crystal Staff",
+            "Finger Seal",
+            "Clawmark Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Jellyfish Shield",
+          "items": [
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Any that still allows you to med roll"
+        },
+        "Primary Stats": {
+          "value": "Intelligence",
+          "items": [
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Contagious Fury",
+          "items": [
+            "Contagious Fury"
+          ]
+        },
+        "Spells": {
+          "value": "Crystal Torrent, Shattering Crystal, Glintstone Pebble, Great Glintstone Shard, Comet, Terra Magica & Bestial Vitality",
+          "items": [
+            "Crystal Torrent",
+            "Shattering Crystal",
+            "Glintstone Pebble",
+            "Great Glintstone Shard",
+            "Comet",
+            "Terra Magica",
+            "Bestial Vitality"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "moonveilshinobi",
+      "buildName": "Moonveil Shinobi Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Slightly more HP than FP"
+        },
+        "Weapon": {
+          "value": "Moonveil, Uchigatana and any Staff",
+          "items": [
+            "Moonveil",
+            "Uchigatana"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any that can still med roll"
+        },
+        "Primary Stats": {
+          "value": "Intelligence &Vigor",
+          "items": [
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Dexterity & Mind",
+          "items": [
+            "Dexterity",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Transient Moonlight & Glinstone Phalanx",
+          "items": [
+            "Transient Moonlight",
+            "Glinstone Phalanx"
+          ]
+        },
+        "Spells": {
+          "value": "Loretta's Greatbow, Great Glintstone Shard, and Terra Magica",
+          "items": [
+            "Loretta's Greatbow",
+            "Great Glintstone Shard",
+            "Terra Magica"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "darkknight",
+      "buildName": "Dark Knight Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Helphen's Steeple, Dark Moon Greatsword & Staff of Loss",
+          "items": [
+            "Helphen's Steeple",
+            "Dark Moon Greatsword",
+            "Staff of Loss"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Night's Cavalry Set",
+          "items": [
+            "Night's Cavalry Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Vigor",
+          "items": [
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance & Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Moonlight Greatsword & Ruinous Ghostflame",
+          "items": [
+            "Moonlight Greatsword",
+            "Ruinous Ghostflame"
+          ]
+        },
+        "Spells": {
+          "value": "Night Comet, Night Shard, Terra Magica & Loretta's Greatbow",
+          "items": [
+            "Night Comet",
+            "Night Shard",
+            "Terra Magica",
+            "Loretta's Greatbow"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "freezingbattlemage",
+      "buildName": "Freezing Battlemage Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Lusat's Glintstone Staff & Carian Glintstone Staff",
+          "items": [
+            "Lusat's Glintstone Staff",
+            "Carian Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "Jellyfish Shield",
+          "items": [
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Snow Witch Hat, and any that still allows you to medium roll",
+          "items": [
+            "Snow Witch Hat"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence",
+          "items": [
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind & Vigor",
+          "items": [
+            "Mind",
+            "Vigor"
+          ]
+        },
+        "Skills": {
+          "value": "Contagious Fury",
+          "items": [
+            "Contagious Fury"
+          ]
+        },
+        "Spells": {
+          "value": "Carian Slicer, Adula's Moonblade, Carian Piercer, Glintstone Icecrag, Zamor Ice Storm and Freezing Mist",
+          "items": [
+            "Carian Slicer",
+            "Adula's Moonblade",
+            "Carian Piercer",
+            "Glintstone Icecrag",
+            "Zamor Ice Storm",
+            "Freezing Mist"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "deathknight",
+      "buildName": "Death Knight Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Sword of Night and Flame, Carian Regal Scepter & Frenzied Flame Seal",
+          "items": [
+            "Sword of Night and Flame",
+            "Carian Regal Scepter",
+            "Frenzied Flame Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Carian Knight's Shield",
+          "items": [
+            "Carian Knight's Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Night's Cavalry Helm, Night's Cavalry Armor, Lionel's Greaves, & Lionel's Gauntlets",
+          "items": [
+            "Night's Cavalry Helm",
+            "Night's Cavalry Armor",
+            "Lionel's Greaves",
+            "Lionel's Gauntlets"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence",
+          "items": [
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Night-and-Flame-Stance",
+          "items": [
+            "Night-and-Flame-Stance"
+          ]
+        },
+        "Spells": {
+          "value": "Rancor, Ancient Death Rancor, Golden Vow, & Terra Magica",
+          "items": [
+            "Rancor",
+            "Ancient Death Rancor",
+            "Golden Vow",
+            "Terra Magica"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "moonlightcrusader",
+      "buildName": "Moonlight Crusader Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Dark Moon Greatsword & Carian Regal Scepter",
+          "items": [
+            "Dark Moon Greatsword",
+            "Carian Regal Scepter"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Heaviest you can wear and still medium roll"
+        },
+        "Primary Stats": {
+          "value": "Intelligence",
+          "items": [
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Moonlight Greatsword",
+          "items": [
+            "Moonlight Greatsword"
+          ]
+        },
+        "Spells": {
+          "value": "Ranni's Dark Moon, Greatblade Phalanx, Terra Magica & Comet",
+          "items": [
+            "Ranni's Dark Moon",
+            "Greatblade Phalanx",
+            "Terra Magica",
+            "Comet"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "nebulaknight",
+      "buildName": "Nebula Knight Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Wing of Astel  and any Staff",
+          "items": [
+            "Wing of Astel"
+          ]
+        },
+        "Shield": {
+          "value": "Carian Knight's Shield",
+          "items": [
+            "Carian Knight's Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Scaled Armor Set or any Armor with high Poise",
+          "items": [
+            "Scaled Armor Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Dexterity",
+          "items": [
+            "Intelligence",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Nebula",
+          "items": [
+            "Nebula"
+          ]
+        },
+        "Spells": {
+          "value": "Scholar's Shield & Terra Magica",
+          "items": [
+            "Scholar's Shield",
+            "Terra Magica"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "soulsamurai",
+      "buildName": "Elden Soul Samurai Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Nagakiba & Academy Glintstone Staff",
+          "items": [
+            "Nagakiba",
+            "Academy Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Black Knife Set",
+          "items": [
+            "Black Knife Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Dexterity",
+          "items": [
+            "Intelligence",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Double Slash",
+          "items": [
+            "Double Slash"
+          ]
+        },
+        "Spells": {
+          "value": "Greatblade Phalanx, Founding Rain of Stars, Unseen Form, Loretta's Greatbow, Carian Retaliation, Scholar's Armament, Terra Magica, Freezing Mist",
+          "items": [
+            "Greatblade Phalanx",
+            "Founding Rain of Stars",
+            "Unseen Form",
+            "Loretta's Greatbow",
+            "Carian Retaliation",
+            "Scholar's Armament",
+            "Terra Magica",
+            "Freezing Mist"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "warriorwizard",
+      "buildName": "Warrior Wizard Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split HP & FP"
+        },
+        "Weapon": {
+          "value": "Carian Regal Scepter, Lusat's Glintstone Staff, & Carian Glintstone Staff",
+          "items": [
+            "Carian Regal Scepter",
+            "Lusat's Glintstone Staff",
+            "Carian Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "Carian Knight's Shield",
+          "items": [
+            "Carian Knight's Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Beast Champion Set & Greathelm",
+          "items": [
+            "Beast Champion Set",
+            "Greathelm"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Vigor",
+          "items": [
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats: Mind": {
+          "value": "& Endurance",
+          "items": [
+            "Stats: Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "None"
+        },
+        "Spells": {
+          "value": "Terra Magica, Gavel of Haima, Loretta's Greatbow, Carian Slicer, Carian Piercer, Carian Greatsword, & Adula's Moonblade",
+          "items": [
+            "Terra Magica",
+            "Gavel of Haima",
+            "Loretta's Greatbow",
+            "Carian Slicer",
+            "Carian Piercer",
+            "Carian Greatsword",
+            "Adula's Moonblade"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "ghostblade",
+      "buildName": "Ghostblade Build (All Game)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Death's Poker, Staff of Loss",
+          "items": [
+            "Death's Poker",
+            "Staff of Loss"
+          ]
+        },
+        "Shield": {
+          "value": "Scorpion Kite Shield",
+          "items": [
+            "Scorpion Kite Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Sanguine Noble Hood, Maliketh's Armor, Maliketh's Gauntlets, Maliketh's Greaves or any armor with high protection and 51+ Poise",
+          "items": [
+            "Sanguine Noble Hood",
+            "Maliketh's Armor",
+            "Maliketh's Gauntlets",
+            "Maliketh's Greaves"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Vigor, Strength, Dexterity & Intelligence",
+          "items": [
+            "Vigor",
+            "Strength",
+            "Dexterity",
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance & Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Ghostflame Ignition",
+          "items": [
+            "Ghostflame Ignition"
+          ]
+        },
+        "Spells": {
+          "value": "Terra Magica",
+          "items": [
+            "Terra Magica"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "redlightning",
+      "buildName": "Red Lightning Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split FP & HP"
+        },
+        "Weapon": {
+          "value": "Erdtree Seal & Gravel Stone Seal",
+          "items": [
+            "Erdtree Seal",
+            "Gravel Stone Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any Armor that allows you to medium roll."
+        },
+        "Primary Stats": {
+          "value": "Faith & Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind",
+          "items": [
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "None"
+        },
+        "Spells": {
+          "value": "Golden Vow, Lightning Strike, Lightning Spear, Lansseax's Glaive, Frozen Lightning Spear, Ancient Dragons' Lightning Strike",
+          "items": [
+            "Golden Vow",
+            "Lightning Strike",
+            "Lightning Spear",
+            "Lansseax's Glaive",
+            "Frozen Lightning Spear",
+            "Ancient Dragons' Lightning Strike"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "paladin",
+      "buildName": "Paladin Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Confessor",
+          "items": [
+            "Confessor"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Mostly HP with 1 or 2 FP"
+        },
+        "Weapon": {
+          "value": "Any one-handed and a Sacred Seal"
+        },
+        "Shield": {
+          "value": "Brass Shield",
+          "items": [
+            "Brass Shield"
+          ]
+        },
+        "Armor": {
+          "value": "The heaviest you can wear and still mid-roll"
+        },
+        "Primary Stats": {
+          "value": "Faith & Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance & Strength",
+          "items": [
+            "Endurance",
+            "Strength"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Barricade Shield & Ash of War: Golden Vow",
+          "items": [
+            "Ash of War: Barricade Shield",
+            "Ash of War: Golden Vow"
+          ]
+        },
+        "Spells": {
+          "value": "Urgent Heal, Heal",
+          "items": [
+            "Urgent Heal",
+            "Heal"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "dragonpriest",
+      "buildName": "Dragon Priest Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Prophet",
+          "items": [
+            "Prophet"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Most FP, 1 or 2 HP"
+        },
+        "Weapon": {
+          "value": "Any"
+        },
+        "Shield": {
+          "value": "Any"
+        },
+        "Armor": {
+          "value": "Any"
+        },
+        "Primary Stats": {
+          "value": "Mind & Vigor",
+          "items": [
+            "Mind",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Faith & Arcane",
+          "items": [
+            "Faith",
+            "Arcane"
+          ]
+        },
+        "Skills": {
+          "value": "None"
+        },
+        "Spells": {
+          "value": "Catch Flame and Dragonfire",
+          "items": [
+            "Catch Flame",
+            "Dragonfire"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "lightninglancer",
+      "buildName": "Lightning Lancer Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly FP, some HP"
+        },
+        "Weapon": {
+          "value": "Treespear & Clawmark Seal/Gravel Stone Seal",
+          "items": [
+            "Treespear",
+            "Clawmark Seal",
+            "Gravel Stone Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Golden Greatshield or Brass Shield",
+          "items": [
+            "Golden Greatshield",
+            "Brass Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Leyndell Knight Set",
+          "items": [
+            "Leyndell Knight Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Faith & Endurance",
+          "items": [
+            "Strength",
+            "Faith",
+            "Endurance"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Dexterity & Mind",
+          "items": [
+            "Dexterity",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Sacred Order, Golden Vow, & Barricade Shield",
+          "items": [
+            "Sacred Order, Golden Vow",
+            "Barricade Shield"
+          ]
+        },
+        "Spells": {
+          "value": "Lightning Spear, Electrify Armament, Blessing's Boon",
+          "items": [
+            "Lightning Spear",
+            "Electrify Armament",
+            "Blessing's Boon"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "blackflamespellblade",
+      "buildName": "Black Flame Spellblade Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly FP, some HP"
+        },
+        "Weapon": {
+          "value": "Cross-Naginata, Flamberge, Scythe, Grave Scythe, Nagakiba or Uchigatana & Godslayer's Seal",
+          "items": [
+            "Cross-Naginata",
+            "Flamberge",
+            "Scythe",
+            "Grave Scythe",
+            "Nagakiba",
+            "Uchigatana",
+            "Godslayer's Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any that allows for med roll"
+        },
+        "Primary Stats": {
+          "value": "Faith & Dexterity",
+          "items": [
+            "Faith",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind & Vigor",
+          "items": [
+            "Mind",
+            "Vigor"
+          ]
+        },
+        "Skills": {
+          "value": "Repeating Thrust, Spinning Slash, Sword Dance or Double Slash",
+          "items": [
+            "Repeating Thrust",
+            "Spinning Slash",
+            "Sword Dance",
+            "Double Slash"
+          ]
+        },
+        "Spells": {
+          "value": "Bloodflame Blade, Black Flame Blade, Black Flame, Scouring Black Flame & Golden Vow",
+          "items": [
+            "Bloodflame Blade",
+            "Black Flame Blade",
+            "Black Flame",
+            "Scouring Black Flame",
+            "Golden Vow"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "",
+      "buildName": "Deathblade Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly FP, some HP"
+        },
+        "Weapon": {
+          "value": "Sword of Night and Flame, Prince of Death's Staff & Golden Order Seal",
+          "items": [
+            "Sword of Night and Flame",
+            "Prince of Death's Staff",
+            "Golden Order Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any that allows you to med roll. Spellblade Set boosts Night and Flame's Magic attack by 2% per piece"
+        },
+        "Primary Stats": {
+          "value": "Intelligence & Faith"
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Night-and-Flame Stance",
+          "items": [
+            "Night-and-Flame Stance"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength, Black Flame, Loretta's Greatbow, Terra Magica, Magic Glintblade, Ancient Death Rancor",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Black Flame",
+            "Loretta's Greatbow",
+            "Terra Magica",
+            "Magic Glintblade",
+            "Ancient Death Rancor"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "blasphemousbeastmaster",
+      "buildName": "Blasphemous Beastmaster Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Some HP, mostly FP"
+        },
+        "Weapon": {
+          "value": "Clawmark Seal, Blasphemous Blade & Cinquedea",
+          "items": [
+            "Clawmark Seal",
+            "Blasphemous Blade",
+            "Cinquedea"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any that still allows you to med roll"
+        },
+        "Primary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Taker's Flames",
+          "items": [
+            "Taker's Flames"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength, Stone of Gurranq, Beast Claw & Bestial Sling",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Stone of Gurranq",
+            "Beast Claw",
+            "Bestial Sling"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "crusader",
+      "buildName": "Crusader Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Gargoyle's Greatsword & Erdtree Seal",
+          "items": [
+            "Gargoyle's Greatsword",
+            "Erdtree Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Brass Shield",
+          "items": [
+            "Brass Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Haligtree Knight Helm & any armor that allows you to medium roll",
+          "items": [
+            "Haligtree Knight Helm"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith & Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind",
+          "items": [
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Barricade Shield & Sword Dance",
+          "items": [
+            "Barricade Shield",
+            "Sword Dance"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Blessing of the Erdtree, Elden Stars, Lightning Spear, Black Blade, Black Flame's Protection",
+          "items": [
+            "Golden Vow",
+            "Blessing of the Erdtree",
+            "Elden Stars",
+            "Lightning Spear",
+            "Black Blade",
+            "Black Flame's Protection"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "blackflamebushido",
+      "buildName": "Blackflame Bushido Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Cross-Naginata or Nagakiba & Godslayer's Seal",
+          "items": [
+            "Cross-Naginata",
+            "Nagakiba",
+            "Godslayer's Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "White Mask & White Reed Set",
+          "items": [
+            "White Mask",
+            "White Reed Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Faith",
+          "items": [
+            "Dexterity",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Phantom Slash, Sword Dance or Double Slash",
+          "items": [
+            "Phantom Slash",
+            "Sword Dance",
+            "Double Slash"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Black Flame, Bloodflame Blade, Black Flame Blade, Scouring Black Flame, Black Flame Ritual & Black Flame's Protection",
+          "items": [
+            "Golden Vow",
+            "Black Flame",
+            "Bloodflame Blade",
+            "Black Flame Blade",
+            "Scouring Black Flame",
+            "Black Flame Ritual",
+            "Black Flame's Protection"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "flamedancer",
+      "buildName": "Flame Dancer Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split between HP and FP"
+        },
+        "Weapon": {
+          "value": "Giant's Red Braid & Clawmark Seal",
+          "items": [
+            "Giant's Red Braid",
+            "Clawmark Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Any Greatshield",
+          "items": [
+            "Greatshield"
+          ]
+        },
+        "Armor": {
+          "value": "Any Armor that has high Poise."
+        },
+        "Primary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Flame Dance",
+          "items": [
+            "Flame Dance"
+          ]
+        },
+        "Spells": {
+          "value": "Flame, Grant Me Strength, Golden Vow, Black Flame, Black Flame Ritual, Flame, Fall Upon Them",
+          "items": [
+            "Flame, Grant Me Strength",
+            "Golden Vow",
+            "Black Flame",
+            "Black Flame Ritual",
+            "Flame, Fall Upon Them"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "goldenswordsage",
+      "buildName": "Elden Golden Sword Sage Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split between HP and FP"
+        },
+        "Weapon": {
+          "value": "Coded Sword, Sword of Night and Flame, and Golden Order Seal",
+          "items": [
+            "Coded Sword",
+            "Sword of Night and Flame",
+            "Golden Order Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Blue-Gold Kite Shield",
+          "items": [
+            "Blue-Gold Kite Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Radiant Gold Mask, and any Armor with high Poise.",
+          "items": [
+            "Radiant Gold Mask"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith & Intelligence",
+          "items": [
+            "Faith",
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Unblockable Blade & Barricade Shield",
+          "items": [
+            "Unblockable Blade",
+            "Barricade Shield"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Blessing of the Erdtree, Discus of Light, Triple Rings of Light, Radagon's Rings of Light, Elden Stars & Litany of Proper Death.",
+          "items": [
+            "Golden Vow",
+            "Blessing of the Erdtree",
+            "Discus of Light",
+            "Triple Rings of Light",
+            "Radagon's Rings of Light",
+            "Elden Stars",
+            "Litany of Proper Death"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "swordsaint",
+      "buildName": "Elden Sword Saint Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split between HP and FP"
+        },
+        "Weapon": {
+          "value": "Sacred Relic Sword, Sword of Milos, and any Sacred Seal",
+          "items": [
+            "Sacred Relic Sword",
+            "Sword of Milos",
+            "Sacred Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any Armor with high Poise, the higher the better."
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Faith",
+          "items": [
+            "Dexterity",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Strength & Vigor",
+          "items": [
+            "Strength",
+            "Vigor"
+          ]
+        },
+        "Skills": {
+          "value": "Wave of Gold",
+          "items": [
+            "Wave of Gold"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength & Any other Incantations you want.",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "drakeknight",
+      "buildName": "Drake Knight Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Magma Wyrm's Scalesword & Clawmark Seal",
+          "items": [
+            "Magma Wyrm's Scalesword",
+            "Clawmark Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any Armor that allows you to medium roll"
+        },
+        "Primary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor",
+          "items": [
+            "Vigor"
+          ]
+        },
+        "Skills": {
+          "value": "Magma Guillotine",
+          "items": [
+            "Magma Guillotine"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, & Flame, Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "crucibleknight",
+      "buildName": "Crucible Knight Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Ordovis' Greatsword & Clawmark Seal",
+          "items": [
+            "Ordovis' Greatsword",
+            "Clawmark Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Crucible Axe Set",
+          "items": [
+            "Crucible Axe Set"
+          ]
+        },
+        "Talismans:": {
+          "value": "Shard of Alexander, Godfrey Icon, Flock's Canvas Talisman, and Rotten Winged Sword Insignia",
+          "items": [
+            "Shard of Alexander",
+            "Godfrey Icon",
+            "Flock's Canvas Talisman",
+            "Rotten Winged Sword Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Ordovis' Vortex",
+          "items": [
+            "Ordovis' Vortex"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength, Aspects of the Crucible: Tail, Aspects of the Crucible: Horns, Aspects of the Crucible: Breath",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Aspects of the Crucible: Tail",
+            "Aspects of the Crucible: Horns",
+            "Aspects of the Crucible: Breath"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "gladiator",
+      "buildName": "Gladiator Build (All Game)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Highland Axe",
+          "items": [
+            "Highland Axe"
+          ]
+        },
+        "Shield": {
+          "value": "Redmane Shield",
+          "items": [
+            "Redmane Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Rotten Duelist Helm, Rotten Gravekeeper Cloak, Bull-Goats Gaunlets, Rotten Duelist Greaves",
+          "items": [
+            "Rotten Duelist Helm",
+            "Rotten Gravekeeper Cloak",
+            "Bull-Goats Gaunlets",
+            "Rotten Duelist Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Shard of Alexander, Dagger Talisman, Bull-Goat's Talisman, Assassin's Cerulean Dagger, Millicent's Prosthesis, and more suggested talismans in the video",
+          "items": [
+            "Shard of Alexander",
+            "Dagger Talisman",
+            "Bull-Goat's Talisman",
+            "Assassin's Cerulean Dagger",
+            "Millicent's Prosthesis"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Vigor, Strength & Dexterity",
+          "items": [
+            "Vigor",
+            "Strength",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind & Mind",
+          "items": [
+            "Endurance",
+            "Mind",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Stamp (Upward Cut)",
+          "items": [
+            "Stamp (Upward Cut)"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "berserker",
+      "buildName": "Berserker Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Vagabond",
+          "items": [
+            "Vagabond"
+          ]
+        },
+        "Flask Spread": {
+          "value": "All HP"
+        },
+        "Weapon": {
+          "value": "Claymore and Lordsworn's Greatsword",
+          "items": [
+            "Claymore",
+            "Lordsworn's Greatsword"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Heaviest you can wear and still med roll"
+        },
+        "Primary Stats": {
+          "value": "Endurance & Vigor",
+          "items": [
+            "Endurance",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Strength & Dexterity",
+          "items": [
+            "Strength",
+            "Dexterity"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Quickstep",
+          "items": [
+            "Ash of War: Quickstep"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "barbarian",
+      "buildName": "Barbarian Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Hero",
+          "items": [
+            "Hero"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, 1 or 2 FP"
+        },
+        "Weapon": {
+          "value": "Zweihander or other Colossus Weapon",
+          "items": [
+            "Zweihander"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Heavies you can and still med roll (high Poise ideal)"
+        },
+        "Primary Stats": {
+          "value": "Strength & Endurance",
+          "items": [
+            "Strength",
+            "Endurance"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Dexterity",
+          "items": [
+            "Vigor",
+            "Dexterity"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: War Cry",
+          "items": [
+            "Ash of War: War Cry"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "archer",
+      "buildName": "Archer Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Bandit",
+          "items": [
+            "Bandit"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Split between HP and FP"
+        },
+        "Weapon": {
+          "value": "Shortbow and Longbow",
+          "items": [
+            "Shortbow",
+            "Longbow"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Light or medium weight"
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Mind",
+          "items": [
+            "Dexterity",
+            "Mind"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Barrage & Ash of War: Mighty Shot",
+          "items": [
+            "Ash of War: Barrage",
+            "Ash of War: Mighty Shot"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "blazingbushido",
+      "buildName": "Blazing Bushido Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Samurai"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Nagakiba, Greatbow, Finger Seal",
+          "items": [
+            "Nagakiba",
+            "Greatbow",
+            "Finger Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any that still allows med roll"
+        },
+        "Primary Stats": {
+          "value": "Strength & Dexterity",
+          "items": [
+            "Strength",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Unsheathe & Rain of Arrows",
+          "items": [
+            "Unsheathe",
+            "Rain of Arrows"
+          ]
+        },
+        "Spells": {
+          "value": "Bloodflame Blade & Flame, Grant Me Strength",
+          "items": [
+            "Bloodflame Blade",
+            "Flame, Grant Me Strength"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "scorchingslayer",
+      "buildName": "Scorching Slayer Build (Level 100).",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Gargoyle's Twinblade & any Sacred Seal",
+          "items": [
+            "Gargoyle's Twinblade",
+            "Sacred Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any that can still med roll"
+        },
+        "Primary Stats": {
+          "value": "Strength & Vigor",
+          "items": [
+            "Strength",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind & Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Flame of the Redmanes",
+          "items": [
+            "Flame of the Redmanes"
+          ]
+        },
+        "Spells": {
+          "value": "Bloodflame Blade, Flame, Grant Me Strength, Electrify Armament",
+          "items": [
+            "Bloodflame Blade",
+            "Flame, Grant Me Strength",
+            "Electrify Armament"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "coldbloodedraptor",
+      "buildName": "Cold-Blooded Raptor Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split HP and FP"
+        },
+        "Weapon": {
+          "value": "Bloodhound Claws, Sacrificial Axe & Academy Glintstone Staff",
+          "items": [
+            "Bloodhound Claws",
+            "Sacrificial Axe",
+            "Academy Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Raptor's Black Feathers, Haima Glintstone Crown and any other gloves and legs that allow you to med roll",
+          "items": [
+            "Raptor's Black Feathers",
+            "Haima Glintstone Crown"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength & Intelligence",
+          "items": [
+            "Strength",
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Royal Knight's Resolve & Golden Vow",
+          "items": [
+            "Royal Knight's Resolve",
+            "Golden Vow"
+          ]
+        },
+        "Spells": {
+          "value": "Great Glintstone Shard, Loretta's Greatbow, Terra Magica, Adula's Moonblade, Greatblade Phalanx",
+          "items": [
+            "Great Glintstone Shard",
+            "Loretta's Greatbow",
+            "Terra Magica",
+            "Adula's Moonblade",
+            "Greatblade Phalanx"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "venomousbloodblade",
+      "buildName": "Venomous Bloodblade Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Scavenger's Curved Sword & Bandit's Curved Sword (if you can get a second Scavenger's Curved Sword from someone that would be better)",
+          "items": [
+            "Scavenger's Curved Sword",
+            "Bandit's Curved Sword"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "White Mask or Mushroom Crown & any that allows you to med roll",
+          "items": [
+            "White Mask",
+            "Mushroom Crown"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength & Dexterity",
+          "items": [
+            "Strength",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Poisonous Mist & Seppuku",
+          "items": [
+            "Poisonous Mist",
+            "Seppuku"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "blasphemousherald",
+      "buildName": "Blasphemous Herald Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Blasphemous Blade, Gargoyle's Blackblade, Gargoyle's Greatsword & Clawmark Seal",
+          "items": [
+            "Blasphemous Blade",
+            "Gargoyle's Blackblade",
+            "Gargoyle's Greatsword",
+            "Clawmark Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Raptor's Black Feathers and any other Armor that allows medium rolling",
+          "items": [
+            "Raptor's Black Feathers"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Taker's Flame, Corpse Wax Cutter, Flaming Strike & Sacred Order",
+          "items": [
+            "Taker's Flame",
+            "Corpse Wax Cutter",
+            "Flaming Strike",
+            "Sacred Order"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow , Blessing of the Erdtree, Flame, Grant Me Strength, Lightning Spear, Black Flame & Stone of Gurranq",
+          "items": [
+            "Golden Vow",
+            "Blessing of the Erdtree",
+            "Flame, Grant Me Strength",
+            "Lightning Spear",
+            "Black Flame",
+            "Stone of Gurranq"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "colossalcrusher",
+      "buildName": "Colossal Crusher Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Giant-Crusher & Highland Axe",
+          "items": [
+            "Giant-Crusher",
+            "Highland Axe"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Bull-Goat Set or other high Poise Armor",
+          "items": [
+            "Bull-Goat Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength",
+          "items": [
+            "Strength"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Troll's Roar",
+          "items": [
+            "Troll's Roar"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "blackblade",
+      "buildName": "Elden Black Blade Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Maliketh's Black Blade & Clawmark Seal",
+          "items": [
+            "Maliketh's Black Blade",
+            "Clawmark Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Maliketh's Set or any Armor with high Poise",
+          "items": [
+            "Maliketh's Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Destined Death",
+          "items": [
+            "Destined Death"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Blessing of the Erdtree & Black Blade",
+          "items": [
+            "Golden Vow",
+            "Blessing of the Erdtree",
+            "Black Blade"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "godslayer",
+      "buildName": "Elden Godslayer Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split between HP and FP"
+        },
+        "Weapon": {
+          "value": "Godslayer's Greatsword & any Sacred Seal",
+          "items": [
+            "Godslayer's Greatsword",
+            "Sacred Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any Armor with high Poise, the higher the better."
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Skills": {
+          "value": "The Queen's Black Flame",
+          "items": [
+            "The Queen's Black Flame"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "eldenlord",
+      "buildName": "Elden Lord Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Axe of Godfrey & Highland Axe",
+          "items": [
+            "Axe of Godfrey",
+            "Highland Axe"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any Armor that allows you to medium roll"
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Strength",
+          "items": [
+            "Dexterity",
+            "Strength"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Regal Roar",
+          "items": [
+            "Regal Roar"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "perfectpaladin",
+      "buildName": "Perfect Paladin Build (All Levels)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Miquellan Knight's Sword & Clawmark Seal",
+          "items": [
+            "Miquellan Knight's Sword",
+            "Clawmark Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Haligtree Crest Greatshield",
+          "items": [
+            "Haligtree Crest Greatshield"
+          ]
+        },
+        "Armor": {
+          "value": "Haligtree Knight Set and Greathelm",
+          "items": [
+            "Haligtree Knight Set",
+            "Greathelm"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength & Faith",
+          "items": [
+            "Strength",
+            "Faith"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Sacred Blade",
+          "items": [
+            "Sacred Blade"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength, Blessing of the Erdtree",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Blessing of the Erdtree"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "haimahoplite",
+      "buildName": "Haima Hoplite Build (All Game)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Clayman's Harpoon, Academy Glintstone Staff",
+          "items": [
+            "Clayman's Harpoon",
+            "Academy Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "Cuckoo Greatshield",
+          "items": [
+            "Cuckoo Greatshield"
+          ]
+        },
+        "Armor": {
+          "value": "Cuckoo Knight Helm, Blaidd's Armor, Cuckoo Knight Gauntlets, Cuckoo Knight Greaves or any armor with high protection and 51+ Poise",
+          "items": [
+            "Cuckoo Knight Helm",
+            "Blaidd's Armor",
+            "Cuckoo Knight Gauntlets",
+            "Cuckoo Knight Greaves"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Vigor, Strength & Intelligence",
+          "items": [
+            "Vigor",
+            "Strength",
+            "Intelligence"
+          ]
+        },
+        "Secondary Stats:": {
+          "value": "Endurance & Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Repeating Thrust, Impaling Thrust",
+          "items": [
+            "Repeating Thrust",
+            "Impaling Thrust"
+          ]
+        },
+        "Spells": {
+          "value": "Terra Magica, Scholar's Armament",
+          "items": [
+            "Terra Magica",
+            "Scholar's Armament"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "scarletspear",
+      "buildName": "Scarlet Spear Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "All HP"
+        },
+        "Weapon": {
+          "value": "Rotten Crystal Spear x2",
+          "items": [
+            "Rotten Crystal Spear"
+          ]
+        },
+        "Shield": {
+          "value": "Coil Shield",
+          "items": [
+            "Coil Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Redmane Knight Set or any armor with high protection and 51+ Poise",
+          "items": [
+            "Redmane Knight Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance",
+          "items": [
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Charge Forth & Viper Bite",
+          "items": [
+            "Charge Forth",
+            "Viper Bite"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "supremesamurai",
+      "buildName": "Supreme Samurai Build (All Game)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Nagakiba",
+          "items": [
+            "Nagakiba"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Nox Swordstress Armor, White Reed Gauntlets, Ronin's Greaves, Iron Kasa",
+          "items": [
+            "Nox Swordstress Armor",
+            "White Reed Gauntlets",
+            "Ronin's Greaves",
+            "Iron Kasa"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance",
+          "items": [
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Unsheathe",
+          "items": [
+            "Unsheathe"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "samurai",
+      "buildName": "Samurai Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Samurai",
+          "items": [
+            "Samurai"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Mostly HP and 1 or 2 FP"
+        },
+        "Weapon": {
+          "value": "Uchigatana and Longbow",
+          "items": [
+            "Uchigatana",
+            "Longbow"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Land of Reeds Set",
+          "items": [
+            "Land of Reeds Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance & Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Unsheathe & Ash of War: Mighty Shot",
+          "items": [
+            "Ash of War: Unsheathe",
+            "Ash of War: Mighty Shot"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "bloodblade",
+      "buildName": "Bloodblade Build (Beginner)",
+      "fields": {
+        "Class": {
+          "value": "Warrior",
+          "items": [
+            "Warrior"
+          ]
+        },
+        "Flask Spread": {
+          "value": "All HP"
+        },
+        "Weapon": {
+          "value": "Scimitar x2",
+          "items": [
+            "Scimitar"
+          ]
+        },
+        "Shield": {
+          "value": "Any that can Parry"
+        },
+        "Armor": {
+          "value": "Heaviest you can wear and still Med Roll"
+        },
+        "Primary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Dexterity & Arcane",
+          "items": [
+            "Dexterity",
+            "Arcane"
+          ]
+        },
+        "Skills": {
+          "value": "Ash of War: Bloody Slash x2",
+          "items": [
+            "Ash of War: Bloody Slash"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "thunderingswordspear",
+      "buildName": "Thundering Swordspear Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split HP and FP"
+        },
+        "Weapon": {
+          "value": "Guardian's Swordspear & Finger Seal",
+          "items": [
+            "Guardian's Swordspear",
+            "Finger Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Banished Knight's Shield or Jellyfish Shield",
+          "items": [
+            "Banished Knight's Shield",
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Great Helm, Tree Coat, Chain Gloves, Chain Greaves"
+        },
+        "Primary Stats": {
+          "value": "Dexterity",
+          "items": [
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor",
+          "items": [
+            "Vigor"
+          ]
+        },
+        "Skills": {
+          "value": "Thunderbolt",
+          "items": [
+            "Thunderbolt"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength, Electrify Armament, and Blessing's Boon",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Electrify Armament",
+            "Blessing's Boon"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "lightningdragoon",
+      "buildName": "Lightning Dragoon Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Bolt of Gransax & Cleanrot Spear or Treespear",
+          "items": [
+            "Bolt of Gransax",
+            "Cleanrot Spear",
+            "Treespear"
+          ]
+        },
+        "Shield": {
+          "value": "Golden Greatshield",
+          "items": [
+            "Golden Greatshield"
+          ]
+        },
+        "Armor": {
+          "value": "Consort's Mask & Leyndell Knight Set",
+          "items": [
+            "Consort's Mask",
+            "Leyndell Knight Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Strength & Endurance",
+          "items": [
+            "Strength",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Ancient Lightning Spear & Sacred Phalanx",
+          "items": [
+            "Ancient Lightning Spear",
+            "Sacred Phalanx"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow , Blessing of the Erdtree, & Flame, Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Blessing of the Erdtree",
+            "Flame, Grant Me Strength"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "goldenchampion",
+      "buildName": "Golden Champion Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Ornamental Straight Sword & any Sacred Seal",
+          "items": [
+            "Ornamental Straight Sword",
+            "Sacred Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Banished Knight's Shield",
+          "items": [
+            "Banished Knight's Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Banished Knight Set",
+          "items": [
+            "Banished Knight Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity",
+          "items": [
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Golden Tempering & Golden Parry",
+          "items": [
+            "Golden Tempering",
+            "Golden Parry"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Blessing's Boon and Flame, Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Blessing's Boon",
+            "Flame, Grant Me Strength"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "serpentsamurai",
+      "buildName": "Serpent Samurai Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Serpentbone Blade & Uchigatana (or Wakizashi)",
+          "items": [
+            "Serpentbone Blade",
+            "Uchigatana",
+            "Wakizashi"
+          ]
+        },
+        "Shield": {
+          "value": ""
+        },
+        "Armor": {
+          "value": "Mushroom Crown & any high Poise Armor",
+          "items": [
+            "Mushroom Crown"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance",
+          "items": [
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Double Slash, Poison Moth Flight & Parry",
+          "items": [
+            "Double Slash",
+            "Poison Moth Flight",
+            "Parry"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "howlingstarfist",
+      "buildName": "Howling Starfist Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Star Fist, Highland Axe & Frenzied Flame Seal",
+          "items": [
+            "Star Fist",
+            "Highland Axe",
+            "Frenzied Flame Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "White Mask, and any other Armor that gives you lots of Poise"
+        },
+        "Primary Stats": {
+          "value": "Dexterity",
+          "items": [
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Beast's Roar",
+          "items": [
+            "Beast's Roar"
+          ]
+        },
+        "Spells": {
+          "value": "Bloodflame Blade",
+          "items": [
+            "Bloodflame Blade"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "inquisitor",
+      "buildName": "Inquisitor Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Ghiza's Wheel",
+          "items": [
+            "Ghiza's Wheel"
+          ]
+        },
+        "Shield": {
+          "value": "Jellyfish Shield",
+          "items": [
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Heaviest you can wear and still medium roll"
+        },
+        "Primary Stats": {
+          "value": "Strength & Dexterity",
+          "items": [
+            "Strength",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance & Vigor",
+          "items": [
+            "Endurance",
+            "Vigor"
+          ]
+        },
+        "Skills": {
+          "value": "Contagious Fury",
+          "items": [
+            "Contagious Fury"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "cariancavalier",
+      "buildName": "Elden Carian Cavalier Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Loretta's War Sickle & any Staff",
+          "items": [
+            "Loretta's War Sickle"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Royal Knight Set or any with high Poise",
+          "items": [
+            "Royal Knight Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Strength",
+          "items": [
+            "Dexterity",
+            "Strength"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Loretta's Slash",
+          "items": [
+            "Loretta's Slash"
+          ]
+        },
+        "Spells": {
+          "value": "Freezing Mist",
+          "items": [
+            "Freezing Mist"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "slumberingswordstress",
+      "buildName": "Slumbering Swordstress Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Sword of St. Trina x2",
+          "items": [
+            "Sword of St. Trina"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any light armor that allows you to light roll"
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Strength",
+          "items": [
+            "Dexterity",
+            "Strength"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Endurance",
+          "items": [
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Mists of Slumber",
+          "items": [
+            "Mists of Slumber"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "stormblade",
+      "buildName": "Stormblade Build (All Levels)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split FP & HP"
+        },
+        "Weapon": {
+          "value": "Flamberge",
+          "items": [
+            "Flamberge"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Any Armor that allows you to medium roll."
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind & Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Storm Blade",
+          "items": [
+            "Storm Blade"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame, Grant Me Strength, Electrify Armament & Bloodflame Blade",
+          "items": [
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Electrify Armament",
+            "Bloodflame Blade"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "vampiricknight",
+      "buildName": "Vampiric Knight Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Butchering Knife",
+          "items": [
+            "Butchering Knife"
+          ]
+        },
+        "Shield": {
+          "value": "Icon Shield",
+          "items": [
+            "Icon Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Any armor with high Poise and protection, the higher the better"
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats:": {
+          "value": "Endurance",
+          "items": [
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "None"
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "bloodyballerina",
+      "buildName": "Bloody Ballerina Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Bloody Helice",
+          "items": [
+            "Bloody Helice"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "White Mask, and any other Armor you want",
+          "items": [
+            "White Mask"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane & Vigor",
+          "items": [
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance",
+          "items": [
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Dynast's Finesse",
+          "items": [
+            "Dynast's Finesse"
+          ]
+        },
+        "Spells": {
+          "value": "None"
+        }
+      }
+    },
+    {
+      "buildId": "blooddragon",
+      "buildName": "Blood Dragon Build (Level 50)",
+      "fields": {
+        "Class": {
+          "value": "Warrior or Bandit",
+          "items": [
+            "Warrior",
+            "Bandit"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Split between HP and FP"
+        },
+        "Weapon": {
+          "value": "Dual Scimitars or any other Curved Swords that can use Ashes of War & Dragon Communion Seal",
+          "items": [
+            "Curved Swords",
+            "Ashes of War",
+            "Dragon Communion Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Heaviest you can wear and still med roll"
+        },
+        "Primary Stats": {
+          "value": "Arcane & Vigor",
+          "items": [
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Dexterity, Faith and Endurance",
+          "items": [
+            "Dexterity",
+            "Faith",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Bloody Slash",
+          "items": [
+            "Bloody Slash"
+          ]
+        },
+        "Spells": {
+          "value": "Dragonclaw & Rotten Breath",
+          "items": [
+            "Dragonclaw",
+            "Rotten Breath"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "dragonknight",
+      "buildName": "Dragon Knight Build (Level 100)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly FP, some HP"
+        },
+        "Weapon": {
+          "value": "Any that can use Bloody Slash & Dragon Communion Seal",
+          "items": [
+            "Bloody Slash",
+            "Dragon Communion Seal"
+          ]
+        },
+        "Shield": {
+          "value": "Jellyfish Shield",
+          "items": [
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Silver Tear Mask, and any armor that allows you to med roll",
+          "items": [
+            "Silver Tear Mask"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane & Vigor",
+          "items": [
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Faith & Mind",
+          "items": [
+            "Faith",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Bloody Slash & Contagious Fury",
+          "items": [
+            "Bloody Slash",
+            "Contagious Fury"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Blessing's Boon, Lightning Spear, Flame, Grant Me Strength, Black Flame, Stone of Gurranq, Agheel's Flame, Smarag's Glintstone Breath, Rotten Breath",
+          "items": [
+            "Golden Vow",
+            "Blessing's Boon",
+            "Lightning Spear",
+            "Flame, Grant Me Strength",
+            "Black Flame",
+            "Stone of Gurranq",
+            "Agheel's Flame",
+            "Smarag's Glintstone Breath",
+            "Rotten Breath"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "sanguinesamurai",
+      "buildName": "Sanguine Samurai Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP, some FP"
+        },
+        "Weapon": {
+          "value": "Rivers of Blood, Sacrificial Axe, and Dragon Communion Seal",
+          "items": [
+            "Rivers of Blood",
+            "Sacrificial Axe",
+            "Dragon Communion Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "White Mask or Okina Mask, and any armor that allows you to med roll",
+          "items": [
+            "White Mask",
+            "Okina Mask"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane & Dexterity",
+          "items": [
+            "Arcane",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Vigor & Mind",
+          "items": [
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Corpse Piler",
+          "items": [
+            "Corpse Piler"
+          ]
+        },
+        "Spells": {
+          "value": "Flame, Grant Me Strength",
+          "items": [
+            "Flame, Grant Me Strength"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "dragonwarrior",
+      "buildName": "Dragon Warrior Build (Level 150)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Bandit's Curved Sword x2 or any Curved Swords",
+          "items": [
+            "Bandit's Curved Sword"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "White Mask, and heavy armor with good Poise",
+          "items": [
+            "White Mask",
+            "Poise"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane & Vigor",
+          "items": [
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Faith & Endurance",
+          "items": [
+            "Faith",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Seppuku x2",
+          "items": [
+            "Seppuku"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Blessing's Boon, Ekzyke's Decay, Dragonclaw & Dragonmaw",
+          "items": [
+            "Golden Vow",
+            "Blessing's Boon",
+            "Ekzyke's Decay",
+            "Dragonclaw",
+            "Dragonmaw"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "madking",
+      "buildName": "Mad King Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Mostly HP some FP"
+        },
+        "Weapon": {
+          "value": "Morgott's Cursed Sword, Dragon Communion Seal & Frenzied Flame Seal",
+          "items": [
+            "Morgott's Cursed Sword",
+            "Dragon Communion Seal",
+            "Frenzied Flame Seal"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Heaviest you can wear and still medium roll"
+        },
+        "Primary Stats": {
+          "value": "Dexterity & Arcane",
+          "items": [
+            "Dexterity",
+            "Arcane"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Faith & Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Skills": {
+          "value": "Cursed-Blood Slice",
+          "items": [
+            "Cursed-Blood Slice"
+          ]
+        },
+        "Spells": {
+          "value": "Swarm of Flies, Golden Vow, Flame, Grant Me Strength, Unendurable Frenzy, & Frenzied Burst",
+          "items": [
+            "Swarm of Flies",
+            "Golden Vow",
+            "Flame, Grant Me Strength",
+            "Unendurable Frenzy",
+            "Frenzied Burst"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "sanguinespellblade",
+      "buildName": "Sanguine Spellblade Build (Level 150-200 | Journey 2)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Split HP and FP"
+        },
+        "Weapon": {
+          "value": "Albinauric Staff, Dragon Communion Seal, Staff of the Guilty & Rogier's Rapier",
+          "items": [
+            "Albinauric Staff",
+            "Dragon Communion Seal",
+            "Staff of the Guilty",
+            "Rogier's Rapier"
+          ]
+        },
+        "Shield": {
+          "value": "None"
+        },
+        "Armor": {
+          "value": "Alberich's Set (for extra Thorn Sorcery damage)",
+          "items": [
+            "Alberich's Set"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane & Vigor",
+          "items": [
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Intelligence & Faith",
+          "items": [
+            "Intelligence",
+            "Faith"
+          ]
+        },
+        "Skills": {
+          "value": "Seppuku",
+          "items": [
+            "Seppuku"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Blessing of the Erdtree, Terra Magica, Unseen Form, Briars of Punishment & Briars of Sin",
+          "items": [
+            "Golden Vow",
+            "Blessing of the Erdtree",
+            "Terra Magica",
+            "Unseen Form",
+            "Briars of Punishment",
+            "Briars of Sin"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "cariancleaver",
+      "buildName": "Carian Cleaver Build (All Game)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Iron Cleaver, Carian Regal Scepter",
+          "items": [
+            "Iron Cleaver",
+            "Carian Regal Scepter"
+          ]
+        },
+        "Shield": {
+          "value": "Jellyfish Shield",
+          "items": [
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Carian Knight Helm, Carian Knight Armor, Banished Knight Gauntlets, Banished Knight Greaves",
+          "items": [
+            "Carian Knight Helm",
+            "Carian Knight Armor",
+            "Banished Knight Gauntlets",
+            "Banished Knight Greaves"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Intelligence, Vigor, Mind",
+          "items": [
+            "Intelligence",
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Strength",
+          "items": [
+            "Endurance",
+            "Strength"
+          ]
+        },
+        "Skills": {
+          "value": "Royal Knight's Resolve",
+          "items": [
+            "Royal Knight's Resolve"
+          ]
+        },
+        "Spells": {
+          "value": "Greatblade Phalanx",
+          "items": [
+            "Greatblade Phalanx"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Magic-Shrouding Cracked Tear, Spiked Cracked Tear",
+          "items": [
+            "Magic-Shrouding Cracked Tear",
+            "Spiked Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "goldbreaker",
+      "buildName": "Gold Breaker Build (NG+)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Marika's Hammer",
+          "items": [
+            "Marika's Hammer"
+          ]
+        },
+        "Shield": {
+          "value": "Golden Greatshield",
+          "items": [
+            "Golden Greatshield"
+          ]
+        },
+        "Armor": {
+          "value": "Leyndell Knight Set",
+          "items": [
+            "Leyndell Knight Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Assassin's Cerulean Dagger, Carian Filigreed Crest, Shard of Alexander or Warrior Jar Shard, Curved Sword Talisman or Dragoncrest Greatshield Talisman",
+          "items": [
+            "Assassin's Cerulean Dagger",
+            "Carian Filigreed Crest",
+            "Shard of Alexander",
+            "Warrior Jar Shard",
+            "Curved Sword Talisman",
+            "Dragoncrest Greatshield Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Vigor, Endurance",
+          "items": [
+            "Strength",
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Faith, Dexterity, Mind",
+          "items": [
+            "Faith",
+            "Dexterity",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Gold Breaker, Golden Vow",
+          "items": [
+            "Gold Breaker",
+            "Golden Vow"
+          ]
+        },
+        "Spells": {
+          "value": "Flame Grant me Strength",
+          "items": [
+            "Flame Grant me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Holy-Shrouding Cracked Tear, Strength-Knot Crystal Tear, Dexterity-Knot Crystal Tear",
+          "items": [
+            "Holy-Shrouding Cracked Tear",
+            "Strength-Knot Crystal Tear",
+            "Dexterity-Knot Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "towerknight",
+      "buildName": "Tower Knight (All Game Build)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Morning Star",
+          "items": [
+            "Morning Star"
+          ]
+        },
+        "Shield": {
+          "value": "Manor Towershield",
+          "items": [
+            "Manor Towershield"
+          ]
+        },
+        "Armor": {
+          "value": "Knight Set",
+          "items": [
+            "Knight Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Green Turtle Talisman, Axe Talisman, Curved Sword Talisman, Greatshield Talisman",
+          "items": [
+            "Green Turtle Talisman",
+            "Axe Talisman",
+            "Curved Sword Talisman",
+            "Greatshield Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Vigor, Endurance",
+          "items": [
+            "Strength",
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Intelligence, Dexterity",
+          "items": [
+            "Mind",
+            "Intelligence",
+            "Dexterity"
+          ]
+        },
+        "Skills": {
+          "value": "Cragblade",
+          "items": [
+            "Cragblade"
+          ]
+        },
+        "Spells": {
+          "value": "Flame Grant Me Strength",
+          "items": [
+            "Flame Grant Me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Spiked Cracked Tear, Stonebarb Cracked Tear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Spiked Cracked Tear",
+            "Stonebarb Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "redrogue",
+      "buildName": "Red Rogue (All Game Build)",
+      "fields": {
+        "Class": {
+          "value": "Bandit",
+          "items": [
+            "Bandit"
+          ]
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Reduvia",
+          "items": [
+            "Reduvia"
+          ]
+        },
+        "Shield": {
+          "value": "n/a"
+        },
+        "Armor": {
+          "value": "Skeletal Mask, Nox Swordstress Armor, Scaled Gauntlets, Nox Greaves",
+          "items": [
+            "Skeletal Mask",
+            "Nox Swordstress Armor",
+            "Scaled Gauntlets",
+            "Nox Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Millicent's Prosthesis, Bull-Goat's Talisman, Lord of Blood's Exultation, Shard of Alexander or Warrior Jar Shard",
+          "items": [
+            "Millicent's Prosthesis",
+            "Bull-Goat's Talisman",
+            "Lord of Blood's Exultation",
+            "Shard of Alexander",
+            "Warrior Jar Shard"
+          ]
+        },
+        "Alternate Talismans:": {
+          "value": "Dagger Talisman, Green Turtle Talisman",
+          "items": [
+            "Dagger Talisman",
+            "Green Turtle Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane, Vigor, Endurance",
+          "items": [
+            "Arcane",
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Dexterity, Mind",
+          "items": [
+            "Dexterity",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Reduvia Blood Blade",
+          "items": [
+            "Reduvia Blood Blade"
+          ]
+        },
+        "Spells": {
+          "value": "n/a"
+        },
+        "Crystal Tear": {
+          "value": "Greenspill Crystal Tear, Dexterity-Knot Crystal Tear, or Thorny Cracked Tear",
+          "items": [
+            "Greenspill Crystal Tear",
+            "Dexterity-Knot Crystal Tear",
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "blazingblackblade",
+      "buildName": "Blazing Blackblade (All Game Build)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Hookclaws",
+          "items": [
+            "Hookclaws"
+          ]
+        },
+        "Shield": {
+          "value": "n/a"
+        },
+        "Armor": {
+          "value": "Knight Set (Early Playthrough), Maliketh's Set (Main Armor set for this build)",
+          "items": [
+            "Knight Set",
+            "Maliketh's Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Fire Scorpion Charm, Dragoncrest Greatshield Talisman, Rotten Winged Sword Insignia, Shard of Alexander or Warrior Jar Shard",
+          "items": [
+            "Fire Scorpion Charm",
+            "Dragoncrest Greatshield Talisman",
+            "Rotten Winged Sword Insignia",
+            "Shard of Alexander",
+            "Warrior Jar Shard"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith, Vigor",
+          "items": [
+            "Faith",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Flaming Strike",
+          "items": [
+            "Flaming Strike"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame Grant Me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Flame-Shrouding Cracked Tear, Thorny Cracked Tear or Greenspill Crystal Tear",
+          "items": [
+            "Flame-Shrouding Cracked Tear",
+            "Thorny Cracked Tear",
+            "Greenspill Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "blueballer",
+      "buildName": "Blue Baller (All Game Build)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Iron Ball",
+          "items": [
+            "Iron Ball"
+          ]
+        },
+        "Alternate Weapon": {
+          "value": "Academy Glintstone Staff",
+          "items": [
+            "Academy Glintstone Staff"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Greathelm, Tree Surcoat, Scaled Gauntlets, Scaled Greaves",
+          "items": [
+            "Greathelm",
+            "Tree Surcoat",
+            "Scaled Gauntlets",
+            "Scaled Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Rotten Winged Sword Insignia, Millicent’s Prosthesis, Axe Talisman, Dragoncrest Greatshield Talisman",
+          "items": [
+            "Rotten Winged Sword Insignia",
+            "Millicent’s Prosthesis",
+            "Axe Talisman",
+            "Dragoncrest Greatshield Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Dagger Talisman, Assassin’s Crimson Dagger, Green Turtle Talisman, Ritual Sword Talisman",
+          "items": [
+            "Dagger Talisman",
+            "Assassin’s Crimson Dagger",
+            "Green Turtle Talisman",
+            "Ritual Sword Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Intelligence, Vigor",
+          "items": [
+            "Strength",
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Endure",
+          "items": [
+            "Endure"
+          ]
+        },
+        "Spells": {
+          "value": "Scholar's Armament",
+          "items": [
+            "Scholar's Armament"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Stonebarb Cracked Tear, Thorny Cracked Tear or Strength-knot Crystal Tear",
+          "items": [
+            "Stonebarb Cracked Tear",
+            "Thorny Cracked Tear",
+            "Strength-knot Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "spellthief",
+      "buildName": "Spellthief (New Game + Build)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Glintstone Kris",
+          "items": [
+            "Glintstone Kris"
+          ]
+        },
+        "Shield": {
+          "value": "Carian Knight's Shield",
+          "items": [
+            "Carian Knight's Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Spellblade's Pointed Hat, Black Knife Armor, Spellblade's Gloves, Spellblade's Trousers",
+          "items": [
+            "Spellblade's Pointed Hat",
+            "Black Knife Armor",
+            "Spellblade's Gloves",
+            "Spellblade's Trousers"
+          ]
+        },
+        "Talismans": {
+          "value": "Magic Scorpion Charm, Ritual Sword Talisman, Godfrey Icon, Shard of Alexander or Warrior Jar Shard",
+          "items": [
+            "Magic Scorpion Charm",
+            "Ritual Sword Talisman",
+            "Godfrey Icon",
+            "Shard of Alexander",
+            "Warrior Jar Shard"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Intelligence, Vigor",
+          "items": [
+            "Dexterity",
+            "Intelligence",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Glintstone Dart, Carian Retaliation",
+          "items": [
+            "Glintstone Dart",
+            "Carian Retaliation"
+          ]
+        },
+        "Spells": {
+          "value": "n/a"
+        },
+        "Crystal Tear": {
+          "value": "Magic-Shrouding Cracked Tear, Intelligence-knot Crystal Tear or Dexterity-knot Crystal Tear",
+          "items": [
+            "Magic-Shrouding Cracked Tear",
+            "Intelligence-knot Crystal Tear",
+            "Dexterity-knot Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "flameguardian",
+      "buildName": "Flame Guardian (All Game Build)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Curved Great Club, Erdtree Seal or Finger Seal",
+          "items": [
+            "Curved Great Club",
+            "Erdtree Seal",
+            "Finger Seal"
+          ]
+        },
+        "Shield": {
+          "value": "n/a"
+        },
+        "Armor": {
+          "value": "Bloodsoaked Mask, Bloodsoaked Manchettes, Blackflame Monk Armor, Blackflame Monk Greaves",
+          "items": [
+            "Bloodsoaked Mask",
+            "Bloodsoaked Manchettes",
+            "Blackflame Monk Armor",
+            "Blackflame Monk Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Fire Scorpion Charm, Bull-Goat's Talisman, Dragoncrest Greatshield Talisman, Shard of Alexander or Warrior Jar Shard",
+          "items": [
+            "Fire Scorpion Charm",
+            "Bull-Goat's Talisman",
+            "Dragoncrest Greatshield Talisman",
+            "Shard of Alexander",
+            "Warrior Jar Shard"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Faith, Vigor, Mind",
+          "items": [
+            "Faith",
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Strength",
+          "items": [
+            "Endurance",
+            "Strength"
+          ]
+        },
+        "Skills": {
+          "value": "Flaming Strike",
+          "items": [
+            "Flaming Strike"
+          ]
+        },
+        "Spells": {
+          "value": "Flame of the Fell God, Giantsflame Take Thee, Black Flame, Frenzied Burst, Golden Vow (Spell), Flame, Grant me Strength",
+          "items": [
+            "Flame of the Fell God",
+            "Giantsflame Take Thee",
+            "Black Flame",
+            "Frenzied Burst",
+            "Golden Vow (Spell)",
+            "Flame, Grant me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Flame-Shrouding Cracked Tear, Faith-Knot Crystal Tear",
+          "items": [
+            "Flame-Shrouding Cracked Tear",
+            "Faith-Knot Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "vanquisher",
+      "buildName": "Vanquisher Build (All Game)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Dragon Halberd",
+          "items": [
+            "Dragon Halberd"
+          ]
+        },
+        "Shield": {
+          "value": "--"
+        },
+        "Armor": {
+          "value": "Gelmir Knight Helm, Gelmir Knight Armor, Cuckoo Knight Gauntlets, Gelmir Knight Greaves",
+          "items": [
+            "Gelmir Knight Helm",
+            "Gelmir Knight Armor",
+            "Cuckoo Knight Gauntlets",
+            "Gelmir Knight Greaves"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Vigor, Dexterity",
+          "items": [
+            "Strength",
+            "Vigor",
+            "Dexterity"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind",
+          "items": [
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Spinning Slash",
+          "items": [
+            "Spinning Slash"
+          ]
+        },
+        "Spells": {
+          "value": "Flame Grant Me Strength",
+          "items": [
+            "Flame Grant Me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Strength-Knot Crystal Tear, Dexterity-Knot Crystal Tear, or Greenburst Crystal Tear",
+          "items": [
+            "Strength-Knot Crystal Tear",
+            "Dexterity-Knot Crystal Tear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune or Godrick's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "warriorofwaves",
+      "buildName": "Warrior of Waves (All Game Build)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Weapon": {
+          "value": "Ruins Greatsword",
+          "items": [
+            "Ruins Greatsword"
+          ]
+        },
+        "Shield": {
+          "value": "n/a"
+        },
+        "Armor": {
+          "value": "Greathelm, Beast Champion Armor, Beast Champion Gauntlets, Beast Champion Greaves",
+          "items": [
+            "Greathelm",
+            "Beast Champion Armor",
+            "Beast Champion Gauntlets",
+            "Beast Champion Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Taker's Cameo, Carian Filigreed Crest, Great-Jar's Arsenal, Shard of Alexander, Ritual Sword Talisman, Ancestral Spirit's Horn",
+          "items": [
+            "Taker's Cameo",
+            "Carian Filigreed Crest",
+            "Great-Jar's Arsenal",
+            "Shard of Alexander",
+            "Ritual Sword Talisman",
+            "Ancestral Spirit's Horn"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Vigor, Endurance",
+          "items": [
+            "Strength",
+            "Vigor",
+            "Endurance"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Intelligence, Dexterity",
+          "items": [
+            "Mind",
+            "Intelligence",
+            "Dexterity"
+          ]
+        },
+        "Skills": {
+          "value": "Wave of Destruction",
+          "items": [
+            "Wave of Destruction"
+          ]
+        },
+        "Spells": {
+          "value": "Flame Grant me Strength",
+          "items": [
+            "Flame Grant me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Strength-Knot Crystal Tear, Spiked Cracked Tear,",
+          "items": [
+            "Strength-Knot Crystal Tear",
+            "Spiked Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "dragonslayer",
+      "buildName": "Dragonslayer Shadow",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Dragon-Hunter's Great Katana",
+          "items": [
+            "Dragon-Hunter's Great Katana"
+          ]
+        },
+        "Optional Off-Hand": {
+          "value": "Sacrificial Axe",
+          "items": [
+            "Sacrificial Axe"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Rakshasa Set",
+          "items": [
+            "Rakshasa Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Shard of Alexander, Godfrey Icon, Two-Handed Sword Talisman, Two-Headed Turtle Talisman",
+          "items": [
+            "Shard of Alexander",
+            "Godfrey Icon",
+            "Two-Handed Sword Talisman",
+            "Two-Headed Turtle Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Dragoncrest Greatshield Talisman, Crusade Insignia",
+          "items": [
+            "Dragoncrest Greatshield Talisman",
+            "Crusade Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Dexterity, Vigor",
+          "items": [
+            "Strength",
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Dragonwound Slash",
+          "items": [
+            "Dragonwound Slash"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Opaline Hardtear, Greenburst Crystal Tear",
+          "items": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Stonebarb Cracked Tear",
+          "items": [
+            "Stonebarb Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, or Morgott's Great Rune, or Malenia's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Morgott's Great Rune",
+            "Malenia's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "magmablade",
+      "buildName": "Magma Blade",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Magma Blade",
+          "items": [
+            "Magma Blade"
+          ]
+        },
+        "Off-Hand Weapon": {
+          "value": "Erdtree Seal",
+          "items": [
+            "Erdtree Seal"
+          ]
+        },
+        "Shield": {
+          "value": "One-Eyed Shield",
+          "items": [
+            "One-Eyed Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Fire Knight Helm, Fire Knight Armor, Scaled Gauntlets, Scaled Greaves",
+          "items": [
+            "Fire Knight Helm",
+            "Fire Knight Armor",
+            "Scaled Gauntlets",
+            "Scaled Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Talisman of the Dread, Shard of Alexander, Fire Scorpion Charm",
+          "items": [
+            "Talisman of the Dread",
+            "Shard of Alexander",
+            "Fire Scorpion Charm"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Rotten Winged Sword Insignia, Two-Headed Turtle Talisman",
+          "items": [
+            "Rotten Winged Sword Insignia",
+            "Two-Headed Turtle Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Vigor",
+          "items": [
+            "Strength",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind, Dexterity",
+          "items": [
+            "Endurance",
+            "Mind",
+            "Dexterity"
+          ]
+        },
+        "Skills": {
+          "value": "Magma Shower, Flame Spit",
+          "items": [
+            "Magma Shower",
+            "Flame Spit"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Oil-Soaked Tear, Flame Shrouded Cracked Tear",
+          "items": [
+            "Oil-Soaked Tear",
+            "Flame Shrouded Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune, or Godrick's Great Rune",
+          "items": [
+            "Radahn's Great Rune",
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "blackguard",
+      "buildName": "Black Guard (All Game Build)",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Clinging Bone",
+          "items": [
+            "Clinging Bone"
+          ]
+        },
+        "Alternate Weapon": {
+          "value": "Marais Executioner's Sword or Regalia of Eochaid",
+          "items": [
+            "Marais Executioner's Sword",
+            "Regalia of Eochaid"
+          ]
+        },
+        "Shield": {
+          "value": "Scorpion Kite Shield or Jellyfish Shield",
+          "items": [
+            "Scorpion Kite Shield",
+            "Jellyfish Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Greathelm, Royal Remains Armor, Lionel's Gauntlets, Royal Remains Greaves",
+          "items": [
+            "Greathelm",
+            "Royal Remains Armor",
+            "Lionel's Gauntlets",
+            "Royal Remains Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Ritual Sword Talisman, Millicent's Prosthesis, Rotten Winged Sword Insignia or Winged Sword Insignia, Shard of Alexander or Warrior Jar Shard",
+          "items": [
+            "Ritual Sword Talisman",
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia",
+            "Winged Sword Insignia",
+            "Shard of Alexander",
+            "Warrior Jar Shard"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Axe Talisman, Magic Scorpion Charm, Dagger Talisman, Godfrey Icon",
+          "items": [
+            "Axe Talisman",
+            "Magic Scorpion Charm",
+            "Dagger Talisman",
+            "Godfrey Icon"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Arcane, Vigor",
+          "items": [
+            "Dexterity",
+            "Arcane",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind, Endurance",
+          "items": [
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Lifesteal Fist, Eochaid's Dancing Blade",
+          "items": [
+            "Lifesteal Fist",
+            "Eochaid's Dancing Blade"
+          ]
+        },
+        "Spells": {
+          "value": "Golden Vow, Flame Grant Me Strength",
+          "items": [
+            "Golden Vow",
+            "Flame Grant Me Strength"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Thorny Cracked Tear or Spiked Cracked Tear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Thorny Cracked Tear",
+            "Spiked Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "darkpaladin",
+      "buildName": "Dark Paladin",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Milady",
+          "items": [
+            "Milady"
+          ]
+        },
+        "Shield": {
+          "value": "Wolf Crest Shield",
+          "items": [
+            "Wolf Crest Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Solitude Set",
+          "items": [
+            "Solitude Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Millicent's Prosthesis, Rotten Winged Sword Insignia, Dragoncrest Greatshield Talisman, Great-Jar's Arsenal",
+          "items": [
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia",
+            "Dragoncrest Greatshield Talisman",
+            "Great-Jar's Arsenal"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Axe Talisman, Spear Talisman",
+          "items": [
+            "Axe Talisman",
+            "Spear Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Endurance, Vigor",
+          "items": [
+            "Dexterity",
+            "Endurance",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Mind",
+          "items": [
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Golden Vow, Cragblade",
+          "items": [
+            "Golden Vow",
+            "Cragblade"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Opaline Hardtear, Thorny Cracked Tear",
+          "items": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Morgott's Great Rune or Malenia's Great Rune",
+          "items": [
+            "Morgott's Great Rune",
+            "Malenia's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "criantwinblade",
+      "buildName": "Carian Twinblade",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Rellana's Twinblade, Golden Order Seal",
+          "items": [
+            "Rellana's Twinblade",
+            "Golden Order Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Rellana's Set",
+          "items": [
+            "Rellana's Set"
+          ]
+        },
+        "Talismans": {
+          "value": "Rellana's Cameo, Two-Headed Turtle Talisman, Dragoncrest Greatshield Talisman, Shard of Alexander",
+          "items": [
+            "Rellana's Cameo",
+            "Two-Headed Turtle Talisman",
+            "Dragoncrest Greatshield Talisman",
+            "Shard of Alexander"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Millicent's Prosthesis, Rotten Winged Sword Insignia",
+          "items": [
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Strength, Dexterity, Vigor",
+          "items": [
+            "Strength",
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Moon-and-Fire Stance",
+          "items": [
+            "Moon-and-Fire Stance"
+          ]
+        },
+        "Spells": {
+          "value": "N/A"
+        },
+        "Crystal Tear": {
+          "value": "Flame-Shrouding Cracked Tear or Magic-Shrouding Cracked Tear, Thorny Cracked Tear",
+          "items": [
+            "Flame-Shrouding Cracked Tear",
+            "Magic-Shrouding Cracked Tear",
+            "Thorny Cracked Tear"
+          ]
+        },
+        "Alternate Crystal Tears": {
+          "value": "Greenburst Crystal Tear",
+          "items": [
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune",
+          "items": [
+            "Godrick's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "pyromancerperfumer",
+      "buildName": "Pyromancer Perfumer",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Firespark Perfume Bottle, Golden Order Seal",
+          "items": [
+            "Firespark Perfume Bottle",
+            "Golden Order Seal"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "Perfumer Hood, Perfumer Robe, Perfumer Gloves",
+          "items": [
+            "Perfumer Hood",
+            "Perfumer Robe",
+            "Perfumer Gloves"
+          ]
+        },
+        "Talismans": {
+          "value": "Fire Scorpion Charm, Dragoncrest Greatshield Talisman, Perfumer's Talisman, Axe Talisman",
+          "items": [
+            "Fire Scorpion Charm",
+            "Dragoncrest Greatshield Talisman",
+            "Perfumer's Talisman",
+            "Axe Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Shard of Alexander, Axe Talisman",
+          "items": [
+            "Shard of Alexander",
+            "Axe Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind, Faith",
+          "items": [
+            "Endurance",
+            "Mind",
+            "Faith"
+          ]
+        },
+        "Skills": {
+          "value": "Quickstep or Bloodhound's Step",
+          "items": [
+            "Quickstep",
+            "Bloodhound's Step"
+          ]
+        },
+        "Alternate Skill": {
+          "value": "Rolling Sparks",
+          "items": [
+            "Rolling Sparks"
+          ]
+        },
+        "Spells": {
+          "value": "Flame Grant me Strength, Golden Vow",
+          "items": [
+            "Flame Grant me Strength",
+            "Golden Vow"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Flame-Shrouding Cracked Tear, Spiked Cracked Tear",
+          "items": [
+            "Flame-Shrouding Cracked Tear",
+            "Spiked Cracked Tear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Dexterity-Knot Crystal Tear, Greenburst Crystal Tear",
+          "items": [
+            "Dexterity-Knot Crystal Tear",
+            "Greenburst Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune or Morgott's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune",
+            "Morgott's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "starlinedsamurai",
+      "buildName": "Star-Lined Samurai",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Star-Lined Sword",
+          "items": [
+            "Star-Lined Sword"
+          ]
+        },
+        "Shield": {
+          "value": "Wolf Crest Shield",
+          "items": [
+            "Wolf Crest Shield"
+          ]
+        },
+        "Armor": {
+          "value": "Iron Kasa, Tree Surcoat, White Reed Gauntlets, White Reed Greaves",
+          "items": [
+            "Iron Kasa",
+            "Tree Surcoat",
+            "White Reed Gauntlets",
+            "White Reed Greaves"
+          ]
+        },
+        "Talismans": {
+          "value": "Bull-Goat's Talisman, Shard of Alexander, Two-Headed Turtle Talisman",
+          "items": [
+            "Bull-Goat's Talisman",
+            "Shard of Alexander",
+            "Two-Headed Turtle Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Crusade Insignia, Blade of Mercy, Curved Sword Talisman, Greatshield Talisman, Millicent's Prosthesis, Rotten Winged Sword Insignia",
+          "items": [
+            "Crusade Insignia",
+            "Blade of Mercy",
+            "Curved Sword Talisman",
+            "Greatshield Talisman",
+            "Millicent's Prosthesis",
+            "Rotten Winged Sword Insignia"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Endurance, Mind",
+          "items": [
+            "Endurance",
+            "Mind"
+          ]
+        },
+        "Skills": {
+          "value": "Onze's Line of Stars",
+          "items": [
+            "Onze's Line of Stars"
+          ]
+        },
+        "Alternate Skills": {
+          "value": "Carian Retaliation (Skill), Barricade Shield",
+          "items": [
+            "Carian Retaliation (Skill)",
+            "Barricade Shield"
+          ]
+        },
+        "Spells": {
+          "value": "Scholar's Shield",
+          "items": [
+            "Scholar's Shield"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Greenburst Crystal Tear, Deflecting Hardtear",
+          "items": [
+            "Greenburst Crystal Tear",
+            "Deflecting Hardtear"
+          ]
+        },
+        "Alternate Crystal Tear": {
+          "value": "Opaline Hardtear",
+          "items": [
+            "Opaline Hardtear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "stormarrow",
+      "buildName": "Storm Arrow",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Ansbach's Longbow, Albinauric Bow",
+          "items": [
+            "Ansbach's Longbow",
+            "Albinauric Bow"
+          ]
+        },
+        "Arrows": {
+          "value": "Arrow and Stormwing Bone Arrow",
+          "items": [
+            "Arrow",
+            "Stormwing Bone Arrow"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "N/A - Uses Lamenter's Mask",
+          "items": [
+            "Lamenter's Mask"
+          ]
+        },
+        "Talismans": {
+          "value": "Blue Dancer Charm, Arrow's Sting Talisman, Arrow's Soaring Sting Talisman, Shard of Alexander",
+          "items": [
+            "Blue Dancer Charm",
+            "Arrow's Sting Talisman",
+            "Arrow's Soaring Sting Talisman",
+            "Shard of Alexander"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Crusade Insignia, Ritual Sword Talisman",
+          "items": [
+            "Crusade Insignia",
+            "Ritual Sword Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Dexterity, Vigor",
+          "items": [
+            "Dexterity",
+            "Vigor"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Strength, Mind, Endurance",
+          "items": [
+            "Strength",
+            "Mind",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Fan Shot, Mighty Shot",
+          "items": [
+            "Fan Shot",
+            "Mighty Shot"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Bloodsucking Cracked Tear, Crimsonburst Crystal Tear",
+          "items": [
+            "Bloodsucking Cracked Tear",
+            "Crimsonburst Crystal Tear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Radahn's Great Rune",
+          "items": [
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    },
+    {
+      "buildId": "dragongod",
+      "buildName": "Dragon God",
+      "fields": {
+        "Class": {
+          "value": "Any"
+        },
+        "Flask Spread": {
+          "value": "Equal Charges"
+        },
+        "Main Weapon": {
+          "value": "Dragon Communion Seal, Bloodfiend's Fork",
+          "items": [
+            "Dragon Communion Seal",
+            "Bloodfiend's Fork"
+          ]
+        },
+        "Item/s": {
+          "value": "Rock Heart",
+          "items": [
+            "Rock Heart"
+          ]
+        },
+        "Shield": {
+          "value": "N/A"
+        },
+        "Armor": {
+          "value": "N/A"
+        },
+        "Talismans": {
+          "value": "Blue Dancer Charm, Crusade Insignia, Dragoncrest Greatshield Talisman",
+          "items": [
+            "Blue Dancer Charm",
+            "Crusade Insignia",
+            "Dragoncrest Greatshield Talisman"
+          ]
+        },
+        "Alternate Talismans": {
+          "value": "Blessed Blue Dew Talisman, Roar Medallion, Flock's Canvas Talisman",
+          "items": [
+            "Blessed Blue Dew Talisman",
+            "Roar Medallion",
+            "Flock's Canvas Talisman"
+          ]
+        },
+        "Primary Stats": {
+          "value": "Arcane, Vigor, Mind",
+          "items": [
+            "Arcane",
+            "Vigor",
+            "Mind"
+          ]
+        },
+        "Secondary Stats": {
+          "value": "Faith, Endurance",
+          "items": [
+            "Faith",
+            "Endurance"
+          ]
+        },
+        "Skills": {
+          "value": "Sword Dance or Braggart's Roar",
+          "items": [
+            "Sword Dance",
+            "Braggart's Roar"
+          ]
+        },
+        "Primary Spells": {
+          "value": "Golden Vow, Flame Grant me Strength, Ekzyke's Decay, Rotten Breath, Dragonmaw",
+          "items": [
+            "Golden Vow",
+            "Flame Grant me Strength",
+            "Ekzyke's Decay",
+            "Rotten Breath",
+            "Dragonmaw"
+          ]
+        },
+        "Alternate Spells": {
+          "value": "Bayle's Flame Lightning, Ghostflame Breath, Bayle's Tyranny",
+          "items": [
+            "Bayle's Flame Lightning",
+            "Ghostflame Breath",
+            "Bayle's Tyranny"
+          ]
+        },
+        "Crystal Tear": {
+          "value": "Opaline Hardtear, Opaline Bubbletear",
+          "items": [
+            "Opaline Hardtear",
+            "Opaline Bubbletear"
+          ]
+        },
+        "Great Runes": {
+          "value": "Godrick's Great Rune or Radahn's Great Rune",
+          "items": [
+            "Godrick's Great Rune",
+            "Radahn's Great Rune"
+          ]
+        }
+      }
+    }
+  ]
+}
