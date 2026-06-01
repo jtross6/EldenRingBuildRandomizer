@@ -1,350 +1,2683 @@
 [
   {
-    "name": "Ash of War Aspect of the Crucible: Wings"
+    "name": "Ash of War Aspect of the Crucible: Wings",
+    "defaultAffinity": "Sacred"
   },
   {
-    "name": "Ash of War Blind Spot"
+    "name": "Ash of War Blind Spot",
+    "defaultAffinity": "Keen"
   },
   {
-    "name": "Ash of War Blinkbolt"
+    "name": "Ash of War Blinkbolt",
+    "defaultAffinity": "Lightning"
   },
   {
-    "name": "Ash of War Carian Sovereignty"
+    "name": "Ash of War Carian Sovereignty",
+    "defaultAffinity": "Magic"
   },
   {
-    "name": "Ash of War Divine Beast Frost Stomp"
+    "name": "Ash of War Divine Beast Frost Stomp",
+    "defaultAffinity": "Cold"
   },
   {
-    "name": "Ash of War Dryleaf Whirlwind"
+    "name": "Ash of War Dryleaf Whirlwind",
+    "defaultAffinity": "Standard"
   },
   {
-    "name": "Ash of War Flame Skewer"
+    "name": "Ash of War Flame Skewer",
+    "defaultAffinity": "Flame Art"
   },
   {
-    "name": "Ash of War Flame Spear"
+    "name": "Ash of War Flame Spear",
+    "defaultAffinity": "Flame Art"
   },
   {
-    "name": "Ash of War Ghostflame Call"
+    "name": "Ash of War Ghostflame Call",
+    "defaultAffinity": "Cold"
   },
   {
-    "name": "Ash of War Igon's Drake Hunt"
+    "name": "Ash of War Igon's Drake Hunt",
+    "defaultAffinity": "Standard"
   },
   {
-    "name": "Ash of War Overhead Stance"
+    "name": "Ash of War Overhead Stance",
+    "defaultAffinity": "Keen"
   },
   {
-    "name": "Ash of War Palm Blast"
+    "name": "Ash of War Palm Blast",
+    "defaultAffinity": "Standard"
   },
   {
-    "name": "Ash of War Piercing Throw"
+    "name": "Ash of War Piercing Throw",
+    "defaultAffinity": "Keen"
   },
   {
-    "name": "Ash of War Raging Beasts"
+    "name": "Ash of War Raging Beasts",
+    "defaultAffinity": "Keen"
   },
   {
-    "name": "Ash of War Rolling Sparks"
+    "name": "Ash of War Rolling Sparks",
+    "defaultAffinity": "Standard"
   },
   {
-    "name": "Ash of War Savage Claws"
+    "name": "Ash of War Savage Claws",
+    "defaultAffinity": "Keen"
   },
   {
-    "name": "Ash of War Savage Lion's Claw"
+    "name": "Ash of War Savage Lion's Claw",
+    "defaultAffinity": "Heavy"
   },
   {
-    "name": "Ash of War Scattershot Throw"
+    "name": "Ash of War Scattershot Throw",
+    "defaultAffinity": "Keen"
   },
   {
-    "name": "Ash of War Shield Strike"
+    "name": "Ash of War Shield Strike",
+    "defaultAffinity": "Standard"
   },
   {
-    "name": "Ash of War Shriek of Sorrow"
+    "name": "Ash of War Shriek of Sorrow",
+    "defaultAffinity": "Occult"
   },
   {
-    "name": "Ash of War Spinning Gravity Thrust"
+    "name": "Ash of War Spinning Gravity Thrust",
+    "defaultAffinity": "Heavy"
   },
   {
-    "name": "Ash of War Swift Slash"
+    "name": "Ash of War Swift Slash",
+    "defaultAffinity": "Keen"
   },
   {
-    "name": "Ash of War The Poison Flower Blooms Twice"
+    "name": "Ash of War The Poison Flower Blooms Twice",
+    "defaultAffinity": "Poison"
   },
   {
-    "name": "Ash of War Wall of Sparks"
+    "name": "Ash of War Wall of Sparks",
+    "defaultAffinity": "Standard"
   },
   {
-    "name": "Ash of War Wing Stance"
+    "name": "Ash of War Wing Stance",
+    "defaultAffinity": "Quality"
   },
   {
-    "name": "Ash of War: Assassin's Gambit"
-  },
-  {
-    "name": "Ash of War: Barbaric Roar"
-  },
-  {
-    "name": "Ash of War: Barrage"
-  },
-  {
-    "name": "Ash of War: Barricade Shield"
-  },
-  {
-    "name": "Ash of War: Beast's Roar"
-  },
-  {
-    "name": "Ash of War: Black Flame Tornado"
-  },
-  {
-    "name": "Ash of War: Blood Blade"
-  },
-  {
-    "name": "Ash of War: Blood Tax"
-  },
-  {
-    "name": "Ash of War: Bloodhound's Step"
-  },
-  {
-    "name": "Ash of War: Bloody Slash"
-  },
-  {
-    "name": "Ash of War: Braggart's Roar"
-  },
-  {
-    "name": "Ash of War: Carian Grandeur"
-  },
-  {
-    "name": "Ash of War: Carian Greatsword"
-  },
-  {
-    "name": "Ash of War: Carian Retaliation"
-  },
-  {
-    "name": "Ash of War: Charge Forth"
-  },
-  {
-    "name": "Ash of War: Chilling Mist"
-  },
-  {
-    "name": "Ash of War: Cragblade"
-  },
-  {
-    "name": "Ash of War: Determination"
-  },
-  {
-    "name": "Ash of War: Double Slash"
-  },
-  {
-    "name": "Ash of War: Earthshaker"
-  },
-  {
-    "name": "Ash of War: Enchanted Shot"
-  },
-  {
-    "name": "Ash of War: Endure"
-  },
-  {
-    "name": "Ash of War: Eruption"
-  },
-  {
-    "name": "Ash of War: Flame of the Redmanes"
-  },
-  {
-    "name": "Ash of War: Flaming Strike"
-  },
-  {
-    "name": "Ash of War: Giant Hunt"
-  },
-  {
-    "name": "Ash of War: Glintblade Phalanx"
-  },
-  {
-    "name": "Ash of War: Glintstone Pebble"
-  },
-  {
-    "name": "Ash of War: Golden Land"
-  },
-  {
-    "name": "Ash of War: Golden Parry"
-  },
-  {
-    "name": "Ash of War: Golden Slam"
-  },
-  {
-    "name": "Ash of War: Golden Vow"
-  },
-  {
-    "name": "Ash of War: Gravitas"
-  },
-  {
-    "name": "Ash of War: Ground Slam"
-  },
-  {
-    "name": "Ash of War: Hoarah Loux's Earthshaker"
-  },
-  {
-    "name": "Ash of War: Hoarfrost Stomp"
-  },
-  {
-    "name": "Ash of War: Holy Ground"
-  },
-  {
-    "name": "Ash of War: Ice Spear"
-  },
-  {
-    "name": "Ash of War: Impaling Thrust"
-  },
-  {
-    "name": "Ash of War: Kick"
-  },
-  {
-    "name": "Ash of War: Lifesteal Fist"
-  },
-  {
-    "name": "Ash of War: Lightning Ram"
-  },
-  {
-    "name": "Ash of War: Lightning Slash"
-  },
-  {
-    "name": "Ash of War: Lion's Claw"
-  },
-  {
-    "name": "Ash of War: Loretta's Slash"
-  },
-  {
-    "name": "Ash of War: Mighty Shot"
-  },
-  {
-    "name": "Ash of War: No Skill"
-  },
-  {
-    "name": "Ash of War: Parry"
-  },
-  {
-    "name": "Ash of War: Phantom Slash"
-  },
-  {
-    "name": "Ash of War: Piercing Fang"
-  },
-  {
-    "name": "Ash of War: Poison Moth Flight"
-  },
-  {
-    "name": "Ash of War: Poisonous Mist"
-  },
-  {
-    "name": "Ash of War: Prayerful Strike"
-  },
-  {
-    "name": "Ash of War: Prelate's Charge"
-  },
-  {
-    "name": "Ash of War: Quickstep"
-  },
-  {
-    "name": "Ash of War: Rain of Arrows"
-  },
-  {
-    "name": "Ash of War: Raptor of the Mists"
-  },
-  {
-    "name": "Ash of War: Repeating Thrust"
-  },
-  {
-    "name": "Ash of War: Royal Knight's Resolve"
-  },
-  {
-    "name": "Ash of War: Sacred Blade"
-  },
-  {
-    "name": "Ash of War: Sacred Order"
-  },
-  {
-    "name": "Ash of War: Sacred Ring of Light"
-  },
-  {
-    "name": "Ash of War: Seppuku"
-  },
-  {
-    "name": "Ash of War: Shared Order"
-  },
-  {
-    "name": "Ash of War: Shield Bash"
-  },
-  {
-    "name": "Ash of War: Shield Crash"
-  },
-  {
-    "name": "Ash of War: Sky Shot"
-  },
-  {
-    "name": "Ash of War: Spectral Lance"
-  },
-  {
-    "name": "Ash of War: Spinning Slash"
-  },
-  {
-    "name": "Ash of War: Spinning Strikes"
-  },
-  {
-    "name": "Ash of War: Spinning Weapon"
-  },
-  {
-    "name": "Ash of War: Square Off"
-  },
-  {
-    "name": "Ash of War: Stamp (Sweep)"
-  },
-  {
-    "name": "Ash of War: Stamp (Upward Cut)"
-  },
-  {
-    "name": "Ash of War: Storm Assault"
-  },
-  {
-    "name": "Ash of War: Storm Blade"
-  },
-  {
-    "name": "Ash of War: Storm Stomp"
-  },
-  {
-    "name": "Ash of War: Storm Wall"
-  },
-  {
-    "name": "Ash of War: Stormcaller"
-  },
-  {
-    "name": "Ash of War: Sword Dance"
-  },
-  {
-    "name": "Ash of War: Thops's Barrier"
-  },
-  {
-    "name": "Ash of War: Through and Through"
-  },
-  {
-    "name": "Ash of War: Thunderbolt"
-  },
-  {
-    "name": "Ash of War: Troll's Roar"
-  },
-  {
-    "name": "Ash of War: Unsheathe"
-  },
-  {
-    "name": "Ash of War: Vacuum Slice"
-  },
-  {
-    "name": "Ash of War: Vow of the Indomitable"
-  },
-  {
-    "name": "Ash of War: War Cry"
-  },
-  {
-    "name": "Ash of War: Waves of Darkness"
-  },
-  {
-    "name": "Ash of War: White Shadow's Lure"
-  },
-  {
-    "name": "Ash of War: Wild Strikes"
+    "name": "Ash of War: Assassin's Gambit",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword"
+    ],
+    "defaultAffinity": "Occult",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Barbaric Roar",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Barrage",
+    "armamentCategories": [
+      "Light Bow"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ash of War: Barricade Shield",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Beast's Roar",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Black Flame Tornado",
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Flame Art",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
+  },
+  {
+    "name": "Ash of War: Blood Blade",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Curved Sword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword"
+    ],
+    "defaultAffinity": "Blood",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Blood Tax",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Blood",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Bloodhound's Step",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Bloody Slash",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword"
+    ],
+    "defaultAffinity": "Blood",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Braggart's Roar",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Carian Grandeur",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Carian Greatsword",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Carian Retaliation",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Charge Forth",
+    "armamentCategories": [
+      "Twinblade",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Chilling Mist",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Cold",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Cragblade",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Determination",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Double Slash",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Earthshaker",
+    "armamentCategories": [
+      "Colossal Sword",
+      "Greataxe",
+      "Great Hammer",
+      "Great Spear",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Enchanted Shot",
+    "armamentCategories": [
+      "Light Bow",
+      "Bow"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ash of War: Endure",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Eruption",
+    "armamentCategories": [
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Greatsword",
+      "Heavy Thrusting Sword",
+      "Greataxe",
+      "Great Hammer",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Fire",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
+  },
+  {
+    "name": "Ash of War: Flame of the Redmanes",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Fire",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
+  },
+  {
+    "name": "Ash of War: Flaming Strike",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw"
+    ],
+    "defaultAffinity": "Fire",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
+  },
+  {
+    "name": "Ash of War: Giant Hunt",
+    "armamentCategories": [
+      "Greatsword",
+      "Colossal Sword",
+      "Twinblade",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Glintblade Phalanx",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Glintstone Pebble",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Golden Land",
+    "armamentCategories": [
+      "Colossal Sword",
+      "Greataxe",
+      "Great Hammer",
+      "Great Spear",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Golden Parry",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Golden Slam",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Golden Vow",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Gravitas",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Ground Slam",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Hoarah Loux's Earthshaker",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Hoarfrost Stomp",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Cold",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Holy Ground",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Ice Spear",
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Cold",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Impaling Thrust",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Claw"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Kick",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Lifesteal Fist",
+    "armamentCategories": [
+      "Fist",
+      "Claw"
+    ],
+    "defaultAffinity": "Occult",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Lightning Ram",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Lightning",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Lightning Slash",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Lightning",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Lion's Claw",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Loretta's Slash",
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Mighty Shot",
+    "armamentCategories": [
+      "Light Bow",
+      "Bow"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ash of War: No Skill",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield",
+      "Torch"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Parry",
+    "armamentCategories": [
+      "Dagger",
+      "Curved Sword",
+      "Thrusting Sword",
+      "Fist",
+      "Claw",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Phantom Slash",
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Piercing Fang",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Poison Moth Flight",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Curved Sword",
+      "Katana",
+      "Thrusting Sword"
+    ],
+    "defaultAffinity": "Poison",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Poisonous Mist",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Poison",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Prayerful Strike",
+    "armamentCategories": [
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Prelate's Charge",
+    "armamentCategories": [
+      "Greataxe",
+      "Great Hammer",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Flame Art",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
+  },
+  {
+    "name": "Ash of War: Quickstep",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Rain of Arrows",
+    "armamentCategories": [
+      "Light Bow",
+      "Bow",
+      "Greatbow"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ash of War: Raptor of the Mists",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Repeating Thrust",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Royal Knight's Resolve",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Sacred Blade",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Sacred Order",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Sacred Ring of Light",
+    "armamentCategories": [
+      "Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Seppuku",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Blood",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Shared Order",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Shield Bash",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Shield Crash",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Sky Shot",
+    "armamentCategories": [
+      "Light Bow",
+      "Bow"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ash of War: Spectral Lance",
+    "armamentCategories": [
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Occult",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Spinning Slash",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Axe",
+      "Greataxe",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Spinning Strikes",
+    "armamentCategories": [
+      "Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Spinning Weapon",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Curved Sword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Axe",
+      "Hammer",
+      "Flail",
+      "Spear",
+      "Halberd",
+      "Reaper",
+      "Glintstone Staff"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Square Off",
+    "armamentCategories": [
+      "Straight Sword"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Stamp (Sweep)",
+    "armamentCategories": [
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Greatsword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Stamp (Upward Cut)",
+    "armamentCategories": [
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Greatsword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Storm Assault",
+    "armamentCategories": [
+      "Twinblade",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Storm Blade",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Storm Stomp",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Storm Wall",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Stormcaller",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Sword Dance",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Axe",
+      "Greataxe",
+      "Spear",
+      "Halberd",
+      "Reaper"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Thops's Barrier",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: Through and Through",
+    "armamentCategories": [
+      "Greatbow"
+    ],
+    "defaultAffinity": "Standard",
+    "possibleAffinities": [
+      "Standard"
+    ]
+  },
+  {
+    "name": "Ash of War: Thunderbolt",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Lightning",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: Troll's Roar",
+    "armamentCategories": [
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Greatsword",
+      "Heavy Thrusting Sword",
+      "Greataxe",
+      "Great Hammer",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Unsheathe",
+    "armamentCategories": [
+      "Katana"
+    ],
+    "defaultAffinity": "Keen",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Vacuum Slice",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe"
+    ],
+    "defaultAffinity": "Quality",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Vow of the Indomitable",
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
+    "defaultAffinity": "Sacred",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
+  },
+  {
+    "name": "Ash of War: War Cry",
+    "armamentCategories": [
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Waves of Darkness",
+    "armamentCategories": [
+      "Colossal Sword",
+      "Greataxe",
+      "Great Hammer",
+      "Great Spear",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Magic",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
+  },
+  {
+    "name": "Ash of War: White Shadow's Lure",
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Greatsword",
+      "Colossal Sword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword",
+      "Heavy Thrusting Sword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper",
+      "Fist",
+      "Claw",
+      "Whip",
+      "Colossal Weapon"
+    ],
+    "defaultAffinity": "Occult",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
+  },
+  {
+    "name": "Ash of War: Wild Strikes",
+    "armamentCategories": [
+      "Greatsword",
+      "Curved Sword",
+      "Curved Greatsword",
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail"
+    ],
+    "defaultAffinity": "Heavy",
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art",
+      "Lightning",
+      "Sacred",
+      "Magic",
+      "Cold",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   }
 ]

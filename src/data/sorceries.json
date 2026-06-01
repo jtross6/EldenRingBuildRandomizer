@@ -2,421 +2,687 @@
   {
     "name": "Adula's Moonblade",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 32
+    }
   },
   {
     "name": "Ambush Shard",
     "fpCost": 13,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 23
+    }
   },
   {
     "name": "Ancient Death Rancor",
     "fpCost": 21,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 34,
+      "faith": 24
+    }
   },
   {
     "name": "Blades of Stone",
     "fpCost": 18,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 48
+    }
   },
   {
     "name": "Briars of Punishment",
     "fpCost": 9,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 21
+    }
   },
   {
     "name": "Briars of Sin",
     "fpCost": 6,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Cannon of Haima",
     "fpCost": 38,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 25
+    }
   },
   {
     "name": "Carian Greatsword",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 24
+    }
   },
   {
     "name": "Carian Phalanx",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 34
+    }
   },
   {
     "name": "Carian Piercer",
     "fpCost": 17,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 27
+    }
   },
   {
     "name": "Carian Retaliation",
     "fpCost": 8,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 17
+    }
   },
   {
     "name": "Carian Slicer",
     "fpCost": 4,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 14
+    }
   },
   {
     "name": "Cherishing Fingers",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
   },
   {
     "name": "Collapsing Stars",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
   },
   {
     "name": "Comet",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 52
+    }
   },
   {
     "name": "Comet Azur",
     "fpCost": 40,
-    "slotsUsed": 3
+    "slotsUsed": 3,
+    "requirements": {
+      "intelligence": 60
+    }
   },
   {
     "name": "Crystal Barrage",
     "fpCost": 14,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 23
+    }
   },
   {
     "name": "Crystal Burst",
     "fpCost": 14,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 18
+    }
   },
   {
     "name": "Crystal Release",
     "fpCost": 34,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 41
+    }
   },
   {
     "name": "Crystal Torrent",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 47
+    }
   },
   {
     "name": "Eternal Darkness",
     "fpCost": 25,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 35
+    }
   },
   {
     "name": "Explosive Ghostflame",
     "fpCost": 29,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 42,
+      "faith": 30
+    }
   },
   {
     "name": "Fia's Mist",
     "fpCost": 25,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 23,
+      "faith": 18
+    }
   },
   {
     "name": "Fleeting Microcosm",
     "fpCost": 26,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 42
+    }
   },
   {
     "name": "Founding Rain of Stars",
     "fpCost": 27,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 52
+    }
   },
   {
     "name": "Freezing Mist",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 21
+    }
   },
   {
     "name": "Frozen Armament",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 15
+    }
   },
   {
     "name": "Gavel of Haima",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 25
+    }
   },
   {
     "name": "Gelmir's Fury",
     "fpCost": 16,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28,
+      "faith": 15
+    }
   },
   {
     "name": "Glintblade Phalanx",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 22
+    }
   },
   {
     "name": "Glintblade Trio",
     "fpCost": 19,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28
+    }
   },
   {
     "name": "Glintstone Arc",
     "fpCost": 9,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 13
+    }
   },
   {
     "name": "Glintstone Cometshard",
     "fpCost": 17,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
   },
   {
     "name": "Glintstone Icecrag",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 15
+    }
   },
   {
     "name": "Glintstone Nail",
     "fpCost": 10,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 18
+    }
   },
   {
     "name": "Glintstone Nails",
     "fpCost": 23,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 32
+    }
   },
   {
     "name": "Glintstone Pebble",
     "fpCost": 7,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 10
+    }
   },
   {
     "name": "Glintstone Stars",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 12
+    }
   },
   {
     "name": "Gravitational Missile",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
   },
   {
     "name": "Gravity Well",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 17
+    }
   },
   {
     "name": "Great Glintstone Shard",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 16
+    }
   },
   {
     "name": "Great Oracular Bubble",
     "fpCost": 16,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 25,
+      "arcane": 18
+    }
   },
   {
     "name": "Greatblade Phalanx",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 29
+    }
   },
   {
     "name": "Impenetrable Thorns",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Loretta's Greatbow",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 26
+    }
   },
   {
     "name": "Loretta's Mastery",
     "fpCost": 39,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 46
+    }
   },
   {
     "name": "Lucidity",
     "fpCost": 10,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 17
+    }
   },
   {
     "name": "Magic Downpour",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 15
+    }
   },
   {
     "name": "Magic Glintblade",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 14
+    }
   },
   {
     "name": "Magma Shot",
     "fpCost": 16,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 19,
+      "faith": 10
+    }
   },
   {
     "name": "Mantle of Thorns",
     "fpCost": 9,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 20
+    }
   },
   {
     "name": "Mass of Putrescence",
     "fpCost": 41,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28,
+      "faith": 22
+    }
   },
   {
     "name": "Meteorite",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 30
+    }
   },
   {
     "name": "Meteorite of Astel",
     "fpCost": 60,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 55
+    }
   },
   {
     "name": "Miriam's Vanashing",
     "fpCost": 9,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 26
+    }
   },
   {
     "name": "Night Comet",
     "fpCost": 21,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 38
+    }
   },
   {
     "name": "Night Maiden's Mist",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 14
+    }
   },
   {
     "name": "Night Shard",
     "fpCost": 7,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 18
+    }
   },
   {
     "name": "Oracle Bubbles",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 19,
+      "arcane": 15
+    }
   },
   {
     "name": "Rancorcall",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 16,
+      "faith": 14
+    }
   },
   {
     "name": "Ranni's Dark Moon",
     "fpCost": 57,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 68
+    }
   },
   {
     "name": "Rellana's Twin Moons",
     "fpCost": 47,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 72
+    }
   },
   {
     "name": "Rennala's Full Moon",
     "fpCost": 47,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 70
+    }
   },
   {
     "name": "Rings of Spectral Light",
     "fpCost": 14,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 24,
+      "faith": 18
+    }
   },
   {
     "name": "Rock Blaster",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 21
+    }
   },
   {
     "name": "Rock Sling",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 18
+    }
   },
   {
     "name": "Roiling Magma",
     "fpCost": 28,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 21,
+      "faith": 12
+    }
   },
   {
     "name": "Rykard's Rancor",
     "fpCost": 23,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 40,
+      "faith": 18
+    }
   },
   {
     "name": "Scholar's Armament",
     "fpCost": 25,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 12
+    }
   },
   {
     "name": "Scholar's Shield",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 12
+    }
   },
   {
     "name": "Shard Spiral",
     "fpCost": 14,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 27
+    }
   },
   {
     "name": "Shatter Earth",
     "fpCost": 10,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 15
+    }
   },
   {
     "name": "Shattering Crystal",
     "fpCost": 21,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 38
+    }
   },
   {
     "name": "Star Shower",
     "fpCost": 23,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 24
+    }
   },
   {
     "name": "Starlight",
     "fpCost": 9,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 15
+    }
   },
   {
     "name": "Stars of Ruin",
     "fpCost": 32,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 43
+    }
   },
   {
     "name": "Swift Glintstone Shard",
     "fpCost": 5,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 12
+    }
   },
   {
     "name": "Terra Magica",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 20
+    }
   },
   {
     "name": "Thops's Barrier",
     "fpCost": 7,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 18
+    }
   },
   {
     "name": "Tibia's Summons",
     "fpCost": 17,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 28,
+      "faith": 20
+    }
   },
   {
     "name": "Unseen Blade",
     "fpCost": 13,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 12
+    }
   },
   {
     "name": "Unseen Form",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 16
+    }
   },
   {
     "name": "Vortex of Putrescence",
     "fpCost": 29,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "intelligence": 32,
+      "faith": 26
+    }
   },
   {
     "name": "Zamor Ice Storm",
     "fpCost": 17,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 36
+    }
   }
 ]

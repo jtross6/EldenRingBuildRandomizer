@@ -46,8 +46,12 @@ export interface Spell {
   name: string;
   fpCost: number;
   slotsUsed: number;
+  requirements?: Record<string, number>;
 }
 
 export interface AshOfWar {
   name: string;
+  armamentCategories?: string[];
+  defaultAffinity?: string;
+  possibleAffinities?: string[];
 }

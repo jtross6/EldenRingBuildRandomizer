@@ -2,646 +2,1059 @@
   {
     "name": "Agheel's Flame",
     "fpCost": 36,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
   },
   {
     "name": "Ancient Dragons' Lightning Spear",
     "fpCost": 25,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 32
+    }
   },
   {
     "name": "Ancient Dragons' Lightning Strike",
     "fpCost": 36,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 26
+    }
   },
   {
     "name": "Aspects of the Crucible: Bloom",
     "fpCost": 23,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
   },
   {
     "name": "Aspects of the Crucible: Breath",
     "fpCost": 28,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
   },
   {
     "name": "Aspects of the Crucible: Horns",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
   },
   {
     "name": "Aspects of the Crucible: Tail",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
   },
   {
     "name": "Aspects of the Crucible: Thorns",
     "fpCost": 14,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
   },
   {
     "name": "Assassin's Approach",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Barrier of Gold",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Bayle's Flame Lightning",
     "fpCost": 43,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "arcane": 53
+    }
   },
   {
     "name": "Bayle's Tyranny",
     "fpCost": 46,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "arcane": 49
+    }
   },
   {
     "name": "Beast Claw",
     "fpCost": 10,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 8
+    }
   },
   {
     "name": "Bestial Constitution",
     "fpCost": 10,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 9
+    }
   },
   {
     "name": "Bestial Sling",
     "fpCost": 7,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Bestial Vitality",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 12
+    }
   },
   {
     "name": "Black Blade",
     "fpCost": 26,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 46
+    }
   },
   {
     "name": "Black Flame",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 20
+    }
   },
   {
     "name": "Black Flame Blade",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 17
+    }
   },
   {
     "name": "Black Flame Ritual",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 42
+    }
   },
   {
     "name": "Black Flame's Protection",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 30
+    }
   },
   {
     "name": "Blessing of the Erdtree",
     "fpCost": 60,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 38
+    }
   },
   {
     "name": "Blessing's Boon",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Bloodboon",
     "fpCost": 13,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 14,
+      "arcane": 17
+    }
   },
   {
     "name": "Bloodflame Blade",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 12,
+      "arcane": 10
+    }
   },
   {
     "name": "Bloodflame Talons",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 13,
+      "arcane": 15
+    }
   },
   {
     "name": "Borealis's Mist",
     "fpCost": 48,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
   },
   {
     "name": "Burn, O Flame!",
     "fpCost": 26,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
   },
   {
     "name": "Catch Flame",
     "fpCost": 10,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 8
+    }
   },
   {
     "name": "Cure Poison",
     "fpCost": 7,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Darkness",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 18
+    }
   },
   {
     "name": "Death Lightning",
     "fpCost": 28,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 47
+    }
   },
   {
     "name": "Discus of Light",
     "fpCost": 3,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 13,
+      "faith": 13
+    }
   },
   {
     "name": "Divine Beast Tornado",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 28
+    }
   },
   {
     "name": "Divine Bird Feathers",
     "fpCost": 3,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Divine Fortification",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Dragonbolt Blessing",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 21
+    }
   },
   {
     "name": "Dragonbolt of Florissax",
     "fpCost": 35,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 52
+    }
   },
   {
     "name": "Dragonclaw",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 17,
+      "arcane": 13
+    }
   },
   {
     "name": "Dragonfire",
     "fpCost": 28,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
   },
   {
     "name": "Dragonice",
     "fpCost": 36,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
   },
   {
     "name": "Dragonmaw",
     "fpCost": 34,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24,
+      "arcane": 16
+    }
   },
   {
     "name": "Ekzykes's Decay",
     "fpCost": 48,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
   },
   {
     "name": "Elden Stars",
     "fpCost": 41,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 50
+    }
   },
   {
     "name": "Electrify Armament",
     "fpCost": 27,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15
+    }
   },
   {
     "name": "Electrocharge",
     "fpCost": 26,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 30
+    }
   },
   {
     "name": "Erdtree Heal",
     "fpCost": 65,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 42
+    }
   },
   {
     "name": "Fire Serpent",
     "fpCost": 11,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 16
+    }
   },
   {
     "name": "Fire's Deadly Sin",
     "fpCost": 26,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 19
+    }
   },
   {
     "name": "Flame Fortification",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Flame of the Fell God",
     "fpCost": 34,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 41
+    }
   },
   {
     "name": "Flame Sling",
     "fpCost": 11,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Flame, Cleanse Me",
     "fpCost": 14,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 12
+    }
   },
   {
     "name": "Flame, Fall Upon Them",
     "fpCost": 16,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 28
+    }
   },
   {
     "name": "Flame, Grant Me Strength",
     "fpCost": 28,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15
+    }
   },
   {
     "name": "Flame, Protect Me",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Fortissax's Lightning Spear",
     "fpCost": 35,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 46
+    }
   },
   {
     "name": "Frenzied Burst",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 22
+    }
   },
   {
     "name": "Frozen Lightning Spear",
     "fpCost": 29,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 34
+    }
   },
   {
     "name": "Furious Blade of Ansbach",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 19,
+      "arcane": 27
+    }
   },
   {
     "name": "Ghostflame Breath",
     "fpCost": 36,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
   },
   {
     "name": "Giant Golden Arc",
     "fpCost": 24,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 34
+    }
   },
   {
     "name": "Giantsflame Take Thee",
     "fpCost": 30,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 30
+    }
   },
   {
     "name": "Glintstone Breath",
     "fpCost": 28,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
   },
   {
     "name": "Golden Arcs",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 22
+    }
   },
   {
     "name": "Golden Lightning Fortification",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Golden Vow",
     "fpCost": 47,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 25
+    }
   },
   {
     "name": "Great Heal",
     "fpCost": 45,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15
+    }
   },
   {
     "name": "Greyoll's Roar",
     "fpCost": 50,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 28,
+      "arcane": 17
+    }
   },
   {
     "name": "Gurranq's Beast Claw",
     "fpCost": 21,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15
+    }
   },
   {
     "name": "Heal",
     "fpCost": 32,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 12
+    }
   },
   {
     "name": "Heal from Afar",
     "fpCost": 45,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 18
+    }
   },
   {
     "name": "Honed Bolt",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 24
+    }
   },
   {
     "name": "Howl of Shabriri",
     "fpCost": 21,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 33
+    }
   },
   {
     "name": "Immutable Shield",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 19,
+      "faith": 19
+    }
   },
   {
     "name": "Inescapable Frenzy",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 21
+    }
   },
   {
     "name": "Knight's Lightning Spear",
     "fpCost": 29,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 36
+    }
   },
   {
     "name": "Land of Shadow",
     "fpCost": 40,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 58
+    }
   },
   {
     "name": "Lansseax's Glaive",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 40
+    }
   },
   {
     "name": "Law of Causality",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 29
+    }
   },
   {
     "name": "Law of Regression",
     "fpCost": 55,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 37
+    }
   },
   {
     "name": "Light of Miquella",
     "fpCost": 48,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 72
+    }
   },
   {
     "name": "Lightning Fortification",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Lightning Spear",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 17
+    }
   },
   {
     "name": "Lightning Strike",
     "fpCost": 19,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 28
+    }
   },
   {
     "name": "Litany of Proper Death",
     "fpCost": 17,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 17,
+      "faith": 17
+    }
   },
   {
     "name": "Lord's Aid",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 12
+    }
   },
   {
     "name": "Lord's Divine Fortification",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 27
+    }
   },
   {
     "name": "Lord's Heal",
     "fpCost": 55,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 20
+    }
   },
   {
     "name": "Magic Fortification",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Magma Breath",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 14,
+      "arcane": 10
+    }
   },
   {
     "name": "Messmer's Orb",
     "fpCost": 31,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 60
+    }
   },
   {
     "name": "Midra's Flame of Frenzy",
     "fpCost": 22,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 41
+    }
   },
   {
     "name": "Minor Erdtree",
     "fpCost": 30,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 70
+    }
   },
   {
     "name": "Multilayered Ring of Light",
     "fpCost": 23,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 36
+    }
   },
   {
     "name": "Noble Presence",
     "fpCost": 20,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 26
+    }
   },
   {
     "name": "O, Flame!",
     "fpCost": 16,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 16
+    }
   },
   {
     "name": "Order Healing",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 11,
+      "faith": 11
+    }
   },
   {
     "name": "Order's Blade",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 13,
+      "faith": 13
+    }
   },
   {
     "name": "Pest Threads",
     "fpCost": 19,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 11
+    }
   },
   {
     "name": "Pest-Thread Spears",
     "fpCost": 28,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 26
+    }
   },
   {
     "name": "Placidusax's Ruin",
     "fpCost": 62,
-    "slotsUsed": 3
+    "slotsUsed": 3,
+    "requirements": {
+      "faith": 36
+    }
   },
   {
     "name": "Poison Armament",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 10
+    }
   },
   {
     "name": "Poison Mist",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 12
+    }
   },
   {
     "name": "Protection of the Erdtree",
     "fpCost": 30,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 35
+    }
   },
   {
     "name": "Radagon's Rings of Light",
     "fpCost": 21,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 31,
+      "faith": 31
+    }
   },
   {
     "name": "Rain of Fire",
     "fpCost": 27,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 52
+    }
   },
   {
     "name": "Rejection",
     "fpCost": 9,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 12
+    }
   },
   {
     "name": "Roar of Rugalea",
     "fpCost": 17,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 14
+    }
   },
   {
     "name": "Rotten Breath",
     "fpCost": 36,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 15,
+      "arcane": 12
+    }
   },
   {
     "name": "Rotten Butterflies",
     "fpCost": 48,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 33
+    }
   },
   {
     "name": "Scarlet Aeonia",
     "fpCost": 48,
-    "slotsUsed": 3
+    "slotsUsed": 3,
+    "requirements": {
+      "faith": 35
+    }
   },
   {
     "name": "Scouring Black Flame",
     "fpCost": 21,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 28
+    }
   },
   {
     "name": "Shadow Bait",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 13
+    }
   },
   {
     "name": "Smarag's Glintstone Breath",
     "fpCost": 36,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23,
+      "arcane": 15
+    }
   },
   {
     "name": "Spira",
     "fpCost": 10,
-    "slotsUsed": 2
+    "slotsUsed": 2,
+    "requirements": {
+      "faith": 48
+    }
   },
   {
     "name": "Stone of Gurranq",
     "fpCost": 15,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 13
+    }
   },
   {
     "name": "Surge, O Flame!",
     "fpCost": 1,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 9
+    }
   },
   {
     "name": "Swarm of Flies",
     "fpCost": 14,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 11,
+      "arcane": 16
+    }
   },
   {
     "name": "The Flame of Frenzy",
     "fpCost": 16,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 16
+    }
   },
   {
     "name": "Theodorix's Magma",
     "fpCost": 45,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 21,
+      "arcane": 14
+    }
   },
   {
     "name": "Triple Rings of Light",
     "fpCost": 23,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "intelligence": 23,
+      "faith": 23
+    }
   },
   {
     "name": "Unendurable Frenzy",
     "fpCost": 22,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 31
+    }
   },
   {
     "name": "Urgent Heal",
     "fpCost": 16,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 8
+    }
   },
   {
     "name": "Vyke's Dragonbolt",
     "fpCost": 35,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 23
+    }
   },
   {
     "name": "Watchful Spirit",
     "fpCost": 12,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 26
+    }
   },
   {
     "name": "Whirl, O Flame!",
     "fpCost": 19,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 13
+    }
   },
   {
     "name": "Wrath from Afar",
     "fpCost": 18,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 34
+    }
   },
   {
     "name": "Wrath of Gold",
     "fpCost": 40,
-    "slotsUsed": 1
+    "slotsUsed": 1,
+    "requirements": {
+      "faith": 32
+    }
   }
 ]

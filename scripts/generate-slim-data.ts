@@ -282,6 +282,7 @@ interface SlimSpell {
   name: string;
   fpCost: number;
   slotsUsed: number;
+  requirements?: Record<string, number>;
 }
 
 const sorceries: SlimSpell[] = [];
@@ -289,10 +290,16 @@ const incantations: SlimSpell[] = [];
 
 const baseSpells = readJson(join(BASE_GAME, "spells.json"));
 for (const item of Object.values(baseSpells)) {
+  const rawReqs = item.requirements as Record<string, number> | undefined;
+  const requirements = rawReqs
+    ? Object.fromEntries(Object.entries(rawReqs).filter(([, v]) => v > 0))
+    : undefined;
+
   const entry: SlimSpell = {
     name: item.name as string,
     fpCost: (item.fp_cost as number) ?? 0,
     slotsUsed: (item.slots_used as number) ?? 1,
+    requirements: requirements && Object.keys(requirements).length > 0 ? requirements : undefined,
   };
   if ((item.category as string) === "Sorcery") sorceries.push(entry);
   else incantations.push(entry);
@@ -301,10 +308,20 @@ for (const item of Object.values(baseSpells)) {
 const dlcSpells = readJson(join(DLC, "spells.json"));
 for (const item of Object.values(dlcSpells)) {
   const cat = normalizeCategory(item.category as string);
+  const rawReqs = item.requirements as Record<string, number | null> | undefined;
+  const requirements = rawReqs
+    ? Object.fromEntries(
+        Object.entries(rawReqs)
+          .map(([k, v]) => [DLC_STAT_KEY_MAP[k] ?? k.toLowerCase(), v])
+          .filter(([, v]) => v != null && (v as number) > 0),
+      )
+    : undefined;
+
   const entry: SlimSpell = {
     name: item.name as string,
     fpCost: (item.fp_cost as number) ?? 0,
     slotsUsed: (item.slots as number) ?? 1,
+    requirements: requirements && Object.keys(requirements).length > 0 ? requirements : undefined,
   };
   if (cat === "Sorcery") sorceries.push(entry);
   else incantations.push(entry);
@@ -350,18 +367,36 @@ console.log("Processing ashes of war...");
 
 interface SlimAsh {
   name: string;
+  armamentCategories?: string[];
+  defaultAffinity?: string;
+  possibleAffinities?: string[];
 }
 
 const ashes: SlimAsh[] = [];
 
 const baseAshes = readJson(join(BASE_GAME, "ashes-of-war.json"));
 for (const item of Object.values(baseAshes)) {
-  ashes.push({ name: item.name as string });
+  const cats = item.armament_categories as string[] | undefined;
+  ashes.push({
+    name: item.name as string,
+    armamentCategories: cats && cats.length > 0 ? cats : undefined,
+    defaultAffinity: (item.default_affinity as string) || undefined,
+    possibleAffinities:
+      (item.possible_affinities as string[])?.length > 0
+        ? (item.possible_affinities as string[])
+        : undefined,
+  });
 }
 
 const dlcAshes = readJson(join(DLC, "ashes-of-war.json"));
 for (const item of Object.values(dlcAshes)) {
-  ashes.push({ name: item.name as string });
+  const rawAffinity = item.affinity as string | undefined;
+  ashes.push({
+    name: item.name as string,
+    armamentCategories: undefined,
+    defaultAffinity: rawAffinity || undefined,
+    possibleAffinities: undefined,
+  });
 }
 
 ashes.sort((a, b) => a.name.localeCompare(b.name));
