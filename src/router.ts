@@ -4,6 +4,7 @@ import { LandingPage } from "./pages/landing";
 import { BuildViewerPage } from "./pages/build-viewer";
 import { GeneratePage } from "./pages/generate";
 import { PicksPage } from "./pages/picks";
+import { GenerateBuildPage } from "./pages/generate-build";
 
 const rootRoute = createRootRoute({
   component: RootLayout,
@@ -39,7 +40,7 @@ export const picksRoute = createRoute({
 export const generateBuildRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/generate/build",
-  component: () => null,
+  component: GenerateBuildPage,
 });
 
 const routeTree = rootRoute.addChildren([
