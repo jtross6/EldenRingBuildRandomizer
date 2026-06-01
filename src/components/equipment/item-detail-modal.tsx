@@ -1,4 +1,6 @@
-import { useEffect, useRef, Suspense, ViewTransition } from "react";
+import React, { useEffect, useRef, Suspense } from "react";
+
+const ViewTransition = (React as any).ViewTransition;
 import { createPortal } from "react-dom";
 import type { ItemCategory } from "../icons/item-icons";
 import { getCategoryClass, CategoryIcon } from "../icons/item-icons";
@@ -353,60 +355,73 @@ const CATEGORY_LABELS: Record<ItemCategory, string> = {
 };
 
 export function ItemDetailModal({ itemName, category, slotId, onClose }: ItemDetailModalProps) {
-  const dialogRef = useRef<HTMLDialogElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const dialog = dialogRef.current;
-    if (!dialog) return;
-    dialog.showModal();
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    document.body.style.overflow = "hidden";
+    panelRef.current?.focus();
     return () => {
-      dialog.close();
+      document.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "";
     };
-  }, []);
+  }, [onClose]);
 
-  function handleBackdropClick(e: React.MouseEvent<HTMLDialogElement>) {
-    if (e.target === dialogRef.current) {
+  function handleBackdropClick(e: React.MouseEvent) {
+    if (e.target === e.currentTarget) {
       onClose();
     }
   }
 
   return createPortal(
-    <dialog
-      ref={dialogRef}
-      onClose={onClose}
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm"
       onClick={handleBackdropClick}
-      className="fixed inset-0 m-auto max-h-[85vh] w-[min(420px,calc(100vw-32px))] overflow-y-auto rounded-xl border border-gold/15 bg-bg-dark p-0 shadow-[0_8px_32px_rgba(0,0,0,0.6)] backdrop:bg-black/60 backdrop:backdrop-blur-sm open:flex open:flex-col"
     >
-      <ViewTransition enter="modal-fade-in" exit="modal-fade-out" default="none">
-        <div className="flex flex-col">
-          <button
-            type="button"
-            onClick={onClose}
-            className="absolute right-3 top-3 z-10 flex size-7 cursor-pointer items-center justify-center rounded-full border border-gold/15 bg-bg-card text-[14px] text-text-dim transition-colors hover:bg-bg-card-hover hover:text-text-primary"
-          >
-            &times;
-          </button>
+      <div
+        ref={panelRef}
+        tabIndex={-1}
+        role="dialog"
+        aria-modal="true"
+        aria-label={`${itemName} details`}
+        className="relative max-h-[85vh] w-[min(420px,calc(100vw-32px))] overflow-y-auto rounded-xl border border-gold/15 bg-bg-dark shadow-[0_8px_32px_rgba(0,0,0,0.6)] outline-none"
+      >
+        <ViewTransition enter="modal-fade-in" exit="modal-fade-out" default="none">
+          <div className="flex flex-col">
+            <button
+              type="button"
+              onClick={onClose}
+              className="absolute right-3 top-3 z-10 flex size-7 cursor-pointer items-center justify-center rounded-full border border-gold/15 bg-bg-card text-[14px] text-text-dim transition-colors hover:bg-bg-card-hover hover:text-text-primary"
+            >
+              &times;
+            </button>
 
-          <div className="flex items-center gap-4 border-b border-gold/10 p-5">
-            <ViewTransition name={`item-${slotId}`}>
-              <ModalHeaderImage itemName={itemName} category={category} />
-            </ViewTransition>
-            <div className="min-w-0 flex-1">
-              <div className="font-display text-[16px] font-bold leading-tight text-text-primary">
-                {itemName}
-              </div>
-              <div className="mt-1 text-[10px] uppercase tracking-[2px] text-text-dim">
-                {CATEGORY_LABELS[category]}
+            <div className="flex items-center gap-4 border-b border-gold/10 p-5">
+              <ViewTransition name={`item-${slotId}`}>
+                <ModalHeaderImage itemName={itemName} category={category} />
+              </ViewTransition>
+              <div className="min-w-0 flex-1">
+                <div className="font-display text-[16px] font-bold leading-tight text-text-primary">
+                  {itemName}
+                </div>
+                <div className="mt-1 text-[10px] uppercase tracking-[2px] text-text-dim">
+                  {CATEGORY_LABELS[category]}
+                </div>
               </div>
             </div>
-          </div>
 
-          <Suspense fallback={<DetailSkeleton />}>
-            <DetailContent itemName={itemName} category={category} />
-          </Suspense>
-        </div>
-      </ViewTransition>
-    </dialog>,
+            <Suspense fallback={<DetailSkeleton />}>
+              <DetailContent itemName={itemName} category={category} />
+            </Suspense>
+          </div>
+        </ViewTransition>
+      </div>
+    </div>,
     document.body,
   );
 }

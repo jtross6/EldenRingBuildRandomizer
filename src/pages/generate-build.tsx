@@ -320,7 +320,7 @@ export function GenerateBuildPage() {
   }
 
   function handleCloseModal() {
-    startTransition(() => setSelectedItem(null));
+    setSelectedItem(null);
   }
 
   return (

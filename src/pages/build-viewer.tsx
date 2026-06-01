@@ -82,7 +82,7 @@ export function BuildViewerPage() {
   }
 
   function closeModal() {
-    startTransition(() => setSelectedItem(null));
+    setSelectedItem(null);
   }
 
   const weaponSlotsR = build.weaponsRight.map((idx, i) => ({

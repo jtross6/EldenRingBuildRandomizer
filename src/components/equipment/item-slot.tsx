@@ -1,4 +1,6 @@
-import { useState, Suspense, ViewTransition } from "react";
+import React, { useState, Suspense } from "react";
+
+const ViewTransition = (React as any).ViewTransition;
 import { CategoryIcon, getCategoryClass, type ItemCategory } from "../icons/item-icons";
 import { useImageMap } from "../../hooks/use-image-map";
 
