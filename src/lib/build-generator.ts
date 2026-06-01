@@ -1,5 +1,11 @@
 import type { Build } from "../types/build";
-import type { GeneratorInput, GeneratedBuild, ArmorClass, SeedItem } from "../types/generator";
+import type {
+  GeneratorInput,
+  GeneratedBuild,
+  ArmorClass,
+  SeedItem,
+  LoadoutProfile,
+} from "../types/generator";
 import {
   weapons,
   shields,
@@ -21,6 +27,7 @@ import {
   type ScoredCandidate,
 } from "./candidate-scorer";
 import { generateBuildName } from "./build-namer";
+import { selectLoadoutProfile } from "./loadout-profiles";
 
 function pickFromPool<T>(
   scored: ScoredCandidate<T>[],
@@ -228,10 +235,13 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
     incantations: incantationIndices,
   };
 
+  const loadoutProfile: LoadoutProfile = selectLoadoutProfile(seedItems, profile);
+
   return {
     build,
     armorClass,
     statProfile: profile,
     buildName: build.buildName ?? "Tarnished",
+    loadoutProfile,
   };
 }

@@ -12,6 +12,15 @@ export type StatProfile = Record<string, number>;
 
 export type ArmorClass = "light" | "medium" | "heavy";
 
+export type LoadoutProfile =
+  | "Pure Caster"
+  | "Spellblade"
+  | "Sword & Board"
+  | "Two-hander"
+  | "Powerstance"
+  | "Ranged"
+  | "Dual Wield";
+
 export interface GeneratorInput {
   seedItems: SeedItem[];
   creativity: number;
@@ -23,4 +32,5 @@ export interface GeneratedBuild {
   armorClass: ArmorClass;
   statProfile: StatProfile;
   buildName: string;
+  loadoutProfile: LoadoutProfile;
 }
