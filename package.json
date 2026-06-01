@@ -11,7 +11,7 @@
     "lint": "oxlint ./src",
     "format": "oxfmt ./src",
     "format:check": "oxfmt --check ./src",
-    "generate-data": "tsx scripts/generate-slim-data.ts",
+    "generate-data": "tsx scripts/generate-slim-data.ts && tsx scripts/process-community-builds.ts && tsx scripts/generate-co-occurrence.ts",
     "process-builds": "tsx scripts/process-community-builds.ts"
   },
   "dependencies": {

@@ -31,3 +31,7 @@ export const talismans = talismansData as Talisman[];
 export const sorceries = sorceriesData as unknown as Spell[];
 export const incantations = incantationsData as unknown as Spell[];
 export const ashesOfWar = ashesOfWarData as unknown as AshOfWar[];
+
+import coOccurrenceData from "./co-occurrence.json";
+
+export const coOccurrence = coOccurrenceData as Record<string, Record<string, number>>;

@@ -1,0 +1,1234 @@
+{
+  "Erdtree Seal": {
+    "Shard of Alexander": 5,
+    "Sacred Scorpion Charm": 2,
+    "Ritual Sword Talisman": 2,
+    "Crusade Insignia": 2,
+    "Two-Headed Turtle Talisman": 3,
+    "Millicent's Prosthesis": 2,
+    "Rotten Winged Sword Insignia": 3,
+    "Blade of Mercy": 2,
+    "Golden Vow": 6,
+    "Two-Handed Sword Talisman": 2,
+    "Axe Talisman": 2,
+    "Elden Stars": 2,
+    "Gravel Stone Seal": 2,
+    "Dragoncrest Greatshield Talisman": 3,
+    "Bull-Goat's Talisman": 3,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Lightning Spear": 3,
+    "Lightning Strike": 2,
+    "Fire Scorpion Charm": 3
+  },
+  "Shard of Alexander": {
+    "Erdtree Seal": 5,
+    "Sacred Scorpion Charm": 2,
+    "Ritual Sword Talisman": 5,
+    "Crusade Insignia": 10,
+    "Two-Headed Turtle Talisman": 9,
+    "Millicent's Prosthesis": 10,
+    "Rotten Winged Sword Insignia": 15,
+    "Curved Sword Talisman": 3,
+    "Blade of Mercy": 3,
+    "Golden Vow": 12,
+    "Clawmark Seal": 2,
+    "Two-Handed Sword Talisman": 4,
+    "Claw Talisman": 3,
+    "Axe Talisman": 5,
+    "Lacerating Crossed-Tree": 2,
+    "Blue Dancer Charm": 4,
+    "Fire Knight's Seal": 2,
+    "Bull-Goat's Talisman": 8,
+    "Fire Scorpion Charm": 6,
+    "Godfrey Icon": 6,
+    "Flock's Canvas Talisman": 2,
+    "Flame, Grant Me Strength": 3,
+    "Sacrificial Axe": 3,
+    "Smithing Talisman": 2,
+    "Lord of Blood's Exultation": 3,
+    "Spear Talisman": 2,
+    "Euporia": 2,
+    "Dragoncrest Greatshield Talisman": 10,
+    "Rellana's Cameo": 2,
+    "Dagger Talisman": 3,
+    "Assassin's Cerulean Dagger": 2,
+    "Carian Filigreed Crest": 2,
+    "Warrior Jar Shard": 6,
+    "Reduvia": 2,
+    "Ash of War: Flaming Strike": 2,
+    "Magic Scorpion Charm": 2,
+    "Carian Retaliation": 2,
+    "Golden Order Seal": 2
+  },
+  "Sacred Scorpion Charm": {
+    "Erdtree Seal": 2,
+    "Shard of Alexander": 2,
+    "Two-Headed Turtle Talisman": 2,
+    "Blade of Mercy": 2,
+    "Golden Vow": 2
+  },
+  "Ritual Sword Talisman": {
+    "Erdtree Seal": 2,
+    "Shard of Alexander": 5,
+    "Crusade Insignia": 8,
+    "Two-Headed Turtle Talisman": 4,
+    "Millicent's Prosthesis": 3,
+    "Rotten Winged Sword Insignia": 3,
+    "Curved Sword Talisman": 3,
+    "Blade of Mercy": 3,
+    "Golden Vow": 6,
+    "Golden Order Seal": 3,
+    "Godfrey Icon": 6,
+    "Graven-Mass Talisman": 3,
+    "Flock's Canvas Talisman": 2,
+    "Blessed Blue Dew Talisman": 3,
+    "Dragoncrest Greatshield Talisman": 4,
+    "Knight's Lightning Spear": 2,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Rock Sling": 2,
+    "Carian Regal Scepter": 2,
+    "Magic Scorpion Charm": 4,
+    "Axe Talisman": 2,
+    "Dagger Talisman": 2,
+    "Warrior Jar Shard": 2
+  },
+  "Crusade Insignia": {
+    "Erdtree Seal": 2,
+    "Shard of Alexander": 10,
+    "Ritual Sword Talisman": 8,
+    "Two-Headed Turtle Talisman": 10,
+    "Millicent's Prosthesis": 6,
+    "Rotten Winged Sword Insignia": 8,
+    "Curved Sword Talisman": 4,
+    "Blade of Mercy": 4,
+    "Golden Vow": 9,
+    "Golden Order Seal": 3,
+    "Smithing Talisman": 2,
+    "Lord of Blood's Exultation": 3,
+    "Lacerating Crossed-Tree": 3,
+    "Ash of War Scattershot Throw": 2,
+    "Godfrey Icon": 6,
+    "Graven-Mass Talisman": 3,
+    "Flock's Canvas Talisman": 4,
+    "Blessed Blue Dew Talisman": 5,
+    "Dragoncrest Greatshield Talisman": 6,
+    "Knight's Lightning Spear": 2,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Rock Sling": 2,
+    "Blue Dancer Charm": 4,
+    "Spear Talisman": 2,
+    "Flame, Grant Me Strength": 2,
+    "Bull-Goat's Talisman": 3,
+    "Carian Regal Scepter": 2,
+    "Magic Scorpion Charm": 2,
+    "Sacrificial Axe": 3,
+    "Euporia": 2,
+    "Two-Handed Sword Talisman": 2
+  },
+  "Two-Headed Turtle Talisman": {
+    "Erdtree Seal": 3,
+    "Shard of Alexander": 9,
+    "Sacred Scorpion Charm": 2,
+    "Ritual Sword Talisman": 4,
+    "Crusade Insignia": 10,
+    "Millicent's Prosthesis": 7,
+    "Rotten Winged Sword Insignia": 9,
+    "Curved Sword Talisman": 4,
+    "Blade of Mercy": 5,
+    "Golden Vow": 7,
+    "Clawmark Seal": 2,
+    "Two-Handed Sword Talisman": 3,
+    "Axe Talisman": 2,
+    "Lacerating Crossed-Tree": 4,
+    "Elden Stars": 2,
+    "Golden Order Seal": 3,
+    "Lord of Blood's Exultation": 2,
+    "Godfrey Icon": 2,
+    "Blessed Blue Dew Talisman": 2,
+    "Dragoncrest Greatshield Talisman": 5,
+    "Euporia": 2,
+    "Sacrificial Axe": 2
+  },
+  "Millicent's Prosthesis": {
+    "Erdtree Seal": 2,
+    "Shard of Alexander": 10,
+    "Ritual Sword Talisman": 3,
+    "Crusade Insignia": 6,
+    "Two-Headed Turtle Talisman": 7,
+    "Rotten Winged Sword Insignia": 11,
+    "Curved Sword Talisman": 3,
+    "Blade of Mercy": 3,
+    "Golden Vow": 6,
+    "Smithing Talisman": 3,
+    "Axe Talisman": 4,
+    "Lord of Blood's Exultation": 3,
+    "Lacerating Crossed-Tree": 2,
+    "Ash of War Scattershot Throw": 2,
+    "Golden Order Seal": 2,
+    "Spear Talisman": 3,
+    "Blue Dancer Charm": 2,
+    "Claw Talisman": 2,
+    "Bull-Goat's Talisman": 5,
+    "Dragoncrest Greatshield Talisman": 5,
+    "Godfrey Icon": 2,
+    "Dagger Talisman": 3,
+    "Reduvia": 2,
+    "Warrior Jar Shard": 2,
+    "Wolf Crest Shield": 2
+  },
+  "Rotten Winged Sword Insignia": {
+    "Erdtree Seal": 3,
+    "Shard of Alexander": 15,
+    "Ritual Sword Talisman": 3,
+    "Crusade Insignia": 8,
+    "Two-Headed Turtle Talisman": 9,
+    "Millicent's Prosthesis": 11,
+    "Curved Sword Talisman": 2,
+    "Blade of Mercy": 2,
+    "Golden Vow": 8,
+    "Smithing Talisman": 3,
+    "Axe Talisman": 5,
+    "Lord of Blood's Exultation": 3,
+    "Lacerating Crossed-Tree": 2,
+    "Ash of War Scattershot Throw": 2,
+    "Blue Dancer Charm": 3,
+    "Sacrificial Axe": 2,
+    "Spear Talisman": 2,
+    "Claw Talisman": 2,
+    "Euporia": 2,
+    "Two-Handed Sword Talisman": 2,
+    "Dragoncrest Greatshield Talisman": 9,
+    "Bull-Goat's Talisman": 4,
+    "Fire Scorpion Charm": 3,
+    "Godfrey Icon": 3,
+    "Rellana's Cameo": 2,
+    "Warrior Jar Shard": 2,
+    "Dagger Talisman": 2,
+    "Wolf Crest Shield": 2
+  },
+  "Curved Sword Talisman": {
+    "Shard of Alexander": 3,
+    "Ritual Sword Talisman": 3,
+    "Crusade Insignia": 4,
+    "Two-Headed Turtle Talisman": 4,
+    "Millicent's Prosthesis": 3,
+    "Rotten Winged Sword Insignia": 2,
+    "Blade of Mercy": 4,
+    "Golden Vow": 4,
+    "Golden Order Seal": 2,
+    "Greatshield Talisman": 2
+  },
+  "Blade of Mercy": {
+    "Erdtree Seal": 2,
+    "Shard of Alexander": 3,
+    "Sacred Scorpion Charm": 2,
+    "Ritual Sword Talisman": 3,
+    "Crusade Insignia": 4,
+    "Two-Headed Turtle Talisman": 5,
+    "Millicent's Prosthesis": 3,
+    "Rotten Winged Sword Insignia": 2,
+    "Curved Sword Talisman": 4,
+    "Golden Vow": 4,
+    "Clawmark Seal": 2,
+    "Lacerating Crossed-Tree": 2,
+    "Golden Order Seal": 2
+  },
+  "Golden Vow": {
+    "Erdtree Seal": 6,
+    "Shard of Alexander": 12,
+    "Sacred Scorpion Charm": 2,
+    "Ritual Sword Talisman": 6,
+    "Crusade Insignia": 9,
+    "Two-Headed Turtle Talisman": 7,
+    "Millicent's Prosthesis": 6,
+    "Rotten Winged Sword Insignia": 8,
+    "Curved Sword Talisman": 4,
+    "Blade of Mercy": 4,
+    "Clawmark Seal": 10,
+    "Two-Handed Sword Talisman": 3,
+    "Axe Talisman": 5,
+    "Lacerating Crossed-Tree": 3,
+    "Elden Stars": 4,
+    "Golden Order Seal": 6,
+    "Black Steel Greatshield": 2,
+    "Ash of War: Sacred Blade": 2,
+    "Sword of Night and Flame": 4,
+    "Godfrey Icon": 5,
+    "Graven-Mass Talisman": 2,
+    "Flock's Canvas Talisman": 4,
+    "Blessed Blue Dew Talisman": 4,
+    "Dragoncrest Greatshield Talisman": 10,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Flame of the Fell God": 2,
+    "Giantsflame Take Thee": 2,
+    "Frenzied Burst": 3,
+    "Ancient Death Rancor": 4,
+    "Loretta's Greatbow": 3,
+    "Stone of Gurranq": 4,
+    "Rock Sling": 2,
+    "Blessing of the Erdtree": 8,
+    "Spear Talisman": 2,
+    "Flame, Grant Me Strength": 18,
+    "Fire Knight's Seal": 2,
+    "Bull-Goat's Talisman": 3,
+    "Fire Scorpion Charm": 5,
+    "Carian Regal Scepter": 2,
+    "Magic Scorpion Charm": 2,
+    "Euporia": 2,
+    "Frenzied Flame Seal": 2,
+    "Terra Magica": 4,
+    "Gravel Stone Seal": 2,
+    "Lightning Spear": 5,
+    "Treespear": 2,
+    "Golden Greatshield": 3,
+    "Ash of War: Barricade Shield": 3,
+    "Electrify Armament": 3,
+    "Blessing's Boon": 5,
+    "Cross-Naginata": 2,
+    "Flamberge": 2,
+    "Nagakiba": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 4,
+    "Ash of War: Double Slash": 2,
+    "Bloodflame Blade": 3,
+    "Black Flame Blade": 2,
+    "Black Flame": 8,
+    "Scouring Black Flame": 2,
+    "Blasphemous Blade": 2,
+    "Gargoyle's Greatsword": 2,
+    "Black Blade": 2,
+    "Black Flame's Protection": 2,
+    "Black Flame Ritual": 2,
+    "Ash of War: Flaming Strike": 3,
+    "Finger Seal": 2,
+    "Banished Knight's Shield": 2,
+    "Ash of War: Bloody Slash": 2,
+    "Dragon Communion Seal": 4,
+    "Rotten Breath": 2,
+    "Ash of War: Seppuku": 2,
+    "Dragonmaw": 2,
+    "Warrior Jar Shard": 4
+  },
+  "Clawmark Seal": {
+    "Shard of Alexander": 2,
+    "Two-Headed Turtle Talisman": 2,
+    "Blade of Mercy": 2,
+    "Golden Vow": 10,
+    "Black Steel Greatshield": 2,
+    "Ash of War: Sacred Blade": 2,
+    "Lightning Spear": 2,
+    "Blasphemous Blade": 2,
+    "Flame, Grant Me Strength": 6,
+    "Stone of Gurranq": 2,
+    "Black Flame": 2,
+    "Blessing of the Erdtree": 3
+  },
+  "Two-Handed Sword Talisman": {
+    "Erdtree Seal": 2,
+    "Shard of Alexander": 4,
+    "Two-Headed Turtle Talisman": 3,
+    "Axe Talisman": 2,
+    "Lacerating Crossed-Tree": 2,
+    "Golden Vow": 3,
+    "Euporia": 2,
+    "Dragoncrest Greatshield Talisman": 3,
+    "Crusade Insignia": 2,
+    "Rotten Winged Sword Insignia": 2
+  },
+  "Claw Talisman": {
+    "Shard of Alexander": 3,
+    "Blue Dancer Charm": 2,
+    "Millicent's Prosthesis": 2,
+    "Rotten Winged Sword Insignia": 2
+  },
+  "Axe Talisman": {
+    "Erdtree Seal": 2,
+    "Two-Handed Sword Talisman": 2,
+    "Shard of Alexander": 5,
+    "Two-Headed Turtle Talisman": 2,
+    "Lacerating Crossed-Tree": 2,
+    "Golden Vow": 5,
+    "Smithing Talisman": 2,
+    "Rotten Winged Sword Insignia": 5,
+    "Millicent's Prosthesis": 4,
+    "Fire Scorpion Charm": 2,
+    "Dragoncrest Greatshield Talisman": 4,
+    "Academy Glintstone Staff": 2,
+    "Dagger": 2,
+    "Spear Talisman": 2,
+    "Scholar's Armament": 2,
+    "Green Turtle Talisman": 2,
+    "Dragon King's Cragblade": 2,
+    "Dagger Talisman": 2,
+    "Ritual Sword Talisman": 2
+  },
+  "Lacerating Crossed-Tree": {
+    "Two-Handed Sword Talisman": 2,
+    "Shard of Alexander": 2,
+    "Two-Headed Turtle Talisman": 4,
+    "Blade of Mercy": 2,
+    "Axe Talisman": 2,
+    "Golden Vow": 3,
+    "Rotten Winged Sword Insignia": 2,
+    "Millicent's Prosthesis": 2,
+    "Crusade Insignia": 3,
+    "Euporia": 2
+  },
+  "Elden Stars": {
+    "Erdtree Seal": 2,
+    "Two-Headed Turtle Talisman": 2,
+    "Golden Vow": 4,
+    "Sword of Night and Flame": 2,
+    "Blessing of the Erdtree": 3,
+    "Ash of War: Barricade Shield": 2
+  },
+  "Golden Order Seal": {
+    "Two-Headed Turtle Talisman": 3,
+    "Curved Sword Talisman": 2,
+    "Blade of Mercy": 2,
+    "Ritual Sword Talisman": 3,
+    "Crusade Insignia": 3,
+    "Golden Vow": 6,
+    "Millicent's Prosthesis": 2,
+    "Flame, Grant Me Strength": 2,
+    "Dragoncrest Greatshield Talisman": 3,
+    "Sword of Night and Flame": 2,
+    "Shard of Alexander": 2
+  },
+  "Black Steel Greatshield": {
+    "Clawmark Seal": 2,
+    "Golden Vow": 2
+  },
+  "Ash of War: Sacred Blade": {
+    "Clawmark Seal": 2,
+    "Golden Vow": 2
+  },
+  "Smithing Talisman": {
+    "Axe Talisman": 2,
+    "Rotten Winged Sword Insignia": 3,
+    "Millicent's Prosthesis": 3,
+    "Crusade Insignia": 2,
+    "Lord of Blood's Exultation": 2,
+    "Ash of War Scattershot Throw": 2,
+    "Shard of Alexander": 2
+  },
+  "Lord of Blood's Exultation": {
+    "Smithing Talisman": 2,
+    "Rotten Winged Sword Insignia": 3,
+    "Millicent's Prosthesis": 3,
+    "Two-Headed Turtle Talisman": 2,
+    "Crusade Insignia": 3,
+    "Ash of War Scattershot Throw": 2,
+    "Sacrificial Axe": 2,
+    "Shard of Alexander": 3,
+    "Reduvia": 2
+  },
+  "Ash of War Scattershot Throw": {
+    "Smithing Talisman": 2,
+    "Rotten Winged Sword Insignia": 2,
+    "Millicent's Prosthesis": 2,
+    "Crusade Insignia": 2,
+    "Lord of Blood's Exultation": 2
+  },
+  "Sword of Night and Flame": {
+    "Elden Stars": 2,
+    "Ancient Death Rancor": 5,
+    "Loretta's Greatbow": 2,
+    "Blessing of the Erdtree": 2,
+    "Golden Vow": 4,
+    "Terra Magica": 2,
+    "Golden Order Seal": 2
+  },
+  "Godfrey Icon": {
+    "Graven-Mass Talisman": 3,
+    "Flock's Canvas Talisman": 4,
+    "Blessed Blue Dew Talisman": 3,
+    "Crusade Insignia": 6,
+    "Two-Headed Turtle Talisman": 2,
+    "Dragoncrest Greatshield Talisman": 5,
+    "Ritual Sword Talisman": 6,
+    "Knight's Lightning Spear": 2,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Rock Sling": 2,
+    "Golden Vow": 5,
+    "Bull-Goat's Talisman": 3,
+    "Shard of Alexander": 6,
+    "Flame, Grant Me Strength": 2,
+    "Carian Regal Scepter": 2,
+    "Magic Scorpion Charm": 4,
+    "Millicent's Prosthesis": 2,
+    "Rotten Winged Sword Insignia": 3,
+    "Warrior Jar Shard": 2
+  },
+  "Graven-Mass Talisman": {
+    "Godfrey Icon": 3,
+    "Blessed Blue Dew Talisman": 3,
+    "Crusade Insignia": 3,
+    "Dragoncrest Greatshield Talisman": 2,
+    "Ritual Sword Talisman": 3,
+    "Rock Sling": 2,
+    "Golden Vow": 2,
+    "Carian Regal Scepter": 2,
+    "Magic Scorpion Charm": 2
+  },
+  "Flock's Canvas Talisman": {
+    "Godfrey Icon": 4,
+    "Blessed Blue Dew Talisman": 2,
+    "Crusade Insignia": 4,
+    "Dragoncrest Greatshield Talisman": 3,
+    "Ritual Sword Talisman": 2,
+    "Knight's Lightning Spear": 2,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Golden Vow": 4,
+    "Bull-Goat's Talisman": 2,
+    "Shard of Alexander": 2,
+    "Flame, Grant Me Strength": 2
+  },
+  "Blessed Blue Dew Talisman": {
+    "Godfrey Icon": 3,
+    "Graven-Mass Talisman": 3,
+    "Flock's Canvas Talisman": 2,
+    "Crusade Insignia": 5,
+    "Two-Headed Turtle Talisman": 2,
+    "Dragoncrest Greatshield Talisman": 3,
+    "Ritual Sword Talisman": 3,
+    "Rock Sling": 2,
+    "Golden Vow": 4,
+    "Carian Regal Scepter": 2,
+    "Magic Scorpion Charm": 2
+  },
+  "Dragoncrest Greatshield Talisman": {
+    "Godfrey Icon": 5,
+    "Graven-Mass Talisman": 2,
+    "Flock's Canvas Talisman": 3,
+    "Blessed Blue Dew Talisman": 3,
+    "Crusade Insignia": 6,
+    "Two-Headed Turtle Talisman": 5,
+    "Ritual Sword Talisman": 4,
+    "Knight's Lightning Spear": 2,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Flame of the Fell God": 2,
+    "Giantsflame Take Thee": 2,
+    "Frenzied Burst": 2,
+    "Rock Sling": 2,
+    "Golden Vow": 10,
+    "Erdtree Seal": 3,
+    "Bull-Goat's Talisman": 5,
+    "Golden Order Seal": 3,
+    "Euporia": 2,
+    "Two-Handed Sword Talisman": 3,
+    "Shard of Alexander": 10,
+    "Rotten Winged Sword Insignia": 9,
+    "Fire Scorpion Charm": 4,
+    "Axe Talisman": 4,
+    "Millicent's Prosthesis": 5,
+    "Blue Dancer Charm": 2,
+    "Rellana's Cameo": 2,
+    "Warrior Jar Shard": 3,
+    "Ash of War: Flaming Strike": 2
+  },
+  "Knight's Lightning Spear": {
+    "Godfrey Icon": 2,
+    "Flock's Canvas Talisman": 2,
+    "Crusade Insignia": 2,
+    "Dragoncrest Greatshield Talisman": 2,
+    "Ritual Sword Talisman": 2,
+    "Ancient Dragons' Lightning Strike": 2
+  },
+  "Ancient Dragons' Lightning Strike": {
+    "Godfrey Icon": 2,
+    "Flock's Canvas Talisman": 2,
+    "Crusade Insignia": 2,
+    "Dragoncrest Greatshield Talisman": 2,
+    "Ritual Sword Talisman": 2,
+    "Knight's Lightning Spear": 2,
+    "Golden Vow": 2,
+    "Erdtree Seal": 2,
+    "Gravel Stone Seal": 2,
+    "Lightning Spear": 2,
+    "Lightning Strike": 2
+  },
+  "Flame of the Fell God": {
+    "Dragoncrest Greatshield Talisman": 2,
+    "Giantsflame Take Thee": 2,
+    "Frenzied Burst": 2,
+    "Golden Vow": 2
+  },
+  "Giantsflame Take Thee": {
+    "Dragoncrest Greatshield Talisman": 2,
+    "Flame of the Fell God": 2,
+    "Frenzied Burst": 2,
+    "Golden Vow": 2
+  },
+  "Frenzied Burst": {
+    "Dragoncrest Greatshield Talisman": 2,
+    "Flame of the Fell God": 2,
+    "Giantsflame Take Thee": 2,
+    "Golden Vow": 3,
+    "Flame, Grant Me Strength": 2
+  },
+  "Ancient Death Rancor": {
+    "Sword of Night and Flame": 5,
+    "Loretta's Greatbow": 2,
+    "Golden Vow": 4,
+    "Carian Regal Scepter": 2,
+    "Frenzied Flame Seal": 2,
+    "Carian Knight's Shield": 2,
+    "Ancient Death Rancor": 2,
+    "Terra Magica": 3
+  },
+  "Comet": {
+    "Terra Magica": 2
+  },
+  "Loretta's Greatbow": {
+    "Sword of Night and Flame": 2,
+    "Ancient Death Rancor": 2,
+    "Golden Vow": 3,
+    "Glintstone Pebble": 2,
+    "Great Glintstone Shard": 3,
+    "Carian Slicer": 3,
+    "Carian Piercer": 3,
+    "Carian Glintstone Staff": 2,
+    "Carian Greatsword": 2,
+    "Terra Magica": 6,
+    "Academy Glintstone Staff": 2,
+    "Greatblade Phalanx": 2,
+    "Adula's Moonblade": 2
+  },
+  "Stone of Gurranq": {
+    "Blessing of the Erdtree": 2,
+    "Golden Vow": 4,
+    "Clawmark Seal": 2,
+    "Blasphemous Blade": 2,
+    "Flame, Grant Me Strength": 3,
+    "Lightning Spear": 2,
+    "Black Flame": 2,
+    "Ash of War: Bloody Slash": 2
+  },
+  "Rock Sling": {
+    "Godfrey Icon": 2,
+    "Graven-Mass Talisman": 2,
+    "Blessed Blue Dew Talisman": 2,
+    "Crusade Insignia": 2,
+    "Dragoncrest Greatshield Talisman": 2,
+    "Ritual Sword Talisman": 2,
+    "Golden Vow": 2
+  },
+  "Blessing of the Erdtree": {
+    "Sword of Night and Flame": 2,
+    "Elden Stars": 3,
+    "Stone of Gurranq": 2,
+    "Golden Vow": 8,
+    "Gargoyle's Greatsword": 2,
+    "Ash of War: Barricade Shield": 2,
+    "Lightning Spear": 2,
+    "Black Blade": 2,
+    "Clawmark Seal": 3,
+    "Flame, Grant Me Strength": 3
+  },
+  "Blue Dancer Charm": {
+    "Shard of Alexander": 4,
+    "Crusade Insignia": 4,
+    "Rotten Winged Sword Insignia": 3,
+    "Millicent's Prosthesis": 2,
+    "Claw Talisman": 2,
+    "Dragoncrest Greatshield Talisman": 2
+  },
+  "Spear Talisman": {
+    "Millicent's Prosthesis": 3,
+    "Crusade Insignia": 2,
+    "Golden Vow": 2,
+    "Shard of Alexander": 2,
+    "Rotten Winged Sword Insignia": 2,
+    "Axe Talisman": 2
+  },
+  "Flame, Grant Me Strength": {
+    "Golden Order Seal": 2,
+    "Crusade Insignia": 2,
+    "Golden Vow": 18,
+    "Bull-Goat's Talisman": 2,
+    "Fire Scorpion Charm": 2,
+    "Shard of Alexander": 3,
+    "Godfrey Icon": 2,
+    "Flock's Canvas Talisman": 2,
+    "Black Flame": 6,
+    "Clawmark Seal": 6,
+    "Blasphemous Blade": 2,
+    "Stone of Gurranq": 3,
+    "Finger Seal": 3,
+    "Bloodflame Blade": 3,
+    "Electrify Armament": 3,
+    "Ash of War: Flaming Strike": 2,
+    "Blessing of the Erdtree": 3,
+    "Lightning Spear": 2,
+    "Banished Knight's Shield": 2,
+    "Blessing's Boon": 3,
+    "Ash of War: Bloody Slash": 2,
+    "Dragon Communion Seal": 3,
+    "Frenzied Burst": 2
+  },
+  "Fire Knight's Seal": {
+    "Bull-Goat's Talisman": 2,
+    "Fire Scorpion Charm": 2,
+    "Shard of Alexander": 2,
+    "Golden Vow": 2
+  },
+  "Bull-Goat's Talisman": {
+    "Fire Knight's Seal": 2,
+    "Fire Scorpion Charm": 3,
+    "Shard of Alexander": 8,
+    "Godfrey Icon": 3,
+    "Flock's Canvas Talisman": 2,
+    "Crusade Insignia": 3,
+    "Golden Vow": 3,
+    "Flame, Grant Me Strength": 2,
+    "Erdtree Seal": 3,
+    "Dragoncrest Greatshield Talisman": 5,
+    "Rotten Winged Sword Insignia": 4,
+    "Millicent's Prosthesis": 5,
+    "Dagger Talisman": 2,
+    "Reduvia": 2,
+    "Warrior Jar Shard": 2
+  },
+  "Fire Scorpion Charm": {
+    "Fire Knight's Seal": 2,
+    "Bull-Goat's Talisman": 3,
+    "Shard of Alexander": 6,
+    "Golden Vow": 5,
+    "Flame, Grant Me Strength": 2,
+    "Erdtree Seal": 3,
+    "Dragoncrest Greatshield Talisman": 4,
+    "Axe Talisman": 2,
+    "Rotten Winged Sword Insignia": 3,
+    "Warrior Jar Shard": 2,
+    "Ash of War: Flaming Strike": 2
+  },
+  "Gravel Stone Seal": {
+    "Erdtree Seal": 2,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Lightning Spear": 3,
+    "Lightning Strike": 2,
+    "Golden Vow": 2
+  },
+  "Lightning Spear": {
+    "Erdtree Seal": 3,
+    "Gravel Stone Seal": 3,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Lightning Strike": 2,
+    "Golden Vow": 5,
+    "Clawmark Seal": 2,
+    "Ash of War: Barricade Shield": 2,
+    "Blessing's Boon": 2,
+    "Gargoyle's Greatsword": 2,
+    "Blessing of the Erdtree": 2,
+    "Flame, Grant Me Strength": 2,
+    "Black Flame": 2,
+    "Stone of Gurranq": 2,
+    "Ash of War: Bloody Slash": 2
+  },
+  "Lightning Strike": {
+    "Erdtree Seal": 2,
+    "Gravel Stone Seal": 2,
+    "Ancient Dragons' Lightning Strike": 2,
+    "Lightning Spear": 2
+  },
+  "Carian Regal Scepter": {
+    "Graven-Mass Talisman": 2,
+    "Godfrey Icon": 2,
+    "Blessed Blue Dew Talisman": 2,
+    "Crusade Insignia": 2,
+    "Ritual Sword Talisman": 2,
+    "Magic Scorpion Charm": 2,
+    "Golden Vow": 2,
+    "Carian Knight's Shield": 2,
+    "Ancient Death Rancor": 2,
+    "Terra Magica": 3,
+    "Greatblade Phalanx": 2
+  },
+  "Magic Scorpion Charm": {
+    "Carian Regal Scepter": 2,
+    "Graven-Mass Talisman": 2,
+    "Godfrey Icon": 4,
+    "Blessed Blue Dew Talisman": 2,
+    "Crusade Insignia": 2,
+    "Ritual Sword Talisman": 4,
+    "Golden Vow": 2,
+    "Shard of Alexander": 2,
+    "Warrior Jar Shard": 2
+  },
+  "Sacrificial Axe": {
+    "Shard of Alexander": 3,
+    "Lord of Blood's Exultation": 2,
+    "Crusade Insignia": 3,
+    "Rotten Winged Sword Insignia": 2,
+    "Two-Headed Turtle Talisman": 2
+  },
+  "Euporia": {
+    "Two-Handed Sword Talisman": 2,
+    "Shard of Alexander": 2,
+    "Two-Headed Turtle Talisman": 2,
+    "Dragoncrest Greatshield Talisman": 2,
+    "Crusade Insignia": 2,
+    "Rotten Winged Sword Insignia": 2,
+    "Lacerating Crossed-Tree": 2,
+    "Euporia": 2,
+    "Golden Vow": 2
+  },
+  "Rellana's Cameo": {
+    "Rotten Winged Sword Insignia": 2,
+    "Dragoncrest Greatshield Talisman": 2,
+    "Shard of Alexander": 2
+  },
+  "Academy Glintstone Staff": {
+    "Axe Talisman": 2,
+    "Dagger": 2,
+    "Scholar's Armament": 4,
+    "Greatblade Phalanx": 2,
+    "Loretta's Greatbow": 2,
+    "Terra Magica": 3
+  },
+  "Dagger": {
+    "Academy Glintstone Staff": 2,
+    "Axe Talisman": 2,
+    "Scholar's Armament": 2
+  },
+  "Scholar's Armament": {
+    "Academy Glintstone Staff": 4,
+    "Axe Talisman": 2,
+    "Dagger": 2,
+    "Ash of War: Impaling Thrust": 2,
+    "Terra Magica": 2
+  },
+  "Glintstone Pebble": {
+    "Loretta's Greatbow": 2,
+    "Great Glintstone Shard": 2,
+    "Carian Slicer": 4,
+    "Carian Piercer": 3,
+    "Carian Glintstone Staff": 2,
+    "Carian Greatsword": 2,
+    "Jellyfish Shield": 2
+  },
+  "Great Glintstone Shard": {
+    "Glintstone Pebble": 2,
+    "Loretta's Greatbow": 3,
+    "Terra Magica": 3
+  },
+  "Carian Slicer": {
+    "Glintstone Pebble": 4,
+    "Loretta's Greatbow": 3,
+    "Carian Piercer": 5,
+    "Carian Glintstone Staff": 4,
+    "Carian Greatsword": 3,
+    "Jellyfish Shield": 2,
+    "Lusat's Glintstone Staff": 2,
+    "Adula's Moonblade": 2
+  },
+  "Carian Piercer": {
+    "Glintstone Pebble": 3,
+    "Loretta's Greatbow": 3,
+    "Carian Slicer": 5,
+    "Carian Glintstone Staff": 4,
+    "Carian Greatsword": 3,
+    "Jellyfish Shield": 2,
+    "Lusat's Glintstone Staff": 2,
+    "Adula's Moonblade": 2
+  },
+  "Ash of War: Impaling Thrust": {
+    "Scholar's Armament": 2
+  },
+  "Carian Glintstone Staff": {
+    "Carian Slicer": 4,
+    "Carian Piercer": 4,
+    "Carian Greatsword": 3,
+    "Glintstone Pebble": 2,
+    "Jellyfish Shield": 2,
+    "Loretta's Greatbow": 2,
+    "Lusat's Glintstone Staff": 2,
+    "Adula's Moonblade": 2
+  },
+  "Blue-Gold Kite Shield": {
+    "Ash of War: Barricade Shield": 2
+  },
+  "Ash of War: Barricade Shield": {
+    "Blue-Gold Kite Shield": 2,
+    "Brass Shield": 2,
+    "Golden Vow": 3,
+    "Lightning Spear": 2,
+    "Blessing of the Erdtree": 2,
+    "Elden Stars": 2
+  },
+  "Carian Greatsword": {
+    "Carian Glintstone Staff": 3,
+    "Carian Slicer": 3,
+    "Carian Piercer": 3,
+    "Glintstone Pebble": 2,
+    "Loretta's Greatbow": 2
+  },
+  "Jellyfish Shield": {
+    "Carian Glintstone Staff": 2,
+    "Carian Slicer": 2,
+    "Carian Piercer": 2,
+    "Glintstone Pebble": 2,
+    "Ash of War: Bloody Slash": 2
+  },
+  "Finger Seal": {
+    "Flame, Grant Me Strength": 3,
+    "Golden Vow": 2
+  },
+  "Terra Magica": {
+    "Great Glintstone Shard": 3,
+    "Comet": 2,
+    "Loretta's Greatbow": 6,
+    "Dark Moon Greatsword": 2,
+    "Staff of Loss": 2,
+    "Greatsword": 2,
+    "Sword of Night and Flame": 2,
+    "Carian Regal Scepter": 3,
+    "Carian Knight's Shield": 3,
+    "Ancient Death Rancor": 3,
+    "Golden Vow": 4,
+    "Greatblade Phalanx": 3,
+    "Academy Glintstone Staff": 3,
+    "Unseen Form": 2,
+    "Scholar's Armament": 2,
+    "Adula's Moonblade": 2
+  },
+  "Uchigatana": {
+    "Ash of War: Double Slash": 2
+  },
+  "Dark Moon Greatsword": {
+    "Greatsword": 2,
+    "Terra Magica": 2
+  },
+  "Staff of Loss": {
+    "Terra Magica": 2
+  },
+  "Greatsword": {
+    "Dark Moon Greatsword": 2,
+    "Terra Magica": 2
+  },
+  "Lusat's Glintstone Staff": {
+    "Carian Glintstone Staff": 2,
+    "Carian Slicer": 2,
+    "Adula's Moonblade": 2,
+    "Carian Piercer": 2
+  },
+  "Adula's Moonblade": {
+    "Lusat's Glintstone Staff": 2,
+    "Carian Glintstone Staff": 2,
+    "Carian Slicer": 2,
+    "Carian Piercer": 2,
+    "Terra Magica": 2,
+    "Loretta's Greatbow": 2
+  },
+  "Frenzied Flame Seal": {
+    "Ancient Death Rancor": 2,
+    "Golden Vow": 2
+  },
+  "Carian Knight's Shield": {
+    "Carian Regal Scepter": 2,
+    "Ancient Death Rancor": 2,
+    "Terra Magica": 3
+  },
+  "Greatblade Phalanx": {
+    "Carian Regal Scepter": 2,
+    "Terra Magica": 3,
+    "Academy Glintstone Staff": 2,
+    "Loretta's Greatbow": 2,
+    "Ash of War: Royal Knight's Resolve": 2
+  },
+  "Nagakiba": {
+    "Ash of War: Double Slash": 3,
+    "Cross-Naginata": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 2,
+    "Bloodflame Blade": 3,
+    "Black Flame Blade": 2,
+    "Black Flame": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 2,
+    "Ash of War: Unsheathe": 2
+  },
+  "Ash of War: Double Slash": {
+    "Nagakiba": 3,
+    "Cross-Naginata": 2,
+    "Uchigatana": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 2,
+    "Bloodflame Blade": 2,
+    "Black Flame Blade": 2,
+    "Black Flame": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 2
+  },
+  "Unseen Form": {
+    "Terra Magica": 2
+  },
+  "Carian Retaliation": {
+    "Shard of Alexander": 2
+  },
+  "Brass Shield": {
+    "Ash of War: Barricade Shield": 2
+  },
+  "Treespear": {
+    "Golden Greatshield": 2,
+    "Golden Vow": 2
+  },
+  "Golden Greatshield": {
+    "Treespear": 2,
+    "Golden Vow": 3
+  },
+  "Electrify Armament": {
+    "Golden Vow": 3,
+    "Blessing's Boon": 2,
+    "Bloodflame Blade": 2,
+    "Flame, Grant Me Strength": 3
+  },
+  "Blessing's Boon": {
+    "Golden Vow": 5,
+    "Lightning Spear": 2,
+    "Electrify Armament": 2,
+    "Banished Knight's Shield": 2,
+    "Flame, Grant Me Strength": 3,
+    "Ash of War: Bloody Slash": 2
+  },
+  "Cross-Naginata": {
+    "Nagakiba": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 2,
+    "Ash of War: Double Slash": 2,
+    "Bloodflame Blade": 2,
+    "Black Flame Blade": 2,
+    "Black Flame": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 2
+  },
+  "Flamberge": {
+    "Bloodflame Blade": 2,
+    "Golden Vow": 2
+  },
+  "Godslayer's Seal": {
+    "Cross-Naginata": 2,
+    "Nagakiba": 2,
+    "Ash of War: Sword Dance": 2,
+    "Ash of War: Double Slash": 2,
+    "Bloodflame Blade": 2,
+    "Black Flame Blade": 2,
+    "Black Flame": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 2
+  },
+  "Ash of War: Sword Dance": {
+    "Cross-Naginata": 2,
+    "Nagakiba": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Double Slash": 2,
+    "Bloodflame Blade": 2,
+    "Black Flame Blade": 2,
+    "Black Flame": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 4,
+    "Black Flame's Protection": 2
+  },
+  "Bloodflame Blade": {
+    "Cross-Naginata": 2,
+    "Flamberge": 2,
+    "Nagakiba": 3,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 2,
+    "Ash of War: Double Slash": 2,
+    "Black Flame Blade": 2,
+    "Black Flame": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 3,
+    "Flame, Grant Me Strength": 3,
+    "Electrify Armament": 2
+  },
+  "Black Flame Blade": {
+    "Cross-Naginata": 2,
+    "Nagakiba": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 2,
+    "Ash of War: Double Slash": 2,
+    "Bloodflame Blade": 2,
+    "Black Flame": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 2
+  },
+  "Black Flame": {
+    "Cross-Naginata": 2,
+    "Nagakiba": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 2,
+    "Ash of War: Double Slash": 2,
+    "Bloodflame Blade": 2,
+    "Black Flame Blade": 2,
+    "Scouring Black Flame": 2,
+    "Golden Vow": 8,
+    "Flame, Grant Me Strength": 6,
+    "Black Flame Ritual": 2,
+    "Clawmark Seal": 2,
+    "Ash of War: Flaming Strike": 2,
+    "Lightning Spear": 2,
+    "Stone of Gurranq": 2,
+    "Ash of War: Bloody Slash": 2
+  },
+  "Scouring Black Flame": {
+    "Cross-Naginata": 2,
+    "Nagakiba": 2,
+    "Godslayer's Seal": 2,
+    "Ash of War: Sword Dance": 2,
+    "Ash of War: Double Slash": 2,
+    "Bloodflame Blade": 2,
+    "Black Flame Blade": 2,
+    "Black Flame": 2,
+    "Golden Vow": 2
+  },
+  "Blasphemous Blade": {
+    "Clawmark Seal": 2,
+    "Golden Vow": 2,
+    "Flame, Grant Me Strength": 2,
+    "Stone of Gurranq": 2
+  },
+  "Gargoyle's Greatsword": {
+    "Golden Vow": 2,
+    "Blessing of the Erdtree": 2,
+    "Lightning Spear": 2
+  },
+  "Black Blade": {
+    "Golden Vow": 2,
+    "Blessing of the Erdtree": 2
+  },
+  "Black Flame's Protection": {
+    "Ash of War: Sword Dance": 2,
+    "Golden Vow": 2
+  },
+  "Black Flame Ritual": {
+    "Golden Vow": 2,
+    "Black Flame": 2
+  },
+  "Dagger Talisman": {
+    "Shard of Alexander": 3,
+    "Bull-Goat's Talisman": 2,
+    "Millicent's Prosthesis": 3,
+    "Reduvia": 2,
+    "Warrior Jar Shard": 2,
+    "Green Turtle Talisman": 2,
+    "Rotten Winged Sword Insignia": 2,
+    "Axe Talisman": 2,
+    "Ritual Sword Talisman": 2
+  },
+  "Assassin's Cerulean Dagger": {
+    "Shard of Alexander": 2
+  },
+  "Longbow": {
+    "Ash of War: Mighty Shot": 2
+  },
+  "Ash of War: Mighty Shot": {
+    "Longbow": 2
+  },
+  "Ash of War: Unsheathe": {
+    "Nagakiba": 2
+  },
+  "Ash of War: Royal Knight's Resolve": {
+    "Greatblade Phalanx": 2
+  },
+  "Bandit's Curved Sword": {
+    "Ash of War: Seppuku": 2
+  },
+  "Ash of War: Seppuku": {
+    "Bandit's Curved Sword": 2,
+    "Golden Vow": 2
+  },
+  "Ash of War: Flaming Strike": {
+    "Golden Vow": 3,
+    "Flame, Grant Me Strength": 2,
+    "Black Flame": 2,
+    "Fire Scorpion Charm": 2,
+    "Dragoncrest Greatshield Talisman": 2,
+    "Shard of Alexander": 2,
+    "Warrior Jar Shard": 2
+  },
+  "Ash of War: Bloody Slash": {
+    "Dragon Communion Seal": 3,
+    "Rotten Breath": 3,
+    "Jellyfish Shield": 2,
+    "Ash of War: Bloody Slash": 2,
+    "Golden Vow": 2,
+    "Blessing's Boon": 2,
+    "Lightning Spear": 2,
+    "Flame, Grant Me Strength": 2,
+    "Black Flame": 2,
+    "Stone of Gurranq": 2,
+    "Agheel's Flame": 2,
+    "Smarag's Glintstone Breath": 2
+  },
+  "Banished Knight's Shield": {
+    "Golden Vow": 2,
+    "Flame, Grant Me Strength": 2,
+    "Blessing's Boon": 2
+  },
+  "Dragon Communion Seal": {
+    "Ash of War: Bloody Slash": 3,
+    "Rotten Breath": 3,
+    "Golden Vow": 4,
+    "Flame, Grant Me Strength": 3
+  },
+  "Rotten Breath": {
+    "Dragon Communion Seal": 3,
+    "Ash of War: Bloody Slash": 3,
+    "Golden Vow": 2
+  },
+  "Agheel's Flame": {
+    "Ash of War: Bloody Slash": 2
+  },
+  "Smarag's Glintstone Breath": {
+    "Ash of War: Bloody Slash": 2
+  },
+  "Dragonmaw": {
+    "Golden Vow": 2
+  },
+  "Carian Filigreed Crest": {
+    "Shard of Alexander": 2
+  },
+  "Warrior Jar Shard": {
+    "Shard of Alexander": 6,
+    "Dragoncrest Greatshield Talisman": 3,
+    "Golden Vow": 4,
+    "Reduvia": 2,
+    "Millicent's Prosthesis": 2,
+    "Bull-Goat's Talisman": 2,
+    "Dagger Talisman": 2,
+    "Fire Scorpion Charm": 2,
+    "Rotten Winged Sword Insignia": 2,
+    "Ash of War: Flaming Strike": 2,
+    "Magic Scorpion Charm": 2,
+    "Ritual Sword Talisman": 2,
+    "Godfrey Icon": 2
+  },
+  "Green Turtle Talisman": {
+    "Axe Talisman": 2,
+    "Reduvia": 2,
+    "Dagger Talisman": 2
+  },
+  "Greatshield Talisman": {
+    "Curved Sword Talisman": 2
+  },
+  "Dragon King's Cragblade": {
+    "Axe Talisman": 2
+  },
+  "Reduvia": {
+    "Millicent's Prosthesis": 2,
+    "Bull-Goat's Talisman": 2,
+    "Lord of Blood's Exultation": 2,
+    "Shard of Alexander": 2,
+    "Warrior Jar Shard": 2,
+    "Dagger Talisman": 2,
+    "Green Turtle Talisman": 2,
+    "Reduvia": 2
+  },
+  "Wolf Crest Shield": {
+    "Millicent's Prosthesis": 2,
+    "Rotten Winged Sword Insignia": 2
+  }
+}
