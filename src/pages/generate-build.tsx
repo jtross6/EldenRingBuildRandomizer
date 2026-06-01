@@ -1,4 +1,4 @@
-// src/pages/generate-build.tsx
+import { useState, startTransition, useEffect } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import type { BuildPick, GeneratedPick, CommunityPick } from "../types/picks";
 import {
@@ -13,13 +13,22 @@ import {
 import { BuildIdentity } from "../components/equipment/build-identity";
 import { EquipmentSection } from "../components/equipment/equipment-section";
 import { ItemSlot } from "../components/equipment/item-slot";
+import { ItemDetailModal } from "../components/equipment/item-detail-modal";
 import { StatProfileDisplay } from "../components/generator/stat-profile-display";
 import { ArmorClassBadge } from "../components/generator/armor-class-badge";
 import { Toast } from "../components/toast";
 import { useToast } from "../hooks/use-toast";
 import { encodeBuild } from "../lib/build-codec";
+import { prefetchItemDetails } from "../hooks/use-item-details";
+import type { ItemCategory } from "../components/icons/item-icons";
 
 const PICK_KEY = "erbr-selected-pick";
+
+interface SelectedItem {
+  name: string;
+  category: ItemCategory;
+  slotId: string;
+}
 
 function loadPick(): BuildPick | null {
   try {
@@ -31,7 +40,15 @@ function loadPick(): BuildPick | null {
   }
 }
 
-function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
+function GeneratedBuildView({
+  pick,
+  selectedItem,
+  onSelectItem,
+}: {
+  pick: GeneratedPick;
+  selectedItem: SelectedItem | null;
+  onSelectItem: (name: string, category: ItemCategory, slotId: string) => void;
+}) {
   const { generated } = pick;
   const build = generated.build;
   const toast = useToast();
@@ -65,8 +82,13 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
               key={`r${i}`}
               itemName={weapons[idx]?.name ?? "Unknown"}
               slotLabel={`Right Hand ${i + 1}`}
+              slotId={`gen-right-${i}`}
               category="weapon"
               variant="standard"
+              onClick={() =>
+                onSelectItem(weapons[idx]?.name ?? "Unknown", "weapon", `gen-right-${i}`)
+              }
+              isActive={selectedItem?.slotId === `gen-right-${i}`}
             />
           ))}
           {build.weaponsLeft.map((idx, i) => (
@@ -74,8 +96,13 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
               key={`l${i}`}
               itemName={weapons[idx]?.name ?? "Unknown"}
               slotLabel={`Left Hand ${i + 1}`}
+              slotId={`gen-left-${i}`}
               category="weapon"
               variant="standard"
+              onClick={() =>
+                onSelectItem(weapons[idx]?.name ?? "Unknown", "weapon", `gen-left-${i}`)
+              }
+              isActive={selectedItem?.slotId === `gen-left-${i}`}
             />
           ))}
         </div>
@@ -91,8 +118,13 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
             <ItemSlot
               itemName={shields[build.shield]?.name ?? "None"}
               slotLabel="Shield"
+              slotId="gen-shield"
               category="shield"
               variant="standard"
+              onClick={() =>
+                onSelectItem(shields[build.shield]?.name ?? "None", "shield", "gen-shield")
+              }
+              isActive={selectedItem?.slotId === "gen-shield"}
             />
           </EquipmentSection>
         )}
@@ -101,8 +133,13 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
             <ItemSlot
               itemName={catalysts[build.catalyst]?.name ?? "None"}
               slotLabel="Seal / Staff"
+              slotId="gen-catalyst"
               category="seal"
               variant="standard"
+              onClick={() =>
+                onSelectItem(catalysts[build.catalyst]?.name ?? "None", "seal", "gen-catalyst")
+              }
+              isActive={selectedItem?.slotId === "gen-catalyst"}
             />
           </EquipmentSection>
         )}
@@ -114,8 +151,13 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
             <ItemSlot
               key={`tal-${i}`}
               itemName={talismans[idx]?.name ?? "Unknown"}
+              slotId={`gen-talisman-${i}`}
               category="talisman"
               variant="talisman"
+              onClick={() =>
+                onSelectItem(talismans[idx]?.name ?? "Unknown", "talisman", `gen-talisman-${i}`)
+              }
+              isActive={selectedItem?.slotId === `gen-talisman-${i}`}
             />
           ))}
         </div>
@@ -127,8 +169,13 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
             <ItemSlot
               key={`ash-${i}`}
               itemName={ashesOfWar[idx]?.name ?? "Unknown"}
+              slotId={`gen-ash-${i}`}
               category="ash"
               variant="compact"
+              onClick={() =>
+                onSelectItem(ashesOfWar[idx]?.name ?? "Unknown", "ash", `gen-ash-${i}`)
+              }
+              isActive={selectedItem?.slotId === `gen-ash-${i}`}
             />
           ))}
         </div>
@@ -141,16 +188,26 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
               <ItemSlot
                 key={`sorc-${i}`}
                 itemName={sorceries[idx]?.name ?? "Unknown"}
+                slotId={`gen-sorc-${i}`}
                 category="spell"
                 variant="compact"
+                onClick={() =>
+                  onSelectItem(sorceries[idx]?.name ?? "Unknown", "spell", `gen-sorc-${i}`)
+                }
+                isActive={selectedItem?.slotId === `gen-sorc-${i}`}
               />
             ))}
             {build.incantations.map((idx, i) => (
               <ItemSlot
                 key={`inc-${i}`}
                 itemName={incantations[idx]?.name ?? "Unknown"}
+                slotId={`gen-incant-${i}`}
                 category="spell"
                 variant="compact"
+                onClick={() =>
+                  onSelectItem(incantations[idx]?.name ?? "Unknown", "spell", `gen-incant-${i}`)
+                }
+                isActive={selectedItem?.slotId === `gen-incant-${i}`}
               />
             ))}
           </div>
@@ -174,7 +231,15 @@ function GeneratedBuildView({ pick }: { pick: GeneratedPick }) {
   );
 }
 
-function CommunityBuildView({ pick }: { pick: CommunityPick }) {
+function CommunityBuildView({
+  pick,
+  selectedItem,
+  onSelectItem,
+}: {
+  pick: CommunityPick;
+  selectedItem: SelectedItem | null;
+  onSelectItem: (name: string, category: ItemCategory, slotId: string) => void;
+}) {
   const { build } = pick;
 
   return (
@@ -190,8 +255,16 @@ function CommunityBuildView({ pick }: { pick: CommunityPick }) {
 
       <EquipmentSection title="Weapons">
         <div className="grid grid-cols-2 gap-2">
-          {build.weapons.map((w) => (
-            <ItemSlot key={w} itemName={w} category="weapon" variant="standard" />
+          {build.weapons.map((w, i) => (
+            <ItemSlot
+              key={w}
+              itemName={w}
+              slotId={`comm-weapon-${i}`}
+              category="weapon"
+              variant="standard"
+              onClick={() => onSelectItem(w, "weapon", `comm-weapon-${i}`)}
+              isActive={selectedItem?.slotId === `comm-weapon-${i}`}
+            />
           ))}
         </div>
       </EquipmentSection>
@@ -231,10 +304,23 @@ function CommunityBuildView({ pick }: { pick: CommunityPick }) {
 export function GenerateBuildPage() {
   const navigate = useNavigate();
   const pick = loadPick();
+  const [selectedItem, setSelectedItem] = useState<SelectedItem | null>(null);
+
+  useEffect(() => {
+    prefetchItemDetails();
+  }, []);
 
   if (!pick) {
     navigate({ to: "/generate" });
     return null;
+  }
+
+  function handleSelectItem(name: string, category: ItemCategory, slotId: string) {
+    startTransition(() => setSelectedItem({ name, category, slotId }));
+  }
+
+  function handleCloseModal() {
+    startTransition(() => setSelectedItem(null));
   }
 
   return (
@@ -250,9 +336,26 @@ export function GenerateBuildPage() {
       </div>
 
       {pick.kind === "generated" ? (
-        <GeneratedBuildView pick={pick} />
+        <GeneratedBuildView
+          pick={pick}
+          selectedItem={selectedItem}
+          onSelectItem={handleSelectItem}
+        />
       ) : (
-        <CommunityBuildView pick={pick} />
+        <CommunityBuildView
+          pick={pick}
+          selectedItem={selectedItem}
+          onSelectItem={handleSelectItem}
+        />
+      )}
+
+      {selectedItem && (
+        <ItemDetailModal
+          itemName={selectedItem.name}
+          category={selectedItem.category}
+          slotId={selectedItem.slotId}
+          onClose={handleCloseModal}
+        />
       )}
     </div>
   );
