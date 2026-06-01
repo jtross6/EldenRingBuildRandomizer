@@ -11,10 +11,7 @@ function randomSeed(): number {
   return (Math.random() * 0xffffffff) >>> 0;
 }
 
-export function generatePicks(
-  seedItems: SeedItem[],
-  creativity: number,
-): BuildPick[] {
+export function generatePicks(seedItems: SeedItem[], creativity: number): BuildPick[] {
   const picks: BuildPick[] = [];
 
   const communityMatches = matchCommunityBuilds(communityBuilds, seedItems, MAX_COMMUNITY);

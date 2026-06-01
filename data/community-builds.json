@@ -1042,7 +1042,7 @@
   },
   {
     "id": "freezingbattlemage",
-    "name": "Freezing Battlemage Build (Level 150)",
+    "name": "Freezing Battlemage Build\u00a0(Level 150)",
     "class": "",
     "primaryStats": [
       "intelligence"
@@ -1166,7 +1166,7 @@
   },
   {
     "id": "soulsamurai",
-    "name": "Elden Soul Samurai Build (Level 150-200 | Journey 2)",
+    "name": "Elden\u00a0Soul Samurai Build (Level 150-200 | Journey 2)",
     "class": "",
     "primaryStats": [
       "intelligence",
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "warriorwizard",
-    "name": "Warrior Wizard Build (Level 150-200 | Journey 2)",
+    "name": "Warrior Wizard\u00a0Build (Level 150-200 | Journey 2)",
     "class": "",
     "primaryStats": [
       "intelligence",
@@ -1420,7 +1420,7 @@
     ]
   },
   {
-    "id": "",
+    "id": "deathblade",
     "name": "Deathblade Build (Level 100)",
     "class": "",
     "primaryStats": [],
@@ -1573,7 +1573,7 @@
     ],
     "shield": "Greatshield",
     "armor": [
-      "Any Armor that has high Poise."
+      "Any\u00a0Armor that has high Poise."
     ],
     "talismans": [],
     "skills": [
@@ -1589,7 +1589,7 @@
   },
   {
     "id": "goldenswordsage",
-    "name": "Elden Golden Sword Sage Build (Level 150-200 | Journey 2)",
+    "name": "Elden\u00a0Golden Sword Sage Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "faith",
@@ -1625,7 +1625,7 @@
   },
   {
     "id": "swordsaint",
-    "name": "Elden Sword Saint Build (Level 150-200 | Journey 2)",
+    "name": "Elden\u00a0Sword Saint Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -1656,7 +1656,7 @@
   },
   {
     "id": "drakeknight",
-    "name": "Drake Knight Build (Level 150-200 | Journey 2)",
+    "name": "Drake Knight Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "strength",
@@ -1684,7 +1684,7 @@
   },
   {
     "id": "crucibleknight",
-    "name": "Crucible Knight Build (Level 150-200 | Journey 2)",
+    "name": "Crucible\u00a0Knight Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "strength",
@@ -1865,7 +1865,7 @@
   },
   {
     "id": "scorchingslayer",
-    "name": "Scorching Slayer Build (Level 100).",
+    "name": "Scorching Slayer\u00a0Build (Level 100).",
     "class": "",
     "primaryStats": [
       "strength",
@@ -1930,7 +1930,7 @@
   },
   {
     "id": "venomousbloodblade",
-    "name": "Venomous Bloodblade Build (Level 150)",
+    "name": "Venomous Bloodblade Build\u00a0(Level 150)",
     "class": "",
     "primaryStats": [
       "strength",
@@ -1958,7 +1958,7 @@
   },
   {
     "id": "blasphemousherald",
-    "name": "Blasphemous Herald Build (Level 150)",
+    "name": "Blasphemous Herald\u00a0Build (Level 150)",
     "class": "",
     "primaryStats": [
       "strength",
@@ -2021,7 +2021,7 @@
   },
   {
     "id": "blackblade",
-    "name": "Elden Black Blade Build (Level 150-200 | Journey 2)",
+    "name": "Elden\u00a0Black Blade\u00a0Build (Level 150-200 | Journey 2)",
     "class": "",
     "primaryStats": [
       "strength",
@@ -2051,7 +2051,7 @@
   },
   {
     "id": "godslayer",
-    "name": "Elden Godslayer Build (Level 150-200 | Journey 2)",
+    "name": "Elden\u00a0Godslayer\u00a0Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -2081,7 +2081,7 @@
   },
   {
     "id": "eldenlord",
-    "name": "Elden Lord Build (Level 150-200 | Journey 2)",
+    "name": "Elden Lord Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -2138,7 +2138,7 @@
   },
   {
     "id": "haimahoplite",
-    "name": "Haima Hoplite Build (All Game)",
+    "name": "Haima Hoplite\u00a0Build (All Game)",
     "class": "",
     "primaryStats": [
       "vigor",
@@ -2172,7 +2172,7 @@
   },
   {
     "id": "scarletspear",
-    "name": "Scarlet Spear Build (Level 150-200 | Journey 2)",
+    "name": "Scarlet Spear\u00a0Build (Level 150-200 | Journey 2)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -2197,7 +2197,7 @@
   },
   {
     "id": "supremesamurai",
-    "name": "Supreme Samurai Build (All Game)",
+    "name": "Supreme Samurai\u00a0Build (All Game)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -2224,7 +2224,7 @@
   },
   {
     "id": "samurai",
-    "name": "Samurai Build (Beginner)",
+    "name": "Samurai\u00a0Build (Beginner)",
     "class": "Samurai",
     "primaryStats": [
       "dexterity",
@@ -2399,7 +2399,7 @@
   },
   {
     "id": "howlingstarfist",
-    "name": "Howling Starfist Build (Level 150)",
+    "name": "Howling Starfist\u00a0Build (Level 150)",
     "class": "",
     "primaryStats": [
       "dexterity"
@@ -2453,7 +2453,7 @@
   },
   {
     "id": "cariancavalier",
-    "name": "Elden Carian Cavalier Build (Level 150-200 | Journey 2)",
+    "name": "Elden\u00a0Carian Cavalier Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -2480,7 +2480,7 @@
   },
   {
     "id": "slumberingswordstress",
-    "name": "Slumbering Swordstress Build (Level 150-200 | Journey 2)",
+    "name": "Slumbering Swordstress Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -2505,7 +2505,7 @@
   },
   {
     "id": "stormblade",
-    "name": "Stormblade Build (All Levels)",
+    "name": "Stormblade\u00a0Build (All Levels)",
     "class": "",
     "primaryStats": [
       "dexterity",
@@ -2558,7 +2558,7 @@
   },
   {
     "id": "bloodyballerina",
-    "name": "Bloody Ballerina Build (Level 150-200 | Journey 2)",
+    "name": "Bloody Ballerina Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "arcane",
@@ -2582,7 +2582,7 @@
   },
   {
     "id": "blooddragon",
-    "name": "Blood Dragon Build (Level 50)",
+    "name": "Blood Dragon\u00a0Build (Level 50)",
     "class": "Warrior or Bandit",
     "primaryStats": [
       "arcane",
@@ -2745,7 +2745,7 @@
   },
   {
     "id": "sanguinespellblade",
-    "name": "Sanguine Spellblade Build (Level 150-200 | Journey 2)",
+    "name": "Sanguine Spellblade Build (Level 150-200\u00a0| Journey 2)",
     "class": "",
     "primaryStats": [
       "arcane",
@@ -2979,11 +2979,11 @@
     ],
     "talismans": [
       "Rotten Winged Sword Insignia",
-      "Millicent’s Prosthesis",
+      "Millicent\u2019s Prosthesis",
       "Axe Talisman",
       "Dragoncrest Greatshield Talisman",
       "Dagger Talisman",
-      "Assassin’s Crimson Dagger",
+      "Assassin\u2019s Crimson Dagger",
       "Green Turtle Talisman",
       "Ritual Sword Talisman"
     ],

@@ -131,13 +131,7 @@ function GeneratedCard({
   );
 }
 
-export function BuildCard({
-  pick,
-  onSelect,
-}: {
-  pick: BuildPick;
-  onSelect: () => void;
-}) {
+export function BuildCard({ pick, onSelect }: { pick: BuildPick; onSelect: () => void }) {
   if (pick.kind === "community") {
     return <CommunityCard pick={pick} onSelect={onSelect} />;
   }
