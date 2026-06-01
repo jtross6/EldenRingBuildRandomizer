@@ -43,6 +43,27 @@ export function LandingPage() {
         </Link>
 
         <Link
+          to="/fate"
+          className="group relative overflow-hidden rounded-xl border border-border-dark bg-bg-card p-6 transition-all hover:border-gold-dim/50 hover:bg-bg-card-hover hover:shadow-[0_0_30px_rgba(200,169,81,0.1)]"
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+          <div className="relative flex items-center gap-5">
+            <div className="flex size-14 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-gold/20 to-gold/5 text-3xl">
+              &#128300;
+            </div>
+            <div className="min-w-0 flex-1">
+              <h2 className="font-display text-[17px] font-bold tracking-wide text-gold-light">
+                Path of Fate
+              </h2>
+              <p className="mt-1 text-[12px] leading-relaxed text-text-secondary">
+                The Erdtree reveals your calling. Discover a playstyle forged by fate
+                &mdash; pin your preferences or leave it all to chance.
+              </p>
+            </div>
+          </div>
+        </Link>
+
+        <Link
           to="/generate"
           onClick={handleGuidedHand}
           className="group relative overflow-hidden rounded-xl border border-border-dark bg-bg-card p-6 transition-all hover:border-gold-dim/50 hover:bg-bg-card-hover hover:shadow-[0_0_30px_rgba(200,169,81,0.1)]"
