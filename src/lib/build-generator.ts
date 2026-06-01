@@ -95,6 +95,195 @@ function determineArmorClass(
   return "medium";
 }
 
+const RANGED_CATEGORIES = new Set(["Bow", "Light Bow", "Crossbow", "Greatbow", "Ballista"]);
+
+function fillWeaponsByProfile(
+  loadoutProfile: LoadoutProfile,
+  seedItems: SeedItem[],
+  scoredWeapons: ScoredCandidate<(typeof weapons)[number]>[],
+  profile: ReturnType<typeof extractStatProfile>,
+  creativity: number,
+  rng: SeededRng,
+  seedWeaponIndices: Set<number>,
+  seedShieldIndices: Set<number>,
+  seedCatalystIndices: Set<number>,
+): {
+  weaponsRight: number[];
+  weaponsLeft: number[];
+  shieldIdx: number;
+  catalystIdx: number;
+} {
+  const excludeWeapons = new Set(seedWeaponIndices);
+  const weaponsRight: number[] = [];
+  const weaponsLeft: number[] = [];
+  let shieldIdx = -1;
+  let catalystIdx = -1;
+
+  const seedWeaponList = seedItems.filter((s) => s.type === "weapon");
+  const primarySeedIdx = seedWeaponList[0]?.index ?? -1;
+
+  switch (loadoutProfile) {
+    case "Pure Caster": {
+      // No weapons — just pick a catalyst
+      const hasSeedCatalyst = seedItems.some((s) => s.type === "catalyst");
+      if (hasSeedCatalyst) {
+        catalystIdx = seedItems.find((s) => s.type === "catalyst")!.index;
+      } else {
+        const scoredCatalysts = scoreCatalysts(catalysts, profile, seedItems);
+        const pick = pickFromPool(scoredCatalysts, creativity, rng, 1, seedCatalystIndices);
+        if (pick.length > 0) catalystIdx = pick[0].index;
+      }
+      break;
+    }
+
+    case "Spellblade": {
+      // 1 weapon right, catalyst in left
+      if (primarySeedIdx >= 0) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      } else {
+        const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      const hasSeedCatalyst = seedItems.some((s) => s.type === "catalyst");
+      if (hasSeedCatalyst) {
+        catalystIdx = seedItems.find((s) => s.type === "catalyst")!.index;
+      } else {
+        const scoredCatalysts = scoreCatalysts(catalysts, profile, seedItems);
+        const pick = pickFromPool(scoredCatalysts, creativity, rng, 1, seedCatalystIndices);
+        if (pick.length > 0) catalystIdx = pick[0].index;
+      }
+      break;
+    }
+
+    case "Sword & Board": {
+      // 1-2 weapons right, shield in left
+      if (primarySeedIdx >= 0) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      }
+      const neededRight = primarySeedIdx >= 0 ? rng.next() < 0.4 ? 1 : 0 : 1;
+      const additionalRight = pickFromPool(scoredWeapons, creativity, rng, neededRight, excludeWeapons);
+      for (const w of additionalRight) {
+        weaponsRight.push(w.index);
+        excludeWeapons.add(w.index);
+      }
+      // Ensure at least 1 weapon
+      if (weaponsRight.length === 0) {
+        const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      const hasSeedShield = seedItems.some((s) => s.type === "shield");
+      if (hasSeedShield) {
+        shieldIdx = seedItems.find((s) => s.type === "shield")!.index;
+      } else {
+        const scoredShields = scoreShields(shields, profile, seedItems);
+        const pick = pickFromPool(scoredShields, creativity, rng, 1, seedShieldIndices);
+        if (pick.length > 0) shieldIdx = pick[0].index;
+      }
+      break;
+    }
+
+    case "Two-hander": {
+      // 1 weapon right, empty left
+      if (primarySeedIdx >= 0) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      } else {
+        const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      break;
+    }
+
+    case "Powerstance": {
+      // 1 weapon right, 1 weapon of SAME CATEGORY left
+      if (primarySeedIdx >= 0) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      } else {
+        const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      if (weaponsRight.length > 0) {
+        const category = weapons[weaponsRight[0]]?.category;
+        if (category) {
+          const sameCatCandidates = scoredWeapons.filter((c) => c.item.category === category);
+          const pick = pickFromPool(sameCatCandidates, creativity, rng, 1, excludeWeapons);
+          if (pick.length > 0) {
+            weaponsLeft.push(pick[0].index);
+            excludeWeapons.add(pick[0].index);
+          }
+        }
+      }
+      break;
+    }
+
+    case "Ranged": {
+      // 1 bow/crossbow right, 1 melee backup left
+      if (primarySeedIdx >= 0 && RANGED_CATEGORIES.has(weapons[primarySeedIdx]?.category)) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      } else {
+        // Pick a ranged weapon
+        const rangedCandidates = scoredWeapons.filter((c) =>
+          RANGED_CATEGORIES.has(c.item.category),
+        );
+        const pick = pickFromPool(rangedCandidates, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      // Melee backup in left
+      const meleeCandidates = scoredWeapons.filter(
+        (c) => !RANGED_CATEGORIES.has(c.item.category),
+      );
+      const meleePick = pickFromPool(meleeCandidates, creativity, rng, 1, excludeWeapons);
+      if (meleePick.length > 0) {
+        weaponsLeft.push(meleePick[0].index);
+        excludeWeapons.add(meleePick[0].index);
+      }
+      break;
+    }
+
+    case "Dual Wield":
+    default: {
+      // 1 weapon right, 1 different weapon left
+      if (primarySeedIdx >= 0) {
+        weaponsRight.push(primarySeedIdx);
+        excludeWeapons.add(primarySeedIdx);
+      } else {
+        const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
+        if (pick.length > 0) {
+          weaponsRight.push(pick[0].index);
+          excludeWeapons.add(pick[0].index);
+        }
+      }
+      const leftPick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
+      if (leftPick.length > 0) {
+        weaponsLeft.push(leftPick[0].index);
+        excludeWeapons.add(leftPick[0].index);
+      }
+      break;
+    }
+  }
+
+  return { weaponsRight, weaponsLeft, shieldIdx, catalystIdx };
+}
+
 export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const { seedItems, creativity, seed } = input;
   const rng = createRng(seed);
@@ -117,52 +306,24 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
     seedItems.filter((s) => s.type === "ashOfWar").map((s) => s.index),
   );
 
-  // Fill weapons (3 right, 3 left)
-  const rightHandSeeds = seedItems
-    .filter((s) => s.type === "weapon")
-    .slice(0, 3)
-    .map((s) => s.index);
-  const neededRight = 3 - rightHandSeeds.length;
+  // Determine loadout profile first so weapon filling can use it
+  const loadoutProfile: LoadoutProfile = selectLoadoutProfile(seedItems, profile);
 
+  // Score weapons once for reuse
   const scoredWeapons = scoreWeapons(weapons, profile, seedItems, damageTypes);
-  const excludeWeapons = new Set(seedWeaponIndices);
-  const additionalRight = pickFromPool(scoredWeapons, creativity, rng, neededRight, excludeWeapons);
-  for (const w of additionalRight) excludeWeapons.add(w.index);
 
-  const weaponsRight = [...rightHandSeeds, ...additionalRight.map((w) => w.index)];
-
-  // Left hand: catalyst if INT/FTH build, otherwise more weapons
-  const hasIntOrFth = (profile.intelligence ?? 0) >= 0.15 || (profile.faith ?? 0) >= 0.15;
-  const hasSeedCatalyst = seedItems.some((s) => s.type === "catalyst");
-  const hasSeedShield = seedItems.some((s) => s.type === "shield");
-
-  let catalystIdx = -1;
-  let shieldIdx = -1;
-  const weaponsLeft: number[] = [];
-
-  if (hasSeedCatalyst) {
-    catalystIdx = seedItems.find((s) => s.type === "catalyst")!.index;
-  } else if (hasIntOrFth) {
-    const scoredCatalysts = scoreCatalysts(catalysts, profile, seedItems);
-    const pick = pickFromPool(scoredCatalysts, creativity, rng, 1, seedCatalystIndices);
-    if (pick.length > 0) catalystIdx = pick[0].index;
-  }
-
-  if (hasSeedShield) {
-    shieldIdx = seedItems.find((s) => s.type === "shield")!.index;
-  } else if (!hasIntOrFth && !hasSeedCatalyst) {
-    const scoredShields = scoreShields(shields, profile, seedItems);
-    const pick = pickFromPool(scoredShields, creativity, rng, 1, seedShieldIndices);
-    if (pick.length > 0) shieldIdx = pick[0].index;
-  }
-
-  // Fill left hand weapons
-  const neededLeft = 3;
-  const additionalLeft = pickFromPool(scoredWeapons, creativity, rng, neededLeft, excludeWeapons);
-  for (const w of additionalLeft) {
-    weaponsLeft.push(w.index);
-    excludeWeapons.add(w.index);
-  }
+  // Fill weapons by profile
+  const { weaponsRight, weaponsLeft, shieldIdx, catalystIdx } = fillWeaponsByProfile(
+    loadoutProfile,
+    seedItems,
+    scoredWeapons,
+    profile,
+    creativity,
+    rng,
+    seedWeaponIndices,
+    seedShieldIndices,
+    seedCatalystIndices,
+  );
 
   // Talismans (4)
   const scoredTalismans = scoreTalismans(talismans, seedItems);
@@ -177,11 +338,12 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   );
   const talismanIndices = [...talismanSeeds, ...additionalTalismans.map((t) => t.index)];
 
-  // Ashes of War (3)
+  // Ashes of War (scaled to weapon count)
   const allWeaponCategories = getWeaponCategories(seedItems, [...weaponsRight, ...weaponsLeft]);
   const scoredAshes = scoreAshes(ashesOfWar, profile, seedItems, allWeaponCategories);
   const ashSeeds = seedItems.filter((s) => s.type === "ashOfWar").map((s) => s.index);
-  const neededAshes = 3 - ashSeeds.length;
+  const ashCount = Math.max(1, weaponsRight.length + weaponsLeft.length);
+  const neededAshes = Math.min(ashCount, 3) - ashSeeds.length;
   const additionalAshes = pickFromPool(scoredAshes, creativity, rng, neededAshes, seedAshIndices);
   const ashIndices = [...ashSeeds, ...additionalAshes.map((a) => a.index)];
 
@@ -234,8 +396,6 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
     sorceries: sorceryIndices,
     incantations: incantationIndices,
   };
-
-  const loadoutProfile: LoadoutProfile = selectLoadoutProfile(seedItems, profile);
 
   return {
     build,
