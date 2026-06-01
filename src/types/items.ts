@@ -2,18 +2,34 @@ export interface Weapon {
   name: string;
   category: string;
   weight: number;
+  scaling?: Record<string, number>;
+  requirements?: Record<string, number>;
+  damageTypes?: string[];
+  statusEffects?: Record<string, number>;
+  allowAshOfWar?: boolean;
+  defaultSkillId?: number;
 }
 
 export interface Shield {
   name: string;
   category: string;
   weight: number;
+  scaling?: Record<string, number>;
+  requirements?: Record<string, number>;
+  damageTypes?: string[];
+  statusEffects?: Record<string, number>;
+  allowAshOfWar?: boolean;
+  defaultSkillId?: number;
 }
 
 export interface Catalyst {
   name: string;
   category: string;
   weight: number;
+  scaling?: Record<string, number>;
+  requirements?: Record<string, number>;
+  damageTypes?: string[];
+  statusEffects?: Record<string, number>;
 }
 
 export interface ArmorPiece {

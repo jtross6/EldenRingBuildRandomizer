@@ -2,396 +2,1299 @@
   {
     "name": "Albinauric Shield",
     "category": "Medium Shield",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Ant's Skull Plate",
     "category": "Greatshield",
-    "weight": 13.5
+    "weight": 13.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 28
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "poison": 90
+    },
+    "defaultSkillId": 300
   },
   {
     "name": "Banished Knight's Shield",
     "category": "Medium Shield",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Beast Crest Heater Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Beastman's Jar-Shield",
     "category": "Medium Shield",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Black Leather Shield",
     "category": "Medium Shield",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Black Steel Greatshield",
     "category": "Greatshield",
-    "weight": 19.5
+    "weight": 19.5,
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 35
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Blue Crest Heater Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Blue-Gold Kite Shield",
     "category": "Medium Shield",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Blue-White Wooden Shield",
     "category": "Small Shield",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Brass Shield",
     "category": "Medium Shield",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Briar Greatshield",
     "category": "Greatshield",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 21
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 70
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Buckler",
     "category": "Small Shield",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 303
   },
   {
     "name": "Candletree Wooden Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Carian Knight's Shield",
     "category": "Medium Shield",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.4,
+      "intelligence": 0.3
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Carian Thrusting Shield",
     "category": "Thrusting Shield",
-    "weight": 10.5
+    "weight": 10.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 17,
+      "dexterity": 13,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Coil Shield",
     "category": "Small Shield",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "poison": 72
+    },
+    "defaultSkillId": 1007
   },
   {
     "name": "Crossed-Tree Towershield",
     "category": "Greatshield",
-    "weight": 16
+    "weight": 16,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Crucible Hornshield",
     "category": "Greatshield",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 26
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 300
   },
   {
     "name": "Cuckoo Greatshield",
     "category": "Greatshield",
-    "weight": 15
+    "weight": 15,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 32
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Distinguished Greatshield",
     "category": "Greatshield",
-    "weight": 17
+    "weight": 17,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 32
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Dragon Towershield",
     "category": "Greatshield",
-    "weight": 17.5
+    "weight": 17.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Dragonclaw Shield",
     "category": "Greatshield",
-    "weight": 13.5
+    "weight": 13.5,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 28,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical",
+      "lightning"
+    ],
+    "defaultSkillId": 300
   },
   {
     "name": "Dueling Shield",
     "category": "Thrusting Shield",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Eclipse Crest Greatshield",
     "category": "Greatshield",
-    "weight": 15
+    "weight": 15,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 32
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Eclipse Crest Heater Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Erdtree Greatshield",
     "category": "Greatshield",
-    "weight": 13.5
+    "weight": 13.5,
+    "scaling": {
+      "strength": 0.5,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 30,
+      "faith": 12
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1196
   },
   {
     "name": "Fingerprint Stone Shield",
     "category": "Greatshield",
-    "weight": 29
+    "weight": 29,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 48
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "madness": 70
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Flame Crest Wooden Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Gilded Greatshield",
     "category": "Greatshield",
-    "weight": 17.5
+    "weight": 17.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 36
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Gilded Iron Shield",
     "category": "Small Shield",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Golden Beast Crest Shield",
     "category": "Greatshield",
-    "weight": 12.5
+    "weight": 12.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 24
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Golden Greatshield",
     "category": "Greatshield",
-    "weight": 17
+    "weight": 17,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 34
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Golden Lion Shield",
     "category": "Medium Shield",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Great Turtle Shell",
     "category": "Medium Shield",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 301
   },
   {
     "name": "Haligtree Crest Greatshield",
     "category": "Greatshield",
-    "weight": 18.5
+    "weight": 18.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 36
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Hawk Crest Wooden Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Heater Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Horse Crest Wooden Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Ice Crest Shield",
     "category": "Small Shield",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Icon Shield",
     "category": "Greatshield",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 22
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
   },
   {
     "name": "Inverted Hawk Heater Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Inverted Hawk Towershield",
     "category": "Greatshield",
-    "weight": 16
+    "weight": 16,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Iron Roundshield",
     "category": "Small Shield",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Jellyfish Shield",
     "category": "Greatshield",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1197
   },
   {
     "name": "Kite Shield",
     "category": "Medium Shield",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Large Leather Shield",
     "category": "Medium Shield",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Lordsworn's Shield",
     "category": "Greatshield",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Man-Serpent's Shield",
     "category": "Small Shield",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Manor Towershield",
     "category": "Greatshield",
-    "weight": 16
+    "weight": 16,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Marred Leather Shield",
     "category": "Medium Shield",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Marred Wooden Shield",
     "category": "Medium Shield",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Messmer Soldier Shield",
     "category": "Medium Shield",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "One-Eyed Shield",
     "category": "Greatshield",
-    "weight": 20.5
+    "weight": 20.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 36
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1001
   },
   {
     "name": "Perfumer's Shield",
     "category": "Small Shield",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Pillory Shield",
     "category": "Small Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Red Crest Heater Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Red Thorn Roundshield",
     "category": "Small Shield",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Redmane Greatshield",
     "category": "Greatshield",
-    "weight": 14
+    "weight": 14,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 30
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Rickety Shield",
     "category": "Small Shield",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Rift Shield",
     "category": "Small Shield",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Riveted Wooden Shield",
     "category": "Small Shield",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Round Shield",
     "category": "Medium Shield",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Scorpion Kite Shield",
     "category": "Medium Shield",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Scripture Wooden Shield",
     "category": "Small Shield",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Serpent Crest Shield",
     "category": "Medium Shield",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Shield of Night",
     "category": "Small Shield",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Shield of the Guilty",
     "category": "Small Shield",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Silver Mirrorshield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4,
+      "intelligence": 0.3
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 10,
+      "intelligence": 10
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 10
   },
   {
     "name": "Smithscript Shield",
     "category": "Small Shield",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 15,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Smoldering Shield",
     "category": "Small Shield",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.24,
+      "faith": 0.4
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 9,
+      "faith": 12
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 300
   },
   {
     "name": "Spiked Palisade Shield",
     "category": "Greatshield",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 70
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 300
   },
   {
     "name": "Spiralhorn Shield",
     "category": "Small Shield",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.24
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 45
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Sun Realm Shield",
     "category": "Medium Shield",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Twinbird Kite Shield",
     "category": "Medium Shield",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.4
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   },
   {
     "name": "Verdigris Greatshield",
     "category": "Greatshield",
-    "weight": 28
+    "weight": 28,
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 49
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Visage Shield",
     "category": "Greatshield",
-    "weight": 24
+    "weight": 24,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 44
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1002
   },
   {
     "name": "Wolf Crest Shield",
     "category": "Medium Shield",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.25
+    },
+    "requirements": {
+      "strength": 12
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Wooden Greatshield",
     "category": "Greatshield",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.5
+    },
+    "requirements": {
+      "strength": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 10
   }
 ]

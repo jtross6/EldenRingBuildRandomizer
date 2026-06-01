@@ -2,1841 +2,6847 @@
   {
     "name": "Alabaster Lord's Sword",
     "category": "Greatsword",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.58,
+      "dexterity": 0.2,
+      "intelligence": 0.3
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 12,
+      "intelligence": 18
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1040
   },
   {
     "name": "Albinauric Bow",
     "category": "Bow",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 402
   },
   {
     "name": "Ancient Meteoric Ore Greatsword",
     "category": "Colossal Sword",
-    "weight": 22
+    "weight": 22,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 35,
+      "dexterity": 10,
+      "arcane": 19
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Ansbach's Longbow",
     "category": "Bow",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 43
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Antspur Rapier",
     "category": "Thrusting Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.36,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "scarlet_rot": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Anvil Hammer",
     "category": "Colossal Weapon",
-    "weight": 22
+    "weight": 22,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1,
+      "intelligence": 0.1,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 39,
+      "dexterity": 10,
+      "intelligence": 11,
+      "faith": 20
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Arbalest",
     "category": "Crossbow",
-    "weight": 6
+    "weight": 6,
+    "requirements": {
+      "strength": 18,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Axe of Godfrey",
     "category": "Colossal Weapon",
-    "weight": 18
+    "weight": 18,
+    "scaling": {
+      "strength": 0.47,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 42,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1031
   },
   {
     "name": "Axe of Godrick",
     "category": "Greataxe",
-    "weight": 11
+    "weight": 11,
+    "scaling": {
+      "strength": 0.48,
+      "dexterity": 0.4
+    },
+    "requirements": {
+      "strength": 34,
+      "dexterity": 22
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1030
   },
   {
     "name": "Backhand Blade",
     "category": "Backhand Blade",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Bandit's Curved Sword",
     "category": "Curved Sword",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.48
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Banished Knight's Greatsword",
     "category": "Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.44,
+      "dexterity": 0.36
+    },
+    "requirements": {
+      "strength": 17,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Banished Knight's Halberd",
     "category": "Halberd",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.52
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 105
   },
   {
     "name": "Barbed Staff-Spear",
     "category": "Great Spear",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.1,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 18,
+      "faith": 22
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Bastard Sword",
     "category": "Greatsword",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.27
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Bastard's Stars",
     "category": "Flail",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.35,
+      "intelligence": 0.8
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 22,
+      "intelligence": 22
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1047
   },
   {
     "name": "Battle Axe",
     "category": "Axe",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.48,
+      "dexterity": 0.33
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 110
   },
   {
     "name": "Battle Hammer",
     "category": "Great Hammer",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.79,
+      "dexterity": 0.14
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 654
   },
   {
     "name": "Beast Claw (Weapon)",
     "category": "Beast Claw",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Beast-Repellent Torch",
     "category": "Torch",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.61,
+      "dexterity": 0.18
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 117
   },
   {
     "name": "Beastclaw Greathammer",
     "category": "Great Hammer",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.43,
+      "dexterity": 0.38,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 10,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1044
   },
   {
     "name": "Beastman's Cleaver",
     "category": "Curved Greatsword",
-    "weight": 16.5
+    "weight": 16.5,
+    "scaling": {
+      "strength": 0.76
+    },
+    "requirements": {
+      "strength": 25,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Beastman's Curved Sword",
     "category": "Curved Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.65,
+      "dexterity": 0.18
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Black Bow",
     "category": "Bow",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.18,
+      "dexterity": 0.26
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 401
   },
   {
     "name": "Black Knife",
     "category": "Dagger",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.55,
+      "faith": 0.35
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 12,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1036
   },
   {
     "name": "Black Steel Greathammer",
     "category": "Great Hammer",
-    "weight": 12
+    "weight": 12,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 25,
+      "dexterity": 11,
+      "faith": 17
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Black Steel Twinblade",
     "category": "Twinblade",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 15,
+      "faith": 13
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Blade of Calling",
     "category": "Dagger",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.38,
+      "faith": 0.75
+    },
+    "requirements": {
+      "strength": 6,
+      "dexterity": 13,
+      "faith": 15
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1037
   },
   {
     "name": "Blasphemous Blade",
     "category": "Greatsword",
-    "weight": 13.5
+    "weight": 13.5,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.35,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 15,
+      "faith": 21
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1014
   },
   {
     "name": "Bloodfiend's Arm",
     "category": "Colossal Weapon",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 28,
+      "dexterity": 11,
+      "arcane": 16
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Bloodfiend's Fork",
     "category": "Spear",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 8,
+      "arcane": 13
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Bloodfiend's Sacred Spear",
     "category": "Great Spear",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.1,
+      "arcane": 0.5
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 12,
+      "arcane": 13
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Bloodhound Claws",
     "category": "Claw",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.43,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 60
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 801
   },
   {
     "name": "Bloodhound's Fang",
     "category": "Curved Greatsword",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.41,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 17
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "defaultSkillId": 1175
   },
   {
     "name": "Bloodstained Dagger",
     "category": "Dagger",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.7,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 38
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Bloody Helice",
     "category": "Heavy Thrusting Sword",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.35,
+      "arcane": 0.5
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 19,
+      "arcane": 17
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "defaultSkillId": 1171
   },
   {
     "name": "Bolt of Gransax",
     "category": "Spear",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.4
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 40
+    },
+    "damageTypes": [
+      "physical",
+      "lightning"
+    ],
+    "defaultSkillId": 1049
   },
   {
     "name": "Bone Bow",
     "category": "Light Bow",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Bonny Butchering Knife",
     "category": "Greataxe",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Brick Hammer",
     "category": "Great Hammer",
-    "weight": 12.5
+    "weight": 12.5,
+    "scaling": {
+      "strength": 0.96
+    },
+    "requirements": {
+      "strength": 31
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Broadsword",
     "category": "Straight Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.22
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 115
   },
   {
     "name": "Butchering Knife",
     "category": "Greataxe",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.73
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Caestus",
     "category": "Fist",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.48,
+      "dexterity": 0.43
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Cane Sword",
     "category": "Straight Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.55
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 115
   },
   {
     "name": "Carian Knight's Sword",
     "category": "Straight Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.26,
+      "intelligence": 0.32
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10,
+      "intelligence": 18
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 218
   },
   {
     "name": "Carian Sorcery Sword",
     "category": "Thrusting Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 19,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Celebrant's Cleaver",
     "category": "Axe",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.49,
+      "dexterity": 0.32
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 110
   },
   {
     "name": "Celebrant's Rib-Rake",
     "category": "Spear",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.57
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Celebrant's Sickle",
     "category": "Dagger",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.67
+    },
+    "requirements": {
+      "strength": 6,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Celebrant's Skull",
     "category": "Great Hammer",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.42,
+      "dexterity": 0.42
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Chainlink Flail",
     "category": "Flail",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.78,
+      "dexterity": 0.13
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 125
   },
   {
     "name": "Chilling Perfume Bottle",
     "category": "Perfume Bottle",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "dexterity": 0.25,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 3,
+      "dexterity": 13,
+      "intelligence": 13
+    },
+    "damageTypes": [
+      "magic"
+    ]
   },
   {
     "name": "Cinquedea",
     "category": "Dagger",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.57,
+      "dexterity": 0.17
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 800
   },
   {
     "name": "Cipher Pata",
     "category": "Fist",
-    "weight": 0
+    "weight": 0,
+    "scaling": {
+      "faith": 0.8
+    },
+    "requirements": {
+      "faith": 30
+    },
+    "damageTypes": [
+      "holy"
+    ],
+    "defaultSkillId": 1191
   },
   {
     "name": "Claws of Night",
     "category": "Beast Claw",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Clayman's Harpoon",
     "category": "Spear",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.15,
+      "intelligence": 0.3
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 10,
+      "intelligence": 12
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Claymore",
     "category": "Greatsword",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.49,
+      "dexterity": 0.34
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 100
   },
   {
     "name": "Cleanrot Knight's Sword",
     "category": "Thrusting Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.45,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Cleanrot Spear",
     "category": "Spear",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.35,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 16,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1187
   },
   {
     "name": "Clinging Bone",
     "category": "Fist",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.65,
+      "arcane": 0.35
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 22,
+      "arcane": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 205
   },
   {
     "name": "Club",
     "category": "Hammer",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.75
+    },
+    "requirements": {
+      "strength": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Coded Sword",
     "category": "Straight Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "faith": 0.95
+    },
+    "requirements": {
+      "faith": 20
+    },
+    "damageTypes": [
+      "holy"
+    ],
+    "defaultSkillId": 1054
   },
   {
     "name": "Commander's Standard",
     "category": "Halberd",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1010
   },
   {
     "name": "Composite Bow",
     "category": "Light Bow",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.28
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 402
   },
   {
     "name": "Cranial Vessel Candlestand",
     "category": "Great Hammer",
-    "weight": 12.5
+    "weight": 12.5,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.15,
+      "faith": 0.55
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 8,
+      "faith": 22
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1000
   },
   {
     "name": "Crepus's Black-Key Crossbow",
     "category": "Crossbow",
-    "weight": 5
+    "weight": 5,
+    "requirements": {
+      "strength": 14,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Crescent Moon Axe",
     "category": "Greataxe",
-    "weight": 12.5
+    "weight": 12.5,
+    "scaling": {
+      "strength": 0.39,
+      "dexterity": 0.49
+    },
+    "requirements": {
+      "strength": 25,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 651
   },
   {
     "name": "Cross-Naginata",
     "category": "Spear",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Crystal Knife",
     "category": "Dagger",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.25,
+      "intelligence": 0.5
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 12,
+      "intelligence": 9
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 800
   },
   {
     "name": "Crystal Spear",
     "category": "Spear",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.21,
+      "dexterity": 0.51,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 16,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 101
   },
   {
     "name": "Crystal Sword",
     "category": "Straight Sword",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.45,
+      "dexterity": 0.15,
+      "intelligence": 0.32
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 10,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 103
   },
   {
     "name": "Curseblade's Cirque",
     "category": "Backhand Blade",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 22
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Curved Club",
     "category": "Hammer",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.62,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 7
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Curved Great Club",
     "category": "Great Hammer",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.49,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Dagger",
     "category": "Dagger",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.65
+    },
+    "requirements": {
+      "strength": 5,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Dancing Blade of Ranah",
     "category": "Curved Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "dexterity": 0.75
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Dane's Footwork",
     "category": "Hand-to-Hand Art",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Dark Moon Greatsword",
     "category": "Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.7
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 11,
+      "intelligence": 38
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "frostbite": 55
+    },
+    "defaultSkillId": 1008
   },
   {
     "name": "Deadly Poison Perfume Bottle",
     "category": "Perfume Bottle",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "dexterity": 0.25,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 3,
+      "dexterity": 13,
+      "arcane": 18
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Death Knight's Longhaft Axe",
     "category": "Greataxe",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 23,
+      "dexterity": 10,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "lightning"
+    ]
   },
   {
     "name": "Death Knight's Twin Axes",
     "category": "Axe",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 12,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "lightning"
+    ]
   },
   {
     "name": "Death Ritual Spear",
     "category": "Spear",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.23,
+      "dexterity": 0.53,
+      "intelligence": 0.3
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 20,
+      "intelligence": 18
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1024
   },
   {
     "name": "Death's Poker",
     "category": "Greatsword",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.5,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 17,
+      "intelligence": 11
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "frostbite": 65
+    },
+    "defaultSkillId": 1048
   },
   {
     "name": "Devonia's Hammer",
     "category": "Colossal Weapon",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 13,
+      "faith": 19
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Devourer's Scepter",
     "category": "Great Hammer",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.48,
+      "dexterity": 0.48,
+      "faith": 0.37
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 20,
+      "faith": 25
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1183
   },
   {
     "name": "Dismounter",
     "category": "Curved Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.47,
+      "dexterity": 0.37
+    },
+    "requirements": {
+      "strength": 19,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Dragon Greatclaw",
     "category": "Colossal Weapon",
-    "weight": 16
+    "weight": 16,
+    "scaling": {
+      "strength": 0.45,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical",
+      "lightning"
+    ],
+    "defaultSkillId": 700
   },
   {
     "name": "Dragon Halberd",
     "category": "Halberd",
-    "weight": 10.5
+    "weight": 10.5,
+    "scaling": {
+      "strength": 0.51,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1166
   },
   {
     "name": "Dragon King's Cragblade",
     "category": "Heavy Thrusting Sword",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.23,
+      "dexterity": 0.57
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 37
+    },
+    "damageTypes": [
+      "physical",
+      "lightning"
+    ],
+    "defaultSkillId": 1026
   },
   {
     "name": "Dragon-Hunter's Great Katana",
     "category": "Great Katana",
-    "weight": 10.5
+    "weight": 10.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Dragonscale Blade",
     "category": "Katana",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1043
   },
   {
     "name": "Dryleaf Arts",
     "category": "Hand-to-Hand Art",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Duelist Greataxe",
     "category": "Colossal Weapon",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.17,
+      "dexterity": 0.58
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Eclipse Shotel",
     "category": "Curved Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.35,
+      "faith": 0.45
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 25,
+      "faith": 30
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1174
   },
   {
     "name": "Eleonora's Poleblade",
     "category": "Twinblade",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.4,
+      "arcane": 0.3
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 21,
+      "arcane": 19
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "defaultSkillId": 1179
   },
   {
     "name": "Envoy's Greathorn",
     "category": "Colossal Weapon",
-    "weight": 19.5
+    "weight": 19.5,
+    "scaling": {
+      "strength": 0.48,
+      "dexterity": 0.48,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 28,
+      "dexterity": 12,
+      "faith": 24
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1005
   },
   {
     "name": "Envoy's Horn",
     "category": "Hammer",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.37,
+      "dexterity": 0.44,
+      "faith": 0.37
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 12,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1003
   },
   {
     "name": "Envoy's Long Horn",
     "category": "Great Hammer",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.38,
+      "dexterity": 0.27,
+      "faith": 0.6
+    },
+    "requirements": {
+      "strength": 23,
+      "dexterity": 11,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1004
   },
   {
     "name": "Erdsteel Dagger",
     "category": "Dagger",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.3,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 12,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Erdtree Bow",
     "category": "Bow",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.12,
+      "dexterity": 0.15,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 12,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 402
   },
   {
     "name": "Erdtree Greatbow",
     "category": "Greatbow",
-    "weight": 11
+    "weight": 11,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.15,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 400
   },
   {
     "name": "Estoc",
     "category": "Thrusting Sword",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.14,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Euporia",
     "category": "Twinblade",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 16,
+      "faith": 24
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Executioner's Greataxe",
     "category": "Greataxe",
-    "weight": 15
+    "weight": 15,
+    "scaling": {
+      "strength": 0.64,
+      "dexterity": 0.12
+    },
+    "requirements": {
+      "strength": 34,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 651
   },
   {
     "name": "Falchion",
     "category": "Curved Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.44,
+      "dexterity": 0.44
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Fallingstar Beast Jaw",
     "category": "Colossal Weapon",
-    "weight": 21.5
+    "weight": 21.5,
+    "scaling": {
+      "strength": 0.41,
+      "dexterity": 0.41,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 34,
+      "dexterity": 12,
+      "intelligence": 20
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1194
   },
   {
     "name": "Falx",
     "category": "Curved Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Family Heads",
     "category": "Flail",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.8,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 18,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1184
   },
   {
     "name": "Fire Knight's Greatsword",
     "category": "Colossal Sword",
-    "weight": 16
+    "weight": 16,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 18,
+      "faith": 12
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Fire Knight's Shortsword",
     "category": "Straight Sword",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 13,
+      "faith": 12
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Firespark Perfume Bottle",
     "category": "Perfume Bottle",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 3,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "fire"
+    ]
   },
   {
     "name": "Flail",
     "category": "Flail",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.34,
+      "dexterity": 0.52
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 125
   },
   {
     "name": "Flamberge",
     "category": "Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.27,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Flowerstone Gavel",
     "category": "Hammer",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 8,
+      "arcane": 15
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Flowing Curved Sword",
     "category": "Curved Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.55
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 17
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Forked Greatsword",
     "category": "Greatsword",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Forked Hatchet",
     "category": "Axe",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.29,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Forked-Tongue Hatchet",
     "category": "Axe",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Frenzyflame Perfume Bottle",
     "category": "Perfume Bottle",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 3,
+      "dexterity": 10,
+      "intelligence": 12,
+      "faith": 12
+    },
+    "damageTypes": [
+      "fire"
+    ]
   },
   {
     "name": "Freyja's Greatsword",
     "category": "Curved Greatsword",
-    "weight": 14
+    "weight": 14,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 25,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Frozen Needle",
     "category": "Thrusting Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "frostbite": 60
+    },
+    "defaultSkillId": 101
   },
   {
     "name": "Full Moon Crossbow",
     "category": "Crossbow",
-    "weight": 4
+    "weight": 4,
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10,
+      "intelligence": 14
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Gargoyle's Black Axe",
     "category": "Greataxe",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.47,
+      "dexterity": 0.1,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 8,
+      "faith": 22
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 651
   },
   {
     "name": "Gargoyle's Black Blades",
     "category": "Twinblade",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.66,
+      "dexterity": 0.1,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 15,
+      "faith": 22
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 103
   },
   {
     "name": "Gargoyle's Black Halberd",
     "category": "Halberd",
-    "weight": 12
+    "weight": 12,
+    "scaling": {
+      "strength": 0.47,
+      "dexterity": 0.15,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 10,
+      "faith": 22
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 103
   },
   {
     "name": "Gargoyle's Blackblade",
     "category": "Greatsword",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.15,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 10,
+      "faith": 22
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1167
   },
   {
     "name": "Gargoyle's Great Axe",
     "category": "Greataxe",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.84,
+      "dexterity": 0.07
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 651
   },
   {
     "name": "Gargoyle's Greatsword",
     "category": "Greatsword",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.76,
+      "dexterity": 0.05
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 220
   },
   {
     "name": "Gargoyle's Halberd",
     "category": "Halberd",
-    "weight": 12
+    "weight": 12,
+    "scaling": {
+      "strength": 0.74,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Gargoyle's Twinblade",
     "category": "Twinblade",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.66,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Gazing Finger",
     "category": "Colossal Weapon",
-    "weight": 15
+    "weight": 15,
+    "scaling": {
+      "strength": 0.5,
+      "intelligence": 0.25,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 8,
+      "intelligence": 20,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Ghiza's Wheel",
     "category": "Colossal Weapon",
-    "weight": 19
+    "weight": 19,
+    "scaling": {
+      "strength": 0.42,
+      "dexterity": 0.42
+    },
+    "requirements": {
+      "strength": 28,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 70
+    },
+    "defaultSkillId": 1039
   },
   {
     "name": "Ghostflame Torch",
     "category": "Torch",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.2,
+      "intelligence": 0.45
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10,
+      "intelligence": 14
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "frostbite": 65
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 117
   },
   {
     "name": "Giant-Crusher",
     "category": "Colossal Weapon",
-    "weight": 26.5
+    "weight": 26.5,
+    "scaling": {
+      "strength": 0.86
+    },
+    "requirements": {
+      "strength": 60
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Giant's Red Braid",
     "category": "Whip",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.25,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 12,
+      "faith": 21
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1045
   },
   {
     "name": "Glaive",
     "category": "Halberd",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.45,
+      "dexterity": 0.43
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Glintstone Kris",
     "category": "Dagger",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.45,
+      "intelligence": 0.4
+    },
+    "requirements": {
+      "strength": 5,
+      "dexterity": 12,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1017
   },
   {
     "name": "Godskin Peeler",
     "category": "Twinblade",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.19,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 17,
+      "dexterity": 22
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 221
   },
   {
     "name": "Godskin Stitcher",
     "category": "Heavy Thrusting Sword",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.42,
+      "dexterity": 0.42
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 17
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Godslayer's Greatsword",
     "category": "Colossal Sword",
-    "weight": 17.5
+    "weight": 17.5,
+    "scaling": {
+      "strength": 0.31,
+      "dexterity": 0.56,
+      "faith": 0.4
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 22,
+      "faith": 20
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1170
   },
   {
     "name": "Golden Epitaph",
     "category": "Straight Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.3,
+      "faith": 0.38
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 10,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1053
   },
   {
     "name": "Golden Halberd",
     "category": "Halberd",
-    "weight": 13.5
+    "weight": 13.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.15,
+      "faith": 0.32
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 14,
+      "faith": 12
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 603
   },
   {
     "name": "Golden Order Greatsword",
     "category": "Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.3,
+      "faith": 0.64
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 21,
+      "faith": 28
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1022
   },
   {
     "name": "Golem Fist",
     "category": "Fist",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 8,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Golem Greatbow",
     "category": "Greatbow",
-    "weight": 14.5
+    "weight": 14.5,
+    "scaling": {
+      "strength": 0.45,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 400
   },
   {
     "name": "Golem's Halberd",
     "category": "Colossal Weapon",
-    "weight": 21.5
+    "weight": 21.5,
+    "scaling": {
+      "strength": 0.58,
+      "dexterity": 0.26
+    },
+    "requirements": {
+      "strength": 36,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 105
   },
   {
     "name": "Grafted Blade Greatsword",
     "category": "Colossal Sword",
-    "weight": 21
+    "weight": 21,
+    "scaling": {
+      "strength": 0.63,
+      "dexterity": 0.19
+    },
+    "requirements": {
+      "strength": 40,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1042
   },
   {
     "name": "Grafted Dragon",
     "category": "Fist",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.25,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1011
   },
   {
     "name": "Grave Scythe",
     "category": "Reaper",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.42,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 17,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Great Club",
     "category": "Colossal Weapon",
-    "weight": 17
+    "weight": 17,
+    "scaling": {
+      "strength": 0.81,
+      "faith": 0.2
+    },
+    "requirements": {
+      "strength": 35
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 213
   },
   {
     "name": "Great Épée",
     "category": "Heavy Thrusting Sword",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.38,
+      "dexterity": 0.47
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Great Katana",
     "category": "Great Katana",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Great Knife",
     "category": "Dagger",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.05,
+      "dexterity": 0.8
+    },
+    "requirements": {
+      "strength": 6,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 38
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Great Mace",
     "category": "Great Hammer",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.8
+    },
+    "requirements": {
+      "strength": 28
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Great Omenkiller Cleaver",
     "category": "Greataxe",
-    "weight": 11
+    "weight": 11,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 23,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 110
   },
   {
     "name": "Great Stars",
     "category": "Great Hammer",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.53,
+      "dexterity": 0.37
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Greataxe",
     "category": "Greataxe",
-    "weight": 13
+    "weight": 13,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.31
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Greatbow",
     "category": "Greatbow",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 400
   },
   {
     "name": "Greathorn Hammer",
     "category": "Great Hammer",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.39
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Greatsword",
     "category": "Colossal Sword",
-    "weight": 23
+    "weight": 23,
+    "scaling": {
+      "strength": 0.61,
+      "dexterity": 0.18
+    },
+    "requirements": {
+      "strength": 31,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Greatsword of Damnation",
     "category": "Greatsword",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 15,
+      "faith": 20
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Greatsword of Radahn (Light)",
     "category": "Colossal Sword",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.1
+    },
+    "requirements": {
+      "strength": 32,
+      "dexterity": 24,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Greatsword of Radahn (Lord)",
     "category": "Colossal Sword",
-    "weight": 19
+    "weight": 19,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.1
+    },
+    "requirements": {
+      "strength": 32,
+      "dexterity": 24,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Greatsword of Solitude",
     "category": "Greatsword",
-    "weight": 15.5
+    "weight": 15.5,
+    "scaling": {
+      "strength": 0.75,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 27,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Grossmesser",
     "category": "Curved Sword",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.47,
+      "dexterity": 0.36
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Guardian's Swordspear",
     "category": "Halberd",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.05,
+      "dexterity": 0.64
+    },
+    "requirements": {
+      "strength": 17,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Halberd",
     "category": "Halberd",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.54,
+      "dexterity": 0.38
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 105
   },
   {
     "name": "Halo Scythe",
     "category": "Reaper",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.28,
+      "dexterity": 0.42,
+      "faith": 0.2
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 16,
+      "faith": 15
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "defaultSkillId": 1051
   },
   {
     "name": "Hammer",
     "category": "Hammer",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.6,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 7
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Hand Axe",
     "category": "Axe",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.55
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Hand Ballista",
     "category": "Ballista",
-    "weight": 10
+    "weight": 10,
+    "requirements": {
+      "strength": 30,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Hand of Malenia",
     "category": "Katana",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.05,
+      "dexterity": 0.75
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 48
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "defaultSkillId": 1028
   },
   {
     "name": "Harp Bow",
     "category": "Light Bow",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.12,
+      "dexterity": 0.15
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 401
   },
   {
     "name": "Heavy Crossbow",
     "category": "Crossbow",
-    "weight": 5.5
+    "weight": 5.5,
+    "requirements": {
+      "strength": 14,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Helphen's Steeple",
     "category": "Greatsword",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.1,
+      "intelligence": 0.5
+    },
+    "requirements": {
+      "strength": 19,
+      "dexterity": 10,
+      "intelligence": 22
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1021
   },
   {
     "name": "Highland Axe",
     "category": "Axe",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.42,
+      "dexterity": 0.36
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 651
   },
   {
     "name": "Hookclaws",
     "category": "Claw",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.22,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 60
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Horn Bow",
     "category": "Bow",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.21,
+      "dexterity": 0.26,
+      "intelligence": 0.1
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 14,
+      "intelligence": 12
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 402
   },
   {
     "name": "Horned Warrior's Greatsword",
     "category": "Curved Greatsword",
-    "weight": 13
+    "weight": 13,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 19,
+      "dexterity": 16,
+      "faith": 13
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Horned Warrior's Sword",
     "category": "Curved Sword",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Hoslow's Petal Whip",
     "category": "Whip",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.28,
+      "dexterity": 0.43
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Icerind Hatchet",
     "category": "Axe",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "frostbite": 65
+    },
+    "defaultSkillId": 501
   },
   {
     "name": "Igon's Greatbow",
     "category": "Greatbow",
-    "weight": 12.5
+    "weight": 12.5,
+    "requirements": {
+      "strength": 23,
+      "dexterity": 16
+    }
   },
   {
     "name": "Inquisitor's Girandole",
     "category": "Spear",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.35,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 15,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "defaultSkillId": 105
   },
   {
     "name": "Inseparable Sword",
     "category": "Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.27,
+      "dexterity": 0.27,
+      "faith": 0.6
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 18,
+      "faith": 20
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 201
   },
   {
     "name": "Iron Ball",
     "category": "Fist",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.56,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Iron Cleaver",
     "category": "Axe",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.74,
+      "dexterity": 0.18
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 7
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 110
   },
   {
     "name": "Iron Greatsword",
     "category": "Greatsword",
-    "weight": 12
+    "weight": 12,
+    "scaling": {
+      "strength": 0.65,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Iron Spear",
     "category": "Spear",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.44,
+      "dexterity": 0.33
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 105
   },
   {
     "name": "Ivory Sickle",
     "category": "Dagger",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.23,
+      "dexterity": 0.59,
+      "intelligence": 0.4
+    },
+    "requirements": {
+      "strength": 6,
+      "dexterity": 11,
+      "intelligence": 13
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 800
   },
   {
     "name": "Jar Cannon",
     "category": "Ballista",
-    "weight": 15
+    "weight": 15,
+    "requirements": {
+      "strength": 34,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Jawbone Axe",
     "category": "Axe",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.6,
+      "dexterity": 0.22
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 110
   },
   {
     "name": "Katar",
     "category": "Fist",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.45
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Knight's Greatsword",
     "category": "Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.33,
+      "dexterity": 0.44
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Lamenting Visage",
     "category": "Torch",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.75
+    },
+    "requirements": {
+      "strength": 9
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Lance",
     "category": "Great Spear",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.4
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 105
   },
   {
     "name": "Large Club",
     "category": "Great Hammer",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.74
+    },
+    "requirements": {
+      "strength": 22
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Lazuli Glintstone Sword",
     "category": "Straight Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.38,
+      "dexterity": 0.15,
+      "intelligence": 0.3
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 9,
+      "intelligence": 13
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 203
   },
   {
     "name": "Leda's Sword",
     "category": "Light Greatsword",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 22,
+      "faith": 19
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Light Crossbow",
     "category": "Crossbow",
-    "weight": 4
+    "weight": 4,
+    "requirements": {
+      "strength": 12,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Lightning Perfume Bottle",
     "category": "Perfume Bottle",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 3,
+      "dexterity": 16,
+      "faith": 14
+    },
+    "damageTypes": [
+      "lightning"
+    ]
   },
   {
     "name": "Lion Greatbow",
     "category": "Greatbow",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1169
   },
   {
     "name": "Lizard Greatsword",
     "category": "Greatsword",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Longbow",
     "category": "Bow",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.26
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 402
   },
   {
     "name": "Longhaft Axe",
     "category": "Greataxe",
-    "weight": 12.5
+    "weight": 12.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.39
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 651
   },
   {
     "name": "Longsword",
     "category": "Straight Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.33
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 115
   },
   {
     "name": "Lordsworn's Greatsword",
     "category": "Greatsword",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.43,
+      "dexterity": 0.37
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Lordsworn's Straight Sword",
     "category": "Straight Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.36,
+      "dexterity": 0.36
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 115
   },
   {
     "name": "Loretta's War Sickle",
     "category": "Halberd",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.36,
+      "dexterity": 0.45,
+      "intelligence": 0.4
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 15,
+      "intelligence": 20
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1165
   },
   {
     "name": "Lucerne",
     "category": "Halberd",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 105
   },
   {
     "name": "Mace",
     "category": "Hammer",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 7
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Madding Hand",
     "category": "Fist",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 8,
+      "intelligence": 13,
+      "faith": 20
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Magma Blade",
     "category": "Curved Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.45,
+      "dexterity": 0.31,
+      "faith": 0.4
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 15,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1172
   },
   {
     "name": "Magma Whip Candlestick",
     "category": "Whip",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.5,
+      "faith": 0.38
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 16,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1006
   },
   {
     "name": "Magma Wyrm's Scalesword",
     "category": "Curved Greatsword",
-    "weight": 15
+    "weight": 15,
+    "scaling": {
+      "strength": 0.6,
+      "dexterity": 0.25,
+      "faith": 0.55
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 15,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 1176
   },
   {
     "name": "Main-gauche",
     "category": "Dagger",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Maliketh's Black Blade",
     "category": "Colossal Sword",
-    "weight": 22
+    "weight": 22,
+    "scaling": {
+      "strength": 0.62,
+      "dexterity": 0.15,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 34,
+      "dexterity": 12,
+      "faith": 20
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1038
   },
   {
     "name": "Mantis Blade",
     "category": "Curved Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.36,
+      "dexterity": 0.48
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Marais Executioner's Sword",
     "category": "Greatsword",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.63,
+      "dexterity": 0.07,
+      "arcane": 0.3
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 14,
+      "arcane": 23
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1012
   },
   {
     "name": "Marika's Hammer",
     "category": "Hammer",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.31,
+      "faith": 0.4
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 12,
+      "faith": 19
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1029
   },
   {
     "name": "Messmer Soldier's Axe",
     "category": "Axe",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Messmer Soldier's Spear",
     "category": "Great Spear",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 19,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Meteoric Ore Blade",
     "category": "Katana",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.45,
+      "dexterity": 0.17,
+      "intelligence": 0.36
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 14,
+      "intelligence": 18
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "defaultSkillId": 209
   },
   {
     "name": "Milady",
     "category": "Light Greatsword",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 17
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Miquellan Knight's Sword",
     "category": "Straight Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.29,
+      "dexterity": 0.29,
+      "faith": 0.2
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 11,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 201
   },
   {
     "name": "Misbegotten Shortbow",
     "category": "Light Bow",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.26,
+      "dexterity": 0.14
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 401
   },
   {
     "name": "Miséricorde",
     "category": "Dagger",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Mohgwyn's Sacred Spear",
     "category": "Great Spear",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.15,
+      "arcane": 0.4
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 14,
+      "arcane": 27
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "defaultSkillId": 1034
   },
   {
     "name": "Monk's Flameblade",
     "category": "Curved Greatsword",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.37,
+      "dexterity": 0.52
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Monk's Flamemace",
     "category": "Hammer",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Moonrithyll's Knight Sword",
     "category": "Colossal Sword",
-    "weight": 18
+    "weight": 18,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14,
+      "intelligence": 18
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Moonveil",
     "category": "Katana",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.12,
+      "dexterity": 0.5,
+      "intelligence": 0.6
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 18,
+      "intelligence": 23
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "defaultSkillId": 1178
   },
   {
     "name": "Morgott's Cursed Sword",
     "category": "Curved Greatsword",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.6,
+      "arcane": 0.3
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 35,
+      "arcane": 17
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 60
+    },
+    "defaultSkillId": 1027
   },
   {
     "name": "Morning Star",
     "category": "Hammer",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.47,
+      "dexterity": 0.37
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Nagakiba",
     "category": "Katana",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.27,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 22
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 45
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 114
   },
   {
     "name": "Nanaya's Torch",
     "category": "Torch",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.1,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10,
+      "intelligence": 14,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Nightrider Flail",
     "category": "Flail",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.21,
+      "dexterity": 0.66
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 24
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 125
   },
   {
     "name": "Nightrider Glaive",
     "category": "Halberd",
-    "weight": 12
+    "weight": 12,
+    "scaling": {
+      "strength": 0.79,
+      "dexterity": 0.05
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Noble's Estoc",
     "category": "Thrusting Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.37,
+      "dexterity": 0.37
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Noble's Slender Sword",
     "category": "Straight Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.12,
+      "dexterity": 0.7
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 115
   },
   {
     "name": "Nox Flowing Hammer",
     "category": "Hammer",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.69,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 17,
+      "dexterity": 7
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1035
   },
   {
     "name": "Nox Flowing Sword",
     "category": "Curved Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1018
   },
   {
     "name": "Obsidian Lamina",
     "category": "Reaper",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 25,
+      "arcane": 17
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Omen Cleaver",
     "category": "Curved Greatsword",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.44,
+      "dexterity": 0.43
+    },
+    "requirements": {
+      "strength": 19,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Onyx Lord's Greatsword",
     "category": "Curved Greatsword",
-    "weight": 11.5
+    "weight": 11.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1,
+      "intelligence": 0.5
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 16,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1041
   },
   {
     "name": "Ordovis's Greatsword",
     "category": "Greatsword",
-    "weight": 12
+    "weight": 12,
+    "scaling": {
+      "strength": 0.79,
+      "dexterity": 0.1,
+      "faith": 0.35
+    },
+    "requirements": {
+      "strength": 25,
+      "dexterity": 13,
+      "faith": 15
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1198
   },
   {
     "name": "Ornamental Straight Sword",
     "category": "Straight Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.55
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1052
   },
   {
     "name": "Parrying Dagger",
     "category": "Dagger",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.16,
+      "dexterity": 0.76
+    },
+    "requirements": {
+      "strength": 5,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 302
   },
   {
     "name": "Partisan",
     "category": "Spear",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.41,
+      "dexterity": 0.29
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Pata",
     "category": "Fist",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Pest's Glaive",
     "category": "Halberd",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.36,
+      "dexterity": 0.59
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Pickaxe",
     "category": "Great Hammer",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 22,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Pike",
     "category": "Spear",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.49,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 105
   },
   {
     "name": "Poisoned Hand",
     "category": "Fist",
-    "weight": 1
+    "weight": 1,
+    "scaling": {
+      "strength": 0.1,
+      "arcane": 0.5
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 8,
+      "arcane": 28
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Poleblade of the Bud",
     "category": "Halberd",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 22,
+      "arcane": 20
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Prelate's Inferno Crozier",
     "category": "Colossal Weapon",
-    "weight": 23.5
+    "weight": 23.5,
+    "scaling": {
+      "strength": 0.76,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 45,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 113
   },
   {
     "name": "Pulley Bow",
     "category": "Bow",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.27,
+      "dexterity": 0.27
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 402
   },
   {
     "name": "Pulley Crossbow",
     "category": "Crossbow",
-    "weight": 4
+    "weight": 4,
+    "requirements": {
+      "strength": 16,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Putrescence Cleaver",
     "category": "Greataxe",
-    "weight": 13.5
+    "weight": 13.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "arcane": 0.25
+    },
+    "requirements": {
+      "strength": 28,
+      "dexterity": 10,
+      "arcane": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Queelign's Greatsword",
     "category": "Heavy Thrusting Sword",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 18,
+      "faith": 12
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Rabbath's Cannon",
     "category": "Ballista",
-    "weight": 15
+    "weight": 15,
+    "requirements": {
+      "strength": 28,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Rakshasa's Great Katana",
     "category": "Great Katana",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 27
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Rapier",
     "category": "Thrusting Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Raptor Talons",
     "category": "Claw",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.72
+    },
+    "requirements": {
+      "strength": 6,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 60
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Red Bear's Claw",
     "category": "Beast Claw",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Red Branch Shortbow",
     "category": "Light Bow",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.14,
+      "dexterity": 0.26
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 401
   },
   {
     "name": "Reduvia",
     "category": "Dagger",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.4,
+      "arcane": 0.55
+    },
+    "requirements": {
+      "strength": 5,
+      "dexterity": 13,
+      "arcane": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "defaultSkillId": 1016
   },
   {
     "name": "Regalia of Eochaid",
     "category": "Straight Sword",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.37,
+      "arcane": 0.37
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 18,
+      "arcane": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1055
   },
   {
     "name": "Rellana's Twin Blades",
     "category": "Light Greatsword",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 16,
+      "intelligence": 16,
+      "faith": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic",
+      "fire"
+    ]
   },
   {
     "name": "Repeating Crossbow",
     "category": "Crossbow",
-    "weight": 6
+    "weight": 6,
+    "requirements": {
+      "strength": 13,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Ringed Finger",
     "category": "Hammer",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.6,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1046
   },
   {
     "name": "Ripple Blade",
     "category": "Axe",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "arcane": 1.58
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 11,
+      "arcane": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 110
   },
   {
     "name": "Ripple Crescent Halberd",
     "category": "Halberd",
-    "weight": 8.5
+    "weight": 8.5,
+    "scaling": {
+      "arcane": 1.35
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 12,
+      "arcane": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 103
   },
   {
     "name": "Rivers of Blood",
     "category": "Katana",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5,
+      "arcane": 0.33
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 18,
+      "arcane": 20
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "defaultSkillId": 1177
   },
   {
     "name": "Rogier's Rapier",
     "category": "Thrusting Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.76
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 17
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 109
   },
   {
     "name": "Rosus' Axe",
     "category": "Axe",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.22,
+      "intelligence": 0.45
+    },
+    "requirements": {
+      "strength": 18,
+      "dexterity": 10,
+      "intelligence": 18
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1185
   },
   {
     "name": "Rotten Battle Hammer",
     "category": "Great Hammer",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.79,
+      "dexterity": 0.15
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "scarlet_rot": 65
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 654
   },
   {
     "name": "Rotten Crystal Spear",
     "category": "Spear",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.21,
+      "dexterity": 0.51,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 16,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "scarlet_rot": 55
+    },
+    "defaultSkillId": 105
   },
   {
     "name": "Rotten Crystal Sword",
     "category": "Straight Sword",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.44,
+      "dexterity": 0.15,
+      "intelligence": 0.32
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 10,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "scarlet_rot": 50
+    },
+    "defaultSkillId": 103
   },
   {
     "name": "Rotten Greataxe",
     "category": "Colossal Weapon",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.17,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "scarlet_rot": 65
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Rotten Staff",
     "category": "Colossal Weapon",
-    "weight": 18
+    "weight": 18,
+    "scaling": {
+      "strength": 0.53,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 34,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "scarlet_rot": 75
+    },
+    "defaultSkillId": 1193
   },
   {
     "name": "Royal Greatsword",
     "category": "Colossal Sword",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.37,
+      "dexterity": 0.15,
+      "intelligence": 0.4
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 18,
+      "intelligence": 22
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1025
   },
   {
     "name": "Ruins Greatsword",
     "category": "Colossal Sword",
-    "weight": 23
+    "weight": 23,
+    "scaling": {
+      "strength": 1.05,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 50,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1033
   },
   {
     "name": "Rusted Anchor",
     "category": "Greataxe",
-    "weight": 12.5
+    "weight": 12.5,
+    "scaling": {
+      "strength": 0.68,
+      "dexterity": 0.14
+    },
+    "requirements": {
+      "strength": 26,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Sacred Relic Sword",
     "category": "Greatsword",
-    "weight": 11
+    "weight": 11,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.56,
+      "faith": 0.36
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 24,
+      "faith": 22
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1020
   },
   {
     "name": "Sacrificial Axe",
     "category": "Axe",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.46,
+      "dexterity": 0.32
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 110
   },
   {
     "name": "Scavenger's Curved Sword",
     "category": "Curved Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 45
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Scepter of the All-Knowing",
     "category": "Hammer",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.47,
+      "intelligence": 0.47
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 18,
+      "intelligence": 21
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1182
   },
   {
     "name": "Scimitar",
     "category": "Curved Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.57
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Scorpion's Stinger",
     "category": "Dagger",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.3,
+      "dexterity": 0.7
+    },
+    "requirements": {
+      "strength": 6,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "scarlet_rot": 50
+    },
+    "defaultSkillId": 109
   },
   {
     "name": "Scythe",
     "category": "Reaper",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.23,
+      "dexterity": 0.65
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Sentry's Torch",
     "category": "Torch",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "faith": 0.47
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 8,
+      "faith": 15
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 117
   },
   {
     "name": "Serpent Bow",
     "category": "Bow",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.3,
+      "arcane": 0.3
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 15,
+      "arcane": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 402
   },
   {
     "name": "Serpent Flail",
     "category": "Flail",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 24,
+      "faith": 21
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Serpent-God's Curved Sword",
     "category": "Curved Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.55,
+      "dexterity": 0.2
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Serpent-Hunter",
     "category": "Great Spear",
-    "weight": 12
+    "weight": 12,
+    "scaling": {
+      "strength": 0.95,
+      "dexterity": 0.05
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1188
   },
   {
     "name": "Serpentbone Blade",
     "category": "Katana",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.75
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 22
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "poison": 66
+    },
+    "defaultSkillId": 112
   },
   {
     "name": "Shadow Sunflower Blossom",
     "category": "Colossal Weapon",
-    "weight": 16
+    "weight": 16,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 8,
+      "faith": 25
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Shamshir",
     "category": "Curved Sword",
-    "weight": 3.5
+    "weight": 3.5,
+    "scaling": {
+      "strength": 0.36,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Short Spear",
     "category": "Spear",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.33,
+      "dexterity": 0.44
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Short Sword",
     "category": "Straight Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.37,
+      "dexterity": 0.48
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Shortbow",
     "category": "Light Bow",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.17,
+      "dexterity": 0.17
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 401
   },
   {
     "name": "Shotel",
     "category": "Curved Sword",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.18,
+      "dexterity": 0.58
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 19
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Siluria's Tree",
     "category": "Great Spear",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.58,
+      "dexterity": 0.15,
+      "faith": 0.45
+    },
+    "requirements": {
+      "strength": 27,
+      "dexterity": 13,
+      "faith": 20
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1009
   },
   {
     "name": "Smithscript Axe",
     "category": "Axe",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 13,
+      "dexterity": 10,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Smithscript Cirque",
     "category": "Backhand Blade",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 14,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Smithscript Dagger",
     "category": "Throwing Blade",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 5,
+      "dexterity": 11,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Smithscript Greathammer",
     "category": "Great Hammer",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 10,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Smithscript Spear",
     "category": "Spear",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 12,
+      "intelligence": 11,
+      "faith": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Soldier's Crossbow",
     "category": "Crossbow",
-    "weight": 3.5
+    "weight": 3.5,
+    "requirements": {
+      "strength": 10,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 503
   },
   {
     "name": "Spear",
     "category": "Spear",
-    "weight": 4.5
+    "weight": 4.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.55
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Spear of the Impaler",
     "category": "Great Spear",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 35,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ]
   },
   {
     "name": "Spiked Caestus",
     "category": "Fist",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.48,
+      "dexterity": 0.43
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 45
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Spiked Club",
     "category": "Hammer",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.54,
+      "dexterity": 0.42
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 7
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 650
   },
   {
     "name": "Spiked Spear",
     "category": "Spear",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.37,
+      "dexterity": 0.37
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 101
   },
   {
     "name": "Spirit Glaive",
     "category": "Halberd",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.25,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 17,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Spirit Sword",
     "category": "Curved Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 16,
+      "intelligence": 16
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Spread Crossbow",
     "category": "Crossbow",
-    "weight": 5
+    "weight": 5,
+    "requirements": {
+      "strength": 11,
+      "dexterity": 17
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "St. Trina's Torch",
     "category": "Torch",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.25,
+      "faith": 0.45
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "statusEffects": {
+      "sleep": 72
+    },
+    "defaultSkillId": 1195
   },
   {
     "name": "Staff of the Avatar",
     "category": "Colossal Weapon",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.84,
+      "dexterity": 0.2,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 34,
+      "dexterity": 8,
+      "faith": 24
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 1193
   },
   {
     "name": "Star Fist",
     "category": "Fist",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.56,
+      "dexterity": 0.17
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 45
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 700
   },
   {
     "name": "Star-Lined Sword",
     "category": "Katana",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 23,
+      "intelligence": 21
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Starscourge Greatsword",
     "category": "Colossal Sword",
-    "weight": 20
+    "weight": 20,
+    "scaling": {
+      "strength": 0.52,
+      "dexterity": 0.28,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 38,
+      "dexterity": 12,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1032
   },
   {
     "name": "Steel-Wire Torch",
     "category": "Torch",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.65
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 223
   },
   {
     "name": "Stone Club",
     "category": "Hammer",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.75,
+      "dexterity": 0.15
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Stone-Sheathed Sword",
     "category": "Straight Sword",
-    "weight": 5
+    "weight": 5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Stormhawk Axe",
     "category": "Axe",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.44,
+      "dexterity": 0.34
+    },
+    "requirements": {
+      "strength": 19,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1186
   },
   {
     "name": "Swift Spear",
     "category": "Spear",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 26
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Sword Lance",
     "category": "Heavy Thrusting Sword",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.1
+    },
+    "requirements": {
+      "strength": 21,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Sword of Darkness",
     "category": "Straight Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 11,
+      "faith": 24
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Sword of Light",
     "category": "Straight Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.1,
+      "faith": 0.1
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 11,
+      "faith": 24
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ]
   },
   {
     "name": "Sword of Milos",
     "category": "Greatsword",
-    "weight": 10
+    "weight": 10,
+    "scaling": {
+      "strength": 0.34,
+      "dexterity": 0.47
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 19
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "defaultSkillId": 1015
   },
   {
     "name": "Sword of Night",
     "category": "Katana",
-    "weight": 6.5
+    "weight": 6.5,
+    "scaling": {
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Sword of Night and Flame",
     "category": "Straight Sword",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.14,
+      "dexterity": 0.14,
+      "intelligence": 0.5,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 12,
+      "dexterity": 12,
+      "intelligence": 24,
+      "faith": 24
+    },
+    "damageTypes": [
+      "physical",
+      "magic",
+      "fire"
+    ],
+    "defaultSkillId": 1019
   },
   {
     "name": "Sword of St. Trina",
     "category": "Straight Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.28,
+      "dexterity": 0.4,
+      "intelligence": 0.2
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 12,
+      "intelligence": 14
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "statusEffects": {
+      "sleep": 66
+    },
+    "defaultSkillId": 1023
   },
   {
     "name": "Thiollier's Hidden Needle",
     "category": "Fist",
-    "weight": 0.5
+    "weight": 0.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.5,
+      "intelligence": 0.25
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 22,
+      "intelligence": 15
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Thorned Whip",
     "category": "Whip",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 50
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Tooth Whip",
     "category": "Whip",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 24
+    },
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Torch",
     "category": "Torch",
-    "weight": 1.5
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.35
+    },
+    "requirements": {
+      "strength": 5,
+      "dexterity": 5
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 117
   },
   {
     "name": "Torchpole",
     "category": "Spear",
-    "weight": 6
+    "weight": 6,
+    "scaling": {
+      "strength": 0.41,
+      "dexterity": 0.41
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 105
   },
   {
     "name": "Treespear",
     "category": "Great Spear",
-    "weight": 9.5
+    "weight": 9.5,
+    "scaling": {
+      "strength": 0.25,
+      "dexterity": 0.44,
+      "faith": 0.3
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 22,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 604
   },
   {
     "name": "Troll Knight's Sword",
     "category": "Colossal Sword",
-    "weight": 18
+    "weight": 18,
+    "scaling": {
+      "strength": 0.43,
+      "dexterity": 0.43,
+      "intelligence": 0.28
+    },
+    "requirements": {
+      "strength": 20,
+      "dexterity": 14,
+      "intelligence": 18
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 653
   },
   {
     "name": "Troll's Golden Sword",
     "category": "Colossal Sword",
-    "weight": 19
+    "weight": 19,
+    "scaling": {
+      "strength": 0.53,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 29,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 653
   },
   {
     "name": "Troll's Hammer",
     "category": "Colossal Weapon",
-    "weight": 16
+    "weight": 16,
+    "scaling": {
+      "strength": 0.7,
+      "dexterity": 0.15,
+      "faith": 0.25
+    },
+    "requirements": {
+      "strength": 28,
+      "dexterity": 8,
+      "faith": 10
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "defaultSkillId": 653
   },
   {
     "name": "Twinblade",
     "category": "Twinblade",
-    "weight": 7
+    "weight": 7,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.43
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Twinned Knight Swords",
     "category": "Twinblade",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.54,
+      "dexterity": 0.24
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Uchigatana",
     "category": "Katana",
-    "weight": 5.5
+    "weight": 5.5,
+    "scaling": {
+      "strength": 0.36,
+      "dexterity": 0.55
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 15
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 45
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 114
   },
   {
     "name": "Urumi",
     "category": "Whip",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.15,
+      "dexterity": 0.7
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 19
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Varré's Bouquet",
     "category": "Hammer",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.4,
+      "arcane": 0.65
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 16,
+      "arcane": 24
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 65
+    },
+    "defaultSkillId": 108
   },
   {
     "name": "Velvet Sword of St Trina",
     "category": "Straight Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.25,
+      "intelligence": 0.1
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 12,
+      "intelligence": 14
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ]
   },
   {
     "name": "Venomous Fang",
     "category": "Claw",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.38,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "poison": 72
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Veteran's Prosthesis",
     "category": "Fist",
-    "weight": 4
+    "weight": 4,
+    "scaling": {
+      "strength": 0.42,
+      "dexterity": 0.33
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 12
+    },
+    "damageTypes": [
+      "physical",
+      "lightning"
+    ],
+    "defaultSkillId": 1190
   },
   {
     "name": "Vulgar Militia Saw",
     "category": "Halberd",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.35,
+      "dexterity": 0.56
+    },
+    "requirements": {
+      "strength": 15,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Vulgar Militia Shotel",
     "category": "Halberd",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.8
+    },
+    "requirements": {
+      "strength": 14,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Vyke's War Spear",
     "category": "Great Spear",
-    "weight": 8
+    "weight": 8,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.6,
+      "faith": 0.4
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 20,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical",
+      "fire"
+    ],
+    "statusEffects": {
+      "madness": 65
+    },
+    "defaultSkillId": 1050
   },
   {
     "name": "Wakizashi",
     "category": "Dagger",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.34,
+      "dexterity": 0.45
+    },
+    "requirements": {
+      "strength": 9,
+      "dexterity": 13
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "bleed": 38
+    },
+    "allowAshOfWar": true,
+    "defaultSkillId": 800
   },
   {
     "name": "Warhawk's Talon",
     "category": "Straight Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.28,
+      "dexterity": 0.6
+    },
+    "requirements": {
+      "strength": 10,
+      "dexterity": 16
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 103
   },
   {
     "name": "Warped Axe",
     "category": "Axe",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.85
+    },
+    "requirements": {
+      "strength": 24,
+      "dexterity": 8
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 651
   },
   {
     "name": "Warpick",
     "category": "Hammer",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.41,
+      "dexterity": 0.41
+    },
+    "requirements": {
+      "strength": 11,
+      "dexterity": 9
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Watchdog's Greatsword",
     "category": "Colossal Sword",
-    "weight": 22
+    "weight": 22,
+    "scaling": {
+      "strength": 0.85,
+      "dexterity": 0.06
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   },
   {
     "name": "Watchdog's Staff",
     "category": "Colossal Weapon",
-    "weight": 19
+    "weight": 19,
+    "scaling": {
+      "strength": 0.48,
+      "dexterity": 0.3
+    },
+    "requirements": {
+      "strength": 34,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1192
   },
   {
     "name": "Weathered Straight Sword",
     "category": "Straight Sword",
-    "weight": 3
+    "weight": 3,
+    "scaling": {
+      "strength": 0.34,
+      "dexterity": 0.44
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 115
   },
   {
     "name": "Whip",
     "category": "Whip",
-    "weight": 2
+    "weight": 2,
+    "scaling": {
+      "strength": 0.34,
+      "dexterity": 0.45
+    },
+    "requirements": {
+      "strength": 8,
+      "dexterity": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 503
   },
   {
     "name": "Wing of Astel",
     "category": "Curved Sword",
-    "weight": 2.5
+    "weight": 2.5,
+    "scaling": {
+      "strength": 0.1,
+      "dexterity": 0.45,
+      "intelligence": 0.55
+    },
+    "requirements": {
+      "strength": 7,
+      "dexterity": 17,
+      "intelligence": 20
+    },
+    "damageTypes": [
+      "physical",
+      "magic"
+    ],
+    "defaultSkillId": 1173
   },
   {
     "name": "Winged Greathorn",
     "category": "Greataxe",
-    "weight": 11
+    "weight": 11,
+    "scaling": {
+      "strength": 0.5,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 30,
+      "dexterity": 20
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 1013
   },
   {
     "name": "Winged Scythe",
     "category": "Reaper",
-    "weight": 7.5
+    "weight": 7.5,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.35,
+      "faith": 0.45
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 16,
+      "faith": 24
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "statusEffects": {
+      "bleed": 55
+    },
+    "defaultSkillId": 1189
   },
   {
     "name": "Zamor Curved Sword",
     "category": "Curved Greatsword",
-    "weight": 9
+    "weight": 9,
+    "scaling": {
+      "strength": 0.4,
+      "dexterity": 0.5
+    },
+    "requirements": {
+      "strength": 16,
+      "dexterity": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "frostbite": 65
+    },
+    "defaultSkillId": 1168
   },
   {
     "name": "Zweihander",
     "category": "Colossal Sword",
-    "weight": 15.5
+    "weight": 15.5,
+    "scaling": {
+      "strength": 0.38,
+      "dexterity": 0.53
+    },
+    "requirements": {
+      "strength": 19,
+      "dexterity": 11
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "allowAshOfWar": true,
+    "defaultSkillId": 106
   }
 ]

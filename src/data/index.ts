@@ -20,9 +20,9 @@ import sorceriesData from "./sorceries.json";
 import incantationsData from "./incantations.json";
 import ashesOfWarData from "./ashes-of-war.json";
 
-export const weapons = weaponsData as Weapon[];
-export const shields = shieldsData as Shield[];
-export const catalysts = catalystsData as Catalyst[];
+export const weapons = weaponsData as unknown as Weapon[];
+export const shields = shieldsData as unknown as Shield[];
+export const catalysts = catalystsData as unknown as Catalyst[];
 export const armorHead = armorHeadData as ArmorPiece[];
 export const armorBody = armorBodyData as ArmorPiece[];
 export const armorArms = armorArmsData as ArmorPiece[];
