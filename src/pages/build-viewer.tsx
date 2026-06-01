@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef } from "react";
 import { useNavigate } from "@tanstack/react-router";
-import { indexRoute } from "../router";
+import { randomRoute } from "../router";
 import { decodeBuild, encodeBuild } from "../lib/build-codec";
 import { generateRandomBuild } from "../lib/randomizer";
 import {
@@ -24,7 +24,7 @@ import { Toast } from "../components/toast";
 import { useToast } from "../hooks/use-toast";
 
 export function BuildViewerPage() {
-  const { build: encodedBuild } = indexRoute.useSearch();
+  const { build: encodedBuild } = randomRoute.useSearch();
   const navigate = useNavigate();
   const toast = useToast();
   const initialRedirectDone = useRef(false);
@@ -41,14 +41,14 @@ export function BuildViewerPage() {
     if (!encodedBuild && !initialRedirectDone.current) {
       initialRedirectDone.current = true;
       const encoded = encodeBuild(build);
-      navigate({ to: "/", search: { build: encoded }, replace: true });
+      navigate({ to: "/random", search: { build: encoded }, replace: true });
     }
   }, [encodedBuild, build, navigate]);
 
   function handleRandomize() {
     const newBuild = generateRandomBuild();
     const encoded = encodeBuild(newBuild);
-    navigate({ to: "/", search: { build: encoded } });
+    navigate({ to: "/random", search: { build: encoded } });
   }
 
   async function handleShare() {

@@ -1,5 +1,6 @@
 import { createRouter, createRoute, createRootRoute } from "@tanstack/react-router";
 import { RootLayout } from "./components/layout/root-layout";
+import { LandingPage } from "./pages/landing";
 import { BuildViewerPage } from "./pages/build-viewer";
 import { GeneratePage } from "./pages/generate";
 
@@ -10,6 +11,12 @@ const rootRoute = createRootRoute({
 export const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/",
+  component: LandingPage,
+});
+
+export const randomRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/random",
   validateSearch: (search: Record<string, unknown>): { build?: string } => ({
     build: typeof search.build === "string" ? search.build : undefined,
   }),
@@ -22,7 +29,7 @@ export const generateRoute = createRoute({
   component: GeneratePage,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute, generateRoute]);
+const routeTree = rootRoute.addChildren([indexRoute, randomRoute, generateRoute]);
 
 export const router = createRouter({
   routeTree,
