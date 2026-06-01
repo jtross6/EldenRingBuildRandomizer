@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState, startTransition } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import { randomRoute } from "../router";
 import { decodeBuild, encodeBuild } from "../lib/build-codec";
@@ -19,15 +19,29 @@ import {
 import { BuildIdentity } from "../components/equipment/build-identity";
 import { EquipmentSection } from "../components/equipment/equipment-section";
 import { ItemSlot } from "../components/equipment/item-slot";
+import { ItemDetailModal } from "../components/equipment/item-detail-modal";
 import { ActionBar } from "../components/action-bar";
 import { Toast } from "../components/toast";
 import { useToast } from "../hooks/use-toast";
+import { prefetchItemDetails } from "../hooks/use-item-details";
+import type { ItemCategory } from "../components/icons/item-icons";
+
+interface SelectedItem {
+  name: string;
+  category: ItemCategory;
+  slotId: string;
+}
 
 export function BuildViewerPage() {
   const { build: encodedBuild } = randomRoute.useSearch();
   const navigate = useNavigate();
   const toast = useToast();
   const initialRedirectDone = useRef(false);
+  const [selectedItem, setSelectedItem] = useState<SelectedItem | null>(null);
+
+  useEffect(() => {
+    prefetchItemDetails();
+  }, []);
 
   const build = useMemo(() => {
     if (encodedBuild) {
@@ -63,20 +77,30 @@ export function BuildViewerPage() {
     }
   }
 
+  function selectItem(name: string, category: ItemCategory, slotId: string) {
+    startTransition(() => setSelectedItem({ name, category, slotId }));
+  }
+
+  function closeModal() {
+    startTransition(() => setSelectedItem(null));
+  }
+
   const weaponSlotsR = build.weaponsRight.map((idx, i) => ({
     name: weapons[idx]?.name ?? "Unknown",
     label: `Right Hand ${i + 1}`,
+    slotId: `right-${i}`,
   }));
   const weaponSlotsL = build.weaponsLeft.map((idx, i) => ({
     name: weapons[idx]?.name ?? "Unknown",
     label: `Left Hand ${i + 1}`,
+    slotId: `left-${i}`,
   }));
 
   const armorPieces = [
-    { name: armorHead[build.helm]?.name ?? "Unknown", label: "Helm" },
-    { name: armorBody[build.chest]?.name ?? "Unknown", label: "Chest Armor" },
-    { name: armorArms[build.gauntlets]?.name ?? "Unknown", label: "Gauntlets" },
-    { name: armorLegs[build.legs]?.name ?? "Unknown", label: "Leg Armor" },
+    { name: armorHead[build.helm]?.name ?? "Unknown", label: "Helm", slotId: "helm" },
+    { name: armorBody[build.chest]?.name ?? "Unknown", label: "Chest Armor", slotId: "chest" },
+    { name: armorArms[build.gauntlets]?.name ?? "Unknown", label: "Gauntlets", slotId: "gauntlets" },
+    { name: armorLegs[build.legs]?.name ?? "Unknown", label: "Leg Armor", slotId: "legs" },
   ];
 
   const shieldName = shields[build.shield]?.name ?? "Unknown";
@@ -96,20 +120,26 @@ export function BuildViewerPage() {
           <div className="grid grid-cols-2 gap-2">
             {weaponSlotsR.map((w) => (
               <ItemSlot
-                key={w.label}
+                key={w.slotId}
                 itemName={w.name}
                 slotLabel={w.label}
+                slotId={w.slotId}
                 category="weapon"
                 variant="standard"
+                onClick={() => selectItem(w.name, "weapon", w.slotId)}
+                isActive={selectedItem?.slotId === w.slotId}
               />
             ))}
             {weaponSlotsL.map((w) => (
               <ItemSlot
-                key={w.label}
+                key={w.slotId}
                 itemName={w.name}
                 slotLabel={w.label}
+                slotId={w.slotId}
                 category="weapon"
                 variant="standard"
+                onClick={() => selectItem(w.name, "weapon", w.slotId)}
+                isActive={selectedItem?.slotId === w.slotId}
               />
             ))}
           </div>
@@ -120,11 +150,14 @@ export function BuildViewerPage() {
             <div className="grid grid-cols-2 gap-2">
               {armorPieces.map((a) => (
                 <ItemSlot
-                  key={a.label}
+                  key={a.slotId}
                   itemName={a.name}
                   slotLabel={a.label}
+                  slotId={a.slotId}
                   category="armor"
                   variant="standard"
+                  onClick={() => selectItem(a.name, "armor", a.slotId)}
+                  isActive={selectedItem?.slotId === a.slotId}
                 />
               ))}
             </div>
@@ -135,14 +168,20 @@ export function BuildViewerPage() {
               <ItemSlot
                 itemName={shieldName}
                 slotLabel="Shield"
+                slotId="shield"
                 category="shield"
                 variant="standard"
+                onClick={() => selectItem(shieldName, "shield", "shield")}
+                isActive={selectedItem?.slotId === "shield"}
               />
               <ItemSlot
                 itemName={catalystName}
                 slotLabel="Seal / Staff"
+                slotId="catalyst"
                 category="seal"
                 variant="standard"
+                onClick={() => selectItem(catalystName, "seal", "catalyst")}
+                isActive={selectedItem?.slotId === "catalyst"}
               />
             </div>
           </EquipmentSection>
@@ -154,8 +193,11 @@ export function BuildViewerPage() {
               <ItemSlot
                 key={`talisman-${i}`}
                 itemName={name}
+                slotId={`talisman-${i}`}
                 category="talisman"
                 variant="talisman"
+                onClick={() => selectItem(name, "talisman", `talisman-${i}`)}
+                isActive={selectedItem?.slotId === `talisman-${i}`}
               />
             ))}
           </div>
@@ -164,7 +206,15 @@ export function BuildViewerPage() {
         <EquipmentSection title="Ashes of War">
           <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
             {ashNames.map((name, i) => (
-              <ItemSlot key={`ash-${i}`} itemName={name} category="ash" variant="compact" />
+              <ItemSlot
+                key={`ash-${i}`}
+                itemName={name}
+                slotId={`ash-${i}`}
+                category="ash"
+                variant="compact"
+                onClick={() => selectItem(name, "ash", `ash-${i}`)}
+                isActive={selectedItem?.slotId === `ash-${i}`}
+              />
             ))}
           </div>
         </EquipmentSection>
@@ -172,10 +222,26 @@ export function BuildViewerPage() {
         <EquipmentSection title="Sorceries & Incantations">
           <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
             {sorceryNames.map((name, i) => (
-              <ItemSlot key={`sorc-${i}`} itemName={name} category="spell" variant="compact" />
+              <ItemSlot
+                key={`sorc-${i}`}
+                itemName={name}
+                slotId={`sorc-${i}`}
+                category="spell"
+                variant="compact"
+                onClick={() => selectItem(name, "spell", `sorc-${i}`)}
+                isActive={selectedItem?.slotId === `sorc-${i}`}
+              />
             ))}
             {incantNames.map((name, i) => (
-              <ItemSlot key={`incant-${i}`} itemName={name} category="spell" variant="compact" />
+              <ItemSlot
+                key={`incant-${i}`}
+                itemName={name}
+                slotId={`incant-${i}`}
+                category="spell"
+                variant="compact"
+                onClick={() => selectItem(name, "spell", `incant-${i}`)}
+                isActive={selectedItem?.slotId === `incant-${i}`}
+              />
             ))}
           </div>
         </EquipmentSection>
@@ -183,6 +249,15 @@ export function BuildViewerPage() {
 
       <ActionBar onRandomize={handleRandomize} onShare={handleShare} />
       <Toast message={toast.message} />
+
+      {selectedItem && (
+        <ItemDetailModal
+          itemName={selectedItem.name}
+          category={selectedItem.category}
+          slotId={selectedItem.slotId}
+          onClose={closeModal}
+        />
+      )}
     </>
   );
 }
