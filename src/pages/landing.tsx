@@ -1,6 +1,16 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useNavigate } from "@tanstack/react-router";
 
 export function LandingPage() {
+  const navigate = useNavigate();
+
+  function handleGuidedHand(e: React.MouseEvent) {
+    e.preventDefault();
+    try {
+      sessionStorage.removeItem("erbr-generator-state");
+    } catch {}
+    navigate({ to: "/generate" });
+  }
+
   return (
     <div className="animate-fade-in">
       <div className="mb-10 text-center">
@@ -34,6 +44,7 @@ export function LandingPage() {
 
         <Link
           to="/generate"
+          onClick={handleGuidedHand}
           className="group relative overflow-hidden rounded-xl border border-border-dark bg-bg-card p-6 transition-all hover:border-gold-dim/50 hover:bg-bg-card-hover hover:shadow-[0_0_30px_rgba(200,169,81,0.1)]"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
