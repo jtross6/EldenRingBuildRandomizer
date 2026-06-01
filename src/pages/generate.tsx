@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import type { SeedItem } from "../types/generator";
 import { generateBuild } from "../lib/build-generator";
 import { encodeBuild } from "../lib/build-codec";
@@ -21,16 +21,65 @@ import { ArmorClassBadge } from "../components/generator/armor-class-badge";
 import { Toast } from "../components/toast";
 import { useToast } from "../hooks/use-toast";
 
+const STORAGE_KEY = "erbr-generator-state";
+
+interface PersistedState {
+  seedItems: SeedItem[];
+  creativity: number;
+  seed: number;
+}
+
+function saveState(state: PersistedState) {
+  try {
+    sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch {}
+}
+
+function loadState(): PersistedState | null {
+  try {
+    const raw = sessionStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw) as PersistedState;
+  } catch {
+    return null;
+  }
+}
+
 function randomSeed(): number {
   return (Math.random() * 0xffffffff) >>> 0;
 }
 
+function initState(): {
+  seedItems: SeedItem[];
+  creativity: number;
+  seed: number;
+  result: ReturnType<typeof generateBuild> | null;
+} {
+  const saved = loadState();
+  if (saved && saved.seedItems.length > 0) {
+    const result = generateBuild({
+      seedItems: saved.seedItems,
+      creativity: saved.creativity,
+      seed: saved.seed,
+    });
+    return { ...saved, result };
+  }
+  return { seedItems: [], creativity: 50, seed: randomSeed(), result: null };
+}
+
 export function GeneratePage() {
-  const [seedItems, setSeedItems] = useState<SeedItem[]>([]);
-  const [creativity, setCreativity] = useState(50);
-  const [seed, setSeed] = useState(randomSeed);
-  const [result, setResult] = useState<ReturnType<typeof generateBuild> | null>(null);
+  const [initial] = useState(initState);
+  const [seedItems, setSeedItems] = useState<SeedItem[]>(initial.seedItems);
+  const [creativity, setCreativity] = useState(initial.creativity);
+  const [seed, setSeed] = useState(initial.seed);
+  const [result, setResult] = useState<ReturnType<typeof generateBuild> | null>(initial.result);
   const toast = useToast();
+
+  useEffect(() => {
+    if (seedItems.length > 0 && result) {
+      saveState({ seedItems, creativity, seed });
+    }
+  }, [seedItems, creativity, seed, result]);
 
   const handleGenerate = useCallback(() => {
     if (seedItems.length === 0) return;
