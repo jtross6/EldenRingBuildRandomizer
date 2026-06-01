@@ -40,3 +40,10 @@ import type { CommunityBuild } from "../types/community";
 import communityBuildsData from "./community-builds.json";
 
 export const communityBuilds = communityBuildsData as CommunityBuild[];
+
+import spellTagsData from "./spell-tags.json";
+
+export const spellTags = spellTagsData as {
+  sorceries: Record<string, string[]>;
+  incantations: Record<string, string[]>;
+};

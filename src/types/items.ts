@@ -47,6 +47,7 @@ export interface Spell {
   fpCost: number;
   slotsUsed: number;
   requirements?: Record<string, number>;
+  tags?: string[];
 }
 
 export interface AshOfWar {
