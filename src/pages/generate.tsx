@@ -18,6 +18,7 @@ import { ItemSearch } from "../components/generator/item-search";
 import { CreativitySlider } from "../components/generator/creativity-slider";
 import { SeedDisplay } from "../components/generator/seed-display";
 import { ArmorClassBadge } from "../components/generator/armor-class-badge";
+import { StatProfileDisplay } from "../components/generator/stat-profile-display";
 import { Toast } from "../components/toast";
 import { useToast } from "../hooks/use-toast";
 
@@ -177,6 +178,12 @@ export function GeneratePage() {
         {build && (
           <div className="animate-fade-in">
             <BuildIdentity buildName={result.buildName} />
+
+            <StatProfileDisplay
+              statProfile={result.statProfile}
+              armorClass={result.armorClass}
+              loadoutProfile={result.loadoutProfile}
+            />
 
             <EquipmentSection title="Armament">
               <div className="grid grid-cols-2 gap-2">
