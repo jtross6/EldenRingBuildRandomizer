@@ -48,9 +48,4 @@ export interface AshDetail {
   possibleAffinities?: string[];
 }
 
-export type ItemDetails =
-  | ArmamentDetail
-  | ArmorDetail
-  | TalismanDetail
-  | SpellDetail
-  | AshDetail;
+export type ItemDetails = ArmamentDetail | ArmorDetail | TalismanDetail | SpellDetail | AshDetail;

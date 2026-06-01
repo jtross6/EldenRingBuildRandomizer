@@ -6,9 +6,7 @@
       "Sorceries must be memorized first at a site of lost grace, and a staff must be equipped to cast them."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -39,9 +37,7 @@
       "The Crystalian's faint cogitation is known as the \"wisdom of stone.\" This staff can only be wielded by those of intellect high enough to grasp such wisdom."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 31
     },
@@ -72,9 +68,7 @@
       "The Man-Serpents of Mt. Gelmir draw from faith in addition to intelligence to enhance the potency of their sorcery."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 29
     },
@@ -107,9 +101,7 @@
       "Sneered at by fools in the academy."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 31
     },
@@ -140,9 +132,7 @@
       "Only those of the highest intelligence may wield this, the finest of all glintstone staves."
     ],
     "rarity": "Legendary",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 24
     },
@@ -175,9 +165,7 @@
       "Boosts the power of Stonedigger sorceries."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 38
     },
@@ -208,9 +196,7 @@
       "Sorceries must be memorized first at a site of lost grace, and a staff must be equipped to cast them."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -241,9 +227,7 @@
       "Gifted to enchanted knights, it enhances Glintblade sorceries."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 22
     },
@@ -276,9 +260,7 @@
       "One of the staves deemed heretical by the academy for its ability to allow sorceries to be augmented through faith in addition to intelligence."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -311,9 +293,7 @@
       "The Albinaurics harbor a secret; they cast sorcery using their innate arcaneness."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 17
     },
@@ -346,9 +326,7 @@
       "Only a recognized sorcerer is permitted to wield this staff."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -379,9 +357,7 @@
       "Given to sorcerers that they might enact the role of knight. Enhances Carian sword sorceries."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -413,9 +389,7 @@
       "Reduces casting time of all sorceries, but consumes additional FP."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 24
     },
@@ -446,9 +420,7 @@
       "Enhances power of all sorceries, but consumes additional FP."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 24
     },
@@ -479,9 +451,7 @@
       "However, this staff cannot be strengthened in any way."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 39
     },
@@ -512,9 +482,7 @@
       "Sorceries are scaled with faith rather than intelligence when wielding this staff which enhances thorn sorceries in particular."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 38
     },
@@ -548,9 +516,7 @@
       "Enhances Crystalian sorceries."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 42
     },
@@ -584,9 +550,7 @@
       "This staff only distinguishes itself when casting invisibility sorceries, but that is reason enough for some to wield it."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 22
     },
@@ -619,9 +583,7 @@
       "Incantations must be memorized first at a site of grace, and a sacred seal must be equipped to cast them."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -652,9 +614,7 @@
       "Said to represent the manipulation of black flame, this catalyst enhances godslayer incantations."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -685,9 +645,7 @@
       "Sacred seal wielded by Fire Monks and Prelates, this catalyst enhances Giants' Flame incantations."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -718,9 +676,7 @@
       "The worship of the ancient dragons does not conflict with belief in the Erdtree. After all, this seal, and lightning itself, are both imbued with gold."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -751,9 +707,7 @@
       "The claw mark represents Gurranq's wrath. Enhances bestial incantations learned from Gurranq."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 31
     },
@@ -784,9 +738,7 @@
       "Fundamentalism is scholarship in all but name. Scales incantations using both intelligence and faith."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 24
     },
@@ -817,9 +769,7 @@
       "Even though the Elden Ring is shattered, and the Erdtree has dulled from its former radiance, earnest faith continues to hold the answers."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25,
       "holy": 15
@@ -851,9 +801,7 @@
       "This seal scales incantations with one's arcane attribute."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -884,9 +832,7 @@
       "This seal is the mark of the Lord of Frenzied Flame. Scales incantations using strength, dexterity, intelligence, and faith all together."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },

@@ -67,10 +67,7 @@ export function prefetchItemDetails(): void {
   getDetailPromise("ash");
 }
 
-export function useItemDetails(
-  itemName: string,
-  category: ItemCategory,
-): ItemDetails | undefined {
+export function useItemDetails(itemName: string, category: ItemCategory): ItemDetails | undefined {
   const map = use(getDetailPromise(category));
   return map[itemName];
 }

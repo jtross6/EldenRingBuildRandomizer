@@ -99,7 +99,11 @@ export function BuildViewerPage() {
   const armorPieces = [
     { name: armorHead[build.helm]?.name ?? "Unknown", label: "Helm", slotId: "helm" },
     { name: armorBody[build.chest]?.name ?? "Unknown", label: "Chest Armor", slotId: "chest" },
-    { name: armorArms[build.gauntlets]?.name ?? "Unknown", label: "Gauntlets", slotId: "gauntlets" },
+    {
+      name: armorArms[build.gauntlets]?.name ?? "Unknown",
+      label: "Gauntlets",
+      slotId: "gauntlets",
+    },
     { name: armorLegs[build.legs]?.name ?? "Unknown", label: "Leg Armor", slotId: "legs" },
   ];
 

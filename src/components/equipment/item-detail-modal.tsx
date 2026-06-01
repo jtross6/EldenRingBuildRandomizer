@@ -68,11 +68,7 @@ function ArmamentStats({ detail }: { detail: ArmamentDetail }) {
       {detail.scaling && Object.keys(detail.scaling).length > 0 && (
         <StatsSection label="Scaling">
           {Object.entries(detail.scaling).map(([stat, val]) => (
-            <StatRow
-              key={stat}
-              label={stat}
-              value={`${scalingGrade(val)} (${val.toFixed(2)})`}
-            />
+            <StatRow key={stat} label={stat} value={`${scalingGrade(val)} (${val.toFixed(2)})`} />
           ))}
         </StatsSection>
       )}
@@ -165,9 +161,7 @@ function TalismanStats({ detail }: { detail: TalismanDetail }) {
           <div className="mb-1 text-[10px] uppercase tracking-[2px] text-text-dim">
             Conflicts With
           </div>
-          <div className="text-[11px] text-text-secondary">
-            {detail.conflicts.join(", ")}
-          </div>
+          <div className="text-[11px] text-text-secondary">{detail.conflicts.join(", ")}</div>
         </div>
       )}
     </>
@@ -238,13 +232,7 @@ function isArmamentCategory(cat: ItemCategory): boolean {
   return cat === "weapon" || cat === "shield" || cat === "seal";
 }
 
-function DetailContent({
-  itemName,
-  category,
-}: {
-  itemName: string;
-  category: ItemCategory;
-}) {
+function DetailContent({ itemName, category }: { itemName: string; category: ItemCategory }) {
   const detail = useItemDetails(itemName, category);
 
   if (!detail) {
@@ -256,9 +244,7 @@ function DetailContent({
   }
 
   const description =
-    "description" in detail && detail.description
-      ? (detail.description as string[])
-      : undefined;
+    "description" in detail && detail.description ? (detail.description as string[]) : undefined;
 
   const requirements =
     "requirements" in detail
@@ -280,9 +266,7 @@ function DetailContent({
           </div>
         )}
 
-        {summary && (
-          <div className="px-5 pt-2 text-[12px] text-text-secondary">{summary}</div>
-        )}
+        {summary && <div className="px-5 pt-2 text-[12px] text-text-secondary">{summary}</div>}
 
         {description && description.length > 0 && (
           <div className="border-b border-gold/10 px-5 py-4">
@@ -292,9 +276,7 @@ function DetailContent({
           </div>
         )}
 
-        {isArmamentCategory(category) && (
-          <ArmamentStats detail={detail as ArmamentDetail} />
-        )}
+        {isArmamentCategory(category) && <ArmamentStats detail={detail as ArmamentDetail} />}
         {category === "armor" && <ArmorStats detail={detail as ArmorDetail} />}
         {category === "talisman" && <TalismanStats detail={detail as TalismanDetail} />}
         {category === "spell" && <SpellStats detail={detail as SpellDetail} />}
@@ -337,13 +319,7 @@ function DetailSkeleton() {
   );
 }
 
-function ModalHeaderImage({
-  itemName,
-  category,
-}: {
-  itemName: string;
-  category: ItemCategory;
-}) {
+function ModalHeaderImage({ itemName, category }: { itemName: string; category: ItemCategory }) {
   const imageMap = useImageMap();
   const entry = imageMap[itemName];
 
@@ -361,11 +337,7 @@ function ModalHeaderImage({
     <div
       className={`${getCategoryClass(category)} relative size-[72px] shrink-0 overflow-hidden rounded-lg`}
     >
-      <img
-        src={entry.image_url}
-        alt={itemName}
-        className="size-full object-contain"
-      />
+      <img src={entry.image_url} alt={itemName} className="size-full object-contain" />
     </div>
   );
 }
@@ -380,12 +352,7 @@ const CATEGORY_LABELS: Record<ItemCategory, string> = {
   spell: "Spell",
 };
 
-export function ItemDetailModal({
-  itemName,
-  category,
-  slotId,
-  onClose,
-}: ItemDetailModalProps) {
+export function ItemDetailModal({ itemName, category, slotId, onClose }: ItemDetailModalProps) {
   const dialogRef = useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
