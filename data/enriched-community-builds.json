@@ -1,0 +1,4719 @@
+[
+  {
+    "id": "duelswordduelist",
+    "name": "Duel Sword Duelist",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "faith",
+      "mind"
+    ],
+    "weapons": [
+      "Horned Warrior's Sword",
+      "Erdtree Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Divine Bird Helm",
+      "Leda's Armor",
+      "Leyndell Knight Gauntlets",
+      "Malformed Dragon Greaves"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Sacred Scorpion Charm",
+      "Ritual Sword Talisman",
+      "Crusade Insignia",
+      "Two-Headed Turtle Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Curved Sword Talisman",
+      "Blade of Mercy"
+    ],
+    "skills": [
+      "Horn Calling"
+    ],
+    "spells": [
+      "Golden Vow (Spell)",
+      "Flame Grant me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#duelswordduelist",
+    "tags": [
+      "caster",
+      "dexterity",
+      "fire",
+      "holy",
+      "melee",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Open fights by buffing Golden Vow then Flame Grant Me Strength to stack holy and physical damage. Two-hand the Horned Warrior's Sword and use Horn Calling to launch aggressive combos — Shard of Alexander and Sacred Scorpion Charm amplify both the skill and its holy damage. Rotten Winged Sword Insignia and Millicent's Prosthesis reward sustained aggression with escalating attack power on successive hits, so stay in the enemy's face and chain light attacks between skill uses.",
+    "playstyle": "Buff-stacked holy curved sword aggressor"
+  },
+  {
+    "id": "shadowsunflowerblossom",
+    "name": "Shadow Sunflower Blossom",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Shadown Sunflower Blossom",
+      "Clawmark Seal",
+      "Erdtree Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Pumpkin Helm",
+      "Raptor's Black Feathers",
+      "Radahn's Gauntlets",
+      "Radahn's Greaves"
+    ],
+    "talismans": [
+      "Two-Handed Sword Talisman",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Blade of Mercy",
+      "Claw Talisman",
+      "Axe Talisman",
+      "Lacerating Crossed-Tree",
+      "Sacred Scorpion Charm"
+    ],
+    "skills": [
+      "Shadow Sunflower Headbutt"
+    ],
+    "spells": [
+      "Elden Stars",
+      "Flame Grant Me Strength",
+      "Golden Vow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#shadowsunflowerblossom",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "holy",
+      "melee",
+      "seal",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Pre-buff with Golden Vow and Flame Grant Me Strength, then two-hand the Shadow Sunflower Blossom and use Shadow Sunflower Headbutt to slam enemies with massive holy damage. Raptor's Black Feathers boosts jump attack damage, and Claw Talisman stacks on top, so weave jumping heavy attacks between skill uses. Shard of Alexander boosts the headbutt's damage, Two-Handed Sword Talisman rewards two-handing, and Lacerating Crossed-Tree adds bleed buildup on charged attacks for additional burst.",
+    "playstyle": "Brutal faith-strength jump attacker with headbutt slams"
+  },
+  {
+    "id": "blackhammer",
+    "name": "Black Hammer",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "faith"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength",
+      "mind"
+    ],
+    "weapons": [
+      "Black Steel Greathammer",
+      "Clawmark Seal",
+      "Golden Order Seal"
+    ],
+    "shield": "Black Steel Greatshield",
+    "armor": [
+      "Helm of Night",
+      "Black Knight Armor",
+      "Gauntlets of Night",
+      "Black Knight Greaves"
+    ],
+    "talismans": [
+      "Two-Headed Turtle Talisman",
+      "Curved Sword Talisman",
+      "Blade of Mercy",
+      "Ritual Sword Talisman",
+      "Crusade Insignia"
+    ],
+    "skills": [
+      "Sacred Blade"
+    ],
+    "spells": [
+      "Golden Vow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blackhammer",
+    "tags": [
+      "caster",
+      "faith",
+      "holy",
+      "seal",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow, then alternate between blocking with the Black Steel Greatshield and punishing openings with Black Steel Greathammer's Sacred Blade skill, which coats the weapon in holy damage and fires a golden projectile. Curved Sword Talisman boosts guard counters after blocking, which pairs perfectly with a greatshield playstyle. Ritual Sword Talisman and Crusade Insignia reward staying at full health and maintaining momentum, so play patient and punish rather than trade hits.",
+    "playstyle": "Patient greatshield paladin with holy counter-attacks"
+  },
+  {
+    "id": "nightclaw",
+    "name": "Nightclaw",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind",
+      "intelligence"
+    ],
+    "weapons": [
+      "Claws of Night"
+    ],
+    "shield": "Messmer Soldier Shield",
+    "armor": [
+      "Leda's Armor",
+      "Black Knight Helm",
+      "Black Knight Gauntlets",
+      "Black Knight Greaves"
+    ],
+    "talismans": [
+      "Smithing Talisman",
+      "Axe Talisman",
+      "Rotten Winged Sword Insignia",
+      "Millicent's Prosthesis",
+      "Two-Headed Turtle Talisman",
+      "Crusade Insignia",
+      "Lord of Blood's Exultation",
+      "Lacerating Crossed-Tree",
+      "Retaliatory Crossed-Tree"
+    ],
+    "skills": [
+      "Scattershot Throw"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#nightclaw",
+    "tags": [
+      "dexterity",
+      "fist",
+      "melee",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Rush enemies with the Claws of Night and chain rapid multi-hit combos to proc both bleed (boosted by Lacerating Crossed-Tree and Lord of Blood's Exultation) and the successive hit bonuses from Rotten Winged Sword Insignia and Millicent's Prosthesis. Use Scattershot Throw for ranged openers or to catch fleeing targets. The Messmer Soldier Shield provides a backup block option, and Retaliatory Crossed-Tree punishes enemies who hit your shield with status buildup. Stay aggressive — claws hit fast enough to ramp RWSI to max stacks quickly.",
+    "playstyle": "Relentless bleed claw rushdown with rapid combos"
+  },
+  {
+    "id": "allknowingsage",
+    "name": "All-Knowing Sage",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor",
+      "faith"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Staff of the Great Beyond",
+      "Sword of Night and Flame"
+    ],
+    "shield": null,
+    "armor": [
+      "Greathelm",
+      "All-Knowing Armor",
+      "All-Knowing Gauntlets",
+      "All-Knowing Greaves"
+    ],
+    "talismans": [
+      "Godfrey Icon",
+      "Graven-Mass Talisman",
+      "Flock's Canvas Talisman",
+      "Blessed Blue Dew Talisman",
+      "Crusade Insignia",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Ritual Sword Talisman",
+      "Old Lord's Talisman"
+    ],
+    "skills": [],
+    "spells": [
+      "Multilayered Ring of Light",
+      "Elden Stars",
+      "Knight's Lightning Spear",
+      "Ancient Dragons' Lightning Strike",
+      "Flame of the Fell God",
+      "Giantsflame Take Thee",
+      "Frenzied Burst",
+      "Rykard's Rancor",
+      "Ancient Death Rancor",
+      "Knight Comet",
+      "Loretta's Greatbow",
+      "Mass of Putrescence",
+      "Pest-Thread Spears",
+      "Stone of Gurranq",
+      "Rock Sling",
+      "Blessing of the Erdtree",
+      "Golden Vow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#allknowingsage",
+    "tags": [
+      "caster",
+      "dark/death",
+      "faith",
+      "fire",
+      "holy",
+      "intelligence",
+      "lightning",
+      "madness",
+      "magic",
+      "melee",
+      "rot",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Blessing of the Erdtree for sustain, then control the battlefield with a massive spell arsenal. Use Staff of the Great Beyond for sorceries and swap to Sword of Night and Flame for its built-in Comet Azur-style beam. Graven-Mass Talisman and Godfrey Icon boost charged spells like Knight's Lightning Spear and Loretta's Greatbow, while Flock's Canvas Talisman amplifies incantations. Rotate between Rock Sling for stagger, Ancient Dragons' Lightning Strike for AoE, and Knight Comet for single-target burst — match the spell to the situation.",
+    "playstyle": "Versatile all-school caster with encyclopedic spell arsenal"
+  },
+  {
+    "id": "doubledragon",
+    "name": "Double Dragon",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "arcane"
+    ],
+    "secondaryStats": [
+      "strength",
+      "dexterity",
+      "endurance"
+    ],
+    "weapons": [
+      "Dane's Footwork",
+      "Poisoned Hand"
+    ],
+    "shield": null,
+    "armor": [
+      "Rock Heart"
+    ],
+    "talismans": [
+      "Shattered Stone Talisman",
+      "Shard of Alexander",
+      "Kindred of Rot's Exultation",
+      "Blue Dancer Charm",
+      "Crusade Insignia",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "The Poison Flower Blooms Twice",
+      "Scarlet Rot"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#doubledragon",
+    "tags": [
+      "arcane",
+      "dual-wield",
+      "melee",
+      "poison",
+      "rot",
+      "vigor"
+    ],
+    "strategy": "Equip Rock Heart for the Dragonmaw transformation and use Dane's Footwork in the main hand for fast arcane-scaling kicks. Apply poison with Poisoned Hand's The Poison Flower Blooms Twice skill, then switch to Dane's Footwork to proc Scarlet Rot — Kindred of Rot's Exultation triggers a damage boost once either status lands. Blue Dancer Charm rewards the light armor load, and Rotten Winged Sword Insignia rewards the rapid successive hits from hand-to-hand combat. Shattered Stone Talisman boosts kick and stomp attacks from Dane's Footwork.",
+    "playstyle": "Light-armored poison and rot martial artist"
+  },
+  {
+    "id": "piercingpaladin",
+    "name": "Piercing Paladin",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance",
+      "faith"
+    ],
+    "weapons": [
+      "Leda's Sword",
+      "Golden Order Seal"
+    ],
+    "shield": "Carian Thrusting Shield",
+    "armor": [
+      "Oathseeker Knight Helm",
+      "Leda's Armor",
+      "Black Knight Gauntlets",
+      "Black Knight Greaves"
+    ],
+    "talismans": [
+      "Two-Headed Turtle Talisman",
+      "Millicent's Prosthesis",
+      "Blade of Mercy",
+      "Crusade Insignia",
+      "Curved Sword Talisman",
+      "Ritual Sword Talisman",
+      "Lacerating Crossed-Tree",
+      "Spear Talisman"
+    ],
+    "skills": [
+      "Needle Piercer"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#piercingpaladin",
+    "tags": [
+      "caster",
+      "dexterity",
+      "fire",
+      "seal",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength, then use Leda's Sword with Needle Piercer to deliver devastating thrust attacks — Spear Talisman boosts counter-hit thrust damage for massive punishes. Carian Thrusting Shield provides a shield-poke option for safe pressure. Millicent's Prosthesis and Curved Sword Talisman reward sustained aggression and guard counters respectively. Lacerating Crossed-Tree adds bleed buildup on thrusting attacks, giving extra burst damage on top of the holy scaling.",
+    "playstyle": "Aggressive thrust-focused paladin with counter-hit burst"
+  },
+  {
+    "id": "messmerflame",
+    "name": "Messmer Flame",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Fire Knight's Greatsword",
+      "Fire Knight's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Messmer's Helm",
+      "Fire Knight Armor",
+      "Fire Knight Gauntlets",
+      "Fire Knight Greaves"
+    ],
+    "talismans": [
+      "Bull-Goat's Talisman",
+      "Fire Scorpion Charm",
+      "Shard of Alexander",
+      "Godfrey Icon",
+      "Flock's Canvas Talisman",
+      "Crusade Insignia"
+    ],
+    "skills": [],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Fire Serpent",
+      "Messmer's Orb"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#messmerflame",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "greatsword",
+      "melee",
+      "poison",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength to maximize fire damage, then use Fire Knight's Greatsword with its innate skill for sweeping flame attacks. Cast Fire Serpent and Messmer's Orb through the Fire Knight's Seal for boosted Messmer flame incantations. Fire Scorpion Charm and Shard of Alexander amplify both weapon skills and fire spells, while Godfrey Icon rewards fully charged Fire Serpent casts. Bull-Goat's Talisman provides poise to tank through hits while casting or swinging.",
+    "playstyle": "Poise-heavy Messmer flame knight and caster"
+  },
+  {
+    "id": "dragonpriestess",
+    "name": "Dragon Priestess",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Erdtree Seal",
+      "Coded Sword",
+      "Gravel Stone Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Priestess Heart"
+    ],
+    "talismans": [
+      "Flock's Canvas Talisman",
+      "Godfrey Icon",
+      "Lightning Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Bull-Goat's Talisman",
+      "Crusade Insignia",
+      "Ritual Sword Talisman"
+    ],
+    "skills": [],
+    "spells": [
+      "Knight's Lightning Spear",
+      "Ancient Dragons' Lightning Strike",
+      "Lightning Spear",
+      "Lightning Strike",
+      "Honed Bolt"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#dragonpriestess",
+    "tags": [
+      "caster",
+      "faith",
+      "holy",
+      "lightning",
+      "melee",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Dual-seal with Gravel Stone Seal in the off-hand for its dragon cult incantation bonus and Erdtree Seal for raw scaling. Spam Knight's Lightning Spear as your primary damage — Godfrey Icon rewards the charged version's massive damage, and Lightning Scorpion Charm amplifies all lightning output. Use Ancient Dragons' Lightning Strike for AoE situations, Honed Bolt for tracking at range, and Coded Sword as a melee backup with its unblockable holy blade skill. Bull-Goat's Talisman gives poise to tank through while casting longer incantations.",
+    "playstyle": "Pure lightning faith caster with dragon cult focus"
+  },
+  {
+    "id": "gravitysorcerer",
+    "name": "Gravity Sorcerer",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "faith"
+    ],
+    "weapons": [
+      "Carian Regal Scepter",
+      "Meteorite Staff",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Preceptor's Big Hat",
+      "Ruler's Robe",
+      "Preceptor's Gloves",
+      "Preceptor's Trousers"
+    ],
+    "talismans": [
+      "Graven-Mass Talisman",
+      "Godfrey Icon",
+      "Blessed Blue Dew Talisman",
+      "Crusade Insignia",
+      "Ritual Sword Talisman",
+      "Magic Scorpion Charm",
+      "Dragoncrest Greatshield Talisman"
+    ],
+    "skills": [],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant Me Strength",
+      "Collapsing Stars",
+      "Meteorite of Astel",
+      "Gravitational Missile",
+      "Blades of Stone",
+      "Rock Sling"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#gravitysorcerer",
+    "tags": [
+      "caster",
+      "fire",
+      "intelligence",
+      "magic",
+      "melee",
+      "seal",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength, then use Meteorite Staff in the off-hand for its gravity sorcery boost while casting through Carian Regal Scepter for superior scaling. Rock Sling is your bread-and-butter for stagger and tracking, Meteorite of Astel handles groups, and Collapsing Stars pulls enemies into melee range. Graven-Mass Talisman and Magic Scorpion Charm amplify all sorcery damage, while Godfrey Icon rewards fully charged Gravitational Missile casts. Blessed Blue Dew Talisman provides passive FP recovery to sustain the spell-heavy rotation.",
+    "playstyle": "Gravity sorcery specialist with meteorite bombardment"
+  },
+  {
+    "id": "shadowblade",
+    "name": "Shadowblade Shadow",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Smithscript Dagger",
+      "Sacrificial Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Shadow Militiaman Set"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Smithing Talisman",
+      "Lord of Blood's Exultation",
+      "Crusade Insignia",
+      "Blue Dancer Charm",
+      "Spear Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Claw Talisman"
+    ],
+    "skills": [
+      "Scattershot Throw",
+      "Piercing Throw"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#shadowblade",
+    "tags": [
+      "arcane",
+      "axe",
+      "dagger",
+      "dexterity",
+      "dual-wield",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Use the Smithscript Dagger with Scattershot Throw and Piercing Throw to bombard enemies from range — the dagger scales with arcane and Shard of Alexander boosts both throwing skills. Smithing Talisman further enhances Smithscript weapon damage. When enemies close in, rapid dagger strikes proc bleed quickly, triggering Lord of Blood's Exultation for a damage spike. Rotten Winged Sword Insignia and Millicent's Prosthesis stack with successive hits, and Blue Dancer Charm rewards the light armor load. Sacrificial Axe restores FP on kills to keep throwing skills fueled.",
+    "playstyle": "Arcane throwing dagger specialist with bleed burst"
+  },
+  {
+    "id": "divinewarrior",
+    "name": "Divine Warrior",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Euporia"
+    ],
+    "shield": null,
+    "armor": [
+      "Divine Bird Set"
+    ],
+    "talismans": [
+      "Two-Handed Sword Talisman",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Crusade Insignia",
+      "Rotten Winged Sword Insignia",
+      "Lacerating Crossed-Tree"
+    ],
+    "skills": [
+      "Euporia Vortex"
+    ],
+    "spells": [
+      "Flame Grant me Strength",
+      "Golden Vow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#divinewarrior",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength, then two-hand Euporia and use Euporia Vortex to unleash devastating spinning holy attacks. Shard of Alexander massively boosts the vortex skill damage, and Two-Handed Sword Talisman amplifies two-handed strikes. Rotten Winged Sword Insignia rewards the multi-hit nature of the vortex spin. Between skill uses, chain normal attacks to maintain RWSI stacks and use Lacerating Crossed-Tree's bleed buildup for additional procs. Dragoncrest Greatshield Talisman compensates for the aggressive, no-shield approach.",
+    "playstyle": "Two-handed holy twinblade vortex devastator"
+  },
+  {
+    "id": "deathknighttwinaxe",
+    "name": "Twin Axe Death Knight",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "faith",
+      "dexterity",
+      "endurance"
+    ],
+    "weapons": [
+      "Death Knight's Twin Axes"
+    ],
+    "shield": null,
+    "armor": [
+      "Death Knight Helm",
+      "Death Knight Armor",
+      "Death Knight Gauntlets",
+      "Malformed Dragon Greaves"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Crusade Insignia",
+      "Blessed Blue Dew Talisman"
+    ],
+    "skills": [
+      "Blinkbolt: Twinaxe"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#deathknighttwinaxe",
+    "tags": [
+      "axe",
+      "caster",
+      "dark/death",
+      "fire",
+      "mind",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength, then use Blinkbolt: Twinaxe to teleport into enemies with a lightning-infused diving attack — Shard of Alexander amplifies this powerful gap-closer. The twin axes' rapid multi-hit combos quickly ramp up Rotten Winged Sword Insignia and Millicent's Prosthesis for escalating attack power. Blessed Blue Dew Talisman and Two-Headed Turtle Talisman provide passive FP and stamina recovery to sustain the aggressive loop of Blinkbolt engages followed by rapid attack chains.",
+    "playstyle": "Lightning-teleporting twin axe berserker"
+  },
+  {
+    "id": "fireknightimpaler",
+    "name": "Fire Knight Impaler",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Spear of the Impaler",
+      "Erdtree Seal",
+      "Fire Knight's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Winged Serpent Helm",
+      "Fire Knight Armor",
+      "Fire Knight Gauntlets",
+      "Fire Knight Greaves"
+    ],
+    "talismans": [
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Fire Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Axe Talisman",
+      "Smithing Talisman",
+      "Rotten Winged Sword Insignia",
+      "Millicent's Prosthesis",
+      "Two-Handed Sword Talisman"
+    ],
+    "skills": [
+      "Messmer's Assault"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#fireknightimpaler",
+    "tags": [
+      "caster",
+      "dexterity",
+      "faith",
+      "fire",
+      "holy",
+      "melee",
+      "seal",
+      "spear",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength, then use Spear of the Impaler with Messmer's Assault to deliver a devastating leaping fire spear attack. Shard of Alexander and Fire Scorpion Charm amplify skill and fire damage respectively, while Bull-Goat's Talisman provides poise to hyper-armor through trades. Chain normal spear attacks to build Rotten Winged Sword Insignia and Millicent's Prosthesis stacks between skill uses. Axe Talisman boosts charge attacks, so mix in charged R2 thrusts for massive single-hit damage when you have openings.",
+    "playstyle": "Poise-trading fire knight with devastating spear charges"
+  },
+  {
+    "id": "maternalmage",
+    "name": "Maternal Mage",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Carian Regal Scepter",
+      "Maternal Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "High Priest Hat",
+      "Finger Robe",
+      "Bull-Goat Gauntlets",
+      "Bull-Goat Greaves"
+    ],
+    "talismans": [
+      "Crusade Insignia",
+      "Blessed Blue Dew Talisman",
+      "Graven-Mass Talisman",
+      "Godfrey Icon",
+      "Ritual Sword Talisman",
+      "Magic Scorpion Charm"
+    ],
+    "skills": [],
+    "spells": [
+      "Glintstone Nail",
+      "Glintstone Nails",
+      "Fleeting Microcosm",
+      "Cherishing Fingers"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#maternalmage",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "melee",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Dual-wield Carian Regal Scepter and Maternal Staff — the Maternal Staff boosts Cherishing Fingers and related maternal sorceries. Open with Cherishing Fingers to summon homing projectiles for passive pressure, then follow up with Fleeting Microcosm for massive burst damage. Use Glintstone Nails for AoE spread and single Glintstone Nail for quick pokes. Godfrey Icon rewards charged casts of Fleeting Microcosm, Graven-Mass Talisman and Magic Scorpion Charm amplify all sorcery, and Blessed Blue Dew Talisman keeps FP topped off for sustained casting.",
+    "playstyle": "Maternal sorcery specialist with homing projectile pressure"
+  },
+  {
+    "id": "bloodybeastclaw",
+    "name": "Bloody Beastclaw",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Beast Claw",
+      "Sacrificial Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Horned Warrior Helm",
+      "Horned Warrior Armor",
+      "Lionel's Gauntlets",
+      "Horned Warrior Greaves"
+    ],
+    "talismans": [
+      "Two-Headed Turtle Talisman",
+      "Lord of Blood's Exultation",
+      "Crusade Insignia",
+      "Shard of Alexander",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Savage Claws"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#bloodybeastclaw",
+    "tags": [
+      "arcane",
+      "axe",
+      "bleed",
+      "dual-wield",
+      "fist",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Two-hand the Beast Claw and use Savage Claws to deliver rapid multi-hit combo attacks that quickly proc bleed — Lord of Blood's Exultation triggers a massive damage boost when hemorrhage activates. Rotten Winged Sword Insignia rewards the fast successive hits, ramping your damage higher with each swing. Shard of Alexander boosts Savage Claws' skill damage, and Two-Headed Turtle Talisman helps with stamina recovery between combo chains. Keep the Sacrificial Axe in the off-hand slot to restore FP on kills, fueling more Savage Claws uses.",
+    "playstyle": "Frenzied bleed beast claw berserker"
+  },
+  {
+    "id": "frostmonk",
+    "name": "Frost-Fu Monk",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity",
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Dryleaf Arts"
+    ],
+    "shield": null,
+    "armor": [
+      "Dane's Hat",
+      "Messmer Soldier Armor",
+      "Horned Warrior Gauntlets",
+      "Horned Warrior Greaves"
+    ],
+    "talismans": [
+      "Blue Dancer Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Godfrey Icon",
+      "Claw Talisman"
+    ],
+    "skills": [
+      "Divine Beast Frost Stomp"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#frostmonk",
+    "tags": [
+      "dexterity",
+      "frost",
+      "intelligence",
+      "melee",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Use Dryleaf Arts for rapid hand-to-hand combos and apply Divine Beast Frost Stomp to slam the ground with frost AoE — this builds frostbite quickly on groups. Shard of Alexander and Godfrey Icon boost the stomp's damage, while Blue Dancer Charm rewards light equip load. Chain light attack combos to rapidly stack Rotten Winged Sword Insignia and Millicent's Prosthesis for escalating damage. Bull-Goat's Talisman provides poise to hyper-armor through attacks during your combos, and Claw Talisman boosts jump attacks for aerial kick mix-ups.",
+    "playstyle": "Frostbite martial artist with rapid kick combos"
+  },
+  {
+    "id": "knightblade",
+    "name": "Knight Blade",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Backhand Blade"
+    ],
+    "shield": "Great Turtle Shell",
+    "armor": [
+      "Black Knight Set"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Two-Headed Turtle Talisman"
+    ],
+    "skills": [
+      "Blind Spot"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#knightblade",
+    "tags": [
+      "dexterity",
+      "melee",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Use the Backhand Blade with Blind Spot to dash behind enemies and deliver a devastating backstep slash. The weapon's innate multi-hit running and jumping attacks quickly ramp up Rotten Winged Sword Insignia and Millicent's Prosthesis for escalating damage. Great Turtle Shell on the back passively boosts stamina recovery even when two-handing the blade. Dragoncrest Greatshield Talisman provides damage negation to compensate for aggressive positioning, and Two-Headed Turtle Talisman stacks additional stamina regen for relentless pressure.",
+    "playstyle": "Evasive backhand blade dancer with backstep punishes"
+  },
+  {
+    "id": "savageslasher",
+    "name": "Savage Slasher",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Great Katana"
+    ],
+    "shield": null,
+    "armor": [
+      "Oathseeker Knight Set"
+    ],
+    "talismans": [
+      "Rotten Winged Sword Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Rellana's Cameo"
+    ],
+    "skills": [
+      "Savage Lion's Claw",
+      "Overhead Stance"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#savageslasher",
+    "tags": [
+      "arcane",
+      "great-katana",
+      "katana",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Use the Great Katana with Overhead Stance for powerful sweeping slashes and Savage Lion's Claw for a brutal leaping overhead attack that staggers most enemies. Shard of Alexander boosts both skills, and Rellana's Cameo rewards alternating between the two weapon arts. Rotten Winged Sword Insignia builds stacks on the Great Katana's fast follow-up slashes. Bull-Goat's Talisman lets you poise through attacks during Savage Lion's Claw's wind-up, and Dragoncrest Greatshield Talisman reduces incoming damage for trading hits confidently.",
+    "playstyle": "Heavy-hitting great katana stance switcher"
+  },
+  {
+    "id": "spellsword",
+    "name": "SPELLSWORD BUILD (ALL GAME)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Claymore",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Carian Knight Helm",
+      "Blue Silver Mail Armor",
+      "Black Knife Gauntlets",
+      "Black Knife Greaves"
+    ],
+    "talismans": [
+      "Axe Talisman",
+      "Shard of Alexander",
+      "Assasin's Cerulean Dagger",
+      "Spear Talisman"
+    ],
+    "skills": [
+      "Glintblade Phalanx"
+    ],
+    "spells": [
+      "Scholar's Armament"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#spellsword",
+    "tags": [
+      "caster",
+      "greatsword",
+      "intelligence",
+      "magic",
+      "melee",
+      "staff",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Buff the Claymore with Scholar's Armament for magic damage scaling, then use Glintblade Phalanx to summon orbiting glintblades that automatically fire when enemies approach — this creates free stagger pressure during melee engagements. Axe Talisman boosts charged heavy attacks, which the Claymore excels at with its excellent R2 moveset. Shard of Alexander amplifies Glintblade Phalanx damage, Spear Talisman rewards counter-thrust hits, and Assassin's Cerulean Dagger restores FP on critical hits for more skill and buff uptime.",
+    "playstyle": "Classic strength-intelligence spellsword with glintblade pressure"
+  },
+  {
+    "id": "mage",
+    "name": "Mage Build (Beginner)",
+    "class": "Astrologer",
+    "primaryStats": [
+      "intelligence",
+      "mind"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Any Staff",
+      "any melee weapon"
+    ],
+    "shield": "Any 100% Physical Block",
+    "armor": [
+      "Any Light Armor"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Glintblade Phalanx"
+    ],
+    "spells": [
+      "Glintstone Pebble",
+      "Glintstone Arc",
+      "Loretta's Greatbow",
+      "Great Glintstone Shard",
+      "Carian Slicer",
+      "Carian Piercer"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#mage",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "mind",
+      "shield",
+      "staff"
+    ],
+    "strategy": "Use Glintstone Pebble as your efficient bread-and-butter damage spell for most encounters, and Great Glintstone Shard when you need more damage per cast. Loretta's Greatbow handles long-range sniping, while Glintstone Arc is your go-to for clearing groups of smaller enemies. When enemies close to melee range, swap to Carian Slicer for extremely FP-efficient magic sword attacks, or Carian Piercer for a high-damage thrust that can hit through shields. Keep a shield ready for panic blocks and use Glintblade Phalanx on your melee weapon for free stagger setups.",
+    "playstyle": "Beginner-friendly pure intelligence sorcery caster"
+  },
+  {
+    "id": "spellblade",
+    "name": "Spellblade Build",
+    "class": "Prisoner",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Demi-Human Queen's Staff",
+      "Estoc",
+      "Rapier"
+    ],
+    "shield": "Any 100% Physical (optional)",
+    "armor": [
+      "but get pieces that increase Intelligence when possible"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Impaling Thrust"
+    ],
+    "spells": [
+      "Scholar's Armament",
+      "Glintstone Pebble",
+      "Carian Slicer"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#spellblade",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "rapier",
+      "shield",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Buff your Estoc or Rapier with Scholar's Armament for added magic damage, then pressure enemies with quick thrust attacks and Impaling Thrust for guard-breaking or trading into heavier foes. Use Carian Slicer in melee range as a fast, FP-efficient alternative to physical swings, and Glintstone Pebble for ranged poke or pulling enemies. The thrusting swords' low recovery lets you weave between casting and stabbing fluidly.",
+    "playstyle": "Intelligence-scaling thrust swordsman with magic buffs"
+  },
+  {
+    "id": "enchantedknight",
+    "name": "Enchanted Knight Build (Level 50)",
+    "class": "Astrologer or Prisoner",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Blue-Gold Kite Shield",
+    "armor": [
+      "Carian Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Barricade Shield"
+    ],
+    "spells": [
+      "Carian Slicer",
+      "Carian Piercer",
+      "Carian Greatsword",
+      "Glintstone Pebble"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#enchantedknight",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "shield",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Block with the Blue-Gold Kite Shield using Barricade Shield to absorb hits with minimal stamina loss, then immediately punish with Carian Slicer for fast melee-range magic damage. Use Carian Piercer for roll-catching or thrust trades through enemy attacks, and Carian Greatsword for crowd control and stagger on groups. Glintstone Pebble handles ranged pulls. At level 50, FP is limited, so rely heavily on Carian Slicer for its exceptional damage-to-FP ratio.",
+    "playstyle": "Shielded sorcerer-knight with Carian melee spells"
+  },
+  {
+    "id": "swordsage",
+    "name": "Sword Sage Build (Level 50)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Sword of Night and Flame",
+      "Meteorite Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that still lets you med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Night-and-Flame Stance"
+    ],
+    "spells": [
+      "Rancorcall",
+      "Ancient Death Rancor"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#swordsage",
+    "tags": [
+      "caster",
+      "dark/death",
+      "faith",
+      "fire",
+      "intelligence",
+      "magic",
+      "melee",
+      "staff"
+    ],
+    "strategy": "Night-and-Flame Stance is your core tool: hold L2, then R1 for the Comet Azur-style magic beam at range, or R2 for the sweeping flame attack in melee. The Sword of Night and Flame scales with both intelligence and faith, making it ideal for this hybrid split. Use the Meteorite Staff to cast Rancorcall and Ancient Death Rancor for homing skull pressure that tracks aggressively, forcing enemies to dodge while you follow up with the stance attacks.",
+    "playstyle": "Dual-scaling hybrid caster with stance weapon combos"
+  },
+  {
+    "id": "battlemage",
+    "name": "Battlemage Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "mind",
+      "vigor",
+      "strength"
+    ],
+    "weapons": [
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Any that can med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Carian Slicer",
+      "Carian Greatsword",
+      "Carian Piercer",
+      "Glintstone Pebble",
+      "Loretta's Greatbow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#battlemage",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "shield",
+      "staff"
+    ],
+    "strategy": "Before engaging, activate Contagious Fury on the Jellyfish Shield (L2 while two-handing it) for a 20% damage buff, then swap to your staff. In close quarters, spam Carian Slicer for the best damage-per-FP in the game; use Carian Piercer for roll punishes and Carian Greatsword for sweeping stagger. Glintstone Pebble and Loretta's Greatbow handle ranged engagements. At level 100, your high intelligence makes Carian Regal-tier spells hit hard while the Jellyfish buff stacks with any other buffs.",
+    "playstyle": "Buff-stacking melee sorcerer with Carian blade spells"
+  },
+  {
+    "id": "crystalmage",
+    "name": "Crystal Mage Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Crystal Staff",
+      "Finger Seal",
+      "Clawmark Seal"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Any that still allows you to med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Crystal Torrent",
+      "Shattering Crystal",
+      "Glintstone Pebble",
+      "Great Glintstone Shard",
+      "Comet",
+      "Terra Magica",
+      "Bestial Vitality"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#crystalmage",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "seal",
+      "shield",
+      "staff"
+    ],
+    "strategy": "Stack buffs before boss fights: activate Contagious Fury from the Jellyfish Shield for 20% damage, cast Bestial Vitality for passive HP regen, then plant Terra Magica for 35% magic damage boost. From the Terra Magica zone, unleash Crystal Torrent as your primary DPS spell, which fires a devastating beam. Use Shattering Crystal for medium range burst, Comet for long-range sniping, and Glintstone Pebble or Great Glintstone Shard for FP-efficient poke. The Crystal Staff boosts all crystal sorceries by 10%.",
+    "playstyle": "Zone-controlling crystal sorcerer with heavy buff stacking"
+  },
+  {
+    "id": "moonveilshinobi",
+    "name": "Moonveil Shinobi Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Moonveil",
+      "Uchigatana"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that can still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Transient Moonlight",
+      "Glinstone Phalanx"
+    ],
+    "spells": [
+      "Loretta's Greatbow",
+      "Great Glintstone Shard",
+      "Terra Magica"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#moonveilshinobi",
+    "tags": [
+      "caster",
+      "intelligence",
+      "katana",
+      "magic",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Dual-wield Moonveil and Uchigatana for L1 powerstance slashes that build bleed, then use Transient Moonlight (Moonveil's weapon art) for devastating ranged magic slashes -- R1 for horizontal wave, R2 for vertical. Glintstone Phalanx on the Uchigatana provides passive floating swords that stagger on hit, opening enemies for a critical. Set up Terra Magica before boss fights to boost Transient Moonlight and your sorceries. Loretta's Greatbow and Great Glintstone Shard give you ranged options when you can't close distance.",
+    "playstyle": "Aggressive dual-katana spellblade with magic burst"
+  },
+  {
+    "id": "darkknight",
+    "name": "Dark Knight Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Helphen's Steeple",
+      "Dark Moon Greatsword",
+      "Staff of Loss"
+    ],
+    "shield": null,
+    "armor": [
+      "Night's Cavalry Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Moonlight Greatsword",
+      "Ruinous Ghostflame"
+    ],
+    "spells": [
+      "Night Comet",
+      "Night Shard",
+      "Terra Magica",
+      "Loretta's Greatbow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#darkknight",
+    "tags": [
+      "caster",
+      "dark/death",
+      "greatsword",
+      "intelligence",
+      "magic",
+      "melee",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Two-hand Helphen's Steeple and activate Ruinous Ghostflame to buff it with ghostflame, adding magic damage and frostbite buildup to every swing. Swap to Dark Moon Greatsword and use Moonlight Greatsword (its weapon art) to send a frost-magic projectile wave. Staff of Loss boosts Night sorceries by 30%, making Night Comet and Night Shard your primary ranged spells -- these are invisible and cannot be dodged by NPC enemies. Set up Terra Magica before big fights for the 35% magic damage bonus. Loretta's Greatbow handles extreme range.",
+    "playstyle": "Frost-and-ghostflame greatsword knight with invisible sorceries"
+  },
+  {
+    "id": "freezingbattlemage",
+    "name": "Freezing Battlemage Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "mind",
+      "vigor"
+    ],
+    "weapons": [
+      "Lusat's Glintstone Staff",
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Snow Witch Hat"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Carian Slicer",
+      "Adula's Moonblade",
+      "Carian Piercer",
+      "Glintstone Icecrag",
+      "Zamor Ice Storm",
+      "Freezing Mist"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#freezingbattlemage",
+    "tags": [
+      "caster",
+      "frost",
+      "intelligence",
+      "magic",
+      "shield",
+      "staff"
+    ],
+    "strategy": "Open fights by activating Contagious Fury on the Jellyfish Shield for 20% damage, then swap to Lusat's Staff for maximum spell power. Use Freezing Mist to apply frostbite passively in an area, then follow with Glintstone Icecrag for direct frost damage. Adula's Moonblade is your melee nuke -- a sweeping frost blade that deals massive damage and procs frostbite. Carian Slicer handles sustained melee DPS, and Carian Piercer punishes rolls. The Snow Witch Hat boosts cold sorceries by 10%, and Zamor Ice Storm provides area denial. Swap to Carian Glintstone Staff for FP efficiency on cheaper spells.",
+    "playstyle": "Frostbite sorcerer blending cold spells with Carian melee magic"
+  },
+  {
+    "id": "deathknight",
+    "name": "Death Knight Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Sword of Night and Flame",
+      "Carian Regal Scepter",
+      "Frenzied Flame Seal"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Night's Cavalry Helm",
+      "Night's Cavalry Armor",
+      "Lionel's Greaves",
+      "Lionel's Gauntlets"
+    ],
+    "talismans": [],
+    "skills": [
+      "Night-and-Flame-Stance"
+    ],
+    "spells": [
+      "Rancor",
+      "Ancient Death Rancor",
+      "Golden Vow",
+      "Terra Magica"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#deathknight",
+    "tags": [
+      "caster",
+      "dark/death",
+      "fire",
+      "intelligence",
+      "madness",
+      "magic",
+      "seal",
+      "shield",
+      "staff"
+    ],
+    "strategy": "Buff with Golden Vow for 15% damage and defense, then plant Terra Magica for 35% magic boost. Use Night-and-Flame Stance as your primary attack: R1 fires a Comet Azur beam boosted by Terra Magica, R2 sweeps with fire. Ancient Death Rancor provides aggressive homing skull pressure that staggers enemies and deals strong poise damage. The Frenzied Flame Seal and Carian Regal Scepter give casting flexibility. With the Carian Knight's Shield, you can turtle between spell volleys when pressured.",
+    "playstyle": "Heavily-armored death sorcerer with flame-and-magic stance attacks"
+  },
+  {
+    "id": "moonlightcrusader",
+    "name": "Moonlight Crusader Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Dark Moon Greatsword",
+      "Carian Regal Scepter"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Moonlight Greatsword"
+    ],
+    "spells": [
+      "Ranni's Dark Moon",
+      "Greatblade Phalanx",
+      "Terra Magica",
+      "Comet"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#moonlightcrusader",
+    "tags": [
+      "caster",
+      "greatsword",
+      "intelligence",
+      "magic",
+      "melee",
+      "staff"
+    ],
+    "strategy": "Set up with Terra Magica for 35% magic boost, then cast Ranni's Dark Moon to debuff the target with reduced magic resistance and apply frostbite. Immediately follow with the Moonlight Greatsword weapon art (charged R2 projectile wave) which now hits the debuffed target for massive damage. Use Greatblade Phalanx for stagger pressure and poise breaks that open enemies to criticals. Comet fills the ranged DPS role. The Dark Moon Greatsword permanently gains magic damage after using its weapon art, so keep it activated.",
+    "playstyle": "Moon-magic greatsword crusader with debuff-into-burst combos"
+  },
+  {
+    "id": "nebulaknight",
+    "name": "Nebula Knight Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Wing of Astel"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Scaled Armor Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Nebula"
+    ],
+    "spells": [
+      "Scholar's Shield",
+      "Terra Magica"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#nebulaknight",
+    "tags": [
+      "caster",
+      "curved-sword",
+      "dexterity",
+      "intelligence",
+      "shield"
+    ],
+    "strategy": "Wing of Astel's weapon art Nebula creates delayed explosions in an area that deal massive magic damage -- position to catch enemies in the cluster for staggering burst. The curved sword's normal attacks deal split physical and magic damage scaling with both intelligence and dexterity. Buff the Carian Knight's Shield with Scholar's Shield for improved stability and guard, then turtle behind it when pressured. Plant Terra Magica before boss fights to boost both Nebula's explosions and the weapon's innate magic damage. Use the shield to bait attacks, then punish with Nebula.",
+    "playstyle": "Dex-int curved sword fighter with explosive area denial"
+  },
+  {
+    "id": "soulsamurai",
+    "name": "Elden Soul Samurai Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Nagakiba",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Black Knife Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Double Slash"
+    ],
+    "spells": [
+      "Greatblade Phalanx",
+      "Founding Rain of Stars",
+      "Unseen Form",
+      "Loretta's Greatbow",
+      "Carian Retaliation",
+      "Scholar's Armament",
+      "Terra Magica",
+      "Freezing Mist"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#soulsamurai",
+    "tags": [
+      "caster",
+      "dexterity",
+      "frost",
+      "intelligence",
+      "katana",
+      "magic",
+      "melee",
+      "staff"
+    ],
+    "strategy": "Buff the Nagakiba with Scholar's Armament for added magic damage, then use Double Slash for a fast dual-hit combo that shreds poise and applies frost from Freezing Mist. Set up Greatblade Phalanx for passive stagger pressure -- the floating swords fire automatically and often stagger, opening enemies for criticals. Unseen Form lets you approach enemies undetected for backstabs. Terra Magica boosts all magic damage before boss fights. Founding Rain of Stars provides sustained area damage during openings. Loretta's Greatbow handles sniping, and Carian Retaliation on a shield lets you parry spells for massive riposte damage.",
+    "playstyle": "Stealth-oriented magic samurai with versatile spell toolkit"
+  },
+  {
+    "id": "warriorwizard",
+    "name": "Warrior Wizard Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Carian Regal Scepter",
+      "Lusat's Glintstone Staff",
+      "Carian Glintstone Staff"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Beast Champion Set",
+      "Greathelm"
+    ],
+    "talismans": [],
+    "skills": [],
+    "spells": [
+      "Terra Magica",
+      "Gavel of Haima",
+      "Loretta's Greatbow",
+      "Carian Slicer",
+      "Carian Piercer",
+      "Carian Greatsword",
+      "Adula's Moonblade"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#warriorwizard",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "shield",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "You carry three staves for different situations: Lusat's for maximum spell damage (at higher FP cost), Carian Glintstone for FP efficiency, and Carian Regal Scepter as a balanced option. Plant Terra Magica and swap to Lusat's for devastating Adula's Moonblade sweeps and Loretta's Greatbow snipes. In sustained fights, swap to Carian Glintstone and use Carian Slicer and Carian Greatsword for efficient melee-range casting. Gavel of Haima provides a massive overhead slam with huge stagger. The Carian Knight's Shield and Beast Champion armor give you the poise to trade hits while casting.",
+    "playstyle": "Heavily-armored sorcery powerhouse with staff-swapping optimization"
+  },
+  {
+    "id": "ghostblade",
+    "name": "Ghostblade Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "dexterity",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Death's Poker",
+      "Staff of Loss"
+    ],
+    "shield": "Scorpion Kite Shield",
+    "armor": [
+      "Sanguine Noble Hood",
+      "Maliketh's Armor",
+      "Maliketh's Gauntlets",
+      "Maliketh's Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ghostflame Ignition"
+    ],
+    "spells": [
+      "Terra Magica"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#ghostblade",
+    "tags": [
+      "caster",
+      "dark/death",
+      "dexterity",
+      "intelligence",
+      "shield",
+      "staff",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Death's Poker's weapon art Ghostflame Ignition has two follow-ups: R1 creates a trail of ghostflame on the ground for area denial, R2 launches an explosive ghostflame projectile for burst damage. Staff of Loss boosts night sorceries by 30%, but here it primarily serves as a backup catalyst for Terra Magica to boost all your ghostflame damage. The Scorpion Kite Shield provides a passive option when you need to block. This build invests broadly across strength, dex, and intelligence, making Death's Poker hit hard on all its scaling parameters.",
+    "playstyle": "Ghostflame greatsword specialist with area-denial ignitions"
+  },
+  {
+    "id": "redlightning",
+    "name": "Red Lightning Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Erdtree Seal",
+      "Gravel Stone Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll."
+    ],
+    "talismans": [],
+    "skills": [],
+    "spells": [
+      "Golden Vow",
+      "Lightning Strike",
+      "Lightning Spear",
+      "Lansseax's Glaive",
+      "Frozen Lightning Spear",
+      "Ancient Dragons' Lightning Strike"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#redlightning",
+    "tags": [
+      "caster",
+      "faith",
+      "holy",
+      "lightning",
+      "melee",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Dual-wield the Erdtree Seal and Gravel Stone Seal simultaneously -- the Gravel Stone Seal boosts all dragon cult lightning incantations by 15%, and holding a seal in each hand lets the passive boost apply while casting from the higher-scaling seal. Open with Golden Vow for 15% damage and defense. Ancient Dragons' Lightning Strike is your nuke for large targets, Lansseax's Glaive sweeps in an arc for crowds, and Lightning Spear is your reliable ranged poke. Frozen Lightning Spear adds frostbite buildup for extra burst. Lightning Strike hits in a wide area for groups.",
+    "playstyle": "Pure faith dragon cult lightning caster with seal stacking"
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin Build (Beginner)",
+    "class": "Confessor",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Any one-handed and a Sacred Seal"
+    ],
+    "shield": "Brass Shield",
+    "armor": [
+      "The heaviest you can wear and still mid-roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Barricade Shield",
+      "Ash of War: Golden Vow"
+    ],
+    "spells": [
+      "Urgent Heal",
+      "Heal"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#paladin",
+    "tags": [
+      "caster",
+      "faith",
+      "holy",
+      "seal",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Activate Golden Vow (weapon art) for 15% damage and defense, then fight behind the Brass Shield with Barricade Shield active for massive stability and near-zero stamina drain on blocks. Poke with your one-handed weapon after blocking attacks. Urgent Heal and Heal keep you topped off between fights without using flasks. This is a beginner-friendly build: block everything, counterattack, heal with incantations to save flasks, and keep Golden Vow active. Heavy armor and high endurance make you very hard to kill.",
+    "playstyle": "Tanky shield-and-faith paladin with sustain healing"
+  },
+  {
+    "id": "dragonpriest",
+    "name": "Dragon Priest Build (Beginner)",
+    "class": "Prophet",
+    "primaryStats": [
+      "mind",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "faith",
+      "arcane"
+    ],
+    "weapons": [],
+    "shield": null,
+    "armor": [],
+    "talismans": [],
+    "skills": [],
+    "spells": [
+      "Catch Flame",
+      "Dragonfire"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#dragonpriest",
+    "tags": [
+      "caster",
+      "fire",
+      "mind",
+      "vigor"
+    ],
+    "strategy": "Catch Flame is your bread-and-butter: a near-instant, low-FP fire incantation that hits hard at point-blank range and comes out fast enough to use between enemy swings. Dragonfire lets you breathe fire in a wide cone for groups or large enemies. Invest heavily in mind for a large FP pool since you're casting constantly. As a beginner Prophet build, the loop is simple -- close distance, spam Catch Flame for single targets, use Dragonfire for crowds or when you have a long opening. Arcane investment improves dragon incantation scaling later.",
+    "playstyle": "Close-range fire incantation caster with dragon breath"
+  },
+  {
+    "id": "lightninglancer",
+    "name": "Lightning Lancer Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Treespear",
+      "Clawmark Seal",
+      "Gravel Stone Seal"
+    ],
+    "shield": "Golden Greatshield",
+    "armor": [
+      "Leyndell Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Sacred Order, Golden Vow",
+      "Barricade Shield"
+    ],
+    "spells": [
+      "Lightning Spear",
+      "Electrify Armament",
+      "Blessing's Boon"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#lightninglancer",
+    "tags": [
+      "caster",
+      "endurance",
+      "faith",
+      "great-spear",
+      "holy",
+      "lightning",
+      "seal",
+      "shield",
+      "strength"
+    ],
+    "strategy": "Buff with Blessing's Boon for HP regen, then cast Electrify Armament on the Treespear for added lightning damage on every hit. Activate Sacred Order (Treespear's skill) for even more holy damage and undead-killing power. The Treespear's reach makes it excellent behind the Golden Greatshield with Barricade Shield -- poke after blocking with almost no stamina cost. Lightning Spear from the Clawmark Seal (which scales with strength) gives you a ranged option. Stack three buffs (Blessing's Boon, Electrify Armament, Sacred Order) before tough fights for massive damage.",
+    "playstyle": "Buff-stacking greatshield lancer with lightning incantations"
+  },
+  {
+    "id": "blackflamespellblade",
+    "name": "Black Flame Spellblade Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "mind",
+      "vigor"
+    ],
+    "weapons": [
+      "Cross-Naginata",
+      "Flamberge",
+      "Scythe",
+      "Grave Scythe",
+      "Nagakiba",
+      "Uchigatana",
+      "Godslayer's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that allows for med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Repeating Thrust",
+      "Spinning Slash",
+      "Sword Dance",
+      "Double Slash"
+    ],
+    "spells": [
+      "Bloodflame Blade",
+      "Black Flame Blade",
+      "Black Flame",
+      "Scouring Black Flame",
+      "Golden Vow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blackflamespellblade",
+    "tags": [
+      "black-flame",
+      "bleed",
+      "caster",
+      "dexterity",
+      "faith",
+      "fire",
+      "katana",
+      "melee",
+      "seal",
+      "spear"
+    ],
+    "strategy": "Cast Golden Vow for 15% damage and defense, then apply Black Flame Blade or Bloodflame Blade to your weapon -- Black Flame Blade deals percentage-based damage over time (shreds bosses), while Bloodflame Blade adds bleed and fire. Pick your weapon based on the situation: Nagakiba or Cross-Naginata for reach and bleed buildup, Scythe or Grave Scythe for innate bleed and faith scaling. Use weapon arts like Repeating Thrust or Double Slash for multi-hit combos that proc status effects quickly. Black Flame and Scouring Black Flame provide ranged percentage-HP burn. The Godslayer's Seal boosts all black flame incantations.",
+    "playstyle": "Dex-faith weapon enchanter exploiting black flame and bleed"
+  },
+  {
+    "id": "deathblade",
+    "name": "Deathblade Build (Level 100)",
+    "class": "",
+    "primaryStats": [],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Sword of Night and Flame",
+      "Prince of Death's Staff",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that allows you to med roll. Spellblade Set boosts Night and Flame's Magic attack by 2% per piece"
+    ],
+    "talismans": [],
+    "skills": [
+      "Night-and-Flame Stance"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Black Flame",
+      "Loretta's Greatbow",
+      "Terra Magica",
+      "Magic Glintblade",
+      "Ancient Death Rancor"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#deathblade",
+    "tags": [
+      "black-flame",
+      "caster",
+      "dark/death",
+      "fire",
+      "magic",
+      "melee",
+      "seal",
+      "staff"
+    ],
+    "strategy": "Stack all three buffs before engaging: Golden Vow (15% damage/defense), Flame Grant Me Strength (20% physical and fire damage), and Terra Magica (35% magic damage). Night-and-Flame Stance R1 fires a magic beam boosted by Terra Magica, while R2 sweeps fire boosted by Flame Grant Me Strength -- both attacks benefit from Golden Vow. The Spellblade Set armor boosts the magic beam by 2% per piece. Prince of Death's Staff handles intelligence sorceries like Ancient Death Rancor and Magic Glintblade, while the Golden Order Seal casts Black Flame for percentage-based boss burn. This is an extremely versatile triple-buff build.",
+    "playstyle": "Triple-buff hybrid caster maximizing Night-and-Flame's dual attacks"
+  },
+  {
+    "id": "blasphemousbeastmaster",
+    "name": "Blasphemous Beastmaster Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Clawmark Seal",
+      "Blasphemous Blade",
+      "Cinquedea"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that still allows you to med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Taker's Flames"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Stone of Gurranq",
+      "Beast Claw",
+      "Bestial Sling"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blasphemousbeastmaster",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "melee",
+      "seal",
+      "strength"
+    ],
+    "strategy": "Stack Golden Vow and Flame Grant Me Strength before engaging for massive damage amplification on the Blasphemous Blade. Use Taker's Flames (its weapon art) to send a wave of fire that heals you on hit -- this is your primary damage tool and sustain engine. Swap to the Cinquedea in the offhand to boost bestial incantations by 10%. Bestial Sling is a fast interrupt for staggering enemies mid-attack, Stone of Gurranq is a strong ranged rock throw, and Beast Claw sends a wave of slashing energy along the ground. The Clawmark Seal scales incantations with strength, synergizing with your primary stat investment.",
+    "playstyle": "Self-healing fire greatsword warrior with beast incantations"
+  },
+  {
+    "id": "crusader",
+    "name": "Crusader Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Gargoyle's Greatsword",
+      "Erdtree Seal"
+    ],
+    "shield": "Brass Shield",
+    "armor": [
+      "Haligtree Knight Helm"
+    ],
+    "talismans": [],
+    "skills": [
+      "Barricade Shield",
+      "Sword Dance"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Elden Stars",
+      "Lightning Spear",
+      "Black Blade",
+      "Black Flame's Protection"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#crusader",
+    "tags": [
+      "black-flame",
+      "caster",
+      "faith",
+      "fire",
+      "greatsword",
+      "holy",
+      "lightning",
+      "seal",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Open encounters by casting Golden Vow and Blessing of the Erdtree for stacked attack, defense, and HP regen buffs, then apply Black Flame's Protection for physical damage negation. Use the Brass Shield with Barricade Shield to block heavy hits and punish with Sword Dance on the Gargoyle's Greatsword for fast multi-hit combos. At range, throw Lightning Spears for reliable holy damage and use Black Blade's percentage-based HP reduction against high-health bosses; save Elden Stars for area denial in group fights.",
+    "playstyle": "Defensive faith knight with holy incantation support"
+  },
+  {
+    "id": "blackflamebushido",
+    "name": "Blackflame Bushido Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Cross-Naginata",
+      "Nagakiba",
+      "Godslayer's Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "White Reed Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Phantom Slash",
+      "Sword Dance",
+      "Double Slash"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Black Flame",
+      "Bloodflame Blade",
+      "Black Flame Blade",
+      "Scouring Black Flame",
+      "Black Flame Ritual",
+      "Black Flame's Protection"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blackflamebushido",
+    "tags": [
+      "black-flame",
+      "bleed",
+      "caster",
+      "dexterity",
+      "faith",
+      "fire",
+      "katana",
+      "melee",
+      "seal",
+      "spear"
+    ],
+    "strategy": "Buff with Golden Vow, then apply Black Flame Blade to your main weapon for percentage-based max HP burn on every hit. Dual-wield the Cross-Naginata and Nagakiba for long-reach thrust attacks and powerstance pokes that shred through enemy HP with black flame DoT. Use Phantom Slash for gap-closing burst damage, Double Slash for stunlock pressure, and Sword Dance for wide sweeps against groups. At range, cast Scouring Black Flame or Black Flame Ritual for area control. The White Mask boosts attack when bleed procs, so alternate Bloodflame Blade when facing bleed-susceptible enemies for massive damage spikes.",
+    "playstyle": "Aggressive dex-faith dual-spear blackflame hybrid"
+  },
+  {
+    "id": "flamedancer",
+    "name": "Flame Dancer Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Giant's Red Braid",
+      "Clawmark Seal"
+    ],
+    "shield": "Greatshield",
+    "armor": [
+      "Any Armor that has high Poise."
+    ],
+    "talismans": [],
+    "skills": [
+      "Flame Dance"
+    ],
+    "spells": [
+      "Flame, Grant Me Strength",
+      "Golden Vow",
+      "Black Flame",
+      "Black Flame Ritual",
+      "Flame, Fall Upon Them"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#flamedancer",
+    "tags": [
+      "black-flame",
+      "caster",
+      "faith",
+      "fire",
+      "seal",
+      "shield",
+      "strength"
+    ],
+    "strategy": "Stack Flame, Grant Me Strength and Golden Vow before engaging to massively boost fire and physical damage. The Giant's Red Braid whip scales with strength and faith through the Clawmark Seal's bestial incantation bonus, and its Flame Dance skill sends out a sweeping fire wave with excellent range and stagger. Use Black Flame and Black Flame Ritual as ranged burst and area-denial tools against bosses, and Flame, Fall Upon Them for devastating aerial fire AoE. Rely on high poise armor to trade hits confidently while swinging the whip's slow but wide arcs.",
+    "playstyle": "Heavy-poise fire whip caster with flame incantations"
+  },
+  {
+    "id": "goldenswordsage",
+    "name": "Elden Golden Sword Sage Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Coded Sword",
+      "Sword of Night and Flame",
+      "Golden Order Seal"
+    ],
+    "shield": "Blue-Gold Kite Shield",
+    "armor": [
+      "Radiant Gold Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Unblockable Blade",
+      "Barricade Shield"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Discus of Light",
+      "Triple Rings of Light",
+      "Radagon's Rings of Light",
+      "Elden Stars",
+      "Litany of Proper Death"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#goldenswordsage",
+    "tags": [
+      "caster",
+      "dark/death",
+      "faith",
+      "fire",
+      "holy",
+      "intelligence",
+      "seal",
+      "shield"
+    ],
+    "strategy": "The Golden Order Seal scales with both faith and intelligence, making all your Fundamentalist incantations hit extremely hard. Pre-buff with Golden Vow and Blessing of the Erdtree, then spam Triple Rings of Light and Radagon's Rings of Light for devastating holy AoE that melts groups. Use Discus of Light for single-target sniping and Litany of Proper Death for massive damage against undead. In melee, the Coded Sword's Unblockable Blade skill bypasses all shields entirely, while Sword of Night and Flame provides fire and magic beam options. Use the Blue-Gold Kite Shield with Barricade Shield as a defensive fallback in tight situations.",
+    "playstyle": "Dual-scaling holy caster with Fundamentalist incantations"
+  },
+  {
+    "id": "swordsaint",
+    "name": "Elden Sword Saint Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "faith"
+    ],
+    "secondaryStats": [
+      "strength",
+      "vigor"
+    ],
+    "weapons": [
+      "Sacred Relic Sword",
+      "Sword of Milos",
+      "Sacred Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor with high Poise",
+      "the higher the better."
+    ],
+    "talismans": [],
+    "skills": [
+      "Wave of Gold"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#swordsaint",
+    "tags": [
+      "caster",
+      "dexterity",
+      "faith",
+      "fire",
+      "holy",
+      "melee",
+      "seal"
+    ],
+    "strategy": "This build is a pure damage machine centered on the Sacred Relic Sword's Wave of Gold, a massive golden shockwave that deals holy damage in a huge frontal arc. Buff with Golden Vow and Flame, Grant Me Strength to amplify both the holy and fire components, then spam Wave of Gold to obliterate groups and deal heavy boss damage. The Sword of Milos goes in the off-hand to passively restore 5 FP per enemy kill, sustaining your skill usage through entire areas without flasks. Wear maximum poise armor so you can tank through hits while winding up the weapon art.",
+    "playstyle": "AoE holy greatsword spam with FP sustain"
+  },
+  {
+    "id": "drakeknight",
+    "name": "Drake Knight Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor"
+    ],
+    "weapons": [
+      "Magma Wyrm's Scalesword",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Magma Guillotine"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#drakeknight",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "melee",
+      "seal",
+      "strength"
+    ],
+    "strategy": "Buff with Golden Vow and Flame, Grant Me Strength to boost both physical and fire damage, then close in with Magma Wyrm's Scalesword. The Magma Guillotine skill leaps into the air and slams down leaving a pool of magma that deals continuous fire damage, excellent for punishing slow bosses and controlling space. The weapon's curved greatsword moveset has fast sweeps for crowds, and the magma pools stack with repeated casts for devastating area denial. The Clawmark Seal scales with strength, keeping your buff incantations effective without heavy faith investment.",
+    "playstyle": "Aggressive strength-faith magma knight with area denial"
+  },
+  {
+    "id": "crucibleknight",
+    "name": "Crucible Knight Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Ordovis' Greatsword",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Crucible Axe Set"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Godfrey Icon",
+      "Flock's Canvas Talisman",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Ordovis' Vortex"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Aspects of the Crucible: Tail",
+      "Aspects of the Crucible: Horns",
+      "Aspects of the Crucible: Breath"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#crucibleknight",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "greatsword",
+      "holy",
+      "melee",
+      "seal",
+      "strength"
+    ],
+    "strategy": "Pre-buff with Golden Vow and Flame, Grant Me Strength, then unleash Ordovis' Vortex, a spinning holy attack that is boosted by both Shard of Alexander and Godfrey Icon (hold the skill for the charged version for massive damage). Between weapon art casts, weave in Aspects of the Crucible incantations: use Horns for a charging gap-closer, Tail for a sweeping knockdown, and Breath for close-range fire. Flock's Canvas Talisman boosts your incantation damage, while Rotten Winged Sword Insignia rewards aggressive multi-hit chains. This build excels at staggering enemies with successive high-poise attacks in Crucible Axe armor.",
+    "playstyle": "Tanky Crucible incantation knight with charged weapon arts"
+  },
+  {
+    "id": "gladiator",
+    "name": "Gladiator Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Highland Axe"
+    ],
+    "shield": "Redmane Shield",
+    "armor": [
+      "Rotten Duelist Helm",
+      "Rotten Gravekeeper Cloak",
+      "Bull-Goats Gaunlets",
+      "Rotten Duelist Greaves"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Dagger Talisman",
+      "Bull-Goat's Talisman",
+      "Assassin's Cerulean Dagger",
+      "Millicent's Prosthesis"
+    ],
+    "skills": [
+      "Stamp (Upward Cut)"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#gladiator",
+    "tags": [
+      "axe",
+      "dexterity",
+      "melee",
+      "shield",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Play aggressively with the Highland Axe, using Stamp (Upward Cut) to hyperarmor through enemy attacks and launch them with a devastating uppercut. The Shard of Alexander boosts this skill's damage significantly, Dagger Talisman increases critical hit damage for riposting staggered enemies, and Bull-Goat's Talisman stacks with your high-poise armor to make you nearly unstaggerable during Stamp. Assassin's Cerulean Dagger restores FP on critical hits, letting you chain weapon arts after ripostes. Use the Redmane Shield for safe blocking when you need to reset, and Millicent's Prosthesis provides passive dexterity and attack power on successive hits.",
+    "playstyle": "Poise-stacking axe brawler with critical hit sustain"
+  },
+  {
+    "id": "berserker",
+    "name": "Berserker Build (Beginner)",
+    "class": "Vagabond",
+    "primaryStats": [
+      "endurance",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "weapons": [
+      "Claymore",
+      "Lordsworn's Greatsword"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Quickstep"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#berserker",
+    "tags": [
+      "dual-wield",
+      "endurance",
+      "greatsword",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Two-hand either the Claymore or Lordsworn's Greatsword for maximum damage and stagger per swing, relying on greatsword charged R2 attacks to break enemy poise quickly. Quickstep replaces your dodge roll with a fast sidestep that costs minimal FP, letting you weave through attacks while wearing heavier armor for maximum poise. Focus on trading hits confidently with your high vigor and endurance, using jump attacks to build up stagger meters. This is a straightforward beginner-friendly build that teaches spacing and timing without needing spells or complex buff rotations.",
+    "playstyle": "Simple two-handed greatsword bruiser with Quickstep mobility"
+  },
+  {
+    "id": "barbarian",
+    "name": "Barbarian Build (Beginner)",
+    "class": "Hero",
+    "primaryStats": [
+      "strength",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "dexterity"
+    ],
+    "weapons": [
+      "Zweihander"
+    ],
+    "shield": null,
+    "armor": [
+      "Heavies you can and still med roll (high Poise ideal)"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: War Cry"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#barbarian",
+    "tags": [
+      "endurance",
+      "melee",
+      "strength"
+    ],
+    "strategy": "Two-hand the Zweihander for massive range, excellent stagger, and the colossal sword's unique crouch-poke which is one of the best attacks in the game. Activate War Cry to buff your attacks and change your heavy attacks into a powerful charging thrust, perfect for punishing boss openings. Stack as much poise as your equip load allows so you can hyperarmor through hits during your slow but devastating swings. This beginner build focuses purely on strength scaling with no spell management, teaching the fundamentals of spacing and timing with colossal weapon movesets.",
+    "playstyle": "Raw strength colossal sword berserker"
+  },
+  {
+    "id": "archer",
+    "name": "Archer Build (Beginner)",
+    "class": "Bandit",
+    "primaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Shortbow",
+      "Longbow"
+    ],
+    "shield": null,
+    "armor": [
+      "Light or medium weight"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Barrage",
+      "Ash of War: Mighty Shot"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#archer",
+    "tags": [
+      "bow",
+      "dexterity",
+      "dual-wield",
+      "melee",
+      "mind"
+    ],
+    "strategy": "Use the Shortbow with Barrage for rapid-fire volleys at mid-range, triggering status effects quickly with poison or bleed arrows, and switch to the Longbow with Mighty Shot for high-damage charged snipes from long range. Keep your distance at all times, kiting enemies and using terrain to create safe firing positions. Invest in mind to sustain weapon art usage across long fights, and craft a variety of arrow types (fire, poison, bleed, magic) to exploit enemy weaknesses. This build rewards patience and positioning but struggles in tight spaces where you cannot maintain distance.",
+    "playstyle": "Ranged dexterity archer focused on kiting and arrow variety"
+  },
+  {
+    "id": "blazingbushido",
+    "name": "Blazing Bushido Build (Level 100)",
+    "class": "Samurai",
+    "primaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Nagakiba",
+      "Greatbow",
+      "Finger Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that still allows med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Unsheathe",
+      "Rain of Arrows"
+    ],
+    "spells": [
+      "Bloodflame Blade",
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blazingbushido",
+    "tags": [
+      "bleed",
+      "caster",
+      "dexterity",
+      "fire",
+      "katana",
+      "melee",
+      "seal",
+      "strength"
+    ],
+    "strategy": "Buff with Flame, Grant Me Strength for fire and physical damage, then apply Bloodflame Blade to the Nagakiba for fire damage and bleed buildup on every hit. Use Unsheathe for devastating draw-slash attacks that deal massive burst damage, choosing the light follow-up for speed or heavy for stagger. The Nagakiba's extreme reach lets you outspace most enemies safely. Switch to the Greatbow with Rain of Arrows for ranged area damage when enemies group up or when you need to soften targets before closing in. At level 100, prioritize strength and dexterity to maximize the Nagakiba's quality scaling.",
+    "playstyle": "Bloodflame samurai with iaijutsu draw attacks"
+  },
+  {
+    "id": "scorchingslayer",
+    "name": "Scorching Slayer Build (Level 100).",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Gargoyle's Twinblade",
+      "Sacred Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any that can still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Flame of the Redmanes"
+    ],
+    "spells": [
+      "Bloodflame Blade",
+      "Flame, Grant Me Strength",
+      "Electrify Armament"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#scorchingslayer",
+    "tags": [
+      "bleed",
+      "caster",
+      "fire",
+      "holy",
+      "melee",
+      "seal",
+      "strength",
+      "twinblade",
+      "vigor"
+    ],
+    "strategy": "Buff with Flame, Grant Me Strength for fire and physical damage, then apply either Bloodflame Blade for bleed or Electrify Armament for lightning damage to the Gargoyle's Twinblade depending on the enemy. Use Flame of the Redmanes as your primary weapon art, which sends out a fast fire wave with incredible poise damage that can stagger most enemies in two casts, opening them for critical hits. The twinblade's spinning moveset hits multiple times per swing, proccing status effects rapidly. At level 100 with strength focus, two-hand the twinblade for maximum damage on each multi-hit combo.",
+    "playstyle": "Flame-buffed twinblade striker with poise-breaking weapon art"
+  },
+  {
+    "id": "coldbloodedraptor",
+    "name": "Cold-Blooded Raptor Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Bloodhound Claws",
+      "Sacrificial Axe",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Raptor's Black Feathers",
+      "Haima Glintstone Crown"
+    ],
+    "talismans": [],
+    "skills": [
+      "Royal Knight's Resolve",
+      "Golden Vow"
+    ],
+    "spells": [
+      "Great Glintstone Shard",
+      "Loretta's Greatbow",
+      "Terra Magica",
+      "Adula's Moonblade",
+      "Greatblade Phalanx"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#coldbloodedraptor",
+    "tags": [
+      "axe",
+      "bleed",
+      "caster",
+      "fist",
+      "intelligence",
+      "magic",
+      "melee",
+      "staff",
+      "strength"
+    ],
+    "strategy": "Set up with Terra Magica in a safe spot for a massive sorcery damage boost, then cast Greatblade Phalanx for passive projectiles that fire automatically when enemies approach. Use Adula's Moonblade for devastating frost-proc melee-range sweeps and Loretta's Greatbow for long-range sniping. For melee, activate Royal Knight's Resolve on the Bloodhound Claws to double your next attack's damage, then leap in with jump attacks boosted by Raptor's Black Feathers. The Sacrificial Axe in the off-hand restores FP on kills for sustain. The strength-intelligence split lets you use heavier armor while keeping sorcery potent through the Academy Glintstone Staff.",
+    "playstyle": "Frost-clawed battle mage with jump attack burst"
+  },
+  {
+    "id": "venomousbloodblade",
+    "name": "Venomous Bloodblade Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Scavenger's Curved Sword",
+      "Bandit's Curved Sword"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "Mushroom Crown"
+    ],
+    "talismans": [],
+    "skills": [
+      "Poisonous Mist",
+      "Seppuku"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#venomousbloodblade",
+    "tags": [
+      "bleed",
+      "curved-sword",
+      "dexterity",
+      "dual-wield",
+      "melee",
+      "poison",
+      "strength"
+    ],
+    "strategy": "Apply Seppuku to both curved swords to massively boost bleed buildup and gain an attack buff, then dual-wield them for relentless powerstance L1 combos that proc hemorrhage in two to three hits. The White Mask boosts attack power by 10% when bleed triggers nearby, and the Mushroom Crown provides a similar boost when poison procs, so alternate Poisonous Mist to poison enemies and trigger both headpiece bonuses simultaneously. The Scavenger's and Bandit's Curved Swords have fast, wide powerstance swings that shred through anything susceptible to bleed, making this one of the highest sustained DPS setups in the game.",
+    "playstyle": "Dual curved sword bleed-poison powerstance shredder"
+  },
+  {
+    "id": "blasphemousherald",
+    "name": "Blasphemous Herald Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Blasphemous Blade",
+      "Gargoyle's Blackblade",
+      "Gargoyle's Greatsword",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Raptor's Black Feathers"
+    ],
+    "talismans": [],
+    "skills": [
+      "Taker's Flame",
+      "Corpse Wax Cutter",
+      "Flaming Strike",
+      "Sacred Order"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Flame, Grant Me Strength",
+      "Lightning Spear",
+      "Black Flame",
+      "Stone of Gurranq"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blasphemousherald",
+    "tags": [
+      "black-flame",
+      "caster",
+      "faith",
+      "fire",
+      "greatsword",
+      "holy",
+      "lightning",
+      "melee",
+      "seal",
+      "strength"
+    ],
+    "strategy": "Stack Golden Vow, Blessing of the Erdtree, and Flame, Grant Me Strength for maximum buff coverage on damage, defense, and HP regen. Lead with Blasphemous Blade's Taker's Flame, a fire wave that heals you on hit and on enemy kills, making you extremely hard to kill during sustained fights. Swap to Gargoyle's Blackblade with Corpse Wax Cutter or Gargoyle's Greatsword with Flaming Strike for variety against fire-resistant enemies. Use Lightning Spear and Black Flame as ranged incantation options, and Stone of Gurranq for fast-casting physical projectiles. Raptor's Black Feathers boosts jump attack damage, so weave in jumping R2s between weapon art casts for extra burst.",
+    "playstyle": "Self-healing fire greatsword paladin with weapon swapping"
+  },
+  {
+    "id": "colossalcrusher",
+    "name": "Colossal Crusher Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Giant-Crusher",
+      "Highland Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Bull-Goat Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Troll's Roar"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#colossalcrusher",
+    "tags": [
+      "axe",
+      "colossal-weapon",
+      "dual-wield",
+      "melee",
+      "strength"
+    ],
+    "strategy": "Two-hand the Giant-Crusher for its S-tier strength scaling and use Troll's Roar to create distance and stagger nearby enemies with a shockwave before following up with a devastating overhead slam. Wear the full Bull-Goat Set for maximum poise in the game, allowing you to hyperarmor through virtually any attack while winding up your colossal weapon swings. Use charged R2 attacks and jump attacks as your primary damage tools, both of which deal massive stagger damage. Keep the Highland Axe as a faster backup weapon for quick enemies that punish colossal weapon recovery frames.",
+    "playstyle": "Maximum poise colossal hammer strength build"
+  },
+  {
+    "id": "blackblade",
+    "name": "Elden Black Blade Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Maliketh's Black Blade",
+      "Clawmark Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Maliketh's Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Destined Death"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Black Blade"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blackblade",
+    "tags": [
+      "caster",
+      "dark/death",
+      "faith",
+      "holy",
+      "melee",
+      "seal",
+      "strength"
+    ],
+    "strategy": "Buff with Golden Vow and Blessing of the Erdtree, then open fights with the Black Blade incantation, which sends a ranged projectile that reduces the target's max HP by a percentage and deals holy damage over time. Follow up by closing in and using Maliketh's Black Blade with Destined Death, a flip-slam weapon art that also applies the max HP reduction debuff, stacking with the incantation for devastating percentage-based damage against high-HP bosses. The Clawmark Seal scales with strength, synergizing perfectly with the weapon's strength-faith requirements. This build excels in NG+ where bosses have inflated HP pools, since the percentage reduction scales with enemy health.",
+    "playstyle": "Destined Death specialist that shreds boss HP percentages"
+  },
+  {
+    "id": "godslayer",
+    "name": "Elden Godslayer Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "faith"
+    ],
+    "weapons": [
+      "Godslayer's Greatsword",
+      "Sacred Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor with high Poise",
+      "the higher the better."
+    ],
+    "talismans": [],
+    "skills": [
+      "The Queen's Black Flame"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#godslayer",
+    "tags": [
+      "black-flame",
+      "caster",
+      "dexterity",
+      "fire",
+      "greatsword",
+      "holy",
+      "melee",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame, Grant Me Strength, then unleash The Queen's Black Flame, a wide-sweeping weapon art that deals fire damage and applies a black flame DoT that burns a percentage of the target's max HP. The Godslayer's Greatsword scales primarily with dexterity, and the black flame burn synergizes with Flame, Grant Me Strength's fire damage buff. Two-hand the weapon for maximum damage and use the colossal sword's fast two-handed R1 moveset to pressure enemies between weapon art casts. Wear high-poise armor to trade hits during the weapon art's long wind-up animation, which has generous hyperarmor frames.",
+    "playstyle": "Dex-faith black flame greatsword with percentage burn"
+  },
+  {
+    "id": "eldenlord",
+    "name": "Elden Lord Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Axe of Godfrey",
+      "Highland Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Regal Roar"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#eldenlord",
+    "tags": [
+      "axe",
+      "dexterity",
+      "dual-wield",
+      "melee",
+      "strength"
+    ],
+    "strategy": "Two-hand the Axe of Godfrey and use Regal Roar to buff yourself with a war cry that enhances your heavy attacks into devastating slam combos. The charged heavy attack after Regal Roar deals enormous stagger and damage, capable of stance-breaking most enemies in one or two hits. The Axe of Godfrey scales with both strength and dexterity as a quality weapon, and the Highland Axe serves as a faster alternative when fighting agile enemies that punish the colossal axe's slow recovery. Focus on jump attacks and charged heavies after the Regal Roar buff to maximize stagger and damage output.",
+    "playstyle": "Quality colossal axe wielder with war cry enhancement"
+  },
+  {
+    "id": "perfectpaladin",
+    "name": "Perfect Paladin Build (All Levels)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "faith"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Miquellan Knight's Sword",
+      "Clawmark Seal"
+    ],
+    "shield": "Haligtree Crest Greatshield",
+    "armor": [
+      "Haligtree Knight Set",
+      "Greathelm"
+    ],
+    "talismans": [],
+    "skills": [
+      "Sacred Blade"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Blessing of the Erdtree"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#perfectpaladin",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "holy",
+      "seal",
+      "shield",
+      "strength"
+    ],
+    "strategy": "Triple-buff with Golden Vow, Flame Grant Me Strength, and Blessing of the Erdtree for a comprehensive boost to damage, defense, and HP regeneration through the Clawmark Seal. Use the Miquellan Knight's Sword with Sacred Blade, which sends a golden projectile and temporarily buffs the weapon with holy damage, giving you both ranged poke and melee enhancement in one skill. Block heavy attacks with the Haligtree Crest Greatshield when needed, then counter-attack during openings. This all-levels build scales smoothly from early to late game because Sacred Blade provides consistent holy damage regardless of upgrade level, and the buff rotation keeps you durable through any content.",
+    "playstyle": "Classic sword-and-board holy paladin with triple buffs"
+  },
+  {
+    "id": "haimahoplite",
+    "name": "Haima Hoplite Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "vigor",
+      "strength",
+      "intelligence"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Clayman's Harpoon",
+      "Academy Glintstone Staff"
+    ],
+    "shield": "Cuckoo Greatshield",
+    "armor": [
+      "Cuckoo Knight Helm",
+      "Blaidd's Armor",
+      "Cuckoo Knight Gauntlets",
+      "Cuckoo Knight Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Repeating Thrust",
+      "Impaling Thrust"
+    ],
+    "spells": [
+      "Terra Magica",
+      "Scholar's Armament"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#haimahoplite",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "shield",
+      "staff",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Buff with Terra Magica for the sorcery damage boost, then apply Scholar's Armament to Clayman's Harpoon for added magic damage that scales with intelligence. In combat, use the Cuckoo Greatshield to block and punish with Repeating Thrust's multi-hit combo for high poise damage, or swap to Impaling Thrust to roll-catch and outrange opponents. The Harpoon's innate magic scaling combined with STR/INT split lets you deal mixed physical and magic damage, making it hard for enemies to stack resistances against you.",
+    "playstyle": "Spell-buffed greatshield spearman with magic thrust attacks"
+  },
+  {
+    "id": "scarletspear",
+    "name": "Scarlet Spear Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Rotten Crystal Spear"
+    ],
+    "shield": "Coil Shield",
+    "armor": [
+      "Redmane Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Charge Forth",
+      "Viper Bite"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#scarletspear",
+    "tags": [
+      "dexterity",
+      "melee",
+      "shield",
+      "spear",
+      "vigor"
+    ],
+    "strategy": "Use Charge Forth on the Rotten Crystal Spear to close distance aggressively while building scarlet rot on contact, then pressure with running and charged R2 thrusts to proc rot quickly. Once rot is ticking, play defensively behind the Coil Shield and let the DOT work, using Viper Bite on the shield for a secondary poison proc to stack two status effects simultaneously. The spear's innate rot buildup combined with dexterity scaling rewards a patient hit-and-retreat approach, poking from behind the shield and letting status effects do the heavy lifting.",
+    "playstyle": "Patient rot-and-poison spear poker behind shield"
+  },
+  {
+    "id": "supremesamurai",
+    "name": "Supreme Samurai Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Nagakiba"
+    ],
+    "shield": null,
+    "armor": [
+      "Nox Swordstress Armor",
+      "White Reed Gauntlets",
+      "Ronin's Greaves",
+      "Iron Kasa"
+    ],
+    "talismans": [],
+    "skills": [
+      "Unsheathe"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#supremesamurai",
+    "tags": [
+      "dexterity",
+      "katana",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Use Unsheathe as your primary engage tool: the light follow-up (R1) is a fast horizontal slash for roll-catching, while the heavy follow-up (R2) is a devastating overhead with massive stagger potential and high counter-hit damage. The Nagakiba's exceptional reach lets you outspace most weapons, so focus on spacing with running R2 pokes and punishing whiffs with Unsheathe's heavy attack. With pure dexterity scaling, every point invested directly boosts your damage, making this a high-skill, high-reward build centered on precise timing and spacing.",
+    "playstyle": "Precise long-range katana duelist with Unsheathe punishes"
+  },
+  {
+    "id": "samurai",
+    "name": "Samurai Build (Beginner)",
+    "class": "Samurai",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Uchigatana",
+      "Longbow"
+    ],
+    "shield": null,
+    "armor": [
+      "Land of Reeds Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Unsheathe",
+      "Ash of War: Mighty Shot"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#samurai",
+    "tags": [
+      "bow",
+      "dexterity",
+      "dual-wield",
+      "katana",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Open fights at range with the Longbow using Mighty Shot for high single-hit damage and stagger, then swap to the Uchigatana for melee. Use Unsheathe as your primary melee tool: tap R1 for a quick horizontal slash to punish dodges, or R2 for a powerful overhead thrust that deals huge counter damage. The Uchigatana's innate bleed buildup will proc hemorrhage on aggressive targets after a few hits, so stay in their face with running R1s and Unsheathe mixups to stack bleed quickly.",
+    "playstyle": "Classic bow-to-blade samurai with bleed pressure"
+  },
+  {
+    "id": "bloodblade",
+    "name": "Bloodblade Build (Beginner)",
+    "class": "Warrior",
+    "primaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "arcane"
+    ],
+    "weapons": [
+      "Scimitar"
+    ],
+    "shield": "Any that can Parry",
+    "armor": [
+      "Heaviest you can wear and still Med Roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ash of War: Bloody Slash"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#bloodblade",
+    "tags": [
+      "bleed",
+      "curved-sword",
+      "endurance",
+      "melee",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Apply Bloody Slash to the Scimitar and use its weapon art liberally to send out ranged blood projectiles that deal significant damage and build hemorrhage from a safe distance. In melee range, the Scimitar's fast curved sword moveset builds bleed rapidly through multi-hit combos, especially jumping L1 if powerstanced with a second curved sword. Keep the parry shield ready for predictable enemy attacks, and invest in arcane to boost bleed buildup. The combination of ranged Bloody Slash pressure and fast melee bleed procs gives you strong options at every distance.",
+    "playstyle": "Fast bleed-focused curved sword with ranged slash"
+  },
+  {
+    "id": "thunderingswordspear",
+    "name": "Thundering Swordspear Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor"
+    ],
+    "weapons": [
+      "Guardian's Swordspear",
+      "Finger Seal"
+    ],
+    "shield": "Banished Knight's Shield",
+    "armor": [
+      "Great Helm",
+      "Tree Coat",
+      "Chain Gloves",
+      "Chain Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Thunderbolt"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Electrify Armament",
+      "Blessing's Boon"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#thunderingswordspear",
+    "tags": [
+      "caster",
+      "dexterity",
+      "fire",
+      "holy",
+      "lightning",
+      "seal",
+      "shield"
+    ],
+    "strategy": "Before combat, stack all four buffs in order: Golden Vow for attack and defense, Flame Grant Me Strength for physical and fire damage, Electrify Armament for lightning damage on your weapon, and Blessing's Boon for passive HP regen. With all buffs active, the Guardian's Swordspear hits extremely hard with its fast halberd moveset and added lightning damage scaling off dexterity. Use the Thunderbolt weapon art for ranged lightning bolts to pressure enemies who try to create distance, and rely on the halberd's excellent running R2 and jumping R2 for melee trades.",
+    "playstyle": "Quad-buffed lightning halberd with thunderbolt range"
+  },
+  {
+    "id": "lightningdragoon",
+    "name": "Lightning Dragoon Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "endurance"
+    ],
+    "weapons": [
+      "Bolt of Gransax",
+      "Cleanrot Spear",
+      "Treespear"
+    ],
+    "shield": "Golden Greatshield",
+    "armor": [
+      "Consort's Mask",
+      "Leyndell Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Ancient Lightning Spear",
+      "Sacred Phalanx"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#lightningdragoon",
+    "tags": [
+      "caster",
+      "dexterity",
+      "fire",
+      "great-spear",
+      "holy",
+      "lightning",
+      "shield",
+      "spear",
+      "vigor"
+    ],
+    "strategy": "Pre-buff with Golden Vow, Flame Grant Me Strength, and Blessing of the Erdtree for a massive stack of offensive and defensive bonuses plus HP regeneration. Lead with Bolt of Gransax's Ancient Lightning Spear for devastating ranged burst damage, then swap to Cleanrot Spear or Treespear for melee, using Sacred Phalanx for its AoE golden explosion and poise break. The Golden Greatshield provides a safe fallback for blocking heavy attacks. Cycle between spear throws at range and aggressive melee thrusts, using the buff stack to ensure every hit deals enormous damage.",
+    "playstyle": "Buff-stacked holy lancer with lightning spear artillery"
+  },
+  {
+    "id": "goldenchampion",
+    "name": "Golden Champion Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Ornamental Straight Sword",
+      "Sacred Seal"
+    ],
+    "shield": "Banished Knight's Shield",
+    "armor": [
+      "Banished Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Golden Tempering",
+      "Golden Parry"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing's Boon",
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#goldenchampion",
+    "tags": [
+      "caster",
+      "dexterity",
+      "fire",
+      "holy",
+      "seal",
+      "shield"
+    ],
+    "strategy": "Stack Golden Vow, Flame Grant Me Strength, and Blessing's Boon before engaging, then use Golden Tempering on the Ornamental Straight Sword to add holy damage that scales with your buff-enhanced stats. The Ornamental Straight Sword's fast moveset allows aggressive R1 chains, and the dual-wield L1 combo if powerstanced is particularly deadly with all buffs active. Keep Golden Parry on your shield for a generous parry window that works against both melee and projectiles, enabling critical ripostes that deal massive damage with your stacked buffs.",
+    "playstyle": "Holy-buffed knight with golden parry ripostes"
+  },
+  {
+    "id": "serpentsamurai",
+    "name": "Serpent Samurai Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Serpentbone Blade",
+      "Uchigatana",
+      "Wakizashi"
+    ],
+    "shield": null,
+    "armor": [
+      "Mushroom Crown"
+    ],
+    "talismans": [],
+    "skills": [
+      "Double Slash",
+      "Poison Moth Flight",
+      "Parry"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#serpentsamurai",
+    "tags": [
+      "dexterity",
+      "dual-wield",
+      "katana",
+      "melee",
+      "poison",
+      "vigor"
+    ],
+    "strategy": "Lead with the Serpentbone Blade using Double Slash for rapid multi-hit combos that stack deadly poison extremely quickly, proccing the Mushroom Crown's attack boost when poison triggers. Once poison is ticking, switch to the Uchigatana with Poison Moth Flight for a leaping slash that deals bonus damage to poisoned enemies. Keep the Wakizashi with Parry in the offhand for parry opportunities and powerstance options. The deadly poison from the Serpentbone Blade drains HP far faster than regular poison, so focus on proccing it early and then maximizing damage during the DOT window.",
+    "playstyle": "Deadly poison katana striker with Mushroom Crown synergy"
+  },
+  {
+    "id": "howlingstarfist",
+    "name": "Howling Starfist Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Star Fist",
+      "Highland Axe",
+      "Frenzied Flame Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "and any other Armor that gives you lots of Poise"
+    ],
+    "talismans": [],
+    "skills": [
+      "Beast's Roar"
+    ],
+    "spells": [
+      "Bloodflame Blade"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#howlingstarfist",
+    "tags": [
+      "axe",
+      "bleed",
+      "caster",
+      "dexterity",
+      "fire",
+      "fist",
+      "madness",
+      "melee",
+      "seal"
+    ],
+    "strategy": "Buff Star Fist with Bloodflame Blade for added fire damage and bleed buildup on every hit, then rush in and use the fist weapon's extremely fast L1 powerstance combos to proc hemorrhage rapidly. The White Mask boosts attack power when bleed procs, creating a snowball effect. Use Beast's Roar as a ranged pressure tool and to catch enemies trying to flee after a bleed proc, and keep the Highland Axe on swap for its rallying roar buff when needed. High poise armor lets you trade hits confidently, knowing your faster attack speed and bleed procs will win most exchanges.",
+    "playstyle": "Bloodflame fist brawler with bleed-boosted aggression"
+  },
+  {
+    "id": "inquisitor",
+    "name": "Inquisitor Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "vigor"
+    ],
+    "weapons": [
+      "Ghiza's Wheel"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Heaviest you can wear and still medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Contagious Fury"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#inquisitor",
+    "tags": [
+      "dexterity",
+      "melee",
+      "shield",
+      "strength"
+    ],
+    "strategy": "Activate the Jellyfish Shield's Contagious Fury for a significant damage buff, then two-hand Ghiza's Wheel and use its unique weapon art to rev up the spinning wheel, which deals continuous multi-hit damage and staggers enemies rapidly. The wheel's bleed buildup combined with its multi-hit nature procs hemorrhage quickly on larger enemies. For regular attacks, use the greathammer moveset's jumping R2 for high poise damage and charged R2s for stagger. The Contagious Fury buff is the key multiplier here, so refresh it whenever it expires and stay aggressive to capitalize on the damage window.",
+    "playstyle": "Shield-buffed spinning wheel bleed tank"
+  },
+  {
+    "id": "cariancavalier",
+    "name": "Elden Carian Cavalier Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Loretta's War Sickle"
+    ],
+    "shield": null,
+    "armor": [
+      "Royal Knight Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Loretta's Slash"
+    ],
+    "spells": [
+      "Freezing Mist"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#cariancavalier",
+    "tags": [
+      "caster",
+      "dexterity",
+      "frost",
+      "magic",
+      "strength"
+    ],
+    "strategy": "Open with Freezing Mist to create a frostbite zone that forces enemies to reposition, then close in with Loretta's War Sickle and use Loretta's Slash for a sweeping magic-infused strike that deals heavy stagger and mixed physical-magic damage. The halberd's long reach and wide sweeps excel at controlling space, and the innate magic damage on the weapon scales with both strength and dexterity. Use Freezing Mist to reset neutral, punish rolls with the halberd's running R2, and rely on Loretta's Slash as your main damage tool when openings appear.",
+    "playstyle": "Magic halberd knight with frostbite zone control"
+  },
+  {
+    "id": "slumberingswordstress",
+    "name": "Slumbering Swordstress Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "strength"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "endurance"
+    ],
+    "weapons": [
+      "Sword of St. Trina"
+    ],
+    "shield": null,
+    "armor": [
+      "Any light armor that allows you to light roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Mists of Slumber"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#slumberingswordstress",
+    "tags": [
+      "dexterity",
+      "melee",
+      "strength"
+    ],
+    "strategy": "Use Mists of Slumber to fire a sleep-inducing projectile that puts enemies to sleep on proc, then follow up with a fully charged R2 or jumping R2 for massive damage on the sleeping target. The Sword of St. Trina builds sleep with every hit, so even normal R1 chains will put enemies to sleep after a few strikes. Light roll lets you dodge aggressively and close distance quickly, maintaining pressure until sleep procs. Against bosses, alternate between attacking to build sleep and backing off to bait attacks, then capitalize on the sleep window for free heavy hits.",
+    "playstyle": "Evasive sleep-proc swordfighter with burst punishes"
+  },
+  {
+    "id": "stormblade",
+    "name": "Stormblade Build (All Levels)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Flamberge"
+    ],
+    "shield": null,
+    "armor": [
+      "Any Armor that allows you to medium roll."
+    ],
+    "talismans": [],
+    "skills": [
+      "Storm Blade"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Electrify Armament",
+      "Bloodflame Blade"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#stormblade",
+    "tags": [
+      "bleed",
+      "caster",
+      "dexterity",
+      "fire",
+      "vigor"
+    ],
+    "strategy": "Stack buffs before engagement: Golden Vow and Flame Grant Me Strength for the offensive boost, then apply either Electrify Armament for lightning damage or Bloodflame Blade for fire and bleed buildup depending on the enemy's weaknesses. Use Storm Blade as your primary weapon art to send ranged wind projectiles that deal solid damage and stagger, allowing you to fight effectively at any distance. The Flamberge's innate bleed combined with Bloodflame Blade creates extremely fast hemorrhage procs on its greatsword multi-hits, while the buff stack ensures every hit from the blade or Storm Blade projectile deals devastating damage.",
+    "playstyle": "Versatile buff-stacked greatsword with ranged wind strikes"
+  },
+  {
+    "id": "vampiricknight",
+    "name": "Vampiric Knight Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Butchering Knife"
+    ],
+    "shield": "Icon Shield",
+    "armor": [
+      "Any armor with high Poise and protection",
+      "the higher the better"
+    ],
+    "talismans": [],
+    "skills": [],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#vampiricknight",
+    "tags": [
+      "dexterity",
+      "melee",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "The Butchering Knife's unique passive restores HP on every hit, and the Icon Shield provides passive HP regeneration when held, creating constant self-sustain without any spells or FP cost. Two-hand the Butchering Knife for aggressive R1 chains and jumping attacks, healing with every swing, and swap to the shield when you need to turtle and regenerate. Stack heavy poise armor to trade hits confidently, knowing you will heal back the damage through sustained aggression. This build wins through attrition, out-lasting enemies by never needing to flask while dealing consistent damage.",
+    "playstyle": "Self-healing greataxe bruiser with passive regeneration"
+  },
+  {
+    "id": "bloodyballerina",
+    "name": "Bloody Ballerina Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance"
+    ],
+    "weapons": [
+      "Bloody Helice"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Dynast's Finesse"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#bloodyballerina",
+    "tags": [
+      "arcane",
+      "bleed",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Dynast's Finesse is the core of this build: activate it for a backstep dodge that grants i-frames, then follow up with R2 for a lunging thrust that deals massive damage and builds bleed rapidly thanks to the Bloody Helice's innate hemorrhage. The White Mask boosts your attack power by 10% whenever bleed procs, which happens frequently given the heavy bleed buildup on every hit. Use Dynast's Finesse reactively to dodge through enemy attacks and punish simultaneously, then chain into running R2s and jumping R2s to keep bleed pressure constant. The arcane scaling ensures both your damage and bleed buildup stay high.",
+    "playstyle": "Arcane bleed thrusting sword with evasive counterattacks"
+  },
+  {
+    "id": "blooddragon",
+    "name": "Blood Dragon Build (Level 50)",
+    "class": "Warrior or Bandit",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "faith",
+      "endurance"
+    ],
+    "weapons": [
+      "Curved Swords",
+      "Ashes of War",
+      "Dragon Communion Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still med roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Bloody Slash"
+    ],
+    "spells": [
+      "Dragonclaw",
+      "Rotten Breath"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blooddragon",
+    "tags": [
+      "arcane",
+      "bleed",
+      "caster",
+      "melee",
+      "rot",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Use Bloody Slash on dual curved swords for ranged bleed projectiles and fast melee hemorrhage procs through the curved sword powerstance L1 combo. When bleed triggers, swap to the Dragon Communion Seal and punish with Rotten Breath for a massive scarlet rot AOE, or use Dragonclaw for a quick burst of physical damage at close range. The Dragon Communion Seal scales all dragon incantations with arcane, making them hit hard even at low faith investment. Alternate between melee bleed pressure and dragon incantation burst damage to overwhelm enemies with multiple status effects and damage types.",
+    "playstyle": "Dual-wielding bleed slasher with dragon breath burst"
+  },
+  {
+    "id": "dragonknight",
+    "name": "Dragon Knight Build (Level 100)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "faith",
+      "mind"
+    ],
+    "weapons": [
+      "Bloody Slash",
+      "Dragon Communion Seal"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Silver Tear Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Bloody Slash",
+      "Contagious Fury"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing's Boon",
+      "Lightning Spear",
+      "Flame, Grant Me Strength",
+      "Black Flame",
+      "Stone of Gurranq",
+      "Agheel's Flame",
+      "Smarag's Glintstone Breath",
+      "Rotten Breath"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#dragonknight",
+    "tags": [
+      "arcane",
+      "black-flame",
+      "bleed",
+      "caster",
+      "fire",
+      "holy",
+      "lightning",
+      "magic",
+      "rot",
+      "seal",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Pre-buff with Golden Vow and Flame Grant Me Strength for stacked offensive power, then activate Jellyfish Shield's Contagious Fury for an additional damage boost. Use Bloody Slash as your melee weapon art for bleed buildup and ranged pressure, then swap to the Dragon Communion Seal for a deep spell arsenal: Lightning Spear and Stone of Gurranq for ranged poke, Black Flame for percentage-based DOT against bosses, and dragon breaths like Agheel's Flame and Rotten Breath for massive AOE damage and rot buildup. The Silver Tear Mask boosts arcane, which enhances both bleed buildup and Dragon Communion Seal incantation scaling. This is a toolbox build with an answer for every situation.",
+    "playstyle": "Arcane dragon knight with versatile incantation arsenal"
+  },
+  {
+    "id": "sanguinesamurai",
+    "name": "Sanguine Samurai Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "vigor",
+      "mind"
+    ],
+    "weapons": [
+      "Rivers of Blood",
+      "Sacrificial Axe",
+      "Dragon Communion Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "Okina Mask"
+    ],
+    "talismans": [],
+    "skills": [
+      "Corpse Piler"
+    ],
+    "spells": [
+      "Flame, Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#sanguinesamurai",
+    "tags": [
+      "arcane",
+      "axe",
+      "bleed",
+      "caster",
+      "dexterity",
+      "fire",
+      "katana",
+      "melee",
+      "seal"
+    ],
+    "strategy": "Buff with Flame Grant Me Strength to boost the fire damage component of Rivers of Blood, then spam Corpse Piler for its devastating multi-slash weapon art that deals fire damage and builds hemorrhage in just two or three casts. The White Mask grants 10% attack power when bleed procs, which Corpse Piler triggers constantly. Keep the Sacrificial Axe in your offhand slot to passively recover FP on enemy kills, allowing you to sustain Corpse Piler spam without running out of FP. The Dragon Communion Seal is available for utility incantations. Focus entirely on aggressive Corpse Piler chains, as each proc snowballs your damage through the White Mask bonus.",
+    "playstyle": "Relentless Corpse Piler bleed spam with fire scaling"
+  },
+  {
+    "id": "dragonwarrior",
+    "name": "Dragon Warrior Build (Level 150)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "faith",
+      "endurance"
+    ],
+    "weapons": [
+      "Bandit's Curved Sword"
+    ],
+    "shield": null,
+    "armor": [
+      "White Mask",
+      "Poise"
+    ],
+    "talismans": [],
+    "skills": [
+      "Seppuku"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing's Boon",
+      "Ekzyke's Decay",
+      "Dragonclaw",
+      "Dragonmaw"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#dragonwarrior",
+    "tags": [
+      "arcane",
+      "bleed",
+      "caster",
+      "curved-sword",
+      "holy",
+      "vigor"
+    ],
+    "strategy": "Apply Seppuku to the Bandit's Curved Sword for a massive bleed buildup boost and attack power increase at the cost of some HP, which triggers the White Mask's 10% attack bonus immediately. Dual-wield the curved sword and use fast powerstance L1 combos to proc hemorrhage rapidly, then punish staggered enemies with dragon incantations: Ekzyke's Decay for scarlet rot AOE, Dragonclaw for quick burst damage, and Dragonmaw for a high-damage grab. Pre-buff with Golden Vow and Blessing's Boon for attack, defense, and regen. The arcane scaling powers both the bleed buildup from Seppuku and the dragon incantation damage through the Dragon Communion Seal.",
+    "playstyle": "Seppuku bleed duelist with dragon incantation finishers"
+  },
+  {
+    "id": "madking",
+    "name": "Mad King Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "arcane"
+    ],
+    "secondaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "weapons": [
+      "Morgott's Cursed Sword",
+      "Dragon Communion Seal",
+      "Frenzied Flame Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Heaviest you can wear and still medium roll"
+    ],
+    "talismans": [],
+    "skills": [
+      "Cursed-Blood Slice"
+    ],
+    "spells": [
+      "Swarm of Flies",
+      "Golden Vow",
+      "Flame, Grant Me Strength",
+      "Unendurable Frenzy",
+      "Frenzied Burst"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#madking",
+    "tags": [
+      "arcane",
+      "bleed",
+      "caster",
+      "dexterity",
+      "fire",
+      "madness",
+      "melee",
+      "seal"
+    ],
+    "strategy": "Pre-buff with Golden Vow and Flame Grant Me Strength, then use Cursed-Blood Slice on Morgott's Cursed Sword for a wide-arcing slash that deals high damage and builds hemorrhage quickly. Use Swarm of Flies from the Dragon Communion Seal at range to build bleed from safety, and switch to frenzied flame incantations for crowd control: Unendurable Frenzy channels a devastating beam of madness, while Frenzied Burst delivers a long-range snipe that builds madness in PvP. The Frenzied Flame Seal boosts frenzy incantation damage, and arcane scaling enhances both bleed buildup and Dragon Communion incantation power. This build stacks hemorrhage, madness, and raw damage to overwhelm from any range.",
+    "playstyle": "Hemorrhage-madness hybrid with cursed sword and frenzy beams"
+  },
+  {
+    "id": "sanguinespellblade",
+    "name": "Sanguine Spellblade Build (Level 150-200 | Journey 2)",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "intelligence",
+      "faith"
+    ],
+    "weapons": [
+      "Albinauric Staff",
+      "Dragon Communion Seal",
+      "Staff of the Guilty",
+      "Rogier's Rapier"
+    ],
+    "shield": null,
+    "armor": [
+      "Alberich's Set"
+    ],
+    "talismans": [],
+    "skills": [
+      "Seppuku"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Blessing of the Erdtree",
+      "Terra Magica",
+      "Unseen Form",
+      "Briars of Punishment",
+      "Briars of Sin"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#sanguinespellblade",
+    "tags": [
+      "arcane",
+      "bleed",
+      "caster",
+      "holy",
+      "melee",
+      "rapier",
+      "seal",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Open fights by standing in Terra Magica, then layer Golden Vow and Blessing of the Erdtree for damage and regen. Use Seppuku on Rogier's Rapier to add bleed, then alternate between rapier thrusts for hemorrhage procs and Briars of Sin/Briars of Punishment for AoE blood-loss pressure. The Albinauric Staff scales sorceries with arcane while Staff of the Guilty boosts thorn sorceries specifically, and the Dragon Communion Seal covers your faith buffs with arcane scaling — everything feeds off your primary arcane stat.",
+    "playstyle": "Arcane-scaling blood mage with thorn sorceries"
+  },
+  {
+    "id": "cariancleaver",
+    "name": "Carian Cleaver Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "intelligence",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Iron Cleaver",
+      "Carian Regal Scepter"
+    ],
+    "shield": "Jellyfish Shield",
+    "armor": [
+      "Carian Knight Helm",
+      "Carian Knight Armor",
+      "Banished Knight Gauntlets",
+      "Banished Knight Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Royal Knight's Resolve"
+    ],
+    "spells": [
+      "Greatblade Phalanx"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#cariancleaver",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "mind",
+      "shield",
+      "staff",
+      "vigor"
+    ],
+    "strategy": "Activate Jellyfish Shield's Contagious Fury for a 20% damage buff, then apply Royal Knight's Resolve on the Iron Cleaver to supercharge your next heavy attack. Follow up with a charged R2 for massive burst damage that benefits from both buffs multiplicatively. Use Greatblade Phalanx from the Carian Regal Scepter to create stagger pressure and set up openings for your buffed heavy swings. Reset the cycle after each big hit — the loop is buff, resolve, charged heavy, repeat.",
+    "playstyle": "Buff-stacking intelligence knight with one-shot heavies"
+  },
+  {
+    "id": "goldbreaker",
+    "name": "Gold Breaker Build (NG+)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "faith",
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Marika's Hammer"
+    ],
+    "shield": "Golden Greatshield",
+    "armor": [
+      "Leyndell Knight Set"
+    ],
+    "talismans": [
+      "Assassin's Cerulean Dagger",
+      "Carian Filigreed Crest",
+      "Shard of Alexander",
+      "Warrior Jar Shard",
+      "Curved Sword Talisman",
+      "Dragoncrest Greatshield Talisman"
+    ],
+    "skills": [
+      "Gold Breaker",
+      "Golden Vow"
+    ],
+    "spells": [
+      "Flame Grant me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#goldbreaker",
+    "tags": [
+      "caster",
+      "endurance",
+      "fire",
+      "hammer",
+      "shield",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Pre-buff with Golden Vow (from the shield skill) and Flame Grant Me Strength to stack holy and physical damage. Use Gold Breaker, Marika's Hammer's weapon art, to slam the ground for devastating AoE holy damage boosted by Shard of Alexander and Warrior Jar Shard. Assassin's Cerulean Dagger refunds FP on critical hits and Carian Filigreed Crest reduces skill FP cost, letting you spam Gold Breaker repeatedly. Guard with the Golden Greatshield between skill uses and look for counter-attack windows with Curved Sword Talisman boosting guard counters.",
+    "playstyle": "Holy greatshield bruiser spamming Gold Breaker"
+  },
+  {
+    "id": "towerknight",
+    "name": "Tower Knight (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "mind",
+      "intelligence",
+      "dexterity"
+    ],
+    "weapons": [
+      "Morning Star"
+    ],
+    "shield": "Manor Towershield",
+    "armor": [
+      "Knight Set"
+    ],
+    "talismans": [
+      "Green Turtle Talisman",
+      "Axe Talisman",
+      "Curved Sword Talisman",
+      "Greatshield Talisman"
+    ],
+    "skills": [
+      "Cragblade"
+    ],
+    "spells": [
+      "Flame Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#towerknight",
+    "tags": [
+      "caster",
+      "endurance",
+      "fire",
+      "shield",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Block behind the Manor Towershield with Greatshield Talisman reducing stamina drain, then punish with guard counters boosted by Curved Sword Talisman and Axe Talisman for the charged follow-up. Apply Cragblade to the Morning Star for massive poise damage on top of its innate strike damage and bleed buildup. Use Flame Grant Me Strength before engagements for extra physical and fire damage. The Green Turtle Talisman keeps your stamina recovering even while blocking, making you an immovable wall that punishes every attack.",
+    "playstyle": "Immovable greatshield tank with guard counters"
+  },
+  {
+    "id": "redrogue",
+    "name": "Red Rogue (All Game Build)",
+    "class": "Bandit",
+    "primaryStats": [
+      "arcane",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "dexterity",
+      "mind"
+    ],
+    "weapons": [
+      "Reduvia"
+    ],
+    "shield": null,
+    "armor": [
+      "Skeletal Mask",
+      "Nox Swordstress Armor",
+      "Scaled Gauntlets",
+      "Nox Greaves"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Bull-Goat's Talisman",
+      "Lord of Blood's Exultation",
+      "Shard of Alexander",
+      "Warrior Jar Shard",
+      "Dagger Talisman",
+      "Green Turtle Talisman"
+    ],
+    "skills": [
+      "Reduvia Blood Blade"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#redrogue",
+    "tags": [
+      "arcane",
+      "bleed",
+      "dagger",
+      "endurance",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Rush into melee range and spam Reduvia Blood Blade to launch blood projectiles that rapidly build hemorrhage at close-to-mid range. Lord of Blood's Exultation triggers off every bleed proc for a 20% damage surge, while Millicent's Prosthesis and successive attack talismans reward your aggressive multi-hit playstyle. Shard of Alexander amplifies Blood Blade's damage, and Bull-Goat's Talisman provides poise so you can trade hits while spamming the skill. Focus on relentless aggression — the build's sustain comes from ending fights fast through hemorrhage burst damage.",
+    "playstyle": "Aggressive bleed dagger assassin with blood projectiles"
+  },
+  {
+    "id": "blazingblackblade",
+    "name": "Blazing Blackblade (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Hookclaws"
+    ],
+    "shield": null,
+    "armor": [
+      "Knight Set",
+      "Maliketh's Set"
+    ],
+    "talismans": [
+      "Fire Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Rotten Winged Sword Insignia",
+      "Shard of Alexander",
+      "Warrior Jar Shard"
+    ],
+    "skills": [
+      "Flaming Strike"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blazingblackblade",
+    "tags": [
+      "caster",
+      "faith",
+      "fire",
+      "fist",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow then Flame Grant Me Strength to stack fire and physical damage. Apply Flaming Strike to the Hookclaws to add fire damage and a follow-up fire sweep attack, then go aggressive with rapid claw combos. Rotten Winged Sword Insignia and the multi-hit nature of claws create escalating damage on successive strikes, while Fire Scorpion Charm further amplifies fire damage. The claws' fast attack speed and innate bleed synergize with the successive-hits talisman — stay in the enemy's face and chain L1 powerstance combos for overlapping fire and bleed procs.",
+    "playstyle": "Fire-infused claw berserker with stacking buffs"
+  },
+  {
+    "id": "blueballer",
+    "name": "Blue Baller (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Iron Ball",
+      "Academy Glintstone Staff"
+    ],
+    "shield": null,
+    "armor": [
+      "Greathelm",
+      "Tree Surcoat",
+      "Scaled Gauntlets",
+      "Scaled Greaves"
+    ],
+    "talismans": [
+      "Rotten Winged Sword Insignia",
+      "Millicent’s Prosthesis",
+      "Axe Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Dagger Talisman",
+      "Assassin’s Crimson Dagger",
+      "Green Turtle Talisman",
+      "Ritual Sword Talisman"
+    ],
+    "skills": [
+      "Endure"
+    ],
+    "spells": [
+      "Scholar's Armament"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blueballer",
+    "tags": [
+      "caster",
+      "intelligence",
+      "magic",
+      "melee",
+      "staff",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Apply Scholar's Armament to the Iron Ball for magic damage scaling, then use Endure to tank through incoming attacks while you close distance. The Iron Ball's fist moveset hits rapidly, proccing Rotten Winged Sword Insignia and Millicent's Prosthesis for escalating damage with each successive strike. Axe Talisman boosts your charged heavy attacks, and Assassin's Crimson Dagger provides healing on critical hits after you stagger enemies with your relentless fist combos. Play aggressively — Endure gives you hyperarmor windows to trade, and the successive-hit talismans reward staying in the pocket.",
+    "playstyle": "Magic-buffed fist brawler with escalating combos"
+  },
+  {
+    "id": "spellthief",
+    "name": "Spellthief (New Game + Build)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "intelligence",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Glintstone Kris"
+    ],
+    "shield": "Carian Knight's Shield",
+    "armor": [
+      "Spellblade's Pointed Hat",
+      "Black Knife Armor",
+      "Spellblade's Gloves",
+      "Spellblade's Trousers"
+    ],
+    "talismans": [
+      "Magic Scorpion Charm",
+      "Ritual Sword Talisman",
+      "Godfrey Icon",
+      "Shard of Alexander",
+      "Warrior Jar Shard"
+    ],
+    "skills": [
+      "Glintstone Dart",
+      "Carian Retaliation"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#spellthief",
+    "tags": [
+      "dexterity",
+      "intelligence",
+      "magic",
+      "melee",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Use Glintstone Kris's Glintstone Dart skill for quick ranged poke that benefits from Magic Scorpion Charm and Godfrey Icon's charged-skill bonus. At full health, Ritual Sword Talisman provides passive damage amplification, so play carefully and use Carian Retaliation on your shield to parry incoming spells for massive glintblade counter-damage. Shard of Alexander amplifies all skill damage, making both Glintstone Dart and Carian Retaliation hit harder. Alternate between aggressive dagger rushdown and reactive shield parries depending on whether you're fighting melee or caster opponents.",
+    "playstyle": "Dexterous spellblade with reactive magic parries"
+  },
+  {
+    "id": "flameguardian",
+    "name": "Flame Guardian (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "faith",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "strength"
+    ],
+    "weapons": [
+      "Curved Great Club",
+      "Erdtree Seal",
+      "Finger Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Bloodsoaked Mask",
+      "Bloodsoaked Manchettes",
+      "Blackflame Monk Armor",
+      "Blackflame Monk Greaves"
+    ],
+    "talismans": [
+      "Fire Scorpion Charm",
+      "Bull-Goat's Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Shard of Alexander",
+      "Warrior Jar Shard"
+    ],
+    "skills": [
+      "Flaming Strike"
+    ],
+    "spells": [
+      "Flame of the Fell God",
+      "Giantsflame Take Thee",
+      "Black Flame",
+      "Frenzied Burst",
+      "Golden Vow (Spell)",
+      "Flame, Grant me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#flameguardian",
+    "tags": [
+      "black-flame",
+      "caster",
+      "faith",
+      "fire",
+      "holy",
+      "madness",
+      "melee",
+      "mind",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Pre-buff with Golden Vow and Flame Grant Me Strength, then alternate between incantation nukes and melee. Use Giantsflame Take Thee and Flame of the Fell God for massive AoE damage at range, Black Flame for DoT against high-HP bosses, and Frenzied Burst for long-range sniping. When enemies close in, switch to the Curved Great Club with Flaming Strike for melee fire damage and hyperarmor. Fire Scorpion Charm and Shard of Alexander amplify all fire incantation and skill damage, while Bull-Goat's Talisman gives poise for casting through pressure.",
+    "playstyle": "Heavy fire caster blending incantations with melee"
+  },
+  {
+    "id": "vanquisher",
+    "name": "Vanquisher Build (All Game)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "dexterity"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Dragon Halberd"
+    ],
+    "shield": "--",
+    "armor": [
+      "Gelmir Knight Helm",
+      "Gelmir Knight Armor",
+      "Cuckoo Knight Gauntlets",
+      "Gelmir Knight Greaves"
+    ],
+    "talismans": [],
+    "skills": [
+      "Spinning Slash"
+    ],
+    "spells": [
+      "Flame Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#vanquisher",
+    "tags": [
+      "caster",
+      "dexterity",
+      "fire",
+      "halberd",
+      "shield",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Buff with Flame Grant Me Strength to boost both the Dragon Halberd's innate lightning and physical damage. Use Spinning Slash as your primary engagement tool — it hits multiple times in a wide arc, excellent for crowd control and stagger buildup. The Dragon Halberd's charged R2 applies ice lightning for additional frostbite buildup, giving you a secondary status effect alongside raw physical damage. Two-hand the halberd for maximum strength scaling and use the halberd's excellent reach to outspace enemies while punishing with running R2s and Spinning Slash when they commit.",
+    "playstyle": "Lightning halberd duelist with spinning crowd control"
+  },
+  {
+    "id": "warriorofwaves",
+    "name": "Warrior of Waves (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor",
+      "endurance"
+    ],
+    "secondaryStats": [
+      "mind",
+      "intelligence",
+      "dexterity"
+    ],
+    "weapons": [
+      "Ruins Greatsword"
+    ],
+    "shield": null,
+    "armor": [
+      "Greathelm",
+      "Beast Champion Armor",
+      "Beast Champion Gauntlets",
+      "Beast Champion Greaves"
+    ],
+    "talismans": [
+      "Taker's Cameo",
+      "Carian Filigreed Crest",
+      "Great-Jar's Arsenal",
+      "Shard of Alexander",
+      "Ritual Sword Talisman",
+      "Ancestral Spirit's Horn"
+    ],
+    "skills": [
+      "Wave of Destruction"
+    ],
+    "spells": [
+      "Flame Grant me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#warriorofwaves",
+    "tags": [
+      "caster",
+      "endurance",
+      "fire",
+      "greatsword",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Buff with Flame Grant Me Strength then two-hand the Ruins Greatsword and spam Wave of Destruction, its weapon art that sends a gravity-infused shockwave forward. Shard of Alexander and Carian Filigreed Crest make the skill hit harder while costing less FP. Taker's Cameo heals you on kills and Ancestral Spirit's Horn refunds FP on kills, creating a self-sustaining loop where clearing groups funds more skill uses. Great-Jar's Arsenal handles the extreme equip load. Play at mid-range, using the wave's massive AoE to control space and stagger groups before they reach you.",
+    "playstyle": "Gravity colossal sword mage spamming shockwaves"
+  },
+  {
+    "id": "dragonslayer",
+    "name": "Dragonslayer Shadow",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Dragon-Hunter's Great Katana",
+      "Sacrificial Axe"
+    ],
+    "shield": null,
+    "armor": [
+      "Rakshasa Set"
+    ],
+    "talismans": [
+      "Shard of Alexander",
+      "Godfrey Icon",
+      "Two-Handed Sword Talisman",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Crusade Insignia"
+    ],
+    "skills": [
+      "Dragonwound Slash"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#dragonslayer",
+    "tags": [
+      "axe",
+      "dexterity",
+      "dual-wield",
+      "great-katana",
+      "katana",
+      "melee",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Two-hand the Dragon-Hunter's Great Katana and use Dragonwound Slash, a powerful charged thrust that deals bonus damage to dragons and large enemies. Godfrey Icon amplifies charged skills, Two-Handed Sword Talisman boosts two-handed damage, and Shard of Alexander further increases skill damage — the full stack makes Dragonwound Slash devastatingly powerful. Rakshasa's armor adds another damage multiplier at the cost of increased damage taken, offset by Dragoncrest Greatshield Talisman. Keep the Sacrificial Axe in your off-hand slot to recover FP on kills, and use Two-Headed Turtle Talisman to maintain stamina for the great katana's demanding moveset.",
+    "playstyle": "Two-handed great katana executioner with charged thrusts"
+  },
+  {
+    "id": "magmablade",
+    "name": "Magma Blade",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind",
+      "dexterity"
+    ],
+    "weapons": [
+      "Magma Blade",
+      "Erdtree Seal"
+    ],
+    "shield": "One-Eyed Shield",
+    "armor": [
+      "Fire Knight Helm",
+      "Fire Knight Armor",
+      "Scaled Gauntlets",
+      "Scaled Greaves"
+    ],
+    "talismans": [
+      "Talisman of the Dread",
+      "Shard of Alexander",
+      "Fire Scorpion Charm",
+      "Rotten Winged Sword Insignia",
+      "Two-Headed Turtle Talisman"
+    ],
+    "skills": [
+      "Magma Shower",
+      "Flame Spit"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#magmablade",
+    "tags": [
+      "curved-sword",
+      "fire",
+      "holy",
+      "seal",
+      "shield",
+      "strength",
+      "vigor"
+    ],
+    "strategy": "Use Magma Shower, the Magma Blade's weapon art, to slam the ground and create pools of magma that deal sustained area damage. Fire Scorpion Charm and Shard of Alexander amplify the skill's fire damage, while Rotten Winged Sword Insignia rewards the curved sword's fast multi-hit combos between skill uses. Talisman of the Dread boosts damage when enemies are nearby. For ranged pressure, swap to the One-Eyed Shield and use Flame Spit to launch a fire projectile from behind full guard. Use the Erdtree Seal for Golden Vow or Flame Grant Me Strength buffs if faith permits, and keep aggression high to maintain the successive-hit damage ramp.",
+    "playstyle": "Magma-wielding fire knight with lava zone control"
+  },
+  {
+    "id": "blackguard",
+    "name": "Black Guard (All Game Build)",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "arcane",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Clinging Bone",
+      "Marais Executioner's Sword",
+      "Regalia of Eochaid"
+    ],
+    "shield": "Scorpion Kite Shield",
+    "armor": [
+      "Greathelm",
+      "Royal Remains Armor",
+      "Lionel's Gauntlets",
+      "Royal Remains Greaves"
+    ],
+    "talismans": [
+      "Ritual Sword Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Winged Sword Insignia",
+      "Shard of Alexander",
+      "Warrior Jar Shard",
+      "Axe Talisman",
+      "Magic Scorpion Charm",
+      "Dagger Talisman",
+      "Godfrey Icon"
+    ],
+    "skills": [
+      "Lifesteal Fist",
+      "Eochaid's Dancing Blade"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant Me Strength"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#blackguard",
+    "tags": [
+      "arcane",
+      "caster",
+      "dexterity",
+      "fire",
+      "fist",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Pre-buff with Golden Vow and Flame Grant Me Strength, then choose your weapon based on the situation: Marais Executioner's Sword and Regalia of Eochaid both use Eochaid's Dancing Blade, a spiraling projectile skill that hits many times and scales with arcane, proccing Rotten Winged Sword Insignia and Millicent's Prosthesis for massive successive-hit damage. Use Clinging Bone with Lifesteal Fist for sustain and critical setups. Godfrey Icon boosts the charged version of Dancing Blade, and Shard of Alexander amplifies all skill damage. The build revolves around spamming Dancing Blade from mid-range to shred enemies with multi-hit arcane scaling.",
+    "playstyle": "Arcane multi-hit specialist spamming Dancing Blade"
+  },
+  {
+    "id": "darkpaladin",
+    "name": "Dark Paladin",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "endurance",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "mind"
+    ],
+    "weapons": [
+      "Milady"
+    ],
+    "shield": "Wolf Crest Shield",
+    "armor": [
+      "Solitude Set"
+    ],
+    "talismans": [
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Great-Jar's Arsenal",
+      "Axe Talisman",
+      "Spear Talisman"
+    ],
+    "skills": [
+      "Golden Vow",
+      "Cragblade"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#darkpaladin",
+    "tags": [
+      "dexterity",
+      "endurance",
+      "melee",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Apply Golden Vow from the shield skill for a damage and defense buff, then use Cragblade on the Milady to add massive poise damage and bonus physical scaling to your attacks. The Milady's light sword moveset is fast and elegant, quickly proccing Millicent's Prosthesis and Rotten Winged Sword Insignia for escalating damage on successive hits. Use charged heavy attacks boosted by Axe Talisman and mix in guard counters behind the Wolf Crest Shield with Spear Talisman rewarding counter-thrust damage. Great-Jar's Arsenal handles the equip load for medium armor with shield, and Dragoncrest Greatshield Talisman offsets the melee-focused playstyle.",
+    "playstyle": "Agile dex paladin blending light sword and shield"
+  },
+  {
+    "id": "criantwinblade",
+    "name": "Carian Twinblade",
+    "class": "",
+    "primaryStats": [
+      "strength",
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Rellana's Twinblade",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Rellana's Set"
+    ],
+    "talismans": [
+      "Rellana's Cameo",
+      "Two-Headed Turtle Talisman",
+      "Dragoncrest Greatshield Talisman",
+      "Shard of Alexander",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Moon-and-Fire Stance"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#criantwinblade",
+    "tags": [
+      "dexterity",
+      "dual-wield",
+      "fire",
+      "magic",
+      "melee",
+      "seal",
+      "strength",
+      "twinblade",
+      "vigor"
+    ],
+    "strategy": "Enter Moon-and-Fire Stance and choose between the ice sweep (light attack) for frostbite buildup or the fire thrust (heavy attack) for burst damage depending on the matchup. Rellana's Cameo boosts damage when both intelligence and faith are high, and Shard of Alexander amplifies the stance attacks. Chain normal combos between stance entries to proc Millicent's Prosthesis and Rotten Winged Sword Insignia for escalating damage. Dragoncrest Greatshield Talisman provides survivability, and Two-Headed Turtle Talisman helps manage the stamina-intensive twinblade moveset. Use the Golden Order Seal for buff incantations if stat investment allows.",
+    "playstyle": "Dual-element twinblade dancer with stance mixups"
+  },
+  {
+    "id": "pyromancerperfumer",
+    "name": "Pyromancer Perfumer",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind",
+      "faith"
+    ],
+    "weapons": [
+      "Firespark Perfume Bottle",
+      "Golden Order Seal"
+    ],
+    "shield": null,
+    "armor": [
+      "Perfumer Hood",
+      "Perfumer Robe",
+      "Perfumer Gloves"
+    ],
+    "talismans": [
+      "Fire Scorpion Charm",
+      "Dragoncrest Greatshield Talisman",
+      "Perfumer's Talisman",
+      "Axe Talisman",
+      "Shard of Alexander"
+    ],
+    "skills": [
+      "Quickstep",
+      "Bloodhound's Step",
+      "Rolling Sparks"
+    ],
+    "spells": [
+      "Flame Grant me Strength",
+      "Golden Vow"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#pyromancerperfumer",
+    "tags": [
+      "bleed",
+      "caster",
+      "dexterity",
+      "fire",
+      "melee",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength to stack fire and physical damage, then use Rolling Sparks from the Firespark Perfume Bottle to leave fire trails while dodge-rolling through enemies. Fire Scorpion Charm amplifies all fire damage, and Shard of Alexander boosts skill damage. Use Quickstep or Bloodhound's Step for repositioning and i-frame dodging while the fire trails tick damage. Perfumer's Talisman enhances perfume item effectiveness, complementing the bottle's fire theme. The playstyle is evasive and mobile — dodge through enemies, leave fire everywhere, and let the ground effects do the work.",
+    "playstyle": "Evasive fire perfumer leaving burning trails"
+  },
+  {
+    "id": "starlinedsamurai",
+    "name": "Star-Lined Samurai",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "endurance",
+      "mind"
+    ],
+    "weapons": [
+      "Star-Lined Sword"
+    ],
+    "shield": "Wolf Crest Shield",
+    "armor": [
+      "Iron Kasa",
+      "Tree Surcoat",
+      "White Reed Gauntlets",
+      "White Reed Greaves"
+    ],
+    "talismans": [
+      "Bull-Goat's Talisman",
+      "Shard of Alexander",
+      "Two-Headed Turtle Talisman",
+      "Crusade Insignia",
+      "Blade of Mercy",
+      "Curved Sword Talisman",
+      "Greatshield Talisman",
+      "Millicent's Prosthesis",
+      "Rotten Winged Sword Insignia"
+    ],
+    "skills": [
+      "Onze's Line of Stars",
+      "Carian Retaliation (Skill)",
+      "Barricade Shield"
+    ],
+    "spells": [
+      "Scholar's Shield"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#starlinedsamurai",
+    "tags": [
+      "caster",
+      "dexterity",
+      "magic",
+      "shield",
+      "vigor"
+    ],
+    "strategy": "Use Onze's Line of Stars, the Star-Lined Sword's weapon art, to unleash a multi-hit cosmic slash combo that benefits from Shard of Alexander and Crusade Insignia. Chain normal attacks to build successive-hit bonuses from Millicent's Prosthesis and Rotten Winged Sword Insignia, then finish with the weapon art for burst. When pressured, swap to the Wolf Crest Shield with Barricade Shield or Carian Retaliation for defensive options. Scholar's Shield reduces stamina drain while blocking. Bull-Goat's Talisman provides poise for trading during the weapon art animation, and Two-Headed Turtle Talisman keeps stamina high for the aggressive-defensive cycling.",
+    "playstyle": "Versatile cosmic swordsman with defensive fallbacks"
+  },
+  {
+    "id": "stormarrow",
+    "name": "Storm Arrow",
+    "class": "",
+    "primaryStats": [
+      "dexterity",
+      "vigor"
+    ],
+    "secondaryStats": [
+      "strength",
+      "mind",
+      "endurance"
+    ],
+    "weapons": [
+      "Ansbach's Longbow",
+      "Albinauric Bow"
+    ],
+    "shield": null,
+    "armor": [
+      "Lamenter's Mask"
+    ],
+    "talismans": [
+      "Blue Dancer Charm",
+      "Arrow's Sting Talisman",
+      "Arrow's Soaring Sting Talisman",
+      "Shard of Alexander",
+      "Crusade Insignia",
+      "Ritual Sword Talisman"
+    ],
+    "skills": [
+      "Fan Shot",
+      "Mighty Shot"
+    ],
+    "spells": [],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#stormarrow",
+    "tags": [
+      "bow",
+      "dexterity",
+      "dual-wield",
+      "melee",
+      "vigor"
+    ],
+    "strategy": "Maintain distance and use Mighty Shot from Ansbach's Longbow for massive single-target charged shots boosted by Arrow's Sting Talisman, Arrow's Soaring Sting Talisman, and Shard of Alexander. Switch to the Albinauric Bow with Fan Shot for AoE when facing groups. Blue Dancer Charm provides a significant damage boost since the build runs light armor (only Lamenter's Mask), and Ritual Sword Talisman adds more damage at full HP. Crusade Insignia rewards consecutive kills. Stay at max range, kite enemies, and use the bows' skills to handle both single targets and crowds without ever entering melee.",
+    "playstyle": "Pure ranged archer with light-load damage stacking"
+  },
+  {
+    "id": "dragongod",
+    "name": "Dragon God",
+    "class": "",
+    "primaryStats": [
+      "arcane",
+      "vigor",
+      "mind"
+    ],
+    "secondaryStats": [
+      "faith",
+      "endurance"
+    ],
+    "weapons": [
+      "Dragon Communion Seal",
+      "Bloodfiend's Fork"
+    ],
+    "shield": null,
+    "armor": [],
+    "talismans": [
+      "Blue Dancer Charm",
+      "Crusade Insignia",
+      "Dragoncrest Greatshield Talisman",
+      "Blessed Blue Dew Talisman",
+      "Roar Medallion",
+      "Flock's Canvas Talisman"
+    ],
+    "skills": [
+      "Sword Dance",
+      "Braggart's Roar"
+    ],
+    "spells": [
+      "Golden Vow",
+      "Flame Grant me Strength",
+      "Ekzyke's Decay",
+      "Rotten Breath",
+      "Dragonmaw",
+      "Bayle's Flame Lightning",
+      "Ghostflame Breath",
+      "Bayle's Tyranny"
+    ],
+    "sourceUrl": "https://eldenring.wiki.fextralife.com/Builds#dragongod",
+    "tags": [
+      "arcane",
+      "bleed",
+      "caster",
+      "dark/death",
+      "fire",
+      "lightning",
+      "melee",
+      "mind",
+      "rot",
+      "seal",
+      "vigor"
+    ],
+    "strategy": "Buff with Golden Vow and Flame Grant Me Strength, then unleash dragon communion incantations through the Dragon Communion Seal which scales with arcane. Use Bayle's Tyranny and Bayle's Flame Lightning for devastating AoE, Ekzyke's Decay and Rotten Breath for scarlet rot buildup, Ghostflame Breath for frostbite, and Dragonmaw for a high-damage bite attack. Flock's Canvas Talisman boosts incantation damage, Roar Medallion enhances Braggart's Roar on the Bloodfiend's Fork for a melee damage buff when enemies close in, and Blue Dancer Charm rewards running no armor. Blessed Blue Dew Talisman provides passive FP regen to sustain the costly dragon incantations.",
+    "playstyle": "Unarmored arcane dragon priest raining breath attacks"
+  }
+]
