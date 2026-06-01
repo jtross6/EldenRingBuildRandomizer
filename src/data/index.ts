@@ -35,3 +35,8 @@ export const ashesOfWar = ashesOfWarData as unknown as AshOfWar[];
 import coOccurrenceData from "./co-occurrence.json";
 
 export const coOccurrence = coOccurrenceData as Record<string, Record<string, number>>;
+
+import type { CommunityBuild } from "../types/community";
+import communityBuildsData from "./community-builds.json";
+
+export const communityBuilds = communityBuildsData as CommunityBuild[];
