@@ -3,6 +3,7 @@ import { Outlet, Link, useMatchRoute } from "@tanstack/react-router";
 export function RootLayout() {
   const matchRoute = useMatchRoute();
   const isLanding = matchRoute({ to: "/" });
+  const isGenerate = matchRoute({ to: "/generate", fuzzy: true });
 
   return (
     <main className="relative z-[1] mx-auto max-w-5xl px-4 pb-28 pt-6">
@@ -24,7 +25,9 @@ export function RootLayout() {
           <span className="text-text-dim">/</span>
           <Link
             to="/generate"
-            className="font-display text-[11px] font-semibold uppercase tracking-[2px] text-text-dim transition-colors hover:text-gold-light [&.active]:text-gold-light"
+            className={`font-display text-[11px] font-semibold uppercase tracking-[2px] transition-colors hover:text-gold-light ${
+              isGenerate ? "text-gold-light" : "text-text-dim"
+            }`}
           >
             Guided Hand
           </Link>
