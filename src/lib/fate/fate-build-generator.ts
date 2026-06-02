@@ -1,5 +1,5 @@
 import type { Build } from "../../types/build";
-import type { PlaystyleCard } from "../../types/fate";
+import type { PlaystyleCard, WeaponSubGroup } from "../../types/fate";
 import {
   weapons,
   shields,
@@ -16,7 +16,7 @@ import {
   spellTags,
 } from "../../data";
 import { createRng, type SeededRng } from "../seeded-rng";
-import { WEAPON_FAMILY_CATEGORIES, isSorcerySchool, identityAllowsMagic } from "./taxonomy";
+import { SUB_GROUP_CATEGORIES, isSorcerySchool, identityAllowsMagic } from "./taxonomy";
 
 const AFFINITY_BY_STAT: Record<string, string[]> = {
   STR: ["Heavy"],
@@ -37,8 +37,8 @@ function pickRandom<T>(
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
-function filterWeaponsByFamily(card: PlaystyleCard): number[] {
-  const validCategories = new Set(WEAPON_FAMILY_CATEGORIES[card.family]);
+function filterWeaponsBySubGroup(subGroup: WeaponSubGroup): number[] {
+  const validCategories = new Set(SUB_GROUP_CATEGORIES[subGroup]);
   return weapons
     .map((w, i) => ({ w, i }))
     .filter(({ w }) => validCategories.has(w.category))
@@ -66,55 +66,79 @@ function pickArmor(pool: typeof armorHead, rng: SeededRng): number {
 export function generateBuildFromFate(card: PlaystyleCard): Build {
   const rng = createRng(card.seed ^ 0x46415445);
 
-  const candidateWeapons = filterWeaponsByFamily(card);
-  const exclude = new Set<number>();
   const weaponsRight: number[] = [];
   const weaponsLeft: number[] = [];
   const shieldIndices: number[] = [];
   const staffIndices: number[] = [];
   const sealIndices: number[] = [];
+  const exclude = new Set<number>();
 
-  if (candidateWeapons.length > 0) {
-    const shuffled = rng.shuffle(candidateWeapons);
-
-    switch (card.stance) {
-      case "two-hand": {
+  switch (card.stance) {
+    case "two-hand": {
+      const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      if (candidates.length > 0) {
+        const shuffled = rng.shuffle(candidates);
         weaponsRight.push(shuffled[0]);
         exclude.add(shuffled[0]);
-        break;
       }
-      case "dual-wield": {
+      break;
+    }
+    case "dual-wield": {
+      const rightCandidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      if (rightCandidates.length > 0) {
+        const shuffled = rng.shuffle(rightCandidates);
         weaponsRight.push(shuffled[0]);
         exclude.add(shuffled[0]);
-        if (shuffled.length > 1) {
-          weaponsLeft.push(shuffled[1]);
-          exclude.add(shuffled[1]);
+      }
+      if (card.subGroups[0] === card.subGroups[1]) {
+        const remaining = filterWeaponsBySubGroup(card.subGroups[1]).filter(
+          (i) => !exclude.has(i),
+        );
+        if (remaining.length > 0) {
+          const shuffled = rng.shuffle(remaining);
+          weaponsLeft.push(shuffled[0]);
+          exclude.add(shuffled[0]);
         }
-        break;
-      }
-      case "sword-board": {
-        weaponsRight.push(shuffled[0]);
-        exclude.add(shuffled[0]);
-        const shieldPick = pickRandom(shields, rng, 1);
-        if (shieldPick.length > 0) shieldIndices.push(shieldPick[0]);
-        break;
-      }
-      case "ranged": {
-        weaponsRight.push(shuffled[0]);
-        exclude.add(shuffled[0]);
-        const meleeWeapons = weapons
-          .map((w, i) => ({ w, i }))
-          .filter(
-            ({ w }) =>
-              !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category),
-          )
-          .map(({ i }) => i);
-        if (meleeWeapons.length > 0) {
-          const meleePick = rng.shuffle(meleeWeapons);
-          weaponsLeft.push(meleePick[0]);
+      } else {
+        const leftCandidates = filterWeaponsBySubGroup(card.subGroups[1]);
+        if (leftCandidates.length > 0) {
+          const shuffled = rng.shuffle(leftCandidates);
+          weaponsLeft.push(shuffled[0]);
+          exclude.add(shuffled[0]);
         }
-        break;
       }
+      break;
+    }
+    case "sword-board": {
+      const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      if (candidates.length > 0) {
+        const shuffled = rng.shuffle(candidates);
+        weaponsRight.push(shuffled[0]);
+        exclude.add(shuffled[0]);
+      }
+      const shieldPick = pickRandom(shields, rng, 1);
+      if (shieldPick.length > 0) shieldIndices.push(shieldPick[0]);
+      break;
+    }
+    case "ranged": {
+      const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      if (candidates.length > 0) {
+        const shuffled = rng.shuffle(candidates);
+        weaponsRight.push(shuffled[0]);
+        exclude.add(shuffled[0]);
+      }
+      const meleeWeapons = weapons
+        .map((w, i) => ({ w, i }))
+        .filter(
+          ({ w }) =>
+            !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category),
+        )
+        .map(({ i }) => i);
+      if (meleeWeapons.length > 0) {
+        const meleePick = rng.shuffle(meleeWeapons);
+        weaponsLeft.push(meleePick[0]);
+      }
+      break;
     }
   }
 
