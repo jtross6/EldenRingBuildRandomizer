@@ -26,6 +26,7 @@ import { Toast } from "../components/toast";
 import { useToast } from "../hooks/use-toast";
 import { prefetchItemDetails } from "../hooks/use-item-details";
 import type { ItemCategory } from "../components/icons/item-icons";
+import { seedGuidedHand } from "../lib/guided-hand-nav";
 
 interface SelectedItem {
   name: string;
@@ -79,6 +80,12 @@ export function BuildViewerPage() {
 
   function selectItem(name: string, category: ItemCategory) {
     setSelectedItem({ name, category });
+  }
+
+  function handleGuidedHand(name: string, category: ItemCategory) {
+    if (seedGuidedHand(name, category)) {
+      navigate({ to: "/generate/picks" });
+    }
   }
 
   const weaponSlotsR = build.weaponsRight.map((idx, i) => ({
@@ -291,6 +298,11 @@ export function BuildViewerPage() {
           itemName={selectedItem.name}
           category={selectedItem.category}
           onClose={() => setSelectedItem(null)}
+          onGuidedHand={
+            selectedItem.category !== "armor"
+              ? () => handleGuidedHand(selectedItem.name, selectedItem.category)
+              : undefined
+          }
         />
       )}
     </>
