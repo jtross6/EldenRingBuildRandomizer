@@ -11,7 +11,9 @@
       "strength": 6,
       "intelligence": 28
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -29,7 +31,9 @@
       "intelligence": 10,
       "arcane": 12
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -45,7 +49,9 @@
       "strength": 7,
       "intelligence": 16
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -61,7 +67,9 @@
       "strength": 10,
       "intelligence": 52
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "defaultSkillId": 10
   },
   {
@@ -78,7 +86,9 @@
       "dexterity": 12,
       "intelligence": 22
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -95,7 +105,9 @@
       "dexterity": 8,
       "intelligence": 24
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -113,23 +125,10 @@
       "dexterity": 10,
       "intelligence": 60
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "defaultSkillId": 1199
-  },
-  {
-    "name": "Clawmark Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.4,
-      "faith": 0.4
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 10
-    },
-    "damageTypes": ["physical"],
-    "defaultSkillId": 10
   },
   {
     "name": "Crystal Staff",
@@ -143,7 +142,9 @@
       "strength": 8,
       "intelligence": 48
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "defaultSkillId": 10
   },
   {
@@ -158,7 +159,9 @@
       "strength": 6,
       "intelligence": 10
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -174,95 +177,10 @@
       "strength": 8,
       "intelligence": 12
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Dragon Communion Seal",
-    "category": "Sacred Seal",
-    "weight": 0,
-    "scaling": {
-      "faith": 0.3,
-      "arcane": 0.75
-    },
-    "requirements": {
-      "faith": 10,
-      "arcane": 10
-    },
-    "damageTypes": ["physical"],
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Dryleaf Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.1,
-      "faith": 0.5
-    },
-    "requirements": {
-      "strength": 8,
-      "faith": 27
-    },
-    "damageTypes": ["physical"]
-  },
-  {
-    "name": "Erdtree Seal",
-    "category": "Sacred Seal",
-    "weight": 0,
-    "scaling": {
-      "faith": 0.89
-    },
-    "requirements": {
-      "faith": 40
-    },
-    "damageTypes": ["physical", "holy"],
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Finger Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.83
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 10
-    },
-    "damageTypes": ["physical"],
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Fire Knight's Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.1,
-      "faith": 0.5
-    },
-    "requirements": {
-      "strength": 8,
-      "faith": 23
-    },
-    "damageTypes": ["physical"]
-  },
-  {
-    "name": "Frenzied Flame Seal",
-    "category": "Sacred Seal",
-    "weight": 0,
-    "scaling": {
-      "strength": 0.2,
-      "dexterity": 0.2,
-      "intelligence": 0.2,
-      "faith": 0.4
-    },
-    "damageTypes": ["physical"],
-    "statusEffects": {
-      "madness": 55
-    },
     "defaultSkillId": 10
   },
   {
@@ -279,23 +197,10 @@
       "intelligence": 14,
       "faith": 14
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Giant's Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.77
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 14
-    },
-    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -310,53 +215,10 @@
       "strength": 6,
       "intelligence": 10
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Godslayer's Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.85
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 27
-    },
-    "damageTypes": ["physical"],
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Golden Order Seal",
-    "category": "Sacred Seal",
-    "weight": 0,
-    "scaling": {
-      "intelligence": 0.53,
-      "faith": 0.53
-    },
-    "requirements": {
-      "intelligence": 17,
-      "faith": 17
-    },
-    "damageTypes": ["physical"],
-    "defaultSkillId": 10
-  },
-  {
-    "name": "Gravel Stone Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.81
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 18
-    },
-    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -371,7 +233,9 @@
       "strength": 10,
       "intelligence": 52
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "defaultSkillId": 10
   },
   {
@@ -388,7 +252,9 @@
       "intelligence": 21,
       "arcane": 21
     },
-    "damageTypes": ["physical"]
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Meteorite Staff",
@@ -402,7 +268,9 @@
       "strength": 6,
       "intelligence": 18
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "defaultSkillId": 10
   },
   {
@@ -419,7 +287,9 @@
       "intelligence": 18,
       "faith": 18
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -435,25 +305,13 @@
       "strength": 8,
       "intelligence": 48
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "statusEffects": {
       "scarlet_rot": 50
     },
     "defaultSkillId": 10
-  },
-  {
-    "name": "Spiraltree Seal",
-    "category": "Sacred Seal",
-    "weight": 1.5,
-    "scaling": {
-      "strength": 0.1,
-      "faith": 0.5
-    },
-    "requirements": {
-      "strength": 8,
-      "faith": 17
-    },
-    "damageTypes": ["physical"]
   },
   {
     "name": "Staff of Loss",
@@ -469,7 +327,9 @@
       "dexterity": 12,
       "intelligence": 14
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "allowAshOfWar": true,
     "defaultSkillId": 10
   },
@@ -487,7 +347,9 @@
       "intelligence": 25,
       "faith": 25
     },
-    "damageTypes": ["physical"]
+    "damageTypes": [
+      "physical"
+    ]
   },
   {
     "name": "Staff of the Guilty",
@@ -501,7 +363,9 @@
       "strength": 8,
       "faith": 12
     },
-    "damageTypes": ["physical"],
+    "damageTypes": [
+      "physical"
+    ],
     "statusEffects": {
       "bleed": 45
     },

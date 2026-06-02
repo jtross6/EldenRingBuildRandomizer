@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Clawmark Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.4,
+      "faith": 0.4
+    },
+    "requirements": {
+      "strength": 4,
+      "faith": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Dragon Communion Seal",
+    "category": "Sacred Seal",
+    "weight": 0,
+    "scaling": {
+      "faith": 0.3,
+      "arcane": 0.75
+    },
+    "requirements": {
+      "faith": 10,
+      "arcane": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Dryleaf Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.1,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 8,
+      "faith": 27
+    },
+    "damageTypes": [
+      "physical"
+    ]
+  },
+  {
+    "name": "Erdtree Seal",
+    "category": "Sacred Seal",
+    "weight": 0,
+    "scaling": {
+      "faith": 0.89
+    },
+    "requirements": {
+      "faith": 40
+    },
+    "damageTypes": [
+      "physical",
+      "holy"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Finger Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.15,
+      "faith": 0.83
+    },
+    "requirements": {
+      "strength": 4,
+      "faith": 10
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Fire Knight's Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.1,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 8,
+      "faith": 23
+    },
+    "damageTypes": [
+      "physical"
+    ]
+  },
+  {
+    "name": "Frenzied Flame Seal",
+    "category": "Sacred Seal",
+    "weight": 0,
+    "scaling": {
+      "strength": 0.2,
+      "dexterity": 0.2,
+      "intelligence": 0.2,
+      "faith": 0.4
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "statusEffects": {
+      "madness": 55
+    },
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Giant's Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.15,
+      "faith": 0.77
+    },
+    "requirements": {
+      "strength": 4,
+      "faith": 14
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Godslayer's Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.15,
+      "faith": 0.85
+    },
+    "requirements": {
+      "strength": 4,
+      "faith": 27
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Golden Order Seal",
+    "category": "Sacred Seal",
+    "weight": 0,
+    "scaling": {
+      "intelligence": 0.53,
+      "faith": 0.53
+    },
+    "requirements": {
+      "intelligence": 17,
+      "faith": 17
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Gravel Stone Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.15,
+      "faith": 0.81
+    },
+    "requirements": {
+      "strength": 4,
+      "faith": 18
+    },
+    "damageTypes": [
+      "physical"
+    ],
+    "defaultSkillId": 10
+  },
+  {
+    "name": "Spiraltree Seal",
+    "category": "Sacred Seal",
+    "weight": 1.5,
+    "scaling": {
+      "strength": 0.1,
+      "faith": 0.5
+    },
+    "requirements": {
+      "strength": 8,
+      "faith": 17
+    },
+    "damageTypes": [
+      "physical"
+    ]
+  }
+]

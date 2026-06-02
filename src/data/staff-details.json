@@ -6,7 +6,9 @@
       "Sorceries must be memorized first at a site of lost grace, and a staff must be equipped to cast them."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 25
     },
@@ -37,7 +39,9 @@
       "The Crystalian's faint cogitation is known as the \"wisdom of stone.\" This staff can only be wielded by those of intellect high enough to grasp such wisdom."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 31
     },
@@ -68,7 +72,9 @@
       "The Man-Serpents of Mt. Gelmir draw from faith in addition to intelligence to enhance the potency of their sorcery."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 29
     },
@@ -101,7 +107,9 @@
       "Sneered at by fools in the academy."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 31
     },
@@ -132,7 +140,9 @@
       "Only those of the highest intelligence may wield this, the finest of all glintstone staves."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 24
     },
@@ -165,7 +175,9 @@
       "Boosts the power of Stonedigger sorceries."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 38
     },
@@ -196,7 +208,9 @@
       "Sorceries must be memorized first at a site of lost grace, and a staff must be equipped to cast them."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 25
     },
@@ -227,7 +241,9 @@
       "Gifted to enchanted knights, it enhances Glintblade sorceries."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 22
     },
@@ -260,7 +276,9 @@
       "One of the staves deemed heretical by the academy for its ability to allow sorceries to be augmented through faith in addition to intelligence."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 25
     },
@@ -293,7 +311,9 @@
       "The Albinaurics harbor a secret; they cast sorcery using their innate arcaneness."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 17
     },
@@ -326,7 +346,9 @@
       "Only a recognized sorcerer is permitted to wield this staff."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 25
     },
@@ -357,7 +379,9 @@
       "Given to sorcerers that they might enact the role of knight. Enhances Carian sword sorceries."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 25
     },
@@ -389,7 +413,9 @@
       "Reduces casting time of all sorceries, but consumes additional FP."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 24
     },
@@ -420,7 +446,9 @@
       "Enhances power of all sorceries, but consumes additional FP."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 24
     },
@@ -451,7 +479,9 @@
       "However, this staff cannot be strengthened in any way."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 39
     },
@@ -482,7 +512,9 @@
       "Sorceries are scaled with faith rather than intelligence when wielding this staff which enhances thorn sorceries in particular."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 38
     },
@@ -516,7 +548,9 @@
       "Enhances Crystalian sorceries."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 42
     },
@@ -550,7 +584,9 @@
       "This staff only distinguishes itself when casting invisibility sorceries, but that is reason enough for some to wield it."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 22
     },
@@ -574,287 +610,6 @@
     },
     "weight": 2.5,
     "upgradeMaterial": "Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Finger Seal": {
-    "description": [
-      "A sacred seal bestowed by a Finger Maiden which serves as a catalyst for casting sacred incantations.",
-      "",
-      "Incantations must be memorized first at a site of grace, and a sacred seal must be equipped to cast them."
-    ],
-    "rarity": "Common",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.83
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 10
-    },
-    "weight": 1.5,
-    "upgradeMaterial": "Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Godslayer's Seal": {
-    "description": [
-      "Sacred seal of the Godskin Apostles, inlaid with obsidian.",
-      "",
-      "Said to represent the manipulation of black flame, this catalyst enhances godslayer incantations."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.85
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 27
-    },
-    "weight": 1.5,
-    "upgradeMaterial": "Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Giant's Seal": {
-    "description": [
-      "Sacred seal depicting the one-eyed god of the Fire Giants, adorned with braids of red hair.",
-      "",
-      "Sacred seal wielded by Fire Monks and Prelates, this catalyst enhances Giants' Flame incantations."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.77
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 14
-    },
-    "weight": 1.5,
-    "upgradeMaterial": "Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Gravel Stone Seal": {
-    "description": [
-      "Sacred seal made from Gravel Stone thought to be an ancient dragon scale. Enhances Dragon Cult incantations of the Royal Capital.",
-      "",
-      "The worship of the ancient dragons does not conflict with belief in the Erdtree. After all, this seal, and lightning itself, are both imbued with gold."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.15,
-      "faith": 0.81
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 18
-    },
-    "weight": 1.5,
-    "upgradeMaterial": "Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Clawmark Seal": {
-    "description": [
-      "Sacred seal granted by Gurranq, the Beast Clergyman. A rare trinket which allows incantations to be scaled with strength.",
-      "",
-      "The claw mark represents Gurranq's wrath. Enhances bestial incantations learned from Gurranq."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 31
-    },
-    "scaling": {
-      "strength": 0.4,
-      "faith": 0.4
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "strength": 4,
-      "faith": 10
-    },
-    "weight": 1.5,
-    "upgradeMaterial": "Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Golden Order Seal": {
-    "description": [
-      "A formless sacred seal depicting the ceremonial observation of Order. Enhances Golden Order Fundamentalist incantations.",
-      "",
-      "Fundamentalism is scholarship in all but name. Scales incantations using both intelligence and faith."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 24
-    },
-    "scaling": {
-      "intelligence": 0.53,
-      "faith": 0.53
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "intelligence": 17,
-      "faith": 17
-    },
-    "weight": 0,
-    "upgradeMaterial": "Somber Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Erdtree Seal": {
-    "description": [
-      "A formless sacred seal decorated with an Erdtree crest, once the focus of religion in the Lands Between.",
-      "",
-      "Even though the Elden Ring is shattered, and the Erdtree has dulled from its former radiance, earnest faith continues to hold the answers."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 25,
-      "holy": 15
-    },
-    "scaling": {
-      "faith": 0.89
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "faith": 40
-    },
-    "weight": 0,
-    "upgradeMaterial": "Somber Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Dragon Communion Seal": {
-    "description": [
-      "Formless drakeblood seal with a dragon communion crest. Enhances Dragon Communion incantations.",
-      "",
-      "The sacrificial devouring of the heart gives power.",
-      "Indeed, Dragon Communion is too primal in nature for the term \"incantation\" to be appropriate.",
-      "This seal scales incantations with one's arcane attribute."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "faith": 0.3,
-      "arcane": 0.75
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "requirements": {
-      "faith": 10,
-      "arcane": 10
-    },
-    "weight": 0,
-    "upgradeMaterial": "Somber Smithing Stone",
-    "defaultSkillId": 10
-  },
-  "Frenzied Flame Seal": {
-    "description": [
-      "Formless sacred seal bestowed by the maiden of the Three Fingers. Enhances incantations of the frenzied flame.",
-      "",
-      "This seal is the mark of the Lord of Frenzied Flame. Scales incantations using strength, dexterity, intelligence, and faith all together."
-    ],
-    "rarity": "Rare",
-    "attackAttributes": ["Strike"],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.2,
-      "dexterity": 0.2,
-      "intelligence": 0.2,
-      "faith": 0.4
-    },
-    "guard": {
-      "physical": 25,
-      "magic": 15,
-      "fire": 15,
-      "lightning": 15,
-      "holy": 15,
-      "guard_boost": 15
-    },
-    "statusEffects": {
-      "madness": 55
-    },
-    "weight": 0,
-    "upgradeMaterial": "Somber Smithing Stone",
     "defaultSkillId": 10
   },
   "Staff of the Great Beyond": {
@@ -894,56 +649,5 @@
       "arcane": 21
     },
     "weight": 2.5
-  },
-  "Dryleaf Seal": {
-    "description": [
-      "Sacred seal of the spiritual seekers known as the Dryleaf Sect. Enhances incantations of Miquella. Those who saw the decline of the Erdtree in the fallen leaves long ago braced themselves for the weakening of Order, and embraced a strict faith. And then, they made to serve a new god."
-    ],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.1,
-      "faith": 0.5
-    },
-    "requirements": {
-      "strength": 8,
-      "faith": 27
-    },
-    "weight": 1.5
-  },
-  "Fire Knight's Seal": {
-    "description": [
-      "Sacred seal of the Fire Knights, who answer directly to Messmer the Impaler. Enhances fire incantations of Messmer. The emblem of Messmer's army depicts a golden ring and the fire of his sacred seal."
-    ],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.1,
-      "faith": 0.5
-    },
-    "requirements": {
-      "strength": 8,
-      "faith": 23
-    },
-    "weight": 1.5
-  },
-  "Spiraltree Seal": {
-    "description": [
-      "Sacred seal of soiled amber engraved with a spiral tree design. Enhances spiral incantations. The majesty of the white tower, stretching to reach the gods, even inspired a secret faith in the invaders, the people of the Erdtree."
-    ],
-    "damage": {
-      "physical": 25
-    },
-    "scaling": {
-      "strength": 0.1,
-      "faith": 0.5
-    },
-    "requirements": {
-      "strength": 8,
-      "faith": 17
-    },
-    "weight": 1.5
   }
 }
