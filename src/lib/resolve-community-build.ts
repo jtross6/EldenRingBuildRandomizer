@@ -26,7 +26,7 @@ export interface ResolvedCommunityBuild {
   staves: ResolvedItem[];
   seals: ResolvedItem[];
   shield: ResolvedItem | null;
-  armor: ResolvedItem[];
+  armor: (ResolvedItem | null)[];
   talismans: ResolvedItem[];
   ashesOfWar: ResolvedItem[];
   sorceries: ResolvedItem[];
@@ -38,7 +38,8 @@ function normalize(name: string): string {
     .replace(/\s*\((?:Spell|Skill)\)\s*$/i, "")
     .replace(/^Ash of War:\s*/i, "")
     .replace(/^Ash of War\s+/i, "")
-    .replace(/[,]/g, "")
+    .replace(/,/g, " ")
+    .replace(/\s+/g, " ")
     .toLowerCase()
     .trim();
 }
@@ -90,16 +91,13 @@ function resolveShield(name: string | null | undefined): ResolvedItem | null {
 const ARMOR_ARRAYS = [armorHead, armorBody, armorArms, armorLegs] as const;
 const ARMOR_LABELS = ["Helm", "Chest Armor", "Gauntlets", "Leg Armor"] as const;
 
-function resolveArmor(names: string[] | undefined): ResolvedItem[] {
+function resolveArmor(names: string[] | undefined): (ResolvedItem | null)[] {
   if (!names) return [];
-  const resolved: ResolvedItem[] = [];
-  for (let i = 0; i < names.length && i < ARMOR_ARRAYS.length; i++) {
-    const idx = findByName(ARMOR_ARRAYS[i], names[i]);
-    if (idx >= 0) {
-      resolved.push({ name: ARMOR_ARRAYS[i][idx].name, index: idx, category: "armor" });
-    }
-  }
-  return resolved;
+  return names.slice(0, ARMOR_ARRAYS.length).map((name, i) => {
+    const idx = findByName(ARMOR_ARRAYS[i], name);
+    if (idx < 0) return null;
+    return { name: ARMOR_ARRAYS[i][idx].name, index: idx, category: "armor" as const };
+  });
 }
 
 function resolveTalismans(names: string[] | undefined): ResolvedItem[] {
