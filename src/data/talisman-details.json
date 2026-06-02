@@ -250,7 +250,11 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Arsenal Charm", "Arsenal Charm +1", "Great-Jar's Arsenal"],
+    "conflicts": [
+      "Arsenal Charm",
+      "Arsenal Charm +1",
+      "Great-Jar's Arsenal"
+    ],
     "weight": 1.5
   },
   "Arsenal Charm +1": {
@@ -270,7 +274,11 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Arsenal Charm", "Arsenal Charm +1", "Great-Jar's Arsenal"],
+    "conflicts": [
+      "Arsenal Charm",
+      "Arsenal Charm +1",
+      "Great-Jar's Arsenal"
+    ],
     "weight": 1.5
   },
   "Great-Jar's Arsenal": {
@@ -291,7 +299,11 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Arsenal Charm", "Arsenal Charm +1", "Great-Jar's Arsenal"],
+    "conflicts": [
+      "Arsenal Charm",
+      "Arsenal Charm +1",
+      "Great-Jar's Arsenal"
+    ],
     "weight": 1.5
   },
   "Erdtree's Favor": {
@@ -326,7 +338,11 @@
         "tick_interval": 0.06
       }
     ],
-    "conflicts": ["Erdtree's Favor", "Erdtree's Favor +1", "Erdtree's Favor +2"],
+    "conflicts": [
+      "Erdtree's Favor",
+      "Erdtree's Favor +1",
+      "Erdtree's Favor +2"
+    ],
     "weight": 1.5
   },
   "Erdtree's Favor +1": {
@@ -358,7 +374,11 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Erdtree's Favor", "Erdtree's Favor +1", "Erdtree's Favor +2"],
+    "conflicts": [
+      "Erdtree's Favor",
+      "Erdtree's Favor +1",
+      "Erdtree's Favor +2"
+    ],
     "weight": 1.5
   },
   "Erdtree's Favor +2": {
@@ -391,7 +411,11 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Erdtree's Favor", "Erdtree's Favor +1", "Erdtree's Favor +2"],
+    "conflicts": [
+      "Erdtree's Favor",
+      "Erdtree's Favor +1",
+      "Erdtree's Favor +2"
+    ],
     "weight": 1.5
   },
   "Radagon's Scarseal": {
@@ -437,7 +461,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Radagon's Scarseal", "Radagon's Soreseal"],
+    "conflicts": [
+      "Radagon's Scarseal",
+      "Radagon's Soreseal"
+    ],
     "weight": 0.8
   },
   "Radagon's Soreseal": {
@@ -482,7 +509,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Radagon's Scarseal", "Radagon's Soreseal"],
+    "conflicts": [
+      "Radagon's Scarseal",
+      "Radagon's Soreseal"
+    ],
     "weight": 0.8
   },
   "Starscourge Heirloom": {
@@ -502,7 +532,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Starscourge Heirloom"],
+    "conflicts": [
+      "Starscourge Heirloom"
+    ],
     "weight": 0.8
   },
   "Prosthesis-Wearer Heirloom": {
@@ -522,7 +554,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Prosthesis-Wearer Heirloom"],
+    "conflicts": [
+      "Prosthesis-Wearer Heirloom"
+    ],
     "weight": 0.8
   },
   "Stargazer Heirloom": {
@@ -542,7 +576,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Stargazer Heirloom"],
+    "conflicts": [
+      "Stargazer Heirloom"
+    ],
     "weight": 0.6
   },
   "Two Fingers Heirloom": {
@@ -564,7 +600,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Two Fingers Heirloom"],
+    "conflicts": [
+      "Two Fingers Heirloom"
+    ],
     "weight": 0.6
   },
   "Silver Scarab": {
@@ -583,7 +621,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Silver Scarab"],
+    "conflicts": [
+      "Silver Scarab"
+    ],
     "weight": 1.2
   },
   "Gold Scarab": {
@@ -602,7 +642,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Gold Scarab"],
+    "conflicts": [
+      "Gold Scarab"
+    ],
     "weight": 1.2
   },
   "Moon of Nokstella": {
@@ -624,7 +666,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Moon of Nokstella"],
+    "conflicts": [
+      "Moon of Nokstella"
+    ],
     "weight": 0.8
   },
   "Green Turtle Talisman": {
@@ -646,7 +690,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Green Turtle Talisman"],
+    "conflicts": [
+      "Green Turtle Talisman"
+    ],
     "weight": 0.7
   },
   "Stalwart Horn Charm": {
@@ -667,7 +713,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Stalwart Horn Charm", "Stalwart Horn Charm +1"],
+    "conflicts": [
+      "Stalwart Horn Charm",
+      "Stalwart Horn Charm +1"
+    ],
     "weight": 0.6
   },
   "Stalwart Horn Charm +1": {
@@ -688,7 +737,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Stalwart Horn Charm", "Stalwart Horn Charm +1"],
+    "conflicts": [
+      "Stalwart Horn Charm",
+      "Stalwart Horn Charm +1"
+    ],
     "weight": 0.6
   },
   "Immunizing Horn Charm": {
@@ -716,7 +768,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Immunizing Horn Charm", "Immunizing Horn Charm +1"],
+    "conflicts": [
+      "Immunizing Horn Charm",
+      "Immunizing Horn Charm +1"
+    ],
     "weight": 0.6
   },
   "Clarifying Horn Charm": {
@@ -737,7 +792,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Clarifying Horn Charm", "Clarifying Horn Charm +1"],
+    "conflicts": [
+      "Clarifying Horn Charm",
+      "Clarifying Horn Charm +1"
+    ],
     "weight": 0.6
   },
   "Clarifying Horn Charm +1": {
@@ -758,7 +816,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Clarifying Horn Charm", "Clarifying Horn Charm +1"],
+    "conflicts": [
+      "Clarifying Horn Charm",
+      "Clarifying Horn Charm +1"
+    ],
     "weight": 0.6
   },
   "Prince of Death's Pustule": {
@@ -779,7 +840,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Prince of Death's Pustule", "Prince of Death's Cyst"],
+    "conflicts": [
+      "Prince of Death's Pustule",
+      "Prince of Death's Cyst"
+    ],
     "weight": 0.6
   },
   "Prince of Death's Cyst": {
@@ -800,7 +864,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Prince of Death's Pustule", "Prince of Death's Cyst"],
+    "conflicts": [
+      "Prince of Death's Pustule",
+      "Prince of Death's Cyst"
+    ],
     "weight": 0.6
   },
   "Mottled Necklace": {
@@ -840,7 +907,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Mottled Necklace", "Mottled Necklace +1"],
+    "conflicts": [
+      "Mottled Necklace",
+      "Mottled Necklace +1"
+    ],
     "weight": 0.9
   },
   "Bull-Goat's Talisman": {
@@ -860,7 +930,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Bull-Goat's Talisman"],
+    "conflicts": [
+      "Bull-Goat's Talisman"
+    ],
     "weight": 0.5
   },
   "Marika's Scarseal": {
@@ -906,7 +978,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Marika's Scarseal", "Marika's Soreseal"],
+    "conflicts": [
+      "Marika's Scarseal",
+      "Marika's Soreseal"
+    ],
     "weight": 0.8
   },
   "Marika's Soreseal": {
@@ -951,7 +1026,10 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Marika's Scarseal", "Marika's Soreseal"],
+    "conflicts": [
+      "Marika's Scarseal",
+      "Marika's Soreseal"
+    ],
     "weight": 0.8
   },
   "Warrior Jar Shard": {
@@ -970,10 +1048,16 @@
         "value": 1.1,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Charged Skill Attack", "Skill Attack"]
+        "conditions": [
+          "Charged Skill Attack",
+          "Skill Attack"
+        ]
       }
     ],
-    "conflicts": ["Warrior Jar Shard", "Shard of Alexander"],
+    "conflicts": [
+      "Warrior Jar Shard",
+      "Shard of Alexander"
+    ],
     "weight": 0.9
   },
   "Shard of Alexander": {
@@ -992,10 +1076,16 @@
         "value": 1.15,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Charged Skill Attack", "Skill Attack"]
+        "conditions": [
+          "Charged Skill Attack",
+          "Skill Attack"
+        ]
       }
     ],
-    "conflicts": ["Warrior Jar Shard", "Shard of Alexander"],
+    "conflicts": [
+      "Warrior Jar Shard",
+      "Shard of Alexander"
+    ],
     "weight": 0.9
   },
   "Millicent's Prosthesis": {
@@ -1016,7 +1106,9 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.04,
-        "conditions": ["Successive 3 Hits"],
+        "conditions": [
+          "Successive 3 Hits"
+        ],
         "tick_interval": 1
       },
       {
@@ -1025,7 +1117,9 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.06,
-        "conditions": ["Successive 6 Hits"],
+        "conditions": [
+          "Successive 6 Hits"
+        ],
         "tick_interval": 0.7
       },
       {
@@ -1034,7 +1128,9 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.11,
-        "conditions": ["Successive 9 Hits"],
+        "conditions": [
+          "Successive 9 Hits"
+        ],
         "tick_interval": 0.4
       },
       {
@@ -1044,7 +1140,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Millicent's Prosthesis"],
+    "conflicts": [
+      "Millicent's Prosthesis"
+    ],
     "weight": 1.6
   },
   "Magic Scorpion Charm": {
@@ -1072,7 +1170,9 @@
         "value_pvp": 0.85
       }
     ],
-    "conflicts": ["Magic Scorpion Charm"],
+    "conflicts": [
+      "Magic Scorpion Charm"
+    ],
     "weight": 0.8
   },
   "Lightning Scorpion Charm": {
@@ -1100,7 +1200,9 @@
         "value_pvp": 0.85
       }
     ],
-    "conflicts": ["Lightning Scorpion Charm"],
+    "conflicts": [
+      "Lightning Scorpion Charm"
+    ],
     "weight": 0.8
   },
   "Fire Scorpion Charm": {
@@ -1128,7 +1230,9 @@
         "value_pvp": 0.85
       }
     ],
-    "conflicts": ["Fire Scorpion Charm"],
+    "conflicts": [
+      "Fire Scorpion Charm"
+    ],
     "weight": 0.8
   },
   "Sacred Scorpion Charm": {
@@ -1156,7 +1260,9 @@
         "value_pvp": 0.85
       }
     ],
-    "conflicts": ["Sacred Scorpion Charm"],
+    "conflicts": [
+      "Sacred Scorpion Charm"
+    ],
     "weight": 0.8
   },
   "Red-Feathered Branchsword": {
@@ -1175,10 +1281,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.2,
-        "conditions": ["HP below 20%"]
+        "conditions": [
+          "HP below 20%"
+        ]
       }
     ],
-    "conflicts": ["Red-Feathered Branchsword"],
+    "conflicts": [
+      "Red-Feathered Branchsword"
+    ],
     "weight": 1.4
   },
   "Ritual Sword Talisman": {
@@ -1198,10 +1308,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.1,
-        "conditions": ["HP above 100%"]
+        "conditions": [
+          "HP above 100%"
+        ]
       }
     ],
-    "conflicts": ["Ritual Sword Talisman"],
+    "conflicts": [
+      "Ritual Sword Talisman"
+    ],
     "weight": 0.9
   },
   "Spear Talisman": {
@@ -1219,10 +1333,14 @@
         "value": 1.15,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Enhance Thrusting Counter Attacks"]
+        "conditions": [
+          "Enhance Thrusting Counter Attacks"
+        ]
       }
     ],
-    "conflicts": ["Spear Talisman"],
+    "conflicts": [
+      "Spear Talisman"
+    ],
     "weight": 0.5
   },
   "Hammer Talisman": {
@@ -1242,7 +1360,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Hammer Talisman"],
+    "conflicts": [
+      "Hammer Talisman"
+    ],
     "weight": 0.9
   },
   "Winged Sword Insignia": {
@@ -1263,7 +1383,9 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.03,
-        "conditions": ["Successive 3 Hits"],
+        "conditions": [
+          "Successive 3 Hits"
+        ],
         "tick_interval": 1
       },
       {
@@ -1272,7 +1394,9 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.05,
-        "conditions": ["Successive 6 Hits"],
+        "conditions": [
+          "Successive 6 Hits"
+        ],
         "tick_interval": 0.7
       },
       {
@@ -1281,11 +1405,16 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.1,
-        "conditions": ["Successive 9 Hits"],
+        "conditions": [
+          "Successive 9 Hits"
+        ],
         "tick_interval": 0.4
       }
     ],
-    "conflicts": ["Winged Sword Insignia", "Rotten Winged Sword Insignia"],
+    "conflicts": [
+      "Winged Sword Insignia",
+      "Rotten Winged Sword Insignia"
+    ],
     "weight": 1.4
   },
   "Rotten Winged Sword Insignia": {
@@ -1306,7 +1435,9 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.06,
-        "conditions": ["Successive 3 Hits"],
+        "conditions": [
+          "Successive 3 Hits"
+        ],
         "tick_interval": 1
       },
       {
@@ -1315,7 +1446,9 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.08,
-        "conditions": ["Successive 6 Hits"],
+        "conditions": [
+          "Successive 6 Hits"
+        ],
         "tick_interval": 0.7
       },
       {
@@ -1324,11 +1457,16 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.13,
-        "conditions": ["Successive 9 Hits"],
+        "conditions": [
+          "Successive 9 Hits"
+        ],
         "tick_interval": 0.4
       }
     ],
-    "conflicts": ["Winged Sword Insignia", "Rotten Winged Sword Insignia"],
+    "conflicts": [
+      "Winged Sword Insignia",
+      "Rotten Winged Sword Insignia"
+    ],
     "weight": 1.4
   },
   "Dagger Talisman": {
@@ -1346,10 +1484,14 @@
         "value": 1.17,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Enhance Critical Attacks"]
+        "conditions": [
+          "Enhance Critical Attacks"
+        ]
       }
     ],
-    "conflicts": ["Dagger Talisman"],
+    "conflicts": [
+      "Dagger Talisman"
+    ],
     "weight": 1.1
   },
   "Arrow's Reach Talisman": {
@@ -1369,7 +1511,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Arrow's Reach Talisman"],
+    "conflicts": [
+      "Arrow's Reach Talisman"
+    ],
     "weight": 0.7
   },
   "Blue Dancer Charm": {
@@ -1389,10 +1533,14 @@
         "value": 1.15,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Scale Attack Power with Equip Load"]
+        "conditions": [
+          "Scale Attack Power with Equip Load"
+        ]
       }
     ],
-    "conflicts": ["Blue Dancer Charm"],
+    "conflicts": [
+      "Blue Dancer Charm"
+    ],
     "weight": 0.9
   },
   "Twinblade Talisman": {
@@ -1411,10 +1559,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.45,
-        "conditions": ["Final Chain Attack"]
+        "conditions": [
+          "Final Chain Attack"
+        ]
       }
     ],
-    "conflicts": ["Twinblade Talisman"],
+    "conflicts": [
+      "Twinblade Talisman"
+    ],
     "weight": 0.7
   },
   "Axe Talisman": {
@@ -1432,10 +1584,14 @@
         "value": 1.1,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Charge Attack"]
+        "conditions": [
+          "Charge Attack"
+        ]
       }
     ],
-    "conflicts": ["Axe Talisman"],
+    "conflicts": [
+      "Axe Talisman"
+    ],
     "weight": 0.8
   },
   "Lance Talisman": {
@@ -1453,10 +1609,14 @@
         "value": 1.15,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Horseback Attack"]
+        "conditions": [
+          "Horseback Attack"
+        ]
       }
     ],
-    "conflicts": ["Lance Talisman"],
+    "conflicts": [
+      "Lance Talisman"
+    ],
     "weight": 0.7
   },
   "Arrow's Sting Talisman": {
@@ -1474,10 +1634,16 @@
         "value": 1.1,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Ammunition Attack", "Ammunition OnHit Attack", "Ranged Skill Attack"]
+        "conditions": [
+          "Ammunition Attack",
+          "Ammunition OnHit Attack",
+          "Ranged Skill Attack"
+        ]
       }
     ],
-    "conflicts": ["Arrow's Sting Talisman"],
+    "conflicts": [
+      "Arrow's Sting Talisman"
+    ],
     "weight": 0.7
   },
   "Lord of Blood's Exultation": {
@@ -1497,10 +1663,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.12,
-        "conditions": ["Trigger in Presence of Blood Loss"]
+        "conditions": [
+          "Trigger in Presence of Blood Loss"
+        ]
       }
     ],
-    "conflicts": ["Lord of Blood's Exultation"],
+    "conflicts": [
+      "Lord of Blood's Exultation"
+    ],
     "weight": 0.9
   },
   "Kindred of Rot's Exultation": {
@@ -1520,10 +1690,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.2,
-        "conditions": ["Trigger in Presence of Rot"]
+        "conditions": [
+          "Trigger in Presence of Rot"
+        ]
       }
     ],
-    "conflicts": ["Kindred of Rot's Exultation"],
+    "conflicts": [
+      "Kindred of Rot's Exultation"
+    ],
     "weight": 0.9
   },
   "Claw Talisman": {
@@ -1542,10 +1716,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.075,
-        "conditions": ["Jump Attack"]
+        "conditions": [
+          "Jump Attack"
+        ]
       }
     ],
-    "conflicts": ["Claw Talisman"],
+    "conflicts": [
+      "Claw Talisman"
+    ],
     "weight": 0.7
   },
   "Roar Medallion": {
@@ -1563,10 +1741,15 @@
         "value": 1.15,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Roar Attack", "Unknown Attack"]
+        "conditions": [
+          "Roar Attack",
+          "Unknown Attack"
+        ]
       }
     ],
-    "conflicts": ["Roar Medallion"],
+    "conflicts": [
+      "Roar Medallion"
+    ],
     "weight": 0.7
   },
   "Curved Sword Talisman": {
@@ -1584,10 +1767,14 @@
         "value": 1.2,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Guard Counter Attack"]
+        "conditions": [
+          "Guard Counter Attack"
+        ]
       }
     ],
-    "conflicts": ["Curved Sword Talisman"],
+    "conflicts": [
+      "Curved Sword Talisman"
+    ],
     "weight": 0.7
   },
   "Companion Jar": {
@@ -1605,10 +1792,14 @@
         "value": 1.2,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Pot Item Attack"]
+        "conditions": [
+          "Pot Item Attack"
+        ]
       }
     ],
-    "conflicts": ["Companion Jar"],
+    "conflicts": [
+      "Companion Jar"
+    ],
     "weight": 0.6
   },
   "Perfumer's Talisman": {
@@ -1626,10 +1817,14 @@
         "value": 1.2,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Perfume Item Attack"]
+        "conditions": [
+          "Perfume Item Attack"
+        ]
       }
     ],
-    "conflicts": ["Perfumer's Talisman"],
+    "conflicts": [
+      "Perfumer's Talisman"
+    ],
     "weight": 0.6
   },
   "Graven-School Talisman": {
@@ -1648,10 +1843,15 @@
         "value": 1.04,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Affects Sorceries", "Spell Power Boost"]
+        "conditions": [
+          "Affects Sorceries",
+          "Spell Power Boost"
+        ]
       }
     ],
-    "conflicts": ["Graven-School Talisman"],
+    "conflicts": [
+      "Graven-School Talisman"
+    ],
     "weight": 0.7
   },
   "Graven-Mass Talisman": {
@@ -1670,10 +1870,15 @@
         "value": 1.08,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Affects Sorceries", "Spell Power Boost"]
+        "conditions": [
+          "Affects Sorceries",
+          "Spell Power Boost"
+        ]
       }
     ],
-    "conflicts": ["Graven-Mass Talisman"],
+    "conflicts": [
+      "Graven-Mass Talisman"
+    ],
     "weight": 1
   },
   "Faithful's Canvas Talisman": {
@@ -1693,10 +1898,15 @@
         "value": 1.04,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Affects Incantations", "Spell Power Boost"]
+        "conditions": [
+          "Affects Incantations",
+          "Spell Power Boost"
+        ]
       }
     ],
-    "conflicts": ["Faithful's Canvas Talisman"],
+    "conflicts": [
+      "Faithful's Canvas Talisman"
+    ],
     "weight": 0.7
   },
   "Flock's Canvas Talisman": {
@@ -1716,10 +1926,15 @@
         "value": 1.08,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Affects Incantations", "Spell Power Boost"]
+        "conditions": [
+          "Affects Incantations",
+          "Spell Power Boost"
+        ]
       }
     ],
-    "conflicts": ["Flock's Canvas Talisman"],
+    "conflicts": [
+      "Flock's Canvas Talisman"
+    ],
     "weight": 1
   },
   "Old Lord's Talisman": {
@@ -1740,7 +1955,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Old Lord's Talisman"],
+    "conflicts": [
+      "Old Lord's Talisman"
+    ],
     "weight": 0.5
   },
   "Radagon Icon": {
@@ -1760,7 +1977,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Radagon Icon"],
+    "conflicts": [
+      "Radagon Icon"
+    ],
     "weight": 0.7
   },
   "Primal Glintstone Blade": {
@@ -1789,7 +2008,9 @@
         "tick_interval": 0.06
       }
     ],
-    "conflicts": ["Primal Glintstone Blade"],
+    "conflicts": [
+      "Primal Glintstone Blade"
+    ],
     "weight": 0.6
   },
   "Godfrey Icon": {
@@ -1807,10 +2028,15 @@
         "value": 1.15,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Charged Attack", "Charged Skill Attack"]
+        "conditions": [
+          "Charged Attack",
+          "Charged Skill Attack"
+        ]
       }
     ],
-    "conflicts": ["Godfrey Icon"],
+    "conflicts": [
+      "Godfrey Icon"
+    ],
     "weight": 0.8
   },
   "Dragoncrest Shield Talisman": {
@@ -1940,7 +2166,11 @@
         "value_pvp": 1.04
       }
     ],
-    "conflicts": ["Spelldrake Talisman", "Spelldrake Talisman +1", "Spelldrake Talisman +2"],
+    "conflicts": [
+      "Spelldrake Talisman",
+      "Spelldrake Talisman +1",
+      "Spelldrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Spelldrake Talisman +1": {
@@ -1962,7 +2192,11 @@
         "value_pvp": 1.05
       }
     ],
-    "conflicts": ["Spelldrake Talisman", "Spelldrake Talisman +1", "Spelldrake Talisman +2"],
+    "conflicts": [
+      "Spelldrake Talisman",
+      "Spelldrake Talisman +1",
+      "Spelldrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Spelldrake Talisman +2": {
@@ -1984,7 +2218,11 @@
         "value_pvp": 1.06
       }
     ],
-    "conflicts": ["Spelldrake Talisman", "Spelldrake Talisman +1", "Spelldrake Talisman +2"],
+    "conflicts": [
+      "Spelldrake Talisman",
+      "Spelldrake Talisman +1",
+      "Spelldrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Flamedrake Talisman": {
@@ -2006,7 +2244,11 @@
         "value_pvp": 1.04
       }
     ],
-    "conflicts": ["Flamedrake Talisman", "Flamedrake Talisman +1", "Flamedrake Talisman +2"],
+    "conflicts": [
+      "Flamedrake Talisman",
+      "Flamedrake Talisman +1",
+      "Flamedrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Flamedrake Talisman +1": {
@@ -2028,7 +2270,11 @@
         "value_pvp": 1.05
       }
     ],
-    "conflicts": ["Flamedrake Talisman", "Flamedrake Talisman +1", "Flamedrake Talisman +2"],
+    "conflicts": [
+      "Flamedrake Talisman",
+      "Flamedrake Talisman +1",
+      "Flamedrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Flamedrake Talisman +2": {
@@ -2050,7 +2296,11 @@
         "value_pvp": 1.06
       }
     ],
-    "conflicts": ["Flamedrake Talisman", "Flamedrake Talisman +1", "Flamedrake Talisman +2"],
+    "conflicts": [
+      "Flamedrake Talisman",
+      "Flamedrake Talisman +1",
+      "Flamedrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Boltdrake Talisman": {
@@ -2072,7 +2322,11 @@
         "value_pvp": 1.04
       }
     ],
-    "conflicts": ["Boltdrake Talisman", "Boltdrake Talisman +1", "Boltdrake Talisman +2"],
+    "conflicts": [
+      "Boltdrake Talisman",
+      "Boltdrake Talisman +1",
+      "Boltdrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Boltdrake Talisman +1": {
@@ -2094,7 +2348,11 @@
         "value_pvp": 1.05
       }
     ],
-    "conflicts": ["Boltdrake Talisman", "Boltdrake Talisman +1", "Boltdrake Talisman +2"],
+    "conflicts": [
+      "Boltdrake Talisman",
+      "Boltdrake Talisman +1",
+      "Boltdrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Boltdrake Talisman +2": {
@@ -2116,7 +2374,11 @@
         "value_pvp": 1.06
       }
     ],
-    "conflicts": ["Boltdrake Talisman", "Boltdrake Talisman +1", "Boltdrake Talisman +2"],
+    "conflicts": [
+      "Boltdrake Talisman",
+      "Boltdrake Talisman +1",
+      "Boltdrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Haligdrake Talisman": {
@@ -2138,7 +2400,11 @@
         "value_pvp": 1.04
       }
     ],
-    "conflicts": ["Haligdrake Talisman", "Haligdrake Talisman +1", "Haligdrake Talisman +2"],
+    "conflicts": [
+      "Haligdrake Talisman",
+      "Haligdrake Talisman +1",
+      "Haligdrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Haligdrake Talisman +1": {
@@ -2160,7 +2426,11 @@
         "value_pvp": 1.05
       }
     ],
-    "conflicts": ["Haligdrake Talisman", "Haligdrake Talisman +1", "Haligdrake Talisman +2"],
+    "conflicts": [
+      "Haligdrake Talisman",
+      "Haligdrake Talisman +1",
+      "Haligdrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Haligdrake Talisman +2": {
@@ -2182,7 +2452,11 @@
         "value_pvp": 1.06
       }
     ],
-    "conflicts": ["Haligdrake Talisman", "Haligdrake Talisman +1", "Haligdrake Talisman +2"],
+    "conflicts": [
+      "Haligdrake Talisman",
+      "Haligdrake Talisman +1",
+      "Haligdrake Talisman +2"
+    ],
     "weight": 0.6
   },
   "Pearldrake Talisman": {
@@ -2204,7 +2478,11 @@
         "value_pvp": 1.02
       }
     ],
-    "conflicts": ["Pearldrake Talisman", "Pearldrake Talisman +1", "Pearldrake Talisman +2"],
+    "conflicts": [
+      "Pearldrake Talisman",
+      "Pearldrake Talisman +1",
+      "Pearldrake Talisman +2"
+    ],
     "weight": 0.9
   },
   "Pearldrake Talisman +1": {
@@ -2226,7 +2504,11 @@
         "value_pvp": 1.03
       }
     ],
-    "conflicts": ["Pearldrake Talisman", "Pearldrake Talisman +1", "Pearldrake Talisman +2"],
+    "conflicts": [
+      "Pearldrake Talisman",
+      "Pearldrake Talisman +1",
+      "Pearldrake Talisman +2"
+    ],
     "weight": 0.9
   },
   "Pearldrake Talisman +2": {
@@ -2248,7 +2530,11 @@
         "value_pvp": 1.04
       }
     ],
-    "conflicts": ["Pearldrake Talisman", "Pearldrake Talisman +1", "Pearldrake Talisman +2"],
+    "conflicts": [
+      "Pearldrake Talisman",
+      "Pearldrake Talisman +1",
+      "Pearldrake Talisman +2"
+    ],
     "weight": 0.9
   },
   "Crucible Scale Talisman": {
@@ -2268,10 +2554,14 @@
         "value": 1.3,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Trigger during Critical Hit"]
+        "conditions": [
+          "Trigger during Critical Hit"
+        ]
       }
     ],
-    "conflicts": ["Crucible Scale Talisman"],
+    "conflicts": [
+      "Crucible Scale Talisman"
+    ],
     "weight": 1.1
   },
   "Crucible Feather Talisman": {
@@ -2294,7 +2584,9 @@
         "tick_interval": 0.06
       }
     ],
-    "conflicts": ["Crucible Feather Talisman"],
+    "conflicts": [
+      "Crucible Feather Talisman"
+    ],
     "weight": 0.8
   },
   "Blue-Feathered Branchsword": {
@@ -2313,10 +2605,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.5,
-        "conditions": ["HP below 20%"]
+        "conditions": [
+          "HP below 20%"
+        ]
       }
     ],
-    "conflicts": ["Blue-Feathered Branchsword"],
+    "conflicts": [
+      "Blue-Feathered Branchsword"
+    ],
     "weight": 1.1
   },
   "Ritual Shield Talisman": {
@@ -2336,10 +2632,14 @@
         "model": "multiplicative",
         "type": "positive",
         "value_pvp": 1.3,
-        "conditions": ["HP above 100%"]
+        "conditions": [
+          "HP above 100%"
+        ]
       }
     ],
-    "conflicts": ["Ritual Shield Talisman"],
+    "conflicts": [
+      "Ritual Shield Talisman"
+    ],
     "weight": 0.9
   },
   "Greatshield Talisman": {
@@ -2359,7 +2659,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Greatshield Talisman"],
+    "conflicts": [
+      "Greatshield Talisman"
+    ],
     "weight": 0.9
   },
   "Crucible Knot Talisman": {
@@ -2381,7 +2683,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Crucible Knot Talisman"],
+    "conflicts": [
+      "Crucible Knot Talisman"
+    ],
     "weight": 0.5
   },
   "Crimson Seed Talisman": {
@@ -2401,7 +2705,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Crimson Seed Talisman"],
+    "conflicts": [
+      "Crimson Seed Talisman"
+    ],
     "weight": 0.8
   },
   "Cerulean Seed Talisman": {
@@ -2421,7 +2727,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Cerulean Seed Talisman"],
+    "conflicts": [
+      "Cerulean Seed Talisman"
+    ],
     "weight": 0.8
   },
   "Blessed Dew Talisman": {
@@ -2443,7 +2751,9 @@
         "tick_interval": 1
       }
     ],
-    "conflicts": ["Blessed Dew Talisman"],
+    "conflicts": [
+      "Blessed Dew Talisman"
+    ],
     "weight": 0.6
   },
   "Taker's Cameo": {
@@ -2462,7 +2772,9 @@
         "value": 30,
         "model": "additive",
         "type": "positive",
-        "conditions": ["Apply Kill Effect"],
+        "conditions": [
+          "Apply Kill Effect"
+        ],
         "tick_interval": 1
       },
       {
@@ -2470,11 +2782,15 @@
         "value": 1.03,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Apply Kill Effect"],
+        "conditions": [
+          "Apply Kill Effect"
+        ],
         "tick_interval": 1
       }
     ],
-    "conflicts": ["Taker's Cameo"],
+    "conflicts": [
+      "Taker's Cameo"
+    ],
     "weight": 1
   },
   "Godskin Swaddling Cloth": {
@@ -2493,7 +2809,9 @@
         "value": 30,
         "model": "additive",
         "type": "positive",
-        "conditions": ["Successive Hits"],
+        "conditions": [
+          "Successive Hits"
+        ],
         "tick_interval": 4
       },
       {
@@ -2501,11 +2819,15 @@
         "value": 1.03,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Successive Hits"],
+        "conditions": [
+          "Successive Hits"
+        ],
         "tick_interval": 4
       }
     ],
-    "conflicts": ["Godskin Swaddling Cloth"],
+    "conflicts": [
+      "Godskin Swaddling Cloth"
+    ],
     "weight": 0.9
   },
   "Assassin's Crimson Dagger": {
@@ -2523,7 +2845,9 @@
         "value": 85,
         "model": "additive",
         "type": "positive",
-        "conditions": ["Trigger on Critical Hit (HP)"],
+        "conditions": [
+          "Trigger on Critical Hit (HP)"
+        ],
         "tick_interval": 4
       },
       {
@@ -2531,11 +2855,15 @@
         "value": 1.1,
         "model": "multiplicative",
         "type": "positive",
-        "conditions": ["Trigger on Critical Hit (HP)"],
+        "conditions": [
+          "Trigger on Critical Hit (HP)"
+        ],
         "tick_interval": 4
       }
     ],
-    "conflicts": ["Assassin's Crimson Dagger"],
+    "conflicts": [
+      "Assassin's Crimson Dagger"
+    ],
     "weight": 0.8
   },
   "Assassin's Cerulean Dagger": {
@@ -2553,11 +2881,15 @@
         "value": 15,
         "model": "additive",
         "type": "positive",
-        "conditions": ["Trigger on Critical Hit (FP)"],
+        "conditions": [
+          "Trigger on Critical Hit (FP)"
+        ],
         "tick_interval": 4
       }
     ],
-    "conflicts": ["Assassin's Cerulean Dagger"],
+    "conflicts": [
+      "Assassin's Cerulean Dagger"
+    ],
     "weight": 0.8
   },
   "Crepus's Vial": {
@@ -2578,7 +2910,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Crepus's Vial"],
+    "conflicts": [
+      "Crepus's Vial"
+    ],
     "weight": 0.7
   },
   "Concealing Veil": {
@@ -2597,10 +2931,14 @@
         "value": 1,
         "model": "additive",
         "type": "positive",
-        "conditions": ["Trigger on Crouch"]
+        "conditions": [
+          "Trigger on Crouch"
+        ]
       }
     ],
-    "conflicts": ["Concealing Veil"],
+    "conflicts": [
+      "Concealing Veil"
+    ],
     "weight": 0.9
   },
   "Carian Filigreed Crest": {
@@ -2621,7 +2959,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Carian Filigreed Crest"],
+    "conflicts": [
+      "Carian Filigreed Crest"
+    ],
     "weight": 0.8
   },
   "Longtail Cat Talisman": {
@@ -2642,7 +2982,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Longtail Cat Talisman"],
+    "conflicts": [
+      "Longtail Cat Talisman"
+    ],
     "weight": 0.6
   },
   "Shabriri's Woe": {
@@ -2664,7 +3006,9 @@
         "type": "neutral"
       }
     ],
-    "conflicts": ["Shabriri's Woe"],
+    "conflicts": [
+      "Shabriri's Woe"
+    ],
     "weight": 0.6
   },
   "Daedicar's Woe": {
@@ -2686,7 +3030,9 @@
         "type": "negative"
       }
     ],
-    "conflicts": ["Daedicar's Woe"],
+    "conflicts": [
+      "Daedicar's Woe"
+    ],
     "weight": 0.8
   },
   "Sacrificial Twig": {
@@ -2713,7 +3059,9 @@
         "type": "positive"
       }
     ],
-    "conflicts": ["Sacrificial Twig"],
+    "conflicts": [
+      "Sacrificial Twig"
+    ],
     "weight": 1
   },
   "Furled Finger's Trick-Mirror": {
@@ -2734,7 +3082,10 @@
         "type": "neutral"
       }
     ],
-    "conflicts": ["Furled Finger's Trick-Mirror", "Host's Trick-Mirror"],
+    "conflicts": [
+      "Furled Finger's Trick-Mirror",
+      "Host's Trick-Mirror"
+    ],
     "weight": 0.7
   },
   "Host's Trick-Mirror": {
@@ -2755,7 +3106,10 @@
         "type": "neutral"
       }
     ],
-    "conflicts": ["Furled Finger's Trick-Mirror", "Host's Trick-Mirror"],
+    "conflicts": [
+      "Furled Finger's Trick-Mirror",
+      "Host's Trick-Mirror"
+    ],
     "weight": 0.7
   },
   "Entwining Umbilical Cord": {
@@ -2773,7 +3127,9 @@
         "type": "neutral"
       }
     ],
-    "conflicts": ["Entwining Umbilical Cord"],
+    "conflicts": [
+      "Entwining Umbilical Cord"
+    ],
     "weight": 0.5
   },
   "Ancestral Spirit's Horn": {
@@ -2792,11 +3148,15 @@
         "value": 3,
         "model": "additive",
         "type": "positive",
-        "conditions": ["Apply Kill Effect"],
+        "conditions": [
+          "Apply Kill Effect"
+        ],
         "tick_interval": 1
       }
     ],
-    "conflicts": ["Ancestral Spirit's Horn"],
+    "conflicts": [
+      "Ancestral Spirit's Horn"
+    ],
     "weight": 1.2
   },
   "Aged One's Exultation": {

@@ -6,7 +6,9 @@
       "A well-timed parry deflects an enemy's attack, breaking their stance and leaving them open to a critical hit. Though risk is inherent, this shield favors aggression."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 68
     },
@@ -37,7 +39,9 @@
       "Made to be thin and light of weight, even those lacking strength can employ this immunity-boosting shield."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 67
     },
@@ -66,7 +70,9 @@
       "Said to have been tempered in lava, it boasts great resistance to fire."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 70
     },
@@ -95,7 +101,9 @@
       "There are countless other shields available of better make. This piece of scrap isn't worth the effort of equipping."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 70
     },
@@ -124,7 +132,9 @@
       "Perhaps due to its use as a device with which the guilty were made to endure prolonged suffering, it raises vitality."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 71
     },
@@ -153,7 +163,9 @@
       "The beastmen have always fired earthenware jars for the express purpose of making shields. Such are their ways, strange though they are."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 71
     },
@@ -182,7 +194,9 @@
       "Its emblem is an ancient thorn design. Though it isn't much, it boosts fire damage negation."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 70
     },
@@ -211,7 +225,9 @@
       "An ancient cipher engraving lines the circumference. Though it isn't much, it boosts holy damage negation."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 70
     },
@@ -240,7 +256,9 @@
       "The design riveted to the center represents both sword and tree."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 72
     },
@@ -269,7 +287,9 @@
       "The design is said to represent the stars of the night sky, portending fate."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 72
     },
@@ -298,7 +318,9 @@
       "An antiquated charm that glares back at an enemy, it boosts focus."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 70
     },
@@ -327,7 +349,9 @@
       "Finely balanced, this shield is easy to use."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 74
     },
@@ -356,7 +380,9 @@
       "Though the gold leaf is peeling and the effect is slight, it still boosts holy damage negation."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 74
     },
@@ -385,7 +411,9 @@
       "The ice crest originates from a Carian princess. Though the effect is slight, it boosts magic damage negation and resistance to frost."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 74
     },
@@ -414,7 +442,9 @@
       "Resists frost with its heat, and can even be used to deal fire damage if wielded as a weapon."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 58,
       "fire": 37
@@ -445,7 +475,9 @@
       "Small shield of antlers arranged in an eddy-like pattern. If used to attack a foe, the shield's antlers inflict blood loss. Once given to a Tarnished warrior who cultivated close ties to the ancestral followers. Though the effect is only slight, it boosts immunity, robustness, and focus."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 75
     },
@@ -478,7 +510,9 @@
       "The sculpted bronze snake is a poisonous breed, boosting the wielder's resistance to poison."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 77
     },
@@ -511,7 +545,9 @@
       "Metal shields reliably negate physical damage when guarding, a trait which made them highly trusted on the battlefield."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 78
     },
@@ -540,7 +576,9 @@
       "Some say it is the curse of grafting which causes such affliction, while others talk of its root being something altogether more sinister hidden deep within the castle."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 75
     },
@@ -572,7 +610,9 @@
       "Some say it is the curse of grafting which causes such affliction, while others talk of its root being something altogether more sinister hidden deep within the castle."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 76
     },
@@ -604,7 +644,9 @@
       "Most of these knights were sent to the fringes, where they were forced to start anew with only despair for company."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 81
     },
@@ -632,7 +674,9 @@
       "Boasts exceptional magic damage negation. The Albinaurics' most formidable foes were sorcerers, after all."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 78
     },
@@ -661,7 +705,9 @@
       "Much like the wear upon the shield, the Seat of the Sun is long faded away."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 74
     },
@@ -690,7 +736,9 @@
       "The shape is said to imitate that of a sacred drop of dew, which inspired the absurd rumor that Loretta herself was an Albinauric."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 59,
       "magic": 38
@@ -723,7 +771,9 @@
       "Comparatively light for its size, this shield is easy to handle but lacks a true metal shield's ability to negate damage."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 76
     },
@@ -752,7 +802,9 @@
       "Emblazoned with a yellow scorpion, a warning of surprise attacks and sudden strikes."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 78
     },
@@ -782,7 +834,9 @@
       "At dwindling levels of HP, this shield slightly boosts both attack and defense."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 78
     },
@@ -811,7 +865,9 @@
       "The design represents the Erdtree foregrounded against a blue sky."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 80
     },
@@ -840,7 +896,9 @@
       "Commonly employed in the Shattering."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 84
     },
@@ -869,7 +927,9 @@
       "The turtle is a symbol of tirelessness, and this shield boosts stamina recovery speed."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 81
     },
@@ -898,7 +958,9 @@
       "Venerating the repose of the soul, this shield boosts focus. The briars can be used to attack foes."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 75
     },
@@ -931,7 +993,9 @@
       "Excels when facing magic or holy attacks. Just who were these knights preparing to fight?"
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 63,
       "magic": 40
@@ -964,7 +1028,9 @@
       "Though its damage negation may be lacking compared to a metal shield, it can handle a wider range of attack affinities."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 75
     },
@@ -993,7 +1059,9 @@
       "The circular horsehead design evokes a swift gallop."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 76
     },
@@ -1022,7 +1090,9 @@
       "Thought to represent a surreptitious prophecy of cardinal sin, the lit candle-tree design was forbidden."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 76
     },
@@ -1051,7 +1121,9 @@
       "The yellow flame is the symbol of the affliction, serving as a warning to those who might approach the village."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 76
     },
@@ -1080,7 +1152,9 @@
       "Adorned with a long-forgotten crest of Stormveil, ancient in design."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 76
     },
@@ -1109,7 +1183,9 @@
       "Features a beast as its crest, serving to remind warriors not to succumb to the arousal of battle. Fight with passion, but become not its prisoner."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 77
     },
@@ -1138,7 +1214,9 @@
       "The crest symbolizes red wings."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 77
     },
@@ -1167,7 +1245,9 @@
       "The crest represents a forest and river."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 77
     },
@@ -1196,7 +1276,9 @@
       "The sun in eclipse is said to be the symbol of the Wandering Mausoleum where the soulless demigods slumber."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 77
     },
@@ -1225,7 +1307,9 @@
       "The inverted hawk is the emblem of the company of slaves ordered to explore the Eternal City."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 77
     },
@@ -1254,7 +1338,9 @@
       "Metal shields reliably negate physical damage when guarding, a trait which made them highly trusted on the battlefield."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 77
     },
@@ -1283,7 +1369,9 @@
       "From the north, this shield depicts the polar star in rivets of gold. The inside is lined with fur, protecting the carrier from frost."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 75
     },
@@ -1312,7 +1400,9 @@
       "The ancient dragons, who ruled in the prehistoric era before the Erdtree, would protect their lord as a wall of living rock."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 115
     },
@@ -1341,7 +1431,9 @@
       "Due to their excessive size, these shields were at times seen as the hallmark of little lordlings who were too timid to earn a few nicks and scratches."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 112
     },
@@ -1370,7 +1462,9 @@
       "An ancient holiness dwells within. The crucible horn skewers foes when performing shield bashes."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 123
     },
@@ -1399,7 +1493,9 @@
       "Imbued with lightning."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 99,
       "lightning": 64
@@ -1431,7 +1527,9 @@
       "Originates from Eochaid, a land of proudly solitary ascetics."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 98
     },
@@ -1463,7 +1561,9 @@
       "The living rampart of the Erdtree, the Tree Sentinels are the standard to which all defenders of the Erdtree aspire."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 100,
       "holy": 65
@@ -1495,7 +1595,9 @@
       "The beast depicted is Serosh, aged counselor who guides the golden lineage."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 104
     },
@@ -1524,7 +1626,9 @@
       "The see-through head is extremely light, but its flesh is supple, providing absolutely no protection from piercing attacks."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 103
     },
@@ -1552,7 +1656,9 @@
       "A great stone shield with an intricately carved fingerprint design. One of the heaviest of all greatshields. Part of the tomb of an ancient god, the Readerless Fingers relayed their message through these imprints, said to be the very seeds from which frenzy first sprouted."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 139
     },
@@ -1584,7 +1690,9 @@
       "The divine scene acts in and of itself as a sacred invocation; gradually restoring the carrier's HP."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 111
     },
@@ -1613,7 +1721,9 @@
       "Once worshipped by the giants, this evil deity is believed to have been slain by Queen Marika."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 146
     },
@@ -1642,7 +1752,9 @@
       "The dreadful visage and burning flames are designed to remind one of the horror of facing a Fire Giant. In other words, this shield has an instructional function."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 155
     },
@@ -1671,7 +1783,9 @@
       "Designed to perform shield bashes, these attacks riddle the enemy with holes, earning it the nickname of \"pard shield.\""
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 116
     },
@@ -1703,7 +1817,9 @@
       "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 111
     },
@@ -1732,7 +1848,9 @@
       "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 111
     },
@@ -1761,7 +1879,9 @@
       "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 111
     },
@@ -1790,7 +1910,9 @@
       "Giant ants are venomous creatures, granting a boost to immunity when wielding this shield."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 114
     },
@@ -1820,7 +1942,9 @@
       "Greatshield shaped like a fang, featuring the crest of red-maned lion. Carried by the Redmane Knights who fought alongside Radahn."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 108
     },
@@ -1849,7 +1973,9 @@
       "The eclipsed sun, drained of color, is the protective star of soulless demigods. It aids the mausoleum knights by keeping Destined Death at bay."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 110
     },
@@ -1879,7 +2005,9 @@
       "\"Our enemy is none other than Caria itself.\""
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 110
     },
@@ -1908,7 +2036,9 @@
       "Knights of Leyndell are reputed for their sturdiness, exemplified by this shield's exceptional guard capacity."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 113
     },
@@ -1937,7 +2067,9 @@
       "The red tinge in the gold coat mirrors the primordial matter that became the Erdtree. The color of homeward yearning."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 115
     },
@@ -1964,7 +2096,9 @@
       "Metal greatshield depicting the Haligtree with unalloyed gold. Carried by knights who have vowed to serve Miquella's Haligtree. Possesses high holy damage negation. Yet now, with the Haligtree misshapen, this wondrous rendition is a fleeting fantasy."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 116
     },
@@ -1993,7 +2127,9 @@
       "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 95
     },
@@ -2023,7 +2159,9 @@
       "Greatshields boast high damage negation and guard capacity, making enemy attacks easy to repel."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 99
     },

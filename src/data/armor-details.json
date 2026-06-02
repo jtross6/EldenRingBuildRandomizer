@@ -52,7 +52,9 @@
     "weight": 8.8
   },
   "Iron Gauntlets": {
-    "description": ["Ordinary iron gauntlets."],
+    "description": [
+      "Ordinary iron gauntlets."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 2.8,
@@ -1325,7 +1327,9 @@
     "weight": 1.4
   },
   "Cloth Garb": {
-    "description": ["Clothing made of coarse material, commonly worn in the Lands Between."],
+    "description": [
+      "Clothing made of coarse material, commonly worn in the Lands Between."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 5.3,
@@ -1347,7 +1351,9 @@
     "weight": 3.2
   },
   "Cloth Trousers": {
-    "description": ["Trousers made of coarse material, commonly worn in the Lands Between."],
+    "description": [
+      "Trousers made of coarse material, commonly worn in the Lands Between."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 3,
@@ -1686,7 +1692,10 @@
     "weight": 9.2
   },
   "Exile Gauntlets": {
-    "description": ["Damaged iron gauntlets.", "Worn by soldiers sent to the penal colonies."],
+    "description": [
+      "Damaged iron gauntlets.",
+      "Worn by soldiers sent to the penal colonies."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 2.9,
@@ -1708,7 +1717,10 @@
     "weight": 2.9
   },
   "Exile Greaves": {
-    "description": ["Damaged iron greaves.", "Worn by soldiers sent to the penal colonies."],
+    "description": [
+      "Damaged iron greaves.",
+      "Worn by soldiers sent to the penal colonies."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 7.1,
@@ -6188,7 +6200,9 @@
     "weight": 12.8
   },
   "Ragged Hat": {
-    "description": ["Helm pieced together from scavenged metal."],
+    "description": [
+      "Helm pieced together from scavenged metal."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 3.1,
@@ -6210,7 +6224,9 @@
     "weight": 3.3
   },
   "Ragged Armor": {
-    "description": ["Armor pieced together from scavenged metal."],
+    "description": [
+      "Armor pieced together from scavenged metal."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 9.5,
@@ -6232,7 +6248,9 @@
     "weight": 9.2
   },
   "Ragged Gloves": {
-    "description": ["Gauntlets pieced together from scavenged metal."],
+    "description": [
+      "Gauntlets pieced together from scavenged metal."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 2.3,
@@ -6254,7 +6272,9 @@
     "weight": 2.9
   },
   "Ragged Loincloth": {
-    "description": ["Greaves pieced together from scavenged metal."],
+    "description": [
+      "Greaves pieced together from scavenged metal."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 4,
@@ -6276,7 +6296,9 @@
     "weight": 3.1
   },
   "Ragged Hat (Altered)": {
-    "description": ["Helm pieced together from scavenged metal."],
+    "description": [
+      "Helm pieced together from scavenged metal."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 2.8,
@@ -6298,7 +6320,9 @@
     "weight": 3
   },
   "Ragged Armor (Altered)": {
-    "description": ["Armor pieced together from scavenged metal."],
+    "description": [
+      "Armor pieced together from scavenged metal."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 9.1,
@@ -7101,7 +7125,10 @@
     "weight": 7.7
   },
   "Warrior Gauntlets": {
-    "description": ["Gauntlets of a nomadic warrior.", "Crafted from sturdy leather."],
+    "description": [
+      "Gauntlets of a nomadic warrior.",
+      "Crafted from sturdy leather."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 2.3,
@@ -7123,7 +7150,10 @@
     "weight": 2.6
   },
   "Warrior Greaves": {
-    "description": ["Greaves of a nomadic warrior.", "Crafted from sturdy leather."],
+    "description": [
+      "Greaves of a nomadic warrior.",
+      "Crafted from sturdy leather."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 5.4,
@@ -7789,7 +7819,10 @@
     "weight": 2.1
   },
   "Champion Gaiters": {
-    "description": ["Gaiters formed only with leather straps.", "Common wear in the badlands."],
+    "description": [
+      "Gaiters formed only with leather straps.",
+      "Common wear in the badlands."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 3.8,
@@ -9426,7 +9459,10 @@
     "weight": 2.8
   },
   "Land of Reeds Greaves": {
-    "description": ["Greaves wrapped in tough leather.", "Worn by warriors of the Land of Reeds."],
+    "description": [
+      "Greaves wrapped in tough leather.",
+      "Worn by warriors of the Land of Reeds."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 5,
@@ -9969,7 +10005,9 @@
     "weight": 2.9
   },
   "Traveling Maiden Robe (Altered)": {
-    "description": ["Modest garb of traveling maidens, typically worn under their robes."],
+    "description": [
+      "Modest garb of traveling maidens, typically worn under their robes."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 4.3,
@@ -10766,7 +10804,9 @@
     "weight": 4.1
   },
   "Consort's Trousers": {
-    "description": ["Fine white trousers, perfectly suited for wearing beneath a silk robe."],
+    "description": [
+      "Fine white trousers, perfectly suited for wearing beneath a silk robe."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 3,
@@ -11325,7 +11365,9 @@
     "weight": 1.1
   },
   "Errant Sorcerer Boots": {
-    "description": ["Commonplace leather boots, sturdy enough to withstand a long journey."],
+    "description": [
+      "Commonplace leather boots, sturdy enough to withstand a long journey."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 3,
@@ -14342,7 +14384,9 @@
     "weight": 10.8
   },
   "Foot Soldier Cap": {
-    "description": ["Flanged iron cap widely issued to foot soldiers in a lord's army."],
+    "description": [
+      "Flanged iron cap widely issued to foot soldiers in a lord's army."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 3.4,
@@ -14728,7 +14772,9 @@
     "weight": 7.1
   },
   "Omenkiller Long Gloves": {
-    "description": ["Long, stiff leather gloves worn by the Omenkillers."],
+    "description": [
+      "Long, stiff leather gloves worn by the Omenkillers."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 2.1,
@@ -14750,7 +14796,9 @@
     "weight": 2.4
   },
   "Omenkiller Boots": {
-    "description": ["Stiff leather boots worn by the Omenkillers."],
+    "description": [
+      "Stiff leather boots worn by the Omenkillers."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 5,
@@ -14937,7 +14985,9 @@
     "weight": 3.2
   },
   "Deathbed Smalls": {
-    "description": ["Skirt worn by Phia, the Deathbed Companion."],
+    "description": [
+      "Skirt worn by Phia, the Deathbed Companion."
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 1.5,
@@ -15040,7 +15090,9 @@
     "weight": 3.2
   },
   "Millicent's Robe": {
-    "description": ["Robe worn by Millicent the Rotting"],
+    "description": [
+      "Robe worn by Millicent the Rotting"
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 4.2,
@@ -15062,7 +15114,9 @@
     "weight": 3.2
   },
   "Millicent's Gloves": {
-    "description": ["Gloves worn by Millicent the Rotting"],
+    "description": [
+      "Gloves worn by Millicent the Rotting"
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 1,
@@ -15084,7 +15138,9 @@
     "weight": 1.1
   },
   "Millicent's Boots": {
-    "description": ["Boots worn by Millicent the Rotting"],
+    "description": [
+      "Boots worn by Millicent the Rotting"
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 2.3,
@@ -15106,7 +15162,9 @@
     "weight": 2
   },
   "Millicent's Tunic": {
-    "description": ["Tunic worn by Millicent the Rotting"],
+    "description": [
+      "Tunic worn by Millicent the Rotting"
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 6.1,
@@ -15128,7 +15186,9 @@
     "weight": 8.3
   },
   "Golden Prosthetic": {
-    "description": ["Golden prosthetic forged using ancient techniques"],
+    "description": [
+      "Golden prosthetic forged using ancient techniques"
+    ],
     "rarity": "Common",
     "absorptions": {
       "physical": 1.5,
@@ -16967,7 +17027,9 @@
     "weight": 4.2
   },
   "High Priest Gloves": {
-    "description": ["Gloves of Count Ymir, High Priest. Soft and well-tailored."],
+    "description": [
+      "Gloves of Count Ymir, High Priest. Soft and well-tailored."
+    ],
     "absorptions": {
       "physical": 1.3,
       "strike": null,
@@ -16988,7 +17050,9 @@
     "weight": 1.4
   },
   "High Priest Undergarments": {
-    "description": ["Undergarments of Count Ymir, High Priest. Soft and well-tailored."],
+    "description": [
+      "Undergarments of Count Ymir, High Priest. Soft and well-tailored."
+    ],
     "absorptions": {
       "physical": 3,
       "strike": null,
@@ -17722,7 +17786,9 @@
     "weight": 11.8
   },
   "Rellana's Gloves": {
-    "description": ["Gloves of Rellana, the Twin Moon Knight, fashioned from quality leather."],
+    "description": [
+      "Gloves of Rellana, the Twin Moon Knight, fashioned from quality leather."
+    ],
     "absorptions": {
       "physical": 3.3,
       "strike": null,

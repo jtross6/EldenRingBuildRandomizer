@@ -6,7 +6,10 @@
       "Though modest in reach and capacity for harm, this weapon is light enough to jab in rapid succession and delivers devastating critical hits."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 74
     },
@@ -38,7 +41,10 @@
       "A ritual performed on the oddly misshapen blade imbued it with the power of the stolen Rune of Death."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 66,
       "holy": 65
@@ -73,7 +79,10 @@
       "For masters of combat who anticipate every enemy strike and counter accordingly, this weapon is all they need."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 75
     },
@@ -106,7 +115,10 @@
       "Medicine is mercy, and mercy upon the battlefield is ruthless. Beware the killers clothed as men of compassion."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 92
     },
@@ -139,7 +151,10 @@
       "This dagger rips the flesh as it enters, inflicting blood loss with sickening efficacy. A proud testament to the success of its vicious design, this weapon is perpetually coated in blood. "
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 79
     },
@@ -176,7 +191,10 @@
       "Used as tool to extract glintstone from broken rock, and as such a faint magic enwreathes the blade."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 82,
       "magic": 53
@@ -211,7 +229,10 @@
       "Grants trace amounts of runes on landing attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 79
     },
@@ -241,7 +262,10 @@
       "Ritual blade once presented to Leyndell by the Academy of Raya Lucaria to celebrate their newfound peace. Though the weapon is embedded with precious glintstones and features Erdtree ornamentation, the undulating blade is symbolic of an ancient ritual."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 57,
       "magic": 68
@@ -275,7 +299,10 @@
       "A ceremonial tool used by heretics, crafted from the relic of a sealed outer god."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 79
     },
@@ -309,7 +336,10 @@
       "This weapon is designed to slash and rend, inflicting blood loss upon the recipient."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 75
     },
@@ -346,7 +376,10 @@
       "Yet, one man is known to wield this weapon in his left hand while using a full-sized katana in his right. A demonic swordsman known only as Okina."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 94
     },
@@ -382,7 +415,10 @@
       "The design celebrates a beast's five fingers, symbolic of the intelligence once granted upon their kind."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 98
     },
@@ -414,7 +450,10 @@
       "These weapons are evidence of their dedication to the Haligtree, despite never having entered its presence."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 60,
       "magic": 60
@@ -449,7 +488,10 @@
       "As blood darkened the dagger through repeated slashing and stabbing, its blade only grew sharper and harder."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 81
     },
@@ -485,7 +527,10 @@
       "Attack power also scales with faith."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 67
     },
@@ -520,7 +565,10 @@
       "Shall one day meet the road of Destined Death."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 71,
       "holy": 43
@@ -555,7 +603,10 @@
       ""
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 110
     },
@@ -588,7 +639,10 @@
       "Lightweight amongst straight swords, this weapon is easy to wield, requiring only humble attributes."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 102
     },
@@ -620,7 +674,10 @@
       "Horizontal swings boast wide attack range, making it easier to connect with foes."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 117
     },
@@ -656,7 +713,10 @@
       "long since lost their minds."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 115
     },
@@ -689,7 +749,10 @@
       "Though the Erdtree styling is still visible, time has not been kind to this sword, now merely a shadow of its former self."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 103
     },
@@ -722,7 +785,10 @@
       "After falling from grace, the dregs of the golden lineage sought power and purpose in the past."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 101
     },
@@ -753,7 +819,10 @@
       "Infused with the humble prayer of a young boy; \"O brother, lord brother, please die a true death.\""
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 85,
       "holy": 85
@@ -787,7 +856,9 @@
       "Forged from the liquid metal of a Silver Tear, it is thoroughly tempered until hardened. "
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 112
     },
@@ -820,7 +891,10 @@
       "The inseparable twins found solace in the Golden Order, the only institution not to revile them as accursed beings."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 98,
       "holy": 98
@@ -852,7 +926,10 @@
       "Hidden sword once granted to the Tarnished of the Roundtable by the Two Fingers. A formless cipher comprises its blade, which deals holy damage no shield can repel. Champions would gather at the Roundtable Hold in days long past, when the Two Fingers were masters of oration, their flesh yet full of vigor."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "holy": 85
     },
@@ -882,7 +959,10 @@
       "Astrologers, who preceded the sorcerers, established themselves in mountaintops that nearly touched the sky, and considered the Fire Giants their neighbors."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 87,
       "magic": 56,
@@ -917,7 +997,10 @@
       "Sword fashioned from pure crystal; a deed impossible for a human. Enwreathed with powerful magic, its attack scales with intelligence. The inscrutable Crystalians have but one clear purpose; to safeguard their crystals unto the end. One theory posits that they yearn for the return of their creator who will carve for them new brethren."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 106,
       "magic": 68
@@ -952,7 +1035,10 @@
       "These knights' swords could serve as catalysts, letting them wield sorcerous battle skills. Despite numbering fewer than twenty, this power made them a match for even the champions of gold in battle."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 88,
       "magic": 88
@@ -987,7 +1073,10 @@
       "St. Trina is an enigmatic figure. Some say she is a comely young girl, others are sure he is a boy. The only certainty is that their appearance was as sudden as their disappearance."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 107,
       "magic": 32
@@ -1024,7 +1113,10 @@
       "A sumptuous piece, yet it has never been offered to any knight—an ill-starred sword with no master."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 105,
       "holy": 68
@@ -1058,7 +1150,10 @@
       "Though bent of back and without the brawn required even to raise the sword aloft, still he wished to meet his end with weapon in hand. "
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 96
     },
@@ -1091,7 +1186,10 @@
       "Swords of Eochaid dance through the skies."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 89,
       "magic": 57
@@ -1126,7 +1224,10 @@
       "Daubed with gold from tip to tail, it should fetch a good sum."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 101
     },
@@ -1158,7 +1259,10 @@
       "The blade is thin and lightweight so as not to obstruct the hawk's mobility."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 101
     },
@@ -1191,7 +1295,10 @@
       "Apparently once used as a staff of sorcery, this sword is made of wood."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 79,
       "magic": 94
@@ -1226,7 +1333,10 @@
       "Enwreathed with powerful magic, its attack scales with intelligence."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 102,
       "magic": 66
@@ -1265,7 +1375,10 @@
       "making fending off crowds all the easier."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 138
     },
@@ -1297,7 +1410,10 @@
       "The gently undulating forked blade is known as an \"imp's tongue\" and causes blood loss."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 124
     },
@@ -1333,7 +1449,10 @@
       "Weighty even among others of its class, the impact of each strike is sure to be felt."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 149
     },
@@ -1366,7 +1485,10 @@
       "Though blackened and damaged by years of use, it appears to have otherwise been kept in a serviceable condition, despite the soldiers having long since lost their minds."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 136
     },
@@ -1398,7 +1520,10 @@
       "Featuring a long grip enabling dual-handed use, this weapon was designed to dispatch larger foes. Being charged with such a duty was undoubtedly a great honor."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 141
     },
@@ -1431,7 +1556,10 @@
       "Scarlet rot is kept at bay with flame at Redmane Castle, and as such, this beloved sword of Jerren's eventually became the symbol of the castle itself."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 129
     },
@@ -1467,7 +1595,10 @@
       "Its red tint exemplifies the nature of primordial gold, said to be close in nature to life itself."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 107,
       "holy": 69
@@ -1502,7 +1633,10 @@
       "A weapon unique to the Alabaster Lords, a race of ancients with skin of stone who were said to have risen to life when a meteor struck long ago."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 128,
       "magic": 38
@@ -1536,7 +1670,10 @@
       "Most of these knights were sent to the fringes, where they were forced to start anew with only despair for company."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 142
     },
@@ -1569,7 +1706,10 @@
       "Ranni's sigil is a full moon, cold and leaden, and this sword is but a beam of its light."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 82,
       "magic": 98
@@ -1606,7 +1746,10 @@
       "Thoughts on what the weapon portends are many and varied. Some consider it the mark of a great sin, or a sign of great devastation. Some think it as the end of an age, while others; the beginning."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 118,
       "holy": 76
@@ -1640,7 +1783,10 @@
       "The lamplight is similar to grace in appearance, only it is said that it can only be seen by those who met their death in battle."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 101,
       "magic": 101
@@ -1676,7 +1822,10 @@
       "Some HP is restored upon defeating an enemy."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 121,
       "fire": 78
@@ -1711,7 +1860,10 @@
       "Elemer of the Briar, the Bell Bearing Hunter, snatched the sword from the site of his looming execution, and furnished it with battle skills from his home of Eochaid."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 94,
       "magic": 61
@@ -1746,7 +1898,10 @@
       "Milos was undersized for a giant, and was viewed as sullied and terribly grotesque."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 141
     },
@@ -1782,7 +1937,10 @@
       "Telltale signs betray that this was once the greatsword bequeathed to him by his first wife, Rennala."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 86,
       "holy": 103
@@ -1816,7 +1974,10 @@
       "In addition to the heavy sweeping attacks, it can also make a heavy piercing thrust, making this a versatile weapon."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 138
     },
@@ -1848,7 +2009,10 @@
       "Just like the wielder, the missing parts have been mended with corpse wax; a patchwork of champions."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 133
     },
@@ -1880,7 +2044,10 @@
       "The birds are graveyard fire keepers; it is said they rake out the ashen remains of the dead from their kilns."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 123,
       "magic": 36
@@ -1918,7 +2085,10 @@
       "Such is the mark of those who serve Maliketh, the Black Blade."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 102,
       "holy": 122
@@ -1953,7 +2123,10 @@
       "Though handling it likely requires the wielder to have surpassed the realm of the merely human, it is precisely for this reason the weapon is used to slaughter even inhuman foes."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 164
     },
@@ -1985,7 +2158,10 @@
       "Though decorated with the watchman's eye, the pupil was taken by graverobbers and is now hollow, leaving this sword a mere lump of stone."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 142
     },
@@ -2017,7 +2193,10 @@
       "After a fragment of Death was stolen on that fateful night, Maliketh bound the blade within his own flesh, such that none might ever rob Death again."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 127,
       "holy": 82
@@ -2051,7 +2230,10 @@
       "Though they have lost their minds, they stay inseparable from their swords that are in sad shape—such that the gold plating had flaked away."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 155
     },
@@ -2084,7 +2266,10 @@
       "The long blade is heavy and sharp, sending foes reeling back with its broader strokes, while also capable of a devastating piercing thrust."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 141
     },
@@ -2117,7 +2302,10 @@
       "Radahn earned considerable renown as the Starscourge in his youth, and it is said that it was during this time he engraved the gravity crest upon these blades."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 129,
       "magic": 83
@@ -2152,7 +2340,10 @@
       "In defiance of the fate he was born to, Blaidd swore to serve no master but Ranni. As proof, the sword was imbued with a cold magic at the moment the oath was sworn."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 112,
       "magic": 134
@@ -2186,7 +2377,10 @@
       "The black flames wielded by the apostles are channeled from this sword."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 119,
       "fire": 77
@@ -2221,7 +2415,10 @@
       "The ruin it came from crumbled when struck by a meteorite, as such this weapon harbors its destructive power."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 124,
       "magic": 37
@@ -2254,7 +2451,10 @@
       "A lone surviving champion from a country now vanished was so determined to continue fighting that he claimed the swords of an entire clan of warriors."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 162
     },
@@ -2284,7 +2484,10 @@
       "Weapon of the trolls in service to the royal family of Caria. Called into service when the Queen invoked an oath they swore, the trolls are treated as true knights of Caria, and fight arm in arm with their human comrades."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 124,
       "magic": 80
@@ -2318,7 +2521,10 @@
       "For its large size, it can be wielded rather nimbly, leaving little opportunity for the enemy to counter."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 107
     },
@@ -2350,7 +2556,10 @@
       "Mainly used as a backup weapon, in combination with a long-handled armament."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 109
     },
@@ -2383,7 +2592,10 @@
       "As one of the smaller piercing swords, quick successive thrusts are easy to perform, but without a cutting edge, it cannot be used for slashing attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 96
     },
@@ -2416,7 +2628,10 @@
       "High dexterity is required to wield the blade to its full potential, but mastery is a sight to behold, characterized by a flowing style which excels in successive attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 93
     },
@@ -2448,7 +2663,10 @@
       "Scarlet rot is an old legend, of which Maleigh Marais of the Shaded Castle was a private believer. And indeed, he eventually found his own personal goddess."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 98
     },
@@ -2484,7 +2702,10 @@
       "Can inflict frost upon enemies, and launch its blade with a strong attack. The blade immediately regenerates."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 99
     },
@@ -2519,7 +2740,10 @@
       "Daubed with gold from tip to tail, it should fetch a good sum."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 104
     },
@@ -2552,7 +2776,10 @@
       "Designed to bore into flesh, causing severe blood loss at the wound. The extracted blood trickles gracefully down the length of the blade."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 121
     },
@@ -2588,7 +2815,10 @@
       "The nobles possess skill with the sword unmatched by any lowborn. Despite its size, successive attacks from this weapon are swifter than the eye can follow."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 127
     },
@@ -2621,7 +2851,10 @@
       "Like its smaller counterparts, it is made for thrusting attacks, and can be used while guarding with a shield."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 124
     },
@@ -2654,7 +2887,10 @@
       "This weapon commands great power over the paltry, mortal dragons of today."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 92,
       "lightning": 59
@@ -2687,7 +2923,9 @@
       "Wielders of the weapon employ a unique style that enhances attacks with spinning motions."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 109
     },
@@ -2719,7 +2957,9 @@
       "The blade is heavy but well-balanced. Comparatively easy to wield for the damage it delivers."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 113
     },
@@ -2751,7 +2991,9 @@
       "Made to hunt down humans, this weapon requires high dexterity to wield effectively."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 96
     },
@@ -2784,7 +3026,9 @@
       "A devastatingly powerful weapon in the hands of a skilled swordsman."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 108
     },
@@ -2817,7 +3061,9 @@
       "Most of the blade is now darkened and covered in rust, but with enough dexterity this weapon may still stand up to some use."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 118
     },
@@ -2850,7 +3096,9 @@
       "Deals fire damage."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 96,
       "fire": 62
@@ -2884,7 +3132,9 @@
       "Strong attack unleashes a series of strikes akin to a dance, offering a glimpse into the legend."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 109
     },
@@ -2917,7 +3167,9 @@
       "Crafted from a relic of the Naturalborn of the Void who is said to have assailed the Eternal City."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 65,
       "magic": 78
@@ -2952,7 +3204,9 @@
       "The blade is tacky with blood and covered in hefty nicks, making it totally uneven. Life can be sinister indeed."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 105
     },
@@ -2988,7 +3242,9 @@
       "In Sol, the sight of an eclipse inspires a dreadful awe, preventing an onlooker from averting his gaze."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 77,
       "holy": 77
@@ -3022,7 +3278,9 @@
       "Formerly used to offer up sacrifices, this sword restores HP upon slaying an enemy."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 113
     },
@@ -3054,7 +3312,9 @@
       "The blade is thin and sharp, and strong attack unleashes a far-reaching slash."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 112
     },
@@ -3087,7 +3347,9 @@
       "Smaller in size than most curved swords, it carves into enemies with quick, sharp cuts."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 106
     },
@@ -3120,7 +3382,9 @@
       "A thoroughly reliable choice of weapon for those who can master its particulars."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 115
     },
@@ -3153,7 +3417,9 @@
       "A weapon unique to the Onyx Lords, a race of ancients with skin of stone who were said to have risen to life when a meteor struck long ago."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 118,
       "magic": 76
@@ -3187,7 +3453,9 @@
       "A difficult to handle weapon that demands much of the wielder's strength and dexterity, but with practice and ability, it can serve as a versatile weapon even on horseback."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 138
     },
@@ -3219,7 +3487,9 @@
       "A fearsome blade capable of brutal airborne attacks."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 141
     },
@@ -3254,7 +3524,9 @@
       "It's said these land-bound dragons were once human heroes who partook in dragon communion, a grave transgression for which they were cursed to crawl the earth upon their bellies, shadows of their former selves."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 114,
       "fire": 74
@@ -3288,7 +3560,9 @@
       "In apparent devotion to winter, the curved blade is styled after an icy wind and imbued with a powerful frost effect."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 125
     },
@@ -3322,7 +3596,9 @@
       "The pattern etched upon the blade is the remnant of a deteriorative malediction. Indeed, when bestowing a weapon, preparations must be made for taking it away."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 142
     },
@@ -3355,7 +3631,9 @@
       "The monks came to the land of Liurnia in pursuit of a fugitive who stole their fire."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 134
     },
@@ -3387,7 +3665,9 @@
       "The blade is incredibly heavy, but well-balanced. Comparatively easy to wield for the damage it delivers. It's clear the beastmen possess knowledge beyond human ken."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 143
     },
@@ -3418,7 +3698,9 @@
       "The accursed blood that Morgott recanted and sealed away reformed into this blade."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 120
     },
@@ -3455,7 +3737,10 @@
       "The blade, with its undulating design, boasts extraordinary sharpness, and its slash attacks cause blood loss."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 115
     },
@@ -3491,7 +3776,10 @@
       "Reminiscent of a reinforced spear, its imposing length can be put to good use with powerful thrusting attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 115
     },
@@ -3528,7 +3816,10 @@
       "Some claim to have seen wings when the weapon was raised aloft; wings of fierce determination that have never known defeat."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 117
     },
@@ -3563,7 +3854,10 @@
       "The blade is weighty, known to deliver slashes of such ferocity that the impact is said to resemble the crash of a falling meteor."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 112,
       "magic": 72
@@ -3601,7 +3895,10 @@
       "When Mohg, the Lord of Blood, first felt Okina's sword, and madness, upon his flesh, he had a proposal, to offer Okina the life of a demon, whose thirst would never go unsated."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 76,
       "fire": 76
@@ -3639,7 +3936,10 @@
       "Light enwreathes the blade when sheathed, explaining its Moonveil moniker."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 73,
       "magic": 87
@@ -3676,7 +3976,10 @@
       "Alas, the Dragonkin Soldiers never attained immortality, and perished as decrepit, pale imitations of their skyborn kin."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 110
     },
@@ -3707,7 +4010,10 @@
       "The densely packed row of spines that jut away from the cutting edge are coated in a lethal poison."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 120
     },
@@ -3742,7 +4048,10 @@
       "Can be wielded with a single hand, but its true strength is unlocked with dual-handed spinning attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 119
     },
@@ -3774,7 +4083,10 @@
       "Much skill is required to wield this weapon due to its asymmetric nature."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 121
     },
@@ -3806,7 +4118,10 @@
       "Can be wielded with a single hand, but its true strength is unlocked with dual-handed spinning attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 122
     },
@@ -3839,7 +4154,10 @@
       "Her mastery of the sword was such that her onslaught was likened to a whirlwind, but now her legacy is stained by accursed blood."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 72,
       "fire": 72
@@ -3876,7 +4194,10 @@
       "Just like the wielder, the missing parts have been mended with corpse wax; a patchwork of champions."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 123
     },
@@ -3909,7 +4230,10 @@
       "Such is the mark of those who serve Maliketh, the Black Blade."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 81,
       "holy": 97
@@ -3943,7 +4267,9 @@
       "Striking attacks have few drawbacks, potent as they are at breaking through guards and stances. Most suited to head on slugging matches."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 115
     },
@@ -3976,7 +4302,9 @@
       "A simple, primitive weapon that requires only brute strength and persistence to hammer your foe into the ground."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 103
     },
@@ -4006,7 +4334,9 @@
       "Wielded instead of a curved sword by Albinaurics lacking dexterity. The only point of similarity between the two is the shape."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 114
     },
@@ -4039,7 +4369,10 @@
       "A simple but highly effective weapon, the weighty piercing attack casually rips through metal armor."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Strike"],
+    "attackAttributes": [
+      "Pierce",
+      "Strike"
+    ],
     "damage": {
       "physical": 108
     },
@@ -4071,7 +4404,10 @@
       "Ironic given its graceful name, this weapon often reeks of blood."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Strike"],
+    "attackAttributes": [
+      "Pierce",
+      "Strike"
+    ],
     "damage": {
       "physical": 118
     },
@@ -4106,7 +4442,9 @@
       "This weapon reflects White Mask Varré's manner of speech rather well, enticing in its splendor, but full of deadly consequence."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 46
     },
@@ -4143,7 +4481,9 @@
       "Given only to the toughest of demi-humans, this weapon is a badge of honor. Or so the demi-humans believe."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 114
     },
@@ -4178,7 +4518,9 @@
       "The art of smithing is said to have originated among the giants. This weapon's striking attacks boast ample weight behind them."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 124
     },
@@ -4210,7 +4552,9 @@
       "The unique strong attack rouses fiery combative spirit."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 126
     },
@@ -4242,7 +4586,9 @@
       "Originally an instrument, but one that cannot be sounded by a mere human. Or perhaps it is too early to sound the call."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 96,
       "holy": 62
@@ -4274,7 +4620,10 @@
       "Scepter in the form of a hand grasping a pearl. Signature weapon of Sir Gideon Ofnir, the All-Knowing. The pearl stands for the world, the heavens, and an eye, representing the many forms of knowledge, never fully attainable. Even knowing that, the All-Knowing's hand grasps for it."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Strike"],
+    "attackAttributes": [
+      "Pierce",
+      "Strike"
+    ],
     "damage": {
       "physical": 99,
       "magic": 64
@@ -4308,7 +4657,9 @@
       "Forged from liquid metal from a Silver Tear, it is thoroughly tempered until hardened."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 122
     },
@@ -4339,7 +4690,9 @@
       "Some life yet remains in this legacy of an ancient act of blasphemy, as evidenced by the barely perceptible warmth it still exudes."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 121
     },
@@ -4370,7 +4723,9 @@
       "So that they not lose sight of the true essence of combat, battlemages prefer to feel the impact of their blows, fighting their opponents hand to hand."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 122
     },
@@ -4402,7 +4757,9 @@
       "The hammer partially broke upon shattering the Ring, becoming splintered with rune fragments."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 101,
       "holy": 65
@@ -4437,7 +4794,9 @@
       "A simple, primitive weapon that requires only brute strength to swing about."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 131
     },
@@ -4467,7 +4826,9 @@
       "The ancient horn is imbued with the power of ancestral spirits. A small amount of HP is restored upon defeating an enemy."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 134
     },
@@ -4499,7 +4860,9 @@
       "Weighty enough to crush armor and its wearer alike."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 131
     },
@@ -4531,7 +4894,9 @@
       "Maintains all the advantages of smaller bludgeons, boasting few deficiencies while being very capable at breaking enemy guards and stances. A shrewd choice for simple slugging matches."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 134
     },
@@ -4561,7 +4926,9 @@
       "Wielded by Albinaurics lacking the dexterity demanded by a curved sword, and who prefer the added weight and destructive force."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 145
     },
@@ -4594,7 +4961,9 @@
       "Grants trace amounts of runes on landing attacks."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 138
     },
@@ -4627,7 +4996,10 @@
       "\"Little wretches, do you think your armor harder than stone?\""
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Strike"],
+    "attackAttributes": [
+      "Pierce",
+      "Strike"
+    ],
     "damage": {
       "physical": 144
     },
@@ -4659,7 +5031,9 @@
       "The black nails protruding from golden fur are said to represent Serosh, Lord of Beasts, who went on to become King Godfrey's Regent."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 116,
       "holy": 75
@@ -4693,7 +5067,9 @@
       "Originally an instrument, but one that cannot be sounded by a mere human. Or perhaps it is too early to sound the call."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 120,
       "holy": 78
@@ -4725,7 +5101,9 @@
       "Candlestand used in worship of Birac, the most hallowed Monk Prelate of the Giants' Flame. Concerned over the lazy arrogance with which the monks treated the Flame, Birac severed his own head as a lesson to the others, intending it be used as a candlestand. His faith yet smolders from within the cranial vessel."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 98,
       "fire": 98
@@ -4759,7 +5137,9 @@
       "A blood-stained star is an ill omen, a fact not lost upon those against whom this weapon is brought to bear. Landing attacks slightly restores HP."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 135
     },
@@ -4794,7 +5174,9 @@
       "Even among other bludgeons of its size, this weapon is especially weighty. The strength of a giant is required to wield it."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 122
     },
@@ -4825,7 +5207,9 @@
       "A vision of the future briefly seen by Rykard in his final moments before being devoured by the great serpent."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 112,
       "fire": 69
@@ -4859,7 +5243,9 @@
       "Weighty enough to crush armor and its wearer alike."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 126
     },
@@ -4895,7 +5281,9 @@
       "The large spikes make it highly effective at inducing blood loss, but also demand higher dexterity to wield."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 115
     },
@@ -4930,7 +5318,9 @@
       "Blows from this weapon cannot be parried. The charge attack whirls the iron ball around for increased force before striking."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 112
     },
@@ -4965,7 +5355,9 @@
       "The heads were made to resemble those of his wife and two children."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 90,
       "magic": 58
@@ -4999,7 +5391,9 @@
       "Formed of the same many-colored star debris that comprised the form of the Naturalborn of the Void."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 68,
       "magic": 81
@@ -5033,7 +5427,9 @@
       "Especially large for a flail, wielding it requires more strength than it does dexterity."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 112
     },
@@ -5068,7 +5464,9 @@
       "Capable of powerful attacks thanks to the weighty blade, these weapons are also regarded for their powerful charge attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 128
     },
@@ -5100,7 +5498,10 @@
       "The gently undulating forked blade is known as an \"imp's tongue\" and causes blood loss."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 106
     },
@@ -5135,7 +5536,9 @@
       "Despite its short reach, it is easy to handle, exceling in successive attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 117
     },
@@ -5167,7 +5570,9 @@
       "This axe is more of a bludgeon; it forgoes a bladed edge, instead using the beast's molar teeth to buffet foes, dealing strike damage."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 130
     },
@@ -5199,7 +5604,9 @@
       "Steeped in resentment, these weapons are swung wildly and relentlessly, often after rushing up to foes. "
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 125
     },
@@ -5231,7 +5638,9 @@
       "Its attack power is greatly enhanced with one's arcane attribute."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 75
     },
@@ -5264,7 +5673,9 @@
       "Grants trace amounts of runes upon landing attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 125
     },
@@ -5296,7 +5707,9 @@
       "Known as \"freezing fog,\" the blade is thought to be a dragon's scale. Inflicts a powerful frost effect."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 115
     },
@@ -5330,7 +5743,9 @@
       "Brave combatants begin battle by crying out their names. Roars are enhanced by this weapon."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 128
     },
@@ -5362,7 +5777,9 @@
       "The power of the rite yet lingers. A small amount of FP is restored upon slaying a foe."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 133
     },
@@ -5394,7 +5811,9 @@
       "The dead easily lose their way, and have always been in sore need of a guiding hand."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 112,
       "magic": 72
@@ -5428,7 +5847,9 @@
       "Their hearts are proud, and thereby easily undone."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 136
     },
@@ -5459,7 +5880,9 @@
       "Too heavy to be wielded by those of merely ordinary strength, blows from this axe will flatten enemies, and the force of its charged attack is a sight to behold."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 151
     },
@@ -5491,7 +5914,9 @@
       "Brute strength is the only thing required to wield this weapon, which appears to have taken quite the beating itself."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 124
     },
@@ -5522,7 +5947,9 @@
       "The hideous horns cause blood loss, adding vibrant colors to the ongoing mayhem."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 142
     },
@@ -5557,7 +5984,9 @@
       "Specializes in sweeping through foes by making use of its long handle."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 146
     },
@@ -5589,7 +6018,9 @@
       "\"I command thee kneel! For I am the lord of all that is golden!\""
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 142
     },
@@ -5620,7 +6051,9 @@
       "Making use of the force generated by its length, this weapon's resentment-charged blows are difficult to stop."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 146
     },
@@ -5652,7 +6085,10 @@
       "When the Tarnished left the Lands Between with their Lord, one boat alone was said to have been left behind."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 147
     },
@@ -5684,7 +6120,9 @@
       "Perhaps that is the reason it excels at critical hits."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 150
     },
@@ -5716,7 +6154,9 @@
       "In the ancestral spirit-worshipping faith, these are considered envoys' wings, made to reap the lives of beings which experience no sprouting."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 130
     },
@@ -5747,7 +6187,9 @@
       "Restores a very small amount of HP when it squarely strikes an enemy."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 134
     },
@@ -5779,7 +6221,9 @@
       "Just like the wielder, the missing parts have been mended with corpse wax; a patchwork of champions."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 123
     },
@@ -5812,7 +6256,9 @@
       "Such is the mark of those who serve Maliketh, the Black Blade."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 100,
       "holy": 120
@@ -5847,7 +6293,10 @@
       ""
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 112
     },
@@ -5879,7 +6328,10 @@
       "A far-reaching piercing weapon, it can be wielded from behind the safety of a raised shield. Very effective against mounted foes."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 114
     },
@@ -5909,7 +6361,10 @@
       "Spear fashioned from pure crystal; a deed impossible for a human. Enwreathed with powerful magic, its attack scales with intelligence. The inscrutable Crystalians have but one clear purpose; to safeguard their crystals unto the end. One theory posits that they yearn for the return of their creator who will carve for them new brethren."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 110,
       "magic": 33
@@ -5943,7 +6398,10 @@
       "The blade emits a faint light and deals magic damage."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 99,
       "magic": 64
@@ -5978,7 +6436,10 @@
       "The winged golden blade deals holy damage. The diminutive shield is blessed with an incantation that wards off rot."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 102,
       "holy": 66
@@ -6012,7 +6473,10 @@
       "In addition to its thrusting attacks, this highly versatile weapon can be swung to sweep through foes."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 123
     },
@@ -6045,7 +6509,10 @@
       "Grants trace amounts of runes upon landing attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 109
     },
@@ -6077,7 +6544,10 @@
       "Specialized for use from long distances, it boasts the longest reach of any melee weapon. Incredibly useful even against foes on horseback, but hard to wield in cramped spaces."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 115
     },
@@ -6109,7 +6579,10 @@
       "Used by soldiers on watch, its attacks set foes aflame."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 104,
       "fire": 31
@@ -6142,7 +6615,10 @@
       "A great ancient dragon, Gransax once rained calamity upon the Royal Capital—the only time in historical record that Leyndell's walls have fallen. This marked the dawn of the war against the ancient dragons."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 98,
       "lightning": 63
@@ -6174,7 +6650,10 @@
       "A weapon of the Land of Reeds, known for its ability to be wielded as a spear while still being capable of performing slashing attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 122
     },
@@ -6209,7 +6688,10 @@
       "The priests became guardians of the birds through the rite of Death, which also serves as an oath sworn to their distant resurrection."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 99,
       "magic": 64
@@ -6243,7 +6725,10 @@
       "Its numerous spikes pierce the flesh, then singe the wounds with flame. The smell of burnt blood induces despair in the victim. A candlestick conceived by a thorough mind."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 102,
       "fire": 66
@@ -6280,7 +6765,10 @@
       "Weapon of the Marionette Soldiers employed by sorcerers."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Strike"],
+    "attackAttributes": [
+      "Pierce",
+      "Strike"
+    ],
     "damage": {
       "physical": 120
     },
@@ -6314,7 +6802,10 @@
       "The blade is severely rusted."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 114
     },
@@ -6347,7 +6838,10 @@
       "Enwreathed with powerful magic, its attack scales with intelligence."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 104,
       "magic": 31
@@ -6384,7 +6878,10 @@
       "As well as serving as a weapon, it is an instrument of communion with an outer god who bestows power upon accursed blood. The mother of truth desires a wound."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 96,
       "fire": 62
@@ -6421,7 +6918,10 @@
       "The primordial form of the Erdtree is close in nature to life itself, and this spear, modeled on its crucible, is imbued with ancient holy essence. "
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 90,
       "holy": 90
@@ -6453,7 +6953,10 @@
       "Weapon that serves as both greatsword and spear. Thought to have been used to hunt an immortal great serpent in the distant past, it manifests a long blade of light when facing such a creature. When their master's heroic aspirations degenerated into mere greed, his men searched for a weapon with which they might halt their lord."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 111
     },
@@ -6480,7 +6983,10 @@
       "Like Vyke himself, it has been tormented by the yellow flame of frenzy from within."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 103,
       "fire": 66
@@ -6517,7 +7023,10 @@
       "Though heavy and hard to wield, this weapon displays its worth in horseback combat whether mounted or even on foot."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 123
     },
@@ -6550,7 +7059,10 @@
       "Requiring superior dexterity to wield, this greatspear can perform consecutive thrust attacks despite its larger size."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 122,
       "holy": 79
@@ -6585,7 +7097,10 @@
       "Can be used to press a single enemy with continuous thrusting attacks, or swept at groups, taking advantage of its great reach and cleaving blade. A versatile weapon for any situation."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 125
     },
@@ -6618,7 +7133,10 @@
       "Though men might recognize the keen intellect of the pests evidenced by this spear's uncanny design, it will never be understood by them."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 120
     },
@@ -6650,7 +7168,9 @@
       "Though designed mainly as a thrusting weapon, its long handle can be utilized to get around an enemy's guard with a sideward sweeping attack."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce"],
+    "attackAttributes": [
+      "Pierce"
+    ],
     "damage": {
       "physical": 121
     },
@@ -6683,7 +7203,10 @@
       "Most of these knights were sent to the fringes, where they were forced to start anew with only despair for company."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 125
     },
@@ -6715,7 +7238,10 @@
       "Even after his lord was fled, Commander O'Neil continued to brandish this flag in the devastation of the rot-eaten field of battle, the sole veteran who remembers this battle with pride."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 138
     },
@@ -6746,7 +7272,10 @@
       "This glaive excels at weighty slash attacks that crash into foes, making it a powerful weapon even on horseback."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 129
     },
@@ -6778,7 +7307,10 @@
       "The blade is said to resemble a partial image of a ripple, and its attack power scales with one's arcane attribute."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 86
     },
@@ -6808,7 +7340,10 @@
       "A weapon comprised of a saw blade attached to a long grip. Brandished by the vulgar militia, its serrated edge is very effective at inflicting blood loss. The saw is said to also be used to cut up bodies to feed the militia, but there are no firsthand witnesses to confirm the dire rumor."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 126
     },
@@ -6844,7 +7379,10 @@
       "A masterfully crafted weapon that lives up to its heft, but is difficult for one of mere human strength to wield."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 134,
       "holy": 87
@@ -6878,7 +7416,10 @@
       "This far-reaching weapon excels at slashing attacks."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 132
     },
@@ -6910,7 +7451,10 @@
       "Originally given for service as a personal guard to Carian royalty, the weapon's blue glintstone has been replaced with unalloyed gold."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 110,
       "magic": 71
@@ -6944,7 +7488,10 @@
       "Wielded by guardians of the Minor Erdtrees, known as experts in the arts of combat. The power of this weapon scales greatly with dexterity."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 139
     },
@@ -6976,7 +7523,10 @@
       "The vulgar militia are the undecorated stewards of rancid, scorched battlefields that none dare approach, and forbidden domains better forgotten by the rest of the world."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 121
     },
@@ -7008,7 +7558,10 @@
       "Alas, the Dragonkin Soldiers never attained immortality, and perished as decrepit, pale imitations of their skyborn kin."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 135
     },
@@ -7039,7 +7592,10 @@
       "Just like the wielder, the missing parts have been mended with corpse wax; a patchwork of champions."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 131
     },
@@ -7072,7 +7628,10 @@
       "Such is the mark of those who serve Maliketh, the Black Blade."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 103,
       "holy": 123
@@ -7106,7 +7665,9 @@
       "In the hands of a highly dexterous wielder it is capable of striking fear into the heart of any foe."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 125
     },
@@ -7141,7 +7702,9 @@
       "This weapon is said to have served as a charm against evil spirits in times of old."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 144
     },
@@ -7176,7 +7739,9 @@
       "This was the weapon of commanders in Malenia's army, and the half-halo blade deals holy damage."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 118,
       "holy": 76
@@ -7213,7 +7778,9 @@
       "According to pagan belief, white-winged maidens are said to be Death's gentle envoys."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 87,
       "holy": 104
@@ -7250,7 +7817,9 @@
       "Though its supple attacks cannot be thwarted by parrying or even guarding, it is incapable of dealing critical hits."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 100
     },
@@ -7282,7 +7851,9 @@
       "Very effective at inflicting blood loss."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 102
     },
@@ -7317,7 +7888,9 @@
       "When wielded as a weapon, the flames become supple whips of lava."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 72,
       "fire": 72
@@ -7351,7 +7924,9 @@
       "\"The tale of House Hoslow is told in blood.\""
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 110
     },
@@ -7386,7 +7961,9 @@
       "Every giant is red of hair, and Radagon was said to have despised his own red locks. Perhaps that was a curse of their kind."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 82,
       "fire": 53
@@ -7420,7 +7997,9 @@
       "Though in essence a whip with a cutting edge, it can also be used as a spear to pierce foes."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 101
     },
@@ -7452,7 +8031,9 @@
       "Fist weapons come in pairs, and two-handing this weapon will equip it to both hands."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 90
     },
@@ -7484,7 +8065,9 @@
       "Fist weapons come in pairs, and two-handing this weapon will equip it to both hands."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 91
     },
@@ -7520,7 +8103,9 @@
       "This weapon cannot be two-handed."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 89,
       "fire": 57
@@ -7554,7 +8139,9 @@
       "Not a weapon to be taken lightly, as its weighty blows shatter bones with ease."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 101
     },
@@ -7586,7 +8173,9 @@
       "Used in brutal games of pugilism."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 105
     },
@@ -7619,7 +8208,10 @@
       "Imported dagger design with a rather unique handle. The blade can be swung about as the extension of one's fist."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 97
     },
@@ -7652,7 +8244,10 @@
       "\"O clinging creature. A king relinquishes not the hand.\""
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 80,
       "magic": 24
@@ -7684,7 +8279,10 @@
       "Bladed prosthetic leg enwreathed with the power of lightning, instead attached to the fist. Commander Niall, veteran of Castle Sol, offered this prosthesis in exchange for the lives of defeated knights held prisoner. He went on to lead these men as an army of no nation."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 83,
       "lightning": 53
@@ -7716,7 +8314,10 @@
       "The furtive inscription appears to hang in the air; the language of light spoken by the Two Fingers."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "holy": 85
     },
@@ -7745,7 +8346,10 @@
       "Claw weapons come in pairs, and two-handing this weapon will equip it to both hands."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 93
     },
@@ -7780,7 +8384,10 @@
       "The black fang protruding from the bronze snake head is coated in deadly poison."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 97
     },
@@ -7815,7 +8422,10 @@
       "The curve allows the weapon to slip through an enemy's guard."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 99
     },
@@ -7850,7 +8460,10 @@
       "Besides excelling at airborne attacks, its charge attack mimics the vicious swoop of a bird of prey. "
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce", "Slash"],
+    "attackAttributes": [
+      "Pierce",
+      "Slash"
+    ],
     "damage": {
       "physical": 86
     },
@@ -7885,7 +8498,9 @@
       "The hammer's head is unusually substantial, and strong attacks will fling foes into the air."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 156
     },
@@ -7917,7 +8532,9 @@
       "The Watchdogs, battered and broken over their lengthy tenure, rule the catacombs and are even said to command the imps."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 165
     },
@@ -7946,7 +8563,9 @@
       "An enormous club of hard wood. Wildly hammering foes with this striking weapon requires no dexterity; only brute force. While it may seem sacrilegious, this weapon is said to be a withered branch of the Erdtree. Imbued with holy power, this weapon will never snap."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 154,
       "holy": 46
@@ -7978,7 +8597,9 @@
       "Originally an instrument, but one that cannot be sounded by a mere human. Or perhaps it is too early to sound the call."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 121,
       "holy": 78
@@ -8012,7 +8633,9 @@
       "A weapon reserved for duelist champions, the charge attack is particularly ferocious."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 170
     },
@@ -8042,7 +8665,9 @@
       "Weapon of Godfrey, Elden Lord. It was broken in a battle fought as leader of the Tarnished during the Long March. This weapon is symbolic of Godfrey's vow to conduct himself as a lord, later becoming an emblem of the golden lineage. In the days of the past, a crown was warranted with strength."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 165
     },
@@ -8073,7 +8698,9 @@
       "The claw is enwreathed with lightning, and tears through the dragons' feeble descendants with ease."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 120,
       "lightning": 78
@@ -8105,7 +8732,9 @@
       "The avatars, emerging in the wake of the Elden Ring's shattering, were determined to protect the withering Erdtree's offspring."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 113,
       "holy": 73
@@ -8139,7 +8768,9 @@
       "With its sharp point, this colossal weapon can skewer foes."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Pierce"],
+    "attackAttributes": [
+      "Pierce"
+    ],
     "damage": {
       "physical": 131,
       "magic": 85
@@ -8173,7 +8804,9 @@
       "The design was adopted for use as the iconic weapon wielded by Iron Virgins."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 156
     },
@@ -8205,7 +8838,9 @@
       "A hammer made from a boulder, used in the War against the Giants. One of the heftiest weapons in the entire Lands Between. After the giants were quelled, and man turned against man in violence, this weapon was all but forgotten. Man has grown feeble in comparison to his forebears."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 155
     },
@@ -8233,7 +8868,10 @@
       "A great halberd of black stone crafted by a civilization now gone to ruin. Wielded by the Guardian Golem."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Pierce", "Standard"],
+    "attackAttributes": [
+      "Pierce",
+      "Standard"
+    ],
     "damage": {
       "physical": 158
     },
@@ -8265,7 +8903,9 @@
       "Trolls are descended from the giants, and these were supposedly once used as ceremonial smithing tools. In the distant past, smithing was considered divine."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 153,
       "fire": 45
@@ -8300,7 +8940,9 @@
       "Wielded by the avatars who protect the Minor Erdtrees."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 165
     },
@@ -8334,7 +8976,9 @@
       "Used by duelists who were exiled from the colosseum."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Standard"],
+    "attackAttributes": [
+      "Standard"
+    ],
     "damage": {
       "physical": 162
     },
@@ -8371,7 +9015,9 @@
       "illuminating more of the surrounding area."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 54,
       "fire": 97
@@ -8403,7 +9049,9 @@
       "Heavier than a normal torch, but the heated filament boosts fire damage dealt."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 61,
       "fire": 109
@@ -8435,7 +9083,9 @@
       "The light-purple flame induces sleep."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 51,
       "fire": 91
@@ -8470,7 +9120,9 @@
       "Metal torch that burns with cold ghostflame. Tool of the Fallen Hawks who prowl the underground rivers. When the band's last embers were used up in their long search, they began to burn the bones of their fellows, acquiring the cold ghostflame, but sealing their fate as dwellers of the underground for all eternity."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 50,
       "magic": 90
@@ -8507,7 +9159,9 @@
       "Torches such as these were used to keep unwelcome beasts away from treasure troves hidden in caves."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 58,
       "fire": 104
@@ -8537,7 +9191,9 @@
       "Torch given to protectors of the Erdtree. Its flames are bestowed with a special incantation which allows the bearer to see assassins cloaked in veils. Furnished on behalf of the Erdtree and the Grace-Given Lord such that a Night of Black Knives will never come again."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Strike"],
+    "attackAttributes": [
+      "Strike"
+    ],
     "damage": {
       "physical": 56,
       "holy": 100
@@ -8571,7 +9227,9 @@
       "To use a bow, arrows must also be equipped."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 65
     },
@@ -8594,7 +9252,9 @@
       "Designed to inflict additional damage by sacrificing range."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 68
     },
@@ -8617,7 +9277,9 @@
       "A bow which requires dexterity rather than strength to master."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 65
     },
@@ -8640,7 +9302,9 @@
       "Troubadours sing tales of champions, both in the honorable service of the Erdtree, and the one who spurns honor for blasphemy."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 62
     },
@@ -8663,7 +9327,9 @@
       "Demands high attributes, and is tricky to wield, but is a fearsome tool when mastered."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 65
     },
@@ -8686,7 +9352,9 @@
       "To use a bow, arrows must also be equipped."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 80
     },
@@ -8709,7 +9377,9 @@
       "This bow requires dexterity over strength to master."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 82
     },
@@ -8733,7 +9403,9 @@
       "Reveals its true worth when used with magic-infused arrows."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 65,
       "magic": 30
@@ -8759,7 +9431,9 @@
       "Scales all arrow damage with faith, revealing its true worth when used with holy-infused arrows."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 40,
       "holy": 50
@@ -8785,7 +9459,9 @@
       "Used by assassins known as the Formless Serpents."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 75
     },
@@ -8810,7 +9486,9 @@
       "Enhances precision while shooting, enabling arrows to fly much further distances."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 77
     },
@@ -8833,7 +9511,9 @@
       "The blade-like body of the bow is light and cuts through the air. Though a longbow, it can be wielded similarly to a shortbow."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 70
     },
@@ -8856,7 +9536,9 @@
       "Imbued with gravitational power of the Starscourge, when used along with Radahn's Spear, it becomes a true weapon of a champion."
     ],
     "rarity": "Legendary",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 120
     },
@@ -8879,7 +9561,9 @@
       "Extremely heavy, this greatbow requires enormous strength just to draw, suggesting it was not designed for human use."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 130
     },
@@ -8902,7 +9586,9 @@
       "Scales all arrow damage with faith, revealing its true worth when used with holy-infused arrows."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 60,
       "holy": 65
@@ -8928,7 +9614,9 @@
       "A greatbow can only fire great arrows."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 125
     },
@@ -8951,7 +9639,9 @@
       "Bolts must be equipped to use a crossbow."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 60
     },
@@ -8970,7 +9660,9 @@
       "Bolts must be equipped to use a crossbow."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 65
     },
@@ -8989,7 +9681,9 @@
       "Commonly employed in the Shattering."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 72
     },
@@ -9007,7 +9701,9 @@
       "One touch fires a volley of bolts. Be warned; large stores of bolts can be quickly spent."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 65
     },
@@ -9024,7 +9720,9 @@
       "One-of-a-kind enchanted crossbow of exquisitely detailed craftsmanship. Made to celebrate the matrimonial union, and reconciliation, between the houses of the Erdtree and the Full Moon, Leyndell and Raya Lucaria. The two rings dance when reloading the weapon. Reveals true worth when used with holy-infused bolts."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 50,
       "magic": 50
@@ -9045,7 +9743,9 @@
       "Its limbs are more pliable than metallic ones, allowing bolts fired from this weapon to pierce even helms forged of steel."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 77
     },
@@ -9064,7 +9764,9 @@
       "Weapon of Crepus, who served the Two Fingers from the shadows of the Roundtable as the head confessor."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 68
     },
@@ -9083,7 +9785,9 @@
       "Perfect for reckless acts such as storming a castle or facing an entire army alone."
     ],
     "rarity": "Common",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 150
     },
@@ -9102,7 +9806,9 @@
       "Experimental firearm brought to the assault on Volcano Manor, where it was discovered that no one knew how to use it."
     ],
     "rarity": "Rare",
-    "attackAttributes": ["Slash"],
+    "attackAttributes": [
+      "Slash"
+    ],
     "damage": {
       "physical": 192
     },

@@ -163,7 +163,13 @@
       "",
       "Usable on polearms capable of thrusting, heavy thrusting swords, and twinblades."
     ],
-    "armamentCategories": ["Twinblade", "Heavy Thrusting Sword", "Spear", "Great Spear", "Halberd"],
+    "armamentCategories": [
+      "Twinblade",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
     "defaultAffinity": "Quality",
     "possibleAffinities": [
       "Standard",
@@ -277,7 +283,15 @@
       "Halberd"
     ],
     "defaultAffinity": "Blood",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Repeating Thrust": {
     "description": [
@@ -360,7 +374,11 @@
       "",
       "Usable on polearms (great spears excepted)."
     ],
-    "armamentCategories": ["Spear", "Halberd", "Reaper"],
+    "armamentCategories": [
+      "Spear",
+      "Halberd",
+      "Reaper"
+    ],
     "defaultAffinity": "Quality",
     "possibleAffinities": [
       "Standard",
@@ -422,9 +440,20 @@
       "",
       "Usable on large and colossal axes and hammers."
     ],
-    "armamentCategories": ["Greataxe", "Great Hammer", "Colossal Weapon"],
+    "armamentCategories": [
+      "Greataxe",
+      "Great Hammer",
+      "Colossal Weapon"
+    ],
     "defaultAffinity": "Flame Art",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Fire", "Flame Art"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
   },
   "Ash of War: Unsheathe": {
     "description": [
@@ -434,7 +463,9 @@
       "",
       "Usable on katana."
     ],
-    "armamentCategories": ["Katana"],
+    "armamentCategories": [
+      "Katana"
+    ],
     "defaultAffinity": "Keen",
     "possibleAffinities": [
       "Standard",
@@ -460,7 +491,9 @@
       "",
       "Usable on straight swords."
     ],
-    "armamentCategories": ["Straight Sword"],
+    "armamentCategories": [
+      "Straight Sword"
+    ],
     "defaultAffinity": "Quality",
     "possibleAffinities": [
       "Standard",
@@ -520,9 +553,22 @@
       "",
       "Usable on polearms and twinblades."
     ],
-    "armamentCategories": ["Twinblade", "Spear", "Great Spear", "Halberd", "Reaper"],
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper"
+    ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Poison Moth Flight": {
     "description": [
@@ -532,9 +578,23 @@
       "",
       "Usable on small and medium swords (twinblades excepted)."
     ],
-    "armamentCategories": ["Dagger", "Straight Sword", "Curved Sword", "Katana", "Thrusting Sword"],
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Curved Sword",
+      "Katana",
+      "Thrusting Sword"
+    ],
     "defaultAffinity": "Poison",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Spinning Weapon": {
     "description": [
@@ -560,7 +620,14 @@
       "Glintstone Staff"
     ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Storm Assault": {
     "description": [
@@ -570,7 +637,13 @@
       "",
       "Usable on polearms capable of thrusting, heavy thrusting swords, and twinblades."
     ],
-    "armamentCategories": ["Twinblade", "Heavy Thrusting Sword", "Spear", "Great Spear", "Halberd"],
+    "armamentCategories": [
+      "Twinblade",
+      "Heavy Thrusting Sword",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
     "defaultAffinity": "Quality",
     "possibleAffinities": [
       "Standard",
@@ -692,7 +765,14 @@
       "Halberd"
     ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Sacred Blade": {
     "description": [
@@ -725,7 +805,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Ice Spear": {
     "description": [
@@ -735,9 +822,21 @@
       "",
       "Usable on polearms capable of thrusting and twinblades."
     ],
-    "armamentCategories": ["Twinblade", "Spear", "Great Spear", "Halberd"],
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
     "defaultAffinity": "Cold",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Glintstone Pebble": {
     "description": [
@@ -762,7 +861,14 @@
       "Halberd"
     ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Bloody Slash": {
     "description": [
@@ -784,7 +890,15 @@
       "Heavy Thrusting Sword"
     ],
     "defaultAffinity": "Blood",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Lifesteal Fist": {
     "description": [
@@ -795,9 +909,20 @@
       "",
       "Usable on fists and claws."
     ],
-    "armamentCategories": ["Fist", "Claw"],
+    "armamentCategories": [
+      "Fist",
+      "Claw"
+    ],
     "defaultAffinity": "Occult",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Eruption": {
     "description": [
@@ -817,7 +942,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Fire",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Fire", "Flame Art"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
   },
   "Ash of War: Prayerful Strike": {
     "description": [
@@ -827,9 +959,23 @@
       "",
       "Usable on axes and hammers."
     ],
-    "armamentCategories": ["Axe", "Greataxe", "Hammer", "Great Hammer", "Flail", "Colossal Weapon"],
+    "armamentCategories": [
+      "Axe",
+      "Greataxe",
+      "Hammer",
+      "Great Hammer",
+      "Flail",
+      "Colossal Weapon"
+    ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Gravitas": {
     "description": [
@@ -861,7 +1007,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Storm Blade": {
     "description": [
@@ -946,7 +1099,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Flaming Strike": {
     "description": [
@@ -979,7 +1139,14 @@
       "Claw"
     ],
     "defaultAffinity": "Fire",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Fire", "Flame Art"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
   },
   "Ash of War: Thunderbolt": {
     "description": [
@@ -1015,7 +1182,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Lightning",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Lightning Slash": {
     "description": [
@@ -1044,7 +1218,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Lightning",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Carian Grandeur": {
     "description": [
@@ -1066,7 +1247,14 @@
       "Heavy Thrusting Sword"
     ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Carian Greatsword": {
     "description": [
@@ -1088,7 +1276,14 @@
       "Heavy Thrusting Sword"
     ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Vacuum Slice": {
     "description": [
@@ -1137,9 +1332,22 @@
       "",
       "Usable on polearms and twinblades."
     ],
-    "armamentCategories": ["Twinblade", "Spear", "Great Spear", "Halberd", "Reaper"],
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Great Spear",
+      "Halberd",
+      "Reaper"
+    ],
     "defaultAffinity": "Flame Art",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Fire", "Flame Art"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
   },
   "Ash of War: Sacred Ring of Light": {
     "description": [
@@ -1149,9 +1357,20 @@
       "",
       "Usable on polearms (great spears excepted)."
     ],
-    "armamentCategories": ["Spear", "Halberd", "Reaper"],
+    "armamentCategories": [
+      "Spear",
+      "Halberd",
+      "Reaper"
+    ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Blood Blade": {
     "description": [
@@ -1170,7 +1389,15 @@
       "Thrusting Sword"
     ],
     "defaultAffinity": "Blood",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Phantom Slash": {
     "description": [
@@ -1180,7 +1407,12 @@
       "",
       "Usable on polearms and twinblades (great spears excepted)."
     ],
-    "armamentCategories": ["Twinblade", "Spear", "Halberd", "Reaper"],
+    "armamentCategories": [
+      "Twinblade",
+      "Spear",
+      "Halberd",
+      "Reaper"
+    ],
     "defaultAffinity": "Quality",
     "possibleAffinities": [
       "Standard",
@@ -1206,9 +1438,21 @@
       "",
       "Usable on polearms (reapers excepted)."
     ],
-    "armamentCategories": ["Spear", "Great Spear", "Halberd"],
+    "armamentCategories": [
+      "Spear",
+      "Great Spear",
+      "Halberd"
+    ],
     "defaultAffinity": "Occult",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Chilling Mist": {
     "description": [
@@ -1241,7 +1485,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Cold",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Poisonous Mist": {
     "description": [
@@ -1274,7 +1525,15 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Poison",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Shield Bash": {
     "description": [
@@ -1284,7 +1543,11 @@
       "",
       "Usable on all shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield", "Greatshield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
     "defaultAffinity": "Standard",
     "possibleAffinities": [
       "Standard",
@@ -1310,7 +1573,11 @@
       "",
       "Usable on all shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield", "Greatshield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
     "defaultAffinity": "Standard",
     "possibleAffinities": [
       "Standard",
@@ -1370,9 +1637,19 @@
       "",
       "Usable on small and medium shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Storm Wall": {
     "description": [
@@ -1382,7 +1659,10 @@
       "",
       "Usable on small and medium shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
     "defaultAffinity": "Standard",
     "possibleAffinities": [
       "Standard",
@@ -1408,9 +1688,19 @@
       "",
       "Usable on small and medium shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Shield Crash": {
     "description": [
@@ -1420,7 +1710,11 @@
       "",
       "Usable on all shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield", "Greatshield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
     "defaultAffinity": "Standard",
     "possibleAffinities": [
       "Standard",
@@ -1446,7 +1740,12 @@
       "",
       "Usable on shields and torches."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield", "Greatshield", "Torch"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield",
+      "Torch"
+    ],
     "defaultAffinity": "Standard",
     "possibleAffinities": [
       "Standard",
@@ -1472,9 +1771,19 @@
       "",
       "Usable on small and medium shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield"
+    ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Through and Through": {
     "description": [
@@ -1484,9 +1793,13 @@
       "",
       "Usable on greatbows."
     ],
-    "armamentCategories": ["Greatbow"],
+    "armamentCategories": [
+      "Greatbow"
+    ],
     "defaultAffinity": "Standard",
-    "possibleAffinities": ["Standard"]
+    "possibleAffinities": [
+      "Standard"
+    ]
   },
   "Ash of War: Barrage": {
     "description": [
@@ -1496,9 +1809,13 @@
       "",
       "Usable on light bows."
     ],
-    "armamentCategories": ["Light Bow"],
+    "armamentCategories": [
+      "Light Bow"
+    ],
     "defaultAffinity": "Standard",
-    "possibleAffinities": ["Standard"]
+    "possibleAffinities": [
+      "Standard"
+    ]
   },
   "Ash of War: Mighty Shot": {
     "description": [
@@ -1508,9 +1825,14 @@
       "",
       "Usable on light bows and longbows."
     ],
-    "armamentCategories": ["Light Bow", "Bow"],
+    "armamentCategories": [
+      "Light Bow",
+      "Bow"
+    ],
     "defaultAffinity": "Standard",
-    "possibleAffinities": ["Standard"]
+    "possibleAffinities": [
+      "Standard"
+    ]
   },
   "Ash of War: Enchanted Shot": {
     "description": [
@@ -1520,9 +1842,14 @@
       "",
       "Usable on light bows and longbows."
     ],
-    "armamentCategories": ["Light Bow", "Bow"],
+    "armamentCategories": [
+      "Light Bow",
+      "Bow"
+    ],
     "defaultAffinity": "Standard",
-    "possibleAffinities": ["Standard"]
+    "possibleAffinities": [
+      "Standard"
+    ]
   },
   "Ash of War: Sky Shot": {
     "description": [
@@ -1532,9 +1859,14 @@
       "",
       "Usable on light bows and longbows."
     ],
-    "armamentCategories": ["Light Bow", "Bow"],
+    "armamentCategories": [
+      "Light Bow",
+      "Bow"
+    ],
     "defaultAffinity": "Standard",
-    "possibleAffinities": ["Standard"]
+    "possibleAffinities": [
+      "Standard"
+    ]
   },
   "Ash of War: Rain of Arrows": {
     "description": [
@@ -1544,9 +1876,15 @@
       "",
       "Usable on all bows."
     ],
-    "armamentCategories": ["Light Bow", "Bow", "Greatbow"],
+    "armamentCategories": [
+      "Light Bow",
+      "Bow",
+      "Greatbow"
+    ],
     "defaultAffinity": "Standard",
-    "possibleAffinities": ["Standard"]
+    "possibleAffinities": [
+      "Standard"
+    ]
   },
   "Ash of War: Hoarfrost Stomp": {
     "description": [
@@ -1582,7 +1920,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Cold",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Storm Stomp": {
     "description": [
@@ -1718,7 +2063,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Lightning",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Flame of the Redmanes": {
     "description": [
@@ -1754,7 +2106,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Fire",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Fire", "Flame Art"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Fire",
+      "Flame Art"
+    ]
   },
   "Ash of War: Ground Slam": {
     "description": [
@@ -1840,7 +2199,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Waves of Darkness": {
     "description": [
@@ -1858,7 +2224,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Magic",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Magic", "Cold"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Magic",
+      "Cold"
+    ]
   },
   "Ash of War: Hoarah Loux's Earthshaker": {
     "description": [
@@ -2018,9 +2391,23 @@
       "",
       "Usable on small and medium straight swords and thrusting swords."
     ],
-    "armamentCategories": ["Dagger", "Straight Sword", "Katana", "Twinblade", "Thrusting Sword"],
+    "armamentCategories": [
+      "Dagger",
+      "Straight Sword",
+      "Katana",
+      "Twinblade",
+      "Thrusting Sword"
+    ],
     "defaultAffinity": "Occult",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Golden Vow": {
     "description": [
@@ -2056,7 +2443,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Sacred Order": {
     "description": [
@@ -2092,7 +2486,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Shared Order": {
     "description": [
@@ -2128,7 +2529,14 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Seppuku": {
     "description": [
@@ -2152,7 +2560,15 @@
       "Halberd"
     ],
     "defaultAffinity": "Blood",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War: Cragblade": {
     "description": [
@@ -2483,9 +2899,20 @@
       "",
       "Usable on all shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield", "Greatshield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Holy Ground": {
     "description": [
@@ -2495,9 +2922,20 @@
       "",
       "Usable on all shields."
     ],
-    "armamentCategories": ["Small Shield", "Medium Shield", "Greatshield"],
+    "armamentCategories": [
+      "Small Shield",
+      "Medium Shield",
+      "Greatshield"
+    ],
     "defaultAffinity": "Sacred",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Lightning", "Sacred"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Lightning",
+      "Sacred"
+    ]
   },
   "Ash of War: Quickstep": {
     "description": [
@@ -2684,7 +3122,15 @@
       "Colossal Weapon"
     ],
     "defaultAffinity": "Occult",
-    "possibleAffinities": ["Standard", "Heavy", "Keen", "Quality", "Poison", "Blood", "Occult"]
+    "possibleAffinities": [
+      "Standard",
+      "Heavy",
+      "Keen",
+      "Quality",
+      "Poison",
+      "Blood",
+      "Occult"
+    ]
   },
   "Ash of War Dryleaf Whirlwind": {
     "description": [
