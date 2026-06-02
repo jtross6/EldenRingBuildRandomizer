@@ -63,11 +63,15 @@ const OPENERS: Record<CombatIdentity, string[]> = {
   ],
   skirmisher: [
     "They never see you coming. They never stop bleeding.",
-    "Patience is a weapon. So is poison.",
+    "Patience is a weapon. So is fear.",
     "The Lands Between reward the cunning over the strong.",
     "Strike where it hurts, then vanish.",
     "Every wound tells. Every second counts.",
   ],
+};
+
+const STATUS_OPENERS: Partial<Record<StatusEffect, string[]>> = {
+  poison: ["Patience is a weapon. So is poison."],
 };
 
 const WEAPON_FRAGMENTS: Record<WeaponFamily, string[]> = {
@@ -78,10 +82,10 @@ const WEAPON_FRAGMENTS: Record<WeaponFamily, string[]> = {
     "The lighter the blade, the quicker the kill.",
   ],
   "heavy-blades": [
-    "A greatsword carves through armor like parchment.",
+    "A {noun} carves through armor like parchment.",
     "Heavy steel demands respect — and punishes those who show none.",
     "Each swing carries the weight of conviction.",
-    "The blade is patient. One clean stroke is all it takes.",
+    "The {noun} is patient. One clean stroke is all it takes.",
   ],
   colossal: [
     "The ground trembles with every swing.",
@@ -90,27 +94,27 @@ const WEAPON_FRAGMENTS: Record<WeaponFamily, string[]> = {
     "One hit. That's all you need. That's all you'll get.",
   ],
   "axes-hammers": [
-    "Bones shatter. Shields splinter. Hammers don't care.",
-    "A good axe solves most problems. A great one solves all of them.",
+    "Bones shatter. Shields splinter. The {noun} doesn't care.",
+    "A good {noun} solves most problems. A great one solves all of them.",
     "Blunt force — the oldest magic in the world.",
     "Crush what cannot be cut.",
   ],
   polearms: [
     "Reach is everything — strike first, stay safe.",
-    "The halberd's arc keeps enemies at bay and allies alive.",
-    "A spear's point finds gaps that swords can only dream of.",
+    "The {noun}'s reach keeps enemies at bay and allies alive.",
+    "A {noun} finds gaps that swords can only dream of.",
     "Control the distance, control the fight.",
   ],
   "agile-exotic": [
-    "Fists, claws, twinblades — weapons as wild as their wielder.",
+    "The {noun} — a weapon as wild as its wielder.",
     "Unconventional arms for unconventional warriors.",
-    "The whip cracks. The fist connects. The enemy falls.",
+    "The {noun} strikes. The enemy falls.",
     "They expect swords. They don't expect this.",
   ],
   ranged: [
-    "Death arrives before the sound of the bowstring.",
+    "Death arrives well before you're seen.",
     "The best fights are the ones your enemy never reaches.",
-    "A well-placed arrow outperforms any spell.",
+    "A well-placed shot outperforms any spell.",
     "At this range, armor is merely decorative.",
   ],
 };
@@ -185,13 +189,19 @@ export function generateFlavorText(
   _stance: WeaponStance,
   family: WeaponFamily,
   school: MagicSchool | null,
-  _statusEffect: StatusEffect | null,
+  statusEffect: StatusEffect | null,
   rng: SeededRng,
   primarySubGroup: WeaponSubGroup,
 ): string {
   const noun = SUB_GROUP_NOUNS[primarySubGroup];
-  const opener = resolveNoun(pickFrom(OPENERS[identity], rng), noun);
-  const weaponFrag = pickFrom(WEAPON_FRAGMENTS[family], rng);
+  const statusPool = statusEffect ? STATUS_OPENERS[statusEffect] : undefined;
+  let opener: string;
+  if (statusPool && rng.next() < 0.4) {
+    opener = resolveNoun(pickFrom(statusPool, rng), noun);
+  } else {
+    opener = resolveNoun(pickFrom(OPENERS[identity], rng), noun);
+  }
+  const weaponFrag = resolveNoun(pickFrom(WEAPON_FRAGMENTS[family], rng), noun);
 
   if (school) {
     const magicFrag = pickFrom(MAGIC_FRAGMENTS[school], rng);
