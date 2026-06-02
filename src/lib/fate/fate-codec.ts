@@ -5,11 +5,8 @@ import {
   ALL_FAMILIES,
   ALL_SCHOOLS,
   ALL_STATUS_EFFECTS,
-  IDENTITY_STATS,
 } from "./taxonomy";
-import { generateFateName } from "./fate-namer";
-import { generateFlavorText } from "./flavor-text";
-import { createRng } from "../seeded-rng";
+import { deriveDynamicFields } from "./playstyle-generator";
 
 const CODEC_VERSION = 1;
 const ARMOR_CLASSES = ["light", "medium", "heavy"] as const;
@@ -86,20 +83,20 @@ export function decodeFate(encoded: string): PlaystyleCard | null {
 
     if (!identity || !stance || !family || !armorClass) return null;
 
-    const rng = createRng(seed);
-    const statOptions = IDENTITY_STATS[identity];
-    const primaryStats = statOptions[rng.randomInt(statOptions.length)];
-
-    const nameRng = createRng(seed);
-    const name = generateFateName(identity, stance, family, school, statusEffect, nameRng);
-
-    const flavorRng = createRng(seed);
-    const flavor = generateFlavorText(identity, stance, family, school, statusEffect, flavorRng);
+    const { primaryStats, subGroups, name, flavor } = deriveDynamicFields(
+      identity,
+      stance,
+      family,
+      school,
+      statusEffect,
+      seed,
+    );
 
     return {
       identity,
       stance,
       family,
+      subGroups,
       school,
       statusEffect,
       armorClass,
