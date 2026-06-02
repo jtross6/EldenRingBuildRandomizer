@@ -11,6 +11,31 @@ export type WeaponFamily =
   | "agile-exotic"
   | "ranged";
 
+export type WeaponSubGroup =
+  | "daggers"
+  | "curved-swords"
+  | "katanas"
+  | "thrusting-swords"
+  | "backhand-blades"
+  | "throwing-blades"
+  | "straight-swords"
+  | "greatswords"
+  | "great-katanas"
+  | "colossal-swords"
+  | "colossal-weapons"
+  | "axes"
+  | "hammers"
+  | "spears"
+  | "halberds"
+  | "reapers"
+  | "twinblades"
+  | "whips"
+  | "fist-weapons"
+  | "torches"
+  | "perfume-bottles"
+  | "bows"
+  | "crossbows";
+
 export type MagicSchool =
   | "glintstone"
   | "moon-frost"
@@ -36,6 +61,7 @@ export interface PlaystyleCard {
   identity: CombatIdentity;
   stance: WeaponStance;
   family: WeaponFamily;
+  subGroups: WeaponSubGroup[];
   school: MagicSchool | null;
   statusEffect: StatusEffect | null;
   armorClass: ArmorClass;
