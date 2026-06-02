@@ -1,6 +1,6 @@
 import type { Build } from "./build";
 
-export type ItemType = "weapon" | "shield" | "catalyst" | "spell" | "ashOfWar" | "talisman";
+export type ItemType = "weapon" | "shield" | "staff" | "seal" | "spell" | "ashOfWar" | "talisman";
 
 export interface SeedItem {
   name: string;

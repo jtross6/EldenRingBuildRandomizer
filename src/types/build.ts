@@ -7,8 +7,9 @@ export interface Build {
   chest: number;
   gauntlets: number;
   legs: number;
-  shield: number;
-  catalyst: number;
+  shields?: number[];
+  staves?: number[];
+  seals?: number[];
   talismans: number[];
   ashesOfWar: number[];
   sorceries: number[];

@@ -22,7 +22,17 @@ export interface Shield {
   defaultSkillId?: number;
 }
 
-export interface Catalyst {
+export interface Staff {
+  name: string;
+  category: string;
+  weight: number;
+  scaling?: Record<string, number>;
+  requirements?: Record<string, number>;
+  damageTypes?: string[];
+  statusEffects?: Record<string, number>;
+}
+
+export interface Seal {
   name: string;
   category: string;
   weight: number;
