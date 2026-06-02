@@ -111,6 +111,32 @@ export const SUB_GROUP_LABELS: Record<WeaponSubGroup, string> = {
   crossbows: "Crossbows",
 };
 
+export const SUB_GROUP_LABELS_SINGULAR: Record<WeaponSubGroup, string> = {
+  daggers: "Dagger",
+  "curved-swords": "Curved Sword",
+  katanas: "Katana",
+  "thrusting-swords": "Thrusting Sword",
+  "backhand-blades": "Backhand Blade",
+  "throwing-blades": "Throwing Blade",
+  "straight-swords": "Straight Sword",
+  greatswords: "Greatsword",
+  "great-katanas": "Great Katana",
+  "colossal-swords": "Colossal Sword",
+  "colossal-weapons": "Colossal Weapon",
+  axes: "Axe",
+  hammers: "Hammer",
+  spears: "Spear",
+  halberds: "Halberd",
+  reapers: "Reaper",
+  twinblades: "Twinblade",
+  whips: "Whip",
+  "fist-weapons": "Fist Weapon",
+  torches: "Torch",
+  "perfume-bottles": "Perfume Bottle",
+  bows: "Bow",
+  crossbows: "Crossbow",
+};
+
 export const FAMILY_LABELS: Record<WeaponFamily, string> = {
   "light-blades": "Light Blades",
   "heavy-blades": "Heavy Blades",

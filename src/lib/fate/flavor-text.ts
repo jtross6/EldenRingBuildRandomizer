@@ -2,15 +2,47 @@ import type {
   CombatIdentity,
   WeaponStance,
   WeaponFamily,
+  WeaponSubGroup,
   MagicSchool,
   StatusEffect,
 } from "../../types/fate";
 import type { SeededRng } from "../seeded-rng";
 
+const SUB_GROUP_NOUNS: Record<WeaponSubGroup, string> = {
+  daggers: "dagger",
+  "curved-swords": "blade",
+  katanas: "blade",
+  "thrusting-swords": "blade",
+  "backhand-blades": "blade",
+  "throwing-blades": "blade",
+  "straight-swords": "blade",
+  greatswords: "blade",
+  "great-katanas": "blade",
+  "colossal-swords": "blade",
+  "colossal-weapons": "weapon",
+  axes: "axe",
+  hammers: "hammer",
+  spears: "spear",
+  halberds: "halberd",
+  reapers: "scythe",
+  twinblades: "twinblade",
+  whips: "whip",
+  "fist-weapons": "fist",
+  torches: "torch",
+  "perfume-bottles": "bottle",
+  bows: "bow",
+  crossbows: "crossbow",
+};
+
+function resolveNoun(text: string, noun: string): string {
+  const capitalized = noun.charAt(0).toUpperCase() + noun.slice(1);
+  return text.replace("{Noun}", capitalized).replace("{noun}", noun);
+}
+
 const OPENERS: Record<CombatIdentity, string[]> = {
   warrior: [
     "Steel and sinew, nothing more.",
-    "No sorcery. No miracles. Only the blade.",
+    "No sorcery. No miracles. Only the {noun}.",
     "Strength alone carves a path through the Lands Between.",
     "The simplest creed: strike first, strike hardest.",
     "Where others chant and gesture, you simply swing.",
@@ -23,10 +55,10 @@ const OPENERS: Record<CombatIdentity, string[]> = {
     "Power flows from knowledge, and knowledge from patience.",
   ],
   spellblade: [
-    "Blade in one hand, sigil in the other.",
+    "{Noun} in one hand, sigil in the other.",
     "The best offense is both — steel and sorcery in tandem.",
     "Where warriors falter and mages flee, the spellblade thrives.",
-    "An edge honed by magic cuts deeper than any whetstone.",
+    "Magic and steel, woven into a single deadly thread.",
     "Two disciplines, one purpose.",
   ],
   skirmisher: [
@@ -155,8 +187,10 @@ export function generateFlavorText(
   school: MagicSchool | null,
   _statusEffect: StatusEffect | null,
   rng: SeededRng,
+  primarySubGroup: WeaponSubGroup,
 ): string {
-  const opener = pickFrom(OPENERS[identity], rng);
+  const noun = SUB_GROUP_NOUNS[primarySubGroup];
+  const opener = resolveNoun(pickFrom(OPENERS[identity], rng), noun);
   const weaponFrag = pickFrom(WEAPON_FRAGMENTS[family], rng);
 
   if (school) {
