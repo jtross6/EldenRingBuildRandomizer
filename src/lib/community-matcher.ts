@@ -1,6 +1,6 @@
 import type { CommunityBuild } from "../types/community";
 import type { SeedItem } from "../types/generator";
-import { weapons, catalysts } from "../data";
+import { weapons, staves, seals } from "../data";
 
 function seedItemTags(seedItems: SeedItem[]): Set<string> {
   const tags = new Set<string>();
@@ -15,9 +15,14 @@ function seedItemTags(seedItems: SeedItem[]): Set<string> {
     } else if (seed.type === "shield") {
       tags.add("shield");
       tags.add(seed.name.toLowerCase());
-    } else if (seed.type === "catalyst") {
-      const c = catalysts[seed.index];
-      if (c) tags.add(c.category.toLowerCase());
+    } else if (seed.type === "staff") {
+      const st = staves[seed.index];
+      if (st) tags.add(st.category.toLowerCase());
+      tags.add("caster");
+      tags.add(seed.name.toLowerCase());
+    } else if (seed.type === "seal") {
+      const se = seals[seed.index];
+      if (se) tags.add(se.category.toLowerCase());
       tags.add("caster");
       tags.add(seed.name.toLowerCase());
     } else if (seed.type === "spell") {
