@@ -4,16 +4,18 @@ import type {
   CombatIdentity,
   WeaponStance,
   WeaponFamily,
+  WeaponSubGroup,
   MagicSchool,
   MagicLevel,
   StatusEffect,
   ArmorClass,
 } from "../../types/fate";
-import { createRng } from "../seeded-rng";
+import { createRng, type SeededRng } from "../seeded-rng";
 import {
   ALL_STANCES,
   ALL_STATUS_EFFECTS,
   IDENTITY_STATS,
+  FAMILY_SUB_GROUPS,
   deriveArmorClass,
   deriveIdentity,
   getValidFamilies,
@@ -24,14 +26,14 @@ import {
 import { generateFateName } from "./fate-namer";
 import { generateFlavorText } from "./flavor-text";
 
-function pick<T>(arr: T[], rng: ReturnType<typeof createRng>): T {
+function pick<T>(arr: T[], rng: SeededRng): T {
   return arr[rng.randomInt(arr.length)];
 }
 
 function resolveMagicLevel(
   constraint: MagicLevel | undefined,
   identity: CombatIdentity,
-  rng: ReturnType<typeof createRng>,
+  rng: SeededRng,
 ): MagicLevel {
   if (constraint && constraint !== "any") return constraint;
   if (identity === "warrior") return "none";
@@ -39,6 +41,50 @@ function resolveMagicLevel(
   if (identity === "spellblade") return pick(["support", "primary"], rng);
   if (identity === "skirmisher") return pick(["none", "support"], rng);
   return pick(["none", "support", "primary"], rng);
+}
+
+const DERIVED_SEED_XOR = 0x44455249;
+
+function pickSubGroups(
+  family: WeaponFamily,
+  stance: WeaponStance,
+  rng: SeededRng,
+): WeaponSubGroup[] {
+  const pool = FAMILY_SUB_GROUPS[family];
+
+  if (stance !== "dual-wield" || pool.length < 2) {
+    return [pool[rng.randomInt(pool.length)]];
+  }
+
+  const powerstance = rng.next() < 0.6;
+  if (powerstance) {
+    const sg = pool[rng.randomInt(pool.length)];
+    return [sg, sg];
+  }
+
+  const first = rng.randomInt(pool.length);
+  let second = rng.randomInt(pool.length - 1);
+  if (second >= first) second++;
+  return [pool[first], pool[second]];
+}
+
+export function deriveDynamicFields(
+  identity: CombatIdentity,
+  stance: WeaponStance,
+  family: WeaponFamily,
+  school: MagicSchool | null,
+  statusEffect: StatusEffect | null,
+  seed: number,
+): { primaryStats: string[]; subGroups: WeaponSubGroup[]; name: string; flavor: string } {
+  const rng = createRng(seed ^ DERIVED_SEED_XOR);
+
+  const statOptions = IDENTITY_STATS[identity];
+  const primaryStats = statOptions[rng.randomInt(statOptions.length)];
+  const subGroups = pickSubGroups(family, stance, rng);
+  const name = generateFateName(identity, stance, subGroups[0], school, statusEffect, rng);
+  const flavor = generateFlavorText(identity, stance, family, school, statusEffect, rng);
+
+  return { primaryStats, subGroups, name, flavor };
 }
 
 export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number): PlaystyleCard {
@@ -85,18 +131,20 @@ export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number
   // 6. Resolve armor class
   const armorClass: ArmorClass = constraints.armorClass ?? deriveArmorClass(identity, family);
 
-  // 7. Resolve primary stats
-  const statOptions = IDENTITY_STATS[identity];
-  const primaryStats = pick(statOptions, rng);
-
-  // 8. Generate name and flavor
-  const name = generateFateName(identity, stance, family, school, statusEffect, rng);
-  const flavor = generateFlavorText(identity, stance, family, school, statusEffect, rng);
+  const { primaryStats, subGroups, name, flavor } = deriveDynamicFields(
+    identity,
+    stance,
+    family,
+    school,
+    statusEffect,
+    seed,
+  );
 
   return {
     identity,
     stance,
     family,
+    subGroups,
     school,
     statusEffect,
     armorClass,
