@@ -2,7 +2,8 @@ import type { Build } from "../types/build";
 import {
   weapons,
   shields,
-  catalysts,
+  staves,
+  seals,
   armorHead,
   armorBody,
   armorArms,
@@ -27,6 +28,12 @@ function randomIndices(poolSize: number, count: number): number[] {
   return [...picked];
 }
 
+function randomChance(): number {
+  const arr = new Uint32Array(1);
+  crypto.getRandomValues(arr);
+  return arr[0] / 0xffffffff;
+}
+
 export function generateRandomBuild(): Build {
   return {
     weaponsRight: randomIndices(weapons.length, 3),
@@ -35,8 +42,9 @@ export function generateRandomBuild(): Build {
     chest: randomIndex(armorBody.length),
     gauntlets: randomIndex(armorArms.length),
     legs: randomIndex(armorLegs.length),
-    shield: randomIndex(shields.length),
-    catalyst: randomIndex(catalysts.length),
+    shields: randomChance() < 0.4 ? [randomIndex(shields.length)] : undefined,
+    staves: randomChance() < 0.25 ? [randomIndex(staves.length)] : undefined,
+    seals: randomChance() < 0.25 ? [randomIndex(seals.length)] : undefined,
     talismans: randomIndices(talismans.length, 4),
     ashesOfWar: randomIndices(ashesOfWar.length, 3),
     sorceries: randomIndices(sorceries.length, 4),
