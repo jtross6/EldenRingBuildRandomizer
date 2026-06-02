@@ -23,6 +23,10 @@ import { encodeBuild } from "../lib/build-codec";
 import { prefetchItemDetails } from "../hooks/use-item-details";
 import type { ItemCategory } from "../components/icons/item-icons";
 import { seedGuidedHand } from "../lib/guided-hand-nav";
+import {
+  resolveCommunityBuild,
+  ARMOR_LABELS,
+} from "../lib/resolve-community-build";
 
 const PICK_KEY = "erbr-selected-pick";
 
@@ -254,6 +258,7 @@ function CommunityBuildView({
   onSelectItem: (name: string, category: ItemCategory) => void;
 }) {
   const { build } = pick;
+  const resolved = resolveCommunityBuild(build);
 
   return (
     <>
@@ -266,36 +271,191 @@ function CommunityBuildView({
         <p className="mt-2 text-[12px] leading-relaxed text-text-secondary">{build.strategy}</p>
       </div>
 
-      <EquipmentSection title="Weapons">
-        <div className="grid grid-cols-2 gap-2">
-          {build.weapons.map((w, i) => (
-            <ItemSlot
-              key={w}
-              itemName={w}
-              slotId={`comm-weapon-${i}`}
-              category="weapon"
-              variant="standard"
-              onClick={() => onSelectItem(w, "weapon")}
-            />
-          ))}
-        </div>
-      </EquipmentSection>
-
-      {build.primaryStats.length > 0 && (
-        <div className="mb-6 rounded-lg border border-border-dark bg-bg-card/50 px-4 py-3">
-          <div className="font-display text-[10px] uppercase tracking-[1.5px] text-text-dim">
-            Primary Stats
-          </div>
-          <div className="mt-1.5 flex flex-wrap gap-2">
-            {build.primaryStats.map((stat) => (
-              <span
-                key={stat}
-                className="rounded bg-bg-surface px-2 py-0.5 font-display text-[11px] font-semibold uppercase tracking-wider text-gold-dim"
-              >
-                {stat}
-              </span>
+      {resolved.armament.length > 0 && (
+        <EquipmentSection title="Armament">
+          <div className="grid grid-cols-2 gap-2">
+            {resolved.armament.map((item, i) => (
+              <ItemSlot
+                key={`comm-weapon-${i}`}
+                itemName={item.name}
+                slotId={`comm-weapon-${i}`}
+                category="weapon"
+                variant="standard"
+                onClick={() => onSelectItem(item.name, "weapon")}
+              />
             ))}
           </div>
+        </EquipmentSection>
+      )}
+
+      {resolved.shield && (
+        <EquipmentSection title="Shields">
+          <div className="grid gap-2">
+            <ItemSlot
+              itemName={resolved.shield.name}
+              slotLabel="Shield"
+              slotId="comm-shield-0"
+              category="shield"
+              variant="standard"
+              onClick={() => onSelectItem(resolved.shield!.name, "shield")}
+            />
+          </div>
+        </EquipmentSection>
+      )}
+
+      {resolved.staves.length > 0 && (
+        <EquipmentSection title="Staves">
+          <div className="grid gap-2">
+            {resolved.staves.map((item, i) => (
+              <ItemSlot
+                key={`comm-staff-${i}`}
+                itemName={item.name}
+                slotLabel="Staff"
+                slotId={`comm-staff-${i}`}
+                category="staff"
+                variant="standard"
+                onClick={() => onSelectItem(item.name, "staff")}
+              />
+            ))}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {resolved.seals.length > 0 && (
+        <EquipmentSection title="Seals">
+          <div className="grid gap-2">
+            {resolved.seals.map((item, i) => (
+              <ItemSlot
+                key={`comm-seal-${i}`}
+                itemName={item.name}
+                slotLabel="Seal"
+                slotId={`comm-seal-${i}`}
+                category="seal"
+                variant="standard"
+                onClick={() => onSelectItem(item.name, "seal")}
+              />
+            ))}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {resolved.armor.some((a) => a !== null) && (
+        <EquipmentSection title="Armor">
+          <div className="grid grid-cols-2 gap-2">
+            {resolved.armor.map((item, i) =>
+              item ? (
+                <ItemSlot
+                  key={`comm-armor-${i}`}
+                  itemName={item.name}
+                  slotLabel={ARMOR_LABELS[i]}
+                  slotId={`comm-armor-${i}`}
+                  category="armor"
+                  variant="standard"
+                  onClick={() => onSelectItem(item.name, "armor")}
+                />
+              ) : null,
+            )}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {resolved.talismans.length > 0 && (
+        <EquipmentSection title="Talismans">
+          <div className="grid grid-cols-4 gap-2">
+            {resolved.talismans.map((item, i) => (
+              <ItemSlot
+                key={`comm-tal-${i}`}
+                itemName={item.name}
+                slotId={`comm-tal-${i}`}
+                category="talisman"
+                variant="talisman"
+                onClick={() => onSelectItem(item.name, "talisman")}
+              />
+            ))}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {resolved.ashesOfWar.length > 0 && (
+        <EquipmentSection title="Ashes of War">
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
+            {resolved.ashesOfWar.map((item, i) => (
+              <ItemSlot
+                key={`comm-ash-${i}`}
+                itemName={item.name}
+                slotId={`comm-ash-${i}`}
+                category="ash"
+                variant="compact"
+                onClick={() => onSelectItem(item.name, "ash")}
+              />
+            ))}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {(resolved.sorceries.length > 0 || resolved.incantations.length > 0) && (
+        <EquipmentSection title="Sorceries & Incantations">
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
+            {resolved.sorceries.map((item, i) => (
+              <ItemSlot
+                key={`comm-sorc-${i}`}
+                itemName={item.name}
+                slotId={`comm-sorc-${i}`}
+                category="spell"
+                variant="compact"
+                onClick={() => onSelectItem(item.name, "spell")}
+              />
+            ))}
+            {resolved.incantations.map((item, i) => (
+              <ItemSlot
+                key={`comm-incant-${i}`}
+                itemName={item.name}
+                slotId={`comm-incant-${i}`}
+                category="spell"
+                variant="compact"
+                onClick={() => onSelectItem(item.name, "spell")}
+              />
+            ))}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {(build.primaryStats.length > 0 || (build.secondaryStats?.length ?? 0) > 0) && (
+        <div className="mb-6 rounded-lg border border-border-dark bg-bg-card/50 px-4 py-3">
+          {build.primaryStats.length > 0 && (
+            <>
+              <div className="font-display text-[10px] uppercase tracking-[1.5px] text-text-dim">
+                Primary Stats
+              </div>
+              <div className="mt-1.5 flex flex-wrap gap-2">
+                {build.primaryStats.map((stat) => (
+                  <span
+                    key={stat}
+                    className="rounded bg-bg-surface px-2 py-0.5 font-display text-[11px] font-semibold uppercase tracking-wider text-gold-dim"
+                  >
+                    {stat}
+                  </span>
+                ))}
+              </div>
+            </>
+          )}
+          {(build.secondaryStats?.length ?? 0) > 0 && (
+            <>
+              <div className={`${build.primaryStats.length > 0 ? "mt-3" : ""} font-display text-[10px] uppercase tracking-[1.5px] text-text-dim`}>
+                Secondary Stats
+              </div>
+              <div className="mt-1.5 flex flex-wrap gap-2">
+                {build.secondaryStats!.map((stat) => (
+                  <span
+                    key={stat}
+                    className="rounded bg-bg-surface px-2 py-0.5 font-display text-[11px] font-semibold uppercase tracking-wider text-text-dim"
+                  >
+                    {stat}
+                  </span>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       )}
 
