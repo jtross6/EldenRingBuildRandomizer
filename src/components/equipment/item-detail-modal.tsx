@@ -377,7 +377,12 @@ const CATEGORY_LABELS: Record<ItemCategory, string> = {
   spell: "Spell",
 };
 
-export function ItemDetailModal({ itemName, category, onClose, onGuidedHand }: ItemDetailModalProps) {
+export function ItemDetailModal({
+  itemName,
+  category,
+  onClose,
+  onGuidedHand,
+}: ItemDetailModalProps) {
   const panelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -436,7 +441,7 @@ export function ItemDetailModal({ itemName, category, onClose, onGuidedHand }: I
                 <button
                   type="button"
                   onClick={onGuidedHand}
-                  className="flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border border-gold-dim/40 bg-gold/5 px-4 py-3 font-display text-[12px] font-semibold uppercase tracking-wider text-gold-dim transition-colors hover:border-gold-dim hover:bg-gold/10 hover:text-gold-light"
+                  className="flex w-full cursor-pointer items-center justify-center rounded-lg border border-gold-dim/40 bg-gold/5 px-4 py-3 font-display text-[13px] font-semibold uppercase tracking-wider text-gold-dim transition-colors hover:border-gold-dim hover:bg-gold/10 hover:text-gold-light"
                 >
                   Guided Hand Builds
                 </button>
