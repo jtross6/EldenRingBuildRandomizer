@@ -221,60 +221,66 @@ export function BuildViewerPage() {
           </EquipmentSection>
         )}
 
-        <EquipmentSection title="Talismans">
-          <div className="grid grid-cols-4 gap-2">
-            {talismanNames.map((name, i) => (
-              <ItemSlot
-                key={`talisman-${i}`}
-                itemName={name}
-                slotId={`talisman-${i}`}
-                category="talisman"
-                variant="talisman"
-                onClick={() => selectItem(name, "talisman")}
-              />
-            ))}
-          </div>
-        </EquipmentSection>
+        {talismanNames.length > 0 && (
+          <EquipmentSection title="Talismans">
+            <div className="grid grid-cols-4 gap-2">
+              {talismanNames.map((name, i) => (
+                <ItemSlot
+                  key={`talisman-${i}`}
+                  itemName={name}
+                  slotId={`talisman-${i}`}
+                  category="talisman"
+                  variant="talisman"
+                  onClick={() => selectItem(name, "talisman")}
+                />
+              ))}
+            </div>
+          </EquipmentSection>
+        )}
 
-        <EquipmentSection title="Ashes of War">
-          <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
-            {ashNames.map((name, i) => (
-              <ItemSlot
-                key={`ash-${i}`}
-                itemName={name}
-                slotId={`ash-${i}`}
-                category="ash"
-                variant="compact"
-                onClick={() => selectItem(name, "ash")}
-              />
-            ))}
-          </div>
-        </EquipmentSection>
+        {ashNames.length > 0 && (
+          <EquipmentSection title="Ashes of War">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
+              {ashNames.map((name, i) => (
+                <ItemSlot
+                  key={`ash-${i}`}
+                  itemName={name}
+                  slotId={`ash-${i}`}
+                  category="ash"
+                  variant="compact"
+                  onClick={() => selectItem(name, "ash")}
+                />
+              ))}
+            </div>
+          </EquipmentSection>
+        )}
 
-        <EquipmentSection title="Sorceries & Incantations">
-          <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
-            {sorceryNames.map((name, i) => (
-              <ItemSlot
-                key={`sorc-${i}`}
-                itemName={name}
-                slotId={`sorc-${i}`}
-                category="spell"
-                variant="compact"
-                onClick={() => selectItem(name, "spell")}
-              />
-            ))}
-            {incantNames.map((name, i) => (
-              <ItemSlot
-                key={`incant-${i}`}
-                itemName={name}
-                slotId={`incant-${i}`}
-                category="spell"
-                variant="compact"
-                onClick={() => selectItem(name, "spell")}
-              />
-            ))}
-          </div>
-        </EquipmentSection>
+        {(sorceryNames.length > 0 || incantNames.length > 0) && (
+          <EquipmentSection title="Sorceries & Incantations">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
+              {sorceryNames.map((name, i) => (
+                <ItemSlot
+                  key={`sorc-${i}`}
+                  itemName={name}
+                  slotId={`sorc-${i}`}
+                  category="spell"
+                  variant="compact"
+                  onClick={() => selectItem(name, "spell")}
+                />
+              ))}
+              {incantNames.map((name, i) => (
+                <ItemSlot
+                  key={`incant-${i}`}
+                  itemName={name}
+                  slotId={`incant-${i}`}
+                  category="spell"
+                  variant="compact"
+                  onClick={() => selectItem(name, "spell")}
+                />
+              ))}
+            </div>
+          </EquipmentSection>
+        )}
       </div>
 
       <ActionBar onRandomize={handleRandomize} onShare={handleShare} />

@@ -167,35 +167,39 @@ function GeneratedBuildView({
         </EquipmentSection>
       )}
 
-      <EquipmentSection title="Talismans">
-        <div className="grid grid-cols-4 gap-2">
-          {build.talismans.map((idx, i) => (
-            <ItemSlot
-              key={`tal-${i}`}
-              itemName={talismans[idx]?.name ?? "Unknown"}
-              slotId={`gen-talisman-${i}`}
-              category="talisman"
-              variant="talisman"
-              onClick={() => onSelectItem(talismans[idx]?.name ?? "Unknown", "talisman")}
-            />
-          ))}
-        </div>
-      </EquipmentSection>
+      {build.talismans.length > 0 && (
+        <EquipmentSection title="Talismans">
+          <div className="grid grid-cols-4 gap-2">
+            {build.talismans.map((idx, i) => (
+              <ItemSlot
+                key={`tal-${i}`}
+                itemName={talismans[idx]?.name ?? "Unknown"}
+                slotId={`gen-talisman-${i}`}
+                category="talisman"
+                variant="talisman"
+                onClick={() => onSelectItem(talismans[idx]?.name ?? "Unknown", "talisman")}
+              />
+            ))}
+          </div>
+        </EquipmentSection>
+      )}
 
-      <EquipmentSection title="Ashes of War">
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
-          {build.ashesOfWar.map((idx, i) => (
-            <ItemSlot
-              key={`ash-${i}`}
-              itemName={ashesOfWar[idx]?.name ?? "Unknown"}
-              slotId={`gen-ash-${i}`}
-              category="ash"
-              variant="compact"
-              onClick={() => onSelectItem(ashesOfWar[idx]?.name ?? "Unknown", "ash")}
-            />
-          ))}
-        </div>
-      </EquipmentSection>
+      {build.ashesOfWar.length > 0 && (
+        <EquipmentSection title="Ashes of War">
+          <div className="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] gap-2 md:grid-cols-[repeat(auto-fill,minmax(180px,1fr))]">
+            {build.ashesOfWar.map((idx, i) => (
+              <ItemSlot
+                key={`ash-${i}`}
+                itemName={ashesOfWar[idx]?.name ?? "Unknown"}
+                slotId={`gen-ash-${i}`}
+                category="ash"
+                variant="compact"
+                onClick={() => onSelectItem(ashesOfWar[idx]?.name ?? "Unknown", "ash")}
+              />
+            ))}
+          </div>
+        </EquipmentSection>
+      )}
 
       {(build.sorceries.length > 0 || build.incantations.length > 0) && (
         <EquipmentSection title="Sorceries & Incantations">
