@@ -3,7 +3,8 @@ import type { ItemType, SeedItem } from "../../types/generator";
 import {
   weapons,
   shields,
-  catalysts,
+  staves,
+  seals,
   talismans,
   ashesOfWar,
   sorceries,
@@ -30,11 +31,17 @@ const ALL_ITEMS: SearchableItem[] = [
     index: i,
     category: s.category,
   })),
-  ...catalysts.map((c, i) => ({
-    name: c.name,
-    type: "catalyst" as const,
+  ...staves.map((s, i) => ({
+    name: s.name,
+    type: "staff" as const,
     index: i,
-    category: c.category,
+    category: s.category,
+  })),
+  ...seals.map((s, i) => ({
+    name: s.name,
+    type: "seal" as const,
+    index: i,
+    category: s.category,
   })),
   ...talismans.map((t, i) => ({ name: t.name, type: "talisman" as const, index: i })),
   ...ashesOfWar.map((a, i) => ({ name: a.name, type: "ashOfWar" as const, index: i })),
@@ -49,7 +56,8 @@ const ALL_ITEMS: SearchableItem[] = [
 const TYPE_LABELS: Record<ItemType, string> = {
   weapon: "Weapon",
   shield: "Shield",
-  catalyst: "Catalyst",
+  staff: "Staff",
+  seal: "Seal",
   spell: "Spell",
   ashOfWar: "Ash of War",
   talisman: "Talisman",
@@ -58,7 +66,8 @@ const TYPE_LABELS: Record<ItemType, string> = {
 const TYPE_CATEGORY_CLASS: Record<ItemType, string> = {
   weapon: "cat-weapon",
   shield: "cat-shield",
-  catalyst: "cat-seal",
+  staff: "cat-seal",
+  seal: "cat-seal",
   spell: "cat-spell",
   ashOfWar: "cat-ash",
   talisman: "cat-talisman",
