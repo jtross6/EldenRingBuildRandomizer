@@ -28,7 +28,12 @@ function getDetailPromise(category: ItemCategory): Promise<DetailMap> {
         );
         break;
       case "seal":
-        cache[key] = import("../data/catalyst-details.json").then(
+        cache[key] = import("../data/seal-details.json").then(
+          (m) => m.default as unknown as Record<string, ArmamentDetail>,
+        );
+        break;
+      case "staff":
+        cache[key] = import("../data/staff-details.json").then(
           (m) => m.default as unknown as Record<string, ArmamentDetail>,
         );
         break;
@@ -61,6 +66,7 @@ export function prefetchItemDetails(): void {
   getDetailPromise("weapon");
   getDetailPromise("shield");
   getDetailPromise("seal");
+  getDetailPromise("staff");
   getDetailPromise("armor");
   getDetailPromise("talisman");
   getDetailPromise("spell");
