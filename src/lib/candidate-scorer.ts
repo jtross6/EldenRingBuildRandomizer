@@ -1,5 +1,5 @@
 import type { SeedItem, StatProfile } from "../types/generator";
-import type { Weapon, Shield, Catalyst, Spell, AshOfWar, Talisman } from "../types/items";
+import type { Weapon, Shield, Staff, Seal, Spell, AshOfWar, Talisman } from "../types/items";
 import { coOccurrence } from "../data";
 
 export interface ScoredCandidate<T> {
@@ -198,26 +198,51 @@ export function scoreShields(
   return scored.sort((a, b) => b.score - a.score);
 }
 
-export function scoreCatalysts(
-  candidates: Catalyst[],
+export function scoreStaves(
+  candidates: Staff[],
   profile: StatProfile,
   seedItems: SeedItem[],
-): ScoredCandidate<Catalyst>[] {
-  const scored: ScoredCandidate<Catalyst>[] = [];
+): ScoredCandidate<Staff>[] {
+  const scored: ScoredCandidate<Staff>[] = [];
   let maxCoOccurrence = 0;
 
-  const rawScores = candidates.map((catalyst, index) => {
-    const coScore = getCoOccurrenceScore(catalyst.name, seedItems);
+  const rawScores = candidates.map((staff, index) => {
+    const coScore = getCoOccurrenceScore(staff.name, seedItems);
     if (coScore > maxCoOccurrence) maxCoOccurrence = coScore;
-    return { catalyst, index, coScore };
+    return { staff, index, coScore };
   });
 
-  for (const { catalyst, index, coScore } of rawScores) {
-    const scalingVec = catalyst.scaling ? normalizeVector(catalyst.scaling) : {};
+  for (const { staff, index, coScore } of rawScores) {
+    const scalingVec = staff.scaling ? normalizeVector(staff.scaling) : {};
     const statScore = dotProduct(scalingVec, profile);
     const normalizedCo = maxCoOccurrence > 0 ? coScore / maxCoOccurrence : 0;
     const totalScore = statScore * 0.6 + normalizedCo * 0.3 + 0.1 * 0.5;
-    scored.push({ item: catalyst, index, score: totalScore });
+    scored.push({ item: staff, index, score: totalScore });
+  }
+
+  return scored.sort((a, b) => b.score - a.score);
+}
+
+export function scoreSeals(
+  candidates: Seal[],
+  profile: StatProfile,
+  seedItems: SeedItem[],
+): ScoredCandidate<Seal>[] {
+  const scored: ScoredCandidate<Seal>[] = [];
+  let maxCoOccurrence = 0;
+
+  const rawScores = candidates.map((seal, index) => {
+    const coScore = getCoOccurrenceScore(seal.name, seedItems);
+    if (coScore > maxCoOccurrence) maxCoOccurrence = coScore;
+    return { seal, index, coScore };
+  });
+
+  for (const { seal, index, coScore } of rawScores) {
+    const scalingVec = seal.scaling ? normalizeVector(seal.scaling) : {};
+    const statScore = dotProduct(scalingVec, profile);
+    const normalizedCo = maxCoOccurrence > 0 ? coScore / maxCoOccurrence : 0;
+    const totalScore = statScore * 0.6 + normalizedCo * 0.3 + 0.1 * 0.5;
+    scored.push({ item: seal, index, score: totalScore });
   }
 
   return scored.sort((a, b) => b.score - a.score);
