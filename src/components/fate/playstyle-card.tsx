@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import type { PlaystyleCard, MagicSchool } from "../../types/fate";
-import { FAMILY_LABELS, SCHOOL_LABELS, isSorcerySchool } from "../../lib/fate/taxonomy";
+import { SUB_GROUP_LABELS, SCHOOL_LABELS, isSorcerySchool } from "../../lib/fate/taxonomy";
 
 import godrickRune from "../../assets/great-runes/godrick_gr.webp";
 import maleniaRune from "../../assets/great-runes/malenia_gr.webp";
@@ -34,10 +34,12 @@ const GREAT_RUNES = [
 
 function getCombatValue(card: PlaystyleCard): string {
   if (card.stance === "ranged") return "Ranged";
-  const family = FAMILY_LABELS[card.family];
-  if (card.stance === "sword-board") return `${family} + Shield`;
-  const prefix = card.stance === "two-hand" ? "Two-hand" : "Dual-wield";
-  return `${prefix} ${family}`;
+  const primary = SUB_GROUP_LABELS[card.subGroups[0]];
+  if (card.stance === "sword-board") return `${primary} + Shield`;
+  if (card.stance === "two-hand") return `Two-hand ${primary}`;
+  if (card.subGroups[0] === card.subGroups[1]) return `Powerstance ${primary}`;
+  const secondary = SUB_GROUP_LABELS[card.subGroups[1]];
+  return `Dual-wield ${primary} & ${secondary}`;
 }
 
 function getMagicValue(school: MagicSchool): string {
@@ -45,15 +47,12 @@ function getMagicValue(school: MagicSchool): string {
   return `${SCHOOL_LABELS[school]} ${type}`;
 }
 
-const FAMILY_NOUNS: Record<string, string> = {
-  "light-blades": "light blades",
-  "heavy-blades": "heavy blades",
-  colossal: "colossal weapons",
-  "axes-hammers": "axes and hammers",
-  polearms: "polearms",
-  "agile-exotic": "exotic arms",
-  ranged: "your bow",
-};
+function getWeaponNoun(card: PlaystyleCard): string {
+  if (card.stance === "dual-wield" && card.subGroups[0] !== card.subGroups[1]) {
+    return `${SUB_GROUP_LABELS[card.subGroups[0]].toLowerCase()} and ${SUB_GROUP_LABELS[card.subGroups[1]].toLowerCase()}`;
+  }
+  return SUB_GROUP_LABELS[card.subGroups[0]].toLowerCase();
+}
 
 const MAGIC_ROLES: Record<string, string> = {
   spellcaster: "are your primary weapon",
@@ -62,17 +61,19 @@ const MAGIC_ROLES: Record<string, string> = {
 };
 
 function getTacticalSummary(card: PlaystyleCard): string {
-  const family = FAMILY_NOUNS[card.family];
+  const noun = getWeaponNoun(card);
   let weaponPart: string;
   switch (card.stance) {
     case "two-hand":
-      weaponPart = `Grip ${family} with both hands for extra damage and stagger`;
+      weaponPart = `Grip ${noun} with both hands for extra damage and stagger`;
       break;
     case "dual-wield":
-      weaponPart = `Dual-wield ${family} for relentless aggression`;
+      weaponPart = card.subGroups[0] === card.subGroups[1]
+        ? `Powerstance ${noun} for relentless aggression`
+        : `Dual-wield ${noun} for relentless aggression`;
       break;
     case "sword-board":
-      weaponPart = `Pair ${family} with a shield for staying power`;
+      weaponPart = `Pair ${noun} with a shield for staying power`;
       break;
     case "ranged":
       weaponPart = `Strike from range, close to melee only when cornered`;
