@@ -56,13 +56,13 @@ export function selectLoadoutProfile(seedItems: SeedItem[], profile: StatProfile
     return "Pure Caster";
   }
 
-  // 5. Powerstance-friendly categories (single weapon seed, no shield/catalyst)
+  // 5. Powerstance-friendly categories (single weapon seed, no shield/staff/seal)
   if (seedWeapons.length === 1) {
     const cat = seedCategories[0];
-    const hasShieldOrCatalyst = seedItems.some(
+    const hasShieldOrCastingTool = seedItems.some(
       (s) => s.type === "shield" || s.type === "staff" || s.type === "seal",
     );
-    if (POWERSTANCE_CATEGORIES.has(cat) && !hasShieldOrCatalyst) {
+    if (POWERSTANCE_CATEGORIES.has(cat) && !hasShieldOrCastingTool) {
       return "Powerstance";
     }
   }

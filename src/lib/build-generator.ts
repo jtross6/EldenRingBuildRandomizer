@@ -153,7 +153,7 @@ function fillWeaponsByProfile(
     }
 
     case "Spellblade": {
-      // 1 weapon right, catalyst in left
+      // 1 weapon right, staff/seal in left
       if (primarySeedIdx >= 0) {
         weaponsRight.push(primarySeedIdx);
         excludeWeapons.add(primarySeedIdx);
