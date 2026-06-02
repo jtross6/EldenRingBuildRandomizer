@@ -9,7 +9,8 @@ import type {
 import {
   weapons,
   shields,
-  catalysts,
+  staves,
+  seals,
   talismans,
   ashesOfWar,
   sorceries,
@@ -20,7 +21,8 @@ import { extractStatProfile } from "./stat-profile";
 import {
   scoreWeapons,
   scoreShields,
-  scoreCatalysts,
+  scoreStaves,
+  scoreSeals,
   scoreTalismans,
   scoreAshes,
   scoreSpells,
@@ -106,32 +108,46 @@ function fillWeaponsByProfile(
   rng: SeededRng,
   seedWeaponIndices: Set<number>,
   seedShieldIndices: Set<number>,
-  seedCatalystIndices: Set<number>,
+  seedStaffIndices: Set<number>,
+  seedSealIndices: Set<number>,
 ): {
   weaponsRight: number[];
   weaponsLeft: number[];
-  shieldIdx: number;
-  catalystIdx: number;
+  shieldIndices: number[];
+  staffIndices: number[];
+  sealIndices: number[];
 } {
   const excludeWeapons = new Set(seedWeaponIndices);
   const weaponsRight: number[] = [];
   const weaponsLeft: number[] = [];
-  let shieldIdx = -1;
-  let catalystIdx = -1;
+  const shieldIndices: number[] = [];
+  const staffIndices: number[] = [];
+  const sealIndices: number[] = [];
 
   const seedWeaponList = seedItems.filter((s) => s.type === "weapon");
   const primarySeedIdx = seedWeaponList[0]?.index ?? -1;
 
   switch (loadoutProfile) {
     case "Pure Caster": {
-      // No weapons — just pick a catalyst
-      const hasSeedCatalyst = seedItems.some((s) => s.type === "catalyst");
-      if (hasSeedCatalyst) {
-        catalystIdx = seedItems.find((s) => s.type === "catalyst")!.index;
-      } else {
-        const scoredCatalysts = scoreCatalysts(catalysts, profile, seedItems);
-        const pick = pickFromPool(scoredCatalysts, creativity, rng, 1, seedCatalystIndices);
-        if (pick.length > 0) catalystIdx = pick[0].index;
+      const hasSeedStaff = seedItems.some((s) => s.type === "staff");
+      const hasSeedSeal = seedItems.some((s) => s.type === "seal");
+      const hasInt = (profile.intelligence ?? 0) >= 0.1;
+      const hasFth = (profile.faith ?? 0) >= 0.1;
+
+      if (hasSeedStaff) {
+        staffIndices.push(seedItems.find((s) => s.type === "staff")!.index);
+      } else if (hasInt) {
+        const scored = scoreStaves(staves, profile, seedItems);
+        const pick = pickFromPool(scored, creativity, rng, 1, seedStaffIndices);
+        if (pick.length > 0) staffIndices.push(pick[0].index);
+      }
+
+      if (hasSeedSeal) {
+        sealIndices.push(seedItems.find((s) => s.type === "seal")!.index);
+      } else if (hasFth) {
+        const scored = scoreSeals(seals, profile, seedItems);
+        const pick = pickFromPool(scored, creativity, rng, 1, seedSealIndices);
+        if (pick.length > 0) sealIndices.push(pick[0].index);
       }
       break;
     }
@@ -148,13 +164,23 @@ function fillWeaponsByProfile(
           excludeWeapons.add(pick[0].index);
         }
       }
-      const hasSeedCatalyst = seedItems.some((s) => s.type === "catalyst");
-      if (hasSeedCatalyst) {
-        catalystIdx = seedItems.find((s) => s.type === "catalyst")!.index;
-      } else {
-        const scoredCatalysts = scoreCatalysts(catalysts, profile, seedItems);
-        const pick = pickFromPool(scoredCatalysts, creativity, rng, 1, seedCatalystIndices);
-        if (pick.length > 0) catalystIdx = pick[0].index;
+      const hasInt = (profile.intelligence ?? 0) >= 0.1;
+      const hasFth = (profile.faith ?? 0) >= 0.1;
+
+      if (seedItems.some((s) => s.type === "staff")) {
+        staffIndices.push(seedItems.find((s) => s.type === "staff")!.index);
+      } else if (hasInt) {
+        const scored = scoreStaves(staves, profile, seedItems);
+        const pick = pickFromPool(scored, creativity, rng, 1, seedStaffIndices);
+        if (pick.length > 0) staffIndices.push(pick[0].index);
+      }
+
+      if (seedItems.some((s) => s.type === "seal")) {
+        sealIndices.push(seedItems.find((s) => s.type === "seal")!.index);
+      } else if (hasFth) {
+        const scored = scoreSeals(seals, profile, seedItems);
+        const pick = pickFromPool(scored, creativity, rng, 1, seedSealIndices);
+        if (pick.length > 0) sealIndices.push(pick[0].index);
       }
       break;
     }
@@ -187,17 +213,16 @@ function fillWeaponsByProfile(
       }
       const hasSeedShield = seedItems.some((s) => s.type === "shield");
       if (hasSeedShield) {
-        shieldIdx = seedItems.find((s) => s.type === "shield")!.index;
+        shieldIndices.push(seedItems.find((s) => s.type === "shield")!.index);
       } else {
         const scoredShields = scoreShields(shields, profile, seedItems);
         const pick = pickFromPool(scoredShields, creativity, rng, 1, seedShieldIndices);
-        if (pick.length > 0) shieldIdx = pick[0].index;
+        if (pick.length > 0) shieldIndices.push(pick[0].index);
       }
       break;
     }
 
     case "Shield Caster": {
-      // 1 weapon right, shield in left, catalyst also picked
       if (primarySeedIdx >= 0) {
         weaponsRight.push(primarySeedIdx);
         excludeWeapons.add(primarySeedIdx);
@@ -211,20 +236,30 @@ function fillWeaponsByProfile(
       // Shield
       const hasSeedShieldSC = seedItems.some((s) => s.type === "shield");
       if (hasSeedShieldSC) {
-        shieldIdx = seedItems.find((s) => s.type === "shield")!.index;
+        shieldIndices.push(seedItems.find((s) => s.type === "shield")!.index);
       } else {
         const scoredShields = scoreShields(shields, profile, seedItems);
         const pick = pickFromPool(scoredShields, creativity, rng, 1, seedShieldIndices);
-        if (pick.length > 0) shieldIdx = pick[0].index;
+        if (pick.length > 0) shieldIndices.push(pick[0].index);
       }
-      // Catalyst (for casting)
-      const hasSeedCatalystSC = seedItems.some((s) => s.type === "catalyst");
-      if (hasSeedCatalystSC) {
-        catalystIdx = seedItems.find((s) => s.type === "catalyst")!.index;
-      } else {
-        const scoredCats = scoreCatalysts(catalysts, profile, seedItems);
-        const pick = pickFromPool(scoredCats, creativity, rng, 1, seedCatalystIndices);
-        if (pick.length > 0) catalystIdx = pick[0].index;
+      // Staff/Seal (for casting)
+      const hasIntSC = (profile.intelligence ?? 0) >= 0.1;
+      const hasFthSC = (profile.faith ?? 0) >= 0.1;
+
+      if (seedItems.some((s) => s.type === "staff")) {
+        staffIndices.push(seedItems.find((s) => s.type === "staff")!.index);
+      } else if (hasIntSC) {
+        const scored = scoreStaves(staves, profile, seedItems);
+        const pick = pickFromPool(scored, creativity, rng, 1, seedStaffIndices);
+        if (pick.length > 0) staffIndices.push(pick[0].index);
+      }
+
+      if (seedItems.some((s) => s.type === "seal")) {
+        sealIndices.push(seedItems.find((s) => s.type === "seal")!.index);
+      } else if (hasFthSC) {
+        const scored = scoreSeals(seals, profile, seedItems);
+        const pick = pickFromPool(scored, creativity, rng, 1, seedSealIndices);
+        if (pick.length > 0) sealIndices.push(pick[0].index);
       }
       break;
     }
@@ -349,7 +384,7 @@ function fillWeaponsByProfile(
     }
   }
 
-  return { weaponsRight, weaponsLeft, shieldIdx, catalystIdx };
+  return { weaponsRight, weaponsLeft, shieldIndices, staffIndices, sealIndices };
 }
 
 export function generateBuild(input: GeneratorInput): GeneratedBuild {
@@ -364,8 +399,11 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const seedShieldIndices = new Set(
     seedItems.filter((s) => s.type === "shield").map((s) => s.index),
   );
-  const seedCatalystIndices = new Set(
-    seedItems.filter((s) => s.type === "catalyst").map((s) => s.index),
+  const seedStaffIndices = new Set(
+    seedItems.filter((s) => s.type === "staff").map((s) => s.index),
+  );
+  const seedSealIndices = new Set(
+    seedItems.filter((s) => s.type === "seal").map((s) => s.index),
   );
   const seedTalismanIndices = new Set(
     seedItems.filter((s) => s.type === "talisman").map((s) => s.index),
@@ -381,17 +419,19 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const scoredWeapons = scoreWeapons(weapons, profile, seedItems, damageTypes);
 
   // Fill weapons by profile
-  const { weaponsRight, weaponsLeft, shieldIdx, catalystIdx } = fillWeaponsByProfile(
-    loadoutProfile,
-    seedItems,
-    scoredWeapons,
-    profile,
-    creativity,
-    rng,
-    seedWeaponIndices,
-    seedShieldIndices,
-    seedCatalystIndices,
-  );
+  const { weaponsRight, weaponsLeft, shieldIndices, staffIndices, sealIndices } =
+    fillWeaponsByProfile(
+      loadoutProfile,
+      seedItems,
+      scoredWeapons,
+      profile,
+      creativity,
+      rng,
+      seedWeaponIndices,
+      seedShieldIndices,
+      seedStaffIndices,
+      seedSealIndices,
+    );
 
   // Talismans (4)
   const scoredTalismans = scoreTalismans(talismans, seedItems);
@@ -457,8 +497,9 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
     chest: -1,
     gauntlets: -1,
     legs: -1,
-    shield: shieldIdx >= 0 ? shieldIdx : 0,
-    catalyst: catalystIdx >= 0 ? catalystIdx : 0,
+    shields: shieldIndices.length > 0 ? shieldIndices : undefined,
+    staves: staffIndices.length > 0 ? staffIndices : undefined,
+    seals: sealIndices.length > 0 ? sealIndices : undefined,
     talismans: talismanIndices,
     ashesOfWar: ashIndices,
     sorceries: sorceryIndices,
