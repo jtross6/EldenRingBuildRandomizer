@@ -1,7 +1,8 @@
 import type {
   ArmorPiece,
   AshOfWar,
-  Catalyst,
+  Staff,
+  Seal,
   Shield,
   Spell,
   Talisman,
@@ -10,7 +11,8 @@ import type {
 
 import weaponsData from "./weapons.json";
 import shieldsData from "./shields.json";
-import catalystsData from "./catalysts.json";
+import stavesData from "./staves.json";
+import sealsData from "./seals.json";
 import armorHeadData from "./armor-head.json";
 import armorBodyData from "./armor-body.json";
 import armorArmsData from "./armor-arms.json";
@@ -22,7 +24,8 @@ import ashesOfWarData from "./ashes-of-war.json";
 
 export const weapons = weaponsData as unknown as Weapon[];
 export const shields = shieldsData as unknown as Shield[];
-export const catalysts = catalystsData as unknown as Catalyst[];
+export const staves = stavesData as unknown as Staff[];
+export const seals = sealsData as unknown as Seal[];
 export const armorHead = armorHeadData as ArmorPiece[];
 export const armorBody = armorBodyData as ArmorPiece[];
 export const armorArms = armorArmsData as ArmorPiece[];
