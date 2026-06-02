@@ -3,7 +3,8 @@ import type { PlaystyleCard } from "../../types/fate";
 import {
   weapons,
   shields,
-  catalysts,
+  staves,
+  seals,
   armorHead,
   armorBody,
   armorArms,
@@ -69,8 +70,9 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
   const exclude = new Set<number>();
   const weaponsRight: number[] = [];
   const weaponsLeft: number[] = [];
-  let shieldIdx = -1;
-  let catalystIdx = -1;
+  const shieldIndices: number[] = [];
+  const staffIndices: number[] = [];
+  const sealIndices: number[] = [];
 
   if (candidateWeapons.length > 0) {
     const shuffled = rng.shuffle(candidateWeapons);
@@ -94,7 +96,7 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
         weaponsRight.push(shuffled[0]);
         exclude.add(shuffled[0]);
         const shieldPick = pickRandom(shields, rng, 1);
-        if (shieldPick.length > 0) shieldIdx = shieldPick[0];
+        if (shieldPick.length > 0) shieldIndices.push(shieldPick[0]);
         break;
       }
       case "ranged": {
@@ -118,15 +120,18 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
 
   if (identityAllowsMagic(card.identity) && card.school) {
     const isSorc = card.school ? isSorcerySchool(card.school) : false;
-    const catalystPool = catalysts
-      .map((c, i) => ({ c, i }))
-      .filter(({ c }) =>
-        isSorc ? c.category === "Glintstone Staff" : c.category === "Sacred Seal",
-      )
-      .map(({ i }) => i);
-    if (catalystPool.length > 0) {
-      const shuffled = rng.shuffle(catalystPool);
-      catalystIdx = shuffled[0];
+    if (isSorc) {
+      const pool = staves.map((_, i) => i);
+      if (pool.length > 0) {
+        const shuffled = rng.shuffle(pool);
+        staffIndices.push(shuffled[0]);
+      }
+    } else {
+      const pool = seals.map((_, i) => i);
+      if (pool.length > 0) {
+        const shuffled = rng.shuffle(pool);
+        sealIndices.push(shuffled[0]);
+      }
     }
   }
 
@@ -182,8 +187,9 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
     chest,
     gauntlets,
     legs,
-    shield: shieldIdx >= 0 ? shieldIdx : 0,
-    catalyst: catalystIdx >= 0 ? catalystIdx : 0,
+    shields: shieldIndices.length > 0 ? shieldIndices : undefined,
+    staves: staffIndices.length > 0 ? staffIndices : undefined,
+    seals: sealIndices.length > 0 ? sealIndices : undefined,
     talismans: talismanIndices,
     ashesOfWar: ashIndices,
     sorceries: sorceryIndices,
