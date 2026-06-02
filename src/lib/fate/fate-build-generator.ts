@@ -15,11 +15,7 @@ import {
   spellTags,
 } from "../../data";
 import { createRng, type SeededRng } from "../seeded-rng";
-import {
-  WEAPON_FAMILY_CATEGORIES,
-  isSorcerySchool,
-  identityAllowsMagic,
-} from "./taxonomy";
+import { WEAPON_FAMILY_CATEGORIES, isSorcerySchool, identityAllowsMagic } from "./taxonomy";
 
 const AFFINITY_BY_STAT: Record<string, string[]> = {
   STR: ["Heavy"],
@@ -29,7 +25,12 @@ const AFFINITY_BY_STAT: Record<string, string[]> = {
   ARC: ["Blood", "Occult"],
 };
 
-function pickRandom<T>(arr: T[], rng: SeededRng, count: number, exclude = new Set<number>()): number[] {
+function pickRandom<T>(
+  arr: T[],
+  rng: SeededRng,
+  count: number,
+  exclude = new Set<number>(),
+): number[] {
   const available = arr.map((_, i) => i).filter((i) => !exclude.has(i));
   const shuffled = rng.shuffle(available);
   return shuffled.slice(0, Math.min(count, shuffled.length));
@@ -101,7 +102,10 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
         exclude.add(shuffled[0]);
         const meleeWeapons = weapons
           .map((w, i) => ({ w, i }))
-          .filter(({ w }) => !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category))
+          .filter(
+            ({ w }) =>
+              !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category),
+          )
           .map(({ i }) => i);
         if (meleeWeapons.length > 0) {
           const meleePick = rng.shuffle(meleeWeapons);
@@ -116,7 +120,9 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
     const isSorc = card.school ? isSorcerySchool(card.school) : false;
     const catalystPool = catalysts
       .map((c, i) => ({ c, i }))
-      .filter(({ c }) => (isSorc ? c.category === "Glintstone Staff" : c.category === "Sacred Seal"))
+      .filter(({ c }) =>
+        isSorc ? c.category === "Glintstone Staff" : c.category === "Sacred Seal",
+      )
       .map(({ i }) => i);
     if (catalystPool.length > 0) {
       const shuffled = rng.shuffle(catalystPool);

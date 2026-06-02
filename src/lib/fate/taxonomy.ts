@@ -161,13 +161,11 @@ export function getValidSchools(
   return ALL_SCHOOLS;
 }
 
-export function deriveArmorClass(
-  identity: CombatIdentity,
-  family: WeaponFamily,
-): ArmorClass {
+export function deriveArmorClass(identity: CombatIdentity, family: WeaponFamily): ArmorClass {
   if (identity === "spellcaster" && family !== "colossal") return "light";
   if (family === "colossal" || family === "axes-hammers") return "heavy";
-  if (identity === "warrior" && (family === "heavy-blades" || family === "polearms")) return "heavy";
+  if (identity === "warrior" && (family === "heavy-blades" || family === "polearms"))
+    return "heavy";
   if (identity === "skirmisher" || family === "light-blades") return "light";
   return "medium";
 }
@@ -178,7 +176,6 @@ export function deriveIdentity(
 ): CombatIdentity[] {
   if (magic === "none") return ["warrior", "skirmisher"];
   if (magic === "primary") return ["spellcaster", "spellblade"];
-  if (school === "blood" || school === "dragon")
-    return ["skirmisher", "spellblade"];
+  if (school === "blood" || school === "dragon") return ["skirmisher", "spellblade"];
   return ALL_IDENTITIES;
 }

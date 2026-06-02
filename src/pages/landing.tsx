@@ -1,4 +1,7 @@
 import { Link, useNavigate } from "@tanstack/react-router";
+import fateImg from "../assets/Fate.webp";
+import melinaImg from "../assets/Melina.webp";
+import frenzyImg from "../assets/Frenzy.webp";
 
 export function LandingPage() {
   const navigate = useNavigate();
@@ -27,8 +30,8 @@ export function LandingPage() {
         >
           <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
           <div className="relative flex items-center gap-5">
-            <div className="flex size-14 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-gold/20 to-gold/5 text-3xl">
-              &#9858;
+            <div className="size-14 shrink-0 overflow-hidden rounded-lg">
+              <img src={frenzyImg} alt="" className="size-full object-cover" />
             </div>
             <div className="min-w-0 flex-1">
               <h2 className="font-display text-[17px] font-bold tracking-wide text-gold-light">
@@ -48,16 +51,16 @@ export function LandingPage() {
         >
           <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
           <div className="relative flex items-center gap-5">
-            <div className="flex size-14 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-gold/20 to-gold/5 text-3xl">
-              &#128300;
+            <div className="size-14 shrink-0 overflow-hidden rounded-lg">
+              <img src={fateImg} alt="" className="size-full object-cover" />
             </div>
             <div className="min-w-0 flex-1">
               <h2 className="font-display text-[17px] font-bold tracking-wide text-gold-light">
                 Path of Fate
               </h2>
               <p className="mt-1 text-[12px] leading-relaxed text-text-secondary">
-                The Erdtree reveals your calling. Discover a playstyle forged by fate
-                &mdash; pin your preferences or leave it all to chance.
+                The Erdtree reveals your calling. Discover a playstyle forged by fate &mdash; pin
+                your preferences or leave it all to chance.
               </p>
             </div>
           </div>
@@ -70,8 +73,8 @@ export function LandingPage() {
         >
           <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
           <div className="relative flex items-center gap-5">
-            <div className="flex size-14 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-gold/20 to-gold/5 text-3xl">
-              &#10024;
+            <div className="size-14 shrink-0 overflow-hidden rounded-lg">
+              <img src={melinaImg} alt="" className="size-full object-cover" />
             </div>
             <div className="min-w-0 flex-1">
               <h2 className="font-display text-[17px] font-bold tracking-wide text-gold-light">

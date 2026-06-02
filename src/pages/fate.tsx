@@ -8,12 +8,9 @@ import { encodeBuild } from "../lib/build-codec";
 import { generateBuildFromFate } from "../lib/fate/fate-build-generator";
 import { PlaystyleCardDisplay } from "../components/fate/playstyle-card";
 import { ConstraintsDrawer } from "../components/fate/constraints-drawer";
-import { MagicControl } from "../components/fate/magic-control";
-import { StanceChips } from "../components/fate/stance-chips";
 import { FateActionBar } from "../components/fate/fate-action-bar";
 import { Toast } from "../components/toast";
 import { useToast } from "../hooks/use-toast";
-import type { MagicLevel, WeaponStance } from "../types/fate";
 
 function randomSeed(): number {
   return (Math.random() * 0xffffffff) >>> 0;
@@ -26,18 +23,17 @@ export function FatePage() {
 
   const [constraints, setConstraints] = useState<PlaystyleConstraint>({});
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [isFirstReveal, setIsFirstReveal] = useState(true);
 
-  const [card, setCard] = useState<PlaystyleCard>(() => {
+  const [card, setCard] = useState<PlaystyleCard | null>(() => {
     if (encodedFate) {
       const decoded = decodeFate(encodedFate);
-      if (decoded) {
-        setIsFirstReveal(false);
-        return decoded;
-      }
+      if (decoded) return decoded;
     }
-    return generatePlaystyle({}, randomSeed());
+    return null;
   });
+
+  const hasRolled = card !== null;
+  const [isFirstReveal, setIsFirstReveal] = useState(!hasRolled);
 
   const pinCount =
     (constraints.magic && constraints.magic !== "any" ? 1 : 0) +
@@ -51,19 +47,23 @@ export function FatePage() {
     const seed = randomSeed();
     const newCard = generatePlaystyle(constraints, seed);
     setCard(newCard);
-    setIsFirstReveal(false);
+    setIsFirstReveal(true);
 
     const encoded = encodeFate(newCard);
     navigate({ to: "/fate", search: { fate: encoded }, replace: true });
+
+    setTimeout(() => setIsFirstReveal(false), 3000);
   }, [constraints, navigate]);
 
   const handleGenerateBuild = useCallback(() => {
+    if (!card) return;
     const build = generateBuildFromFate(card);
     const encoded = encodeBuild(build);
     navigate({ to: "/random", search: { build: encoded } });
   }, [card, navigate]);
 
   async function handleShare() {
+    if (!card) return;
     try {
       const encoded = encodeFate(card);
       const url = new URL(window.location.href);
@@ -73,31 +73,6 @@ export function FatePage() {
     } catch {
       toast.show("Failed to copy link");
     }
-  }
-
-  function handleMagicChange(magic: MagicLevel) {
-    setConstraints((prev) => {
-      const next = { ...prev, magic: magic === "any" ? undefined : magic };
-      if (magic === "none") {
-        delete next.school;
-        if (prev.school) {
-          toast.show(`${prev.school} unpinned — no magic selected`);
-        }
-      }
-      return next;
-    });
-  }
-
-  function handleStanceChange(stance: WeaponStance | undefined) {
-    setConstraints((prev) => {
-      const next = { ...prev, stance };
-      if (stance === "ranged") {
-        next.family = "ranged";
-      } else if (prev.stance === "ranged" && prev.family === "ranged") {
-        delete next.family;
-      }
-      return next;
-    });
   }
 
   return (
@@ -112,39 +87,66 @@ export function FatePage() {
           </p>
         </div>
 
-        <div className="mb-4 space-y-4 rounded-lg border border-border-dark bg-bg-card/50 p-3">
-          <MagicControl value={constraints.magic} onChange={handleMagicChange} />
-          <StanceChips value={constraints.stance} onChange={handleStanceChange} />
-        </div>
+        {!hasRolled ? (
+          <div className="flex flex-col items-center gap-6 pt-4">
+            <div className="relative w-full overflow-hidden rounded-2xl border-2 border-gold-dim/40 bg-gradient-to-br from-[#1a1510]/60 to-bg-dark/60 p-10 text-center">
+              <div className="absolute inset-x-0 top-0 h-[3px] bg-gradient-to-r from-transparent via-gold-dim/30 to-transparent" />
+              <div className="flex items-center justify-center gap-3 text-gold-dim/30">
+                <span className="font-display text-2xl">&#10033;</span>
+                <span className="font-display text-lg">&#10033;</span>
+                <span className="font-display text-2xl">&#10033;</span>
+              </div>
+              <p className="mt-3 text-[12px] italic text-text-dim">Your fate awaits...</p>
+            </div>
 
-        <PlaystyleCardDisplay card={card} isFirstReveal={isFirstReveal} />
+            <button
+              type="button"
+              onClick={handleRoll}
+              className="w-full cursor-pointer rounded-xl bg-gradient-to-br from-gold to-[#b8943d] px-6 py-4 font-display text-[15px] font-bold uppercase tracking-wider text-bg-dark shadow-[0_2px_24px_rgba(200,169,81,0.3)] transition-all hover:-translate-y-0.5 hover:from-gold-light hover:to-gold hover:shadow-[0_4px_32px_rgba(200,169,81,0.35)] active:scale-[0.98] active:translate-y-0"
+            >
+              Reveal My Fate
+            </button>
 
-        <div className="mt-3 text-center">
-          <button
-            type="button"
-            onClick={handleShare}
-            className="text-[11px] text-gold-dim transition-colors hover:text-gold-light"
-          >
-            &#128279; Share This Fate
-          </button>
-        </div>
+            <button
+              type="button"
+              onClick={() => setDrawerOpen(true)}
+              className="text-[12px] text-text-dim transition-colors hover:text-gold-dim"
+            >
+              &#9881; Constrain my fate
+            </button>
+          </div>
+        ) : (
+          <>
+            <PlaystyleCardDisplay card={card} isFirstReveal={isFirstReveal} />
 
-        <div className="mt-4 text-center">
-          <button
-            type="button"
-            onClick={handleGenerateBuild}
-            className="rounded-lg border border-border-dark bg-bg-card px-5 py-2.5 font-display text-[12px] font-semibold uppercase tracking-wider text-text-secondary transition-colors hover:border-gold-dim hover:text-gold-light"
-          >
-            &#10024; Generate Build &rarr;
-          </button>
-        </div>
+            <div className="mt-3 flex items-center justify-center gap-4">
+              <button
+                type="button"
+                onClick={handleShare}
+                className="text-[11px] text-gold-dim transition-colors hover:text-gold-light"
+              >
+                &#128279; Share This Fate
+              </button>
+              <span className="text-border-dark">|</span>
+              <button
+                type="button"
+                onClick={handleGenerateBuild}
+                className="text-[11px] text-gold-dim transition-colors hover:text-gold-light"
+              >
+                &#10024; Generate Build &rarr;
+              </button>
+            </div>
+          </>
+        )}
       </div>
 
-      <FateActionBar
-        onRoll={handleRoll}
-        onOpenConstraints={() => setDrawerOpen(true)}
-        pinCount={pinCount}
-      />
+      {hasRolled && (
+        <FateActionBar
+          onRoll={handleRoll}
+          onOpenConstraints={() => setDrawerOpen(true)}
+          pinCount={pinCount}
+        />
+      )}
 
       <ConstraintsDrawer
         open={drawerOpen}

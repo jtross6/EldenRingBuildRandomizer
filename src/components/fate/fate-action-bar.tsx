@@ -6,7 +6,7 @@ interface FateActionBarProps {
 
 export function FateActionBar({ onRoll, onOpenConstraints, pinCount }: FateActionBarProps) {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border-dark bg-bg-deepest/95 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 backdrop-blur-xl">
+    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border-dark bg-bg-deepest px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3">
       <div className="mx-auto flex max-w-[600px] gap-2.5">
         <button
           type="button"

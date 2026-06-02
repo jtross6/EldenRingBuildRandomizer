@@ -78,7 +78,11 @@ export function decodeFate(encoded: string): PlaystyleCard | null {
     const armorClass = ARMOR_CLASSES[bytes[offset++]];
 
     const seed =
-      ((bytes[offset] << 24) | (bytes[offset + 1] << 16) | (bytes[offset + 2] << 8) | bytes[offset + 3]) >>> 0;
+      ((bytes[offset] << 24) |
+        (bytes[offset + 1] << 16) |
+        (bytes[offset + 2] << 8) |
+        bytes[offset + 3]) >>>
+      0;
 
     if (!identity || !stance || !family || !armorClass) return null;
 
