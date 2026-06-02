@@ -4,7 +4,8 @@ import type { BuildPick, GeneratedPick, CommunityPick } from "../types/picks";
 import {
   weapons,
   shields,
-  catalysts,
+  staves,
+  seals,
   talismans,
   ashesOfWar,
   sorceries,
@@ -103,32 +104,68 @@ function GeneratedBuildView({
         <ArmorClassBadge armorClass={generated.armorClass} />
       </EquipmentSection>
 
-      <div className="md:grid md:grid-cols-2 md:items-start md:gap-5">
-        {build.shield >= 0 && (
-          <EquipmentSection title="Shield">
-            <ItemSlot
-              itemName={shields[build.shield]?.name ?? "None"}
-              slotLabel="Shield"
-              slotId="gen-shield"
-              category="shield"
-              variant="standard"
-              onClick={() => onSelectItem(shields[build.shield]?.name ?? "None", "shield")}
-            />
-          </EquipmentSection>
-        )}
-        {build.catalyst >= 0 && (
-          <EquipmentSection title="Catalyst">
-            <ItemSlot
-              itemName={catalysts[build.catalyst]?.name ?? "None"}
-              slotLabel="Seal / Staff"
-              slotId="gen-catalyst"
-              category="seal"
-              variant="standard"
-              onClick={() => onSelectItem(catalysts[build.catalyst]?.name ?? "None", "seal")}
-            />
-          </EquipmentSection>
-        )}
-      </div>
+      {(build.shields?.length ?? 0) > 0 && (
+        <EquipmentSection title="Shields">
+          <div className="grid gap-2">
+            {build.shields!.map((idx, i) => {
+              const name = shields[idx]?.name ?? "Unknown";
+              return (
+                <ItemSlot
+                  key={`gen-shield-${i}`}
+                  itemName={name}
+                  slotLabel="Shield"
+                  slotId={`gen-shield-${i}`}
+                  category="shield"
+                  variant="standard"
+                  onClick={() => onSelectItem(name, "shield")}
+                />
+              );
+            })}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {(build.staves?.length ?? 0) > 0 && (
+        <EquipmentSection title="Staves">
+          <div className="grid gap-2">
+            {build.staves!.map((idx, i) => {
+              const name = staves[idx]?.name ?? "Unknown";
+              return (
+                <ItemSlot
+                  key={`gen-staff-${i}`}
+                  itemName={name}
+                  slotLabel="Staff"
+                  slotId={`gen-staff-${i}`}
+                  category="staff"
+                  variant="standard"
+                  onClick={() => onSelectItem(name, "staff")}
+                />
+              );
+            })}
+          </div>
+        </EquipmentSection>
+      )}
+
+      {(build.seals?.length ?? 0) > 0 && (
+        <EquipmentSection title="Seals">
+          <div className="grid gap-2">
+            {build.seals!.map((idx, i) => {
+              const name = seals[idx]?.name ?? "Unknown";
+              return (
+                <ItemSlot
+                  key={`gen-seal-${i}`}
+                  itemName={name}
+                  slotLabel="Seal"
+                  slotId={`gen-seal-${i}`}
+                  category="seal"
+                  variant="standard"
+                  onClick={() => onSelectItem(name, "seal")}
+                />
+              );
+            })}
+          </div>
+        </EquipmentSection>
+      )}
 
       <EquipmentSection title="Talismans">
         <div className="grid grid-cols-4 gap-2">
