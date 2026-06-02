@@ -1,5 +1,5 @@
 import type { SeedItem, StatProfile } from "../types/generator";
-import { weapons, shields, catalysts, sorceries, incantations, ashesOfWar } from "../data";
+import { weapons, shields, staves, seals, sorceries, incantations, ashesOfWar } from "../data";
 
 const AFFINITY_STAT_MAP: Record<string, Record<string, number>> = {
   Heavy: { strength: 1.0 },
@@ -22,8 +22,10 @@ function getWeaponScaling(name: string): Record<string, number> | undefined {
   if (w?.scaling) return w.scaling;
   const s = shields.find((s) => s.name === name);
   if (s?.scaling) return s.scaling;
-  const c = catalysts.find((c) => c.name === name);
-  if (c?.scaling) return c.scaling;
+  const st = staves.find((st) => st.name === name);
+  if (st?.scaling) return st.scaling;
+  const se = seals.find((se) => se.name === name);
+  if (se?.scaling) return se.scaling;
   return undefined;
 }
 
@@ -49,7 +51,8 @@ export function extractStatProfile(seedItems: SeedItem[]): StatProfile {
     switch (item.type) {
       case "weapon":
       case "shield":
-      case "catalyst":
+      case "staff":
+      case "seal":
         contributions = getWeaponScaling(item.name);
         break;
       case "spell": {
