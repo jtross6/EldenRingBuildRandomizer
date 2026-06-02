@@ -228,7 +228,7 @@ function AshStats({ detail }: { detail: AshDetail }) {
 }
 
 function isArmamentCategory(cat: ItemCategory): boolean {
-  return cat === "weapon" || cat === "shield" || cat === "seal";
+  return cat === "weapon" || cat === "shield" || cat === "seal" || cat === "staff";
 }
 
 function DetailContent({ itemName, category }: { itemName: string; category: ItemCategory }) {
@@ -369,7 +369,8 @@ const CATEGORY_LABELS: Record<ItemCategory, string> = {
   weapon: "Weapon",
   armor: "Armor",
   shield: "Shield",
-  seal: "Catalyst",
+  seal: "Seal",
+  staff: "Staff",
   talisman: "Talisman",
   ash: "Ash of War",
   spell: "Spell",
