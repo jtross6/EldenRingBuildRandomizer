@@ -6,9 +6,7 @@
       "Incantations must be memorized first at a site of grace, and a sacred seal must be equipped to cast them."
     ],
     "rarity": "Common",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -39,9 +37,7 @@
       "Said to represent the manipulation of black flame, this catalyst enhances godslayer incantations."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -72,9 +68,7 @@
       "Sacred seal wielded by Fire Monks and Prelates, this catalyst enhances Giants' Flame incantations."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -105,9 +99,7 @@
       "The worship of the ancient dragons does not conflict with belief in the Erdtree. After all, this seal, and lightning itself, are both imbued with gold."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -138,9 +130,7 @@
       "The claw mark represents Gurranq's wrath. Enhances bestial incantations learned from Gurranq."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 31
     },
@@ -171,9 +161,7 @@
       "Fundamentalism is scholarship in all but name. Scales incantations using both intelligence and faith."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 24
     },
@@ -204,9 +192,7 @@
       "Even though the Elden Ring is shattered, and the Erdtree has dulled from its former radiance, earnest faith continues to hold the answers."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25,
       "holy": 15
@@ -238,9 +224,7 @@
       "This seal scales incantations with one's arcane attribute."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },
@@ -271,9 +255,7 @@
       "This seal is the mark of the Lord of Frenzied Flame. Scales incantations using strength, dexterity, intelligence, and faith all together."
     ],
     "rarity": "Rare",
-    "attackAttributes": [
-      "Strike"
-    ],
+    "attackAttributes": ["Strike"],
     "damage": {
       "physical": 25
     },

@@ -11,9 +11,7 @@
       "strength": 4,
       "faith": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -28,9 +26,7 @@
       "faith": 10,
       "arcane": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -45,9 +41,7 @@
       "strength": 8,
       "faith": 27
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Erdtree Seal",
@@ -59,10 +53,7 @@
     "requirements": {
       "faith": 40
     },
-    "damageTypes": [
-      "physical",
-      "holy"
-    ],
+    "damageTypes": ["physical", "holy"],
     "defaultSkillId": 10
   },
   {
@@ -77,9 +68,7 @@
       "strength": 4,
       "faith": 10
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -94,9 +83,7 @@
       "strength": 8,
       "faith": 23
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   },
   {
     "name": "Frenzied Flame Seal",
@@ -108,9 +95,7 @@
       "intelligence": 0.2,
       "faith": 0.4
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "statusEffects": {
       "madness": 55
     },
@@ -128,9 +113,7 @@
       "strength": 4,
       "faith": 14
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -145,9 +128,7 @@
       "strength": 4,
       "faith": 27
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -162,9 +143,7 @@
       "intelligence": 17,
       "faith": 17
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -179,9 +158,7 @@
       "strength": 4,
       "faith": 18
     },
-    "damageTypes": [
-      "physical"
-    ],
+    "damageTypes": ["physical"],
     "defaultSkillId": 10
   },
   {
@@ -196,8 +173,6 @@
       "strength": 8,
       "faith": 17
     },
-    "damageTypes": [
-      "physical"
-    ]
+    "damageTypes": ["physical"]
   }
 ]

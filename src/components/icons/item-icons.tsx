@@ -77,7 +77,15 @@ export function SpellIcon(props: IconProps) {
   );
 }
 
-export type ItemCategory = "weapon" | "armor" | "shield" | "seal" | "staff" | "talisman" | "ash" | "spell";
+export type ItemCategory =
+  | "weapon"
+  | "armor"
+  | "shield"
+  | "seal"
+  | "staff"
+  | "talisman"
+  | "ash"
+  | "spell";
 
 const ICON_MAP: Record<ItemCategory, (props: IconProps) => React.ReactElement> = {
   weapon: WeaponIcon,

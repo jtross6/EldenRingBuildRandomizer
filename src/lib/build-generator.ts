@@ -399,12 +399,8 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const seedShieldIndices = new Set(
     seedItems.filter((s) => s.type === "shield").map((s) => s.index),
   );
-  const seedStaffIndices = new Set(
-    seedItems.filter((s) => s.type === "staff").map((s) => s.index),
-  );
-  const seedSealIndices = new Set(
-    seedItems.filter((s) => s.type === "seal").map((s) => s.index),
-  );
+  const seedStaffIndices = new Set(seedItems.filter((s) => s.type === "staff").map((s) => s.index));
+  const seedSealIndices = new Set(seedItems.filter((s) => s.type === "seal").map((s) => s.index));
   const seedTalismanIndices = new Set(
     seedItems.filter((s) => s.type === "talisman").map((s) => s.index),
   );
