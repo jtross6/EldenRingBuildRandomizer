@@ -1,6 +1,11 @@
 import { useEffect, useState, useRef } from "react";
 import type { PlaystyleCard, MagicSchool } from "../../types/fate";
-import { SUB_GROUP_LABELS, SCHOOL_LABELS, isSorcerySchool } from "../../lib/fate/taxonomy";
+import {
+  SUB_GROUP_LABELS,
+  SUB_GROUP_LABELS_SINGULAR,
+  SCHOOL_LABELS,
+  isSorcerySchool,
+} from "../../lib/fate/taxonomy";
 
 import godrickRune from "../../assets/great-runes/godrick_gr.webp";
 import maleniaRune from "../../assets/great-runes/malenia_gr.webp";
@@ -15,13 +20,6 @@ interface PlaystyleCardDisplayProps {
   isFirstReveal: boolean;
 }
 
-const IDENTITY_LABELS: Record<string, string> = {
-  warrior: "Warrior",
-  spellcaster: "Spellcaster",
-  spellblade: "Spellblade",
-  skirmisher: "Skirmisher",
-};
-
 const GREAT_RUNES = [
   godrickRune,
   maleniaRune,
@@ -34,9 +32,10 @@ const GREAT_RUNES = [
 
 function getCombatValue(card: PlaystyleCard): string {
   if (card.stance === "ranged") return "Ranged";
+  if (card.stance === "sword-board")
+    return `${SUB_GROUP_LABELS_SINGULAR[card.subGroups[0]]} + Shield`;
+  if (card.stance === "two-hand") return `Two-hand ${SUB_GROUP_LABELS_SINGULAR[card.subGroups[0]]}`;
   const primary = SUB_GROUP_LABELS[card.subGroups[0]];
-  if (card.stance === "sword-board") return `${primary} + Shield`;
-  if (card.stance === "two-hand") return `Two-hand ${primary}`;
   if (card.subGroups[0] === card.subGroups[1]) return `Powerstance ${primary}`;
   const secondary = SUB_GROUP_LABELS[card.subGroups[1]];
   return `Dual-wield ${primary} & ${secondary}`;
@@ -51,12 +50,15 @@ function getWeaponNoun(card: PlaystyleCard): string {
   if (card.stance === "dual-wield" && card.subGroups[0] !== card.subGroups[1]) {
     return `${SUB_GROUP_LABELS[card.subGroups[0]].toLowerCase()} and ${SUB_GROUP_LABELS[card.subGroups[1]].toLowerCase()}`;
   }
+  if (card.stance === "two-hand" || card.stance === "sword-board") {
+    return SUB_GROUP_LABELS_SINGULAR[card.subGroups[0]].toLowerCase();
+  }
   return SUB_GROUP_LABELS[card.subGroups[0]].toLowerCase();
 }
 
 const MAGIC_ROLES: Record<string, string> = {
   spellcaster: "are your primary weapon",
-  spellblade: "complement your blade work",
+  spellblade: "complement your attacks",
   skirmisher: "add utility at range",
 };
 
@@ -65,7 +67,7 @@ function getTacticalSummary(card: PlaystyleCard): string {
   let weaponPart: string;
   switch (card.stance) {
     case "two-hand":
-      weaponPart = `Grip ${noun} with both hands for extra damage and stagger`;
+      weaponPart = `Grip your ${noun} with both hands for extra damage and stagger`;
       break;
     case "dual-wield":
       weaponPart =
@@ -74,7 +76,7 @@ function getTacticalSummary(card: PlaystyleCard): string {
           : `Dual-wield ${noun} for relentless aggression`;
       break;
     case "sword-board":
-      weaponPart = `Pair ${noun} with a shield for staying power`;
+      weaponPart = `Pair your ${noun} with a shield for staying power`;
       break;
     case "ranged":
       weaponPart = `Strike from range, close to melee only when cornered`;
@@ -174,7 +176,7 @@ export function PlaystyleCardDisplay({ card, isFirstReveal }: PlaystyleCardDispl
     setAnimPhase("details");
   }, [card.seed, isFirstReveal]);
 
-  const subtitle = IDENTITY_LABELS[card.identity];
+  const subtitle = card.flavorIdentity;
   const tacticalSummary = getTacticalSummary(card);
   const showWatermark = animPhase === "name" || animPhase === "details";
 

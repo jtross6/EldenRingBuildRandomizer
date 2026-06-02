@@ -25,6 +25,7 @@ import {
 } from "./taxonomy";
 import { generateFateName } from "./fate-namer";
 import { generateFlavorText } from "./flavor-text";
+import { resolveFlavorIdentity } from "./flavor-identity";
 
 function pick<T>(arr: T[], rng: SeededRng): T {
   return arr[rng.randomInt(arr.length)];
@@ -75,16 +76,31 @@ export function deriveDynamicFields(
   school: MagicSchool | null,
   statusEffect: StatusEffect | null,
   seed: number,
-): { primaryStats: string[]; subGroups: WeaponSubGroup[]; name: string; flavor: string } {
+): {
+  primaryStats: string[];
+  subGroups: WeaponSubGroup[];
+  name: string;
+  flavor: string;
+  flavorIdentity: string;
+} {
   const rng = createRng(seed ^ DERIVED_SEED_XOR);
 
   const statOptions = IDENTITY_STATS[identity];
   const primaryStats = statOptions[rng.randomInt(statOptions.length)];
   const subGroups = pickSubGroups(family, stance, rng);
   const name = generateFateName(identity, stance, subGroups[0], school, statusEffect, rng);
-  const flavor = generateFlavorText(identity, stance, family, school, statusEffect, rng);
+  const flavor = generateFlavorText(
+    identity,
+    stance,
+    family,
+    school,
+    statusEffect,
+    rng,
+    subGroups[0],
+  );
+  const flavorIdentity = resolveFlavorIdentity(subGroups[0], stance, identity, school);
 
-  return { primaryStats, subGroups, name, flavor };
+  return { primaryStats, subGroups, name, flavor, flavorIdentity };
 }
 
 export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number): PlaystyleCard {
@@ -131,7 +147,7 @@ export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number
   // 6. Resolve armor class
   const armorClass: ArmorClass = constraints.armorClass ?? deriveArmorClass(identity, family);
 
-  const { primaryStats, subGroups, name, flavor } = deriveDynamicFields(
+  const { primaryStats, subGroups, name, flavor, flavorIdentity } = deriveDynamicFields(
     identity,
     stance,
     family,
@@ -151,6 +167,7 @@ export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number
     primaryStats,
     name,
     flavor,
+    flavorIdentity,
     seed,
   };
 }

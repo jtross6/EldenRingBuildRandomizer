@@ -83,7 +83,7 @@ export function decodeFate(encoded: string): PlaystyleCard | null {
 
     if (!identity || !stance || !family || !armorClass) return null;
 
-    const { primaryStats, subGroups, name, flavor } = deriveDynamicFields(
+    const { primaryStats, subGroups, name, flavor, flavorIdentity } = deriveDynamicFields(
       identity,
       stance,
       family,
@@ -103,6 +103,7 @@ export function decodeFate(encoded: string): PlaystyleCard | null {
       primaryStats,
       name,
       flavor,
+      flavorIdentity,
       seed,
     };
   } catch {

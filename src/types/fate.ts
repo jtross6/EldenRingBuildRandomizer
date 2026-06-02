@@ -68,6 +68,7 @@ export interface PlaystyleCard {
   primaryStats: string[];
   name: string;
   flavor: string;
+  flavorIdentity: string;
   seed: number;
 }
 
