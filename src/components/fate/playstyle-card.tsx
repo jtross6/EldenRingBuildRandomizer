@@ -68,9 +68,10 @@ function getTacticalSummary(card: PlaystyleCard): string {
       weaponPart = `Grip ${noun} with both hands for extra damage and stagger`;
       break;
     case "dual-wield":
-      weaponPart = card.subGroups[0] === card.subGroups[1]
-        ? `Powerstance ${noun} for relentless aggression`
-        : `Dual-wield ${noun} for relentless aggression`;
+      weaponPart =
+        card.subGroups[0] === card.subGroups[1]
+          ? `Powerstance ${noun} for relentless aggression`
+          : `Dual-wield ${noun} for relentless aggression`;
       break;
     case "sword-board":
       weaponPart = `Pair ${noun} with a shield for staying power`;

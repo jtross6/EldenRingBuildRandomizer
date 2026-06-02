@@ -91,9 +91,7 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
         exclude.add(shuffled[0]);
       }
       if (card.subGroups[0] === card.subGroups[1]) {
-        const remaining = filterWeaponsBySubGroup(card.subGroups[1]).filter(
-          (i) => !exclude.has(i),
-        );
+        const remaining = filterWeaponsBySubGroup(card.subGroups[1]).filter((i) => !exclude.has(i));
         if (remaining.length > 0) {
           const shuffled = rng.shuffle(remaining);
           weaponsLeft.push(shuffled[0]);
@@ -130,8 +128,7 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       const meleeWeapons = weapons
         .map((w, i) => ({ w, i }))
         .filter(
-          ({ w }) =>
-            !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category),
+          ({ w }) => !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category),
         )
         .map(({ i }) => i);
       if (meleeWeapons.length > 0) {
