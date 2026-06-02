@@ -39,6 +39,17 @@ export function SealIcon(props: IconProps) {
   );
 }
 
+export function StaffIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} {...props}>
+      <path d="M12 2v16" />
+      <circle cx={12} cy={4} r={2} />
+      <path d="M8 20h8" />
+      <path d="M9 18l3-2 3 2" />
+    </svg>
+  );
+}
+
 export function TalismanIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} {...props}>
@@ -66,13 +77,14 @@ export function SpellIcon(props: IconProps) {
   );
 }
 
-export type ItemCategory = "weapon" | "armor" | "shield" | "seal" | "talisman" | "ash" | "spell";
+export type ItemCategory = "weapon" | "armor" | "shield" | "seal" | "staff" | "talisman" | "ash" | "spell";
 
 const ICON_MAP: Record<ItemCategory, (props: IconProps) => React.ReactElement> = {
   weapon: WeaponIcon,
   armor: ArmorIcon,
   shield: ShieldIcon,
   seal: SealIcon,
+  staff: StaffIcon,
   talisman: TalismanIcon,
   ash: AshIcon,
   spell: SpellIcon,
@@ -83,6 +95,7 @@ const CAT_CLASS_MAP: Record<ItemCategory, string> = {
   armor: "cat-armor",
   shield: "cat-shield",
   seal: "cat-seal",
+  staff: "cat-seal",
   talisman: "cat-talisman",
   ash: "cat-ash",
   spell: "cat-spell",
