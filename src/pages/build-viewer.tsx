@@ -6,7 +6,8 @@ import { generateRandomBuild } from "../lib/randomizer";
 import {
   weapons,
   shields,
-  catalysts,
+  staves,
+  seals,
   armorHead,
   armorBody,
   armorArms,
@@ -102,9 +103,6 @@ export function BuildViewerPage() {
     { name: armorLegs[build.legs]?.name ?? "Unknown", label: "Leg Armor", slotId: "legs" },
   ];
 
-  const shieldName = shields[build.shield]?.name ?? "Unknown";
-  const catalystName = catalysts[build.catalyst]?.name ?? "Unknown";
-
   const talismanNames = build.talismans.map((idx) => talismans[idx]?.name ?? "Unknown");
   const ashNames = build.ashesOfWar.map((idx) => ashesOfWar[idx]?.name ?? "Unknown");
   const sorceryNames = build.sorceries.map((idx) => sorceries[idx]?.name ?? "Unknown");
@@ -158,28 +156,70 @@ export function BuildViewerPage() {
               ))}
             </div>
           </EquipmentSection>
+        </div>
 
-          <EquipmentSection title="Shield & Catalyst">
+        {(build.shields?.length ?? 0) > 0 && (
+          <EquipmentSection title="Shields">
             <div className="grid gap-2">
-              <ItemSlot
-                itemName={shieldName}
-                slotLabel="Shield"
-                slotId="shield"
-                category="shield"
-                variant="standard"
-                onClick={() => selectItem(shieldName, "shield")}
-              />
-              <ItemSlot
-                itemName={catalystName}
-                slotLabel="Seal / Staff"
-                slotId="catalyst"
-                category="seal"
-                variant="standard"
-                onClick={() => selectItem(catalystName, "seal")}
-              />
+              {build.shields!.map((idx, i) => {
+                const name = shields[idx]?.name ?? "Unknown";
+                return (
+                  <ItemSlot
+                    key={`shield-${i}`}
+                    itemName={name}
+                    slotLabel="Shield"
+                    slotId={`shield-${i}`}
+                    category="shield"
+                    variant="standard"
+                    onClick={() => selectItem(name, "shield")}
+                  />
+                );
+              })}
             </div>
           </EquipmentSection>
-        </div>
+        )}
+
+        {(build.staves?.length ?? 0) > 0 && (
+          <EquipmentSection title="Staves">
+            <div className="grid gap-2">
+              {build.staves!.map((idx, i) => {
+                const name = staves[idx]?.name ?? "Unknown";
+                return (
+                  <ItemSlot
+                    key={`staff-${i}`}
+                    itemName={name}
+                    slotLabel="Staff"
+                    slotId={`staff-${i}`}
+                    category="staff"
+                    variant="standard"
+                    onClick={() => selectItem(name, "staff")}
+                  />
+                );
+              })}
+            </div>
+          </EquipmentSection>
+        )}
+
+        {(build.seals?.length ?? 0) > 0 && (
+          <EquipmentSection title="Seals">
+            <div className="grid gap-2">
+              {build.seals!.map((idx, i) => {
+                const name = seals[idx]?.name ?? "Unknown";
+                return (
+                  <ItemSlot
+                    key={`seal-${i}`}
+                    itemName={name}
+                    slotLabel="Seal"
+                    slotId={`seal-${i}`}
+                    category="seal"
+                    variant="standard"
+                    onClick={() => selectItem(name, "seal")}
+                  />
+                );
+              })}
+            </div>
+          </EquipmentSection>
+        )}
 
         <EquipmentSection title="Talismans">
           <div className="grid grid-cols-4 gap-2">
