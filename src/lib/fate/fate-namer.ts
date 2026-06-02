@@ -1,7 +1,7 @@
 import type {
   CombatIdentity,
   WeaponStance,
-  WeaponFamily,
+  WeaponSubGroup,
   MagicSchool,
   StatusEffect,
 } from "../../types/fate";
@@ -32,14 +32,30 @@ const STATUS_ADJECTIVES: Record<string, string[]> = {
   sleep: ["Dreaming", "Twilight", "Somnolent", "Misty"],
 };
 
-const FAMILY_ROLES: Record<string, string[]> = {
-  "light-blades": ["Dancer", "Shadow", "Duelist", "Whisper"],
-  "heavy-blades": ["Knight", "Sentinel", "Crusader", "Blade"],
-  colossal: ["Colossus", "Titan", "Juggernaut", "Destroyer"],
-  "axes-hammers": ["Breaker", "Crusher", "Executioner", "Ravager"],
-  polearms: ["Lancer", "Dragoon", "Warden", "Impaler"],
-  "agile-exotic": ["Brawler", "Windcutter", "Cyclone", "Striker"],
-  ranged: ["Marksman", "Ranger", "Sniper", "Archer"],
+const SUB_GROUP_ROLES: Record<string, string[]> = {
+  daggers: ["Shadow", "Whisper", "Stiletto", "Viper"],
+  "curved-swords": ["Dancer", "Dervish", "Crescent", "Duelist"],
+  katanas: ["Ronin", "Kensei", "Blade", "Wanderer"],
+  "thrusting-swords": ["Duelist", "Fencer", "Rapier", "Piercer"],
+  "backhand-blades": ["Reaver", "Ripper", "Slasher", "Unseen"],
+  "throwing-blades": ["Flicker", "Thorn", "Needle", "Dart"],
+  "straight-swords": ["Knight", "Sentinel", "Crusader", "Sword"],
+  greatswords: ["Greatsword", "Claymore", "Bastion", "Vanquisher"],
+  "great-katanas": ["Shogun", "Warden", "Odachi", "Cleaver"],
+  "colossal-swords": ["Titan", "Destroyer", "Monolith", "Colossus"],
+  "colossal-weapons": ["Juggernaut", "Devastator", "Earthshaker", "Colossus"],
+  axes: ["Cleaver", "Executioner", "Hewer", "Chopper"],
+  hammers: ["Breaker", "Crusher", "Smiter", "Hammer"],
+  spears: ["Lancer", "Dragoon", "Impaler", "Pikeman"],
+  halberds: ["Warden", "Sentinel", "Halberdier", "Vanguard"],
+  reapers: ["Harvester", "Deathbringer", "Scythe", "Reaper"],
+  twinblades: ["Cyclone", "Windcutter", "Tempest", "Dervish"],
+  whips: ["Lasher", "Scourge", "Flayer", "Serpent"],
+  "fist-weapons": ["Brawler", "Pugilist", "Striker", "Fist"],
+  torches: ["Firebrand", "Torchbearer", "Lightbringer", "Ember"],
+  "perfume-bottles": ["Alchemist", "Perfumer", "Apothecary", "Mist"],
+  bows: ["Marksman", "Archer", "Longshot", "Ranger"],
+  crossbows: ["Sniper", "Arbalist", "Bolter", "Sharpshooter"],
 };
 
 const IDENTITY_ROLES: Record<string, string[]> = {
@@ -56,7 +72,7 @@ function pickFrom(pool: string[], rng: SeededRng): string {
 export function generateFateName(
   identity: CombatIdentity,
   _stance: WeaponStance,
-  family: WeaponFamily,
+  subGroup: WeaponSubGroup,
   school: MagicSchool | null,
   statusEffect: StatusEffect | null,
   rng: SeededRng,
@@ -67,20 +83,20 @@ export function generateFateName(
       ? (STATUS_ADJECTIVES[statusEffect] ?? ["Savage", "Iron", "Steel", "Brutal"])
       : ["Savage", "Iron", "Steel", "Brutal", "Stone", "Heavy"];
 
-  const familyRoles = FAMILY_ROLES[family] ?? FAMILY_ROLES["heavy-blades"];
+  const subGroupRoles = SUB_GROUP_ROLES[subGroup] ?? SUB_GROUP_ROLES["straight-swords"];
   const identityRoles = IDENTITY_ROLES[identity] ?? IDENTITY_ROLES.warrior;
 
   const templateIdx = rng.randomInt(4);
   switch (templateIdx) {
     case 0:
-      return `${pickFrom(adjPool, rng)} ${pickFrom(familyRoles, rng)}`;
+      return `${pickFrom(adjPool, rng)} ${pickFrom(subGroupRoles, rng)}`;
     case 1:
       return `${pickFrom(adjPool, rng)} ${pickFrom(identityRoles, rng)}`;
     case 2:
-      return `${pickFrom(familyRoles, rng)} of ${pickFrom(adjPool, rng).replace(/ing$/, "")}`;
+      return `${pickFrom(subGroupRoles, rng)} of ${pickFrom(adjPool, rng).replace(/ing$/, "")}`;
     case 3: {
       const adj = pickFrom(adjPool, rng).toLowerCase();
-      const role = pickFrom(familyRoles, rng).toLowerCase();
+      const role = pickFrom(subGroupRoles, rng).toLowerCase();
       return `${adj.charAt(0).toUpperCase()}${adj.slice(1)}${role}`;
     }
     default:
