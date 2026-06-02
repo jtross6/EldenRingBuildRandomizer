@@ -1,6 +1,6 @@
 import type { Build } from "../types/build";
 
-const CODEC_VERSION = 1;
+const CODEC_VERSION = 2;
 
 function toBase64Url(bytes: Uint8Array): string {
   let binary = "";
@@ -64,8 +64,9 @@ export function encodeBuild(build: Build): string {
   writeIndex(build.chest);
   writeIndex(build.gauntlets);
   writeIndex(build.legs);
-  writeIndex(build.shield);
-  writeIndex(build.catalyst);
+  writeArray(build.shields ?? []);
+  writeArray(build.staves ?? []);
+  writeArray(build.seals ?? []);
   writeArray(build.talismans);
   writeArray(build.ashesOfWar);
   writeArray(build.sorceries);
@@ -129,8 +130,9 @@ export function decodeBuild(encoded: string): Build | null {
     const chest = readUint16();
     const gauntlets = readUint16();
     const legs = readUint16();
-    const shield = readUint16();
-    const catalyst = readUint16();
+    const shields = readArray();
+    const staves = readArray();
+    const seals = readArray();
     const talismans = readArray();
     const ashesOfWar = readArray();
     const sorceries = readArray();
@@ -145,8 +147,9 @@ export function decodeBuild(encoded: string): Build | null {
       chest,
       gauntlets,
       legs,
-      shield,
-      catalyst,
+      shields: shields.length > 0 ? shields : undefined,
+      staves: staves.length > 0 ? staves : undefined,
+      seals: seals.length > 0 ? seals : undefined,
       talismans,
       ashesOfWar,
       sorceries,
