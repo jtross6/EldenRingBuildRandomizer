@@ -1,11 +1,10 @@
-import { createRouter, createRoute, createRootRoute } from "@tanstack/react-router";
+import {
+  createRouter,
+  createRoute,
+  createRootRoute,
+  lazyRouteComponent,
+} from "@tanstack/react-router";
 import { RootLayout } from "./components/layout/root-layout";
-import { LandingPage } from "./pages/landing";
-import { BuildViewerPage } from "./pages/build-viewer";
-import { GeneratePage } from "./pages/generate";
-import { PicksPage } from "./pages/picks";
-import { GenerateBuildPage } from "./pages/generate-build";
-import { FatePage } from "./pages/fate";
 
 const rootRoute = createRootRoute({
   component: RootLayout,
@@ -14,7 +13,7 @@ const rootRoute = createRootRoute({
 export const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/",
-  component: LandingPage,
+  component: lazyRouteComponent(() => import("./pages/landing"), "LandingPage"),
 });
 
 export const randomRoute = createRoute({
@@ -23,25 +22,25 @@ export const randomRoute = createRoute({
   validateSearch: (search: Record<string, unknown>): { build?: string } => ({
     build: typeof search.build === "string" ? search.build : undefined,
   }),
-  component: BuildViewerPage,
+  component: lazyRouteComponent(() => import("./pages/build-viewer"), "BuildViewerPage"),
 });
 
 export const generateRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/generate",
-  component: GeneratePage,
+  component: lazyRouteComponent(() => import("./pages/generate"), "GeneratePage"),
 });
 
 export const picksRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/generate/picks",
-  component: PicksPage,
+  component: lazyRouteComponent(() => import("./pages/picks"), "PicksPage"),
 });
 
 export const generateBuildRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/generate/build",
-  component: GenerateBuildPage,
+  component: lazyRouteComponent(() => import("./pages/generate-build"), "GenerateBuildPage"),
 });
 
 export const fateRoute = createRoute({
@@ -50,7 +49,7 @@ export const fateRoute = createRoute({
   validateSearch: (search: Record<string, unknown>): { fate?: string } => ({
     fate: typeof search.fate === "string" ? search.fate : undefined,
   }),
-  component: FatePage,
+  component: lazyRouteComponent(() => import("./pages/fate"), "FatePage"),
 });
 
 const routeTree = rootRoute.addChildren([

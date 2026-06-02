@@ -60,6 +60,10 @@ Single-route app using TanStack Router. The index route validates a `?build=` se
 - **Styling**: Tailwind CSS v4 with `@tailwindcss/vite` plugin
 - **UI library**: Base UI (`@base-ui/react`) for unstyled primitives
 
+## Playwright Screenshots
+
+Save all Playwright screenshots to `.playwright/<context>/` where `<context>` is a short kebab-case name describing the feature or page being captured (e.g. `.playwright/landing-page/`, `.playwright/fate-drawer/`). This keeps screenshots organized and out of the repo root.
+
 ## Deployment
 
 Push to `main` triggers GitHub Actions (`.github/workflows/deploy.yml`) which builds and deploys to GitHub Pages. Vite sets `base: "/EldenRingBuildRandomizer/"` in production mode.
