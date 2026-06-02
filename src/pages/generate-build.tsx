@@ -22,6 +22,7 @@ import { useToast } from "../hooks/use-toast";
 import { encodeBuild } from "../lib/build-codec";
 import { prefetchItemDetails } from "../hooks/use-item-details";
 import type { ItemCategory } from "../components/icons/item-icons";
+import { seedGuidedHand } from "../lib/guided-hand-nav";
 
 const PICK_KEY = "erbr-selected-pick";
 
@@ -330,6 +331,12 @@ export function GenerateBuildPage() {
     setSelectedItem({ name, category });
   }
 
+  function handleGuidedHand(name: string, category: ItemCategory) {
+    if (seedGuidedHand(name, category)) {
+      navigate({ to: "/generate/picks" });
+    }
+  }
+
   return (
     <div className="animate-fade-in">
       <div className="mb-4">
@@ -353,6 +360,11 @@ export function GenerateBuildPage() {
           itemName={selectedItem.name}
           category={selectedItem.category}
           onClose={() => setSelectedItem(null)}
+          onGuidedHand={
+            selectedItem.category !== "armor"
+              ? () => handleGuidedHand(selectedItem.name, selectedItem.category)
+              : undefined
+          }
         />
       )}
     </div>
