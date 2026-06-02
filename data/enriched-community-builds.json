@@ -4312,8 +4312,8 @@
     "playstyle": "Two-handed great katana executioner with charged thrusts"
   },
   {
-    "id": "magmablade",
-    "name": "Magma Blade",
+    "id": "magmaspitter",
+    "name": "Magma Spitter",
     "class": "",
     "primaryStats": [
       "strength",
