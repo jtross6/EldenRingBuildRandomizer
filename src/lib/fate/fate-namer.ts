@@ -58,6 +58,17 @@ const SUB_GROUP_ROLES: Record<string, string[]> = {
   crossbows: ["Sniper", "Arbalist", "Bolter", "Sharpshooter"],
 };
 
+const SHIELD_ROLES: string[] = [
+  "Bulwark",
+  "Fortress",
+  "Rampart",
+  "Bastion",
+  "Shield Wall",
+  "Ironclad",
+  "Phalanx",
+  "Aegis",
+];
+
 const IDENTITY_ROLES: Record<string, string[]> = {
   warrior: ["Warrior", "Champion", "Berserker", "Warlord"],
   spellcaster: ["Sage", "Sorcerer", "Prophet", "Oracle"],
@@ -71,8 +82,8 @@ function pickFrom(pool: string[], rng: SeededRng): string {
 
 export function generateFateName(
   identity: CombatIdentity,
-  _stance: WeaponStance,
-  subGroup: WeaponSubGroup,
+  stance: WeaponStance,
+  subGroup: WeaponSubGroup | null,
   school: MagicSchool | null,
   statusEffect: StatusEffect | null,
   rng: SeededRng,
@@ -83,7 +94,9 @@ export function generateFateName(
       ? (STATUS_ADJECTIVES[statusEffect] ?? ["Savage", "Iron", "Steel", "Brutal"])
       : ["Savage", "Iron", "Steel", "Brutal", "Stone", "Heavy"];
 
-  const subGroupRoles = SUB_GROUP_ROLES[subGroup] ?? SUB_GROUP_ROLES["straight-swords"];
+  const subGroupRoles = stance === "double-shield"
+    ? SHIELD_ROLES
+    : (SUB_GROUP_ROLES[subGroup!] ?? SUB_GROUP_ROLES["straight-swords"]);
   const identityRoles = IDENTITY_ROLES[identity] ?? IDENTITY_ROLES.warrior;
 
   const templateIdx = rng.randomInt(4);
