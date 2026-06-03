@@ -1,15 +1,14 @@
+import type { ArmamentRef } from "../lib/armaments";
+
 export interface Build {
   buildName?: string;
   buildImage?: string;
-  weaponsRight: number[];
-  weaponsLeft: number[];
+  rightHand: ArmamentRef[];
+  leftHand: ArmamentRef[];
   helm: number;
   chest: number;
   gauntlets: number;
   legs: number;
-  shields?: number[];
-  staves?: number[];
-  seals?: number[];
   talismans: number[];
   ashesOfWar: number[];
   sorceries: number[];
