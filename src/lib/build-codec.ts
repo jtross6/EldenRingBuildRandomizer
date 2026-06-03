@@ -19,10 +19,7 @@ function toBase64Url(bytes: Uint8Array): string {
   for (const byte of bytes) {
     binary += String.fromCharCode(byte);
   }
-  return btoa(binary)
-    .replace(/\+/g, "-")
-    .replace(/\//g, "_")
-    .replace(/=+$/, "");
+  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
 function fromBase64Url(str: string): Uint8Array | null {
@@ -55,9 +52,7 @@ function encodeHandSlots(refs: ArmamentRef[]): number[] {
   return parts;
 }
 
-function decodeHandSlots(
-  readByte: () => number,
-): ArmamentRef[] {
+function decodeHandSlots(readByte: () => number): ArmamentRef[] {
   const refs: ArmamentRef[] = [];
   for (let i = 0; i < HAND_SLOTS; i++) {
     const hi = readByte();
@@ -75,8 +70,7 @@ function decodeHandSlots(
 export function encodeBuild(build: Build): string {
   const parts: number[] = [];
 
-  const flags =
-    (build.buildName ? 0x01 : 0) | (build.buildImage ? 0x02 : 0);
+  const flags = (build.buildName ? 0x01 : 0) | (build.buildImage ? 0x02 : 0);
 
   parts.push(CODEC_VERSION);
   parts.push(flags);

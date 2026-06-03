@@ -79,7 +79,14 @@ function SlotImage({
   );
 }
 
-export function ItemSlot({ itemName, slotLabel, category, variant, isEmpty, onClick }: ItemSlotProps) {
+export function ItemSlot({
+  itemName,
+  slotLabel,
+  category,
+  variant,
+  isEmpty,
+  onClick,
+}: ItemSlotProps) {
   const interactive = !!onClick;
   const interactiveClasses = interactive ? "cursor-pointer active:scale-[0.98]" : "";
   const emptyClasses = isEmpty ? "opacity-30" : "";

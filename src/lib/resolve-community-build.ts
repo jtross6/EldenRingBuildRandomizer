@@ -42,10 +42,7 @@ function normalize(name: string): string {
     .trim();
 }
 
-function findByName<T extends { name: string }>(
-  arr: readonly T[],
-  name: string,
-): number {
+function findByName<T extends { name: string }>(arr: readonly T[], name: string): number {
   const norm = normalize(name);
   return arr.findIndex((item) => normalize(item.name) === norm);
 }
@@ -129,9 +126,10 @@ function resolveSkills(names: string[] | undefined): ResolvedItem[] {
   return resolved;
 }
 
-function resolveSpells(
-  names: string[] | undefined,
-): { sorceries: ResolvedItem[]; incantations: ResolvedItem[] } {
+function resolveSpells(names: string[] | undefined): {
+  sorceries: ResolvedItem[];
+  incantations: ResolvedItem[];
+} {
   if (!names) return { sorceries: [], incantations: [] };
   const resolvedSorceries: ResolvedItem[] = [];
   const resolvedIncantations: ResolvedItem[] = [];

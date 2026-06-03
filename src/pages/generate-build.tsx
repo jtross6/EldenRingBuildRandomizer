@@ -1,12 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import type { BuildPick, GeneratedPick, CommunityPick } from "../types/picks";
-import {
-  talismans,
-  ashesOfWar,
-  sorceries,
-  incantations,
-} from "../data";
+import { talismans, ashesOfWar, sorceries, incantations } from "../data";
 import { armamentName } from "../lib/armaments";
 import { BuildIdentity } from "../components/equipment/build-identity";
 import { EquipmentSection } from "../components/equipment/equipment-section";
@@ -20,10 +15,7 @@ import { encodeBuild } from "../lib/build-codec";
 import { prefetchItemDetails } from "../hooks/use-item-details";
 import type { ItemCategory } from "../components/icons/item-icons";
 import { seedGuidedHand } from "../lib/guided-hand-nav";
-import {
-  resolveCommunityBuild,
-  ARMOR_LABELS,
-} from "../lib/resolve-community-build";
+import { resolveCommunityBuild, ARMOR_LABELS } from "../lib/resolve-community-build";
 
 const PICK_KEY = "erbr-selected-pick";
 
@@ -360,7 +352,9 @@ function CommunityBuildView({
           )}
           {(build.secondaryStats?.length ?? 0) > 0 && (
             <>
-              <div className={`${build.primaryStats.length > 0 ? "mt-3" : ""} font-display text-[10px] uppercase tracking-[1.5px] text-text-dim`}>
+              <div
+                className={`${build.primaryStats.length > 0 ? "mt-3" : ""} font-display text-[10px] uppercase tracking-[1.5px] text-text-dim`}
+              >
                 Secondary Stats
               </div>
               <div className="mt-1.5 flex flex-wrap gap-2">

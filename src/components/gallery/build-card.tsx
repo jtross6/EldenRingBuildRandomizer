@@ -77,9 +77,7 @@ function GeneratedCard({
     .sort(([, a], [, b]) => b - a)
     .slice(0, 3);
 
-  const primaryWeapons = generated.build.rightHand
-    .map((ref) => armamentName(ref))
-    .slice(0, 2);
+  const primaryWeapons = generated.build.rightHand.map((ref) => armamentName(ref)).slice(0, 2);
 
   return (
     <button

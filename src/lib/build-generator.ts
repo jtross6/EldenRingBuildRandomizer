@@ -410,19 +410,18 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const scoredWeapons = scoreWeapons(weapons, profile, seedItems, damageTypes);
 
   // Fill weapons by profile
-  const { rightHand, leftHand } =
-    fillWeaponsByProfile(
-      loadoutProfile,
-      seedItems,
-      scoredWeapons,
-      profile,
-      creativity,
-      rng,
-      seedWeaponIndices,
-      seedShieldIndices,
-      seedStaffIndices,
-      seedSealIndices,
-    );
+  const { rightHand, leftHand } = fillWeaponsByProfile(
+    loadoutProfile,
+    seedItems,
+    scoredWeapons,
+    profile,
+    creativity,
+    rng,
+    seedWeaponIndices,
+    seedShieldIndices,
+    seedStaffIndices,
+    seedSealIndices,
+  );
 
   // Talismans (4)
   const scoredTalismans = scoreTalismans(talismans, seedItems);
