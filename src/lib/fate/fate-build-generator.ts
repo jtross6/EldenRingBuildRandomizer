@@ -135,6 +135,12 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       }
       break;
     }
+    case "double-shield": {
+      const shieldPicks = pickRandom(shields, rng, 2);
+      if (shieldPicks.length > 0) rightHand.push({ type: "shield", index: shieldPicks[0] });
+      if (shieldPicks.length > 1) leftHand.push({ type: "shield", index: shieldPicks[1] });
+      break;
+    }
   }
 
   if (identityAllowsMagic(card.identity) && card.school) {
@@ -173,13 +179,13 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
   const talismanIndices = pickRandom(talismans, rng, talismanCount);
 
   const ashIndices: number[] = [];
-  const equippedWeaponIndices = [...rightHand, ...leftHand]
-    .filter((ref) => ref.type === "weapon")
-    .map((ref) => ref.index);
+  const equippedArmaments = [...rightHand, ...leftHand].filter(
+    (ref) => ref.type === "weapon" || ref.type === "shield",
+  );
   const targetAffinities = card.primaryStats.flatMap((s) => AFFINITY_BY_STAT[s] ?? []);
-  for (const wIdx of equippedWeaponIndices) {
-    const w = weapons[wIdx];
-    if (!w?.allowAshOfWar) continue;
+  for (const ref of equippedArmaments) {
+    const item = ref.type === "weapon" ? weapons[ref.index] : shields[ref.index];
+    if (!item?.allowAshOfWar) continue;
     const matchingAshes = ashesOfWar
       .map((a, i) => ({ a, i }))
       .filter(({ a }) => {
