@@ -30,6 +30,7 @@ import {
 } from "./candidate-scorer";
 import { generateBuildName } from "./build-namer";
 import { selectLoadoutProfile } from "./loadout-profiles";
+import type { ArmamentRef } from "./armaments";
 
 function pickFromPool<T>(
   scored: ScoredCandidate<T>[],
@@ -111,18 +112,12 @@ function fillWeaponsByProfile(
   seedStaffIndices: Set<number>,
   seedSealIndices: Set<number>,
 ): {
-  weaponsRight: number[];
-  weaponsLeft: number[];
-  shieldIndices: number[];
-  staffIndices: number[];
-  sealIndices: number[];
+  rightHand: ArmamentRef[];
+  leftHand: ArmamentRef[];
 } {
   const excludeWeapons = new Set(seedWeaponIndices);
-  const weaponsRight: number[] = [];
-  const weaponsLeft: number[] = [];
-  const shieldIndices: number[] = [];
-  const staffIndices: number[] = [];
-  const sealIndices: number[] = [];
+  const rightHand: ArmamentRef[] = [];
+  const leftHand: ArmamentRef[] = [];
 
   const seedWeaponList = seedItems.filter((s) => s.type === "weapon");
   const primarySeedIdx = seedWeaponList[0]?.index ?? -1;
@@ -135,19 +130,19 @@ function fillWeaponsByProfile(
       const hasFth = (profile.faith ?? 0) >= 0.1;
 
       if (hasSeedStaff) {
-        staffIndices.push(seedItems.find((s) => s.type === "staff")!.index);
+        rightHand.push({ type: "staff", index: seedItems.find((s) => s.type === "staff")!.index });
       } else if (hasInt) {
         const scored = scoreStaves(staves, profile, seedItems);
         const pick = pickFromPool(scored, creativity, rng, 1, seedStaffIndices);
-        if (pick.length > 0) staffIndices.push(pick[0].index);
+        if (pick.length > 0) rightHand.push({ type: "staff", index: pick[0].index });
       }
 
       if (hasSeedSeal) {
-        sealIndices.push(seedItems.find((s) => s.type === "seal")!.index);
+        leftHand.push({ type: "seal", index: seedItems.find((s) => s.type === "seal")!.index });
       } else if (hasFth) {
         const scored = scoreSeals(seals, profile, seedItems);
         const pick = pickFromPool(scored, creativity, rng, 1, seedSealIndices);
-        if (pick.length > 0) sealIndices.push(pick[0].index);
+        if (pick.length > 0) leftHand.push({ type: "seal", index: pick[0].index });
       }
       break;
     }
@@ -155,12 +150,12 @@ function fillWeaponsByProfile(
     case "Spellblade": {
       // 1 weapon right, staff/seal in left
       if (primarySeedIdx >= 0) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       } else {
         const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
@@ -168,19 +163,19 @@ function fillWeaponsByProfile(
       const hasFth = (profile.faith ?? 0) >= 0.1;
 
       if (seedItems.some((s) => s.type === "staff")) {
-        staffIndices.push(seedItems.find((s) => s.type === "staff")!.index);
+        leftHand.push({ type: "staff", index: seedItems.find((s) => s.type === "staff")!.index });
       } else if (hasInt) {
         const scored = scoreStaves(staves, profile, seedItems);
         const pick = pickFromPool(scored, creativity, rng, 1, seedStaffIndices);
-        if (pick.length > 0) staffIndices.push(pick[0].index);
+        if (pick.length > 0) leftHand.push({ type: "staff", index: pick[0].index });
       }
 
       if (seedItems.some((s) => s.type === "seal")) {
-        sealIndices.push(seedItems.find((s) => s.type === "seal")!.index);
+        leftHand.push({ type: "seal", index: seedItems.find((s) => s.type === "seal")!.index });
       } else if (hasFth) {
         const scored = scoreSeals(seals, profile, seedItems);
         const pick = pickFromPool(scored, creativity, rng, 1, seedSealIndices);
-        if (pick.length > 0) sealIndices.push(pick[0].index);
+        if (pick.length > 0) leftHand.push({ type: "seal", index: pick[0].index });
       }
       break;
     }
@@ -188,7 +183,7 @@ function fillWeaponsByProfile(
     case "Sword & Board": {
       // 1-2 weapons right, shield in left
       if (primarySeedIdx >= 0) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       }
       const neededRight = primarySeedIdx >= 0 ? (rng.next() < 0.4 ? 1 : 0) : 1;
@@ -200,66 +195,66 @@ function fillWeaponsByProfile(
         excludeWeapons,
       );
       for (const w of additionalRight) {
-        weaponsRight.push(w.index);
+        rightHand.push({ type: "weapon", index: w.index });
         excludeWeapons.add(w.index);
       }
       // Ensure at least 1 weapon
-      if (weaponsRight.length === 0) {
+      if (rightHand.length === 0) {
         const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
       const hasSeedShield = seedItems.some((s) => s.type === "shield");
       if (hasSeedShield) {
-        shieldIndices.push(seedItems.find((s) => s.type === "shield")!.index);
+        leftHand.push({ type: "shield", index: seedItems.find((s) => s.type === "shield")!.index });
       } else {
         const scoredShields = scoreShields(shields, profile, seedItems);
         const pick = pickFromPool(scoredShields, creativity, rng, 1, seedShieldIndices);
-        if (pick.length > 0) shieldIndices.push(pick[0].index);
+        if (pick.length > 0) leftHand.push({ type: "shield", index: pick[0].index });
       }
       break;
     }
 
     case "Shield Caster": {
       if (primarySeedIdx >= 0) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       } else {
         const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
       // Shield
       const hasSeedShieldSC = seedItems.some((s) => s.type === "shield");
       if (hasSeedShieldSC) {
-        shieldIndices.push(seedItems.find((s) => s.type === "shield")!.index);
+        leftHand.push({ type: "shield", index: seedItems.find((s) => s.type === "shield")!.index });
       } else {
         const scoredShields = scoreShields(shields, profile, seedItems);
         const pick = pickFromPool(scoredShields, creativity, rng, 1, seedShieldIndices);
-        if (pick.length > 0) shieldIndices.push(pick[0].index);
+        if (pick.length > 0) leftHand.push({ type: "shield", index: pick[0].index });
       }
-      // Staff/Seal (for casting)
+      // Staff/Seal (casting tool in main hand)
       const hasIntSC = (profile.intelligence ?? 0) >= 0.1;
       const hasFthSC = (profile.faith ?? 0) >= 0.1;
 
       if (seedItems.some((s) => s.type === "staff")) {
-        staffIndices.push(seedItems.find((s) => s.type === "staff")!.index);
+        rightHand.push({ type: "staff", index: seedItems.find((s) => s.type === "staff")!.index });
       } else if (hasIntSC) {
         const scored = scoreStaves(staves, profile, seedItems);
         const pick = pickFromPool(scored, creativity, rng, 1, seedStaffIndices);
-        if (pick.length > 0) staffIndices.push(pick[0].index);
+        if (pick.length > 0) rightHand.push({ type: "staff", index: pick[0].index });
       }
 
       if (seedItems.some((s) => s.type === "seal")) {
-        sealIndices.push(seedItems.find((s) => s.type === "seal")!.index);
+        rightHand.push({ type: "seal", index: seedItems.find((s) => s.type === "seal")!.index });
       } else if (hasFthSC) {
         const scored = scoreSeals(seals, profile, seedItems);
         const pick = pickFromPool(scored, creativity, rng, 1, seedSealIndices);
-        if (pick.length > 0) sealIndices.push(pick[0].index);
+        if (pick.length > 0) rightHand.push({ type: "seal", index: pick[0].index });
       }
       break;
     }
@@ -267,12 +262,12 @@ function fillWeaponsByProfile(
     case "Two-hander": {
       // 1 weapon right, empty left
       if (primarySeedIdx >= 0) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       } else {
         const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
@@ -282,7 +277,7 @@ function fillWeaponsByProfile(
     case "Colossal Powerstance": {
       // 1 colossal weapon right, 1 colossal of same category left
       if (primarySeedIdx >= 0) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       } else {
         const colossalCandidates = scoredWeapons.filter((c) =>
@@ -292,17 +287,17 @@ function fillWeaponsByProfile(
         );
         const pick = pickFromPool(colossalCandidates, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
-      if (weaponsRight.length > 0) {
-        const category = weapons[weaponsRight[0]]?.category;
+      if (rightHand.length > 0) {
+        const category = weapons[rightHand[0].index]?.category;
         if (category) {
           const sameCatCandidates = scoredWeapons.filter((c) => c.item.category === category);
           const pick = pickFromPool(sameCatCandidates, creativity, rng, 1, excludeWeapons);
           if (pick.length > 0) {
-            weaponsLeft.push(pick[0].index);
+            leftHand.push({ type: "weapon", index: pick[0].index });
             excludeWeapons.add(pick[0].index);
           }
         }
@@ -313,22 +308,22 @@ function fillWeaponsByProfile(
     case "Powerstance": {
       // 1 weapon right, 1 weapon of SAME CATEGORY left
       if (primarySeedIdx >= 0) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       } else {
         const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
-      if (weaponsRight.length > 0) {
-        const category = weapons[weaponsRight[0]]?.category;
+      if (rightHand.length > 0) {
+        const category = weapons[rightHand[0].index]?.category;
         if (category) {
           const sameCatCandidates = scoredWeapons.filter((c) => c.item.category === category);
           const pick = pickFromPool(sameCatCandidates, creativity, rng, 1, excludeWeapons);
           if (pick.length > 0) {
-            weaponsLeft.push(pick[0].index);
+            leftHand.push({ type: "weapon", index: pick[0].index });
             excludeWeapons.add(pick[0].index);
           }
         }
@@ -339,7 +334,7 @@ function fillWeaponsByProfile(
     case "Ranged": {
       // 1 bow/crossbow right, 1 melee backup left
       if (primarySeedIdx >= 0 && RANGED_CATEGORIES.has(weapons[primarySeedIdx]?.category)) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       } else {
         // Pick a ranged weapon
@@ -348,7 +343,7 @@ function fillWeaponsByProfile(
         );
         const pick = pickFromPool(rangedCandidates, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
@@ -356,7 +351,7 @@ function fillWeaponsByProfile(
       const meleeCandidates = scoredWeapons.filter((c) => !RANGED_CATEGORIES.has(c.item.category));
       const meleePick = pickFromPool(meleeCandidates, creativity, rng, 1, excludeWeapons);
       if (meleePick.length > 0) {
-        weaponsLeft.push(meleePick[0].index);
+        leftHand.push({ type: "weapon", index: meleePick[0].index });
         excludeWeapons.add(meleePick[0].index);
       }
       break;
@@ -366,25 +361,25 @@ function fillWeaponsByProfile(
     default: {
       // 1 weapon right, 1 different weapon left
       if (primarySeedIdx >= 0) {
-        weaponsRight.push(primarySeedIdx);
+        rightHand.push({ type: "weapon", index: primarySeedIdx });
         excludeWeapons.add(primarySeedIdx);
       } else {
         const pick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
         if (pick.length > 0) {
-          weaponsRight.push(pick[0].index);
+          rightHand.push({ type: "weapon", index: pick[0].index });
           excludeWeapons.add(pick[0].index);
         }
       }
       const leftPick = pickFromPool(scoredWeapons, creativity, rng, 1, excludeWeapons);
       if (leftPick.length > 0) {
-        weaponsLeft.push(leftPick[0].index);
+        leftHand.push({ type: "weapon", index: leftPick[0].index });
         excludeWeapons.add(leftPick[0].index);
       }
       break;
     }
   }
 
-  return { weaponsRight, weaponsLeft, shieldIndices, staffIndices, sealIndices };
+  return { rightHand, leftHand };
 }
 
 export function generateBuild(input: GeneratorInput): GeneratedBuild {
@@ -415,7 +410,7 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const scoredWeapons = scoreWeapons(weapons, profile, seedItems, damageTypes);
 
   // Fill weapons by profile
-  const { weaponsRight, weaponsLeft, shieldIndices, staffIndices, sealIndices } =
+  const { rightHand, leftHand } =
     fillWeaponsByProfile(
       loadoutProfile,
       seedItems,
@@ -443,10 +438,13 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   const talismanIndices = [...talismanSeeds, ...additionalTalismans.map((t) => t.index)];
 
   // Ashes of War (scaled to weapon count)
-  const allWeaponCategories = getWeaponCategories(seedItems, [...weaponsRight, ...weaponsLeft]);
+  const allWeaponIndices = [...rightHand, ...leftHand]
+    .filter((ref) => ref.type === "weapon")
+    .map((ref) => ref.index);
+  const allWeaponCategories = getWeaponCategories(seedItems, allWeaponIndices);
   const scoredAshes = scoreAshes(ashesOfWar, profile, seedItems, allWeaponCategories);
   const ashSeeds = seedItems.filter((s) => s.type === "ashOfWar").map((s) => s.index);
-  const ashCount = Math.max(1, weaponsRight.length + weaponsLeft.length);
+  const ashCount = Math.max(1, rightHand.length + leftHand.length);
   const neededAshes = Math.min(ashCount, 3) - ashSeeds.length;
   const additionalAshes = pickFromPool(scoredAshes, creativity, rng, neededAshes, seedAshIndices);
   const ashIndices = [...ashSeeds, ...additionalAshes.map((a) => a.index)];
@@ -482,20 +480,24 @@ export function generateBuild(input: GeneratorInput): GeneratedBuild {
   }
 
   // Armor class
-  const totalWeaponWeight = weaponsRight.reduce((sum, idx) => sum + (weapons[idx]?.weight ?? 0), 0);
-  const armorClass = determineArmorClass(profile, totalWeaponWeight / weaponsRight.length);
+  const rightWeapons = rightHand.filter((ref) => ref.type === "weapon");
+  const totalWeaponWeight = rightWeapons.reduce(
+    (sum, ref) => sum + (weapons[ref.index]?.weight ?? 0),
+    0,
+  );
+  const armorClass = determineArmorClass(
+    profile,
+    rightWeapons.length > 0 ? totalWeaponWeight / rightWeapons.length : 0,
+  );
 
   const build: Build = {
     buildName: generateBuildName(seedItems, profile, damageTypes, rng),
-    weaponsRight,
-    weaponsLeft,
+    rightHand,
+    leftHand,
     helm: -1,
     chest: -1,
     gauntlets: -1,
     legs: -1,
-    shields: shieldIndices.length > 0 ? shieldIndices : undefined,
-    staves: staffIndices.length > 0 ? staffIndices : undefined,
-    seals: sealIndices.length > 0 ? sealIndices : undefined,
     talismans: talismanIndices,
     ashesOfWar: ashIndices,
     sorceries: sorceryIndices,
