@@ -32,6 +32,7 @@ const GREAT_RUNES = [
 
 function getCombatValue(card: PlaystyleCard): string {
   if (card.stance === "ranged") return "Ranged";
+  if (card.stance === "double-shield") return "Double Shield";
   if (card.stance === "sword-board")
     return `${SUB_GROUP_LABELS_SINGULAR[card.subGroups[0]]} + Shield`;
   if (card.stance === "two-hand") return `Two-hand ${SUB_GROUP_LABELS_SINGULAR[card.subGroups[0]]}`;
@@ -47,6 +48,7 @@ function getMagicValue(school: MagicSchool): string {
 }
 
 function getWeaponNoun(card: PlaystyleCard): string {
+  if (card.stance === "double-shield") return "shields";
   if (card.stance === "dual-wield" && card.subGroups[0] !== card.subGroups[1]) {
     return `${SUB_GROUP_LABELS[card.subGroups[0]].toLowerCase()} and ${SUB_GROUP_LABELS[card.subGroups[1]].toLowerCase()}`;
   }

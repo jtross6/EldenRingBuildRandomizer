@@ -123,6 +123,8 @@ export function ConstraintsDrawer({
     const next = { ...constraints, stance };
     if (stance === "ranged") {
       next.family = "ranged";
+    } else if (stance === "double-shield") {
+      delete next.family;
     } else if (constraints.stance === "ranged" && constraints.family === "ranged") {
       delete next.family;
     }
@@ -180,15 +182,19 @@ export function ConstraintsDrawer({
             onSelect={handleStanceChange}
           />
 
-          <div className="my-4 border-t border-border-dark" />
+          {validFamilies.length > 0 && (
+            <>
+              <div className="my-4 border-t border-border-dark" />
 
-          <ChipGroup<WeaponFamily>
-            label="Weapon Family"
-            options={validFamilies.filter((f): f is WeaponFamily => ALL_FAMILIES.includes(f))}
-            selected={constraints.family}
-            labels={FAMILY_LABELS}
-            onSelect={(family) => onChange({ ...constraints, family })}
-          />
+              <ChipGroup<WeaponFamily>
+                label="Weapon Family"
+                options={validFamilies.filter((f): f is WeaponFamily => ALL_FAMILIES.includes(f))}
+                selected={constraints.family}
+                labels={FAMILY_LABELS}
+                onSelect={(family) => onChange({ ...constraints, family })}
+              />
+            </>
+          )}
 
           {validSchools.length > 0 && (
             <ChipGroup<MagicSchool>
