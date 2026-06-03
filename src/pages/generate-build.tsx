@@ -2,15 +2,12 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "@tanstack/react-router";
 import type { BuildPick, GeneratedPick, CommunityPick } from "../types/picks";
 import {
-  weapons,
-  shields,
-  staves,
-  seals,
   talismans,
   ashesOfWar,
   sorceries,
   incantations,
 } from "../data";
+import { armamentName } from "../lib/armaments";
 import { BuildIdentity } from "../components/equipment/build-identity";
 import { EquipmentSection } from "../components/equipment/equipment-section";
 import { ItemSlot } from "../components/equipment/item-slot";
@@ -80,97 +77,48 @@ function GeneratedBuildView({
 
       <EquipmentSection title="Armament">
         <div className="grid grid-cols-2 gap-2">
-          {build.weaponsRight.map((idx, i) => (
-            <ItemSlot
-              key={`r${i}`}
-              itemName={weapons[idx]?.name ?? "Unknown"}
-              slotLabel={`Right Hand ${i + 1}`}
-              slotId={`gen-right-${i}`}
-              category="weapon"
-              variant="standard"
-              onClick={() => onSelectItem(weapons[idx]?.name ?? "Unknown", "weapon")}
-            />
-          ))}
-          {build.weaponsLeft.map((idx, i) => (
-            <ItemSlot
-              key={`l${i}`}
-              itemName={weapons[idx]?.name ?? "Unknown"}
-              slotLabel={`Left Hand ${i + 1}`}
-              slotId={`gen-left-${i}`}
-              category="weapon"
-              variant="standard"
-              onClick={() => onSelectItem(weapons[idx]?.name ?? "Unknown", "weapon")}
-            />
-          ))}
+          <div className="space-y-2">
+            {Array.from({ length: 3 }, (_, i) => {
+              const ref = build.rightHand[i];
+              const name = ref ? armamentName(ref) : "Empty";
+              return (
+                <ItemSlot
+                  key={`gen-right-${i}`}
+                  itemName={name}
+                  slotLabel={`Right Hand ${i + 1}`}
+                  slotId={`gen-right-${i}`}
+                  category={ref?.type ?? "weapon"}
+                  variant="standard"
+                  isEmpty={!ref}
+                  onClick={ref ? () => onSelectItem(name, ref.type) : undefined}
+                />
+              );
+            })}
+          </div>
+          <div className="space-y-2">
+            {Array.from({ length: 3 }, (_, i) => {
+              const ref = build.leftHand[i];
+              const name = ref ? armamentName(ref) : "Empty";
+              return (
+                <ItemSlot
+                  key={`gen-left-${i}`}
+                  itemName={name}
+                  slotLabel={`Left Hand ${i + 1}`}
+                  slotId={`gen-left-${i}`}
+                  category={ref?.type ?? "weapon"}
+                  variant="standard"
+                  isEmpty={!ref}
+                  onClick={ref ? () => onSelectItem(name, ref.type) : undefined}
+                />
+              );
+            })}
+          </div>
         </div>
       </EquipmentSection>
 
       <EquipmentSection title="Armor">
         <ArmorClassBadge armorClass={generated.armorClass} />
       </EquipmentSection>
-
-      {(build.shields?.length ?? 0) > 0 && (
-        <EquipmentSection title="Shields">
-          <div className="grid gap-2">
-            {build.shields!.map((idx, i) => {
-              const name = shields[idx]?.name ?? "Unknown";
-              return (
-                <ItemSlot
-                  key={`gen-shield-${i}`}
-                  itemName={name}
-                  slotLabel="Shield"
-                  slotId={`gen-shield-${i}`}
-                  category="shield"
-                  variant="standard"
-                  onClick={() => onSelectItem(name, "shield")}
-                />
-              );
-            })}
-          </div>
-        </EquipmentSection>
-      )}
-
-      {(build.staves?.length ?? 0) > 0 && (
-        <EquipmentSection title="Staves">
-          <div className="grid gap-2">
-            {build.staves!.map((idx, i) => {
-              const name = staves[idx]?.name ?? "Unknown";
-              return (
-                <ItemSlot
-                  key={`gen-staff-${i}`}
-                  itemName={name}
-                  slotLabel="Staff"
-                  slotId={`gen-staff-${i}`}
-                  category="staff"
-                  variant="standard"
-                  onClick={() => onSelectItem(name, "staff")}
-                />
-              );
-            })}
-          </div>
-        </EquipmentSection>
-      )}
-
-      {(build.seals?.length ?? 0) > 0 && (
-        <EquipmentSection title="Seals">
-          <div className="grid gap-2">
-            {build.seals!.map((idx, i) => {
-              const name = seals[idx]?.name ?? "Unknown";
-              return (
-                <ItemSlot
-                  key={`gen-seal-${i}`}
-                  itemName={name}
-                  slotLabel="Seal"
-                  slotId={`gen-seal-${i}`}
-                  category="seal"
-                  variant="standard"
-                  onClick={() => onSelectItem(name, "seal")}
-                />
-              );
-            })}
-          </div>
-        </EquipmentSection>
-      )}
 
       {build.talismans.length > 0 && (
         <EquipmentSection title="Talismans">
@@ -271,73 +219,44 @@ function CommunityBuildView({
         <p className="mt-2 text-[12px] leading-relaxed text-text-secondary">{build.strategy}</p>
       </div>
 
-      {resolved.armament.length > 0 && (
-        <EquipmentSection title="Armament">
-          <div className="grid grid-cols-2 gap-2">
-            {resolved.armament.map((item, i) => (
-              <ItemSlot
-                key={`comm-weapon-${i}`}
-                itemName={item.name}
-                slotId={`comm-weapon-${i}`}
-                category="weapon"
-                variant="standard"
-                onClick={() => onSelectItem(item.name, "weapon")}
-              />
-            ))}
+      <EquipmentSection title="Armament">
+        <div className="grid grid-cols-2 gap-2">
+          <div className="space-y-2">
+            {Array.from({ length: 3 }, (_, i) => {
+              const item = resolved.rightHand[i];
+              return (
+                <ItemSlot
+                  key={`comm-right-${i}`}
+                  itemName={item?.name ?? "Empty"}
+                  slotLabel={`Right Hand ${i + 1}`}
+                  slotId={`comm-right-${i}`}
+                  category={item?.category ?? "weapon"}
+                  variant="standard"
+                  isEmpty={!item}
+                  onClick={item ? () => onSelectItem(item.name, item.category) : undefined}
+                />
+              );
+            })}
           </div>
-        </EquipmentSection>
-      )}
-
-      {resolved.shield && (
-        <EquipmentSection title="Shields">
-          <div className="grid gap-2">
-            <ItemSlot
-              itemName={resolved.shield.name}
-              slotLabel="Shield"
-              slotId="comm-shield-0"
-              category="shield"
-              variant="standard"
-              onClick={() => onSelectItem(resolved.shield!.name, "shield")}
-            />
+          <div className="space-y-2">
+            {Array.from({ length: 3 }, (_, i) => {
+              const item = resolved.leftHand[i];
+              return (
+                <ItemSlot
+                  key={`comm-left-${i}`}
+                  itemName={item?.name ?? "Empty"}
+                  slotLabel={`Left Hand ${i + 1}`}
+                  slotId={`comm-left-${i}`}
+                  category={item?.category ?? "weapon"}
+                  variant="standard"
+                  isEmpty={!item}
+                  onClick={item ? () => onSelectItem(item.name, item.category) : undefined}
+                />
+              );
+            })}
           </div>
-        </EquipmentSection>
-      )}
-
-      {resolved.staves.length > 0 && (
-        <EquipmentSection title="Staves">
-          <div className="grid gap-2">
-            {resolved.staves.map((item, i) => (
-              <ItemSlot
-                key={`comm-staff-${i}`}
-                itemName={item.name}
-                slotLabel="Staff"
-                slotId={`comm-staff-${i}`}
-                category="staff"
-                variant="standard"
-                onClick={() => onSelectItem(item.name, "staff")}
-              />
-            ))}
-          </div>
-        </EquipmentSection>
-      )}
-
-      {resolved.seals.length > 0 && (
-        <EquipmentSection title="Seals">
-          <div className="grid gap-2">
-            {resolved.seals.map((item, i) => (
-              <ItemSlot
-                key={`comm-seal-${i}`}
-                itemName={item.name}
-                slotLabel="Seal"
-                slotId={`comm-seal-${i}`}
-                category="seal"
-                variant="standard"
-                onClick={() => onSelectItem(item.name, "seal")}
-              />
-            ))}
-          </div>
-        </EquipmentSection>
-      )}
+        </div>
+      </EquipmentSection>
 
       {resolved.armor.some((a) => a !== null) && (
         <EquipmentSection title="Armor">
