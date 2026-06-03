@@ -88,6 +88,7 @@ const STANCE_LABELS: Record<WeaponStance, string> = {
   "dual-wield": "Dual Wield",
   "sword-board": "Sword & Board",
   ranged: "Ranged",
+  "double-shield": "Double Shield",
 };
 
 export function ConstraintsDrawer({

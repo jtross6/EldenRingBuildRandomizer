@@ -81,6 +81,9 @@ function getTacticalSummary(card: PlaystyleCard): string {
     case "ranged":
       weaponPart = `Strike from range, close to melee only when cornered`;
       break;
+    case "double-shield":
+      weaponPart = `Turtle behind two shields, punishing every opening`;
+      break;
   }
 
   if (card.school && card.identity !== "warrior") {

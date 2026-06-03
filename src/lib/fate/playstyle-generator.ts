@@ -12,7 +12,6 @@ import type {
 } from "../../types/fate";
 import { createRng, type SeededRng } from "../seeded-rng";
 import {
-  ALL_STANCES,
   ALL_STATUS_EFFECTS,
   IDENTITY_STATS,
   FAMILY_SUB_GROUPS,
@@ -46,6 +45,14 @@ function resolveMagicLevel(
 
 const DERIVED_SEED_XOR = 0x44455249;
 
+const STANCE_WEIGHTS: Record<WeaponStance, number> = {
+  "two-hand": 30,
+  "dual-wield": 30,
+  "sword-board": 30,
+  ranged: 8,
+  "double-shield": 1,
+};
+
 function pickSubGroups(
   family: WeaponFamily,
   stance: WeaponStance,
@@ -72,7 +79,7 @@ function pickSubGroups(
 export function deriveDynamicFields(
   identity: CombatIdentity,
   stance: WeaponStance,
-  family: WeaponFamily,
+  family: WeaponFamily | null,
   school: MagicSchool | null,
   statusEffect: StatusEffect | null,
   seed: number,
@@ -87,8 +94,9 @@ export function deriveDynamicFields(
 
   const statOptions = IDENTITY_STATS[identity];
   const primaryStats = statOptions[rng.randomInt(statOptions.length)];
-  const subGroups = pickSubGroups(family, stance, rng);
-  const name = generateFateName(identity, stance, subGroups[0], school, statusEffect, rng);
+  const subGroups = family ? pickSubGroups(family, stance, rng) : [];
+  const primarySubGroup: WeaponSubGroup | null = subGroups.length > 0 ? subGroups[0] : null;
+  const name = generateFateName(identity, stance, primarySubGroup, school, statusEffect, rng);
   const flavor = generateFlavorText(
     identity,
     stance,
@@ -96,9 +104,9 @@ export function deriveDynamicFields(
     school,
     statusEffect,
     rng,
-    subGroups[0],
+    primarySubGroup,
   );
-  const flavorIdentity = resolveFlavorIdentity(subGroups[0], stance, identity, school);
+  const flavorIdentity = resolveFlavorIdentity(primarySubGroup, stance, identity, school);
 
   return { primaryStats, subGroups, name, flavor, flavorIdentity };
 }
@@ -110,17 +118,23 @@ export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number
   const validIdentities = deriveIdentity(constraints.magic, constraints.school);
   const identity: CombatIdentity = pick(validIdentities, rng);
 
-  // 2. Resolve weapon stance
-  const validStancesFromFamily = getValidStances(constraints.family);
-  const stancePool = constraints.stance
-    ? [constraints.stance]
-    : validStancesFromFamily.filter((s) => ALL_STANCES.includes(s));
-  const stance: WeaponStance = pick(stancePool, rng);
+  // 2. Resolve weapon stance (weighted)
+  let stance: WeaponStance;
+  if (constraints.stance) {
+    stance = constraints.stance;
+  } else {
+    const validStances = getValidStances(constraints.family);
+    const weights = validStances.map((s) => STANCE_WEIGHTS[s]);
+    stance = rng.weightedPick(validStances, weights);
+  }
 
-  // 3. Resolve weapon family
-  const validFamiliesFromStance = getValidFamilies(stance);
-  const familyPool = constraints.family ? [constraints.family] : validFamiliesFromStance;
-  const family: WeaponFamily = pick(familyPool, rng);
+  // 3. Resolve weapon family (null for double-shield)
+  let family: WeaponFamily | null = null;
+  if (stance !== "double-shield") {
+    const validFamiliesFromStance = getValidFamilies(stance);
+    const familyPool = constraints.family ? [constraints.family] : validFamiliesFromStance;
+    family = pick(familyPool, rng);
+  }
 
   // 4. Resolve magic level and school
   const magicLevel = resolveMagicLevel(constraints.magic, identity, rng);
