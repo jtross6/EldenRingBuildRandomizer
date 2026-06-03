@@ -119,6 +119,13 @@ const WEAPON_FRAGMENTS: Record<WeaponFamily, string[]> = {
   ],
 };
 
+const SHIELD_FRAGMENTS: string[] = [
+  "Two shields — offense is for the reckless.",
+  "Why dodge when you can simply deny?",
+  "An impenetrable wall of steel and faith.",
+  "Let them strike. Let them tire. Then walk through them.",
+];
+
 const MAGIC_FRAGMENTS: Record<MagicSchool, string[]> = {
   glintstone: [
     "Glintstone projectiles arc and shatter on impact.",
@@ -187,13 +194,13 @@ function pickFrom(pool: string[], rng: SeededRng): string {
 export function generateFlavorText(
   identity: CombatIdentity,
   _stance: WeaponStance,
-  family: WeaponFamily,
+  family: WeaponFamily | null,
   school: MagicSchool | null,
   statusEffect: StatusEffect | null,
   rng: SeededRng,
-  primarySubGroup: WeaponSubGroup,
+  primarySubGroup: WeaponSubGroup | null,
 ): string {
-  const noun = SUB_GROUP_NOUNS[primarySubGroup];
+  const noun = primarySubGroup ? SUB_GROUP_NOUNS[primarySubGroup] : "shield";
   const statusPool = statusEffect ? STATUS_OPENERS[statusEffect] : undefined;
   let opener: string;
   if (statusPool && rng.next() < 0.4) {
@@ -201,7 +208,9 @@ export function generateFlavorText(
   } else {
     opener = resolveNoun(pickFrom(OPENERS[identity], rng), noun);
   }
-  const weaponFrag = resolveNoun(pickFrom(WEAPON_FRAGMENTS[family], rng), noun);
+  const weaponFrag = family
+    ? resolveNoun(pickFrom(WEAPON_FRAGMENTS[family], rng), noun)
+    : pickFrom(SHIELD_FRAGMENTS, rng);
 
   if (school) {
     const magicFrag = pickFrom(MAGIC_FRAGMENTS[school], rng);
