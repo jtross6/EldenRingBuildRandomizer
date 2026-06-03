@@ -44,6 +44,18 @@ export function RootLayout() {
         </nav>
       )}
       <Outlet />
+      <footer className="mt-12 text-center text-[11px] text-text-dim">
+        Made by{" "}
+        <a
+          href="https://github.com/jtross6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-text-secondary"
+        >
+          @jtross6
+        </a>{" "}
+        &middot; Data from Fextralife &middot; Elden Ring &copy; FromSoftware / Bandai Namco
+      </footer>
     </main>
   );
 }
