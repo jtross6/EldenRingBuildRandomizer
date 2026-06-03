@@ -82,7 +82,7 @@ function getTacticalSummary(card: PlaystyleCard): string {
       weaponPart = `Strike from range, close to melee only when cornered`;
       break;
     case "double-shield":
-      weaponPart = `Turtle behind two shields, punishing every opening`;
+      weaponPart = `Carry a shield in each hand — let them break against you`;
       break;
   }
 

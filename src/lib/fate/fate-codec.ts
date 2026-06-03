@@ -35,7 +35,7 @@ export function encodeFate(card: PlaystyleCard): string {
 
   bytes.push(ALL_IDENTITIES.indexOf(card.identity));
   bytes.push(ALL_STANCES.indexOf(card.stance));
-  bytes.push(card.family ? ALL_FAMILIES.indexOf(card.family) + 1 : 0);
+  bytes.push(card.family !== null ? ALL_FAMILIES.indexOf(card.family) : 0xff);
 
   const schoolIdx = card.school ? ALL_SCHOOLS.indexOf(card.school) + 1 : 0;
   bytes.push(schoolIdx);
@@ -65,7 +65,7 @@ export function decodeFate(encoded: string): PlaystyleCard | null {
     const identity = ALL_IDENTITIES[bytes[offset++]];
     const stance = ALL_STANCES[bytes[offset++]];
     const familyByte = bytes[offset++];
-    const family = familyByte > 0 ? ALL_FAMILIES[familyByte - 1] : null;
+    const family = familyByte === 0xff ? null : (ALL_FAMILIES[familyByte] ?? undefined);
 
     const schoolByte = bytes[offset++];
     const school = schoolByte > 0 ? ALL_SCHOOLS[schoolByte - 1] : null;
@@ -82,7 +82,7 @@ export function decodeFate(encoded: string): PlaystyleCard | null {
         bytes[offset + 3]) >>>
       0;
 
-    if (!identity || !stance || !armorClass) return null;
+    if (!identity || !stance || family === undefined || !armorClass) return null;
 
     const { primaryStats, subGroups, name, flavor, flavorIdentity } = deriveDynamicFields(
       identity,
