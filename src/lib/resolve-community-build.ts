@@ -22,10 +22,8 @@ export interface ResolvedItem {
 }
 
 export interface ResolvedCommunityBuild {
-  armament: ResolvedItem[];
-  staves: ResolvedItem[];
-  seals: ResolvedItem[];
-  shield: ResolvedItem | null;
+  rightHand: ResolvedItem[];
+  leftHand: ResolvedItem[];
   armor: (ResolvedItem | null)[];
   talismans: ResolvedItem[];
   ashesOfWar: ResolvedItem[];
@@ -52,40 +50,46 @@ function findByName<T extends { name: string }>(
   return arr.findIndex((item) => normalize(item.name) === norm);
 }
 
-function resolveWeapons(
-  names: string[],
-): { armament: ResolvedItem[]; staves: ResolvedItem[]; seals: ResolvedItem[] } {
-  const armament: ResolvedItem[] = [];
-  const resolvedStaves: ResolvedItem[] = [];
-  const resolvedSeals: ResolvedItem[] = [];
+function resolveArmaments(
+  weaponNames: string[],
+  shieldName: string | null | undefined,
+): { rightHand: ResolvedItem[]; leftHand: ResolvedItem[] } {
+  const rightHand: ResolvedItem[] = [];
+  const leftHand: ResolvedItem[] = [];
 
-  for (const name of names) {
+  for (const name of weaponNames) {
     const weaponIdx = findByName(weapons, name);
     if (weaponIdx >= 0) {
-      armament.push({ name: weapons[weaponIdx].name, index: weaponIdx, category: "weapon" });
+      rightHand.push({ name: weapons[weaponIdx].name, index: weaponIdx, category: "weapon" });
       continue;
     }
 
     const staffIdx = findByName(staves, name);
     if (staffIdx >= 0) {
-      resolvedStaves.push({ name: staves[staffIdx].name, index: staffIdx, category: "staff" });
+      leftHand.push({ name: staves[staffIdx].name, index: staffIdx, category: "staff" });
       continue;
     }
 
     const sealIdx = findByName(seals, name);
     if (sealIdx >= 0) {
-      resolvedSeals.push({ name: seals[sealIdx].name, index: sealIdx, category: "seal" });
+      leftHand.push({ name: seals[sealIdx].name, index: sealIdx, category: "seal" });
+      continue;
+    }
+
+    const shieldIdx = findByName(shields, name);
+    if (shieldIdx >= 0) {
+      leftHand.push({ name: shields[shieldIdx].name, index: shieldIdx, category: "shield" });
     }
   }
 
-  return { armament, staves: resolvedStaves, seals: resolvedSeals };
-}
+  if (shieldName) {
+    const idx = findByName(shields, shieldName);
+    if (idx >= 0) {
+      leftHand.push({ name: shields[idx].name, index: idx, category: "shield" });
+    }
+  }
 
-function resolveShield(name: string | null | undefined): ResolvedItem | null {
-  if (!name) return null;
-  const idx = findByName(shields, name);
-  if (idx < 0) return null;
-  return { name: shields[idx].name, index: idx, category: "shield" };
+  return { rightHand, leftHand };
 }
 
 const ARMOR_ARRAYS = [armorHead, armorBody, armorArms, armorLegs] as const;
@@ -153,16 +157,14 @@ function resolveSpells(
 }
 
 export function resolveCommunityBuild(build: CommunityBuild): ResolvedCommunityBuild {
-  const { armament, staves: resolvedStaves, seals: resolvedSeals } = resolveWeapons(build.weapons);
+  const { rightHand, leftHand } = resolveArmaments(build.weapons, build.shield);
   const { sorceries: resolvedSorceries, incantations: resolvedIncantations } = resolveSpells(
     build.spells,
   );
 
   return {
-    armament,
-    staves: resolvedStaves,
-    seals: resolvedSeals,
-    shield: resolveShield(build.shield),
+    rightHand,
+    leftHand,
     armor: resolveArmor(build.armor),
     talismans: resolveTalismans(build.talismans),
     ashesOfWar: resolveSkills(build.skills),
