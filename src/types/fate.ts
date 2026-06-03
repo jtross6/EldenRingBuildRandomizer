@@ -1,6 +1,6 @@
 export type CombatIdentity = "warrior" | "spellcaster" | "spellblade" | "skirmisher";
 
-export type WeaponStance = "two-hand" | "dual-wield" | "sword-board" | "ranged";
+export type WeaponStance = "two-hand" | "dual-wield" | "sword-board" | "ranged" | "double-shield";
 
 export type WeaponFamily =
   | "light-blades"
@@ -60,7 +60,7 @@ export type ArmorClass = "light" | "medium" | "heavy";
 export interface PlaystyleCard {
   identity: CombatIdentity;
   stance: WeaponStance;
-  family: WeaponFamily;
+  family: WeaponFamily | null;
   subGroups: WeaponSubGroup[];
   school: MagicSchool | null;
   statusEffect: StatusEffect | null;
