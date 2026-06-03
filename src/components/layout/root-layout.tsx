@@ -18,10 +18,12 @@ export function RootLayout() {
           </Link>
           <span className="text-text-dim">/</span>
           <Link
-            to="/random"
-            className="font-display text-[11px] font-semibold uppercase tracking-[2px] text-text-dim transition-colors hover:text-gold-light [&.active]:text-gold-light"
+            to="/fate"
+            className={`font-display text-[11px] font-semibold uppercase tracking-[2px] transition-colors hover:text-gold-light ${
+              isFate ? "text-gold-light" : "text-text-dim"
+            }`}
           >
-            Chaos Forge
+            Path of Fate
           </Link>
           <span className="text-text-dim">/</span>
           <Link
@@ -34,12 +36,10 @@ export function RootLayout() {
           </Link>
           <span className="text-text-dim">/</span>
           <Link
-            to="/fate"
-            className={`font-display text-[11px] font-semibold uppercase tracking-[2px] transition-colors hover:text-gold-light ${
-              isFate ? "text-gold-light" : "text-text-dim"
-            }`}
+            to="/random"
+            className="font-display text-[11px] font-semibold uppercase tracking-[2px] text-text-dim transition-colors hover:text-gold-light [&.active]:text-gold-light"
           >
-            Path of Fate
+            Chaos Forge
           </Link>
         </nav>
       )}
