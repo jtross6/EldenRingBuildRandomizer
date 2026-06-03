@@ -8,6 +8,7 @@ interface ItemSlotProps {
   slotId?: string;
   category: ItemCategory;
   variant: "standard" | "compact" | "talisman";
+  isEmpty?: boolean;
   onClick?: () => void;
 }
 
@@ -78,9 +79,10 @@ function SlotImage({
   );
 }
 
-export function ItemSlot({ itemName, slotLabel, category, variant, onClick }: ItemSlotProps) {
+export function ItemSlot({ itemName, slotLabel, category, variant, isEmpty, onClick }: ItemSlotProps) {
   const interactive = !!onClick;
   const interactiveClasses = interactive ? "cursor-pointer active:scale-[0.98]" : "";
+  const emptyClasses = isEmpty ? "opacity-30" : "";
 
   function handleKeyDown(e: React.KeyboardEvent) {
     if (onClick && (e.key === "Enter" || e.key === " ")) {
@@ -101,7 +103,7 @@ export function ItemSlot({ itemName, slotLabel, category, variant, onClick }: It
   if (variant === "talisman") {
     return (
       <div
-        className={`flex flex-col items-center gap-1.5 rounded-lg border border-border-dark bg-bg-card p-3 pb-2.5 text-center transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses}`}
+        className={`flex flex-col items-center gap-1.5 rounded-lg border border-border-dark bg-bg-card p-3 pb-2.5 text-center transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses} ${emptyClasses}`}
         {...a11yProps}
       >
         <SlotImage itemName={itemName} category={category} size={40} />
@@ -115,7 +117,7 @@ export function ItemSlot({ itemName, slotLabel, category, variant, onClick }: It
   if (variant === "compact") {
     return (
       <div
-        className={`flex items-center gap-2 rounded-lg border border-border-dark bg-bg-card px-2.5 py-2 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses}`}
+        className={`flex items-center gap-2 rounded-lg border border-border-dark bg-bg-card px-2.5 py-2 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses} ${emptyClasses}`}
         {...a11yProps}
       >
         <SlotImage itemName={itemName} category={category} size={32} />
@@ -128,7 +130,7 @@ export function ItemSlot({ itemName, slotLabel, category, variant, onClick }: It
 
   return (
     <div
-      className={`group relative flex items-center gap-3 overflow-hidden rounded-lg border border-border-dark bg-bg-card px-3 py-2.5 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses}`}
+      className={`group relative flex items-center gap-3 overflow-hidden rounded-lg border border-border-dark bg-bg-card px-3 py-2.5 transition-colors hover:border-gold-dim/30 hover:bg-bg-card-hover ${interactiveClasses} ${emptyClasses}`}
       {...a11yProps}
     >
       <div className="absolute bottom-0 left-0 top-0 w-[3px] bg-gold-dim opacity-0 transition-opacity group-hover:opacity-100" />

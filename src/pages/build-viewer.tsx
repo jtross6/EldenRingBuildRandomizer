@@ -4,10 +4,6 @@ import { randomRoute } from "../router";
 import { decodeBuild, encodeBuild } from "../lib/build-codec";
 import { generateRandomBuild } from "../lib/randomizer";
 import {
-  weapons,
-  shields,
-  staves,
-  seals,
   armorHead,
   armorBody,
   armorArms,
@@ -17,6 +13,7 @@ import {
   sorceries,
   incantations,
 } from "../data";
+import { armamentName, type ArmamentRef } from "../lib/armaments";
 import { BuildIdentity } from "../components/equipment/build-identity";
 import { EquipmentSection } from "../components/equipment/equipment-section";
 import { ItemSlot } from "../components/equipment/item-slot";
@@ -88,16 +85,23 @@ export function BuildViewerPage() {
     }
   }
 
-  const weaponSlotsR = build.weaponsRight.map((idx, i) => ({
-    name: weapons[idx]?.name ?? "Unknown",
-    label: `Right Hand ${i + 1}`,
-    slotId: `right-${i}`,
-  }));
-  const weaponSlotsL = build.weaponsLeft.map((idx, i) => ({
-    name: weapons[idx]?.name ?? "Unknown",
-    label: `Left Hand ${i + 1}`,
-    slotId: `left-${i}`,
-  }));
+  const HAND_SLOTS = 3;
+
+  function handSlotItems(refs: ArmamentRef[], side: "Right" | "Left") {
+    return Array.from({ length: HAND_SLOTS }, (_, i) => {
+      const ref = refs[i];
+      return {
+        ref,
+        name: ref ? armamentName(ref) : undefined,
+        label: `${side} Hand ${i + 1}`,
+        slotId: `${side.toLowerCase()}-${i}`,
+        category: ref?.type ?? ("weapon" as const),
+      };
+    });
+  }
+
+  const rightSlots = handSlotItems(build.rightHand, "Right");
+  const leftSlots = handSlotItems(build.leftHand, "Left");
 
   const armorPieces = [
     { name: armorHead[build.helm]?.name ?? "Unknown", label: "Helm", slotId: "helm" },
@@ -122,28 +126,34 @@ export function BuildViewerPage() {
 
         <EquipmentSection title="Armament">
           <div className="grid grid-cols-2 gap-2">
-            {weaponSlotsR.map((w) => (
-              <ItemSlot
-                key={w.slotId}
-                itemName={w.name}
-                slotLabel={w.label}
-                slotId={w.slotId}
-                category="weapon"
-                variant="standard"
-                onClick={() => selectItem(w.name, "weapon")}
-              />
-            ))}
-            {weaponSlotsL.map((w) => (
-              <ItemSlot
-                key={w.slotId}
-                itemName={w.name}
-                slotLabel={w.label}
-                slotId={w.slotId}
-                category="weapon"
-                variant="standard"
-                onClick={() => selectItem(w.name, "weapon")}
-              />
-            ))}
+            <div className="space-y-2">
+              {rightSlots.map((s) => (
+                <ItemSlot
+                  key={s.slotId}
+                  itemName={s.name ?? "Empty"}
+                  slotLabel={s.label}
+                  slotId={s.slotId}
+                  category={s.category}
+                  variant="standard"
+                  isEmpty={!s.ref}
+                  onClick={s.ref ? () => selectItem(s.name!, s.category) : undefined}
+                />
+              ))}
+            </div>
+            <div className="space-y-2">
+              {leftSlots.map((s) => (
+                <ItemSlot
+                  key={s.slotId}
+                  itemName={s.name ?? "Empty"}
+                  slotLabel={s.label}
+                  slotId={s.slotId}
+                  category={s.category}
+                  variant="standard"
+                  isEmpty={!s.ref}
+                  onClick={s.ref ? () => selectItem(s.name!, s.category) : undefined}
+                />
+              ))}
+            </div>
           </div>
         </EquipmentSection>
 
@@ -164,69 +174,6 @@ export function BuildViewerPage() {
             </div>
           </EquipmentSection>
         </div>
-
-        {(build.shields?.length ?? 0) > 0 && (
-          <EquipmentSection title="Shields">
-            <div className="grid gap-2">
-              {build.shields!.map((idx, i) => {
-                const name = shields[idx]?.name ?? "Unknown";
-                return (
-                  <ItemSlot
-                    key={`shield-${i}`}
-                    itemName={name}
-                    slotLabel="Shield"
-                    slotId={`shield-${i}`}
-                    category="shield"
-                    variant="standard"
-                    onClick={() => selectItem(name, "shield")}
-                  />
-                );
-              })}
-            </div>
-          </EquipmentSection>
-        )}
-
-        {(build.staves?.length ?? 0) > 0 && (
-          <EquipmentSection title="Staves">
-            <div className="grid gap-2">
-              {build.staves!.map((idx, i) => {
-                const name = staves[idx]?.name ?? "Unknown";
-                return (
-                  <ItemSlot
-                    key={`staff-${i}`}
-                    itemName={name}
-                    slotLabel="Staff"
-                    slotId={`staff-${i}`}
-                    category="staff"
-                    variant="standard"
-                    onClick={() => selectItem(name, "staff")}
-                  />
-                );
-              })}
-            </div>
-          </EquipmentSection>
-        )}
-
-        {(build.seals?.length ?? 0) > 0 && (
-          <EquipmentSection title="Seals">
-            <div className="grid gap-2">
-              {build.seals!.map((idx, i) => {
-                const name = seals[idx]?.name ?? "Unknown";
-                return (
-                  <ItemSlot
-                    key={`seal-${i}`}
-                    itemName={name}
-                    slotLabel="Seal"
-                    slotId={`seal-${i}`}
-                    category="seal"
-                    variant="standard"
-                    onClick={() => selectItem(name, "seal")}
-                  />
-                );
-              })}
-            </div>
-          </EquipmentSection>
-        )}
 
         {talismanNames.length > 0 && (
           <EquipmentSection title="Talismans">
