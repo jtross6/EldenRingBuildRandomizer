@@ -1,5 +1,6 @@
 import type { Build } from "../../types/build";
 import type { PlaystyleCard, WeaponSubGroup } from "../../types/fate";
+import type { ArmamentRef } from "../armaments";
 import {
   weapons,
   shields,
@@ -66,11 +67,8 @@ function pickArmor(pool: typeof armorHead, rng: SeededRng): number {
 export function generateBuildFromFate(card: PlaystyleCard): Build {
   const rng = createRng(card.seed ^ 0x46415445);
 
-  const weaponsRight: number[] = [];
-  const weaponsLeft: number[] = [];
-  const shieldIndices: number[] = [];
-  const staffIndices: number[] = [];
-  const sealIndices: number[] = [];
+  const rightHand: ArmamentRef[] = [];
+  const leftHand: ArmamentRef[] = [];
   const exclude = new Set<number>();
 
   switch (card.stance) {
@@ -78,7 +76,7 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
       if (candidates.length > 0) {
         const shuffled = rng.shuffle(candidates);
-        weaponsRight.push(shuffled[0]);
+        rightHand.push({ type: "weapon", index: shuffled[0] });
         exclude.add(shuffled[0]);
       }
       break;
@@ -87,21 +85,21 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       const rightCandidates = filterWeaponsBySubGroup(card.subGroups[0]);
       if (rightCandidates.length > 0) {
         const shuffled = rng.shuffle(rightCandidates);
-        weaponsRight.push(shuffled[0]);
+        rightHand.push({ type: "weapon", index: shuffled[0] });
         exclude.add(shuffled[0]);
       }
       if (card.subGroups[0] === card.subGroups[1]) {
         const remaining = filterWeaponsBySubGroup(card.subGroups[1]).filter((i) => !exclude.has(i));
         if (remaining.length > 0) {
           const shuffled = rng.shuffle(remaining);
-          weaponsLeft.push(shuffled[0]);
+          leftHand.push({ type: "weapon", index: shuffled[0] });
           exclude.add(shuffled[0]);
         }
       } else {
         const leftCandidates = filterWeaponsBySubGroup(card.subGroups[1]);
         if (leftCandidates.length > 0) {
           const shuffled = rng.shuffle(leftCandidates);
-          weaponsLeft.push(shuffled[0]);
+          leftHand.push({ type: "weapon", index: shuffled[0] });
           exclude.add(shuffled[0]);
         }
       }
@@ -111,18 +109,18 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
       if (candidates.length > 0) {
         const shuffled = rng.shuffle(candidates);
-        weaponsRight.push(shuffled[0]);
+        rightHand.push({ type: "weapon", index: shuffled[0] });
         exclude.add(shuffled[0]);
       }
       const shieldPick = pickRandom(shields, rng, 1);
-      if (shieldPick.length > 0) shieldIndices.push(shieldPick[0]);
+      if (shieldPick.length > 0) leftHand.push({ type: "shield", index: shieldPick[0] });
       break;
     }
     case "ranged": {
       const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
       if (candidates.length > 0) {
         const shuffled = rng.shuffle(candidates);
-        weaponsRight.push(shuffled[0]);
+        rightHand.push({ type: "weapon", index: shuffled[0] });
         exclude.add(shuffled[0]);
       }
       const meleeWeapons = weapons
@@ -133,7 +131,7 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
         .map(({ i }) => i);
       if (meleeWeapons.length > 0) {
         const meleePick = rng.shuffle(meleeWeapons);
-        weaponsLeft.push(meleePick[0]);
+        leftHand.push({ type: "weapon", index: meleePick[0] });
       }
       break;
     }
@@ -145,13 +143,13 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       const pool = staves.map((_, i) => i);
       if (pool.length > 0) {
         const shuffled = rng.shuffle(pool);
-        staffIndices.push(shuffled[0]);
+        leftHand.push({ type: "staff", index: shuffled[0] });
       }
     } else {
       const pool = seals.map((_, i) => i);
       if (pool.length > 0) {
         const shuffled = rng.shuffle(pool);
-        sealIndices.push(shuffled[0]);
+        leftHand.push({ type: "seal", index: shuffled[0] });
       }
     }
   }
@@ -175,9 +173,11 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
   const talismanIndices = pickRandom(talismans, rng, talismanCount);
 
   const ashIndices: number[] = [];
-  const equippedWeapons = [...weaponsRight, ...weaponsLeft];
+  const equippedWeaponIndices = [...rightHand, ...leftHand]
+    .filter((ref) => ref.type === "weapon")
+    .map((ref) => ref.index);
   const targetAffinities = card.primaryStats.flatMap((s) => AFFINITY_BY_STAT[s] ?? []);
-  for (const wIdx of equippedWeapons) {
+  for (const wIdx of equippedWeaponIndices) {
     const w = weapons[wIdx];
     if (!w?.allowAshOfWar) continue;
     const matchingAshes = ashesOfWar
@@ -202,15 +202,12 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
 
   return {
     buildName: card.name,
-    weaponsRight,
-    weaponsLeft,
+    rightHand,
+    leftHand,
     helm,
     chest,
     gauntlets,
     legs,
-    shields: shieldIndices.length > 0 ? shieldIndices : undefined,
-    staves: staffIndices.length > 0 ? staffIndices : undefined,
-    seals: sealIndices.length > 0 ? sealIndices : undefined,
     talismans: talismanIndices,
     ashesOfWar: ashIndices,
     sorceries: sorceryIndices,
