@@ -15,6 +15,12 @@ function matches<T>(value: T, criterion: T | T[] | undefined): boolean {
 }
 
 const FLAVOR_RULES: FlavorRule[] = [
+  // --- Double shield stance ---
+  { stance: "double-shield", identity: "warrior", title: "Bulwark" },
+  { stance: "double-shield", identity: "spellblade", title: "Aegis" },
+  { stance: "double-shield", school: "golden-order", title: "Bastion of Light" },
+  { stance: "double-shield", title: "Fortress" },
+
   // --- Specific weapon combos (sub-group + stance + school/identity) ---
 
   // Straight swords + sword-board + school
@@ -176,13 +182,14 @@ const FLAVOR_RULES: FlavorRule[] = [
 ];
 
 export function resolveFlavorIdentity(
-  subGroup: WeaponSubGroup,
+  subGroup: WeaponSubGroup | null,
   stance: WeaponStance,
   identity: CombatIdentity,
   school: MagicSchool | null,
 ): string {
   for (const rule of FLAVOR_RULES) {
-    if (!matches(subGroup, rule.subGroup)) continue;
+    if (rule.subGroup !== undefined && subGroup === null) continue;
+    if (subGroup !== null && !matches(subGroup, rule.subGroup)) continue;
     if (!matches(stance, rule.stance)) continue;
     if (!matches(identity, rule.identity)) continue;
     if (rule.school !== undefined && (school === null || !matches(school, rule.school))) continue;
