@@ -209,7 +209,7 @@ export const ALL_IDENTITIES: CombatIdentity[] = [
   "spellblade",
   "skirmisher",
 ];
-export const ALL_STANCES: WeaponStance[] = ["two-hand", "dual-wield", "sword-board", "ranged"];
+export const ALL_STANCES: WeaponStance[] = ["two-hand", "dual-wield", "sword-board", "ranged", "double-shield"];
 export const ALL_FAMILIES: WeaponFamily[] = [
   "light-blades",
   "heavy-blades",
@@ -238,13 +238,15 @@ export function identityAllowsMagic(identity: CombatIdentity): boolean {
 }
 
 export function getValidFamilies(stance: WeaponStance | undefined): WeaponFamily[] {
+  if (stance === "double-shield") return [];
   if (stance === "ranged") return ["ranged"];
   return ALL_FAMILIES.filter((f) => f !== "ranged" || stance === undefined);
 }
 
-export function getValidStances(family: WeaponFamily | undefined): WeaponStance[] {
+export function getValidStances(family: WeaponFamily | null | undefined): WeaponStance[] {
   if (family === "ranged") return ["ranged"];
   if (family === "colossal") return ["two-hand", "sword-board"];
+  if (family) return ALL_STANCES.filter((s) => s !== "double-shield");
   return ALL_STANCES;
 }
 
@@ -257,7 +259,8 @@ export function getValidSchools(
   return ALL_SCHOOLS;
 }
 
-export function deriveArmorClass(identity: CombatIdentity, family: WeaponFamily): ArmorClass {
+export function deriveArmorClass(identity: CombatIdentity, family: WeaponFamily | null): ArmorClass {
+  if (family === null) return "heavy";
   if (identity === "spellcaster" && family !== "colossal") return "light";
   if (family === "colossal" || family === "axes-hammers") return "heavy";
   if (identity === "warrior" && (family === "heavy-blades" || family === "polearms"))
