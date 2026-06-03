@@ -1,13 +1,28 @@
 import type { Build } from "../types/build";
+import type { ArmamentRef, ArmamentType } from "./armaments";
 
-const CODEC_VERSION = 2;
+const CODEC_VERSION = 3;
+const HAND_SLOTS = 3;
+const EMPTY_INDEX = 255;
+
+const TYPE_TO_TAG: Record<ArmamentType, number> = {
+  weapon: 0,
+  shield: 1,
+  staff: 2,
+  seal: 3,
+};
+
+const TAG_TO_TYPE: ArmamentType[] = ["weapon", "shield", "staff", "seal"];
 
 function toBase64Url(bytes: Uint8Array): string {
   let binary = "";
   for (const byte of bytes) {
     binary += String.fromCharCode(byte);
   }
-  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  return btoa(binary)
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/, "");
 }
 
 function fromBase64Url(str: string): Uint8Array | null {
@@ -24,10 +39,44 @@ function fromBase64Url(str: string): Uint8Array | null {
   }
 }
 
+function encodeHandSlots(refs: ArmamentRef[]): number[] {
+  const parts: number[] = [];
+  for (let i = 0; i < HAND_SLOTS; i++) {
+    const ref = refs[i];
+    if (ref) {
+      const tag = TYPE_TO_TAG[ref.type];
+      parts.push(tag & 0x03);
+      parts.push(ref.index & 0xff);
+    } else {
+      parts.push(0);
+      parts.push(EMPTY_INDEX);
+    }
+  }
+  return parts;
+}
+
+function decodeHandSlots(
+  readByte: () => number,
+): ArmamentRef[] {
+  const refs: ArmamentRef[] = [];
+  for (let i = 0; i < HAND_SLOTS; i++) {
+    const hi = readByte();
+    const lo = readByte();
+    if (lo === EMPTY_INDEX) continue;
+    const tag = hi & 0x03;
+    const type = TAG_TO_TYPE[tag];
+    if (type) {
+      refs.push({ type, index: lo });
+    }
+  }
+  return refs;
+}
+
 export function encodeBuild(build: Build): string {
   const parts: number[] = [];
 
-  const flags = (build.buildName ? 0x01 : 0) | (build.buildImage ? 0x02 : 0);
+  const flags =
+    (build.buildName ? 0x01 : 0) | (build.buildImage ? 0x02 : 0);
 
   parts.push(CODEC_VERSION);
   parts.push(flags);
@@ -45,6 +94,19 @@ export function encodeBuild(build: Build): string {
     for (const b of imgBytes) parts.push(b);
   }
 
+  parts.push(...encodeHandSlots(build.rightHand));
+  parts.push(...encodeHandSlots(build.leftHand));
+
+  function writeIndex(idx: number) {
+    parts.push((idx >> 8) & 0xff);
+    parts.push(idx & 0xff);
+  }
+
+  writeIndex(build.helm);
+  writeIndex(build.chest);
+  writeIndex(build.gauntlets);
+  writeIndex(build.legs);
+
   function writeArray(arr: number[]) {
     parts.push(arr.length);
     for (const idx of arr) {
@@ -53,20 +115,6 @@ export function encodeBuild(build: Build): string {
     }
   }
 
-  function writeIndex(idx: number) {
-    parts.push((idx >> 8) & 0xff);
-    parts.push(idx & 0xff);
-  }
-
-  writeArray(build.weaponsRight);
-  writeArray(build.weaponsLeft);
-  writeIndex(build.helm);
-  writeIndex(build.chest);
-  writeIndex(build.gauntlets);
-  writeIndex(build.legs);
-  writeArray(build.shields ?? []);
-  writeArray(build.staves ?? []);
-  writeArray(build.seals ?? []);
   writeArray(build.talismans);
   writeArray(build.ashesOfWar);
   writeArray(build.sorceries);
@@ -124,15 +172,14 @@ export function decodeBuild(encoded: string): Build | null {
       buildImage = new TextDecoder().decode(imgBytes);
     }
 
-    const weaponsRight = readArray();
-    const weaponsLeft = readArray();
+    const rightHand = decodeHandSlots(readByte);
+    const leftHand = decodeHandSlots(readByte);
+
     const helm = readUint16();
     const chest = readUint16();
     const gauntlets = readUint16();
     const legs = readUint16();
-    const shields = readArray();
-    const staves = readArray();
-    const seals = readArray();
+
     const talismans = readArray();
     const ashesOfWar = readArray();
     const sorceries = readArray();
@@ -141,15 +188,12 @@ export function decodeBuild(encoded: string): Build | null {
     return {
       buildName,
       buildImage,
-      weaponsRight,
-      weaponsLeft,
+      rightHand,
+      leftHand,
       helm,
       chest,
       gauntlets,
       legs,
-      shields: shields.length > 0 ? shields : undefined,
-      staves: staves.length > 0 ? staves : undefined,
-      seals: seals.length > 0 ? seals : undefined,
       talismans,
       ashesOfWar,
       sorceries,
