@@ -1,6 +1,6 @@
 // src/components/gallery/build-card.tsx
 import type { BuildPick } from "../../types/picks";
-import { weapons } from "../../data";
+import { armamentName } from "../../lib/armaments";
 
 const STAT_LABELS: Record<string, string> = {
   strength: "STR",
@@ -77,8 +77,8 @@ function GeneratedCard({
     .sort(([, a], [, b]) => b - a)
     .slice(0, 3);
 
-  const primaryWeapons = generated.build.weaponsRight
-    .map((idx) => weapons[idx]?.name ?? "Unknown")
+  const primaryWeapons = generated.build.rightHand
+    .map((ref) => armamentName(ref))
     .slice(0, 2);
 
   return (
