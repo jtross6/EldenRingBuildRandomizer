@@ -27,6 +27,27 @@ const AFFINITY_BY_STAT: Record<string, string[]> = {
   ARC: ["Blood", "Occult"],
 };
 
+const STAT_SCALING_KEY: Record<string, string> = {
+  STR: "strength",
+  DEX: "dexterity",
+  INT: "intelligence",
+  FTH: "faith",
+  ARC: "arcane",
+};
+
+function matchesStatFocus(scaling: Record<string, number> | undefined, stats: string[]): boolean {
+  if (!scaling) return true;
+  const values = Object.values(scaling);
+  if (values.length === 0) return true;
+  const max = Math.max(...values);
+  return stats.some((s) => (scaling[STAT_SCALING_KEY[s]] ?? 0) >= max);
+}
+
+function filterByStatFocus(indices: number[], stats: string[], getScaling: (i: number) => Record<string, number> | undefined): number[] {
+  const matched = indices.filter((i) => matchesStatFocus(getScaling(i), stats));
+  return matched.length > 0 ? matched : indices;
+}
+
 function pickRandom<T>(
   arr: T[],
   rng: SeededRng,
@@ -73,7 +94,11 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
 
   switch (card.stance) {
     case "two-hand": {
-      const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      const candidates = filterByStatFocus(
+        filterWeaponsBySubGroup(card.subGroups[0]),
+        card.primaryStats,
+        (i) => weapons[i].scaling,
+      );
       if (candidates.length > 0) {
         const shuffled = rng.shuffle(candidates);
         rightHand.push({ type: "weapon", index: shuffled[0] });
@@ -82,21 +107,33 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       break;
     }
     case "dual-wield": {
-      const rightCandidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      const rightCandidates = filterByStatFocus(
+        filterWeaponsBySubGroup(card.subGroups[0]),
+        card.primaryStats,
+        (i) => weapons[i].scaling,
+      );
       if (rightCandidates.length > 0) {
         const shuffled = rng.shuffle(rightCandidates);
         rightHand.push({ type: "weapon", index: shuffled[0] });
         exclude.add(shuffled[0]);
       }
       if (card.subGroups[0] === card.subGroups[1]) {
-        const remaining = filterWeaponsBySubGroup(card.subGroups[1]).filter((i) => !exclude.has(i));
+        const remaining = filterByStatFocus(
+          filterWeaponsBySubGroup(card.subGroups[1]),
+          card.primaryStats,
+          (i) => weapons[i].scaling,
+        ).filter((i) => !exclude.has(i));
         if (remaining.length > 0) {
           const shuffled = rng.shuffle(remaining);
           leftHand.push({ type: "weapon", index: shuffled[0] });
           exclude.add(shuffled[0]);
         }
       } else {
-        const leftCandidates = filterWeaponsBySubGroup(card.subGroups[1]);
+        const leftCandidates = filterByStatFocus(
+          filterWeaponsBySubGroup(card.subGroups[1]),
+          card.primaryStats,
+          (i) => weapons[i].scaling,
+        );
         if (leftCandidates.length > 0) {
           const shuffled = rng.shuffle(leftCandidates);
           leftHand.push({ type: "weapon", index: shuffled[0] });
@@ -106,18 +143,28 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
       break;
     }
     case "sword-board": {
-      const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      const candidates = filterByStatFocus(
+        filterWeaponsBySubGroup(card.subGroups[0]),
+        card.primaryStats,
+        (i) => weapons[i].scaling,
+      );
       if (candidates.length > 0) {
         const shuffled = rng.shuffle(candidates);
         rightHand.push({ type: "weapon", index: shuffled[0] });
         exclude.add(shuffled[0]);
       }
-      const shieldPick = pickRandom(shields, rng, 1);
+      const allShields = shields.map((_, i) => i);
+      const shieldPool = filterByStatFocus(allShields, card.primaryStats, (i) => shields[i].scaling);
+      const shieldPick = rng.shuffle(shieldPool);
       if (shieldPick.length > 0) leftHand.push({ type: "shield", index: shieldPick[0] });
       break;
     }
     case "ranged": {
-      const candidates = filterWeaponsBySubGroup(card.subGroups[0]);
+      const candidates = filterByStatFocus(
+        filterWeaponsBySubGroup(card.subGroups[0]),
+        card.primaryStats,
+        (i) => weapons[i].scaling,
+      );
       if (candidates.length > 0) {
         const shuffled = rng.shuffle(candidates);
         rightHand.push({ type: "weapon", index: shuffled[0] });
@@ -129,14 +176,20 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
           ({ w }) => !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category),
         )
         .map(({ i }) => i);
-      if (meleeWeapons.length > 0) {
-        const meleePick = rng.shuffle(meleeWeapons);
+      const meleePool = filterByStatFocus(meleeWeapons, card.primaryStats, (i) => weapons[i].scaling);
+      if (meleePool.length > 0) {
+        const meleePick = rng.shuffle(meleePool);
         leftHand.push({ type: "weapon", index: meleePick[0] });
       }
       break;
     }
     case "double-shield": {
-      const shieldPicks = pickRandom(shields, rng, 2);
+      const shieldPool = filterByStatFocus(
+        shields.map((_, i) => i),
+        card.primaryStats,
+        (i) => shields[i].scaling,
+      );
+      const shieldPicks = rng.shuffle(shieldPool).slice(0, 2);
       if (shieldPicks.length > 0) rightHand.push({ type: "shield", index: shieldPicks[0] });
       if (shieldPicks.length > 1) leftHand.push({ type: "shield", index: shieldPicks[1] });
       break;

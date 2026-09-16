@@ -96,7 +96,7 @@ export function deriveDynamicFields(
   const primaryStats = statOptions[rng.randomInt(statOptions.length)];
   const subGroups = family ? pickSubGroups(family, stance, rng) : [];
   const primarySubGroup: WeaponSubGroup | null = subGroups.length > 0 ? subGroups[0] : null;
-  const name = generateFateName(identity, stance, primarySubGroup, school, statusEffect, rng);
+  const name = generateFateName(identity, stance, primarySubGroup, school, statusEffect, primaryStats, rng);
   const flavor = generateFlavorText(
     identity,
     stance,

@@ -32,6 +32,25 @@ const STATUS_ADJECTIVES: Record<string, string[]> = {
   sleep: ["Dreaming", "Twilight", "Somnolent", "Misty"],
 };
 
+const STAT_ADJECTIVES: Record<string, string[]> = {
+  STR: ["Heavy", "Iron", "Brutal", "Stone", "Mighty", "Savage"],
+  DEX: ["Swift", "Keen", "Nimble", "Agile", "Fleet", "Precise"],
+  INT: ["Arcane", "Astral", "Crystal", "Gleaming", "Eldritch", "Void"],
+  FTH: ["Sacred", "Divine", "Holy", "Radiant", "Blessed", "Hallowed"],
+  ARC: ["Occult", "Sanguine", "Eldritch", "Fell", "Shadowed", "Crimson"],
+  "STR,DEX": ["Savage", "Steel", "Relentless", "Fierce", "Battle", "War"],
+  "DEX,INT": ["Arcane", "Swift", "Mystic", "Gleaming", "Astral", "Keen"],
+  "STR,INT": ["Runic", "Iron", "Arcane", "Brutal", "Crystal", "Stone"],
+  "DEX,FTH": ["Sacred", "Swift", "Blessed", "Keen", "Holy", "Fleet"],
+  "STR,FTH": ["Sacred", "Iron", "Holy", "Mighty", "Divine", "Stone"],
+  "DEX,ARC": ["Occult", "Swift", "Fell", "Keen", "Shadowed", "Nimble"],
+};
+
+function getStatAdjectives(primaryStats: string[]): string[] {
+  const key = primaryStats.join(",");
+  return STAT_ADJECTIVES[key] ?? STAT_ADJECTIVES[primaryStats[0]] ?? ["Savage", "Iron", "Steel", "Brutal", "Stone", "Heavy"];
+}
+
 const SUB_GROUP_ROLES: Record<string, string[]> = {
   daggers: ["Shadow", "Whisper", "Stiletto", "Viper"],
   "curved-swords": ["Dancer", "Dervish", "Crescent", "Duelist"],
@@ -86,13 +105,14 @@ export function generateFateName(
   subGroup: WeaponSubGroup | null,
   school: MagicSchool | null,
   statusEffect: StatusEffect | null,
+  primaryStats: string[],
   rng: SeededRng,
 ): string {
   const adjPool = school
     ? SCHOOL_ADJECTIVES[school]
     : statusEffect
       ? (STATUS_ADJECTIVES[statusEffect] ?? ["Savage", "Iron", "Steel", "Brutal"])
-      : ["Savage", "Iron", "Steel", "Brutal", "Stone", "Heavy"];
+      : getStatAdjectives(primaryStats);
 
   const subGroupRoles = stance === "double-shield"
     ? SHIELD_ROLES
