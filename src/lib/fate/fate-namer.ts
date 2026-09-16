@@ -20,7 +20,7 @@ const SCHOOL_ADJECTIVES: Record<string, string[]> = {
   bestial: ["Feral", "Stone", "Primal", "Beastial"],
   fire: ["Blazing", "Flame", "Inferno", "Molten"],
   blood: ["Crimson", "Sanguine", "Scarlet", "Blood"],
-  "frenzied-flame": ["Frenzied", "Maddened", "Chaotic", "Fell"],
+  "frenzied-flame": ["Frenzied", "Maddened", "Chaos", "Fell"],
 };
 
 const STATUS_ADJECTIVES: Record<string, string[]> = {
@@ -95,6 +95,39 @@ const IDENTITY_ROLES: Record<string, string[]> = {
   skirmisher: ["Assassin", "Phantom", "Nightblade", "Reaver"],
 };
 
+const NOUN_FORM: Record<string, string> = {
+  Blazing: "Blaze",
+  Rotting: "Rot",
+  Frozen: "Frost",
+  Glacial: "Glacier",
+  Meteoric: "Meteor",
+  Cosmic: "Cosmos",
+  Twisted: "Torment",
+  Aberrant: "Ruin",
+  Warped: "Ruin",
+  Draconic: "Dragon",
+  Voltaic: "Volt",
+  Beastial: "Beast",
+  Molten: "Magma",
+  Venomous: "Venom",
+  Toxic: "Blight",
+  Noxious: "Bane",
+  Somnolent: "Slumber",
+  Deranged: "Madness",
+  Brutal: "Brute",
+  Mighty: "Might",
+  Savage: "Savagery",
+  Nimble: "Grace",
+  Agile: "Haste",
+  Precise: "Precision",
+  Relentless: "Fury",
+  Fierce: "Ferocity",
+};
+
+function toNounForm(adj: string): string {
+  return NOUN_FORM[adj] ?? adj.replace(/ing$/, "");
+}
+
 function pickFrom(pool: string[], rng: SeededRng): string {
   return pool[rng.randomInt(pool.length)];
 }
@@ -126,7 +159,7 @@ export function generateFateName(
     case 1:
       return `${pickFrom(adjPool, rng)} ${pickFrom(identityRoles, rng)}`;
     case 2:
-      return `${pickFrom(subGroupRoles, rng)} of ${pickFrom(adjPool, rng).replace(/ing$/, "")}`;
+      return `${pickFrom(subGroupRoles, rng)} of ${toNounForm(pickFrom(adjPool, rng))}`;
     case 3: {
       const adj = pickFrom(adjPool, rng).toLowerCase();
       const role = pickFrom(subGroupRoles, rng).toLowerCase();
