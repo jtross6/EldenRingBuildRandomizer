@@ -43,7 +43,11 @@ function matchesStatFocus(scaling: Record<string, number> | undefined, stats: st
   return stats.some((s) => (scaling[STAT_SCALING_KEY[s]] ?? 0) >= max);
 }
 
-function filterByStatFocus(indices: number[], stats: string[], getScaling: (i: number) => Record<string, number> | undefined): number[] {
+function filterByStatFocus(
+  indices: number[],
+  stats: string[],
+  getScaling: (i: number) => Record<string, number> | undefined,
+): number[] {
   const matched = indices.filter((i) => matchesStatFocus(getScaling(i), stats));
   return matched.length > 0 ? matched : indices;
 }
@@ -154,7 +158,11 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
         exclude.add(shuffled[0]);
       }
       const allShields = shields.map((_, i) => i);
-      const shieldPool = filterByStatFocus(allShields, card.primaryStats, (i) => shields[i].scaling);
+      const shieldPool = filterByStatFocus(
+        allShields,
+        card.primaryStats,
+        (i) => shields[i].scaling,
+      );
       const shieldPick = rng.shuffle(shieldPool);
       if (shieldPick.length > 0) leftHand.push({ type: "shield", index: shieldPick[0] });
       break;
@@ -176,7 +184,11 @@ export function generateBuildFromFate(card: PlaystyleCard): Build {
           ({ w }) => !["Bow", "Light Bow", "Greatbow", "Crossbow", "Ballista"].includes(w.category),
         )
         .map(({ i }) => i);
-      const meleePool = filterByStatFocus(meleeWeapons, card.primaryStats, (i) => weapons[i].scaling);
+      const meleePool = filterByStatFocus(
+        meleeWeapons,
+        card.primaryStats,
+        (i) => weapons[i].scaling,
+      );
       if (meleePool.length > 0) {
         const meleePick = rng.shuffle(meleePool);
         leftHand.push({ type: "weapon", index: meleePick[0] });

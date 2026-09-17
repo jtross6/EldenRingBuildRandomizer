@@ -146,6 +146,8 @@ const FLAVOR_RULES: FlavorRule[] = [
   { identity: "spellcaster", school: "fire", title: "Prophet" },
   { identity: "spellcaster", school: "blood", title: "Hemomancer" },
   { identity: "spellcaster", school: "frenzied-flame", title: "Madman" },
+  { identity: "spellcaster", school: "death", title: "Deathbird" },
+  { identity: "spellcaster", school: "rot", title: "Rotbringer" },
 
   // --- Sub-group fallbacks ---
 

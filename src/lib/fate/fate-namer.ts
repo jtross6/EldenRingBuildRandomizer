@@ -21,6 +21,8 @@ const SCHOOL_ADJECTIVES: Record<string, string[]> = {
   fire: ["Blazing", "Flame", "Inferno", "Molten"],
   blood: ["Crimson", "Sanguine", "Scarlet", "Blood"],
   "frenzied-flame": ["Frenzied", "Maddened", "Chaos", "Fell"],
+  death: ["Deathly", "Spectral", "Rancorous", "Grave"],
+  rot: ["Rotting", "Putrid", "Venomous", "Blighted"],
 };
 
 const STATUS_ADJECTIVES: Record<string, string[]> = {
@@ -48,7 +50,10 @@ const STAT_ADJECTIVES: Record<string, string[]> = {
 
 function getStatAdjectives(primaryStats: string[]): string[] {
   const key = primaryStats.join(",");
-  return STAT_ADJECTIVES[key] ?? STAT_ADJECTIVES[primaryStats[0]] ?? ["Savage", "Iron", "Steel", "Brutal", "Stone", "Heavy"];
+  return (
+    STAT_ADJECTIVES[key] ??
+    STAT_ADJECTIVES[primaryStats[0]] ?? ["Savage", "Iron", "Steel", "Brutal", "Stone", "Heavy"]
+  );
 }
 
 const SUB_GROUP_ROLES: Record<string, string[]> = {
@@ -147,9 +152,10 @@ export function generateFateName(
       ? (STATUS_ADJECTIVES[statusEffect] ?? ["Savage", "Iron", "Steel", "Brutal"])
       : getStatAdjectives(primaryStats);
 
-  const subGroupRoles = stance === "double-shield"
-    ? SHIELD_ROLES
-    : (SUB_GROUP_ROLES[subGroup!] ?? SUB_GROUP_ROLES["straight-swords"]);
+  const subGroupRoles =
+    stance === "double-shield"
+      ? SHIELD_ROLES
+      : (SUB_GROUP_ROLES[subGroup!] ?? SUB_GROUP_ROLES["straight-swords"]);
   const identityRoles = IDENTITY_ROLES[identity] ?? IDENTITY_ROLES.warrior;
 
   const templateIdx = rng.randomInt(4);

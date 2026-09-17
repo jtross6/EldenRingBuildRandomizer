@@ -85,6 +85,20 @@ export const FAMILY_SUB_GROUPS: Record<WeaponFamily, WeaponSubGroup[]> = {
   ranged: ["bows", "crossbows"],
 };
 
+// Relative odds of a sub-group being drawn within its family. Everything sits at
+// the default; entries here exist only to pull an outlier off its uniform share.
+// Torches are a handful of low-scaling utility items that make for a dud build,
+// so they are damped to roughly 1-in-500 cards rather than 1-in-29.
+export const DEFAULT_SUB_GROUP_WEIGHT = 20;
+
+export const SUB_GROUP_WEIGHTS: Partial<Record<WeaponSubGroup, number>> = {
+  torches: 1,
+};
+
+export function subGroupWeight(subGroup: WeaponSubGroup): number {
+  return SUB_GROUP_WEIGHTS[subGroup] ?? DEFAULT_SUB_GROUP_WEIGHT;
+}
+
 export const SUB_GROUP_LABELS: Record<WeaponSubGroup, string> = {
   daggers: "Daggers",
   "curved-swords": "Curved Swords",
@@ -153,6 +167,7 @@ export const SORCERY_SCHOOLS: MagicSchool[] = [
   "gravity",
   "night",
   "aberrant",
+  "death",
 ];
 
 export const INCANTATION_SCHOOLS: MagicSchool[] = [
@@ -164,6 +179,7 @@ export const INCANTATION_SCHOOLS: MagicSchool[] = [
   "fire",
   "blood",
   "frenzied-flame",
+  "rot",
 ];
 
 export const SCHOOL_LABELS: Record<MagicSchool, string> = {
@@ -180,6 +196,8 @@ export const SCHOOL_LABELS: Record<MagicSchool, string> = {
   fire: "Fire",
   blood: "Blood",
   "frenzied-flame": "Frenzied Flame",
+  death: "Death",
+  rot: "Rot & Poison",
 };
 
 export const STATUS_LABELS: Record<StatusEffect, string> = {
@@ -209,7 +227,13 @@ export const ALL_IDENTITIES: CombatIdentity[] = [
   "spellblade",
   "skirmisher",
 ];
-export const ALL_STANCES: WeaponStance[] = ["two-hand", "dual-wield", "sword-board", "ranged", "double-shield"];
+export const ALL_STANCES: WeaponStance[] = [
+  "two-hand",
+  "dual-wield",
+  "sword-board",
+  "ranged",
+  "double-shield",
+];
 export const ALL_FAMILIES: WeaponFamily[] = [
   "light-blades",
   "heavy-blades",
@@ -219,7 +243,25 @@ export const ALL_FAMILIES: WeaponFamily[] = [
   "agile-exotic",
   "ranged",
 ];
-export const ALL_SCHOOLS: MagicSchool[] = [...SORCERY_SCHOOLS, ...INCANTATION_SCHOOLS];
+// Order is load-bearing: the fate codec stores a school as its index here + 1.
+// New schools MUST be appended, never inserted, or existing build codes decode wrong.
+export const ALL_SCHOOLS: MagicSchool[] = [
+  "glintstone",
+  "moon-frost",
+  "gravity",
+  "night",
+  "aberrant",
+  "golden-order",
+  "blackflame",
+  "dragon",
+  "lightning",
+  "bestial",
+  "fire",
+  "blood",
+  "frenzied-flame",
+  "death",
+  "rot",
+];
 export const ALL_STATUS_EFFECTS: StatusEffect[] = [
   "bleed",
   "frost",
@@ -259,7 +301,10 @@ export function getValidSchools(
   return ALL_SCHOOLS;
 }
 
-export function deriveArmorClass(identity: CombatIdentity, family: WeaponFamily | null): ArmorClass {
+export function deriveArmorClass(
+  identity: CombatIdentity,
+  family: WeaponFamily | null,
+): ArmorClass {
   if (family === null) return "heavy";
   if (identity === "spellcaster" && family !== "colossal") return "light";
   if (family === "colossal" || family === "axes-hammers") return "heavy";

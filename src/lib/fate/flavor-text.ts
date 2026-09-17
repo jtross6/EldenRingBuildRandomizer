@@ -179,6 +179,14 @@ const MAGIC_FRAGMENTS: Record<MagicSchool, string[]> = {
     "The flame of frenzy does not distinguish friend from foe.",
     "Madness is not a price — it is a gift.",
   ],
+  death: [
+    "Those who live in death answer to you now.",
+    "Spectral rancor clings to the living. Let it feed.",
+  ],
+  rot: [
+    "The bloom of rot spreads where you tread.",
+    "Decay is patient, and it is always victorious.",
+  ],
 };
 
 const CLOSERS: string[] = [

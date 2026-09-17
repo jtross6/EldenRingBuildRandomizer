@@ -21,7 +21,9 @@ import {
   getValidStances,
   getValidSchools,
   identityAllowsMagic,
+  subGroupWeight,
 } from "./taxonomy";
+import { schoolWeight } from "./school-weights";
 import { generateFateName } from "./fate-namer";
 import { generateFlavorText } from "./flavor-text";
 import { resolveFlavorIdentity } from "./flavor-identity";
@@ -53,6 +55,10 @@ const STANCE_WEIGHTS: Record<WeaponStance, number> = {
   "double-shield": 1,
 };
 
+function pickWeightedSubGroup(pool: WeaponSubGroup[], rng: SeededRng): WeaponSubGroup {
+  return rng.weightedPick(pool, pool.map(subGroupWeight));
+}
+
 function pickSubGroups(
   family: WeaponFamily,
   stance: WeaponStance,
@@ -61,19 +67,21 @@ function pickSubGroups(
   const pool = FAMILY_SUB_GROUPS[family];
 
   if (stance !== "dual-wield" || pool.length < 2) {
-    return [pool[rng.randomInt(pool.length)]];
+    return [pickWeightedSubGroup(pool, rng)];
   }
 
   const powerstance = rng.next() < 0.6;
   if (powerstance) {
-    const sg = pool[rng.randomInt(pool.length)];
+    const sg = pickWeightedSubGroup(pool, rng);
     return [sg, sg];
   }
 
-  const first = rng.randomInt(pool.length);
-  let second = rng.randomInt(pool.length - 1);
-  if (second >= first) second++;
-  return [pool[first], pool[second]];
+  const first = pickWeightedSubGroup(pool, rng);
+  const second = pickWeightedSubGroup(
+    pool.filter((sg) => sg !== first),
+    rng,
+  );
+  return [first, second];
 }
 
 export function deriveDynamicFields(
@@ -96,7 +104,15 @@ export function deriveDynamicFields(
   const primaryStats = statOptions[rng.randomInt(statOptions.length)];
   const subGroups = family ? pickSubGroups(family, stance, rng) : [];
   const primarySubGroup: WeaponSubGroup | null = subGroups.length > 0 ? subGroups[0] : null;
-  const name = generateFateName(identity, stance, primarySubGroup, school, statusEffect, primaryStats, rng);
+  const name = generateFateName(
+    identity,
+    stance,
+    primarySubGroup,
+    school,
+    statusEffect,
+    primaryStats,
+    rng,
+  );
   const flavor = generateFlavorText(
     identity,
     stance,
@@ -145,7 +161,7 @@ export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number
     } else {
       const validSchools = getValidSchools(constraints.magic, identity);
       if (validSchools.length > 0) {
-        school = pick(validSchools, rng);
+        school = rng.weightedPick(validSchools, validSchools.map(schoolWeight));
       }
     }
   }

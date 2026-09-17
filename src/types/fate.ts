@@ -49,7 +49,9 @@ export type MagicSchool =
   | "bestial"
   | "fire"
   | "blood"
-  | "frenzied-flame";
+  | "frenzied-flame"
+  | "death"
+  | "rot";
 
 export type MagicLevel = "none" | "support" | "primary" | "any";
 
