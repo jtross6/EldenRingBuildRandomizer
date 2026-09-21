@@ -190,7 +190,7 @@ export const SCHOOL_LABELS: Record<MagicSchool, string> = {
   aberrant: "Aberrant",
   "golden-order": "Golden Order",
   blackflame: "Blackflame",
-  dragon: "Dragon",
+  dragon: "Dragon Communion",
   lightning: "Lightning",
   bestial: "Bestial",
   fire: "Fire",
@@ -209,16 +209,20 @@ export const STATUS_LABELS: Record<StatusEffect, string> = {
   sleep: "Sleep",
 };
 
+// Each casting spread pairs a weapon stat with a casting stat. FTH+ARC is the
+// exception: Dragon Communion and Blood require both, so it is the whole focus.
+// Without it neither school has a spread that can cast it at all.
 export const IDENTITY_STATS: Record<CombatIdentity, string[][]> = {
   warrior: [["STR"], ["DEX"], ["STR", "DEX"]],
-  spellcaster: [["INT"], ["FTH"], ["INT", "FTH"]],
+  spellcaster: [["INT"], ["FTH"], ["INT", "FTH"], ["FTH", "ARC"]],
   spellblade: [
     ["DEX", "INT"],
     ["STR", "INT"],
     ["DEX", "FTH"],
     ["STR", "FTH"],
+    ["FTH", "ARC"],
   ],
-  skirmisher: [["DEX", "ARC"], ["ARC"], ["DEX"]],
+  skirmisher: [["DEX", "ARC"], ["ARC"], ["DEX"], ["ARC", "FTH"]],
 };
 
 export const ALL_IDENTITIES: CombatIdentity[] = [

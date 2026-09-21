@@ -13,7 +13,6 @@ import type {
 import { createRng, type SeededRng } from "../seeded-rng";
 import {
   ALL_STATUS_EFFECTS,
-  IDENTITY_STATS,
   FAMILY_SUB_GROUPS,
   deriveArmorClass,
   deriveIdentity,
@@ -24,6 +23,7 @@ import {
   subGroupWeight,
 } from "./taxonomy";
 import { schoolWeight } from "./school-weights";
+import { schoolsForIdentity, statOptionsForSchool } from "./castability";
 import { generateFateName } from "./fate-namer";
 import { generateFlavorText } from "./flavor-text";
 import { resolveFlavorIdentity } from "./flavor-identity";
@@ -100,7 +100,7 @@ export function deriveDynamicFields(
 } {
   const rng = createRng(seed ^ DERIVED_SEED_XOR);
 
-  const statOptions = IDENTITY_STATS[identity];
+  const statOptions = statOptionsForSchool(identity, school);
   const primaryStats = statOptions[rng.randomInt(statOptions.length)];
   const subGroups = family ? pickSubGroups(family, stance, rng) : [];
   const primarySubGroup: WeaponSubGroup | null = subGroups.length > 0 ? subGroups[0] : null;
@@ -159,7 +159,10 @@ export function generatePlaystyle(constraints: PlaystyleConstraint, seed: number
     if (constraints.school) {
       school = constraints.school;
     } else {
-      const validSchools = getValidSchools(constraints.magic, identity);
+      const castable = new Set<MagicSchool>(schoolsForIdentity(identity));
+      const validSchools = getValidSchools(constraints.magic, identity).filter((s) =>
+        castable.has(s),
+      );
       if (validSchools.length > 0) {
         school = rng.weightedPick(validSchools, validSchools.map(schoolWeight));
       }

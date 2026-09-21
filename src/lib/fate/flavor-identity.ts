@@ -140,7 +140,7 @@ const FLAVOR_RULES: FlavorRule[] = [
   { identity: "spellcaster", school: "aberrant", title: "Heretic" },
   { identity: "spellcaster", school: "golden-order", title: "Oracle" },
   { identity: "spellcaster", school: "blackflame", title: "Godskin Apostle" },
-  { identity: "spellcaster", school: "dragon", title: "Dragon Priest" },
+  { identity: "spellcaster", school: "dragon", title: "Dragon Communer" },
   { identity: "spellcaster", school: "lightning", title: "Stormcaller" },
   { identity: "spellcaster", school: "bestial", title: "Beast Shaman" },
   { identity: "spellcaster", school: "fire", title: "Prophet" },

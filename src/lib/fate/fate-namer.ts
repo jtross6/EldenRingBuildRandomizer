@@ -46,6 +46,10 @@ const STAT_ADJECTIVES: Record<string, string[]> = {
   "DEX,FTH": ["Sacred", "Swift", "Blessed", "Keen", "Holy", "Fleet"],
   "STR,FTH": ["Sacred", "Iron", "Holy", "Mighty", "Divine", "Stone"],
   "DEX,ARC": ["Occult", "Swift", "Fell", "Keen", "Shadowed", "Nimble"],
+  // Faith and Arcane are both casting stats, so which one leads sets the tone:
+  // faith-first reads as a communer, arcane-first as a blood-touched skirmisher.
+  "FTH,ARC": ["Sacred", "Sanguine", "Blessed", "Fell", "Divine", "Occult"],
+  "ARC,FTH": ["Occult", "Sacred", "Fell", "Blessed", "Sanguine", "Divine"],
 };
 
 function getStatAdjectives(primaryStats: string[]): string[] {

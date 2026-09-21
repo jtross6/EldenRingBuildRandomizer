@@ -1,5 +1,6 @@
 {
   "ignorePatterns": [
-    "src/data/**/*.json"
+    "src/data/**/*.json",
+    "!src/data/spell-tags.json"
   ]
 }
